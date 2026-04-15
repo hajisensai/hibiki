@@ -557,6 +557,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get srt_import_author_hint => 'Author (optional)';
 	String get srt_import_success => 'SRT book imported';
 	String get srt_import_error => 'Import failed';
+	String get srt_no_cues => 'No subtitles found';
+	String get srt_no_audio_files => 'No audio files in selected directory';
 }
 
 // Path: retrying_in
@@ -1008,6 +1010,8 @@ extension on _StringsEn {
 			case 'srt_import_author_hint': return 'Author (optional)';
 			case 'srt_import_success': return 'SRT book imported';
 			case 'srt_import_error': return 'Import failed';
+			case 'srt_no_cues': return 'No subtitles found';
+			case 'srt_no_audio_files': return 'No audio files in selected directory';
 			default: return null;
 		}
 	}
