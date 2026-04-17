@@ -570,6 +570,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get srt_books_section => 'SRT Audiobooks';
 	String get srt_delete_title => 'Delete SRT Book';
 	String srt_delete_confirm({required Object title}) => 'Delete \u300e${title}\u300f? This cannot be undone.';
+	String get epub_delete_title => 'Delete Book';
+	String get epub_delete_error => 'Failed to delete book';
 	String get srt_epub_not_ready => 'Book not ready — please re-import';
 	String get srt_audio_unresolved => 'Audio file not found — please re-attach';
 	String get srt_audio_load_error => 'Failed to load audio';
@@ -1035,6 +1037,8 @@ extension on _StringsEn {
 			case 'srt_no_audio_files': return 'No audio files in selected directory';
 			case 'srt_books_section': return 'SRT Audiobooks';
 			case 'srt_delete_title': return 'Delete SRT Book';
+			case 'epub_delete_title': return 'Delete Book';
+			case 'epub_delete_error': return 'Failed to delete book';
 			case 'srt_epub_not_ready': return 'Book not ready — please re-import';
 			case 'srt_audio_unresolved': return 'Audio file not found — please re-attach';
 			case 'srt_audio_load_error': return 'Failed to load audio';
