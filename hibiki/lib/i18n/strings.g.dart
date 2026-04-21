@@ -255,7 +255,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get dialog_content_dictionary_delete => 'Deleting a single dictionary may take longer than clearing the entire dictionary database. This will also clear all search results in history.';
 	String get delete_dictionary_data => 'Clearing all dictionary data...';
 	String dictionary_tag({required Object name}) => 'Imported from ${name}';
-	String get legalese => 'A focused Japanese EPUB reader for Android.\n\nBased on jidoujisho, originally built by Arianne Orpilla. Logo by suzy and Aaron Marbella.\n\nhibiki is free and open source software. See the project repository for a comprehensive list of other licenses and attribution notices.';
+	String get legalese => 'A focused Japanese EPUB reader for Android.\n\nLogo by suzy and Aaron Marbella.\n\nhibiki is free and open source software. See the project repository for a comprehensive list of other licenses and attribution notices.';
 	String get same_name_dictionary_found => 'Dictionary with same name found.';
 	String import_file_extension_invalid({required Object extensions}) => 'This format expects files with the following extensions: ${extensions}';
 	String get field_label_empty => 'Empty';
@@ -741,7 +741,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get dialog_content_dictionary_delete => '单独删除词典可能比清空整个数据库耗时更长，且会清除所有历史搜索结果。';
 	@override String get delete_dictionary_data => '正在清除所有词典数据…';
 	@override String dictionary_tag({required Object name}) => '导入自 ${name}';
-	@override String get legalese => '一款专注的 Android 日语 EPUB 阅读器。\n\n基于 Arianne Orpilla 创建的 jidoujisho。Logo 由 suzy 与 Aaron Marbella 设计。\n\nhibiki 为自由开源软件。完整的许可和致谢请见项目仓库。';
+	@override String get legalese => '一款专注的 Android 日语 EPUB 阅读器。\n\nhibiki 为自由开源软件。完整的许可和致谢请见项目仓库。';
 	@override String get same_name_dictionary_found => '已存在同名词典。';
 	@override String import_file_extension_invalid({required Object extensions}) => '此格式仅接受以下扩展名的文件：${extensions}';
 	@override String get field_label_empty => '空';
@@ -1208,7 +1208,7 @@ extension on _StringsEn {
 			case 'dialog_content_dictionary_delete': return 'Deleting a single dictionary may take longer than clearing the entire dictionary database. This will also clear all search results in history.';
 			case 'delete_dictionary_data': return 'Clearing all dictionary data...';
 			case 'dictionary_tag': return ({required Object name}) => 'Imported from ${name}';
-			case 'legalese': return 'A focused Japanese EPUB reader for Android.\n\nBased on jidoujisho, originally built by Arianne Orpilla. Logo by suzy and Aaron Marbella.\n\nhibiki is free and open source software. See the project repository for a comprehensive list of other licenses and attribution notices.';
+			case 'legalese': return 'A focused Japanese EPUB reader for Android.\n\nLogo by suzy and Aaron Marbella.\n\nhibiki is free and open source software. See the project repository for a comprehensive list of other licenses and attribution notices.';
 			case 'same_name_dictionary_found': return 'Dictionary with same name found.';
 			case 'import_file_extension_invalid': return ({required Object extensions}) => 'This format expects files with the following extensions: ${extensions}';
 			case 'field_label_empty': return 'Empty';
@@ -1655,7 +1655,7 @@ extension on _StringsZhCn {
 			case 'dialog_content_dictionary_delete': return '单独删除词典可能比清空整个数据库耗时更长，且会清除所有历史搜索结果。';
 			case 'delete_dictionary_data': return '正在清除所有词典数据…';
 			case 'dictionary_tag': return ({required Object name}) => '导入自 ${name}';
-			case 'legalese': return '一款专注的 Android 日语 EPUB 阅读器。\n\n基于 Arianne Orpilla 创建的 jidoujisho。Logo 由 suzy 与 Aaron Marbella 设计。\n\nhibiki 为自由开源软件。完整的许可和致谢请见项目仓库。';
+			case 'legalese': return '一款专注的 Android 日语 EPUB 阅读器。\n\nhibiki 为自由开源软件。完整的许可和致谢请见项目仓库。';
 			case 'same_name_dictionary_found': return '已存在同名词典。';
 			case 'import_file_extension_invalid': return ({required Object extensions}) => '此格式仅接受以下扩展名的文件：${extensions}';
 			case 'field_label_empty': return '空';
