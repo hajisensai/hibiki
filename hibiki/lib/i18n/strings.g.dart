@@ -180,9 +180,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get dialog_export => 'EXPORT';
 	String get dialog_import => 'IMPORT';
 	String get dialog_import_dictionary => 'Import Dictionary';
-	String get dialog_import_folder => 'Import folder dictionary (copying may take up to 20s)';
+	String get dialog_import_folder => 'Import Folder Dictionary';
 	String get dialog_close => 'CLOSE';
 	String get dialog_clear => 'CLEAR';
+	String get dialog_clear_all_dictionaries => 'Delete All Dictionaries';
 	String get dialog_create => 'CREATE';
 	String get dialog_delete => 'DELETE';
 	String get dialog_cancel => 'CANCEL';
@@ -675,9 +676,10 @@ class _StringsZhCn implements _StringsEn {
 	@override String get dialog_export => '导出';
 	@override String get dialog_import => '导入';
 	@override String get dialog_import_dictionary => '导入词典';
-	@override String get dialog_import_folder => '导入文件夹类词典（复制较慢请耐心等待不超过20s）';
+	@override String get dialog_import_folder => '导入文件夹词典';
 	@override String get dialog_close => '关闭';
 	@override String get dialog_clear => '清除';
+	@override String get dialog_clear_all_dictionaries => '删除所有词典';
 	@override String get dialog_create => '新建';
 	@override String get dialog_delete => '删除';
 	@override String get dialog_cancel => '取消';
@@ -1151,9 +1153,10 @@ extension on _StringsEn {
 			case 'dialog_export': return 'EXPORT';
 			case 'dialog_import': return 'IMPORT';
 			case 'dialog_import_dictionary': return 'Import Dictionary';
-			case 'dialog_import_folder': return 'Import folder dictionary (copying may take up to 20s)';
+			case 'dialog_import_folder': return 'Import Folder Dictionary';
 			case 'dialog_close': return 'CLOSE';
 			case 'dialog_clear': return 'CLEAR';
+			case 'dialog_clear_all_dictionaries': return 'Delete All Dictionaries';
 			case 'dialog_create': return 'CREATE';
 			case 'dialog_delete': return 'DELETE';
 			case 'dialog_cancel': return 'CANCEL';
@@ -1607,9 +1610,10 @@ extension on _StringsZhCn {
 			case 'dialog_export': return '导出';
 			case 'dialog_import': return '导入';
 			case 'dialog_import_dictionary': return '导入词典';
-			case 'dialog_import_folder': return '导入文件夹类词典（复制较慢请耐心等待不超过20s）';
+			case 'dialog_import_folder': return '导入文件夹词典';
 			case 'dialog_close': return '关闭';
 			case 'dialog_clear': return '清除';
+			case 'dialog_clear_all_dictionaries': return '删除所有词典';
 			case 'dialog_create': return '新建';
 			case 'dialog_delete': return '删除';
 			case 'dialog_cancel': return '取消';
