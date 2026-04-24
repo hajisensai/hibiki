@@ -601,6 +601,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get update_download => 'Download';
 	String get update_skip => 'Skip';
 	String get update_check_failed => 'Update check failed';
+	String get update_downloading => 'Downloading update…';
+	String get update_installing => 'Installing…';
+	String get update_download_failed => 'Download failed';
 	String get ttu_font_size => 'Font Size';
 	String get ttu_line_height => 'Line Height';
 	String get ttu_writing_direction => 'Writing Direction';
@@ -1203,6 +1206,9 @@ class _StringsAr implements _StringsEn {
 	@override String get update_download => 'تنزيل';
 	@override String get update_skip => 'تخطي';
 	@override String get update_check_failed => 'فشل التحقق من التحديث';
+	@override String get update_downloading => 'Downloading update…';
+	@override String get update_installing => 'Installing…';
+	@override String get update_download_failed => 'Download failed';
 	@override String get ttu_font_size => 'حجم الخط';
 	@override String get ttu_line_height => 'ارتفاع السطر';
 	@override String get ttu_writing_direction => 'اتجاه الكتابة';
@@ -1805,6 +1811,9 @@ class _StringsDe implements _StringsEn {
 	@override String get update_download => 'Herunterladen';
 	@override String get update_skip => 'Überspringen';
 	@override String get update_check_failed => 'Update-Prüfung fehlgeschlagen';
+	@override String get update_downloading => 'Downloading update…';
+	@override String get update_installing => 'Installing…';
+	@override String get update_download_failed => 'Download failed';
 	@override String get ttu_font_size => 'Schriftgröße';
 	@override String get ttu_line_height => 'Zeilenhöhe';
 	@override String get ttu_writing_direction => 'Schreibrichtung';
@@ -2407,6 +2416,9 @@ class _StringsEs implements _StringsEn {
 	@override String get update_download => 'Descargar';
 	@override String get update_skip => 'Omitir';
 	@override String get update_check_failed => 'Error al buscar actualizaciones';
+	@override String get update_downloading => 'Downloading update…';
+	@override String get update_installing => 'Installing…';
+	@override String get update_download_failed => 'Download failed';
 	@override String get ttu_font_size => 'Tamaño de fuente';
 	@override String get ttu_line_height => 'Altura de línea';
 	@override String get ttu_writing_direction => 'Dirección de escritura';
@@ -3009,6 +3021,9 @@ class _StringsFr implements _StringsEn {
 	@override String get update_download => 'Télécharger';
 	@override String get update_skip => 'Ignorer';
 	@override String get update_check_failed => 'Échec de la vérification des mises à jour';
+	@override String get update_downloading => 'Downloading update…';
+	@override String get update_installing => 'Installing…';
+	@override String get update_download_failed => 'Download failed';
 	@override String get ttu_font_size => 'Taille de police';
 	@override String get ttu_line_height => 'Hauteur de ligne';
 	@override String get ttu_writing_direction => 'Direction d\'écriture';
@@ -3611,6 +3626,9 @@ class _StringsId implements _StringsEn {
 	@override String get update_download => 'Unduh';
 	@override String get update_skip => 'Lewati';
 	@override String get update_check_failed => 'Pemeriksaan pembaruan gagal';
+	@override String get update_downloading => 'Downloading update…';
+	@override String get update_installing => 'Installing…';
+	@override String get update_download_failed => 'Download failed';
 	@override String get ttu_font_size => 'Ukuran Font';
 	@override String get ttu_line_height => 'Tinggi Baris';
 	@override String get ttu_writing_direction => 'Arah Penulisan';
@@ -4213,6 +4231,9 @@ class _StringsJa implements _StringsEn {
 	@override String get update_download => 'ダウンロード';
 	@override String get update_skip => 'スキップ';
 	@override String get update_check_failed => 'アップデートの確認に失敗しました';
+	@override String get update_downloading => 'Downloading update…';
+	@override String get update_installing => 'Installing…';
+	@override String get update_download_failed => 'Download failed';
 	@override String get ttu_font_size => 'フォントサイズ';
 	@override String get ttu_line_height => '行の高さ';
 	@override String get ttu_writing_direction => '組方向';
@@ -4815,6 +4836,9 @@ class _StringsKo implements _StringsEn {
 	@override String get update_download => '다운로드';
 	@override String get update_skip => '건너뛰기';
 	@override String get update_check_failed => '업데이트 확인 실패';
+	@override String get update_downloading => 'Downloading update…';
+	@override String get update_installing => 'Installing…';
+	@override String get update_download_failed => 'Download failed';
 	@override String get ttu_font_size => '글꼴 크기';
 	@override String get ttu_line_height => '줄 높이';
 	@override String get ttu_writing_direction => '글쓰기 방향';
@@ -5417,6 +5441,9 @@ class _StringsPtBr implements _StringsEn {
 	@override String get update_download => 'Baixar';
 	@override String get update_skip => 'Pular';
 	@override String get update_check_failed => 'Falha ao verificar atualizações';
+	@override String get update_downloading => 'Downloading update…';
+	@override String get update_installing => 'Installing…';
+	@override String get update_download_failed => 'Download failed';
 	@override String get ttu_font_size => 'Tamanho da Fonte';
 	@override String get ttu_line_height => 'Altura da Linha';
 	@override String get ttu_writing_direction => 'Direção da Escrita';
@@ -6019,6 +6046,9 @@ class _StringsRu implements _StringsEn {
 	@override String get update_download => 'Скачать';
 	@override String get update_skip => 'Пропустить';
 	@override String get update_check_failed => 'Не удалось проверить обновления';
+	@override String get update_downloading => 'Downloading update…';
+	@override String get update_installing => 'Installing…';
+	@override String get update_download_failed => 'Download failed';
 	@override String get ttu_font_size => 'Размер шрифта';
 	@override String get ttu_line_height => 'Высота строки';
 	@override String get ttu_writing_direction => 'Направление письма';
@@ -6621,6 +6651,9 @@ class _StringsTh implements _StringsEn {
 	@override String get update_download => 'ดาวน์โหลด';
 	@override String get update_skip => 'ข้าม';
 	@override String get update_check_failed => 'ตรวจสอบอัปเดตล้มเหลว';
+	@override String get update_downloading => 'Downloading update…';
+	@override String get update_installing => 'Installing…';
+	@override String get update_download_failed => 'Download failed';
 	@override String get ttu_font_size => 'ขนาดฟอนต์';
 	@override String get ttu_line_height => 'ความสูงบรรทัด';
 	@override String get ttu_writing_direction => 'ทิศทางการเขียน';
@@ -7223,6 +7256,9 @@ class _StringsVi implements _StringsEn {
 	@override String get update_download => 'Tải xuống';
 	@override String get update_skip => 'Bỏ qua';
 	@override String get update_check_failed => 'Kiểm tra cập nhật thất bại';
+	@override String get update_downloading => 'Downloading update…';
+	@override String get update_installing => 'Installing…';
+	@override String get update_download_failed => 'Download failed';
 	@override String get ttu_font_size => 'Cỡ chữ';
 	@override String get ttu_line_height => 'Chiều cao dòng';
 	@override String get ttu_writing_direction => 'Hướng viết';
@@ -7825,6 +7861,9 @@ class _StringsZhCn implements _StringsEn {
 	@override String get update_download => '下载';
 	@override String get update_skip => '跳过';
 	@override String get update_check_failed => '检查更新失败';
+	@override String get update_downloading => 'Downloading update…';
+	@override String get update_installing => 'Installing…';
+	@override String get update_download_failed => 'Download failed';
 	@override String get ttu_font_size => '字体大小';
 	@override String get ttu_line_height => '行高';
 	@override String get ttu_writing_direction => '排版方向';
@@ -8427,6 +8466,9 @@ class _StringsZhHk implements _StringsEn {
 	@override String get update_download => '下載';
 	@override String get update_skip => '略過';
 	@override String get update_check_failed => '檢查更新失敗';
+	@override String get update_downloading => 'Downloading update…';
+	@override String get update_installing => 'Installing…';
+	@override String get update_download_failed => 'Download failed';
 	@override String get ttu_font_size => '字型大小';
 	@override String get ttu_line_height => '行高';
 	@override String get ttu_writing_direction => '排版方向';
@@ -9016,6 +9058,9 @@ extension on _StringsEn {
 			case 'update_download': return 'Download';
 			case 'update_skip': return 'Skip';
 			case 'update_check_failed': return 'Update check failed';
+			case 'update_downloading': return 'Downloading update…';
+			case 'update_installing': return 'Installing…';
+			case 'update_download_failed': return 'Download failed';
 			case 'ttu_font_size': return 'Font Size';
 			case 'ttu_line_height': return 'Line Height';
 			case 'ttu_writing_direction': return 'Writing Direction';
@@ -9579,6 +9624,9 @@ extension on _StringsAr {
 			case 'update_download': return 'تنزيل';
 			case 'update_skip': return 'تخطي';
 			case 'update_check_failed': return 'فشل التحقق من التحديث';
+			case 'update_downloading': return 'Downloading update…';
+			case 'update_installing': return 'Installing…';
+			case 'update_download_failed': return 'Download failed';
 			case 'ttu_font_size': return 'حجم الخط';
 			case 'ttu_line_height': return 'ارتفاع السطر';
 			case 'ttu_writing_direction': return 'اتجاه الكتابة';
@@ -10142,6 +10190,9 @@ extension on _StringsDe {
 			case 'update_download': return 'Herunterladen';
 			case 'update_skip': return 'Überspringen';
 			case 'update_check_failed': return 'Update-Prüfung fehlgeschlagen';
+			case 'update_downloading': return 'Downloading update…';
+			case 'update_installing': return 'Installing…';
+			case 'update_download_failed': return 'Download failed';
 			case 'ttu_font_size': return 'Schriftgröße';
 			case 'ttu_line_height': return 'Zeilenhöhe';
 			case 'ttu_writing_direction': return 'Schreibrichtung';
@@ -10705,6 +10756,9 @@ extension on _StringsEs {
 			case 'update_download': return 'Descargar';
 			case 'update_skip': return 'Omitir';
 			case 'update_check_failed': return 'Error al buscar actualizaciones';
+			case 'update_downloading': return 'Downloading update…';
+			case 'update_installing': return 'Installing…';
+			case 'update_download_failed': return 'Download failed';
 			case 'ttu_font_size': return 'Tamaño de fuente';
 			case 'ttu_line_height': return 'Altura de línea';
 			case 'ttu_writing_direction': return 'Dirección de escritura';
@@ -11268,6 +11322,9 @@ extension on _StringsFr {
 			case 'update_download': return 'Télécharger';
 			case 'update_skip': return 'Ignorer';
 			case 'update_check_failed': return 'Échec de la vérification des mises à jour';
+			case 'update_downloading': return 'Downloading update…';
+			case 'update_installing': return 'Installing…';
+			case 'update_download_failed': return 'Download failed';
 			case 'ttu_font_size': return 'Taille de police';
 			case 'ttu_line_height': return 'Hauteur de ligne';
 			case 'ttu_writing_direction': return 'Direction d\'écriture';
@@ -11831,6 +11888,9 @@ extension on _StringsId {
 			case 'update_download': return 'Unduh';
 			case 'update_skip': return 'Lewati';
 			case 'update_check_failed': return 'Pemeriksaan pembaruan gagal';
+			case 'update_downloading': return 'Downloading update…';
+			case 'update_installing': return 'Installing…';
+			case 'update_download_failed': return 'Download failed';
 			case 'ttu_font_size': return 'Ukuran Font';
 			case 'ttu_line_height': return 'Tinggi Baris';
 			case 'ttu_writing_direction': return 'Arah Penulisan';
@@ -12394,6 +12454,9 @@ extension on _StringsJa {
 			case 'update_download': return 'ダウンロード';
 			case 'update_skip': return 'スキップ';
 			case 'update_check_failed': return 'アップデートの確認に失敗しました';
+			case 'update_downloading': return 'Downloading update…';
+			case 'update_installing': return 'Installing…';
+			case 'update_download_failed': return 'Download failed';
 			case 'ttu_font_size': return 'フォントサイズ';
 			case 'ttu_line_height': return '行の高さ';
 			case 'ttu_writing_direction': return '組方向';
@@ -12957,6 +13020,9 @@ extension on _StringsKo {
 			case 'update_download': return '다운로드';
 			case 'update_skip': return '건너뛰기';
 			case 'update_check_failed': return '업데이트 확인 실패';
+			case 'update_downloading': return 'Downloading update…';
+			case 'update_installing': return 'Installing…';
+			case 'update_download_failed': return 'Download failed';
 			case 'ttu_font_size': return '글꼴 크기';
 			case 'ttu_line_height': return '줄 높이';
 			case 'ttu_writing_direction': return '글쓰기 방향';
@@ -13520,6 +13586,9 @@ extension on _StringsPtBr {
 			case 'update_download': return 'Baixar';
 			case 'update_skip': return 'Pular';
 			case 'update_check_failed': return 'Falha ao verificar atualizações';
+			case 'update_downloading': return 'Downloading update…';
+			case 'update_installing': return 'Installing…';
+			case 'update_download_failed': return 'Download failed';
 			case 'ttu_font_size': return 'Tamanho da Fonte';
 			case 'ttu_line_height': return 'Altura da Linha';
 			case 'ttu_writing_direction': return 'Direção da Escrita';
@@ -14083,6 +14152,9 @@ extension on _StringsRu {
 			case 'update_download': return 'Скачать';
 			case 'update_skip': return 'Пропустить';
 			case 'update_check_failed': return 'Не удалось проверить обновления';
+			case 'update_downloading': return 'Downloading update…';
+			case 'update_installing': return 'Installing…';
+			case 'update_download_failed': return 'Download failed';
 			case 'ttu_font_size': return 'Размер шрифта';
 			case 'ttu_line_height': return 'Высота строки';
 			case 'ttu_writing_direction': return 'Направление письма';
@@ -14646,6 +14718,9 @@ extension on _StringsTh {
 			case 'update_download': return 'ดาวน์โหลด';
 			case 'update_skip': return 'ข้าม';
 			case 'update_check_failed': return 'ตรวจสอบอัปเดตล้มเหลว';
+			case 'update_downloading': return 'Downloading update…';
+			case 'update_installing': return 'Installing…';
+			case 'update_download_failed': return 'Download failed';
 			case 'ttu_font_size': return 'ขนาดฟอนต์';
 			case 'ttu_line_height': return 'ความสูงบรรทัด';
 			case 'ttu_writing_direction': return 'ทิศทางการเขียน';
@@ -15209,6 +15284,9 @@ extension on _StringsVi {
 			case 'update_download': return 'Tải xuống';
 			case 'update_skip': return 'Bỏ qua';
 			case 'update_check_failed': return 'Kiểm tra cập nhật thất bại';
+			case 'update_downloading': return 'Downloading update…';
+			case 'update_installing': return 'Installing…';
+			case 'update_download_failed': return 'Download failed';
 			case 'ttu_font_size': return 'Cỡ chữ';
 			case 'ttu_line_height': return 'Chiều cao dòng';
 			case 'ttu_writing_direction': return 'Hướng viết';
@@ -15772,6 +15850,9 @@ extension on _StringsZhCn {
 			case 'update_download': return '下载';
 			case 'update_skip': return '跳过';
 			case 'update_check_failed': return '检查更新失败';
+			case 'update_downloading': return 'Downloading update…';
+			case 'update_installing': return 'Installing…';
+			case 'update_download_failed': return 'Download failed';
 			case 'ttu_font_size': return '字体大小';
 			case 'ttu_line_height': return '行高';
 			case 'ttu_writing_direction': return '排版方向';
@@ -16335,6 +16416,9 @@ extension on _StringsZhHk {
 			case 'update_download': return '下載';
 			case 'update_skip': return '略過';
 			case 'update_check_failed': return '檢查更新失敗';
+			case 'update_downloading': return 'Downloading update…';
+			case 'update_installing': return 'Installing…';
+			case 'update_download_failed': return 'Download failed';
 			case 'ttu_font_size': return '字型大小';
 			case 'ttu_line_height': return '行高';
 			case 'ttu_writing_direction': return '排版方向';
