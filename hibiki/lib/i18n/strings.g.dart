@@ -706,6 +706,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get custom_theme => 'Custom Theme';
 	String get dark_mode => 'Dark Mode';
 	String get seed_color => 'Seed Color';
+	String get font_color => 'Font Color';
 	String get apply_theme => 'Apply Theme';
 	String get preview => 'Preview';
 	String get share_theme => 'Share Theme';
@@ -1331,6 +1332,7 @@ class _StringsAr implements _StringsEn {
 	@override String get custom_theme => 'مظهر مخصص';
 	@override String get dark_mode => 'الوضع الداكن';
 	@override String get seed_color => 'اللون الأساسي';
+	@override String get font_color => 'لون الخط';
 	@override String get apply_theme => 'تطبيق المظهر';
 	@override String get preview => 'معاينة';
 	@override String get share_theme => 'مشاركة السمة';
@@ -1956,6 +1958,7 @@ class _StringsDe implements _StringsEn {
 	@override String get custom_theme => 'Benutzerdefiniertes Design';
 	@override String get dark_mode => 'Dunkler Modus';
 	@override String get seed_color => 'Grundfarbe';
+	@override String get font_color => 'Schriftfarbe';
 	@override String get apply_theme => 'Design anwenden';
 	@override String get preview => 'Vorschau';
 	@override String get share_theme => 'Theme teilen';
@@ -2581,6 +2584,7 @@ class _StringsEs implements _StringsEn {
 	@override String get custom_theme => 'Tema personalizado';
 	@override String get dark_mode => 'Modo oscuro';
 	@override String get seed_color => 'Color base';
+	@override String get font_color => 'Color de fuente';
 	@override String get apply_theme => 'Aplicar tema';
 	@override String get preview => 'Vista previa';
 	@override String get share_theme => 'Compartir tema';
@@ -3206,6 +3210,7 @@ class _StringsFr implements _StringsEn {
 	@override String get custom_theme => 'Thème personnalisé';
 	@override String get dark_mode => 'Mode sombre';
 	@override String get seed_color => 'Couleur de base';
+	@override String get font_color => 'Couleur de police';
 	@override String get apply_theme => 'Appliquer le thème';
 	@override String get preview => 'Aperçu';
 	@override String get share_theme => 'Partager le thème';
@@ -3831,6 +3836,7 @@ class _StringsId implements _StringsEn {
 	@override String get custom_theme => 'Tema Kustom';
 	@override String get dark_mode => 'Mode Gelap';
 	@override String get seed_color => 'Warna Dasar';
+	@override String get font_color => 'Warna Font';
 	@override String get apply_theme => 'Terapkan Tema';
 	@override String get preview => 'Pratinjau';
 	@override String get share_theme => 'Bagikan Tema';
@@ -4456,6 +4462,7 @@ class _StringsJa implements _StringsEn {
 	@override String get custom_theme => 'カスタムテーマ';
 	@override String get dark_mode => 'ダークモード';
 	@override String get seed_color => 'シードカラー';
+	@override String get font_color => '文字色';
 	@override String get apply_theme => 'テーマを適用';
 	@override String get preview => 'プレビュー';
 	@override String get share_theme => 'テーマを共有';
@@ -5081,6 +5088,7 @@ class _StringsKo implements _StringsEn {
 	@override String get custom_theme => '커스텀 테마';
 	@override String get dark_mode => '다크 모드';
 	@override String get seed_color => '시드 색상';
+	@override String get font_color => '글꼴 색상';
 	@override String get apply_theme => '테마 적용';
 	@override String get preview => '미리보기';
 	@override String get share_theme => '테마 공유';
@@ -5706,6 +5714,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String get custom_theme => 'Tema Personalizado';
 	@override String get dark_mode => 'Modo Escuro';
 	@override String get seed_color => 'Cor Base';
+	@override String get font_color => 'Cor da Fonte';
 	@override String get apply_theme => 'Aplicar Tema';
 	@override String get preview => 'Pré-visualização';
 	@override String get share_theme => 'Compartilhar tema';
@@ -6331,6 +6340,7 @@ class _StringsRu implements _StringsEn {
 	@override String get custom_theme => 'Пользовательская тема';
 	@override String get dark_mode => 'Тёмный режим';
 	@override String get seed_color => 'Базовый цвет';
+	@override String get font_color => 'Цвет шрифта';
 	@override String get apply_theme => 'Применить тему';
 	@override String get preview => 'Предпросмотр';
 	@override String get share_theme => 'Поделиться темой';
@@ -6956,6 +6966,7 @@ class _StringsTh implements _StringsEn {
 	@override String get custom_theme => 'ธีมกำหนดเอง';
 	@override String get dark_mode => 'โหมดมืด';
 	@override String get seed_color => 'สีหลัก';
+	@override String get font_color => 'สีตัวอักษร';
 	@override String get apply_theme => 'ใช้ธีม';
 	@override String get preview => 'ดูตัวอย่าง';
 	@override String get share_theme => 'แชร์ธีม';
@@ -7581,6 +7592,7 @@ class _StringsVi implements _StringsEn {
 	@override String get custom_theme => 'Giao diện tùy chỉnh';
 	@override String get dark_mode => 'Chế độ tối';
 	@override String get seed_color => 'Màu chủ đạo';
+	@override String get font_color => 'Màu chữ';
 	@override String get apply_theme => 'Áp dụng giao diện';
 	@override String get preview => 'Xem trước';
 	@override String get share_theme => 'Chia sẻ giao diện';
@@ -8206,6 +8218,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get custom_theme => '自定义主题';
 	@override String get dark_mode => '深色模式';
 	@override String get seed_color => '种子色';
+	@override String get font_color => '字体颜色';
 	@override String get apply_theme => '应用主题';
 	@override String get preview => '预览';
 	@override String get share_theme => '分享主题';
@@ -8831,6 +8844,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get custom_theme => '自訂主題';
 	@override String get dark_mode => '深色模式';
 	@override String get seed_color => '種子色';
+	@override String get font_color => '字體顏色';
 	@override String get apply_theme => '套用主題';
 	@override String get preview => '預覽';
 	@override String get share_theme => '分享主題';
