@@ -3,7 +3,7 @@
 /// Locales: 14
 /// Strings: 8554 (611 per locale)
 ///
-/// Built on 2026-04-25 at 13:04 UTC
+/// Built on 2026-04-25 at 13:13 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1423,13 +1423,13 @@ class _StringsAr implements _StringsEn {
 	@override String get manage_audio_sources => 'Manage audio sources';
 	@override String get local_audio => 'الصوت المحلي';
 	@override String get local_audio_not_set => 'لم يتم تحديد قاعدة بيانات';
-	@override String get dialog_select_dictionary_type => 'Select dictionary type';
-	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
-	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
-	@override String get dictionary_section_term => 'Term Dictionaries';
-	@override String get dictionary_type_frequency => 'Frequency';
-	@override String get dictionary_type_pitch => 'Pitch';
-	@override String get dictionary_type_term => 'Term';
+	@override String get dialog_select_dictionary_type => 'اختر نوع القاموس';
+	@override String get dictionary_section_frequency => 'قواميس التردد';
+	@override String get dictionary_section_pitch => 'قواميس النبرة';
+	@override String get dictionary_section_term => 'قواميس المصطلحات';
+	@override String get dictionary_type_frequency => 'تردد';
+	@override String get dictionary_type_pitch => 'نبرة';
+	@override String get dictionary_type_term => 'مصطلح';
 }
 
 // Path: retrying_in
@@ -2085,13 +2085,13 @@ class _StringsDe implements _StringsEn {
 	@override String get manage_audio_sources => 'Manage audio sources';
 	@override String get local_audio => 'Lokales Audio';
 	@override String get local_audio_not_set => 'Keine Datenbank ausgewählt';
-	@override String get dialog_select_dictionary_type => 'Select dictionary type';
-	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
-	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
-	@override String get dictionary_section_term => 'Term Dictionaries';
-	@override String get dictionary_type_frequency => 'Frequency';
-	@override String get dictionary_type_pitch => 'Pitch';
-	@override String get dictionary_type_term => 'Term';
+	@override String get dialog_select_dictionary_type => 'Wörterbuchtyp auswählen';
+	@override String get dictionary_section_frequency => 'Häufigkeitswörterbücher';
+	@override String get dictionary_section_pitch => 'Tonhöhenwörterbücher';
+	@override String get dictionary_section_term => 'Begriffswörterbücher';
+	@override String get dictionary_type_frequency => 'Häufigkeit';
+	@override String get dictionary_type_pitch => 'Tonhöhe';
+	@override String get dictionary_type_term => 'Begriff';
 }
 
 // Path: retrying_in
@@ -2747,13 +2747,13 @@ class _StringsEs implements _StringsEn {
 	@override String get manage_audio_sources => 'Manage audio sources';
 	@override String get local_audio => 'Audio local';
 	@override String get local_audio_not_set => 'No se seleccionó base de datos';
-	@override String get dialog_select_dictionary_type => 'Select dictionary type';
-	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
-	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
-	@override String get dictionary_section_term => 'Term Dictionaries';
-	@override String get dictionary_type_frequency => 'Frequency';
-	@override String get dictionary_type_pitch => 'Pitch';
-	@override String get dictionary_type_term => 'Term';
+	@override String get dialog_select_dictionary_type => 'Seleccionar tipo de diccionario';
+	@override String get dictionary_section_frequency => 'Diccionarios de frecuencia';
+	@override String get dictionary_section_pitch => 'Diccionarios de tono';
+	@override String get dictionary_section_term => 'Diccionarios de términos';
+	@override String get dictionary_type_frequency => 'Frecuencia';
+	@override String get dictionary_type_pitch => 'Tono';
+	@override String get dictionary_type_term => 'Término';
 }
 
 // Path: retrying_in
@@ -3409,13 +3409,13 @@ class _StringsFr implements _StringsEn {
 	@override String get manage_audio_sources => 'Manage audio sources';
 	@override String get local_audio => 'Audio local';
 	@override String get local_audio_not_set => 'Aucune base de données sélectionnée';
-	@override String get dialog_select_dictionary_type => 'Select dictionary type';
-	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
-	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
-	@override String get dictionary_section_term => 'Term Dictionaries';
-	@override String get dictionary_type_frequency => 'Frequency';
-	@override String get dictionary_type_pitch => 'Pitch';
-	@override String get dictionary_type_term => 'Term';
+	@override String get dialog_select_dictionary_type => 'Sélectionner le type de dictionnaire';
+	@override String get dictionary_section_frequency => 'Dictionnaires de fréquence';
+	@override String get dictionary_section_pitch => 'Dictionnaires d\'accent tonal';
+	@override String get dictionary_section_term => 'Dictionnaires de termes';
+	@override String get dictionary_type_frequency => 'Fréquence';
+	@override String get dictionary_type_pitch => 'Accent tonal';
+	@override String get dictionary_type_term => 'Terme';
 }
 
 // Path: retrying_in
@@ -4071,13 +4071,13 @@ class _StringsId implements _StringsEn {
 	@override String get manage_audio_sources => 'Manage audio sources';
 	@override String get local_audio => 'Audio lokal';
 	@override String get local_audio_not_set => 'Tidak ada database yang dipilih';
-	@override String get dialog_select_dictionary_type => 'Select dictionary type';
-	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
-	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
-	@override String get dictionary_section_term => 'Term Dictionaries';
-	@override String get dictionary_type_frequency => 'Frequency';
-	@override String get dictionary_type_pitch => 'Pitch';
-	@override String get dictionary_type_term => 'Term';
+	@override String get dialog_select_dictionary_type => 'Pilih jenis kamus';
+	@override String get dictionary_section_frequency => 'Kamus Frekuensi';
+	@override String get dictionary_section_pitch => 'Kamus Nada';
+	@override String get dictionary_section_term => 'Kamus Istilah';
+	@override String get dictionary_type_frequency => 'Frekuensi';
+	@override String get dictionary_type_pitch => 'Nada';
+	@override String get dictionary_type_term => 'Istilah';
 }
 
 // Path: retrying_in
@@ -4733,13 +4733,13 @@ class _StringsJa implements _StringsEn {
 	@override String get hint_vert_text_orient => '混合：数字とラテン文字は横向きに回転。正立：すべての文字が直立のまま。';
 	@override String get anki_manage_profiles => 'エクスポートプロファイル管理';
 	@override String get anki_manage_profiles_hint => 'AnkiDroidへのエクスポート時のフィールドマッピングを設定します。各プロファイルはAnkiのノートタイプに紐づき、hibikiのフィールドがAnkiのどのフィールドに入るかを定義します。';
-	@override String get dialog_select_dictionary_type => 'Select dictionary type';
-	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
-	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
-	@override String get dictionary_section_term => 'Term Dictionaries';
-	@override String get dictionary_type_frequency => 'Frequency';
-	@override String get dictionary_type_pitch => 'Pitch';
-	@override String get dictionary_type_term => 'Term';
+	@override String get dialog_select_dictionary_type => '辞書タイプを選択';
+	@override String get dictionary_section_frequency => '頻度辞書';
+	@override String get dictionary_section_pitch => 'ピッチ辞書';
+	@override String get dictionary_section_term => '用語辞書';
+	@override String get dictionary_type_frequency => '頻度';
+	@override String get dictionary_type_pitch => 'ピッチ';
+	@override String get dictionary_type_term => '用語';
 }
 
 // Path: retrying_in
@@ -5395,13 +5395,13 @@ class _StringsKo implements _StringsEn {
 	@override String get manage_audio_sources => 'Manage audio sources';
 	@override String get local_audio => '로컬 오디오';
 	@override String get local_audio_not_set => '데이터베이스가 선택되지 않았습니다';
-	@override String get dialog_select_dictionary_type => 'Select dictionary type';
-	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
-	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
-	@override String get dictionary_section_term => 'Term Dictionaries';
-	@override String get dictionary_type_frequency => 'Frequency';
-	@override String get dictionary_type_pitch => 'Pitch';
-	@override String get dictionary_type_term => 'Term';
+	@override String get dialog_select_dictionary_type => '사전 유형 선택';
+	@override String get dictionary_section_frequency => '빈도 사전';
+	@override String get dictionary_section_pitch => '피치 사전';
+	@override String get dictionary_section_term => '용어 사전';
+	@override String get dictionary_type_frequency => '빈도';
+	@override String get dictionary_type_pitch => '피치';
+	@override String get dictionary_type_term => '용어';
 }
 
 // Path: retrying_in
@@ -6057,13 +6057,13 @@ class _StringsPtBr implements _StringsEn {
 	@override String get manage_audio_sources => 'Manage audio sources';
 	@override String get local_audio => 'Áudio local';
 	@override String get local_audio_not_set => 'Nenhum banco de dados selecionado';
-	@override String get dialog_select_dictionary_type => 'Select dictionary type';
-	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
-	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
-	@override String get dictionary_section_term => 'Term Dictionaries';
-	@override String get dictionary_type_frequency => 'Frequency';
-	@override String get dictionary_type_pitch => 'Pitch';
-	@override String get dictionary_type_term => 'Term';
+	@override String get dialog_select_dictionary_type => 'Selecionar tipo de dicionário';
+	@override String get dictionary_section_frequency => 'Dicionários de frequência';
+	@override String get dictionary_section_pitch => 'Dicionários de tom';
+	@override String get dictionary_section_term => 'Dicionários de termos';
+	@override String get dictionary_type_frequency => 'Frequência';
+	@override String get dictionary_type_pitch => 'Tom';
+	@override String get dictionary_type_term => 'Termo';
 }
 
 // Path: retrying_in
@@ -6719,13 +6719,13 @@ class _StringsRu implements _StringsEn {
 	@override String get manage_audio_sources => 'Manage audio sources';
 	@override String get local_audio => 'Локальное аудио';
 	@override String get local_audio_not_set => 'База данных не выбрана';
-	@override String get dialog_select_dictionary_type => 'Select dictionary type';
-	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
-	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
-	@override String get dictionary_section_term => 'Term Dictionaries';
-	@override String get dictionary_type_frequency => 'Frequency';
-	@override String get dictionary_type_pitch => 'Pitch';
-	@override String get dictionary_type_term => 'Term';
+	@override String get dialog_select_dictionary_type => 'Выберите тип словаря';
+	@override String get dictionary_section_frequency => 'Словари частотности';
+	@override String get dictionary_section_pitch => 'Словари высоты тона';
+	@override String get dictionary_section_term => 'Словари терминов';
+	@override String get dictionary_type_frequency => 'Частотность';
+	@override String get dictionary_type_pitch => 'Высота тона';
+	@override String get dictionary_type_term => 'Термин';
 }
 
 // Path: retrying_in
@@ -7381,13 +7381,13 @@ class _StringsTh implements _StringsEn {
 	@override String get manage_audio_sources => 'Manage audio sources';
 	@override String get local_audio => 'เสียงในเครื่อง';
 	@override String get local_audio_not_set => 'ยังไม่ได้เลือกฐานข้อมูล';
-	@override String get dialog_select_dictionary_type => 'Select dictionary type';
-	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
-	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
-	@override String get dictionary_section_term => 'Term Dictionaries';
-	@override String get dictionary_type_frequency => 'Frequency';
-	@override String get dictionary_type_pitch => 'Pitch';
-	@override String get dictionary_type_term => 'Term';
+	@override String get dialog_select_dictionary_type => 'เลือกประเภทพจนานุกรม';
+	@override String get dictionary_section_frequency => 'พจนานุกรมความถี่';
+	@override String get dictionary_section_pitch => 'พจนานุกรมระดับเสียง';
+	@override String get dictionary_section_term => 'พจนานุกรมคำศัพท์';
+	@override String get dictionary_type_frequency => 'ความถี่';
+	@override String get dictionary_type_pitch => 'ระดับเสียง';
+	@override String get dictionary_type_term => 'คำศัพท์';
 }
 
 // Path: retrying_in
@@ -8043,13 +8043,13 @@ class _StringsVi implements _StringsEn {
 	@override String get manage_audio_sources => 'Manage audio sources';
 	@override String get local_audio => 'Âm thanh cục bộ';
 	@override String get local_audio_not_set => 'Chưa chọn cơ sở dữ liệu';
-	@override String get dialog_select_dictionary_type => 'Select dictionary type';
-	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
-	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
-	@override String get dictionary_section_term => 'Term Dictionaries';
-	@override String get dictionary_type_frequency => 'Frequency';
-	@override String get dictionary_type_pitch => 'Pitch';
-	@override String get dictionary_type_term => 'Term';
+	@override String get dialog_select_dictionary_type => 'Chọn loại từ điển';
+	@override String get dictionary_section_frequency => 'Từ điển tần suất';
+	@override String get dictionary_section_pitch => 'Từ điển thanh điệu';
+	@override String get dictionary_section_term => 'Từ điển thuật ngữ';
+	@override String get dictionary_type_frequency => 'Tần suất';
+	@override String get dictionary_type_pitch => 'Thanh điệu';
+	@override String get dictionary_type_term => 'Thuật ngữ';
 }
 
 // Path: retrying_in
@@ -9367,13 +9367,13 @@ class _StringsZhHk implements _StringsEn {
 	@override String get manage_audio_sources => 'Manage audio sources';
 	@override String get local_audio => '本地音頻';
 	@override String get local_audio_not_set => '未選擇數據庫';
-	@override String get dialog_select_dictionary_type => 'Select dictionary type';
-	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
-	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
-	@override String get dictionary_section_term => 'Term Dictionaries';
-	@override String get dictionary_type_frequency => 'Frequency';
-	@override String get dictionary_type_pitch => 'Pitch';
-	@override String get dictionary_type_term => 'Term';
+	@override String get dialog_select_dictionary_type => '選擇詞典類型';
+	@override String get dictionary_section_frequency => '詞頻詞典';
+	@override String get dictionary_section_pitch => '音調詞典';
+	@override String get dictionary_section_term => '釋義詞典';
+	@override String get dictionary_type_frequency => '詞頻';
+	@override String get dictionary_type_pitch => '音調';
+	@override String get dictionary_type_term => '釋義';
 }
 
 // Path: retrying_in
@@ -10639,13 +10639,13 @@ extension on _StringsAr {
 			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'local_audio': return 'الصوت المحلي';
 			case 'local_audio_not_set': return 'لم يتم تحديد قاعدة بيانات';
-			case 'dialog_select_dictionary_type': return 'Select dictionary type';
-			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
-			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
-			case 'dictionary_section_term': return 'Term Dictionaries';
-			case 'dictionary_type_frequency': return 'Frequency';
-			case 'dictionary_type_pitch': return 'Pitch';
-			case 'dictionary_type_term': return 'Term';
+			case 'dialog_select_dictionary_type': return 'اختر نوع القاموس';
+			case 'dictionary_section_frequency': return 'قواميس التردد';
+			case 'dictionary_section_pitch': return 'قواميس النبرة';
+			case 'dictionary_section_term': return 'قواميس المصطلحات';
+			case 'dictionary_type_frequency': return 'تردد';
+			case 'dictionary_type_pitch': return 'نبرة';
+			case 'dictionary_type_term': return 'مصطلح';
 			default: return null;
 		}
 	}
@@ -11262,13 +11262,13 @@ extension on _StringsDe {
 			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'local_audio': return 'Lokales Audio';
 			case 'local_audio_not_set': return 'Keine Datenbank ausgewählt';
-			case 'dialog_select_dictionary_type': return 'Select dictionary type';
-			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
-			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
-			case 'dictionary_section_term': return 'Term Dictionaries';
-			case 'dictionary_type_frequency': return 'Frequency';
-			case 'dictionary_type_pitch': return 'Pitch';
-			case 'dictionary_type_term': return 'Term';
+			case 'dialog_select_dictionary_type': return 'Wörterbuchtyp auswählen';
+			case 'dictionary_section_frequency': return 'Häufigkeitswörterbücher';
+			case 'dictionary_section_pitch': return 'Tonhöhenwörterbücher';
+			case 'dictionary_section_term': return 'Begriffswörterbücher';
+			case 'dictionary_type_frequency': return 'Häufigkeit';
+			case 'dictionary_type_pitch': return 'Tonhöhe';
+			case 'dictionary_type_term': return 'Begriff';
 			default: return null;
 		}
 	}
@@ -11885,13 +11885,13 @@ extension on _StringsEs {
 			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'local_audio': return 'Audio local';
 			case 'local_audio_not_set': return 'No se seleccionó base de datos';
-			case 'dialog_select_dictionary_type': return 'Select dictionary type';
-			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
-			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
-			case 'dictionary_section_term': return 'Term Dictionaries';
-			case 'dictionary_type_frequency': return 'Frequency';
-			case 'dictionary_type_pitch': return 'Pitch';
-			case 'dictionary_type_term': return 'Term';
+			case 'dialog_select_dictionary_type': return 'Seleccionar tipo de diccionario';
+			case 'dictionary_section_frequency': return 'Diccionarios de frecuencia';
+			case 'dictionary_section_pitch': return 'Diccionarios de tono';
+			case 'dictionary_section_term': return 'Diccionarios de términos';
+			case 'dictionary_type_frequency': return 'Frecuencia';
+			case 'dictionary_type_pitch': return 'Tono';
+			case 'dictionary_type_term': return 'Término';
 			default: return null;
 		}
 	}
@@ -12508,13 +12508,13 @@ extension on _StringsFr {
 			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'local_audio': return 'Audio local';
 			case 'local_audio_not_set': return 'Aucune base de données sélectionnée';
-			case 'dialog_select_dictionary_type': return 'Select dictionary type';
-			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
-			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
-			case 'dictionary_section_term': return 'Term Dictionaries';
-			case 'dictionary_type_frequency': return 'Frequency';
-			case 'dictionary_type_pitch': return 'Pitch';
-			case 'dictionary_type_term': return 'Term';
+			case 'dialog_select_dictionary_type': return 'Sélectionner le type de dictionnaire';
+			case 'dictionary_section_frequency': return 'Dictionnaires de fréquence';
+			case 'dictionary_section_pitch': return 'Dictionnaires d\'accent tonal';
+			case 'dictionary_section_term': return 'Dictionnaires de termes';
+			case 'dictionary_type_frequency': return 'Fréquence';
+			case 'dictionary_type_pitch': return 'Accent tonal';
+			case 'dictionary_type_term': return 'Terme';
 			default: return null;
 		}
 	}
@@ -13131,13 +13131,13 @@ extension on _StringsId {
 			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'local_audio': return 'Audio lokal';
 			case 'local_audio_not_set': return 'Tidak ada database yang dipilih';
-			case 'dialog_select_dictionary_type': return 'Select dictionary type';
-			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
-			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
-			case 'dictionary_section_term': return 'Term Dictionaries';
-			case 'dictionary_type_frequency': return 'Frequency';
-			case 'dictionary_type_pitch': return 'Pitch';
-			case 'dictionary_type_term': return 'Term';
+			case 'dialog_select_dictionary_type': return 'Pilih jenis kamus';
+			case 'dictionary_section_frequency': return 'Kamus Frekuensi';
+			case 'dictionary_section_pitch': return 'Kamus Nada';
+			case 'dictionary_section_term': return 'Kamus Istilah';
+			case 'dictionary_type_frequency': return 'Frekuensi';
+			case 'dictionary_type_pitch': return 'Nada';
+			case 'dictionary_type_term': return 'Istilah';
 			default: return null;
 		}
 	}
@@ -13754,13 +13754,13 @@ extension on _StringsJa {
 			case 'hint_vert_text_orient': return '混合：数字とラテン文字は横向きに回転。正立：すべての文字が直立のまま。';
 			case 'anki_manage_profiles': return 'エクスポートプロファイル管理';
 			case 'anki_manage_profiles_hint': return 'AnkiDroidへのエクスポート時のフィールドマッピングを設定します。各プロファイルはAnkiのノートタイプに紐づき、hibikiのフィールドがAnkiのどのフィールドに入るかを定義します。';
-			case 'dialog_select_dictionary_type': return 'Select dictionary type';
-			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
-			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
-			case 'dictionary_section_term': return 'Term Dictionaries';
-			case 'dictionary_type_frequency': return 'Frequency';
-			case 'dictionary_type_pitch': return 'Pitch';
-			case 'dictionary_type_term': return 'Term';
+			case 'dialog_select_dictionary_type': return '辞書タイプを選択';
+			case 'dictionary_section_frequency': return '頻度辞書';
+			case 'dictionary_section_pitch': return 'ピッチ辞書';
+			case 'dictionary_section_term': return '用語辞書';
+			case 'dictionary_type_frequency': return '頻度';
+			case 'dictionary_type_pitch': return 'ピッチ';
+			case 'dictionary_type_term': return '用語';
 			default: return null;
 		}
 	}
@@ -14377,13 +14377,13 @@ extension on _StringsKo {
 			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'local_audio': return '로컬 오디오';
 			case 'local_audio_not_set': return '데이터베이스가 선택되지 않았습니다';
-			case 'dialog_select_dictionary_type': return 'Select dictionary type';
-			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
-			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
-			case 'dictionary_section_term': return 'Term Dictionaries';
-			case 'dictionary_type_frequency': return 'Frequency';
-			case 'dictionary_type_pitch': return 'Pitch';
-			case 'dictionary_type_term': return 'Term';
+			case 'dialog_select_dictionary_type': return '사전 유형 선택';
+			case 'dictionary_section_frequency': return '빈도 사전';
+			case 'dictionary_section_pitch': return '피치 사전';
+			case 'dictionary_section_term': return '용어 사전';
+			case 'dictionary_type_frequency': return '빈도';
+			case 'dictionary_type_pitch': return '피치';
+			case 'dictionary_type_term': return '용어';
 			default: return null;
 		}
 	}
@@ -15000,13 +15000,13 @@ extension on _StringsPtBr {
 			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'local_audio': return 'Áudio local';
 			case 'local_audio_not_set': return 'Nenhum banco de dados selecionado';
-			case 'dialog_select_dictionary_type': return 'Select dictionary type';
-			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
-			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
-			case 'dictionary_section_term': return 'Term Dictionaries';
-			case 'dictionary_type_frequency': return 'Frequency';
-			case 'dictionary_type_pitch': return 'Pitch';
-			case 'dictionary_type_term': return 'Term';
+			case 'dialog_select_dictionary_type': return 'Selecionar tipo de dicionário';
+			case 'dictionary_section_frequency': return 'Dicionários de frequência';
+			case 'dictionary_section_pitch': return 'Dicionários de tom';
+			case 'dictionary_section_term': return 'Dicionários de termos';
+			case 'dictionary_type_frequency': return 'Frequência';
+			case 'dictionary_type_pitch': return 'Tom';
+			case 'dictionary_type_term': return 'Termo';
 			default: return null;
 		}
 	}
@@ -15623,13 +15623,13 @@ extension on _StringsRu {
 			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'local_audio': return 'Локальное аудио';
 			case 'local_audio_not_set': return 'База данных не выбрана';
-			case 'dialog_select_dictionary_type': return 'Select dictionary type';
-			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
-			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
-			case 'dictionary_section_term': return 'Term Dictionaries';
-			case 'dictionary_type_frequency': return 'Frequency';
-			case 'dictionary_type_pitch': return 'Pitch';
-			case 'dictionary_type_term': return 'Term';
+			case 'dialog_select_dictionary_type': return 'Выберите тип словаря';
+			case 'dictionary_section_frequency': return 'Словари частотности';
+			case 'dictionary_section_pitch': return 'Словари высоты тона';
+			case 'dictionary_section_term': return 'Словари терминов';
+			case 'dictionary_type_frequency': return 'Частотность';
+			case 'dictionary_type_pitch': return 'Высота тона';
+			case 'dictionary_type_term': return 'Термин';
 			default: return null;
 		}
 	}
@@ -16246,13 +16246,13 @@ extension on _StringsTh {
 			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'local_audio': return 'เสียงในเครื่อง';
 			case 'local_audio_not_set': return 'ยังไม่ได้เลือกฐานข้อมูล';
-			case 'dialog_select_dictionary_type': return 'Select dictionary type';
-			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
-			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
-			case 'dictionary_section_term': return 'Term Dictionaries';
-			case 'dictionary_type_frequency': return 'Frequency';
-			case 'dictionary_type_pitch': return 'Pitch';
-			case 'dictionary_type_term': return 'Term';
+			case 'dialog_select_dictionary_type': return 'เลือกประเภทพจนานุกรม';
+			case 'dictionary_section_frequency': return 'พจนานุกรมความถี่';
+			case 'dictionary_section_pitch': return 'พจนานุกรมระดับเสียง';
+			case 'dictionary_section_term': return 'พจนานุกรมคำศัพท์';
+			case 'dictionary_type_frequency': return 'ความถี่';
+			case 'dictionary_type_pitch': return 'ระดับเสียง';
+			case 'dictionary_type_term': return 'คำศัพท์';
 			default: return null;
 		}
 	}
@@ -16869,13 +16869,13 @@ extension on _StringsVi {
 			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'local_audio': return 'Âm thanh cục bộ';
 			case 'local_audio_not_set': return 'Chưa chọn cơ sở dữ liệu';
-			case 'dialog_select_dictionary_type': return 'Select dictionary type';
-			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
-			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
-			case 'dictionary_section_term': return 'Term Dictionaries';
-			case 'dictionary_type_frequency': return 'Frequency';
-			case 'dictionary_type_pitch': return 'Pitch';
-			case 'dictionary_type_term': return 'Term';
+			case 'dialog_select_dictionary_type': return 'Chọn loại từ điển';
+			case 'dictionary_section_frequency': return 'Từ điển tần suất';
+			case 'dictionary_section_pitch': return 'Từ điển thanh điệu';
+			case 'dictionary_section_term': return 'Từ điển thuật ngữ';
+			case 'dictionary_type_frequency': return 'Tần suất';
+			case 'dictionary_type_pitch': return 'Thanh điệu';
+			case 'dictionary_type_term': return 'Thuật ngữ';
 			default: return null;
 		}
 	}
@@ -18115,13 +18115,13 @@ extension on _StringsZhHk {
 			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'local_audio': return '本地音頻';
 			case 'local_audio_not_set': return '未選擇數據庫';
-			case 'dialog_select_dictionary_type': return 'Select dictionary type';
-			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
-			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
-			case 'dictionary_section_term': return 'Term Dictionaries';
-			case 'dictionary_type_frequency': return 'Frequency';
-			case 'dictionary_type_pitch': return 'Pitch';
-			case 'dictionary_type_term': return 'Term';
+			case 'dialog_select_dictionary_type': return '選擇詞典類型';
+			case 'dictionary_section_frequency': return '詞頻詞典';
+			case 'dictionary_section_pitch': return '音調詞典';
+			case 'dictionary_section_term': return '釋義詞典';
+			case 'dictionary_type_frequency': return '詞頻';
+			case 'dictionary_type_pitch': return '音調';
+			case 'dictionary_type_term': return '釋義';
 			default: return null;
 		}
 	}
