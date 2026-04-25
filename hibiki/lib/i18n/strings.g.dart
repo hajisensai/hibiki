@@ -3,7 +3,7 @@
 /// Locales: 14
 /// Strings: 8218 (587 per locale)
 ///
-/// Built on 2026-04-25 at 07:32 UTC
+/// Built on 2026-04-25 at 07:44 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -737,9 +737,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get update_settings => 'Update Settings';
 	String get anki_settings_label => 'Anki Settings';
 	String get anki_default_deck => 'Default Deck';
-	String get anki_default_deck_hint => 'Cards will be added to this deck by default when exporting from the card creator.';
+	String get anki_default_deck_hint => 'Cards will be added to this deck by default when exporting from the card creator.\nTo create a new deck, please create it in AnkiDroid first.';
 	String get anki_default_profile => 'Export Profile';
-	String get anki_default_profile_hint => 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+	String get anki_default_profile_hint => 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.\nYou can manage export profiles in the card creator.';
 	String get anki_close_on_export_hint => 'Automatically close the card creator after successfully exporting a card.';
 	String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
 	String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
@@ -8393,9 +8393,9 @@ class _StringsZhCn implements _StringsEn {
 	@override String get update_settings => '更新设置';
 	@override String get anki_settings_label => 'Anki 设置';
 	@override String get anki_default_deck => '默认牌组';
-	@override String get anki_default_deck_hint => '制卡时默认将卡片添加到此牌组。';
+	@override String get anki_default_deck_hint => '制卡时默认将卡片添加到此牌组。\n如需新建牌组，请先在 AnkiDroid 中创建。';
 	@override String get anki_default_profile => '导出配置';
-	@override String get anki_default_profile_hint => '决定导出卡片时使用的卡片类型和字段映射。';
+	@override String get anki_default_profile_hint => '决定导出卡片时使用的卡片类型和字段映射。\n可在制卡工具中管理导出配置。';
 	@override String get anki_close_on_export_hint => '成功导出卡片后自动关闭制卡工具。';
 	@override String get anki_auto_tag_hint => '制卡时自动将当前书名添加为标签。';
 	@override String get anki_duplicate_check_hint => '选择导出前检查哪些卡片类型中是否已有重复。';
@@ -9656,9 +9656,9 @@ extension on _StringsEn {
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
 			case 'anki_default_deck': return 'Default Deck';
-			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.';
+			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.\nTo create a new deck, please create it in AnkiDroid first.';
 			case 'anki_default_profile': return 'Export Profile';
-			case 'anki_default_profile_hint': return 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+			case 'anki_default_profile_hint': return 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.\nYou can manage export profiles in the card creator.';
 			case 'anki_close_on_export_hint': return 'Automatically close the card creator after successfully exporting a card.';
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
@@ -16844,9 +16844,9 @@ extension on _StringsZhCn {
 			case 'update_settings': return '更新设置';
 			case 'anki_settings_label': return 'Anki 设置';
 			case 'anki_default_deck': return '默认牌组';
-			case 'anki_default_deck_hint': return '制卡时默认将卡片添加到此牌组。';
+			case 'anki_default_deck_hint': return '制卡时默认将卡片添加到此牌组。\n如需新建牌组，请先在 AnkiDroid 中创建。';
 			case 'anki_default_profile': return '导出配置';
-			case 'anki_default_profile_hint': return '决定导出卡片时使用的卡片类型和字段映射。';
+			case 'anki_default_profile_hint': return '决定导出卡片时使用的卡片类型和字段映射。\n可在制卡工具中管理导出配置。';
 			case 'anki_close_on_export_hint': return '成功导出卡片后自动关闭制卡工具。';
 			case 'anki_auto_tag_hint': return '制卡时自动将当前书名添加为标签。';
 			case 'anki_duplicate_check_hint': return '选择导出前检查哪些卡片类型中是否已有重复。';
