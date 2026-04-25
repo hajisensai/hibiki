@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 14
-/// Strings: 8218 (587 per locale)
+/// Strings: 8344 (596 per locale)
 ///
-/// Built on 2026-04-25 at 07:44 UTC
+/// Built on 2026-04-25 at 08:08 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -744,6 +744,15 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
 	String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	String get anki_retry => 'Retry';
+	String get hint_font_size => 'Adjust the font size of the book text (in pixels).';
+	String get hint_line_height => 'Adjust the spacing between lines of text. Larger values increase readability.';
+	String get hint_text_indentation => 'Number of characters to indent the first line of each paragraph.';
+	String get hint_margin => 'Outer margin around the reading area (in pixels).';
+	String get hint_max_width_height => 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+	String get hint_page_columns => 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+	String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+	String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+	String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 }
 
 // Path: retrying_in
@@ -1382,6 +1391,15 @@ class _StringsAr implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
 	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
+	@override String get hint_font_size => 'Adjust the font size of the book text (in pixels).';
+	@override String get hint_line_height => 'Adjust the spacing between lines of text. Larger values increase readability.';
+	@override String get hint_text_indentation => 'Number of characters to indent the first line of each paragraph.';
+	@override String get hint_margin => 'Outer margin around the reading area (in pixels).';
+	@override String get hint_max_width_height => 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+	@override String get hint_page_columns => 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 }
 
 // Path: retrying_in
@@ -2020,6 +2038,15 @@ class _StringsDe implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
 	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
+	@override String get hint_font_size => 'Adjust the font size of the book text (in pixels).';
+	@override String get hint_line_height => 'Adjust the spacing between lines of text. Larger values increase readability.';
+	@override String get hint_text_indentation => 'Number of characters to indent the first line of each paragraph.';
+	@override String get hint_margin => 'Outer margin around the reading area (in pixels).';
+	@override String get hint_max_width_height => 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+	@override String get hint_page_columns => 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 }
 
 // Path: retrying_in
@@ -2658,6 +2685,15 @@ class _StringsEs implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
 	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
+	@override String get hint_font_size => 'Adjust the font size of the book text (in pixels).';
+	@override String get hint_line_height => 'Adjust the spacing between lines of text. Larger values increase readability.';
+	@override String get hint_text_indentation => 'Number of characters to indent the first line of each paragraph.';
+	@override String get hint_margin => 'Outer margin around the reading area (in pixels).';
+	@override String get hint_max_width_height => 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+	@override String get hint_page_columns => 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 }
 
 // Path: retrying_in
@@ -3296,6 +3332,15 @@ class _StringsFr implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
 	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
+	@override String get hint_font_size => 'Adjust the font size of the book text (in pixels).';
+	@override String get hint_line_height => 'Adjust the spacing between lines of text. Larger values increase readability.';
+	@override String get hint_text_indentation => 'Number of characters to indent the first line of each paragraph.';
+	@override String get hint_margin => 'Outer margin around the reading area (in pixels).';
+	@override String get hint_max_width_height => 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+	@override String get hint_page_columns => 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 }
 
 // Path: retrying_in
@@ -3934,6 +3979,15 @@ class _StringsId implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
 	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
+	@override String get hint_font_size => 'Adjust the font size of the book text (in pixels).';
+	@override String get hint_line_height => 'Adjust the spacing between lines of text. Larger values increase readability.';
+	@override String get hint_text_indentation => 'Number of characters to indent the first line of each paragraph.';
+	@override String get hint_margin => 'Outer margin around the reading area (in pixels).';
+	@override String get hint_max_width_height => 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+	@override String get hint_page_columns => 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 }
 
 // Path: retrying_in
@@ -4572,6 +4626,15 @@ class _StringsJa implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'カード作成時、現在の書籍タイトルをタグとして自動追加します。';
 	@override String get anki_duplicate_check_hint => '新しいカードを追加する前に、どのカードタイプで重複をチェックするか選択します。';
 	@override String get anki_retry => '再試行';
+	@override String get hint_font_size => '本文のフォントサイズを調整します（ピクセル）。';
+	@override String get hint_line_height => '行間を調整します。値が大きいほど読みやすくなります。';
+	@override String get hint_text_indentation => '各段落の最初の行の字下げ文字数。';
+	@override String get hint_margin => '読書エリアの外側の余白（ピクセル）。';
+	@override String get hint_max_width_height => '読書エリアの最大幅（横書き）または高さ（縦書き）。自動に設定すると全画面になります。';
+	@override String get hint_page_columns => '1ページあたりの列数。自動に設定すると画面サイズに基づいて決定されます。';
+	@override String get hint_writing_direction => '横書き：左から右へ。縦書き：伝統的な日本語の上から下、右から左への配置。';
+	@override String get hint_view_mode => 'ページめくり：本のようにページをめくります。連続スクロール：ページ区切りなしでスクロールして読みます。';
+	@override String get hint_vert_text_orient => '混合：数字とラテン文字は横向きに回転。正立：すべての文字が直立のまま。';
 }
 
 // Path: retrying_in
@@ -5210,6 +5273,15 @@ class _StringsKo implements _StringsEn {
 	@override String get anki_auto_tag_hint => '카드 생성 시 현재 책 제목을 태그로 자동 추가합니다.';
 	@override String get anki_duplicate_check_hint => '새 카드를 추가하기 전에 어떤 카드 유형에서 중복을 확인할지 선택합니다.';
 	@override String get anki_retry => '다시 시도';
+	@override String get hint_font_size => 'Adjust the font size of the book text (in pixels).';
+	@override String get hint_line_height => 'Adjust the spacing between lines of text. Larger values increase readability.';
+	@override String get hint_text_indentation => 'Number of characters to indent the first line of each paragraph.';
+	@override String get hint_margin => 'Outer margin around the reading area (in pixels).';
+	@override String get hint_max_width_height => 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+	@override String get hint_page_columns => 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 }
 
 // Path: retrying_in
@@ -5848,6 +5920,15 @@ class _StringsPtBr implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
 	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
+	@override String get hint_font_size => 'Adjust the font size of the book text (in pixels).';
+	@override String get hint_line_height => 'Adjust the spacing between lines of text. Larger values increase readability.';
+	@override String get hint_text_indentation => 'Number of characters to indent the first line of each paragraph.';
+	@override String get hint_margin => 'Outer margin around the reading area (in pixels).';
+	@override String get hint_max_width_height => 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+	@override String get hint_page_columns => 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 }
 
 // Path: retrying_in
@@ -6486,6 +6567,15 @@ class _StringsRu implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
 	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
+	@override String get hint_font_size => 'Adjust the font size of the book text (in pixels).';
+	@override String get hint_line_height => 'Adjust the spacing between lines of text. Larger values increase readability.';
+	@override String get hint_text_indentation => 'Number of characters to indent the first line of each paragraph.';
+	@override String get hint_margin => 'Outer margin around the reading area (in pixels).';
+	@override String get hint_max_width_height => 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+	@override String get hint_page_columns => 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 }
 
 // Path: retrying_in
@@ -7124,6 +7214,15 @@ class _StringsTh implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
 	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
+	@override String get hint_font_size => 'Adjust the font size of the book text (in pixels).';
+	@override String get hint_line_height => 'Adjust the spacing between lines of text. Larger values increase readability.';
+	@override String get hint_text_indentation => 'Number of characters to indent the first line of each paragraph.';
+	@override String get hint_margin => 'Outer margin around the reading area (in pixels).';
+	@override String get hint_max_width_height => 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+	@override String get hint_page_columns => 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 }
 
 // Path: retrying_in
@@ -7762,6 +7861,15 @@ class _StringsVi implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
 	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
+	@override String get hint_font_size => 'Adjust the font size of the book text (in pixels).';
+	@override String get hint_line_height => 'Adjust the spacing between lines of text. Larger values increase readability.';
+	@override String get hint_text_indentation => 'Number of characters to indent the first line of each paragraph.';
+	@override String get hint_margin => 'Outer margin around the reading area (in pixels).';
+	@override String get hint_max_width_height => 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+	@override String get hint_page_columns => 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 }
 
 // Path: retrying_in
@@ -8400,6 +8508,15 @@ class _StringsZhCn implements _StringsEn {
 	@override String get anki_auto_tag_hint => '制卡时自动将当前书名添加为标签。';
 	@override String get anki_duplicate_check_hint => '选择导出前检查哪些卡片类型中是否已有重复。';
 	@override String get anki_retry => '重试';
+	@override String get hint_font_size => '调整正文字体大小（像素）。';
+	@override String get hint_line_height => '调整行间距，数值越大行距越宽，阅读更舒适。';
+	@override String get hint_text_indentation => '每段首行缩进的字符数。';
+	@override String get hint_margin => '阅读区域的外边距（像素）。';
+	@override String get hint_max_width_height => '阅读区域的最大宽度（横排）或高度（竖排）。设为自动则占满屏幕。';
+	@override String get hint_page_columns => '每页显示的列数。设为自动时根据屏幕尺寸自行决定。';
+	@override String get hint_writing_direction => '横排：从左到右。竖排：传统日文从上到下、从右到左排列。';
+	@override String get hint_view_mode => '翻页模式：像书一样翻页。连续滚动：无分页，自由滚动阅读。';
+	@override String get hint_vert_text_orient => '混合：数字和西文字母旋转为横向。直立：所有字符保持直立。';
 }
 
 // Path: retrying_in
@@ -9038,6 +9155,15 @@ class _StringsZhHk implements _StringsEn {
 	@override String get anki_auto_tag_hint => '製卡時自動將目前書名加入為標籤。';
 	@override String get anki_duplicate_check_hint => '選擇匯出前檢查哪些卡片類型中是否已有重複。';
 	@override String get anki_retry => '重試';
+	@override String get hint_font_size => '调整正文字体大小（像素）。';
+	@override String get hint_line_height => '调整行间距，数值越大行距越宽，阅读更舒适。';
+	@override String get hint_text_indentation => '每段首行缩进的字符数。';
+	@override String get hint_margin => '阅读区域的外边距（像素）。';
+	@override String get hint_max_width_height => '阅读区域的最大宽度（横排）或高度（竖排）。设为自动则占满屏幕。';
+	@override String get hint_page_columns => '每页显示的列数。设为自动时根据屏幕尺寸自行决定。';
+	@override String get hint_writing_direction => '横排：从左到右。竖排：传统日文从上到下、从右到左排列。';
+	@override String get hint_view_mode => '翻页模式：像书一样翻页。连续滚动：无分页，自由滚动阅读。';
+	@override String get hint_vert_text_orient => '混合：数字和西文字母旋转为横向。直立：所有字符保持直立。';
 }
 
 // Path: retrying_in
@@ -9663,6 +9789,15 @@ extension on _StringsEn {
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
+			case 'hint_font_size': return 'Adjust the font size of the book text (in pixels).';
+			case 'hint_line_height': return 'Adjust the spacing between lines of text. Larger values increase readability.';
+			case 'hint_text_indentation': return 'Number of characters to indent the first line of each paragraph.';
+			case 'hint_margin': return 'Outer margin around the reading area (in pixels).';
+			case 'hint_max_width_height': return 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+			case 'hint_page_columns': return 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			default: return null;
 		}
 	}
@@ -10262,6 +10397,15 @@ extension on _StringsAr {
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
+			case 'hint_font_size': return 'Adjust the font size of the book text (in pixels).';
+			case 'hint_line_height': return 'Adjust the spacing between lines of text. Larger values increase readability.';
+			case 'hint_text_indentation': return 'Number of characters to indent the first line of each paragraph.';
+			case 'hint_margin': return 'Outer margin around the reading area (in pixels).';
+			case 'hint_max_width_height': return 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+			case 'hint_page_columns': return 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			default: return null;
 		}
 	}
@@ -10861,6 +11005,15 @@ extension on _StringsDe {
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
+			case 'hint_font_size': return 'Adjust the font size of the book text (in pixels).';
+			case 'hint_line_height': return 'Adjust the spacing between lines of text. Larger values increase readability.';
+			case 'hint_text_indentation': return 'Number of characters to indent the first line of each paragraph.';
+			case 'hint_margin': return 'Outer margin around the reading area (in pixels).';
+			case 'hint_max_width_height': return 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+			case 'hint_page_columns': return 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			default: return null;
 		}
 	}
@@ -11460,6 +11613,15 @@ extension on _StringsEs {
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
+			case 'hint_font_size': return 'Adjust the font size of the book text (in pixels).';
+			case 'hint_line_height': return 'Adjust the spacing between lines of text. Larger values increase readability.';
+			case 'hint_text_indentation': return 'Number of characters to indent the first line of each paragraph.';
+			case 'hint_margin': return 'Outer margin around the reading area (in pixels).';
+			case 'hint_max_width_height': return 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+			case 'hint_page_columns': return 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			default: return null;
 		}
 	}
@@ -12059,6 +12221,15 @@ extension on _StringsFr {
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
+			case 'hint_font_size': return 'Adjust the font size of the book text (in pixels).';
+			case 'hint_line_height': return 'Adjust the spacing between lines of text. Larger values increase readability.';
+			case 'hint_text_indentation': return 'Number of characters to indent the first line of each paragraph.';
+			case 'hint_margin': return 'Outer margin around the reading area (in pixels).';
+			case 'hint_max_width_height': return 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+			case 'hint_page_columns': return 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			default: return null;
 		}
 	}
@@ -12658,6 +12829,15 @@ extension on _StringsId {
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
+			case 'hint_font_size': return 'Adjust the font size of the book text (in pixels).';
+			case 'hint_line_height': return 'Adjust the spacing between lines of text. Larger values increase readability.';
+			case 'hint_text_indentation': return 'Number of characters to indent the first line of each paragraph.';
+			case 'hint_margin': return 'Outer margin around the reading area (in pixels).';
+			case 'hint_max_width_height': return 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+			case 'hint_page_columns': return 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			default: return null;
 		}
 	}
@@ -13257,6 +13437,15 @@ extension on _StringsJa {
 			case 'anki_auto_tag_hint': return 'カード作成時、現在の書籍タイトルをタグとして自動追加します。';
 			case 'anki_duplicate_check_hint': return '新しいカードを追加する前に、どのカードタイプで重複をチェックするか選択します。';
 			case 'anki_retry': return '再試行';
+			case 'hint_font_size': return '本文のフォントサイズを調整します（ピクセル）。';
+			case 'hint_line_height': return '行間を調整します。値が大きいほど読みやすくなります。';
+			case 'hint_text_indentation': return '各段落の最初の行の字下げ文字数。';
+			case 'hint_margin': return '読書エリアの外側の余白（ピクセル）。';
+			case 'hint_max_width_height': return '読書エリアの最大幅（横書き）または高さ（縦書き）。自動に設定すると全画面になります。';
+			case 'hint_page_columns': return '1ページあたりの列数。自動に設定すると画面サイズに基づいて決定されます。';
+			case 'hint_writing_direction': return '横書き：左から右へ。縦書き：伝統的な日本語の上から下、右から左への配置。';
+			case 'hint_view_mode': return 'ページめくり：本のようにページをめくります。連続スクロール：ページ区切りなしでスクロールして読みます。';
+			case 'hint_vert_text_orient': return '混合：数字とラテン文字は横向きに回転。正立：すべての文字が直立のまま。';
 			default: return null;
 		}
 	}
@@ -13856,6 +14045,15 @@ extension on _StringsKo {
 			case 'anki_auto_tag_hint': return '카드 생성 시 현재 책 제목을 태그로 자동 추가합니다.';
 			case 'anki_duplicate_check_hint': return '새 카드를 추가하기 전에 어떤 카드 유형에서 중복을 확인할지 선택합니다.';
 			case 'anki_retry': return '다시 시도';
+			case 'hint_font_size': return 'Adjust the font size of the book text (in pixels).';
+			case 'hint_line_height': return 'Adjust the spacing between lines of text. Larger values increase readability.';
+			case 'hint_text_indentation': return 'Number of characters to indent the first line of each paragraph.';
+			case 'hint_margin': return 'Outer margin around the reading area (in pixels).';
+			case 'hint_max_width_height': return 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+			case 'hint_page_columns': return 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			default: return null;
 		}
 	}
@@ -14455,6 +14653,15 @@ extension on _StringsPtBr {
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
+			case 'hint_font_size': return 'Adjust the font size of the book text (in pixels).';
+			case 'hint_line_height': return 'Adjust the spacing between lines of text. Larger values increase readability.';
+			case 'hint_text_indentation': return 'Number of characters to indent the first line of each paragraph.';
+			case 'hint_margin': return 'Outer margin around the reading area (in pixels).';
+			case 'hint_max_width_height': return 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+			case 'hint_page_columns': return 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			default: return null;
 		}
 	}
@@ -15054,6 +15261,15 @@ extension on _StringsRu {
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
+			case 'hint_font_size': return 'Adjust the font size of the book text (in pixels).';
+			case 'hint_line_height': return 'Adjust the spacing between lines of text. Larger values increase readability.';
+			case 'hint_text_indentation': return 'Number of characters to indent the first line of each paragraph.';
+			case 'hint_margin': return 'Outer margin around the reading area (in pixels).';
+			case 'hint_max_width_height': return 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+			case 'hint_page_columns': return 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			default: return null;
 		}
 	}
@@ -15653,6 +15869,15 @@ extension on _StringsTh {
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
+			case 'hint_font_size': return 'Adjust the font size of the book text (in pixels).';
+			case 'hint_line_height': return 'Adjust the spacing between lines of text. Larger values increase readability.';
+			case 'hint_text_indentation': return 'Number of characters to indent the first line of each paragraph.';
+			case 'hint_margin': return 'Outer margin around the reading area (in pixels).';
+			case 'hint_max_width_height': return 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+			case 'hint_page_columns': return 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			default: return null;
 		}
 	}
@@ -16252,6 +16477,15 @@ extension on _StringsVi {
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
+			case 'hint_font_size': return 'Adjust the font size of the book text (in pixels).';
+			case 'hint_line_height': return 'Adjust the spacing between lines of text. Larger values increase readability.';
+			case 'hint_text_indentation': return 'Number of characters to indent the first line of each paragraph.';
+			case 'hint_margin': return 'Outer margin around the reading area (in pixels).';
+			case 'hint_max_width_height': return 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
+			case 'hint_page_columns': return 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
+			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
+			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
+			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			default: return null;
 		}
 	}
@@ -16851,6 +17085,15 @@ extension on _StringsZhCn {
 			case 'anki_auto_tag_hint': return '制卡时自动将当前书名添加为标签。';
 			case 'anki_duplicate_check_hint': return '选择导出前检查哪些卡片类型中是否已有重复。';
 			case 'anki_retry': return '重试';
+			case 'hint_font_size': return '调整正文字体大小（像素）。';
+			case 'hint_line_height': return '调整行间距，数值越大行距越宽，阅读更舒适。';
+			case 'hint_text_indentation': return '每段首行缩进的字符数。';
+			case 'hint_margin': return '阅读区域的外边距（像素）。';
+			case 'hint_max_width_height': return '阅读区域的最大宽度（横排）或高度（竖排）。设为自动则占满屏幕。';
+			case 'hint_page_columns': return '每页显示的列数。设为自动时根据屏幕尺寸自行决定。';
+			case 'hint_writing_direction': return '横排：从左到右。竖排：传统日文从上到下、从右到左排列。';
+			case 'hint_view_mode': return '翻页模式：像书一样翻页。连续滚动：无分页，自由滚动阅读。';
+			case 'hint_vert_text_orient': return '混合：数字和西文字母旋转为横向。直立：所有字符保持直立。';
 			default: return null;
 		}
 	}
@@ -17450,6 +17693,15 @@ extension on _StringsZhHk {
 			case 'anki_auto_tag_hint': return '製卡時自動將目前書名加入為標籤。';
 			case 'anki_duplicate_check_hint': return '選擇匯出前檢查哪些卡片類型中是否已有重複。';
 			case 'anki_retry': return '重試';
+			case 'hint_font_size': return '调整正文字体大小（像素）。';
+			case 'hint_line_height': return '调整行间距，数值越大行距越宽，阅读更舒适。';
+			case 'hint_text_indentation': return '每段首行缩进的字符数。';
+			case 'hint_margin': return '阅读区域的外边距（像素）。';
+			case 'hint_max_width_height': return '阅读区域的最大宽度（横排）或高度（竖排）。设为自动则占满屏幕。';
+			case 'hint_page_columns': return '每页显示的列数。设为自动时根据屏幕尺寸自行决定。';
+			case 'hint_writing_direction': return '横排：从左到右。竖排：传统日文从上到下、从右到左排列。';
+			case 'hint_view_mode': return '翻页模式：像书一样翻页。连续滚动：无分页，自由滚动阅读。';
+			case 'hint_vert_text_orient': return '混合：数字和西文字母旋转为横向。直立：所有字符保持直立。';
 			default: return null;
 		}
 	}
