@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 14
-/// Strings: 8036 (574 per locale)
+/// Strings: 8106 (579 per locale)
 ///
-/// Built on 2026-04-24 at 17:19 UTC
+/// Built on 2026-04-25 at 05:22 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -732,6 +732,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String stat_format_chars({required Object n}) => '${n} characters';
 	String stat_format_chars_wan({required Object n}) => '${n} characters';
 	String get error_log_share_subject => 'hibiki Error Log';
+	String get update_never_remind => 'Don\'t remind again';
+	String get update_auto_install => 'Auto-install updates';
+	String get update_settings => 'Update Settings';
+	String get anki_settings_label => 'Anki Settings';
 }
 
 // Path: retrying_in
@@ -1358,6 +1362,10 @@ class _StringsAr implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} حرف';
 	@override String stat_format_chars_wan({required Object n}) => '${n} حرف';
 	@override String get error_log_share_subject => 'سجل أخطاء hibiki';
+	@override String get update_never_remind => 'Don\'t remind again';
+	@override String get update_auto_install => 'Auto-install updates';
+	@override String get update_settings => 'Update Settings';
+	@override String get anki_settings_label => 'Anki Settings';
 }
 
 // Path: retrying_in
@@ -1984,6 +1992,10 @@ class _StringsDe implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} Zeichen';
 	@override String stat_format_chars_wan({required Object n}) => '${n} Zeichen';
 	@override String get error_log_share_subject => 'hibiki Fehlerprotokoll';
+	@override String get update_never_remind => 'Don\'t remind again';
+	@override String get update_auto_install => 'Auto-install updates';
+	@override String get update_settings => 'Update Settings';
+	@override String get anki_settings_label => 'Anki Settings';
 }
 
 // Path: retrying_in
@@ -2610,6 +2622,10 @@ class _StringsEs implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} caracteres';
 	@override String stat_format_chars_wan({required Object n}) => '${n} caracteres';
 	@override String get error_log_share_subject => 'Registro de errores de hibiki';
+	@override String get update_never_remind => 'Don\'t remind again';
+	@override String get update_auto_install => 'Auto-install updates';
+	@override String get update_settings => 'Update Settings';
+	@override String get anki_settings_label => 'Anki Settings';
 }
 
 // Path: retrying_in
@@ -3236,6 +3252,10 @@ class _StringsFr implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} caractères';
 	@override String stat_format_chars_wan({required Object n}) => '${n} caractères';
 	@override String get error_log_share_subject => 'Journal d\'erreurs hibiki';
+	@override String get update_never_remind => 'Don\'t remind again';
+	@override String get update_auto_install => 'Auto-install updates';
+	@override String get update_settings => 'Update Settings';
+	@override String get anki_settings_label => 'Anki Settings';
 }
 
 // Path: retrying_in
@@ -3862,6 +3882,10 @@ class _StringsId implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} karakter';
 	@override String stat_format_chars_wan({required Object n}) => '${n} karakter';
 	@override String get error_log_share_subject => 'Log Error hibiki';
+	@override String get update_never_remind => 'Don\'t remind again';
+	@override String get update_auto_install => 'Auto-install updates';
+	@override String get update_settings => 'Update Settings';
+	@override String get anki_settings_label => 'Anki Settings';
 }
 
 // Path: retrying_in
@@ -4488,6 +4512,10 @@ class _StringsJa implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} 文字';
 	@override String stat_format_chars_wan({required Object n}) => '${n} 万字';
 	@override String get error_log_share_subject => 'hibiki エラーログ';
+	@override String get update_never_remind => '今後通知しない';
+	@override String get update_auto_install => '自動インストール';
+	@override String get update_settings => 'アップデート設定';
+	@override String get anki_settings_label => 'Anki 設定';
 }
 
 // Path: retrying_in
@@ -5114,6 +5142,10 @@ class _StringsKo implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n}자';
 	@override String stat_format_chars_wan({required Object n}) => '${n}만자';
 	@override String get error_log_share_subject => 'hibiki 오류 로그';
+	@override String get update_never_remind => '다시 알리지 않기';
+	@override String get update_auto_install => '자동 설치';
+	@override String get update_settings => '업데이트 설정';
+	@override String get anki_settings_label => 'Anki 설정';
 }
 
 // Path: retrying_in
@@ -5740,6 +5772,10 @@ class _StringsPtBr implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} caracteres';
 	@override String stat_format_chars_wan({required Object n}) => '${n} caracteres';
 	@override String get error_log_share_subject => 'Log de Erros do hibiki';
+	@override String get update_never_remind => 'Don\'t remind again';
+	@override String get update_auto_install => 'Auto-install updates';
+	@override String get update_settings => 'Update Settings';
+	@override String get anki_settings_label => 'Anki Settings';
 }
 
 // Path: retrying_in
@@ -6366,6 +6402,10 @@ class _StringsRu implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} символов';
 	@override String stat_format_chars_wan({required Object n}) => '${n} символов';
 	@override String get error_log_share_subject => 'Журнал ошибок hibiki';
+	@override String get update_never_remind => 'Don\'t remind again';
+	@override String get update_auto_install => 'Auto-install updates';
+	@override String get update_settings => 'Update Settings';
+	@override String get anki_settings_label => 'Anki Settings';
 }
 
 // Path: retrying_in
@@ -6992,6 +7032,10 @@ class _StringsTh implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} ตัวอักษร';
 	@override String stat_format_chars_wan({required Object n}) => '${n} ตัวอักษร';
 	@override String get error_log_share_subject => 'บันทึกข้อผิดพลาด hibiki';
+	@override String get update_never_remind => 'Don\'t remind again';
+	@override String get update_auto_install => 'Auto-install updates';
+	@override String get update_settings => 'Update Settings';
+	@override String get anki_settings_label => 'Anki Settings';
 }
 
 // Path: retrying_in
@@ -7618,6 +7662,10 @@ class _StringsVi implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} ký tự';
 	@override String stat_format_chars_wan({required Object n}) => '${n} ký tự';
 	@override String get error_log_share_subject => 'Nhật ký lỗi hibiki';
+	@override String get update_never_remind => 'Don\'t remind again';
+	@override String get update_auto_install => 'Auto-install updates';
+	@override String get update_settings => 'Update Settings';
+	@override String get anki_settings_label => 'Anki Settings';
 }
 
 // Path: retrying_in
@@ -8244,6 +8292,10 @@ class _StringsZhCn implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} 字';
 	@override String stat_format_chars_wan({required Object n}) => '${n} 万字';
 	@override String get error_log_share_subject => 'hibiki 错误日志';
+	@override String get update_never_remind => '不再提醒';
+	@override String get update_auto_install => '自动安装更新';
+	@override String get update_settings => '更新设置';
+	@override String get anki_settings_label => 'Anki 设置';
 }
 
 // Path: retrying_in
@@ -8870,6 +8922,10 @@ class _StringsZhHk implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} 字';
 	@override String stat_format_chars_wan({required Object n}) => '${n} 萬字';
 	@override String get error_log_share_subject => 'hibiki 錯誤記錄';
+	@override String get update_never_remind => '不再提醒';
+	@override String get update_auto_install => '自動安裝更新';
+	@override String get update_settings => '更新設定';
+	@override String get anki_settings_label => 'Anki 設定';
 }
 
 // Path: retrying_in
@@ -9457,6 +9513,7 @@ extension on _StringsEn {
 			case 'custom_theme': return 'Custom Theme';
 			case 'dark_mode': return 'Dark Mode';
 			case 'seed_color': return 'Seed Color';
+			case 'font_color': return 'Font Color';
 			case 'apply_theme': return 'Apply Theme';
 			case 'preview': return 'Preview';
 			case 'share_theme': return 'Share Theme';
@@ -9482,6 +9539,10 @@ extension on _StringsEn {
 			case 'stat_format_chars': return ({required Object n}) => '${n} characters';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} characters';
 			case 'error_log_share_subject': return 'hibiki Error Log';
+			case 'update_never_remind': return 'Don\'t remind again';
+			case 'update_auto_install': return 'Auto-install updates';
+			case 'update_settings': return 'Update Settings';
+			case 'anki_settings_label': return 'Anki Settings';
 			default: return null;
 		}
 	}
@@ -10043,6 +10104,7 @@ extension on _StringsAr {
 			case 'custom_theme': return 'مظهر مخصص';
 			case 'dark_mode': return 'الوضع الداكن';
 			case 'seed_color': return 'اللون الأساسي';
+			case 'font_color': return 'لون الخط';
 			case 'apply_theme': return 'تطبيق المظهر';
 			case 'preview': return 'معاينة';
 			case 'share_theme': return 'مشاركة السمة';
@@ -10068,6 +10130,10 @@ extension on _StringsAr {
 			case 'stat_format_chars': return ({required Object n}) => '${n} حرف';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} حرف';
 			case 'error_log_share_subject': return 'سجل أخطاء hibiki';
+			case 'update_never_remind': return 'Don\'t remind again';
+			case 'update_auto_install': return 'Auto-install updates';
+			case 'update_settings': return 'Update Settings';
+			case 'anki_settings_label': return 'Anki Settings';
 			default: return null;
 		}
 	}
@@ -10629,6 +10695,7 @@ extension on _StringsDe {
 			case 'custom_theme': return 'Benutzerdefiniertes Design';
 			case 'dark_mode': return 'Dunkler Modus';
 			case 'seed_color': return 'Grundfarbe';
+			case 'font_color': return 'Schriftfarbe';
 			case 'apply_theme': return 'Design anwenden';
 			case 'preview': return 'Vorschau';
 			case 'share_theme': return 'Theme teilen';
@@ -10654,6 +10721,10 @@ extension on _StringsDe {
 			case 'stat_format_chars': return ({required Object n}) => '${n} Zeichen';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} Zeichen';
 			case 'error_log_share_subject': return 'hibiki Fehlerprotokoll';
+			case 'update_never_remind': return 'Don\'t remind again';
+			case 'update_auto_install': return 'Auto-install updates';
+			case 'update_settings': return 'Update Settings';
+			case 'anki_settings_label': return 'Anki Settings';
 			default: return null;
 		}
 	}
@@ -11215,6 +11286,7 @@ extension on _StringsEs {
 			case 'custom_theme': return 'Tema personalizado';
 			case 'dark_mode': return 'Modo oscuro';
 			case 'seed_color': return 'Color base';
+			case 'font_color': return 'Color de fuente';
 			case 'apply_theme': return 'Aplicar tema';
 			case 'preview': return 'Vista previa';
 			case 'share_theme': return 'Compartir tema';
@@ -11240,6 +11312,10 @@ extension on _StringsEs {
 			case 'stat_format_chars': return ({required Object n}) => '${n} caracteres';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} caracteres';
 			case 'error_log_share_subject': return 'Registro de errores de hibiki';
+			case 'update_never_remind': return 'Don\'t remind again';
+			case 'update_auto_install': return 'Auto-install updates';
+			case 'update_settings': return 'Update Settings';
+			case 'anki_settings_label': return 'Anki Settings';
 			default: return null;
 		}
 	}
@@ -11801,6 +11877,7 @@ extension on _StringsFr {
 			case 'custom_theme': return 'Thème personnalisé';
 			case 'dark_mode': return 'Mode sombre';
 			case 'seed_color': return 'Couleur de base';
+			case 'font_color': return 'Couleur de police';
 			case 'apply_theme': return 'Appliquer le thème';
 			case 'preview': return 'Aperçu';
 			case 'share_theme': return 'Partager le thème';
@@ -11826,6 +11903,10 @@ extension on _StringsFr {
 			case 'stat_format_chars': return ({required Object n}) => '${n} caractères';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} caractères';
 			case 'error_log_share_subject': return 'Journal d\'erreurs hibiki';
+			case 'update_never_remind': return 'Don\'t remind again';
+			case 'update_auto_install': return 'Auto-install updates';
+			case 'update_settings': return 'Update Settings';
+			case 'anki_settings_label': return 'Anki Settings';
 			default: return null;
 		}
 	}
@@ -12387,6 +12468,7 @@ extension on _StringsId {
 			case 'custom_theme': return 'Tema Kustom';
 			case 'dark_mode': return 'Mode Gelap';
 			case 'seed_color': return 'Warna Dasar';
+			case 'font_color': return 'Warna Font';
 			case 'apply_theme': return 'Terapkan Tema';
 			case 'preview': return 'Pratinjau';
 			case 'share_theme': return 'Bagikan Tema';
@@ -12412,6 +12494,10 @@ extension on _StringsId {
 			case 'stat_format_chars': return ({required Object n}) => '${n} karakter';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} karakter';
 			case 'error_log_share_subject': return 'Log Error hibiki';
+			case 'update_never_remind': return 'Don\'t remind again';
+			case 'update_auto_install': return 'Auto-install updates';
+			case 'update_settings': return 'Update Settings';
+			case 'anki_settings_label': return 'Anki Settings';
 			default: return null;
 		}
 	}
@@ -12973,6 +13059,7 @@ extension on _StringsJa {
 			case 'custom_theme': return 'カスタムテーマ';
 			case 'dark_mode': return 'ダークモード';
 			case 'seed_color': return 'シードカラー';
+			case 'font_color': return '文字色';
 			case 'apply_theme': return 'テーマを適用';
 			case 'preview': return 'プレビュー';
 			case 'share_theme': return 'テーマを共有';
@@ -12998,6 +13085,10 @@ extension on _StringsJa {
 			case 'stat_format_chars': return ({required Object n}) => '${n} 文字';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} 万字';
 			case 'error_log_share_subject': return 'hibiki エラーログ';
+			case 'update_never_remind': return '今後通知しない';
+			case 'update_auto_install': return '自動インストール';
+			case 'update_settings': return 'アップデート設定';
+			case 'anki_settings_label': return 'Anki 設定';
 			default: return null;
 		}
 	}
@@ -13559,6 +13650,7 @@ extension on _StringsKo {
 			case 'custom_theme': return '커스텀 테마';
 			case 'dark_mode': return '다크 모드';
 			case 'seed_color': return '시드 색상';
+			case 'font_color': return '글꼴 색상';
 			case 'apply_theme': return '테마 적용';
 			case 'preview': return '미리보기';
 			case 'share_theme': return '테마 공유';
@@ -13584,6 +13676,10 @@ extension on _StringsKo {
 			case 'stat_format_chars': return ({required Object n}) => '${n}자';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n}만자';
 			case 'error_log_share_subject': return 'hibiki 오류 로그';
+			case 'update_never_remind': return '다시 알리지 않기';
+			case 'update_auto_install': return '자동 설치';
+			case 'update_settings': return '업데이트 설정';
+			case 'anki_settings_label': return 'Anki 설정';
 			default: return null;
 		}
 	}
@@ -14145,6 +14241,7 @@ extension on _StringsPtBr {
 			case 'custom_theme': return 'Tema Personalizado';
 			case 'dark_mode': return 'Modo Escuro';
 			case 'seed_color': return 'Cor Base';
+			case 'font_color': return 'Cor da Fonte';
 			case 'apply_theme': return 'Aplicar Tema';
 			case 'preview': return 'Pré-visualização';
 			case 'share_theme': return 'Compartilhar tema';
@@ -14170,6 +14267,10 @@ extension on _StringsPtBr {
 			case 'stat_format_chars': return ({required Object n}) => '${n} caracteres';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} caracteres';
 			case 'error_log_share_subject': return 'Log de Erros do hibiki';
+			case 'update_never_remind': return 'Don\'t remind again';
+			case 'update_auto_install': return 'Auto-install updates';
+			case 'update_settings': return 'Update Settings';
+			case 'anki_settings_label': return 'Anki Settings';
 			default: return null;
 		}
 	}
@@ -14731,6 +14832,7 @@ extension on _StringsRu {
 			case 'custom_theme': return 'Пользовательская тема';
 			case 'dark_mode': return 'Тёмный режим';
 			case 'seed_color': return 'Базовый цвет';
+			case 'font_color': return 'Цвет шрифта';
 			case 'apply_theme': return 'Применить тему';
 			case 'preview': return 'Предпросмотр';
 			case 'share_theme': return 'Поделиться темой';
@@ -14756,6 +14858,10 @@ extension on _StringsRu {
 			case 'stat_format_chars': return ({required Object n}) => '${n} символов';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} символов';
 			case 'error_log_share_subject': return 'Журнал ошибок hibiki';
+			case 'update_never_remind': return 'Don\'t remind again';
+			case 'update_auto_install': return 'Auto-install updates';
+			case 'update_settings': return 'Update Settings';
+			case 'anki_settings_label': return 'Anki Settings';
 			default: return null;
 		}
 	}
@@ -15317,6 +15423,7 @@ extension on _StringsTh {
 			case 'custom_theme': return 'ธีมกำหนดเอง';
 			case 'dark_mode': return 'โหมดมืด';
 			case 'seed_color': return 'สีหลัก';
+			case 'font_color': return 'สีตัวอักษร';
 			case 'apply_theme': return 'ใช้ธีม';
 			case 'preview': return 'ดูตัวอย่าง';
 			case 'share_theme': return 'แชร์ธีม';
@@ -15342,6 +15449,10 @@ extension on _StringsTh {
 			case 'stat_format_chars': return ({required Object n}) => '${n} ตัวอักษร';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} ตัวอักษร';
 			case 'error_log_share_subject': return 'บันทึกข้อผิดพลาด hibiki';
+			case 'update_never_remind': return 'Don\'t remind again';
+			case 'update_auto_install': return 'Auto-install updates';
+			case 'update_settings': return 'Update Settings';
+			case 'anki_settings_label': return 'Anki Settings';
 			default: return null;
 		}
 	}
@@ -15903,6 +16014,7 @@ extension on _StringsVi {
 			case 'custom_theme': return 'Giao diện tùy chỉnh';
 			case 'dark_mode': return 'Chế độ tối';
 			case 'seed_color': return 'Màu chủ đạo';
+			case 'font_color': return 'Màu chữ';
 			case 'apply_theme': return 'Áp dụng giao diện';
 			case 'preview': return 'Xem trước';
 			case 'share_theme': return 'Chia sẻ giao diện';
@@ -15928,6 +16040,10 @@ extension on _StringsVi {
 			case 'stat_format_chars': return ({required Object n}) => '${n} ký tự';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} ký tự';
 			case 'error_log_share_subject': return 'Nhật ký lỗi hibiki';
+			case 'update_never_remind': return 'Don\'t remind again';
+			case 'update_auto_install': return 'Auto-install updates';
+			case 'update_settings': return 'Update Settings';
+			case 'anki_settings_label': return 'Anki Settings';
 			default: return null;
 		}
 	}
@@ -16489,6 +16605,7 @@ extension on _StringsZhCn {
 			case 'custom_theme': return '自定义主题';
 			case 'dark_mode': return '深色模式';
 			case 'seed_color': return '种子色';
+			case 'font_color': return '字体颜色';
 			case 'apply_theme': return '应用主题';
 			case 'preview': return '预览';
 			case 'share_theme': return '分享主题';
@@ -16514,6 +16631,10 @@ extension on _StringsZhCn {
 			case 'stat_format_chars': return ({required Object n}) => '${n} 字';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} 万字';
 			case 'error_log_share_subject': return 'hibiki 错误日志';
+			case 'update_never_remind': return '不再提醒';
+			case 'update_auto_install': return '自动安装更新';
+			case 'update_settings': return '更新设置';
+			case 'anki_settings_label': return 'Anki 设置';
 			default: return null;
 		}
 	}
@@ -17075,6 +17196,7 @@ extension on _StringsZhHk {
 			case 'custom_theme': return '自訂主題';
 			case 'dark_mode': return '深色模式';
 			case 'seed_color': return '種子色';
+			case 'font_color': return '字體顏色';
 			case 'apply_theme': return '套用主題';
 			case 'preview': return '預覽';
 			case 'share_theme': return '分享主題';
@@ -17100,6 +17222,10 @@ extension on _StringsZhHk {
 			case 'stat_format_chars': return ({required Object n}) => '${n} 字';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} 萬字';
 			case 'error_log_share_subject': return 'hibiki 錯誤記錄';
+			case 'update_never_remind': return '不再提醒';
+			case 'update_auto_install': return '自動安裝更新';
+			case 'update_settings': return '更新設定';
+			case 'anki_settings_label': return 'Anki 設定';
 			default: return null;
 		}
 	}
