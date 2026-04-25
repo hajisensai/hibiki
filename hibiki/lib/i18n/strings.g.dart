@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 14
-/// Strings: 8414 (601 per locale)
+/// Strings: 8554 (611 per locale)
 ///
-/// Built on 2026-04-25 at 11:39 UTC
+/// Built on 2026-04-25 at 13:04 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -193,6 +193,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get dialog_import => 'IMPORT';
 	String get dialog_import_dictionary => 'Import Dictionary';
 	String get dialog_import_folder => 'Import Folder Dictionary';
+	String get dialog_select_dictionary_type => 'Select dictionary type';
+	String get dictionary_type_term => 'Term';
+	String get dictionary_type_frequency => 'Frequency';
+	String get dictionary_type_pitch => 'Pitch';
+	String get dictionary_section_term => 'Term Dictionaries';
+	String get dictionary_section_frequency => 'Frequency Dictionaries';
+	String get dictionary_section_pitch => 'Pitch Dictionaries';
 	String get dialog_close => 'CLOSE';
 	String get dialog_clear => 'CLEAR';
 	String get dialog_clear_all_dictionaries => 'Delete All Dictionaries';
@@ -1372,11 +1379,6 @@ class _StringsAr implements _StringsEn {
 	@override String get import_theme_invalid => 'رمز سمة غير صالح';
 	@override String get import_theme_success => 'تم استيراد السمة';
 	@override String get auto_add_book_name_to_tags => 'إضافة عنوان الكتاب تلقائيًا للوسوم';
-	@override String get deduplicate_pitch_accents => 'إزالة تكرار لهجات النطق';
-	@override String get harmonic_frequency => 'تجميع ترددات الكلمات';
-	@override String get manage_audio_sources => 'إدارة مصادر الصوت';
-	@override String get local_audio => 'الصوت المحلي';
-	@override String get local_audio_not_set => 'لم يتم تحديد قاعدة بيانات';
 	@override String get use_recommended_template => 'موصى به';
 	@override String get recommended_template_exists => 'الملف الشخصي القياسي موجود بالفعل.';
 	@override String get recommended_template_created => 'تم إنشاء الملف الشخصي الموصى به.';
@@ -1416,6 +1418,18 @@ class _StringsAr implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 	@override String get anki_manage_profiles => 'Manage Export Profiles';
 	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+	@override String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
+	@override String get harmonic_frequency => 'Aggregate word frequencies';
+	@override String get manage_audio_sources => 'Manage audio sources';
+	@override String get local_audio => 'الصوت المحلي';
+	@override String get local_audio_not_set => 'لم يتم تحديد قاعدة بيانات';
+	@override String get dialog_select_dictionary_type => 'Select dictionary type';
+	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
+	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
+	@override String get dictionary_section_term => 'Term Dictionaries';
+	@override String get dictionary_type_frequency => 'Frequency';
+	@override String get dictionary_type_pitch => 'Pitch';
+	@override String get dictionary_type_term => 'Term';
 }
 
 // Path: retrying_in
@@ -2027,11 +2041,6 @@ class _StringsDe implements _StringsEn {
 	@override String get import_theme_invalid => 'Ungültiger Theme-Code';
 	@override String get import_theme_success => 'Theme importiert';
 	@override String get auto_add_book_name_to_tags => 'Buchtitel automatisch zu Tags hinzufügen';
-	@override String get deduplicate_pitch_accents => 'Tonhöhenakzente deduplizieren';
-	@override String get harmonic_frequency => 'Wortfrequenzen aggregieren';
-	@override String get manage_audio_sources => 'Audioquellen verwalten';
-	@override String get local_audio => 'Lokales Audio';
-	@override String get local_audio_not_set => 'Keine Datenbank ausgewählt';
 	@override String get use_recommended_template => 'Empfohlen';
 	@override String get recommended_template_exists => 'Das Standardprofil existiert bereits.';
 	@override String get recommended_template_created => 'Empfohlenes Profil wurde erstellt.';
@@ -2071,6 +2080,18 @@ class _StringsDe implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 	@override String get anki_manage_profiles => 'Manage Export Profiles';
 	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+	@override String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
+	@override String get harmonic_frequency => 'Aggregate word frequencies';
+	@override String get manage_audio_sources => 'Manage audio sources';
+	@override String get local_audio => 'Lokales Audio';
+	@override String get local_audio_not_set => 'Keine Datenbank ausgewählt';
+	@override String get dialog_select_dictionary_type => 'Select dictionary type';
+	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
+	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
+	@override String get dictionary_section_term => 'Term Dictionaries';
+	@override String get dictionary_type_frequency => 'Frequency';
+	@override String get dictionary_type_pitch => 'Pitch';
+	@override String get dictionary_type_term => 'Term';
 }
 
 // Path: retrying_in
@@ -2682,11 +2703,6 @@ class _StringsEs implements _StringsEn {
 	@override String get import_theme_invalid => 'Código de tema no válido';
 	@override String get import_theme_success => 'Tema importado';
 	@override String get auto_add_book_name_to_tags => 'Añadir título del libro a las etiquetas automáticamente';
-	@override String get deduplicate_pitch_accents => 'Deduplicar acentos tonales';
-	@override String get harmonic_frequency => 'Agregar frecuencias de palabras';
-	@override String get manage_audio_sources => 'Gestionar fuentes de audio';
-	@override String get local_audio => 'Audio local';
-	@override String get local_audio_not_set => 'No se seleccionó base de datos';
 	@override String get use_recommended_template => 'Recomendado';
 	@override String get recommended_template_exists => 'El perfil estándar ya existe.';
 	@override String get recommended_template_created => 'Se ha creado el perfil recomendado.';
@@ -2726,6 +2742,18 @@ class _StringsEs implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 	@override String get anki_manage_profiles => 'Manage Export Profiles';
 	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+	@override String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
+	@override String get harmonic_frequency => 'Aggregate word frequencies';
+	@override String get manage_audio_sources => 'Manage audio sources';
+	@override String get local_audio => 'Audio local';
+	@override String get local_audio_not_set => 'No se seleccionó base de datos';
+	@override String get dialog_select_dictionary_type => 'Select dictionary type';
+	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
+	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
+	@override String get dictionary_section_term => 'Term Dictionaries';
+	@override String get dictionary_type_frequency => 'Frequency';
+	@override String get dictionary_type_pitch => 'Pitch';
+	@override String get dictionary_type_term => 'Term';
 }
 
 // Path: retrying_in
@@ -3337,11 +3365,6 @@ class _StringsFr implements _StringsEn {
 	@override String get import_theme_invalid => 'Code de thème invalide';
 	@override String get import_theme_success => 'Thème importé';
 	@override String get auto_add_book_name_to_tags => 'Ajouter automatiquement le titre du livre aux étiquettes';
-	@override String get deduplicate_pitch_accents => 'Dédupliquer les accents tonaux';
-	@override String get harmonic_frequency => 'Agréger les fréquences';
-	@override String get manage_audio_sources => 'Gérer les sources audio';
-	@override String get local_audio => 'Audio local';
-	@override String get local_audio_not_set => 'Aucune base de données sélectionnée';
 	@override String get use_recommended_template => 'Recommandé';
 	@override String get recommended_template_exists => 'Le profil standard existe déjà.';
 	@override String get recommended_template_created => 'Le profil recommandé a été créé.';
@@ -3381,6 +3404,18 @@ class _StringsFr implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 	@override String get anki_manage_profiles => 'Manage Export Profiles';
 	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+	@override String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
+	@override String get harmonic_frequency => 'Aggregate word frequencies';
+	@override String get manage_audio_sources => 'Manage audio sources';
+	@override String get local_audio => 'Audio local';
+	@override String get local_audio_not_set => 'Aucune base de données sélectionnée';
+	@override String get dialog_select_dictionary_type => 'Select dictionary type';
+	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
+	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
+	@override String get dictionary_section_term => 'Term Dictionaries';
+	@override String get dictionary_type_frequency => 'Frequency';
+	@override String get dictionary_type_pitch => 'Pitch';
+	@override String get dictionary_type_term => 'Term';
 }
 
 // Path: retrying_in
@@ -3992,11 +4027,6 @@ class _StringsId implements _StringsEn {
 	@override String get import_theme_invalid => 'Kode tema tidak valid';
 	@override String get import_theme_success => 'Tema berhasil diimpor';
 	@override String get auto_add_book_name_to_tags => 'Tambahkan judul buku ke tag secara otomatis';
-	@override String get deduplicate_pitch_accents => 'Deduplikasi aksen nada';
-	@override String get harmonic_frequency => 'Agregasi frekuensi kata';
-	@override String get manage_audio_sources => 'Kelola sumber audio';
-	@override String get local_audio => 'Audio lokal';
-	@override String get local_audio_not_set => 'Tidak ada database yang dipilih';
 	@override String get use_recommended_template => 'Rekomendasi';
 	@override String get recommended_template_exists => 'Profil standar sudah ada.';
 	@override String get recommended_template_created => 'Profil rekomendasi telah dibuat.';
@@ -4036,6 +4066,18 @@ class _StringsId implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 	@override String get anki_manage_profiles => 'Manage Export Profiles';
 	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+	@override String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
+	@override String get harmonic_frequency => 'Aggregate word frequencies';
+	@override String get manage_audio_sources => 'Manage audio sources';
+	@override String get local_audio => 'Audio lokal';
+	@override String get local_audio_not_set => 'Tidak ada database yang dipilih';
+	@override String get dialog_select_dictionary_type => 'Select dictionary type';
+	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
+	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
+	@override String get dictionary_section_term => 'Term Dictionaries';
+	@override String get dictionary_type_frequency => 'Frequency';
+	@override String get dictionary_type_pitch => 'Pitch';
+	@override String get dictionary_type_term => 'Term';
 }
 
 // Path: retrying_in
@@ -4649,7 +4691,7 @@ class _StringsJa implements _StringsEn {
 	@override String get auto_add_book_name_to_tags => 'タグに本のタイトルを自動追加';
 	@override String get deduplicate_pitch_accents => 'アクセント重複除外';
 	@override String get harmonic_frequency => '語彙頻度集約';
-	@override String get manage_audio_sources => '音声ソースの管理';
+	@override String get manage_audio_sources => 'Manage audio sources';
 	@override String get local_audio => 'ローカル音声';
 	@override String get local_audio_not_set => 'データベース未選択';
 	@override String get use_recommended_template => '推奨';
@@ -4691,6 +4733,13 @@ class _StringsJa implements _StringsEn {
 	@override String get hint_vert_text_orient => '混合：数字とラテン文字は横向きに回転。正立：すべての文字が直立のまま。';
 	@override String get anki_manage_profiles => 'エクスポートプロファイル管理';
 	@override String get anki_manage_profiles_hint => 'AnkiDroidへのエクスポート時のフィールドマッピングを設定します。各プロファイルはAnkiのノートタイプに紐づき、hibikiのフィールドがAnkiのどのフィールドに入るかを定義します。';
+	@override String get dialog_select_dictionary_type => 'Select dictionary type';
+	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
+	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
+	@override String get dictionary_section_term => 'Term Dictionaries';
+	@override String get dictionary_type_frequency => 'Frequency';
+	@override String get dictionary_type_pitch => 'Pitch';
+	@override String get dictionary_type_term => 'Term';
 }
 
 // Path: retrying_in
@@ -5302,11 +5351,6 @@ class _StringsKo implements _StringsEn {
 	@override String get import_theme_invalid => '잘못된 테마 코드';
 	@override String get import_theme_success => '테마를 가져왔습니다';
 	@override String get auto_add_book_name_to_tags => '태그에 책 제목 자동 추가';
-	@override String get deduplicate_pitch_accents => '피치 액센트 중복 제거';
-	@override String get harmonic_frequency => '단어 빈도 집계';
-	@override String get manage_audio_sources => '오디오 소스 관리';
-	@override String get local_audio => '로컬 오디오';
-	@override String get local_audio_not_set => '데이터베이스가 선택되지 않았습니다';
 	@override String get use_recommended_template => '추천';
 	@override String get recommended_template_exists => '기본 프로필이 이미 존재합니다.';
 	@override String get recommended_template_created => '추천 프로필이 생성되었습니다.';
@@ -5346,6 +5390,18 @@ class _StringsKo implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 	@override String get anki_manage_profiles => 'Manage Export Profiles';
 	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+	@override String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
+	@override String get harmonic_frequency => 'Aggregate word frequencies';
+	@override String get manage_audio_sources => 'Manage audio sources';
+	@override String get local_audio => '로컬 오디오';
+	@override String get local_audio_not_set => '데이터베이스가 선택되지 않았습니다';
+	@override String get dialog_select_dictionary_type => 'Select dictionary type';
+	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
+	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
+	@override String get dictionary_section_term => 'Term Dictionaries';
+	@override String get dictionary_type_frequency => 'Frequency';
+	@override String get dictionary_type_pitch => 'Pitch';
+	@override String get dictionary_type_term => 'Term';
 }
 
 // Path: retrying_in
@@ -5957,11 +6013,6 @@ class _StringsPtBr implements _StringsEn {
 	@override String get import_theme_invalid => 'Código de tema inválido';
 	@override String get import_theme_success => 'Tema importado';
 	@override String get auto_add_book_name_to_tags => 'Adicionar título do livro às tags automaticamente';
-	@override String get deduplicate_pitch_accents => 'Deduplicar acentos tonais';
-	@override String get harmonic_frequency => 'Agregar frequências de palavras';
-	@override String get manage_audio_sources => 'Gerenciar fontes de áudio';
-	@override String get local_audio => 'Áudio local';
-	@override String get local_audio_not_set => 'Nenhum banco de dados selecionado';
 	@override String get use_recommended_template => 'Recomendado';
 	@override String get recommended_template_exists => 'O perfil padrão já existe.';
 	@override String get recommended_template_created => 'O perfil recomendado foi criado.';
@@ -6001,6 +6052,18 @@ class _StringsPtBr implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 	@override String get anki_manage_profiles => 'Manage Export Profiles';
 	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+	@override String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
+	@override String get harmonic_frequency => 'Aggregate word frequencies';
+	@override String get manage_audio_sources => 'Manage audio sources';
+	@override String get local_audio => 'Áudio local';
+	@override String get local_audio_not_set => 'Nenhum banco de dados selecionado';
+	@override String get dialog_select_dictionary_type => 'Select dictionary type';
+	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
+	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
+	@override String get dictionary_section_term => 'Term Dictionaries';
+	@override String get dictionary_type_frequency => 'Frequency';
+	@override String get dictionary_type_pitch => 'Pitch';
+	@override String get dictionary_type_term => 'Term';
 }
 
 // Path: retrying_in
@@ -6612,11 +6675,6 @@ class _StringsRu implements _StringsEn {
 	@override String get import_theme_invalid => 'Недействительный код темы';
 	@override String get import_theme_success => 'Тема импортирована';
 	@override String get auto_add_book_name_to_tags => 'Автодобавление названия книги в теги';
-	@override String get deduplicate_pitch_accents => 'Дедупликация тональных акцентов';
-	@override String get harmonic_frequency => 'Агрегация частот слов';
-	@override String get manage_audio_sources => 'Управление аудиоисточниками';
-	@override String get local_audio => 'Локальное аудио';
-	@override String get local_audio_not_set => 'База данных не выбрана';
 	@override String get use_recommended_template => 'Рекомендуемый';
 	@override String get recommended_template_exists => 'Стандартный профиль уже существует.';
 	@override String get recommended_template_created => 'Рекомендуемый профиль создан.';
@@ -6656,6 +6714,18 @@ class _StringsRu implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 	@override String get anki_manage_profiles => 'Manage Export Profiles';
 	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+	@override String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
+	@override String get harmonic_frequency => 'Aggregate word frequencies';
+	@override String get manage_audio_sources => 'Manage audio sources';
+	@override String get local_audio => 'Локальное аудио';
+	@override String get local_audio_not_set => 'База данных не выбрана';
+	@override String get dialog_select_dictionary_type => 'Select dictionary type';
+	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
+	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
+	@override String get dictionary_section_term => 'Term Dictionaries';
+	@override String get dictionary_type_frequency => 'Frequency';
+	@override String get dictionary_type_pitch => 'Pitch';
+	@override String get dictionary_type_term => 'Term';
 }
 
 // Path: retrying_in
@@ -7267,11 +7337,6 @@ class _StringsTh implements _StringsEn {
 	@override String get import_theme_invalid => 'โค้ดธีมไม่ถูกต้อง';
 	@override String get import_theme_success => 'นำเข้าธีมแล้ว';
 	@override String get auto_add_book_name_to_tags => 'เพิ่มชื่อหนังสือในแท็กอัตโนมัติ';
-	@override String get deduplicate_pitch_accents => 'ลบซ้ำสำเนียง';
-	@override String get harmonic_frequency => 'รวมความถี่คำ';
-	@override String get manage_audio_sources => 'จัดการแหล่งเสียง';
-	@override String get local_audio => 'เสียงในเครื่อง';
-	@override String get local_audio_not_set => 'ยังไม่ได้เลือกฐานข้อมูล';
 	@override String get use_recommended_template => 'แนะนำ';
 	@override String get recommended_template_exists => 'โปรไฟล์มาตรฐานมีอยู่แล้ว';
 	@override String get recommended_template_created => 'สร้างโปรไฟล์ที่แนะนำแล้ว';
@@ -7311,6 +7376,18 @@ class _StringsTh implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 	@override String get anki_manage_profiles => 'Manage Export Profiles';
 	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+	@override String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
+	@override String get harmonic_frequency => 'Aggregate word frequencies';
+	@override String get manage_audio_sources => 'Manage audio sources';
+	@override String get local_audio => 'เสียงในเครื่อง';
+	@override String get local_audio_not_set => 'ยังไม่ได้เลือกฐานข้อมูล';
+	@override String get dialog_select_dictionary_type => 'Select dictionary type';
+	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
+	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
+	@override String get dictionary_section_term => 'Term Dictionaries';
+	@override String get dictionary_type_frequency => 'Frequency';
+	@override String get dictionary_type_pitch => 'Pitch';
+	@override String get dictionary_type_term => 'Term';
 }
 
 // Path: retrying_in
@@ -7922,11 +7999,6 @@ class _StringsVi implements _StringsEn {
 	@override String get import_theme_invalid => 'Mã giao diện không hợp lệ';
 	@override String get import_theme_success => 'Đã nhập giao diện';
 	@override String get auto_add_book_name_to_tags => 'Tự thêm tên sách vào tag';
-	@override String get deduplicate_pitch_accents => 'Loại trùng thanh điệu';
-	@override String get harmonic_frequency => 'Tổng hợp tần suất từ';
-	@override String get manage_audio_sources => 'Quản lý nguồn âm thanh';
-	@override String get local_audio => 'Âm thanh cục bộ';
-	@override String get local_audio_not_set => 'Chưa chọn cơ sở dữ liệu';
 	@override String get use_recommended_template => 'Được đề xuất';
 	@override String get recommended_template_exists => 'Hồ sơ mặc định đã tồn tại.';
 	@override String get recommended_template_created => 'Đã tạo hồ sơ được đề xuất.';
@@ -7966,6 +8038,18 @@ class _StringsVi implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 	@override String get anki_manage_profiles => 'Manage Export Profiles';
 	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+	@override String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
+	@override String get harmonic_frequency => 'Aggregate word frequencies';
+	@override String get manage_audio_sources => 'Manage audio sources';
+	@override String get local_audio => 'Âm thanh cục bộ';
+	@override String get local_audio_not_set => 'Chưa chọn cơ sở dữ liệu';
+	@override String get dialog_select_dictionary_type => 'Select dictionary type';
+	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
+	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
+	@override String get dictionary_section_term => 'Term Dictionaries';
+	@override String get dictionary_type_frequency => 'Frequency';
+	@override String get dictionary_type_pitch => 'Pitch';
+	@override String get dictionary_type_term => 'Term';
 }
 
 // Path: retrying_in
@@ -8053,6 +8137,13 @@ class _StringsZhCn implements _StringsEn {
 	@override String get dialog_import => '导入';
 	@override String get dialog_import_dictionary => '导入词典';
 	@override String get dialog_import_folder => '导入文件夹词典';
+	@override String get dialog_select_dictionary_type => '选择词典类型';
+	@override String get dictionary_type_term => '释义';
+	@override String get dictionary_type_frequency => '词频';
+	@override String get dictionary_type_pitch => '音调';
+	@override String get dictionary_section_term => '释义词典';
+	@override String get dictionary_section_frequency => '词频词典';
+	@override String get dictionary_section_pitch => '音调词典';
 	@override String get dialog_close => '关闭';
 	@override String get dialog_clear => '清除';
 	@override String get dialog_clear_all_dictionaries => '删除所有词典';
@@ -8579,7 +8670,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get auto_add_book_name_to_tags => '自动添加书名到标签';
 	@override String get deduplicate_pitch_accents => '音调去重';
 	@override String get harmonic_frequency => '词频聚合';
-	@override String get manage_audio_sources => '管理音频源';
+	@override String get manage_audio_sources => 'Manage audio sources';
 	@override String get local_audio => '本地音频';
 	@override String get local_audio_not_set => '未选择数据库';
 	@override String get use_recommended_template => '推荐模板';
@@ -9232,11 +9323,6 @@ class _StringsZhHk implements _StringsEn {
 	@override String get import_theme_invalid => '無效的主題代碼';
 	@override String get import_theme_success => '主題已匯入';
 	@override String get auto_add_book_name_to_tags => '自動將書名加入標籤';
-	@override String get deduplicate_pitch_accents => '音調去重';
-	@override String get harmonic_frequency => '詞頻聚合';
-	@override String get manage_audio_sources => '管理音頻源';
-	@override String get local_audio => '本地音頻';
-	@override String get local_audio_not_set => '未選擇數據庫';
 	@override String get use_recommended_template => '推薦範本';
 	@override String get recommended_template_exists => '標準設定檔已存在。';
 	@override String get recommended_template_created => '已建立推薦設定檔。';
@@ -9276,6 +9362,18 @@ class _StringsZhHk implements _StringsEn {
 	@override String get hint_vert_text_orient => '混合：数字和西文字母旋转为横向。直立：所有字符保持直立。';
 	@override String get anki_manage_profiles => '管理导出配置';
 	@override String get anki_manage_profiles_hint => '配置导出到 AnkiDroid 时各字段的映射方式。每个配置绑定一个 Anki 笔记类型，定义 hibiki 的哪个字段填充 Anki 的哪个字段。';
+	@override String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
+	@override String get harmonic_frequency => 'Aggregate word frequencies';
+	@override String get manage_audio_sources => 'Manage audio sources';
+	@override String get local_audio => '本地音頻';
+	@override String get local_audio_not_set => '未選擇數據庫';
+	@override String get dialog_select_dictionary_type => 'Select dictionary type';
+	@override String get dictionary_section_frequency => 'Frequency Dictionaries';
+	@override String get dictionary_section_pitch => 'Pitch Dictionaries';
+	@override String get dictionary_section_term => 'Term Dictionaries';
+	@override String get dictionary_type_frequency => 'Frequency';
+	@override String get dictionary_type_pitch => 'Pitch';
+	@override String get dictionary_type_term => 'Term';
 }
 
 // Path: retrying_in
@@ -9344,6 +9442,13 @@ extension on _StringsEn {
 			case 'dialog_import': return 'IMPORT';
 			case 'dialog_import_dictionary': return 'Import Dictionary';
 			case 'dialog_import_folder': return 'Import Folder Dictionary';
+			case 'dialog_select_dictionary_type': return 'Select dictionary type';
+			case 'dictionary_type_term': return 'Term';
+			case 'dictionary_type_frequency': return 'Frequency';
+			case 'dictionary_type_pitch': return 'Pitch';
+			case 'dictionary_section_term': return 'Term Dictionaries';
+			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
+			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
 			case 'dialog_close': return 'CLOSE';
 			case 'dialog_clear': return 'CLEAR';
 			case 'dialog_clear_all_dictionaries': return 'Delete All Dictionaries';
@@ -10490,11 +10595,6 @@ extension on _StringsAr {
 			case 'import_theme_invalid': return 'رمز سمة غير صالح';
 			case 'import_theme_success': return 'تم استيراد السمة';
 			case 'auto_add_book_name_to_tags': return 'إضافة عنوان الكتاب تلقائيًا للوسوم';
-			case 'deduplicate_pitch_accents': return 'إزالة تكرار لهجات النطق';
-			case 'harmonic_frequency': return 'تجميع ترددات الكلمات';
-			case 'manage_audio_sources': return 'إدارة مصادر الصوت';
-			case 'local_audio': return 'الصوت المحلي';
-			case 'local_audio_not_set': return 'لم يتم تحديد قاعدة بيانات';
 			case 'use_recommended_template': return 'موصى به';
 			case 'recommended_template_exists': return 'الملف الشخصي القياسي موجود بالفعل.';
 			case 'recommended_template_created': return 'تم إنشاء الملف الشخصي الموصى به.';
@@ -10534,6 +10634,18 @@ extension on _StringsAr {
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			case 'anki_manage_profiles': return 'Manage Export Profiles';
 			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
+			case 'harmonic_frequency': return 'Aggregate word frequencies';
+			case 'manage_audio_sources': return 'Manage audio sources';
+			case 'local_audio': return 'الصوت المحلي';
+			case 'local_audio_not_set': return 'لم يتم تحديد قاعدة بيانات';
+			case 'dialog_select_dictionary_type': return 'Select dictionary type';
+			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
+			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
+			case 'dictionary_section_term': return 'Term Dictionaries';
+			case 'dictionary_type_frequency': return 'Frequency';
+			case 'dictionary_type_pitch': return 'Pitch';
+			case 'dictionary_type_term': return 'Term';
 			default: return null;
 		}
 	}
@@ -11106,11 +11218,6 @@ extension on _StringsDe {
 			case 'import_theme_invalid': return 'Ungültiger Theme-Code';
 			case 'import_theme_success': return 'Theme importiert';
 			case 'auto_add_book_name_to_tags': return 'Buchtitel automatisch zu Tags hinzufügen';
-			case 'deduplicate_pitch_accents': return 'Tonhöhenakzente deduplizieren';
-			case 'harmonic_frequency': return 'Wortfrequenzen aggregieren';
-			case 'manage_audio_sources': return 'Audioquellen verwalten';
-			case 'local_audio': return 'Lokales Audio';
-			case 'local_audio_not_set': return 'Keine Datenbank ausgewählt';
 			case 'use_recommended_template': return 'Empfohlen';
 			case 'recommended_template_exists': return 'Das Standardprofil existiert bereits.';
 			case 'recommended_template_created': return 'Empfohlenes Profil wurde erstellt.';
@@ -11150,6 +11257,18 @@ extension on _StringsDe {
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			case 'anki_manage_profiles': return 'Manage Export Profiles';
 			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
+			case 'harmonic_frequency': return 'Aggregate word frequencies';
+			case 'manage_audio_sources': return 'Manage audio sources';
+			case 'local_audio': return 'Lokales Audio';
+			case 'local_audio_not_set': return 'Keine Datenbank ausgewählt';
+			case 'dialog_select_dictionary_type': return 'Select dictionary type';
+			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
+			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
+			case 'dictionary_section_term': return 'Term Dictionaries';
+			case 'dictionary_type_frequency': return 'Frequency';
+			case 'dictionary_type_pitch': return 'Pitch';
+			case 'dictionary_type_term': return 'Term';
 			default: return null;
 		}
 	}
@@ -11722,11 +11841,6 @@ extension on _StringsEs {
 			case 'import_theme_invalid': return 'Código de tema no válido';
 			case 'import_theme_success': return 'Tema importado';
 			case 'auto_add_book_name_to_tags': return 'Añadir título del libro a las etiquetas automáticamente';
-			case 'deduplicate_pitch_accents': return 'Deduplicar acentos tonales';
-			case 'harmonic_frequency': return 'Agregar frecuencias de palabras';
-			case 'manage_audio_sources': return 'Gestionar fuentes de audio';
-			case 'local_audio': return 'Audio local';
-			case 'local_audio_not_set': return 'No se seleccionó base de datos';
 			case 'use_recommended_template': return 'Recomendado';
 			case 'recommended_template_exists': return 'El perfil estándar ya existe.';
 			case 'recommended_template_created': return 'Se ha creado el perfil recomendado.';
@@ -11766,6 +11880,18 @@ extension on _StringsEs {
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			case 'anki_manage_profiles': return 'Manage Export Profiles';
 			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
+			case 'harmonic_frequency': return 'Aggregate word frequencies';
+			case 'manage_audio_sources': return 'Manage audio sources';
+			case 'local_audio': return 'Audio local';
+			case 'local_audio_not_set': return 'No se seleccionó base de datos';
+			case 'dialog_select_dictionary_type': return 'Select dictionary type';
+			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
+			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
+			case 'dictionary_section_term': return 'Term Dictionaries';
+			case 'dictionary_type_frequency': return 'Frequency';
+			case 'dictionary_type_pitch': return 'Pitch';
+			case 'dictionary_type_term': return 'Term';
 			default: return null;
 		}
 	}
@@ -12338,11 +12464,6 @@ extension on _StringsFr {
 			case 'import_theme_invalid': return 'Code de thème invalide';
 			case 'import_theme_success': return 'Thème importé';
 			case 'auto_add_book_name_to_tags': return 'Ajouter automatiquement le titre du livre aux étiquettes';
-			case 'deduplicate_pitch_accents': return 'Dédupliquer les accents tonaux';
-			case 'harmonic_frequency': return 'Agréger les fréquences';
-			case 'manage_audio_sources': return 'Gérer les sources audio';
-			case 'local_audio': return 'Audio local';
-			case 'local_audio_not_set': return 'Aucune base de données sélectionnée';
 			case 'use_recommended_template': return 'Recommandé';
 			case 'recommended_template_exists': return 'Le profil standard existe déjà.';
 			case 'recommended_template_created': return 'Le profil recommandé a été créé.';
@@ -12382,6 +12503,18 @@ extension on _StringsFr {
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			case 'anki_manage_profiles': return 'Manage Export Profiles';
 			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
+			case 'harmonic_frequency': return 'Aggregate word frequencies';
+			case 'manage_audio_sources': return 'Manage audio sources';
+			case 'local_audio': return 'Audio local';
+			case 'local_audio_not_set': return 'Aucune base de données sélectionnée';
+			case 'dialog_select_dictionary_type': return 'Select dictionary type';
+			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
+			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
+			case 'dictionary_section_term': return 'Term Dictionaries';
+			case 'dictionary_type_frequency': return 'Frequency';
+			case 'dictionary_type_pitch': return 'Pitch';
+			case 'dictionary_type_term': return 'Term';
 			default: return null;
 		}
 	}
@@ -12954,11 +13087,6 @@ extension on _StringsId {
 			case 'import_theme_invalid': return 'Kode tema tidak valid';
 			case 'import_theme_success': return 'Tema berhasil diimpor';
 			case 'auto_add_book_name_to_tags': return 'Tambahkan judul buku ke tag secara otomatis';
-			case 'deduplicate_pitch_accents': return 'Deduplikasi aksen nada';
-			case 'harmonic_frequency': return 'Agregasi frekuensi kata';
-			case 'manage_audio_sources': return 'Kelola sumber audio';
-			case 'local_audio': return 'Audio lokal';
-			case 'local_audio_not_set': return 'Tidak ada database yang dipilih';
 			case 'use_recommended_template': return 'Rekomendasi';
 			case 'recommended_template_exists': return 'Profil standar sudah ada.';
 			case 'recommended_template_created': return 'Profil rekomendasi telah dibuat.';
@@ -12998,6 +13126,18 @@ extension on _StringsId {
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			case 'anki_manage_profiles': return 'Manage Export Profiles';
 			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
+			case 'harmonic_frequency': return 'Aggregate word frequencies';
+			case 'manage_audio_sources': return 'Manage audio sources';
+			case 'local_audio': return 'Audio lokal';
+			case 'local_audio_not_set': return 'Tidak ada database yang dipilih';
+			case 'dialog_select_dictionary_type': return 'Select dictionary type';
+			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
+			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
+			case 'dictionary_section_term': return 'Term Dictionaries';
+			case 'dictionary_type_frequency': return 'Frequency';
+			case 'dictionary_type_pitch': return 'Pitch';
+			case 'dictionary_type_term': return 'Term';
 			default: return null;
 		}
 	}
@@ -13572,7 +13712,7 @@ extension on _StringsJa {
 			case 'auto_add_book_name_to_tags': return 'タグに本のタイトルを自動追加';
 			case 'deduplicate_pitch_accents': return 'アクセント重複除外';
 			case 'harmonic_frequency': return '語彙頻度集約';
-			case 'manage_audio_sources': return '音声ソースの管理';
+			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'local_audio': return 'ローカル音声';
 			case 'local_audio_not_set': return 'データベース未選択';
 			case 'use_recommended_template': return '推奨';
@@ -13614,6 +13754,13 @@ extension on _StringsJa {
 			case 'hint_vert_text_orient': return '混合：数字とラテン文字は横向きに回転。正立：すべての文字が直立のまま。';
 			case 'anki_manage_profiles': return 'エクスポートプロファイル管理';
 			case 'anki_manage_profiles_hint': return 'AnkiDroidへのエクスポート時のフィールドマッピングを設定します。各プロファイルはAnkiのノートタイプに紐づき、hibikiのフィールドがAnkiのどのフィールドに入るかを定義します。';
+			case 'dialog_select_dictionary_type': return 'Select dictionary type';
+			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
+			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
+			case 'dictionary_section_term': return 'Term Dictionaries';
+			case 'dictionary_type_frequency': return 'Frequency';
+			case 'dictionary_type_pitch': return 'Pitch';
+			case 'dictionary_type_term': return 'Term';
 			default: return null;
 		}
 	}
@@ -14186,11 +14333,6 @@ extension on _StringsKo {
 			case 'import_theme_invalid': return '잘못된 테마 코드';
 			case 'import_theme_success': return '테마를 가져왔습니다';
 			case 'auto_add_book_name_to_tags': return '태그에 책 제목 자동 추가';
-			case 'deduplicate_pitch_accents': return '피치 액센트 중복 제거';
-			case 'harmonic_frequency': return '단어 빈도 집계';
-			case 'manage_audio_sources': return '오디오 소스 관리';
-			case 'local_audio': return '로컬 오디오';
-			case 'local_audio_not_set': return '데이터베이스가 선택되지 않았습니다';
 			case 'use_recommended_template': return '추천';
 			case 'recommended_template_exists': return '기본 프로필이 이미 존재합니다.';
 			case 'recommended_template_created': return '추천 프로필이 생성되었습니다.';
@@ -14230,6 +14372,18 @@ extension on _StringsKo {
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			case 'anki_manage_profiles': return 'Manage Export Profiles';
 			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
+			case 'harmonic_frequency': return 'Aggregate word frequencies';
+			case 'manage_audio_sources': return 'Manage audio sources';
+			case 'local_audio': return '로컬 오디오';
+			case 'local_audio_not_set': return '데이터베이스가 선택되지 않았습니다';
+			case 'dialog_select_dictionary_type': return 'Select dictionary type';
+			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
+			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
+			case 'dictionary_section_term': return 'Term Dictionaries';
+			case 'dictionary_type_frequency': return 'Frequency';
+			case 'dictionary_type_pitch': return 'Pitch';
+			case 'dictionary_type_term': return 'Term';
 			default: return null;
 		}
 	}
@@ -14802,11 +14956,6 @@ extension on _StringsPtBr {
 			case 'import_theme_invalid': return 'Código de tema inválido';
 			case 'import_theme_success': return 'Tema importado';
 			case 'auto_add_book_name_to_tags': return 'Adicionar título do livro às tags automaticamente';
-			case 'deduplicate_pitch_accents': return 'Deduplicar acentos tonais';
-			case 'harmonic_frequency': return 'Agregar frequências de palavras';
-			case 'manage_audio_sources': return 'Gerenciar fontes de áudio';
-			case 'local_audio': return 'Áudio local';
-			case 'local_audio_not_set': return 'Nenhum banco de dados selecionado';
 			case 'use_recommended_template': return 'Recomendado';
 			case 'recommended_template_exists': return 'O perfil padrão já existe.';
 			case 'recommended_template_created': return 'O perfil recomendado foi criado.';
@@ -14846,6 +14995,18 @@ extension on _StringsPtBr {
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			case 'anki_manage_profiles': return 'Manage Export Profiles';
 			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
+			case 'harmonic_frequency': return 'Aggregate word frequencies';
+			case 'manage_audio_sources': return 'Manage audio sources';
+			case 'local_audio': return 'Áudio local';
+			case 'local_audio_not_set': return 'Nenhum banco de dados selecionado';
+			case 'dialog_select_dictionary_type': return 'Select dictionary type';
+			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
+			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
+			case 'dictionary_section_term': return 'Term Dictionaries';
+			case 'dictionary_type_frequency': return 'Frequency';
+			case 'dictionary_type_pitch': return 'Pitch';
+			case 'dictionary_type_term': return 'Term';
 			default: return null;
 		}
 	}
@@ -15418,11 +15579,6 @@ extension on _StringsRu {
 			case 'import_theme_invalid': return 'Недействительный код темы';
 			case 'import_theme_success': return 'Тема импортирована';
 			case 'auto_add_book_name_to_tags': return 'Автодобавление названия книги в теги';
-			case 'deduplicate_pitch_accents': return 'Дедупликация тональных акцентов';
-			case 'harmonic_frequency': return 'Агрегация частот слов';
-			case 'manage_audio_sources': return 'Управление аудиоисточниками';
-			case 'local_audio': return 'Локальное аудио';
-			case 'local_audio_not_set': return 'База данных не выбрана';
 			case 'use_recommended_template': return 'Рекомендуемый';
 			case 'recommended_template_exists': return 'Стандартный профиль уже существует.';
 			case 'recommended_template_created': return 'Рекомендуемый профиль создан.';
@@ -15462,6 +15618,18 @@ extension on _StringsRu {
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			case 'anki_manage_profiles': return 'Manage Export Profiles';
 			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
+			case 'harmonic_frequency': return 'Aggregate word frequencies';
+			case 'manage_audio_sources': return 'Manage audio sources';
+			case 'local_audio': return 'Локальное аудио';
+			case 'local_audio_not_set': return 'База данных не выбрана';
+			case 'dialog_select_dictionary_type': return 'Select dictionary type';
+			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
+			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
+			case 'dictionary_section_term': return 'Term Dictionaries';
+			case 'dictionary_type_frequency': return 'Frequency';
+			case 'dictionary_type_pitch': return 'Pitch';
+			case 'dictionary_type_term': return 'Term';
 			default: return null;
 		}
 	}
@@ -16034,11 +16202,6 @@ extension on _StringsTh {
 			case 'import_theme_invalid': return 'โค้ดธีมไม่ถูกต้อง';
 			case 'import_theme_success': return 'นำเข้าธีมแล้ว';
 			case 'auto_add_book_name_to_tags': return 'เพิ่มชื่อหนังสือในแท็กอัตโนมัติ';
-			case 'deduplicate_pitch_accents': return 'ลบซ้ำสำเนียง';
-			case 'harmonic_frequency': return 'รวมความถี่คำ';
-			case 'manage_audio_sources': return 'จัดการแหล่งเสียง';
-			case 'local_audio': return 'เสียงในเครื่อง';
-			case 'local_audio_not_set': return 'ยังไม่ได้เลือกฐานข้อมูล';
 			case 'use_recommended_template': return 'แนะนำ';
 			case 'recommended_template_exists': return 'โปรไฟล์มาตรฐานมีอยู่แล้ว';
 			case 'recommended_template_created': return 'สร้างโปรไฟล์ที่แนะนำแล้ว';
@@ -16078,6 +16241,18 @@ extension on _StringsTh {
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			case 'anki_manage_profiles': return 'Manage Export Profiles';
 			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
+			case 'harmonic_frequency': return 'Aggregate word frequencies';
+			case 'manage_audio_sources': return 'Manage audio sources';
+			case 'local_audio': return 'เสียงในเครื่อง';
+			case 'local_audio_not_set': return 'ยังไม่ได้เลือกฐานข้อมูล';
+			case 'dialog_select_dictionary_type': return 'Select dictionary type';
+			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
+			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
+			case 'dictionary_section_term': return 'Term Dictionaries';
+			case 'dictionary_type_frequency': return 'Frequency';
+			case 'dictionary_type_pitch': return 'Pitch';
+			case 'dictionary_type_term': return 'Term';
 			default: return null;
 		}
 	}
@@ -16650,11 +16825,6 @@ extension on _StringsVi {
 			case 'import_theme_invalid': return 'Mã giao diện không hợp lệ';
 			case 'import_theme_success': return 'Đã nhập giao diện';
 			case 'auto_add_book_name_to_tags': return 'Tự thêm tên sách vào tag';
-			case 'deduplicate_pitch_accents': return 'Loại trùng thanh điệu';
-			case 'harmonic_frequency': return 'Tổng hợp tần suất từ';
-			case 'manage_audio_sources': return 'Quản lý nguồn âm thanh';
-			case 'local_audio': return 'Âm thanh cục bộ';
-			case 'local_audio_not_set': return 'Chưa chọn cơ sở dữ liệu';
 			case 'use_recommended_template': return 'Được đề xuất';
 			case 'recommended_template_exists': return 'Hồ sơ mặc định đã tồn tại.';
 			case 'recommended_template_created': return 'Đã tạo hồ sơ được đề xuất.';
@@ -16694,6 +16864,18 @@ extension on _StringsVi {
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			case 'anki_manage_profiles': return 'Manage Export Profiles';
 			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
+			case 'harmonic_frequency': return 'Aggregate word frequencies';
+			case 'manage_audio_sources': return 'Manage audio sources';
+			case 'local_audio': return 'Âm thanh cục bộ';
+			case 'local_audio_not_set': return 'Chưa chọn cơ sở dữ liệu';
+			case 'dialog_select_dictionary_type': return 'Select dictionary type';
+			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
+			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
+			case 'dictionary_section_term': return 'Term Dictionaries';
+			case 'dictionary_type_frequency': return 'Frequency';
+			case 'dictionary_type_pitch': return 'Pitch';
+			case 'dictionary_type_term': return 'Term';
 			default: return null;
 		}
 	}
@@ -16736,6 +16918,13 @@ extension on _StringsZhCn {
 			case 'dialog_import': return '导入';
 			case 'dialog_import_dictionary': return '导入词典';
 			case 'dialog_import_folder': return '导入文件夹词典';
+			case 'dialog_select_dictionary_type': return '选择词典类型';
+			case 'dictionary_type_term': return '释义';
+			case 'dictionary_type_frequency': return '词频';
+			case 'dictionary_type_pitch': return '音调';
+			case 'dictionary_section_term': return '释义词典';
+			case 'dictionary_section_frequency': return '词频词典';
+			case 'dictionary_section_pitch': return '音调词典';
 			case 'dialog_close': return '关闭';
 			case 'dialog_clear': return '清除';
 			case 'dialog_clear_all_dictionaries': return '删除所有词典';
@@ -17268,7 +17457,7 @@ extension on _StringsZhCn {
 			case 'auto_add_book_name_to_tags': return '自动添加书名到标签';
 			case 'deduplicate_pitch_accents': return '音调去重';
 			case 'harmonic_frequency': return '词频聚合';
-			case 'manage_audio_sources': return '管理音频源';
+			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'local_audio': return '本地音频';
 			case 'local_audio_not_set': return '未选择数据库';
 			case 'use_recommended_template': return '推荐模板';
@@ -17882,11 +18071,6 @@ extension on _StringsZhHk {
 			case 'import_theme_invalid': return '無效的主題代碼';
 			case 'import_theme_success': return '主題已匯入';
 			case 'auto_add_book_name_to_tags': return '自動將書名加入標籤';
-			case 'deduplicate_pitch_accents': return '音調去重';
-			case 'harmonic_frequency': return '詞頻聚合';
-			case 'manage_audio_sources': return '管理音頻源';
-			case 'local_audio': return '本地音頻';
-			case 'local_audio_not_set': return '未選擇數據庫';
 			case 'use_recommended_template': return '推薦範本';
 			case 'recommended_template_exists': return '標準設定檔已存在。';
 			case 'recommended_template_created': return '已建立推薦設定檔。';
@@ -17926,6 +18110,18 @@ extension on _StringsZhHk {
 			case 'hint_vert_text_orient': return '混合：数字和西文字母旋转为横向。直立：所有字符保持直立。';
 			case 'anki_manage_profiles': return '管理导出配置';
 			case 'anki_manage_profiles_hint': return '配置导出到 AnkiDroid 时各字段的映射方式。每个配置绑定一个 Anki 笔记类型，定义 hibiki 的哪个字段填充 Anki 的哪个字段。';
+			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
+			case 'harmonic_frequency': return 'Aggregate word frequencies';
+			case 'manage_audio_sources': return 'Manage audio sources';
+			case 'local_audio': return '本地音頻';
+			case 'local_audio_not_set': return '未選擇數據庫';
+			case 'dialog_select_dictionary_type': return 'Select dictionary type';
+			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
+			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
+			case 'dictionary_section_term': return 'Term Dictionaries';
+			case 'dictionary_type_frequency': return 'Frequency';
+			case 'dictionary_type_pitch': return 'Pitch';
+			case 'dictionary_type_term': return 'Term';
 			default: return null;
 		}
 	}
