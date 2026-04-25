@@ -720,6 +720,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
 	String get harmonic_frequency => 'Aggregate word frequencies';
 	String get manage_audio_sources => 'Manage audio sources';
+	String get local_audio => 'Local audio';
+	String get local_audio_not_set => 'No database selected';
 	String get use_recommended_template => 'Recommended';
 	String get recommended_template_exists => 'The standard profile already exists.';
 	String get recommended_template_created => 'Recommended profile has been created.';
@@ -1373,6 +1375,8 @@ class _StringsAr implements _StringsEn {
 	@override String get deduplicate_pitch_accents => 'إزالة تكرار لهجات النطق';
 	@override String get harmonic_frequency => 'تجميع ترددات الكلمات';
 	@override String get manage_audio_sources => 'إدارة مصادر الصوت';
+	@override String get local_audio => 'الصوت المحلي';
+	@override String get local_audio_not_set => 'لم يتم تحديد قاعدة بيانات';
 	@override String get use_recommended_template => 'موصى به';
 	@override String get recommended_template_exists => 'الملف الشخصي القياسي موجود بالفعل.';
 	@override String get recommended_template_created => 'تم إنشاء الملف الشخصي الموصى به.';
@@ -2026,6 +2030,8 @@ class _StringsDe implements _StringsEn {
 	@override String get deduplicate_pitch_accents => 'Tonhöhenakzente deduplizieren';
 	@override String get harmonic_frequency => 'Wortfrequenzen aggregieren';
 	@override String get manage_audio_sources => 'Audioquellen verwalten';
+	@override String get local_audio => 'Lokales Audio';
+	@override String get local_audio_not_set => 'Keine Datenbank ausgewählt';
 	@override String get use_recommended_template => 'Empfohlen';
 	@override String get recommended_template_exists => 'Das Standardprofil existiert bereits.';
 	@override String get recommended_template_created => 'Empfohlenes Profil wurde erstellt.';
@@ -2679,6 +2685,8 @@ class _StringsEs implements _StringsEn {
 	@override String get deduplicate_pitch_accents => 'Deduplicar acentos tonales';
 	@override String get harmonic_frequency => 'Agregar frecuencias de palabras';
 	@override String get manage_audio_sources => 'Gestionar fuentes de audio';
+	@override String get local_audio => 'Audio local';
+	@override String get local_audio_not_set => 'No se seleccionó base de datos';
 	@override String get use_recommended_template => 'Recomendado';
 	@override String get recommended_template_exists => 'El perfil estándar ya existe.';
 	@override String get recommended_template_created => 'Se ha creado el perfil recomendado.';
@@ -3332,6 +3340,8 @@ class _StringsFr implements _StringsEn {
 	@override String get deduplicate_pitch_accents => 'Dédupliquer les accents tonaux';
 	@override String get harmonic_frequency => 'Agréger les fréquences';
 	@override String get manage_audio_sources => 'Gérer les sources audio';
+	@override String get local_audio => 'Audio local';
+	@override String get local_audio_not_set => 'Aucune base de données sélectionnée';
 	@override String get use_recommended_template => 'Recommandé';
 	@override String get recommended_template_exists => 'Le profil standard existe déjà.';
 	@override String get recommended_template_created => 'Le profil recommandé a été créé.';
@@ -3985,6 +3995,8 @@ class _StringsId implements _StringsEn {
 	@override String get deduplicate_pitch_accents => 'Deduplikasi aksen nada';
 	@override String get harmonic_frequency => 'Agregasi frekuensi kata';
 	@override String get manage_audio_sources => 'Kelola sumber audio';
+	@override String get local_audio => 'Audio lokal';
+	@override String get local_audio_not_set => 'Tidak ada database yang dipilih';
 	@override String get use_recommended_template => 'Rekomendasi';
 	@override String get recommended_template_exists => 'Profil standar sudah ada.';
 	@override String get recommended_template_created => 'Profil rekomendasi telah dibuat.';
@@ -4638,6 +4650,8 @@ class _StringsJa implements _StringsEn {
 	@override String get deduplicate_pitch_accents => 'アクセント重複除外';
 	@override String get harmonic_frequency => '語彙頻度集約';
 	@override String get manage_audio_sources => '音声ソースの管理';
+	@override String get local_audio => 'ローカル音声';
+	@override String get local_audio_not_set => 'データベース未選択';
 	@override String get use_recommended_template => '推奨';
 	@override String get recommended_template_exists => '標準プロファイルは既に存在します。';
 	@override String get recommended_template_created => '推奨プロファイルを作成しました。';
@@ -5291,6 +5305,8 @@ class _StringsKo implements _StringsEn {
 	@override String get deduplicate_pitch_accents => '피치 액센트 중복 제거';
 	@override String get harmonic_frequency => '단어 빈도 집계';
 	@override String get manage_audio_sources => '오디오 소스 관리';
+	@override String get local_audio => '로컬 오디오';
+	@override String get local_audio_not_set => '데이터베이스가 선택되지 않았습니다';
 	@override String get use_recommended_template => '추천';
 	@override String get recommended_template_exists => '기본 프로필이 이미 존재합니다.';
 	@override String get recommended_template_created => '추천 프로필이 생성되었습니다.';
@@ -5944,6 +5960,8 @@ class _StringsPtBr implements _StringsEn {
 	@override String get deduplicate_pitch_accents => 'Deduplicar acentos tonais';
 	@override String get harmonic_frequency => 'Agregar frequências de palavras';
 	@override String get manage_audio_sources => 'Gerenciar fontes de áudio';
+	@override String get local_audio => 'Áudio local';
+	@override String get local_audio_not_set => 'Nenhum banco de dados selecionado';
 	@override String get use_recommended_template => 'Recomendado';
 	@override String get recommended_template_exists => 'O perfil padrão já existe.';
 	@override String get recommended_template_created => 'O perfil recomendado foi criado.';
@@ -6597,6 +6615,8 @@ class _StringsRu implements _StringsEn {
 	@override String get deduplicate_pitch_accents => 'Дедупликация тональных акцентов';
 	@override String get harmonic_frequency => 'Агрегация частот слов';
 	@override String get manage_audio_sources => 'Управление аудиоисточниками';
+	@override String get local_audio => 'Локальное аудио';
+	@override String get local_audio_not_set => 'База данных не выбрана';
 	@override String get use_recommended_template => 'Рекомендуемый';
 	@override String get recommended_template_exists => 'Стандартный профиль уже существует.';
 	@override String get recommended_template_created => 'Рекомендуемый профиль создан.';
@@ -7250,6 +7270,8 @@ class _StringsTh implements _StringsEn {
 	@override String get deduplicate_pitch_accents => 'ลบซ้ำสำเนียง';
 	@override String get harmonic_frequency => 'รวมความถี่คำ';
 	@override String get manage_audio_sources => 'จัดการแหล่งเสียง';
+	@override String get local_audio => 'เสียงในเครื่อง';
+	@override String get local_audio_not_set => 'ยังไม่ได้เลือกฐานข้อมูล';
 	@override String get use_recommended_template => 'แนะนำ';
 	@override String get recommended_template_exists => 'โปรไฟล์มาตรฐานมีอยู่แล้ว';
 	@override String get recommended_template_created => 'สร้างโปรไฟล์ที่แนะนำแล้ว';
@@ -7903,6 +7925,8 @@ class _StringsVi implements _StringsEn {
 	@override String get deduplicate_pitch_accents => 'Loại trùng thanh điệu';
 	@override String get harmonic_frequency => 'Tổng hợp tần suất từ';
 	@override String get manage_audio_sources => 'Quản lý nguồn âm thanh';
+	@override String get local_audio => 'Âm thanh cục bộ';
+	@override String get local_audio_not_set => 'Chưa chọn cơ sở dữ liệu';
 	@override String get use_recommended_template => 'Được đề xuất';
 	@override String get recommended_template_exists => 'Hồ sơ mặc định đã tồn tại.';
 	@override String get recommended_template_created => 'Đã tạo hồ sơ được đề xuất.';
@@ -8191,7 +8215,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get unimplemented_source => '未实现的来源';
 	@override String get clear_browser_title => '清除浏览器数据';
 	@override String get clear_browser_description => '此操作将清除所有使用网页内容的媒体来源的浏览数据。确定吗？';
-	@override String get ttu_no_books_added => 'ッツ 电子书阅读器尚未添加任何书籍';
+	@override String get ttu_no_books_added => '尚未添加任何书籍';
 	@override String get local_media_directory_empty => '目录内没有文件夹或视频';
 	@override String get pick_video_file => '选择视频文件';
 	@override String get navigate_up_one_directory_level => '向上一级目录';
@@ -8556,6 +8580,8 @@ class _StringsZhCn implements _StringsEn {
 	@override String get deduplicate_pitch_accents => '音调去重';
 	@override String get harmonic_frequency => '词频聚合';
 	@override String get manage_audio_sources => '管理音频源';
+	@override String get local_audio => '本地音频';
+	@override String get local_audio_not_set => '未选择数据库';
 	@override String get use_recommended_template => '推荐模板';
 	@override String get recommended_template_exists => '标准配置已存在。';
 	@override String get recommended_template_created => '已创建推荐配置。';
@@ -9209,6 +9235,8 @@ class _StringsZhHk implements _StringsEn {
 	@override String get deduplicate_pitch_accents => '音調去重';
 	@override String get harmonic_frequency => '詞頻聚合';
 	@override String get manage_audio_sources => '管理音頻源';
+	@override String get local_audio => '本地音頻';
+	@override String get local_audio_not_set => '未選擇數據庫';
 	@override String get use_recommended_template => '推薦範本';
 	@override String get recommended_template_exists => '標準設定檔已存在。';
 	@override String get recommended_template_created => '已建立推薦設定檔。';
@@ -9849,6 +9877,8 @@ extension on _StringsEn {
 			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
 			case 'harmonic_frequency': return 'Aggregate word frequencies';
 			case 'manage_audio_sources': return 'Manage audio sources';
+			case 'local_audio': return 'Local audio';
+			case 'local_audio_not_set': return 'No database selected';
 			case 'use_recommended_template': return 'Recommended';
 			case 'recommended_template_exists': return 'The standard profile already exists.';
 			case 'recommended_template_created': return 'Recommended profile has been created.';
@@ -10463,6 +10493,8 @@ extension on _StringsAr {
 			case 'deduplicate_pitch_accents': return 'إزالة تكرار لهجات النطق';
 			case 'harmonic_frequency': return 'تجميع ترددات الكلمات';
 			case 'manage_audio_sources': return 'إدارة مصادر الصوت';
+			case 'local_audio': return 'الصوت المحلي';
+			case 'local_audio_not_set': return 'لم يتم تحديد قاعدة بيانات';
 			case 'use_recommended_template': return 'موصى به';
 			case 'recommended_template_exists': return 'الملف الشخصي القياسي موجود بالفعل.';
 			case 'recommended_template_created': return 'تم إنشاء الملف الشخصي الموصى به.';
@@ -11077,6 +11109,8 @@ extension on _StringsDe {
 			case 'deduplicate_pitch_accents': return 'Tonhöhenakzente deduplizieren';
 			case 'harmonic_frequency': return 'Wortfrequenzen aggregieren';
 			case 'manage_audio_sources': return 'Audioquellen verwalten';
+			case 'local_audio': return 'Lokales Audio';
+			case 'local_audio_not_set': return 'Keine Datenbank ausgewählt';
 			case 'use_recommended_template': return 'Empfohlen';
 			case 'recommended_template_exists': return 'Das Standardprofil existiert bereits.';
 			case 'recommended_template_created': return 'Empfohlenes Profil wurde erstellt.';
@@ -11691,6 +11725,8 @@ extension on _StringsEs {
 			case 'deduplicate_pitch_accents': return 'Deduplicar acentos tonales';
 			case 'harmonic_frequency': return 'Agregar frecuencias de palabras';
 			case 'manage_audio_sources': return 'Gestionar fuentes de audio';
+			case 'local_audio': return 'Audio local';
+			case 'local_audio_not_set': return 'No se seleccionó base de datos';
 			case 'use_recommended_template': return 'Recomendado';
 			case 'recommended_template_exists': return 'El perfil estándar ya existe.';
 			case 'recommended_template_created': return 'Se ha creado el perfil recomendado.';
@@ -12305,6 +12341,8 @@ extension on _StringsFr {
 			case 'deduplicate_pitch_accents': return 'Dédupliquer les accents tonaux';
 			case 'harmonic_frequency': return 'Agréger les fréquences';
 			case 'manage_audio_sources': return 'Gérer les sources audio';
+			case 'local_audio': return 'Audio local';
+			case 'local_audio_not_set': return 'Aucune base de données sélectionnée';
 			case 'use_recommended_template': return 'Recommandé';
 			case 'recommended_template_exists': return 'Le profil standard existe déjà.';
 			case 'recommended_template_created': return 'Le profil recommandé a été créé.';
@@ -12919,6 +12957,8 @@ extension on _StringsId {
 			case 'deduplicate_pitch_accents': return 'Deduplikasi aksen nada';
 			case 'harmonic_frequency': return 'Agregasi frekuensi kata';
 			case 'manage_audio_sources': return 'Kelola sumber audio';
+			case 'local_audio': return 'Audio lokal';
+			case 'local_audio_not_set': return 'Tidak ada database yang dipilih';
 			case 'use_recommended_template': return 'Rekomendasi';
 			case 'recommended_template_exists': return 'Profil standar sudah ada.';
 			case 'recommended_template_created': return 'Profil rekomendasi telah dibuat.';
@@ -13533,6 +13573,8 @@ extension on _StringsJa {
 			case 'deduplicate_pitch_accents': return 'アクセント重複除外';
 			case 'harmonic_frequency': return '語彙頻度集約';
 			case 'manage_audio_sources': return '音声ソースの管理';
+			case 'local_audio': return 'ローカル音声';
+			case 'local_audio_not_set': return 'データベース未選択';
 			case 'use_recommended_template': return '推奨';
 			case 'recommended_template_exists': return '標準プロファイルは既に存在します。';
 			case 'recommended_template_created': return '推奨プロファイルを作成しました。';
@@ -14147,6 +14189,8 @@ extension on _StringsKo {
 			case 'deduplicate_pitch_accents': return '피치 액센트 중복 제거';
 			case 'harmonic_frequency': return '단어 빈도 집계';
 			case 'manage_audio_sources': return '오디오 소스 관리';
+			case 'local_audio': return '로컬 오디오';
+			case 'local_audio_not_set': return '데이터베이스가 선택되지 않았습니다';
 			case 'use_recommended_template': return '추천';
 			case 'recommended_template_exists': return '기본 프로필이 이미 존재합니다.';
 			case 'recommended_template_created': return '추천 프로필이 생성되었습니다.';
@@ -14761,6 +14805,8 @@ extension on _StringsPtBr {
 			case 'deduplicate_pitch_accents': return 'Deduplicar acentos tonais';
 			case 'harmonic_frequency': return 'Agregar frequências de palavras';
 			case 'manage_audio_sources': return 'Gerenciar fontes de áudio';
+			case 'local_audio': return 'Áudio local';
+			case 'local_audio_not_set': return 'Nenhum banco de dados selecionado';
 			case 'use_recommended_template': return 'Recomendado';
 			case 'recommended_template_exists': return 'O perfil padrão já existe.';
 			case 'recommended_template_created': return 'O perfil recomendado foi criado.';
@@ -15375,6 +15421,8 @@ extension on _StringsRu {
 			case 'deduplicate_pitch_accents': return 'Дедупликация тональных акцентов';
 			case 'harmonic_frequency': return 'Агрегация частот слов';
 			case 'manage_audio_sources': return 'Управление аудиоисточниками';
+			case 'local_audio': return 'Локальное аудио';
+			case 'local_audio_not_set': return 'База данных не выбрана';
 			case 'use_recommended_template': return 'Рекомендуемый';
 			case 'recommended_template_exists': return 'Стандартный профиль уже существует.';
 			case 'recommended_template_created': return 'Рекомендуемый профиль создан.';
@@ -15989,6 +16037,8 @@ extension on _StringsTh {
 			case 'deduplicate_pitch_accents': return 'ลบซ้ำสำเนียง';
 			case 'harmonic_frequency': return 'รวมความถี่คำ';
 			case 'manage_audio_sources': return 'จัดการแหล่งเสียง';
+			case 'local_audio': return 'เสียงในเครื่อง';
+			case 'local_audio_not_set': return 'ยังไม่ได้เลือกฐานข้อมูล';
 			case 'use_recommended_template': return 'แนะนำ';
 			case 'recommended_template_exists': return 'โปรไฟล์มาตรฐานมีอยู่แล้ว';
 			case 'recommended_template_created': return 'สร้างโปรไฟล์ที่แนะนำแล้ว';
@@ -16603,6 +16653,8 @@ extension on _StringsVi {
 			case 'deduplicate_pitch_accents': return 'Loại trùng thanh điệu';
 			case 'harmonic_frequency': return 'Tổng hợp tần suất từ';
 			case 'manage_audio_sources': return 'Quản lý nguồn âm thanh';
+			case 'local_audio': return 'Âm thanh cục bộ';
+			case 'local_audio_not_set': return 'Chưa chọn cơ sở dữ liệu';
 			case 'use_recommended_template': return 'Được đề xuất';
 			case 'recommended_template_exists': return 'Hồ sơ mặc định đã tồn tại.';
 			case 'recommended_template_created': return 'Đã tạo hồ sơ được đề xuất.';
@@ -16846,7 +16898,7 @@ extension on _StringsZhCn {
 			case 'unimplemented_source': return '未实现的来源';
 			case 'clear_browser_title': return '清除浏览器数据';
 			case 'clear_browser_description': return '此操作将清除所有使用网页内容的媒体来源的浏览数据。确定吗？';
-			case 'ttu_no_books_added': return 'ッツ 电子书阅读器尚未添加任何书籍';
+			case 'ttu_no_books_added': return '尚未添加任何书籍';
 			case 'local_media_directory_empty': return '目录内没有文件夹或视频';
 			case 'pick_video_file': return '选择视频文件';
 			case 'navigate_up_one_directory_level': return '向上一级目录';
@@ -17217,6 +17269,8 @@ extension on _StringsZhCn {
 			case 'deduplicate_pitch_accents': return '音调去重';
 			case 'harmonic_frequency': return '词频聚合';
 			case 'manage_audio_sources': return '管理音频源';
+			case 'local_audio': return '本地音频';
+			case 'local_audio_not_set': return '未选择数据库';
 			case 'use_recommended_template': return '推荐模板';
 			case 'recommended_template_exists': return '标准配置已存在。';
 			case 'recommended_template_created': return '已创建推荐配置。';
@@ -17831,6 +17885,8 @@ extension on _StringsZhHk {
 			case 'deduplicate_pitch_accents': return '音調去重';
 			case 'harmonic_frequency': return '詞頻聚合';
 			case 'manage_audio_sources': return '管理音頻源';
+			case 'local_audio': return '本地音頻';
+			case 'local_audio_not_set': return '未選擇數據庫';
 			case 'use_recommended_template': return '推薦範本';
 			case 'recommended_template_exists': return '標準設定檔已存在。';
 			case 'recommended_template_created': return '已建立推薦設定檔。';
