@@ -721,6 +721,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	String get custom_fonts_archive_error => 'Failed to extract archive';
 	String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	String get custom_fonts_recommended => 'Recommended Fonts';
 	String get custom_theme => 'Custom Theme';
 	String get dark_mode => 'Dark Mode';
 	String get seed_color => 'Seed Color';
@@ -1383,6 +1384,7 @@ class _StringsAr implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'مظهر مخصص';
 	@override String get dark_mode => 'الوضع الداكن';
 	@override String get seed_color => 'اللون الأساسي';
@@ -2052,6 +2054,7 @@ class _StringsDe implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Benutzerdefiniertes Design';
 	@override String get dark_mode => 'Dunkler Modus';
 	@override String get seed_color => 'Grundfarbe';
@@ -2721,6 +2724,7 @@ class _StringsEs implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Tema personalizado';
 	@override String get dark_mode => 'Modo oscuro';
 	@override String get seed_color => 'Color base';
@@ -3390,6 +3394,7 @@ class _StringsFr implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Thème personnalisé';
 	@override String get dark_mode => 'Mode sombre';
 	@override String get seed_color => 'Couleur de base';
@@ -4059,6 +4064,7 @@ class _StringsId implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Tema Kustom';
 	@override String get dark_mode => 'Mode Gelap';
 	@override String get seed_color => 'Warna Dasar';
@@ -4735,6 +4741,7 @@ class _StringsIt implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Tema personalizzato';
 	@override String get dark_mode => 'Modalità scura';
 	@override String get seed_color => 'Colore base';
@@ -5397,6 +5404,7 @@ class _StringsJa implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'カスタムテーマ';
 	@override String get dark_mode => 'ダークモード';
 	@override String get seed_color => 'シードカラー';
@@ -6066,6 +6074,7 @@ class _StringsKo implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => '커스텀 테마';
 	@override String get dark_mode => '다크 모드';
 	@override String get seed_color => '시드 색상';
@@ -6742,6 +6751,7 @@ class _StringsNl implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Aangepast thema';
 	@override String get dark_mode => 'Donkere modus';
 	@override String get seed_color => 'Basiskleur';
@@ -7404,6 +7414,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Tema Personalizado';
 	@override String get dark_mode => 'Modo Escuro';
 	@override String get seed_color => 'Cor Base';
@@ -8073,6 +8084,7 @@ class _StringsRu implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Пользовательская тема';
 	@override String get dark_mode => 'Тёмный режим';
 	@override String get seed_color => 'Базовый цвет';
@@ -8742,6 +8754,7 @@ class _StringsTh implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'ธีมกำหนดเอง';
 	@override String get dark_mode => 'โหมดมืด';
 	@override String get seed_color => 'สีหลัก';
@@ -9418,6 +9431,7 @@ class _StringsTr implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Özel tema';
 	@override String get dark_mode => 'Koyu mod';
 	@override String get seed_color => 'Ana renk';
@@ -10080,6 +10094,7 @@ class _StringsVi implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Giao diện tùy chỉnh';
 	@override String get dark_mode => 'Chế độ tối';
 	@override String get seed_color => 'Màu chủ đạo';
@@ -10756,6 +10771,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '已导入 ${count} 个字体';
 	@override String get custom_fonts_archive_error => '解压失败';
 	@override String get custom_fonts_no_fonts_in_archive => '压缩包中未找到字体文件';
+	@override String get custom_fonts_recommended => '推荐字体';
 	@override String get custom_theme => '自定义主题';
 	@override String get dark_mode => '深色模式';
 	@override String get seed_color => '种子色';
@@ -11418,6 +11434,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
 	@override String get custom_fonts_archive_error => 'Failed to extract archive';
 	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => '自訂主題';
 	@override String get dark_mode => '深色模式';
 	@override String get seed_color => '種子色';
@@ -12081,6 +12098,7 @@ extension on _StringsEn {
 			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
 			case 'custom_fonts_archive_error': return 'Failed to extract archive';
 			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'custom_theme': return 'Custom Theme';
 			case 'dark_mode': return 'Dark Mode';
 			case 'seed_color': return 'Seed Color';
@@ -21447,6 +21465,7 @@ extension on _StringsZhCn {
 			case 'custom_fonts_imported_count': return ({required Object count}) => '已导入 ${count} 个字体';
 			case 'custom_fonts_archive_error': return '解压失败';
 			case 'custom_fonts_no_fonts_in_archive': return '压缩包中未找到字体文件';
+			case 'custom_fonts_recommended': return '推荐字体';
 			case 'custom_theme': return '自定义主题';
 			case 'dark_mode': return '深色模式';
 			case 'seed_color': return '种子色';
