@@ -485,6 +485,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get handlebar_book_cover => 'Book Cover';
 	String get handlebar_audio => 'Audio';
 	String get handlebar_sasayaki_audio => 'Sasayaki Audio';
+	String get handlebar_popup_selection_text => 'Popup Selection Text';
 	String get handlebar_cloze_before => 'Cloze Before';
 	String get handlebar_cloze_inside => 'Cloze Inside';
 	String get handlebar_cloze_after => 'Cloze After';
@@ -792,6 +793,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get error_log_share_subject => 'hibiki Error Log';
 	String get update_never_remind => 'Don\'t remind me about updates';
 	String get update_auto_install => 'Auto-install updates';
+	String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	String get update_settings => 'Update Settings';
 	String get anki_settings_label => 'Anki Settings';
 	String get anki_default_deck => 'Default Deck';
@@ -1182,6 +1184,7 @@ class _StringsAr implements _StringsEn {
 	@override String get handlebar_book_cover => 'غلاف الكتاب';
 	@override String get handlebar_audio => 'صوت';
 	@override String get handlebar_sasayaki_audio => 'صوت Sasayaki';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => 'ملء الفراغ قبل';
 	@override String get handlebar_cloze_inside => 'ملء الفراغ محتوى';
 	@override String get handlebar_cloze_after => 'ملء الفراغ بعد';
@@ -1484,6 +1487,7 @@ class _StringsAr implements _StringsEn {
 	@override String get error_log_share_subject => 'سجل أخطاء hibiki';
 	@override String get update_never_remind => 'عدم التذكير مجددًا';
 	@override String get update_auto_install => 'تثبيت التحديثات تلقائيًا';
+	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	@override String get update_settings => 'إعدادات التحديث';
 	@override String get anki_settings_label => 'إعدادات Anki';
 	@override String get anki_default_deck => 'المجموعة الافتراضية';
@@ -1886,6 +1890,7 @@ class _StringsDe implements _StringsEn {
 	@override String get handlebar_book_cover => 'Buchcover';
 	@override String get handlebar_audio => 'Audio';
 	@override String get handlebar_sasayaki_audio => 'Sasayaki Audio';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => 'Lückentext davor';
 	@override String get handlebar_cloze_inside => 'Lückentext Inhalt';
 	@override String get handlebar_cloze_after => 'Lückentext danach';
@@ -2188,6 +2193,7 @@ class _StringsDe implements _StringsEn {
 	@override String get error_log_share_subject => 'hibiki Fehlerprotokoll';
 	@override String get update_never_remind => 'Nicht mehr erinnern';
 	@override String get update_auto_install => 'Updates automatisch installieren';
+	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	@override String get update_settings => 'Update-Einstellungen';
 	@override String get anki_settings_label => 'Anki-Einstellungen';
 	@override String get anki_default_deck => 'Standard-Stapel';
@@ -2590,6 +2596,7 @@ class _StringsEs implements _StringsEn {
 	@override String get handlebar_book_cover => 'Portada del libro';
 	@override String get handlebar_audio => 'Audio';
 	@override String get handlebar_sasayaki_audio => 'Audio Sasayaki';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => 'Cloze antes';
 	@override String get handlebar_cloze_inside => 'Cloze contenido';
 	@override String get handlebar_cloze_after => 'Cloze después';
@@ -2892,6 +2899,7 @@ class _StringsEs implements _StringsEn {
 	@override String get error_log_share_subject => 'Registro de errores de hibiki';
 	@override String get update_never_remind => 'No recordar de nuevo';
 	@override String get update_auto_install => 'Instalar actualizaciones automáticamente';
+	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	@override String get update_settings => 'Configuración de actualizaciones';
 	@override String get anki_settings_label => 'Configuración de Anki';
 	@override String get anki_default_deck => 'Mazo predeterminado';
@@ -3294,6 +3302,7 @@ class _StringsFr implements _StringsEn {
 	@override String get handlebar_book_cover => 'Couverture du livre';
 	@override String get handlebar_audio => 'Audio';
 	@override String get handlebar_sasayaki_audio => 'Audio Sasayaki';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => 'Texte à trous avant';
 	@override String get handlebar_cloze_inside => 'Texte à trous contenu';
 	@override String get handlebar_cloze_after => 'Texte à trous après';
@@ -3596,6 +3605,7 @@ class _StringsFr implements _StringsEn {
 	@override String get error_log_share_subject => 'Journal d\'erreurs hibiki';
 	@override String get update_never_remind => 'Ne plus rappeler';
 	@override String get update_auto_install => 'Installer automatiquement les mises à jour';
+	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	@override String get update_settings => 'Paramètres de mise à jour';
 	@override String get anki_settings_label => 'Paramètres Anki';
 	@override String get anki_default_deck => 'Paquet par défaut';
@@ -3998,6 +4008,7 @@ class _StringsId implements _StringsEn {
 	@override String get handlebar_book_cover => 'Sampul buku';
 	@override String get handlebar_audio => 'Audio';
 	@override String get handlebar_sasayaki_audio => 'Audio Sasayaki';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => 'Cloze sebelum';
 	@override String get handlebar_cloze_inside => 'Cloze isi';
 	@override String get handlebar_cloze_after => 'Cloze sesudah';
@@ -4300,6 +4311,7 @@ class _StringsId implements _StringsEn {
 	@override String get error_log_share_subject => 'Log Error hibiki';
 	@override String get update_never_remind => 'Jangan ingatkan lagi';
 	@override String get update_auto_install => 'Pasang pembaruan otomatis';
+	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	@override String get update_settings => 'Pengaturan Pembaruan';
 	@override String get anki_settings_label => 'Pengaturan Anki';
 	@override String get anki_default_deck => 'Dek Default';
@@ -4709,6 +4721,7 @@ class _StringsIt implements _StringsEn {
 	@override String get handlebar_book_cover => 'Copertina del libro';
 	@override String get handlebar_audio => 'Audio';
 	@override String get handlebar_sasayaki_audio => 'Audio Sasayaki';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => 'Cloze prima';
 	@override String get handlebar_cloze_inside => 'Cloze contenuto';
 	@override String get handlebar_cloze_after => 'Cloze dopo';
@@ -5016,6 +5029,7 @@ class _StringsIt implements _StringsEn {
 	@override String get error_log_share_subject => 'Registro errori hibiki';
 	@override String get update_never_remind => 'Non ricordarmelo più';
 	@override String get update_auto_install => 'Installa automaticamente gli aggiornamenti';
+	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	@override String get update_settings => 'Impostazioni aggiornamento';
 	@override String get anki_settings_label => 'Impostazioni Anki';
 	@override String get anki_default_deck => 'Mazzo predefinito';
@@ -5406,6 +5420,7 @@ class _StringsJa implements _StringsEn {
 	@override String get handlebar_book_cover => '書籍カバー';
 	@override String get handlebar_audio => '音声';
 	@override String get handlebar_sasayaki_audio => 'Sasayaki 音声';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => '穴埋め前文';
 	@override String get handlebar_cloze_inside => '穴埋め内容';
 	@override String get handlebar_cloze_after => '穴埋め後文';
@@ -5713,6 +5728,7 @@ class _StringsJa implements _StringsEn {
 	@override String get error_log_share_subject => 'hibiki エラーログ';
 	@override String get update_never_remind => '今後通知しない';
 	@override String get update_auto_install => '自動インストール';
+	@override String get disable_dialog_scrim => 'ポップアップの背景オーバーレイを無効にする（E Ink）';
 	@override String get update_settings => 'アップデート設定';
 	@override String get anki_settings_label => 'Anki 設定';
 	@override String get anki_default_deck => 'デフォルトデッキ';
@@ -6110,6 +6126,7 @@ class _StringsKo implements _StringsEn {
 	@override String get handlebar_book_cover => '책 표지';
 	@override String get handlebar_audio => '오디오';
 	@override String get handlebar_sasayaki_audio => 'Sasayaki 오디오';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => '빈칸 앞';
 	@override String get handlebar_cloze_inside => '빈칸 내용';
 	@override String get handlebar_cloze_after => '빈칸 뒤';
@@ -6412,6 +6429,7 @@ class _StringsKo implements _StringsEn {
 	@override String get error_log_share_subject => 'hibiki 오류 로그';
 	@override String get update_never_remind => '다시 알리지 않기';
 	@override String get update_auto_install => '자동 설치';
+	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	@override String get update_settings => '업데이트 설정';
 	@override String get anki_settings_label => 'Anki 설정';
 	@override String get anki_default_deck => '기본 덱';
@@ -6821,6 +6839,7 @@ class _StringsNl implements _StringsEn {
 	@override String get handlebar_book_cover => 'Boekomslag';
 	@override String get handlebar_audio => 'Audio';
 	@override String get handlebar_sasayaki_audio => 'Sasayaki Audio';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => 'Invuloefening voor';
 	@override String get handlebar_cloze_inside => 'Invuloefening inhoud';
 	@override String get handlebar_cloze_after => 'Invuloefening na';
@@ -7128,6 +7147,7 @@ class _StringsNl implements _StringsEn {
 	@override String get error_log_share_subject => 'hibiki foutenlogboek';
 	@override String get update_never_remind => 'Niet meer herinneren';
 	@override String get update_auto_install => 'Updates automatisch installeren';
+	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	@override String get update_settings => 'Update-instellingen';
 	@override String get anki_settings_label => 'Anki-instellingen';
 	@override String get anki_default_deck => 'Standaardstapel';
@@ -7518,6 +7538,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String get handlebar_book_cover => 'Capa do livro';
 	@override String get handlebar_audio => 'Áudio';
 	@override String get handlebar_sasayaki_audio => 'Áudio Sasayaki';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => 'Cloze antes';
 	@override String get handlebar_cloze_inside => 'Cloze conteúdo';
 	@override String get handlebar_cloze_after => 'Cloze depois';
@@ -7820,6 +7841,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String get error_log_share_subject => 'Log de Erros do hibiki';
 	@override String get update_never_remind => 'Não lembrar novamente';
 	@override String get update_auto_install => 'Instalar atualizações automaticamente';
+	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	@override String get update_settings => 'Configurações de Atualização';
 	@override String get anki_settings_label => 'Configurações do Anki';
 	@override String get anki_default_deck => 'Baralho Padrão';
@@ -8222,6 +8244,7 @@ class _StringsRu implements _StringsEn {
 	@override String get handlebar_book_cover => 'Обложка книги';
 	@override String get handlebar_audio => 'Аудио';
 	@override String get handlebar_sasayaki_audio => 'Sasayaki аудио';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => 'Клоуз до';
 	@override String get handlebar_cloze_inside => 'Клоуз содержимое';
 	@override String get handlebar_cloze_after => 'Клоуз после';
@@ -8524,6 +8547,7 @@ class _StringsRu implements _StringsEn {
 	@override String get error_log_share_subject => 'Журнал ошибок hibiki';
 	@override String get update_never_remind => 'Больше не напоминать';
 	@override String get update_auto_install => 'Автоустановка обновлений';
+	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	@override String get update_settings => 'Настройки обновлений';
 	@override String get anki_settings_label => 'Настройки Anki';
 	@override String get anki_default_deck => 'Колода по умолчанию';
@@ -8926,6 +8950,7 @@ class _StringsTh implements _StringsEn {
 	@override String get handlebar_book_cover => 'ปกหนังสือ';
 	@override String get handlebar_audio => 'เสียง';
 	@override String get handlebar_sasayaki_audio => 'เสียง Sasayaki';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => 'เติมคำก่อน';
 	@override String get handlebar_cloze_inside => 'เติมคำเนื้อหา';
 	@override String get handlebar_cloze_after => 'เติมคำหลัง';
@@ -9228,6 +9253,7 @@ class _StringsTh implements _StringsEn {
 	@override String get error_log_share_subject => 'บันทึกข้อผิดพลาด hibiki';
 	@override String get update_never_remind => 'ไม่ต้องเตือนอีก';
 	@override String get update_auto_install => 'ติดตั้งอัปเดตอัตโนมัติ';
+	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	@override String get update_settings => 'ตั้งค่าอัปเดต';
 	@override String get anki_settings_label => 'ตั้งค่า Anki';
 	@override String get anki_default_deck => 'สำรับเริ่มต้น';
@@ -9637,6 +9663,7 @@ class _StringsTr implements _StringsEn {
 	@override String get handlebar_book_cover => 'Kitap kapağı';
 	@override String get handlebar_audio => 'Ses';
 	@override String get handlebar_sasayaki_audio => 'Sasayaki Ses';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => 'Boşluk doldurma önce';
 	@override String get handlebar_cloze_inside => 'Boşluk doldurma içerik';
 	@override String get handlebar_cloze_after => 'Boşluk doldurma sonra';
@@ -9944,6 +9971,7 @@ class _StringsTr implements _StringsEn {
 	@override String get error_log_share_subject => 'hibiki Hata Günlüğü';
 	@override String get update_never_remind => 'Güncellemeleri hatırlatma';
 	@override String get update_auto_install => 'Güncellemeleri otomatik yükle';
+	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	@override String get update_settings => 'Güncelleme ayarları';
 	@override String get anki_settings_label => 'Anki ayarları';
 	@override String get anki_default_deck => 'Varsayılan deste';
@@ -10334,6 +10362,7 @@ class _StringsVi implements _StringsEn {
 	@override String get handlebar_book_cover => 'Bìa sách';
 	@override String get handlebar_audio => 'Âm thanh';
 	@override String get handlebar_sasayaki_audio => 'Âm thanh Sasayaki';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => 'Điền khuyết trước';
 	@override String get handlebar_cloze_inside => 'Điền khuyết nội dung';
 	@override String get handlebar_cloze_after => 'Điền khuyết sau';
@@ -10636,6 +10665,7 @@ class _StringsVi implements _StringsEn {
 	@override String get error_log_share_subject => 'Nhật ký lỗi hibiki';
 	@override String get update_never_remind => 'Không nhắc lại';
 	@override String get update_auto_install => 'Tự động cài đặt bản cập nhật';
+	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	@override String get update_settings => 'Cài đặt cập nhật';
 	@override String get anki_settings_label => 'Cài đặt Anki';
 	@override String get anki_default_deck => 'Bộ thẻ mặc định';
@@ -11045,6 +11075,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get handlebar_book_cover => '书籍封面';
 	@override String get handlebar_audio => '音频';
 	@override String get handlebar_sasayaki_audio => 'Sasayaki 音频';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => '完形填空前文';
 	@override String get handlebar_cloze_inside => '完形填空内容';
 	@override String get handlebar_cloze_after => '完形填空后文';
@@ -11352,6 +11383,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get error_log_share_subject => 'hibiki 错误日志';
 	@override String get update_never_remind => '不再提醒自动更新';
 	@override String get update_auto_install => '自动安装更新';
+	@override String get disable_dialog_scrim => '关闭弹窗背景遮罩（墨水屏）';
 	@override String get update_settings => '更新设置';
 	@override String get anki_settings_label => 'Anki 设置';
 	@override String get anki_default_deck => '默认牌组';
@@ -11742,6 +11774,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get handlebar_book_cover => '書籍封面';
 	@override String get handlebar_audio => '音訊';
 	@override String get handlebar_sasayaki_audio => 'Sasayaki 音訊';
+	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
 	@override String get handlebar_cloze_before => '克漏字前文';
 	@override String get handlebar_cloze_inside => '克漏字內容';
 	@override String get handlebar_cloze_after => '克漏字後文';
@@ -12044,6 +12077,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get error_log_share_subject => 'hibiki 錯誤記錄';
 	@override String get update_never_remind => '不再提醒';
 	@override String get update_auto_install => '自動安裝更新';
+	@override String get disable_dialog_scrim => '關閉彈窗背景遮罩（墨水屏）';
 	@override String get update_settings => '更新設定';
 	@override String get anki_settings_label => 'Anki 設定';
 	@override String get anki_default_deck => '預設牌組';
@@ -12434,6 +12468,7 @@ extension on _StringsEn {
 			case 'handlebar_book_cover': return 'Book Cover';
 			case 'handlebar_audio': return 'Audio';
 			case 'handlebar_sasayaki_audio': return 'Sasayaki Audio';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return 'Cloze Before';
 			case 'handlebar_cloze_inside': return 'Cloze Inside';
 			case 'handlebar_cloze_after': return 'Cloze After';
@@ -12747,6 +12782,7 @@ extension on _StringsEn {
 			case 'error_log_share_subject': return 'hibiki Error Log';
 			case 'update_never_remind': return 'Don\'t remind me about updates';
 			case 'update_auto_install': return 'Auto-install updates';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
 			case 'anki_default_deck': return 'Default Deck';
@@ -13092,6 +13128,7 @@ extension on _StringsAr {
 			case 'handlebar_book_cover': return 'غلاف الكتاب';
 			case 'handlebar_audio': return 'صوت';
 			case 'handlebar_sasayaki_audio': return 'صوت Sasayaki';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return 'ملء الفراغ قبل';
 			case 'handlebar_cloze_inside': return 'ملء الفراغ محتوى';
 			case 'handlebar_cloze_after': return 'ملء الفراغ بعد';
@@ -13400,6 +13437,7 @@ extension on _StringsAr {
 			case 'error_log_share_subject': return 'سجل أخطاء hibiki';
 			case 'update_never_remind': return 'عدم التذكير مجددًا';
 			case 'update_auto_install': return 'تثبيت التحديثات تلقائيًا';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return 'إعدادات التحديث';
 			case 'anki_settings_label': return 'إعدادات Anki';
 			case 'anki_default_deck': return 'المجموعة الافتراضية';
@@ -13757,6 +13795,7 @@ extension on _StringsDe {
 			case 'handlebar_book_cover': return 'Buchcover';
 			case 'handlebar_audio': return 'Audio';
 			case 'handlebar_sasayaki_audio': return 'Sasayaki Audio';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return 'Lückentext davor';
 			case 'handlebar_cloze_inside': return 'Lückentext Inhalt';
 			case 'handlebar_cloze_after': return 'Lückentext danach';
@@ -14065,6 +14104,7 @@ extension on _StringsDe {
 			case 'error_log_share_subject': return 'hibiki Fehlerprotokoll';
 			case 'update_never_remind': return 'Nicht mehr erinnern';
 			case 'update_auto_install': return 'Updates automatisch installieren';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return 'Update-Einstellungen';
 			case 'anki_settings_label': return 'Anki-Einstellungen';
 			case 'anki_default_deck': return 'Standard-Stapel';
@@ -14422,6 +14462,7 @@ extension on _StringsEs {
 			case 'handlebar_book_cover': return 'Portada del libro';
 			case 'handlebar_audio': return 'Audio';
 			case 'handlebar_sasayaki_audio': return 'Audio Sasayaki';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return 'Cloze antes';
 			case 'handlebar_cloze_inside': return 'Cloze contenido';
 			case 'handlebar_cloze_after': return 'Cloze después';
@@ -14730,6 +14771,7 @@ extension on _StringsEs {
 			case 'error_log_share_subject': return 'Registro de errores de hibiki';
 			case 'update_never_remind': return 'No recordar de nuevo';
 			case 'update_auto_install': return 'Instalar actualizaciones automáticamente';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return 'Configuración de actualizaciones';
 			case 'anki_settings_label': return 'Configuración de Anki';
 			case 'anki_default_deck': return 'Mazo predeterminado';
@@ -15087,6 +15129,7 @@ extension on _StringsFr {
 			case 'handlebar_book_cover': return 'Couverture du livre';
 			case 'handlebar_audio': return 'Audio';
 			case 'handlebar_sasayaki_audio': return 'Audio Sasayaki';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return 'Texte à trous avant';
 			case 'handlebar_cloze_inside': return 'Texte à trous contenu';
 			case 'handlebar_cloze_after': return 'Texte à trous après';
@@ -15395,6 +15438,7 @@ extension on _StringsFr {
 			case 'error_log_share_subject': return 'Journal d\'erreurs hibiki';
 			case 'update_never_remind': return 'Ne plus rappeler';
 			case 'update_auto_install': return 'Installer automatiquement les mises à jour';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return 'Paramètres de mise à jour';
 			case 'anki_settings_label': return 'Paramètres Anki';
 			case 'anki_default_deck': return 'Paquet par défaut';
@@ -15752,6 +15796,7 @@ extension on _StringsId {
 			case 'handlebar_book_cover': return 'Sampul buku';
 			case 'handlebar_audio': return 'Audio';
 			case 'handlebar_sasayaki_audio': return 'Audio Sasayaki';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return 'Cloze sebelum';
 			case 'handlebar_cloze_inside': return 'Cloze isi';
 			case 'handlebar_cloze_after': return 'Cloze sesudah';
@@ -16060,6 +16105,7 @@ extension on _StringsId {
 			case 'error_log_share_subject': return 'Log Error hibiki';
 			case 'update_never_remind': return 'Jangan ingatkan lagi';
 			case 'update_auto_install': return 'Pasang pembaruan otomatis';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return 'Pengaturan Pembaruan';
 			case 'anki_settings_label': return 'Pengaturan Anki';
 			case 'anki_default_deck': return 'Dek Default';
@@ -16424,6 +16470,7 @@ extension on _StringsIt {
 			case 'handlebar_book_cover': return 'Copertina del libro';
 			case 'handlebar_audio': return 'Audio';
 			case 'handlebar_sasayaki_audio': return 'Audio Sasayaki';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return 'Cloze prima';
 			case 'handlebar_cloze_inside': return 'Cloze contenuto';
 			case 'handlebar_cloze_after': return 'Cloze dopo';
@@ -16737,6 +16784,7 @@ extension on _StringsIt {
 			case 'error_log_share_subject': return 'Registro errori hibiki';
 			case 'update_never_remind': return 'Non ricordarmelo più';
 			case 'update_auto_install': return 'Installa automaticamente gli aggiornamenti';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return 'Impostazioni aggiornamento';
 			case 'anki_settings_label': return 'Impostazioni Anki';
 			case 'anki_default_deck': return 'Mazzo predefinito';
@@ -17082,6 +17130,7 @@ extension on _StringsJa {
 			case 'handlebar_book_cover': return '書籍カバー';
 			case 'handlebar_audio': return '音声';
 			case 'handlebar_sasayaki_audio': return 'Sasayaki 音声';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return '穴埋め前文';
 			case 'handlebar_cloze_inside': return '穴埋め内容';
 			case 'handlebar_cloze_after': return '穴埋め後文';
@@ -17395,6 +17444,7 @@ extension on _StringsJa {
 			case 'error_log_share_subject': return 'hibiki エラーログ';
 			case 'update_never_remind': return '今後通知しない';
 			case 'update_auto_install': return '自動インストール';
+			case 'disable_dialog_scrim': return 'ポップアップの背景オーバーレイを無効にする（E Ink）';
 			case 'update_settings': return 'アップデート設定';
 			case 'anki_settings_label': return 'Anki 設定';
 			case 'anki_default_deck': return 'デフォルトデッキ';
@@ -17747,6 +17797,7 @@ extension on _StringsKo {
 			case 'handlebar_book_cover': return '책 표지';
 			case 'handlebar_audio': return '오디오';
 			case 'handlebar_sasayaki_audio': return 'Sasayaki 오디오';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return '빈칸 앞';
 			case 'handlebar_cloze_inside': return '빈칸 내용';
 			case 'handlebar_cloze_after': return '빈칸 뒤';
@@ -18055,6 +18106,7 @@ extension on _StringsKo {
 			case 'error_log_share_subject': return 'hibiki 오류 로그';
 			case 'update_never_remind': return '다시 알리지 않기';
 			case 'update_auto_install': return '자동 설치';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return '업데이트 설정';
 			case 'anki_settings_label': return 'Anki 설정';
 			case 'anki_default_deck': return '기본 덱';
@@ -18419,6 +18471,7 @@ extension on _StringsNl {
 			case 'handlebar_book_cover': return 'Boekomslag';
 			case 'handlebar_audio': return 'Audio';
 			case 'handlebar_sasayaki_audio': return 'Sasayaki Audio';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return 'Invuloefening voor';
 			case 'handlebar_cloze_inside': return 'Invuloefening inhoud';
 			case 'handlebar_cloze_after': return 'Invuloefening na';
@@ -18732,6 +18785,7 @@ extension on _StringsNl {
 			case 'error_log_share_subject': return 'hibiki foutenlogboek';
 			case 'update_never_remind': return 'Niet meer herinneren';
 			case 'update_auto_install': return 'Updates automatisch installeren';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return 'Update-instellingen';
 			case 'anki_settings_label': return 'Anki-instellingen';
 			case 'anki_default_deck': return 'Standaardstapel';
@@ -19077,6 +19131,7 @@ extension on _StringsPtBr {
 			case 'handlebar_book_cover': return 'Capa do livro';
 			case 'handlebar_audio': return 'Áudio';
 			case 'handlebar_sasayaki_audio': return 'Áudio Sasayaki';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return 'Cloze antes';
 			case 'handlebar_cloze_inside': return 'Cloze conteúdo';
 			case 'handlebar_cloze_after': return 'Cloze depois';
@@ -19385,6 +19440,7 @@ extension on _StringsPtBr {
 			case 'error_log_share_subject': return 'Log de Erros do hibiki';
 			case 'update_never_remind': return 'Não lembrar novamente';
 			case 'update_auto_install': return 'Instalar atualizações automaticamente';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return 'Configurações de Atualização';
 			case 'anki_settings_label': return 'Configurações do Anki';
 			case 'anki_default_deck': return 'Baralho Padrão';
@@ -19742,6 +19798,7 @@ extension on _StringsRu {
 			case 'handlebar_book_cover': return 'Обложка книги';
 			case 'handlebar_audio': return 'Аудио';
 			case 'handlebar_sasayaki_audio': return 'Sasayaki аудио';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return 'Клоуз до';
 			case 'handlebar_cloze_inside': return 'Клоуз содержимое';
 			case 'handlebar_cloze_after': return 'Клоуз после';
@@ -20050,6 +20107,7 @@ extension on _StringsRu {
 			case 'error_log_share_subject': return 'Журнал ошибок hibiki';
 			case 'update_never_remind': return 'Больше не напоминать';
 			case 'update_auto_install': return 'Автоустановка обновлений';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return 'Настройки обновлений';
 			case 'anki_settings_label': return 'Настройки Anki';
 			case 'anki_default_deck': return 'Колода по умолчанию';
@@ -20407,6 +20465,7 @@ extension on _StringsTh {
 			case 'handlebar_book_cover': return 'ปกหนังสือ';
 			case 'handlebar_audio': return 'เสียง';
 			case 'handlebar_sasayaki_audio': return 'เสียง Sasayaki';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return 'เติมคำก่อน';
 			case 'handlebar_cloze_inside': return 'เติมคำเนื้อหา';
 			case 'handlebar_cloze_after': return 'เติมคำหลัง';
@@ -20715,6 +20774,7 @@ extension on _StringsTh {
 			case 'error_log_share_subject': return 'บันทึกข้อผิดพลาด hibiki';
 			case 'update_never_remind': return 'ไม่ต้องเตือนอีก';
 			case 'update_auto_install': return 'ติดตั้งอัปเดตอัตโนมัติ';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return 'ตั้งค่าอัปเดต';
 			case 'anki_settings_label': return 'ตั้งค่า Anki';
 			case 'anki_default_deck': return 'สำรับเริ่มต้น';
@@ -21079,6 +21139,7 @@ extension on _StringsTr {
 			case 'handlebar_book_cover': return 'Kitap kapağı';
 			case 'handlebar_audio': return 'Ses';
 			case 'handlebar_sasayaki_audio': return 'Sasayaki Ses';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return 'Boşluk doldurma önce';
 			case 'handlebar_cloze_inside': return 'Boşluk doldurma içerik';
 			case 'handlebar_cloze_after': return 'Boşluk doldurma sonra';
@@ -21392,6 +21453,7 @@ extension on _StringsTr {
 			case 'error_log_share_subject': return 'hibiki Hata Günlüğü';
 			case 'update_never_remind': return 'Güncellemeleri hatırlatma';
 			case 'update_auto_install': return 'Güncellemeleri otomatik yükle';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return 'Güncelleme ayarları';
 			case 'anki_settings_label': return 'Anki ayarları';
 			case 'anki_default_deck': return 'Varsayılan deste';
@@ -21737,6 +21799,7 @@ extension on _StringsVi {
 			case 'handlebar_book_cover': return 'Bìa sách';
 			case 'handlebar_audio': return 'Âm thanh';
 			case 'handlebar_sasayaki_audio': return 'Âm thanh Sasayaki';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return 'Điền khuyết trước';
 			case 'handlebar_cloze_inside': return 'Điền khuyết nội dung';
 			case 'handlebar_cloze_after': return 'Điền khuyết sau';
@@ -22045,6 +22108,7 @@ extension on _StringsVi {
 			case 'error_log_share_subject': return 'Nhật ký lỗi hibiki';
 			case 'update_never_remind': return 'Không nhắc lại';
 			case 'update_auto_install': return 'Tự động cài đặt bản cập nhật';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return 'Cài đặt cập nhật';
 			case 'anki_settings_label': return 'Cài đặt Anki';
 			case 'anki_default_deck': return 'Bộ thẻ mặc định';
@@ -22409,6 +22473,7 @@ extension on _StringsZhCn {
 			case 'handlebar_book_cover': return '书籍封面';
 			case 'handlebar_audio': return '音频';
 			case 'handlebar_sasayaki_audio': return 'Sasayaki 音频';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return '完形填空前文';
 			case 'handlebar_cloze_inside': return '完形填空内容';
 			case 'handlebar_cloze_after': return '完形填空后文';
@@ -22722,6 +22787,7 @@ extension on _StringsZhCn {
 			case 'error_log_share_subject': return 'hibiki 错误日志';
 			case 'update_never_remind': return '不再提醒自动更新';
 			case 'update_auto_install': return '自动安装更新';
+			case 'disable_dialog_scrim': return '关闭弹窗背景遮罩（墨水屏）';
 			case 'update_settings': return '更新设置';
 			case 'anki_settings_label': return 'Anki 设置';
 			case 'anki_default_deck': return '默认牌组';
@@ -23067,6 +23133,7 @@ extension on _StringsZhHk {
 			case 'handlebar_book_cover': return '書籍封面';
 			case 'handlebar_audio': return '音訊';
 			case 'handlebar_sasayaki_audio': return 'Sasayaki 音訊';
+			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
 			case 'handlebar_cloze_before': return '克漏字前文';
 			case 'handlebar_cloze_inside': return '克漏字內容';
 			case 'handlebar_cloze_after': return '克漏字後文';
@@ -23375,6 +23442,7 @@ extension on _StringsZhHk {
 			case 'error_log_share_subject': return 'hibiki 錯誤記錄';
 			case 'update_never_remind': return '不再提醒';
 			case 'update_auto_install': return '自動安裝更新';
+			case 'disable_dialog_scrim': return '關閉彈窗背景遮罩（墨水屏）';
 			case 'update_settings': return '更新設定';
 			case 'anki_settings_label': return 'Anki 設定';
 			case 'anki_default_deck': return '預設牌組';
