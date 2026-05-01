@@ -11723,7 +11723,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get anki_default_deck_hint => '制卡时默认将卡片添加到此牌组。\n如需新建牌组，请先在 AnkiDroid 中创建。';
 	@override String get anki_default_profile => '导出配置';
 	@override String get anki_default_profile_hint => '决定导出卡片时使用的卡片类型和字段映射。\n可在制卡工具中管理导出配置。';
-	@override String get anki_silent_export_hint => '成功导出卡片后不显示提醒。';
+	@override String get anki_silent_export_hint => '点击制卡时直接导出，不打开制卡界面；成功后不显示提醒。';
 	@override String get anki_auto_tag_hint => '制卡时自动将当前书名添加为标签。';
 	@override String get anki_duplicate_check_hint => '选择导出前检查哪些卡片类型中是否已有重复。';
 	@override String get anki_retry => '重试';
@@ -23501,7 +23501,7 @@ extension on _StringsZhCn {
 			case 'anki_default_deck_hint': return '制卡时默认将卡片添加到此牌组。\n如需新建牌组，请先在 AnkiDroid 中创建。';
 			case 'anki_default_profile': return '导出配置';
 			case 'anki_default_profile_hint': return '决定导出卡片时使用的卡片类型和字段映射。\n可在制卡工具中管理导出配置。';
-			case 'anki_silent_export_hint': return '成功导出卡片后不显示提醒。';
+			case 'anki_silent_export_hint': return '点击制卡时直接导出，不打开制卡界面；成功后不显示提醒。';
 			case 'anki_auto_tag_hint': return '制卡时自动将当前书名添加为标签。';
 			case 'anki_duplicate_check_hint': return '选择导出前检查哪些卡片类型中是否已有重复。';
 			case 'anki_retry': return '重试';
