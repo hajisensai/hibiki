@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 11509 (677 per locale)
+/// Strings: 11696 (688 per locale)
 ///
-/// Built on 2026-04-30 at 18:43 UTC
+/// Built on 2026-05-01 at 16:48 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -674,6 +674,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get ttu_furigana_toggle => 'Toggle';
 	String get ttu_text_indentation => 'Paragraph Indent';
 	String get ttu_first_dimension_margin => 'Margin';
+	String get ttu_second_dimension_margin => 'Cross Margin';
 	String get ttu_second_dimension_max => 'Max Width/Height';
 	String get ttu_page_columns => 'Page Columns';
 	String get ttu_page_columns_auto => 'Auto';
@@ -684,6 +685,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get ttu_orient_upright => 'Upright';
 	String get ttu_text_justify => 'Text Justification';
 	String get ttu_reader_styles => 'Prioritize Book Styles';
+	String get ttu_avoid_page_break => 'Load Full Text';
 	String get ttu_theme => 'Theme';
 	String error_log_label({required Object n}) => 'Error Log (${n})';
 	String get source_name_bookshelf => 'Bookshelf';
@@ -726,6 +728,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get ttu_reader_styles_hint => 'Use the book\'s built-in CSS instead of reader defaults.';
 	String get ttu_vert_text_orient_hint => 'Mixed: rotate Latin; Upright: keep all characters upright.';
 	String get reader_settings_section => 'Reader Settings';
+	String get book_search => 'Search in Book';
+	String get book_search_hint => 'Enter keyword...';
+	String book_search_results({required Object n}) => '${n} results found';
+	String get book_search_no_results => 'No results found';
+	String get book_searching => 'Searching...';
 	String get action_bookmark => 'Bookmark';
 	String get action_fullscreen_toggle => 'Toggle Fullscreen';
 	String get action_exit => 'Exit';
@@ -822,7 +829,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get hint_font_size => 'Adjust the font size of the book text (in pixels).';
 	String get hint_line_height => 'Adjust the spacing between lines of text. Larger values increase readability.';
 	String get hint_text_indentation => 'Number of characters to indent the first line of each paragraph.';
-	String get hint_margin => 'Outer margin around the reading area (in pixels).';
+	String get hint_margin => 'Margin along the reading direction (vertical: left/right, horizontal: top/bottom).';
+	String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	String get hint_max_width_height => 'Maximum width (horizontal) or height (vertical) of the reading area. Set to Auto for full screen.';
 	String get hint_page_columns => 'Number of columns per page. Set to Auto to let the reader decide based on screen size.';
 	String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
@@ -1402,6 +1410,7 @@ class _StringsAr implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => '????? ????? ??????';
 	@override String get ttu_first_dimension_margin => '??????';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => '???? ?????? ?????/????????';
 	@override String get ttu_page_columns => '????? ??????';
 	@override String get ttu_page_columns_auto => '??????';
@@ -1412,6 +1421,7 @@ class _StringsAr implements _StringsEn {
 	@override String get ttu_orient_upright => '?????';
 	@override String get ttu_text_justify => '?????? ????';
 	@override String get ttu_reader_styles => '?????? ????? ??????';
+	@override String get ttu_avoid_page_break => 'Load Full Text';
 	@override String get ttu_theme => '??????';
 	@override String error_log_label({required Object n}) => '??? ??????? (${n})';
 	@override String get source_name_bookshelf => '?? ?????';
@@ -1462,6 +1472,11 @@ class _StringsAr implements _StringsEn {
 	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => '????? ?????';
 	@override String get reader_settings_section => '??????? ??????';
+	@override String get book_search => 'Search in Book';
+	@override String get book_search_hint => 'Enter keyword...';
+	@override String book_search_results({required Object n}) => '${n} results found';
+	@override String get book_search_no_results => 'No results found';
+	@override String get book_searching => 'Searching...';
 	@override String get action_bookmark => '????? ??????';
 	@override String get action_fullscreen_toggle => '????? ??? ??????';
 	@override String get action_exit => '????';
@@ -1546,6 +1561,7 @@ class _StringsAr implements _StringsEn {
 	@override String get hint_line_height => '??? ??????? ??? ???? ????. ????? ?????? ????? ???????.';
 	@override String get hint_text_indentation => '??? ?????? ?????? ????? ????? ????? ?? ?? ????.';
 	@override String get hint_margin => '?????? ??????? ??? ????? ??????? (???????).';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => '????? ?????? (????) ?? ???????? ?????? (?????) ?????? ???????. ???? ??? ?????? ???? ??????.';
 	@override String get hint_page_columns => '??? ??????? ?? ?? ????. ???? ??? ?????? ????? ?????? ??? ??? ??????.';
 	@override String get hint_writing_direction => '????: ???? ???? ?? ?????? ??????. ?????: ???? ???????? ???????? ?? ???? ?????? ?? ?????? ??????.';
@@ -2140,6 +2156,7 @@ class _StringsDe implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => 'Absatzeinzug';
 	@override String get ttu_first_dimension_margin => 'Rand';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => 'Max. Breite/H?he';
 	@override String get ttu_page_columns => 'Seitenspalten';
 	@override String get ttu_page_columns_auto => 'Automatisch';
@@ -2150,6 +2167,7 @@ class _StringsDe implements _StringsEn {
 	@override String get ttu_orient_upright => 'Aufrecht';
 	@override String get ttu_text_justify => 'Blocksatz';
 	@override String get ttu_reader_styles => 'Buchstile bevorzugen';
+	@override String get ttu_avoid_page_break => 'Load Full Text';
 	@override String get ttu_theme => 'Design';
 	@override String error_log_label({required Object n}) => 'Fehlerprotokoll (${n})';
 	@override String get source_name_bookshelf => 'Bücherregal';
@@ -2200,6 +2218,11 @@ class _StringsDe implements _StringsEn {
 	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'Lautst?rke';
 	@override String get reader_settings_section => 'Reader-Einstellungen';
+	@override String get book_search => 'Search in Book';
+	@override String get book_search_hint => 'Enter keyword...';
+	@override String book_search_results({required Object n}) => '${n} results found';
+	@override String get book_search_no_results => 'No results found';
+	@override String get book_searching => 'Searching...';
 	@override String get action_bookmark => 'Lesezeichen';
 	@override String get action_fullscreen_toggle => 'Vollbild umschalten';
 	@override String get action_exit => 'Beenden';
@@ -2284,6 +2307,7 @@ class _StringsDe implements _StringsEn {
 	@override String get hint_line_height => 'Zeilenabstand anpassen. Gr??ere Werte erh?hen die Lesbarkeit.';
 	@override String get hint_text_indentation => 'Anzahl der Zeichen für den Einzug der ersten Zeile jedes Absatzes.';
 	@override String get hint_margin => '?u?erer Rand um den Lesebereich (in Pixel).';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => 'Maximale Breite (horizontal) oder H?he (vertikal) des Lesebereichs. Auf Auto für Vollbild setzen.';
 	@override String get hint_page_columns => 'Anzahl der Spalten pro Seite. Auf Auto setzen, um den Reader anhand der Bildschirmgr??e entscheiden zu lassen.';
 	@override String get hint_writing_direction => 'Horizontal: Textfluss von links nach rechts. Vertikal: traditioneller japanischer Text von oben nach unten, rechts nach links.';
@@ -2878,6 +2902,7 @@ class _StringsEs implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => 'Sangría de párrafo';
 	@override String get ttu_first_dimension_margin => 'Margen';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => 'Ancho/alto máximo';
 	@override String get ttu_page_columns => 'Columnas de página';
 	@override String get ttu_page_columns_auto => 'Automático';
@@ -2888,6 +2913,7 @@ class _StringsEs implements _StringsEn {
 	@override String get ttu_orient_upright => 'Vertical';
 	@override String get ttu_text_justify => 'Justificación de texto';
 	@override String get ttu_reader_styles => 'Priorizar estilos del libro';
+	@override String get ttu_avoid_page_break => 'Load Full Text';
 	@override String get ttu_theme => 'Tema';
 	@override String error_log_label({required Object n}) => 'Registro de errores (${n})';
 	@override String get source_name_bookshelf => 'Estantería';
@@ -2938,6 +2964,11 @@ class _StringsEs implements _StringsEn {
 	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'Volumen';
 	@override String get reader_settings_section => 'Configuración del lector';
+	@override String get book_search => 'Search in Book';
+	@override String get book_search_hint => 'Enter keyword...';
+	@override String book_search_results({required Object n}) => '${n} results found';
+	@override String get book_search_no_results => 'No results found';
+	@override String get book_searching => 'Searching...';
 	@override String get action_bookmark => 'Marcador';
 	@override String get action_fullscreen_toggle => 'Alternar pantalla completa';
 	@override String get action_exit => 'Salir';
@@ -3022,6 +3053,7 @@ class _StringsEs implements _StringsEn {
 	@override String get hint_line_height => 'Ajustar el espaciado entre líneas de texto. Valores más grandes mejoran la legibilidad.';
 	@override String get hint_text_indentation => 'Número de caracteres para sangrar la primera línea de cada párrafo.';
 	@override String get hint_margin => 'Margen exterior alrededor del área de lectura (en píxeles).';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => 'Ancho máximo (horizontal) o alto máximo (vertical) del área de lectura. Establecer en Auto para pantalla completa.';
 	@override String get hint_page_columns => 'Número de columnas por página. Establecer en Auto para que el lector decida según el tama?o de pantalla.';
 	@override String get hint_writing_direction => 'Horizontal: texto de izquierda a derecha. Vertical: texto japonés tradicional de arriba a abajo, de derecha a izquierda.';
@@ -3616,6 +3648,7 @@ class _StringsFr implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => 'Retrait de paragraphe';
 	@override String get ttu_first_dimension_margin => 'Marge';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => 'Largeur/hauteur max';
 	@override String get ttu_page_columns => 'Colonnes de page';
 	@override String get ttu_page_columns_auto => 'Automatique';
@@ -3626,6 +3659,7 @@ class _StringsFr implements _StringsEn {
 	@override String get ttu_orient_upright => 'Droit';
 	@override String get ttu_text_justify => 'Justification du texte';
 	@override String get ttu_reader_styles => 'Prioriser les styles du livre';
+	@override String get ttu_avoid_page_break => 'Load Full Text';
 	@override String get ttu_theme => 'Thème';
 	@override String error_log_label({required Object n}) => 'Journal d\'erreurs (${n})';
 	@override String get source_name_bookshelf => 'Bibliothèque';
@@ -3676,6 +3710,11 @@ class _StringsFr implements _StringsEn {
 	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Paramètres du lecteur';
+	@override String get book_search => 'Search in Book';
+	@override String get book_search_hint => 'Enter keyword...';
+	@override String book_search_results({required Object n}) => '${n} results found';
+	@override String get book_search_no_results => 'No results found';
+	@override String get book_searching => 'Searching...';
 	@override String get action_bookmark => 'Signet';
 	@override String get action_fullscreen_toggle => 'Plein écran';
 	@override String get action_exit => 'Quitter';
@@ -3760,6 +3799,7 @@ class _StringsFr implements _StringsEn {
 	@override String get hint_line_height => 'Ajuster l\'espacement entre les lignes de texte. Des valeurs plus grandes améliorent la lisibilité.';
 	@override String get hint_text_indentation => 'Nombre de caractères pour l\'indentation de la première ligne de chaque paragraphe.';
 	@override String get hint_margin => 'Marge extérieure autour de la zone de lecture (en pixels).';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => 'Largeur maximale (horizontal) ou hauteur maximale (vertical) de la zone de lecture. Régler sur Auto pour le plein écran.';
 	@override String get hint_page_columns => 'Nombre de colonnes par page. Régler sur Auto pour laisser le lecteur décider selon la taille de l\'écran.';
 	@override String get hint_writing_direction => 'Horizontal : texte de gauche à droite. Vertical : texte japonais traditionnel de haut en bas, de droite à gauche.';
@@ -4354,6 +4394,7 @@ class _StringsId implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => 'Indentasi Paragraf';
 	@override String get ttu_first_dimension_margin => 'Margin';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => 'Lebar/Tinggi Maks';
 	@override String get ttu_page_columns => 'Kolom Halaman';
 	@override String get ttu_page_columns_auto => 'Otomatis';
@@ -4364,6 +4405,7 @@ class _StringsId implements _StringsEn {
 	@override String get ttu_orient_upright => 'Tegak';
 	@override String get ttu_text_justify => 'Perataan Teks';
 	@override String get ttu_reader_styles => 'Prioritaskan Gaya Buku';
+	@override String get ttu_avoid_page_break => 'Load Full Text';
 	@override String get ttu_theme => 'Tema';
 	@override String error_log_label({required Object n}) => 'Log Error (${n})';
 	@override String get source_name_bookshelf => 'Rak Buku';
@@ -4414,6 +4456,11 @@ class _StringsId implements _StringsEn {
 	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Pengaturan Pembaca';
+	@override String get book_search => 'Search in Book';
+	@override String get book_search_hint => 'Enter keyword...';
+	@override String book_search_results({required Object n}) => '${n} results found';
+	@override String get book_search_no_results => 'No results found';
+	@override String get book_searching => 'Searching...';
 	@override String get action_bookmark => 'Bookmark';
 	@override String get action_fullscreen_toggle => 'Alihkan Layar Penuh';
 	@override String get action_exit => 'Keluar';
@@ -4498,6 +4545,7 @@ class _StringsId implements _StringsEn {
 	@override String get hint_line_height => 'Sesuaikan jarak antar baris teks. Nilai lebih besar meningkatkan keterbacaan.';
 	@override String get hint_text_indentation => 'Jumlah karakter untuk mengindentasi baris pertama setiap paragraf.';
 	@override String get hint_margin => 'Margin luar di sekitar area baca (dalam piksel).';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => 'Lebar maksimum (horizontal) atau tinggi maksimum (vertikal) area baca. Atur ke Otomatis untuk layar penuh.';
 	@override String get hint_page_columns => 'Jumlah kolom per halaman. Atur ke Otomatis untuk membiarkan pembaca memutuskan berdasarkan ukuran layar.';
 	@override String get hint_writing_direction => 'Horizontal: aliran teks kiri ke kanan. Vertikal: teks Jepang tradisional atas ke bawah, kanan ke kiri.';
@@ -5117,6 +5165,7 @@ class _StringsIt implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => 'Rientro paragrafo';
 	@override String get ttu_first_dimension_margin => 'Margine';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => 'Larghezza/Altezza max';
 	@override String get ttu_page_columns => 'Colonne pagina';
 	@override String get ttu_page_columns_auto => 'Automatico';
@@ -5127,6 +5176,7 @@ class _StringsIt implements _StringsEn {
 	@override String get ttu_orient_upright => 'Diritto';
 	@override String get ttu_text_justify => 'Giustificazione testo';
 	@override String get ttu_reader_styles => 'Priorità stili del libro';
+	@override String get ttu_avoid_page_break => 'Load Full Text';
 	@override String get ttu_theme => 'Tema';
 	@override String error_log_label({required Object n}) => 'Registro errori (${n})';
 	@override String get source_name_bookshelf => 'Libreria';
@@ -5159,6 +5209,11 @@ class _StringsIt implements _StringsEn {
 	@override String get av_sync_hint => 'Positivo = audio in anticipo sul testo, sposta il riferimento indietro; Negativo = audio in ritardo.';
 	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Impostazioni del lettore';
+	@override String get book_search => 'Search in Book';
+	@override String get book_search_hint => 'Enter keyword...';
+	@override String book_search_results({required Object n}) => '${n} results found';
+	@override String get book_search_no_results => 'No results found';
+	@override String get book_searching => 'Searching...';
 	@override String get action_bookmark => 'Segnalibro';
 	@override String get action_fullscreen_toggle => 'Schermo intero';
 	@override String get action_exit => 'Esci';
@@ -5249,6 +5304,7 @@ class _StringsIt implements _StringsEn {
 	@override String get hint_line_height => 'Regola la spaziatura tra le righe di testo. Valori più alti migliorano la leggibilità.';
 	@override String get hint_text_indentation => 'Numero di caratteri per il rientro della prima riga di ogni paragrafo.';
 	@override String get hint_margin => 'Margine esterno attorno all\'area di lettura (in pixel).';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => 'Larghezza massima (orizzontale) o altezza massima (verticale) dell\'area di lettura. Imposta su Auto per lo schermo intero.';
 	@override String get hint_page_columns => 'Numero di colonne per pagina. Imposta su Auto per lasciare che il lettore decida in base alla dimensione dello schermo.';
 	@override String get hint_writing_direction => 'Orizzontale: testo da sinistra a destra. Verticale: testo giapponese tradizionale dall\'alto in basso, da destra a sinistra.';
@@ -5783,15 +5839,15 @@ class _StringsJa implements _StringsEn {
 	@override String get srt_import_missing_audio_dir => '音声ディレクトリを選択してください';
 	@override String get srt_import_missing_title => '本のタイトルを入力してください';
 	@override String get srt_import_error => 'インポートに失敗しました';
-	@override String get audio_panel_title => '音声ファイル';
+	@override String get audio_panel_title => 'オーディオファイル';
 	@override String get audio_panel_auto => '自動';
-	@override String get audio_panel_unpaired => '未ペアリング';
+	@override String get audio_panel_unpaired => '未ペア';
 	@override String get audio_panel_pick_new_subtitle => '新しい字幕ファイルを選択';
 	@override String get audio_panel_remove_subtitle => '字幕を削除';
-	@override String get audio_panel_add_audio => '音声を追加';
+	@override String get audio_panel_add_audio => 'オーディオを追加';
 	@override String get audio_panel_add_subtitle => '字幕を追加';
 	@override String get srt_import_pick_subtitle_files => '字幕ファイルを選択';
-	@override String get srt_import_pick_subtitle_dir => '字幕フォルダを選択';
+	@override String get srt_import_pick_subtitle_dir => '字幕ディレクトリを選択';
 	@override String srt_import_unpaired_subtitles({required Object n}) => '${n} 件の未マッチ字幕';
 	@override String get srt_no_cues => '字幕が見つかりません';
 	@override String get srt_no_audio_files => '選択したディレクトリに音声ファイルがありません';
@@ -5830,6 +5886,7 @@ class _StringsJa implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => '段落インデント';
 	@override String get ttu_first_dimension_margin => '余白';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => '最大幅/高さ';
 	@override String get ttu_page_columns => '段組み';
 	@override String get ttu_page_columns_auto => '自動';
@@ -5840,6 +5897,7 @@ class _StringsJa implements _StringsEn {
 	@override String get ttu_orient_upright => '正立';
 	@override String get ttu_text_justify => '両端揃え';
 	@override String get ttu_reader_styles => '書籍スタイル優先';
+	@override String get ttu_avoid_page_break => '全文読み込み';
 	@override String get ttu_theme => 'テーマ';
 	@override String error_log_label({required Object n}) => 'エラーログ (${n})';
 	@override String get source_name_bookshelf => '本棚';
@@ -5890,6 +5948,11 @@ class _StringsJa implements _StringsEn {
 	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => '音量';
 	@override String get reader_settings_section => 'リーダー設定';
+	@override String get book_search => '本の中を検索';
+	@override String get book_search_hint => 'キーワードを入力...';
+	@override String book_search_results({required Object n}) => '${n} 件の結果';
+	@override String get book_search_no_results => '結果が見つかりません';
+	@override String get book_searching => '検索中...';
 	@override String get action_bookmark => 'ブックマーク';
 	@override String get action_fullscreen_toggle => '全画面表示の切替';
 	@override String get action_exit => '終了';
@@ -5980,6 +6043,7 @@ class _StringsJa implements _StringsEn {
 	@override String get hint_line_height => '行間を調整します。値が大きいほど読みやすくなります。';
 	@override String get hint_text_indentation => '各段落の最初の行の字下げ文字数。';
 	@override String get hint_margin => '読書エリアの外側の余白（ピクセル）。';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => '読書エリアの最大幅（横書き）または高さ（縦書き）。自動に設定すると全画面になります。';
 	@override String get hint_page_columns => '1ページあたりの列数。自動に設定すると画面サイズに基づいて決定されます。';
 	@override String get hint_writing_direction => '横書き：左から右へ。縦書き：伝統的な日本語の上から下、右から左への配置。';
@@ -6568,6 +6632,7 @@ class _StringsKo implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => '?? ????';
 	@override String get ttu_first_dimension_margin => '??';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => '?? ??/??';
 	@override String get ttu_page_columns => '??? ?';
 	@override String get ttu_page_columns_auto => '??';
@@ -6578,6 +6643,7 @@ class _StringsKo implements _StringsEn {
 	@override String get ttu_orient_upright => '??';
 	@override String get ttu_text_justify => '?? ??';
 	@override String get ttu_reader_styles => '? ??? ??';
+	@override String get ttu_avoid_page_break => 'Load Full Text';
 	@override String get ttu_theme => '??';
 	@override String error_log_label({required Object n}) => '?? ?? (${n})';
 	@override String get source_name_bookshelf => '??';
@@ -6628,6 +6694,11 @@ class _StringsKo implements _StringsEn {
 	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => '??';
 	@override String get reader_settings_section => '?? ??';
+	@override String get book_search => 'Search in Book';
+	@override String get book_search_hint => 'Enter keyword...';
+	@override String book_search_results({required Object n}) => '${n} results found';
+	@override String get book_search_no_results => 'No results found';
+	@override String get book_searching => 'Searching...';
 	@override String get action_bookmark => '???';
 	@override String get action_fullscreen_toggle => '?? ?? ??';
 	@override String get action_exit => '??';
@@ -6712,6 +6783,7 @@ class _StringsKo implements _StringsEn {
 	@override String get hint_line_height => '? ??? ?????. ?? ??? ???? ?????.';
 	@override String get hint_text_indentation => '? ?? ? ?? ???? ?? ?.';
 	@override String get hint_margin => '?? ??? ?? ?? (??).';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => '?? ??? ?? ??(??) ?? ??(??). ???? ???? ?? ??? ???.';
 	@override String get hint_page_columns => '???? ? ?. ???? ???? ?? ??? ?? ?????.';
 	@override String get hint_writing_direction => '??: ???? ?????. ??: ???? ??? ??, ????? ?? ??? ??.';
@@ -7331,6 +7403,7 @@ class _StringsNl implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => 'Alinea-inspringing';
 	@override String get ttu_first_dimension_margin => 'Marge';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => 'Max breedte/hoogte';
 	@override String get ttu_page_columns => 'Paginakolommen';
 	@override String get ttu_page_columns_auto => 'Automatisch';
@@ -7341,6 +7414,7 @@ class _StringsNl implements _StringsEn {
 	@override String get ttu_orient_upright => 'Rechtop';
 	@override String get ttu_text_justify => 'Tekstuitlijning';
 	@override String get ttu_reader_styles => 'Boekstijlen prioriteit geven';
+	@override String get ttu_avoid_page_break => 'Load Full Text';
 	@override String get ttu_theme => 'Thema';
 	@override String error_log_label({required Object n}) => 'Foutenlogboek (${n})';
 	@override String get source_name_bookshelf => 'Boekenplank';
@@ -7373,6 +7447,11 @@ class _StringsNl implements _StringsEn {
 	@override String get av_sync_hint => 'Positief = audio loopt voor op tekst, verschuift referentie terug; Negatief = audio loopt achter.';
 	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Lezerinstellingen';
+	@override String get book_search => 'Search in Book';
+	@override String get book_search_hint => 'Enter keyword...';
+	@override String book_search_results({required Object n}) => '${n} results found';
+	@override String get book_search_no_results => 'No results found';
+	@override String get book_searching => 'Searching...';
 	@override String get action_bookmark => 'Bladwijzer';
 	@override String get action_fullscreen_toggle => 'Volledig scherm';
 	@override String get action_exit => 'Afsluiten';
@@ -7463,6 +7542,7 @@ class _StringsNl implements _StringsEn {
 	@override String get hint_line_height => 'Pas de afstand tussen tekstregels aan. Grotere waarden verhogen de leesbaarheid.';
 	@override String get hint_text_indentation => 'Aantal tekens voor de inspringing van de eerste regel van elke alinea.';
 	@override String get hint_margin => 'Buitenmarge rondom het leesgebied (in pixels).';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => 'Maximale breedte (horizontaal) of hoogte (verticaal) van het leesgebied. Stel in op Auto voor volledig scherm.';
 	@override String get hint_page_columns => 'Aantal kolommen per pagina. Stel in op Auto om de lezer te laten beslissen op basis van schermgrootte.';
 	@override String get hint_writing_direction => 'Horizontaal: tekst van links naar rechts. Verticaal: traditionele Japanse tekst van boven naar beneden, rechts naar links.';
@@ -8044,6 +8124,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => 'Recuo de parágrafo';
 	@override String get ttu_first_dimension_margin => 'Margem';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => 'Largura/altura máx.';
 	@override String get ttu_page_columns => 'Colunas da página';
 	@override String get ttu_page_columns_auto => 'Automático';
@@ -8054,6 +8135,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String get ttu_orient_upright => 'Vertical';
 	@override String get ttu_text_justify => 'Justifica??o do texto';
 	@override String get ttu_reader_styles => 'Priorizar estilos do livro';
+	@override String get ttu_avoid_page_break => 'Load Full Text';
 	@override String get ttu_theme => 'Tema';
 	@override String error_log_label({required Object n}) => 'Log de Erros (${n})';
 	@override String get source_name_bookshelf => 'Estante';
@@ -8104,6 +8186,11 @@ class _StringsPtBr implements _StringsEn {
 	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Configura??es do Leitor';
+	@override String get book_search => 'Search in Book';
+	@override String get book_search_hint => 'Enter keyword...';
+	@override String book_search_results({required Object n}) => '${n} results found';
+	@override String get book_search_no_results => 'No results found';
+	@override String get book_searching => 'Searching...';
 	@override String get action_bookmark => 'Marcador';
 	@override String get action_fullscreen_toggle => 'Alternar Tela Cheia';
 	@override String get action_exit => 'Sair';
@@ -8188,6 +8275,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String get hint_line_height => 'Ajustar o espa?amento entre linhas de texto. Valores maiores melhoram a legibilidade.';
 	@override String get hint_text_indentation => 'Número de caracteres para recuar a primeira linha de cada parágrafo.';
 	@override String get hint_margin => 'Margem externa ao redor da área de leitura (em pixels).';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => 'Largura máxima (horizontal) ou altura máxima (vertical) da área de leitura. Defina como Auto para tela cheia.';
 	@override String get hint_page_columns => 'Número de colunas por página. Defina como Auto para deixar o leitor decidir com base no tamanho da tela.';
 	@override String get hint_writing_direction => 'Horizontal: texto da esquerda para a direita. Vertical: texto japonês tradicional de cima para baixo, da direita para a esquerda.';
@@ -8782,6 +8870,7 @@ class _StringsRu implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => 'Отступ абзаца';
 	@override String get ttu_first_dimension_margin => 'Поля';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => 'Макс. ширина/высота';
 	@override String get ttu_page_columns => 'Колонки страницы';
 	@override String get ttu_page_columns_auto => 'Авто';
@@ -8792,6 +8881,7 @@ class _StringsRu implements _StringsEn {
 	@override String get ttu_orient_upright => 'Прямая';
 	@override String get ttu_text_justify => 'Выравнивание текста';
 	@override String get ttu_reader_styles => 'Приоритет стилей книги';
+	@override String get ttu_avoid_page_break => 'Load Full Text';
 	@override String get ttu_theme => 'Тема';
 	@override String error_log_label({required Object n}) => 'Журнал ошибок (${n})';
 	@override String get source_name_bookshelf => 'Книжная полка';
@@ -8842,6 +8932,11 @@ class _StringsRu implements _StringsEn {
 	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'Громкость';
 	@override String get reader_settings_section => 'Настройки читалки';
+	@override String get book_search => 'Search in Book';
+	@override String get book_search_hint => 'Enter keyword...';
+	@override String book_search_results({required Object n}) => '${n} results found';
+	@override String get book_search_no_results => 'No results found';
+	@override String get book_searching => 'Searching...';
 	@override String get action_bookmark => 'Закладка';
 	@override String get action_fullscreen_toggle => 'Полноэкранный режим';
 	@override String get action_exit => 'Выход';
@@ -8926,6 +9021,7 @@ class _StringsRu implements _StringsEn {
 	@override String get hint_line_height => 'Настроить межстрочный интервал. Большие значения улучшают читаемость.';
 	@override String get hint_text_indentation => 'Количество символов для отступа первой строки каждого абзаца.';
 	@override String get hint_margin => 'Внешний отступ вокруг области чтения (в пикселях).';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => 'Максимальная ширина (горизонтально) или высота (вертикально) области чтения. Установите ?Авто? для полного экрана.';
 	@override String get hint_page_columns => 'Количество колонок на странице. Установите ?Авто?, чтобы ридер определил автоматически по размеру экрана.';
 	@override String get hint_writing_direction => 'Горизонтальное: текст слева направо. Вертикальное: традиционный японский текст сверху вниз, справа налево.';
@@ -9520,6 +9616,7 @@ class _StringsTh implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => '???????';
 	@override String get ttu_first_dimension_margin => '???????';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => '?????????/?????????';
 	@override String get ttu_page_columns => '???????????';
 	@override String get ttu_page_columns_auto => '?????????';
@@ -9530,6 +9627,7 @@ class _StringsTh implements _StringsEn {
 	@override String get ttu_orient_upright => '???????';
 	@override String get ttu_text_justify => '?????????????';
 	@override String get ttu_reader_styles => '??????????????????';
+	@override String get ttu_avoid_page_break => 'Load Full Text';
 	@override String get ttu_theme => '???';
 	@override String error_log_label({required Object n}) => '???????????????? (${n})';
 	@override String get source_name_bookshelf => '???????????';
@@ -9580,6 +9678,11 @@ class _StringsTh implements _StringsEn {
 	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => '??????????';
 	@override String get reader_settings_section => '??????????????';
+	@override String get book_search => 'Search in Book';
+	@override String get book_search_hint => 'Enter keyword...';
+	@override String book_search_results({required Object n}) => '${n} results found';
+	@override String get book_search_no_results => 'No results found';
+	@override String get book_searching => 'Searching...';
 	@override String get action_bookmark => '?????????';
 	@override String get action_fullscreen_toggle => '??????????';
 	@override String get action_exit => '???';
@@ -9664,6 +9767,7 @@ class _StringsTh implements _StringsEn {
 	@override String get hint_line_height => '????????????????????????? ????????????????????????';
 	@override String get hint_text_indentation => '?????????????????????????????????????????????????';
 	@override String get hint_margin => '???????????????????????? (??????)';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => '??????????????? (??????) ????????????????? (???????) ?????????????? ????????????????????????????';
 	@override String get hint_page_columns => '??????????????????? ?????????????????????????????????????????????????';
 	@override String get hint_writing_direction => '??????: ??????????????????? ???????: ???????????????????????????????????? ?????????';
@@ -10283,6 +10387,7 @@ class _StringsTr implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => 'Paragraf girintisi';
 	@override String get ttu_first_dimension_margin => 'Kenar bo?lu?u';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => 'Maks geni?lik/yükseklik';
 	@override String get ttu_page_columns => 'Sayfa sütunlar?';
 	@override String get ttu_page_columns_auto => 'Otomatik';
@@ -10293,6 +10398,7 @@ class _StringsTr implements _StringsEn {
 	@override String get ttu_orient_upright => 'Dik';
 	@override String get ttu_text_justify => 'Metin hizalama';
 	@override String get ttu_reader_styles => 'Kitap stillerine ?ncelik ver';
+	@override String get ttu_avoid_page_break => 'Load Full Text';
 	@override String get ttu_theme => 'Tema';
 	@override String error_log_label({required Object n}) => 'Hata günlü?ü (${n})';
 	@override String get source_name_bookshelf => 'Kitapl?k';
@@ -10325,6 +10431,11 @@ class _StringsTr implements _StringsEn {
 	@override String get av_sync_hint => 'Pozitif = ses metinden ?nde, referans? geri kayd?r?r; Negatif = ses geride.';
 	@override String get audio_volume => 'Ses seviyesi';
 	@override String get reader_settings_section => 'Okuyucu ayarlar?';
+	@override String get book_search => 'Search in Book';
+	@override String get book_search_hint => 'Enter keyword...';
+	@override String book_search_results({required Object n}) => '${n} results found';
+	@override String get book_search_no_results => 'No results found';
+	@override String get book_searching => 'Searching...';
 	@override String get action_bookmark => 'Yer imi';
 	@override String get action_fullscreen_toggle => 'Tam ekran';
 	@override String get action_exit => '??k??';
@@ -10415,6 +10526,7 @@ class _StringsTr implements _StringsEn {
 	@override String get hint_line_height => 'Metin sat?rlar? aras?ndaki bo?lu?u ayarlay?n. Daha büyük de?erler okunabilirli?i art?r?r.';
 	@override String get hint_text_indentation => 'Her paragraf?n ilk sat?r? i?in girinti karakter say?s?.';
 	@override String get hint_margin => 'Okuma alan? etraf?ndaki d?? kenar bo?lu?u (piksel cinsinden).';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => 'Okuma alan?n?n maksimum geni?li?i (yatay) veya yüksekli?i (dikey). Tam ekran i?in Otomatik olarak ayarlay?n.';
 	@override String get hint_page_columns => 'Sayfa ba??na sütun say?s?. Okuyucunun ekran boyutuna g?re karar vermesi i?in Otomatik olarak ayarlay?n.';
 	@override String get hint_writing_direction => 'Yatay: soldan sa?a metin ak???. Dikey: geleneksel yukar?dan a?a??ya, sa?dan sola Japonca metin.';
@@ -10996,6 +11108,7 @@ class _StringsVi implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => 'Th?t ??u ?o?n';
 	@override String get ttu_first_dimension_margin => 'L?';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => 'R?ng/cao t?i ?a';
 	@override String get ttu_page_columns => 'C?t trang';
 	@override String get ttu_page_columns_auto => 'T? ??ng';
@@ -11006,6 +11119,7 @@ class _StringsVi implements _StringsEn {
 	@override String get ttu_orient_upright => 'Th?ng ??ng';
 	@override String get ttu_text_justify => 'C?n ??u v?n b?n';
 	@override String get ttu_reader_styles => '?u tiên ki?u sách';
+	@override String get ttu_avoid_page_break => 'Load Full Text';
 	@override String get ttu_theme => 'Giao di?n';
 	@override String error_log_label({required Object n}) => 'Nh?t ky l?i (${n})';
 	@override String get source_name_bookshelf => 'Giá sách';
@@ -11056,6 +11170,11 @@ class _StringsVi implements _StringsEn {
 	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => '?m l??ng';
 	@override String get reader_settings_section => 'Cài ??t trình ??c';
+	@override String get book_search => 'Search in Book';
+	@override String get book_search_hint => 'Enter keyword...';
+	@override String book_search_results({required Object n}) => '${n} results found';
+	@override String get book_search_no_results => 'No results found';
+	@override String get book_searching => 'Searching...';
 	@override String get action_bookmark => '?ánh d?u';
 	@override String get action_fullscreen_toggle => 'B?t/t?t toàn màn hình';
 	@override String get action_exit => 'Thoát';
@@ -11140,6 +11259,7 @@ class _StringsVi implements _StringsEn {
 	@override String get hint_line_height => '?i?u ch?nh kho?ng cách gi?a các dòng v?n b?n. Giá tr? l?n h?n t?ng kh? n?ng ??c.';
 	@override String get hint_text_indentation => 'S? ky t? th?t l? dòng ??u tiên c?a m?i ?o?n.';
 	@override String get hint_margin => 'L? ngoài xung quanh khu v?c ??c (tính b?ng pixel).';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => 'Chi?u r?ng t?i ?a (ngang) ho?c chi?u cao t?i ?a (d?c) c?a khu v?c ??c. ??t thành T? ??ng ?? toàn màn hình.';
 	@override String get hint_page_columns => 'S? c?t m?i trang. ??t thành T? ??ng ?? trình ??c t? quy?t ??nh d?a trên kích th??c màn hình.';
 	@override String get hint_writing_direction => 'Ngang: v?n b?n t? trái sang ph?i. D?c: v?n b?n Nh?t truy?n th?ng t? trên xu?ng d??i, ph?i sang trái.';
@@ -11702,8 +11822,8 @@ class _StringsZhCn implements _StringsEn {
 	@override String get audio_panel_add_audio => '添加音频';
 	@override String get audio_panel_add_subtitle => '添加字幕';
 	@override String get srt_import_pick_subtitle_files => '选择字幕文件';
-	@override String get srt_import_pick_subtitle_dir => '选择字幕文件夹';
-	@override String srt_import_unpaired_subtitles({required Object n}) => '${n} 个未匹配的字幕';
+	@override String get srt_import_pick_subtitle_dir => '选择字幕目录';
+	@override String srt_import_unpaired_subtitles({required Object n}) => '${n} 个未匹配字幕';
 	@override String get srt_no_cues => '未找到字幕';
 	@override String get srt_no_audio_files => '所选目录中没有音频文件';
 	@override String get srt_books_section => '字幕有声书';
@@ -11744,6 +11864,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get ttu_furigana_toggle => '切换';
 	@override String get ttu_text_indentation => '段落缩进';
 	@override String get ttu_first_dimension_margin => '边距';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => '最大宽/高';
 	@override String get ttu_page_columns => '分栏';
 	@override String get ttu_page_columns_auto => '自动';
@@ -11754,6 +11875,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get ttu_orient_upright => '竖直';
 	@override String get ttu_text_justify => '两端对齐';
 	@override String get ttu_reader_styles => '优先书籍样式';
+	@override String get ttu_avoid_page_break => '加载全文';
 	@override String get ttu_theme => '主题';
 	@override String error_log_label({required Object n}) => '错误日志 (${n})';
 	@override String get source_name_bookshelf => '书架';
@@ -11794,6 +11916,11 @@ class _StringsZhCn implements _StringsEn {
 	@override String get ttu_vert_text_orient_hint => 'Mixed：旋转西文；Upright：所有字符直立。';
 	@override String get audio_volume => '音量';
 	@override String get reader_settings_section => '阅读设置';
+	@override String get book_search => '书内搜索';
+	@override String get book_search_hint => '输入关键词...';
+	@override String book_search_results({required Object n}) => '找到 ${n} 个结果';
+	@override String get book_search_no_results => '未找到结果';
+	@override String get book_searching => '搜索中...';
 	@override String get action_bookmark => '书签';
 	@override String get action_fullscreen_toggle => '全屏切换';
 	@override String get action_exit => '退出';
@@ -11891,6 +12018,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get hint_line_height => '调整行间距，数值越大行距越宽，阅读更舒适。';
 	@override String get hint_text_indentation => '每段首行缩进的字符数。';
 	@override String get hint_margin => '阅读区域的外边距（像素）。';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => '阅读区域的最大宽度（横排）或高度（竖排）。设为自动则占满屏幕。';
 	@override String get hint_page_columns => '每页显示的列数。设为自动时根据屏幕尺寸自行决定。';
 	@override String get hint_writing_direction => '横排：从左到右。竖排：传统日文从上到下、从右到左排列。';
@@ -12425,16 +12553,16 @@ class _StringsZhHk implements _StringsEn {
 	@override String get srt_import_missing_audio_dir => '請選擇音訊目錄';
 	@override String get srt_import_missing_title => '請輸入書名';
 	@override String get srt_import_error => '匯入失敗';
-	@override String get audio_panel_title => '音訊檔案';
+	@override String get audio_panel_title => '音頻文件';
 	@override String get audio_panel_auto => '自動';
 	@override String get audio_panel_unpaired => '未配對';
-	@override String get audio_panel_pick_new_subtitle => '選擇新字幕檔案';
+	@override String get audio_panel_pick_new_subtitle => '選擇新字幕文件';
 	@override String get audio_panel_remove_subtitle => '移除字幕';
-	@override String get audio_panel_add_audio => '新增音訊';
-	@override String get audio_panel_add_subtitle => '新增字幕';
-	@override String get srt_import_pick_subtitle_files => '選擇字幕檔案';
-	@override String get srt_import_pick_subtitle_dir => '選擇字幕資料夾';
-	@override String srt_import_unpaired_subtitles({required Object n}) => '${n} 個未配對的字幕';
+	@override String get audio_panel_add_audio => '添加音頻';
+	@override String get audio_panel_add_subtitle => '添加字幕';
+	@override String get srt_import_pick_subtitle_files => '選擇字幕文件';
+	@override String get srt_import_pick_subtitle_dir => '選擇字幕目錄';
+	@override String srt_import_unpaired_subtitles({required Object n}) => '${n} 個未匹配字幕';
 	@override String get srt_no_cues => '未找到字幕';
 	@override String get srt_no_audio_files => '所選目錄中沒有音訊檔案';
 	@override String get srt_books_section => '字幕有聲書';
@@ -12472,6 +12600,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get ttu_furigana_toggle => 'Toggle';
 	@override String get ttu_text_indentation => '段落縮排';
 	@override String get ttu_first_dimension_margin => '邊距';
+	@override String get ttu_second_dimension_margin => 'Cross Margin';
 	@override String get ttu_second_dimension_max => '最大寬/高';
 	@override String get ttu_page_columns => '分欄';
 	@override String get ttu_page_columns_auto => '自動';
@@ -12482,6 +12611,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get ttu_orient_upright => '豎直';
 	@override String get ttu_text_justify => '兩端對齊';
 	@override String get ttu_reader_styles => '優先書籍樣式';
+	@override String get ttu_avoid_page_break => '加載全文';
 	@override String get ttu_theme => '主題';
 	@override String error_log_label({required Object n}) => '錯誤記錄 (${n})';
 	@override String get source_name_bookshelf => '書架';
@@ -12532,6 +12662,11 @@ class _StringsZhHk implements _StringsEn {
 	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => '音量';
 	@override String get reader_settings_section => '閱讀設定';
+	@override String get book_search => 'Search in Book';
+	@override String get book_search_hint => 'Enter keyword...';
+	@override String book_search_results({required Object n}) => '${n} results found';
+	@override String get book_search_no_results => 'No results found';
+	@override String get book_searching => 'Searching...';
 	@override String get action_bookmark => '書籤';
 	@override String get action_fullscreen_toggle => '全螢幕切換';
 	@override String get action_exit => '結束';
@@ -12616,6 +12751,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get hint_line_height => '調整行距，數值越大行距越寬，閱讀更舒適。';
 	@override String get hint_text_indentation => '每段首行縮排的字元數。';
 	@override String get hint_margin => '閱讀區域的外邊距（像素）。';
+	@override String get hint_cross_margin => 'Margin perpendicular to reading direction (vertical: top/bottom, horizontal: left/right).';
 	@override String get hint_max_width_height => '閱讀區域的最大寬度（橫排）或高度（直排）。設為自動則佔滿螢幕。';
 	@override String get hint_page_columns => '每頁顯示的欄數。設為自動時根據螢幕尺寸自行決定。';
 	@override String get hint_writing_direction => '橫排：從左到右。直排：傳統日文從上到下、從右到左排列。';
@@ -13157,6 +13293,16 @@ extension on _StringsEn {
 			case 'srt_import_missing_audio_dir': return 'Please select an audio directory';
 			case 'srt_import_missing_title': return 'Please enter a book title';
 			case 'srt_import_error': return 'Import failed';
+			case 'audio_panel_title': return 'Audio Files';
+			case 'audio_panel_auto': return 'Auto';
+			case 'audio_panel_unpaired': return 'Unpaired';
+			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
+			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
+			case 'audio_panel_add_audio': return 'Add Audio';
+			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'srt_import_pick_subtitle_files': return 'Pick Subtitle Files';
+			case 'srt_import_pick_subtitle_dir': return 'Pick Subtitle Directory';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
 			case 'srt_no_cues': return 'No subtitles found';
 			case 'srt_no_audio_files': return 'No audio files in selected directory';
 			case 'srt_books_section': return 'Subtitle Audiobooks';
@@ -13207,6 +13353,7 @@ extension on _StringsEn {
 			case 'ttu_orient_upright': return 'Upright';
 			case 'ttu_text_justify': return 'Text Justification';
 			case 'ttu_reader_styles': return 'Prioritize Book Styles';
+			case 'ttu_avoid_page_break': return 'Load Full Text';
 			case 'ttu_theme': return 'Theme';
 			case 'error_log_label': return ({required Object n}) => 'Error Log (${n})';
 			case 'source_name_bookshelf': return 'Bookshelf';
@@ -13839,6 +13986,16 @@ extension on _StringsAr {
 			case 'srt_import_missing_audio_dir': return '???? ?????? ???? ???';
 			case 'srt_import_missing_title': return '???? ????? ????? ??????';
 			case 'srt_import_error': return '??? ?????????';
+			case 'audio_panel_title': return 'Audio Files';
+			case 'audio_panel_auto': return 'Auto';
+			case 'audio_panel_unpaired': return 'Unpaired';
+			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
+			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
+			case 'audio_panel_add_audio': return 'Add Audio';
+			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'srt_import_pick_subtitle_files': return 'Pick Subtitle Files';
+			case 'srt_import_pick_subtitle_dir': return 'Pick Subtitle Directory';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
 			case 'srt_no_cues': return '?? ??? ?????? ??? ?????';
 			case 'srt_no_audio_files': return '?? ???? ????? ??? ?? ?????? ??????';
 			case 'srt_books_section': return '??? ????? ??????';
@@ -13886,6 +14043,7 @@ extension on _StringsAr {
 			case 'ttu_orient_upright': return '?????';
 			case 'ttu_text_justify': return '?????? ????';
 			case 'ttu_reader_styles': return '?????? ????? ??????';
+			case 'ttu_avoid_page_break': return 'Load Full Text';
 			case 'ttu_theme': return '??????';
 			case 'error_log_label': return ({required Object n}) => '??? ??????? (${n})';
 			case 'source_name_bookshelf': return '?? ?????';
@@ -14528,6 +14686,16 @@ extension on _StringsDe {
 			case 'srt_import_missing_audio_dir': return 'Bitte w?hlen Sie ein Audioverzeichnis aus';
 			case 'srt_import_missing_title': return 'Bitte geben Sie einen Buchtitel ein';
 			case 'srt_import_error': return 'Import fehlgeschlagen';
+			case 'audio_panel_title': return 'Audio Files';
+			case 'audio_panel_auto': return 'Auto';
+			case 'audio_panel_unpaired': return 'Unpaired';
+			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
+			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
+			case 'audio_panel_add_audio': return 'Add Audio';
+			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'srt_import_pick_subtitle_files': return 'Pick Subtitle Files';
+			case 'srt_import_pick_subtitle_dir': return 'Pick Subtitle Directory';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
 			case 'srt_no_cues': return 'Keine Untertitel gefunden';
 			case 'srt_no_audio_files': return 'Keine Audiodateien im ausgew?hlten Verzeichnis';
 			case 'srt_books_section': return 'Untertitel-H?rbücher';
@@ -14575,6 +14743,7 @@ extension on _StringsDe {
 			case 'ttu_orient_upright': return 'Aufrecht';
 			case 'ttu_text_justify': return 'Blocksatz';
 			case 'ttu_reader_styles': return 'Buchstile bevorzugen';
+			case 'ttu_avoid_page_break': return 'Load Full Text';
 			case 'ttu_theme': return 'Design';
 			case 'error_log_label': return ({required Object n}) => 'Fehlerprotokoll (${n})';
 			case 'source_name_bookshelf': return 'Bücherregal';
@@ -15217,6 +15386,16 @@ extension on _StringsEs {
 			case 'srt_import_missing_audio_dir': return 'Selecciona un directorio de audio';
 			case 'srt_import_missing_title': return 'Introduce un título para el libro';
 			case 'srt_import_error': return 'Error en la importación';
+			case 'audio_panel_title': return 'Audio Files';
+			case 'audio_panel_auto': return 'Auto';
+			case 'audio_panel_unpaired': return 'Unpaired';
+			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
+			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
+			case 'audio_panel_add_audio': return 'Add Audio';
+			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'srt_import_pick_subtitle_files': return 'Pick Subtitle Files';
+			case 'srt_import_pick_subtitle_dir': return 'Pick Subtitle Directory';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
 			case 'srt_no_cues': return 'No se encontraron subtítulos';
 			case 'srt_no_audio_files': return 'No hay archivos de audio en el directorio seleccionado';
 			case 'srt_books_section': return 'Audiolibros con subtítulos';
@@ -15264,6 +15443,7 @@ extension on _StringsEs {
 			case 'ttu_orient_upright': return 'Vertical';
 			case 'ttu_text_justify': return 'Justificación de texto';
 			case 'ttu_reader_styles': return 'Priorizar estilos del libro';
+			case 'ttu_avoid_page_break': return 'Load Full Text';
 			case 'ttu_theme': return 'Tema';
 			case 'error_log_label': return ({required Object n}) => 'Registro de errores (${n})';
 			case 'source_name_bookshelf': return 'Estantería';
@@ -15906,6 +16086,16 @@ extension on _StringsFr {
 			case 'srt_import_missing_audio_dir': return 'Veuillez sélectionner un répertoire audio';
 			case 'srt_import_missing_title': return 'Veuillez saisir un titre de livre';
 			case 'srt_import_error': return 'échec de l\'importation';
+			case 'audio_panel_title': return 'Audio Files';
+			case 'audio_panel_auto': return 'Auto';
+			case 'audio_panel_unpaired': return 'Unpaired';
+			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
+			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
+			case 'audio_panel_add_audio': return 'Add Audio';
+			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'srt_import_pick_subtitle_files': return 'Pick Subtitle Files';
+			case 'srt_import_pick_subtitle_dir': return 'Pick Subtitle Directory';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
 			case 'srt_no_cues': return 'Aucun sous-titre trouvé';
 			case 'srt_no_audio_files': return 'Aucun fichier audio dans le répertoire sélectionné';
 			case 'srt_books_section': return 'Livres audio à sous-titres';
@@ -15953,6 +16143,7 @@ extension on _StringsFr {
 			case 'ttu_orient_upright': return 'Droit';
 			case 'ttu_text_justify': return 'Justification du texte';
 			case 'ttu_reader_styles': return 'Prioriser les styles du livre';
+			case 'ttu_avoid_page_break': return 'Load Full Text';
 			case 'ttu_theme': return 'Thème';
 			case 'error_log_label': return ({required Object n}) => 'Journal d\'erreurs (${n})';
 			case 'source_name_bookshelf': return 'Bibliothèque';
@@ -16595,6 +16786,16 @@ extension on _StringsId {
 			case 'srt_import_missing_audio_dir': return 'Silakan pilih direktori audio';
 			case 'srt_import_missing_title': return 'Silakan masukkan judul buku';
 			case 'srt_import_error': return 'Impor gagal';
+			case 'audio_panel_title': return 'Audio Files';
+			case 'audio_panel_auto': return 'Auto';
+			case 'audio_panel_unpaired': return 'Unpaired';
+			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
+			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
+			case 'audio_panel_add_audio': return 'Add Audio';
+			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'srt_import_pick_subtitle_files': return 'Pick Subtitle Files';
+			case 'srt_import_pick_subtitle_dir': return 'Pick Subtitle Directory';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
 			case 'srt_no_cues': return 'Tidak ada subtitle ditemukan';
 			case 'srt_no_audio_files': return 'Tidak ada file audio di direktori yang dipilih';
 			case 'srt_books_section': return 'Buku Audio Subtitle';
@@ -16642,6 +16843,7 @@ extension on _StringsId {
 			case 'ttu_orient_upright': return 'Tegak';
 			case 'ttu_text_justify': return 'Perataan Teks';
 			case 'ttu_reader_styles': return 'Prioritaskan Gaya Buku';
+			case 'ttu_avoid_page_break': return 'Load Full Text';
 			case 'ttu_theme': return 'Tema';
 			case 'error_log_label': return ({required Object n}) => 'Log Error (${n})';
 			case 'source_name_bookshelf': return 'Rak Buku';
@@ -17291,6 +17493,16 @@ extension on _StringsIt {
 			case 'srt_import_missing_audio_dir': return 'Seleziona una cartella audio';
 			case 'srt_import_missing_title': return 'Inserisci un titolo per il libro';
 			case 'srt_import_error': return 'Importazione fallita';
+			case 'audio_panel_title': return 'Audio Files';
+			case 'audio_panel_auto': return 'Auto';
+			case 'audio_panel_unpaired': return 'Unpaired';
+			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
+			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
+			case 'audio_panel_add_audio': return 'Add Audio';
+			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'srt_import_pick_subtitle_files': return 'Pick Subtitle Files';
+			case 'srt_import_pick_subtitle_dir': return 'Pick Subtitle Directory';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
 			case 'srt_no_cues': return 'Nessun sottotitolo trovato';
 			case 'srt_no_audio_files': return 'Nessun file audio nella cartella selezionata';
 			case 'srt_books_section': return 'Audiolibri con sottotitoli';
@@ -17356,6 +17568,7 @@ extension on _StringsIt {
 			case 'ttu_orient_upright': return 'Diritto';
 			case 'ttu_text_justify': return 'Giustificazione testo';
 			case 'ttu_reader_styles': return 'Priorità stili del libro';
+			case 'ttu_avoid_page_break': return 'Load Full Text';
 			case 'ttu_theme': return 'Tema';
 			case 'error_log_label': return ({required Object n}) => 'Registro errori (${n})';
 			case 'source_name_bookshelf': return 'Libreria';
@@ -17973,6 +18186,16 @@ extension on _StringsJa {
 			case 'srt_import_missing_audio_dir': return '音声ディレクトリを選択してください';
 			case 'srt_import_missing_title': return '本のタイトルを入力してください';
 			case 'srt_import_error': return 'インポートに失敗しました';
+			case 'audio_panel_title': return 'オーディオファイル';
+			case 'audio_panel_auto': return '自動';
+			case 'audio_panel_unpaired': return '未ペア';
+			case 'audio_panel_pick_new_subtitle': return '新しい字幕ファイルを選択';
+			case 'audio_panel_remove_subtitle': return '字幕を削除';
+			case 'audio_panel_add_audio': return 'オーディオを追加';
+			case 'audio_panel_add_subtitle': return '字幕を追加';
+			case 'srt_import_pick_subtitle_files': return '字幕ファイルを選択';
+			case 'srt_import_pick_subtitle_dir': return '字幕ディレクトリを選択';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} 件の未マッチ字幕';
 			case 'srt_no_cues': return '字幕が見つかりません';
 			case 'srt_no_audio_files': return '選択したディレクトリに音声ファイルがありません';
 			case 'srt_books_section': return '字幕オーディオブック';
@@ -18020,6 +18243,7 @@ extension on _StringsJa {
 			case 'ttu_orient_upright': return '正立';
 			case 'ttu_text_justify': return '両端揃え';
 			case 'ttu_reader_styles': return '書籍スタイル優先';
+			case 'ttu_avoid_page_break': return '全文読み込み';
 			case 'ttu_theme': return 'テーマ';
 			case 'error_log_label': return ({required Object n}) => 'エラーログ (${n})';
 			case 'source_name_bookshelf': return '本棚';
@@ -18662,6 +18886,16 @@ extension on _StringsKo {
 			case 'srt_import_missing_audio_dir': return '??? ????? ?????';
 			case 'srt_import_missing_title': return '? ??? ?????';
 			case 'srt_import_error': return '???? ??';
+			case 'audio_panel_title': return 'Audio Files';
+			case 'audio_panel_auto': return 'Auto';
+			case 'audio_panel_unpaired': return 'Unpaired';
+			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
+			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
+			case 'audio_panel_add_audio': return 'Add Audio';
+			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'srt_import_pick_subtitle_files': return 'Pick Subtitle Files';
+			case 'srt_import_pick_subtitle_dir': return 'Pick Subtitle Directory';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
 			case 'srt_no_cues': return '??? ?? ? ????';
 			case 'srt_no_audio_files': return '??? ????? ??? ??? ????';
 			case 'srt_books_section': return '?? ????';
@@ -18709,6 +18943,7 @@ extension on _StringsKo {
 			case 'ttu_orient_upright': return '??';
 			case 'ttu_text_justify': return '?? ??';
 			case 'ttu_reader_styles': return '? ??? ??';
+			case 'ttu_avoid_page_break': return 'Load Full Text';
 			case 'ttu_theme': return '??';
 			case 'error_log_label': return ({required Object n}) => '?? ?? (${n})';
 			case 'source_name_bookshelf': return '??';
@@ -19358,6 +19593,16 @@ extension on _StringsNl {
 			case 'srt_import_missing_audio_dir': return 'Selecteer een audiomap';
 			case 'srt_import_missing_title': return 'Voer een boektitel in';
 			case 'srt_import_error': return 'Importeren mislukt';
+			case 'audio_panel_title': return 'Audio Files';
+			case 'audio_panel_auto': return 'Auto';
+			case 'audio_panel_unpaired': return 'Unpaired';
+			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
+			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
+			case 'audio_panel_add_audio': return 'Add Audio';
+			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'srt_import_pick_subtitle_files': return 'Pick Subtitle Files';
+			case 'srt_import_pick_subtitle_dir': return 'Pick Subtitle Directory';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
 			case 'srt_no_cues': return 'Geen ondertitels gevonden';
 			case 'srt_no_audio_files': return 'Geen audiobestanden in de geselecteerde map';
 			case 'srt_books_section': return 'Ondertitelboeken';
@@ -19423,6 +19668,7 @@ extension on _StringsNl {
 			case 'ttu_orient_upright': return 'Rechtop';
 			case 'ttu_text_justify': return 'Tekstuitlijning';
 			case 'ttu_reader_styles': return 'Boekstijlen prioriteit geven';
+			case 'ttu_avoid_page_break': return 'Load Full Text';
 			case 'ttu_theme': return 'Thema';
 			case 'error_log_label': return ({required Object n}) => 'Foutenlogboek (${n})';
 			case 'source_name_bookshelf': return 'Boekenplank';
@@ -20040,6 +20286,16 @@ extension on _StringsPtBr {
 			case 'srt_import_missing_audio_dir': return 'Selecione um diretório de áudio';
 			case 'srt_import_missing_title': return 'Insira um título para o livro';
 			case 'srt_import_error': return 'Falha na importa??o';
+			case 'audio_panel_title': return 'Audio Files';
+			case 'audio_panel_auto': return 'Auto';
+			case 'audio_panel_unpaired': return 'Unpaired';
+			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
+			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
+			case 'audio_panel_add_audio': return 'Add Audio';
+			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'srt_import_pick_subtitle_files': return 'Pick Subtitle Files';
+			case 'srt_import_pick_subtitle_dir': return 'Pick Subtitle Directory';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
 			case 'srt_no_cues': return 'Nenhuma legenda encontrada';
 			case 'srt_no_audio_files': return 'Nenhum arquivo de áudio no diretório selecionado';
 			case 'srt_books_section': return 'Audiolivros com Legendas';
@@ -20087,6 +20343,7 @@ extension on _StringsPtBr {
 			case 'ttu_orient_upright': return 'Vertical';
 			case 'ttu_text_justify': return 'Justifica??o do texto';
 			case 'ttu_reader_styles': return 'Priorizar estilos do livro';
+			case 'ttu_avoid_page_break': return 'Load Full Text';
 			case 'ttu_theme': return 'Tema';
 			case 'error_log_label': return ({required Object n}) => 'Log de Erros (${n})';
 			case 'source_name_bookshelf': return 'Estante';
@@ -20729,6 +20986,16 @@ extension on _StringsRu {
 			case 'srt_import_missing_audio_dir': return 'Выберите папку с аудио';
 			case 'srt_import_missing_title': return 'Введите название книги';
 			case 'srt_import_error': return 'Ошибка импорта';
+			case 'audio_panel_title': return 'Audio Files';
+			case 'audio_panel_auto': return 'Auto';
+			case 'audio_panel_unpaired': return 'Unpaired';
+			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
+			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
+			case 'audio_panel_add_audio': return 'Add Audio';
+			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'srt_import_pick_subtitle_files': return 'Pick Subtitle Files';
+			case 'srt_import_pick_subtitle_dir': return 'Pick Subtitle Directory';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
 			case 'srt_no_cues': return 'Субтитры не найдены';
 			case 'srt_no_audio_files': return 'В выбранной папке нет аудиофайлов';
 			case 'srt_books_section': return 'Аудиокниги с субтитрами';
@@ -20776,6 +21043,7 @@ extension on _StringsRu {
 			case 'ttu_orient_upright': return 'Прямая';
 			case 'ttu_text_justify': return 'Выравнивание текста';
 			case 'ttu_reader_styles': return 'Приоритет стилей книги';
+			case 'ttu_avoid_page_break': return 'Load Full Text';
 			case 'ttu_theme': return 'Тема';
 			case 'error_log_label': return ({required Object n}) => 'Журнал ошибок (${n})';
 			case 'source_name_bookshelf': return 'Книжная полка';
@@ -21418,6 +21686,16 @@ extension on _StringsTh {
 			case 'srt_import_missing_audio_dir': return '????????????????????????';
 			case 'srt_import_missing_title': return '???????????????????';
 			case 'srt_import_error': return '????????????????';
+			case 'audio_panel_title': return 'Audio Files';
+			case 'audio_panel_auto': return 'Auto';
+			case 'audio_panel_unpaired': return 'Unpaired';
+			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
+			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
+			case 'audio_panel_add_audio': return 'Add Audio';
+			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'srt_import_pick_subtitle_files': return 'Pick Subtitle Files';
+			case 'srt_import_pick_subtitle_dir': return 'Pick Subtitle Directory';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
 			case 'srt_no_cues': return '?????????????';
 			case 'srt_no_audio_files': return '?????????????????????????????????';
 			case 'srt_books_section': return '????????????????????';
@@ -21465,6 +21743,7 @@ extension on _StringsTh {
 			case 'ttu_orient_upright': return '???????';
 			case 'ttu_text_justify': return '?????????????';
 			case 'ttu_reader_styles': return '??????????????????';
+			case 'ttu_avoid_page_break': return 'Load Full Text';
 			case 'ttu_theme': return '???';
 			case 'error_log_label': return ({required Object n}) => '???????????????? (${n})';
 			case 'source_name_bookshelf': return '???????????';
@@ -22114,6 +22393,16 @@ extension on _StringsTr {
 			case 'srt_import_missing_audio_dir': return 'Lütfen bir ses klas?rü se?in';
 			case 'srt_import_missing_title': return 'Lütfen bir kitap ba?l??? girin';
 			case 'srt_import_error': return '??e aktarma ba?ar?s?z';
+			case 'audio_panel_title': return 'Audio Files';
+			case 'audio_panel_auto': return 'Auto';
+			case 'audio_panel_unpaired': return 'Unpaired';
+			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
+			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
+			case 'audio_panel_add_audio': return 'Add Audio';
+			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'srt_import_pick_subtitle_files': return 'Pick Subtitle Files';
+			case 'srt_import_pick_subtitle_dir': return 'Pick Subtitle Directory';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
 			case 'srt_no_cues': return 'Altyaz? bulunamad?';
 			case 'srt_no_audio_files': return 'Se?ilen klas?rde ses dosyas? yok';
 			case 'srt_books_section': return 'Altyaz?l? sesli kitaplar';
@@ -22179,6 +22468,7 @@ extension on _StringsTr {
 			case 'ttu_orient_upright': return 'Dik';
 			case 'ttu_text_justify': return 'Metin hizalama';
 			case 'ttu_reader_styles': return 'Kitap stillerine ?ncelik ver';
+			case 'ttu_avoid_page_break': return 'Load Full Text';
 			case 'ttu_theme': return 'Tema';
 			case 'error_log_label': return ({required Object n}) => 'Hata günlü?ü (${n})';
 			case 'source_name_bookshelf': return 'Kitapl?k';
@@ -22796,6 +23086,16 @@ extension on _StringsVi {
 			case 'srt_import_missing_audio_dir': return 'Vui lòng ch?n th? m?c am thanh';
 			case 'srt_import_missing_title': return 'Vui lòng nh?p tên sách';
 			case 'srt_import_error': return 'Nh?p th?t b?i';
+			case 'audio_panel_title': return 'Audio Files';
+			case 'audio_panel_auto': return 'Auto';
+			case 'audio_panel_unpaired': return 'Unpaired';
+			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
+			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
+			case 'audio_panel_add_audio': return 'Add Audio';
+			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'srt_import_pick_subtitle_files': return 'Pick Subtitle Files';
+			case 'srt_import_pick_subtitle_dir': return 'Pick Subtitle Directory';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
 			case 'srt_no_cues': return 'Kh?ng tìm th?y ph? ??';
 			case 'srt_no_audio_files': return 'Kh?ng có t?p am thanh trong th? m?c ?? ch?n';
 			case 'srt_books_section': return 'Sách nói ph? ??';
@@ -22843,6 +23143,7 @@ extension on _StringsVi {
 			case 'ttu_orient_upright': return 'Th?ng ??ng';
 			case 'ttu_text_justify': return 'C?n ??u v?n b?n';
 			case 'ttu_reader_styles': return '?u tiên ki?u sách';
+			case 'ttu_avoid_page_break': return 'Load Full Text';
 			case 'ttu_theme': return 'Giao di?n';
 			case 'error_log_label': return ({required Object n}) => 'Nh?t ky l?i (${n})';
 			case 'source_name_bookshelf': return 'Giá sách';
@@ -23492,6 +23793,16 @@ extension on _StringsZhCn {
 			case 'srt_import_missing_audio_dir': return '请选择音频目录';
 			case 'srt_import_missing_title': return '请输入书名';
 			case 'srt_import_error': return '导入失败';
+			case 'audio_panel_title': return '音频文件';
+			case 'audio_panel_auto': return '自动';
+			case 'audio_panel_unpaired': return '未配对';
+			case 'audio_panel_pick_new_subtitle': return '选择新字幕文件';
+			case 'audio_panel_remove_subtitle': return '移除字幕';
+			case 'audio_panel_add_audio': return '添加音频';
+			case 'audio_panel_add_subtitle': return '添加字幕';
+			case 'srt_import_pick_subtitle_files': return '选择字幕文件';
+			case 'srt_import_pick_subtitle_dir': return '选择字幕目录';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} 个未匹配字幕';
 			case 'srt_no_cues': return '未找到字幕';
 			case 'srt_no_audio_files': return '所选目录中没有音频文件';
 			case 'srt_books_section': return '字幕有声书';
@@ -23542,6 +23853,7 @@ extension on _StringsZhCn {
 			case 'ttu_orient_upright': return '竖直';
 			case 'ttu_text_justify': return '两端对齐';
 			case 'ttu_reader_styles': return '优先书籍样式';
+			case 'ttu_avoid_page_break': return '加载全文';
 			case 'ttu_theme': return '主题';
 			case 'error_log_label': return ({required Object n}) => '错误日志 (${n})';
 			case 'source_name_bookshelf': return '书架';
@@ -24174,6 +24486,16 @@ extension on _StringsZhHk {
 			case 'srt_import_missing_audio_dir': return '請選擇音訊目錄';
 			case 'srt_import_missing_title': return '請輸入書名';
 			case 'srt_import_error': return '匯入失敗';
+			case 'audio_panel_title': return '音頻文件';
+			case 'audio_panel_auto': return '自動';
+			case 'audio_panel_unpaired': return '未配對';
+			case 'audio_panel_pick_new_subtitle': return '選擇新字幕文件';
+			case 'audio_panel_remove_subtitle': return '移除字幕';
+			case 'audio_panel_add_audio': return '添加音頻';
+			case 'audio_panel_add_subtitle': return '添加字幕';
+			case 'srt_import_pick_subtitle_files': return '選擇字幕文件';
+			case 'srt_import_pick_subtitle_dir': return '選擇字幕目錄';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} 個未匹配字幕';
 			case 'srt_no_cues': return '未找到字幕';
 			case 'srt_no_audio_files': return '所選目錄中沒有音訊檔案';
 			case 'srt_books_section': return '字幕有聲書';
@@ -24221,6 +24543,7 @@ extension on _StringsZhHk {
 			case 'ttu_orient_upright': return '豎直';
 			case 'ttu_text_justify': return '兩端對齊';
 			case 'ttu_reader_styles': return '優先書籍樣式';
+			case 'ttu_avoid_page_break': return '加載全文';
 			case 'ttu_theme': return '主題';
 			case 'error_log_label': return ({required Object n}) => '錯誤記錄 (${n})';
 			case 'source_name_bookshelf': return '書架';
