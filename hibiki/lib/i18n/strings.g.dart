@@ -456,7 +456,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get manager => 'Manager';
 	String get volume_button_page_turning => 'Volume button page turning';
 	String get invert_volume_buttons => 'Invert volume buttons';
-	String get volume_button_turning_speed => 'Continuous scrolling speed';
+	String get volume_button_turning_speed => 'Volume key page turning speed';
 	String get extend_page_beyond_navbar => 'Extend page beyond navigation bar';
 	String get keep_screen_awake => 'Keep screen awake';
 	String get auto_read_on_lookup => 'Auto read word on lookup';
@@ -566,7 +566,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get find_next => 'Find Next';
 	String get find_previous => 'Find Previous';
 	String get shadowing_mode => 'Shadowing Mode';
-	String get display_settings => 'Display Settings';
+	String get display_settings => 'Typography Settings';
 	String get cloze => 'Cloze';
 	String get info_standard_update => 'New standard profile card type';
 	String get info_standard_update_content => 'The standard profile now uses the『hibiki Kinomoto』 card type.\n\nYour legacy standard profile remains available for backwards compatibility.';
@@ -5671,7 +5671,7 @@ class _StringsJa implements _StringsEn {
 	@override String get manager => '管理';
 	@override String get volume_button_page_turning => '音量ボタンでページ送り';
 	@override String get invert_volume_buttons => '音量ボタンの方向を反転';
-	@override String get volume_button_turning_speed => '連続スクロール速度';
+	@override String get volume_button_turning_speed => '音量キーページ送り速度';
 	@override String get extend_page_beyond_navbar => 'ナビゲーションバーの先までページを拡張';
 	@override String get keep_screen_awake => '画面を常時点灯';
 	@override String get auto_read_on_lookup => '検索時に自動で単語を読み上げ';
@@ -5781,7 +5781,7 @@ class _StringsJa implements _StringsEn {
 	@override String get find_next => '次を検索';
 	@override String get find_previous => '前を検索';
 	@override String get shadowing_mode => 'シャドーイングモード';
-	@override String get display_settings => '表示設定';
+	@override String get display_settings => '組版設定';
 	@override String get cloze => '穴埋め';
 	@override String get info_standard_update => '新しい標準プロファイルのカードタイプ';
 	@override String get info_standard_update_content => '標準プロファイルは『hibiki Kinomoto』カードタイプを使用するようになりました。\n\n以前の標準プロファイルは後方互換性のために引き続き利用可能です。';
@@ -11646,7 +11646,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get manager => '管理器';
 	@override String get volume_button_page_turning => '音量键翻页';
 	@override String get invert_volume_buttons => '反转音量键方向';
-	@override String get volume_button_turning_speed => '连续滚动速度';
+	@override String get volume_button_turning_speed => '音量键翻页速度';
 	@override String get extend_page_beyond_navbar => '页面延伸至导航栏之外';
 	@override String get keep_screen_awake => '阅读时防止息屏';
 	@override String get auto_read_on_lookup => '查词时自动朗读';
@@ -11756,7 +11756,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get find_next => '查找下一个';
 	@override String get find_previous => '查找上一个';
 	@override String get shadowing_mode => '跟读模式';
-	@override String get display_settings => '显示设置';
+	@override String get display_settings => '排版设置';
 	@override String get cloze => '填空';
 	@override String get info_standard_update => '新的标准配置卡片类型';
 	@override String get info_standard_update_content => '标准配置现已使用『hibiki Kinomoto』卡片类型。\n\n旧版标准配置仍保留以兼容。';
@@ -12385,7 +12385,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get manager => '管理員';
 	@override String get volume_button_page_turning => '音量鍵翻頁';
 	@override String get invert_volume_buttons => '反轉音量鍵方向';
-	@override String get volume_button_turning_speed => '連續捲動速度';
+	@override String get volume_button_turning_speed => '音量鍵翻頁速度';
 	@override String get extend_page_beyond_navbar => '頁面延伸至導覽列之外';
 	@override String get keep_screen_awake => '閱讀時防止螢幕關閉';
 	@override String get auto_read_on_lookup => '查詞時自動朗讀';
@@ -12495,7 +12495,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get find_next => '尋找下一個';
 	@override String get find_previous => '尋找上一個';
 	@override String get shadowing_mode => '跟讀模式';
-	@override String get display_settings => '顯示設定';
+	@override String get display_settings => '排版設定';
 	@override String get cloze => '克漏字';
 	@override String get info_standard_update => '新的標準設定檔卡片類型';
 	@override String get info_standard_update_content => '標準設定檔現已使用『hibiki Kinomoto』卡片類型。\n\n舊版標準設定檔仍保留以相容。';
@@ -13119,7 +13119,7 @@ extension on _StringsEn {
 			case 'manager': return 'Manager';
 			case 'volume_button_page_turning': return 'Volume button page turning';
 			case 'invert_volume_buttons': return 'Invert volume buttons';
-			case 'volume_button_turning_speed': return 'Continuous scrolling speed';
+			case 'volume_button_turning_speed': return 'Volume key page turning speed';
 			case 'extend_page_beyond_navbar': return 'Extend page beyond navigation bar';
 			case 'keep_screen_awake': return 'Keep screen awake';
 			case 'auto_read_on_lookup': return 'Auto read word on lookup';
@@ -13229,7 +13229,7 @@ extension on _StringsEn {
 			case 'find_next': return 'Find Next';
 			case 'find_previous': return 'Find Previous';
 			case 'shadowing_mode': return 'Shadowing Mode';
-			case 'display_settings': return 'Display Settings';
+			case 'display_settings': return 'Typography Settings';
 			case 'cloze': return 'Cloze';
 			case 'info_standard_update': return 'New standard profile card type';
 			case 'info_standard_update_content': return 'The standard profile now uses the『hibiki Kinomoto』 card type.\n\nYour legacy standard profile remains available for backwards compatibility.';
@@ -18012,7 +18012,7 @@ extension on _StringsJa {
 			case 'manager': return '管理';
 			case 'volume_button_page_turning': return '音量ボタンでページ送り';
 			case 'invert_volume_buttons': return '音量ボタンの方向を反転';
-			case 'volume_button_turning_speed': return '連続スクロール速度';
+			case 'volume_button_turning_speed': return '音量キーページ送り速度';
 			case 'extend_page_beyond_navbar': return 'ナビゲーションバーの先までページを拡張';
 			case 'keep_screen_awake': return '画面を常時点灯';
 			case 'auto_read_on_lookup': return '検索時に自動で単語を読み上げ';
@@ -18122,7 +18122,7 @@ extension on _StringsJa {
 			case 'find_next': return '次を検索';
 			case 'find_previous': return '前を検索';
 			case 'shadowing_mode': return 'シャドーイングモード';
-			case 'display_settings': return '表示設定';
+			case 'display_settings': return '組版設定';
 			case 'cloze': return '穴埋め';
 			case 'info_standard_update': return '新しい標準プロファイルのカードタイプ';
 			case 'info_standard_update_content': return '標準プロファイルは『hibiki Kinomoto』カードタイプを使用するようになりました。\n\n以前の標準プロファイルは後方互換性のために引き続き利用可能です。';
@@ -23619,7 +23619,7 @@ extension on _StringsZhCn {
 			case 'manager': return '管理器';
 			case 'volume_button_page_turning': return '音量键翻页';
 			case 'invert_volume_buttons': return '反转音量键方向';
-			case 'volume_button_turning_speed': return '连续滚动速度';
+			case 'volume_button_turning_speed': return '音量键翻页速度';
 			case 'extend_page_beyond_navbar': return '页面延伸至导航栏之外';
 			case 'keep_screen_awake': return '阅读时防止息屏';
 			case 'auto_read_on_lookup': return '查词时自动朗读';
@@ -23729,7 +23729,7 @@ extension on _StringsZhCn {
 			case 'find_next': return '查找下一个';
 			case 'find_previous': return '查找上一个';
 			case 'shadowing_mode': return '跟读模式';
-			case 'display_settings': return '显示设置';
+			case 'display_settings': return '排版设置';
 			case 'cloze': return '填空';
 			case 'info_standard_update': return '新的标准配置卡片类型';
 			case 'info_standard_update_content': return '标准配置现已使用『hibiki Kinomoto』卡片类型。\n\n旧版标准配置仍保留以兼容。';
@@ -24312,7 +24312,7 @@ extension on _StringsZhHk {
 			case 'manager': return '管理員';
 			case 'volume_button_page_turning': return '音量鍵翻頁';
 			case 'invert_volume_buttons': return '反轉音量鍵方向';
-			case 'volume_button_turning_speed': return '連續捲動速度';
+			case 'volume_button_turning_speed': return '音量鍵翻頁速度';
 			case 'extend_page_beyond_navbar': return '頁面延伸至導覽列之外';
 			case 'keep_screen_awake': return '閱讀時防止螢幕關閉';
 			case 'auto_read_on_lookup': return '查詞時自動朗讀';
@@ -24422,7 +24422,7 @@ extension on _StringsZhHk {
 			case 'find_next': return '尋找下一個';
 			case 'find_previous': return '尋找上一個';
 			case 'shadowing_mode': return '跟讀模式';
-			case 'display_settings': return '顯示設定';
+			case 'display_settings': return '排版設定';
 			case 'cloze': return '克漏字';
 			case 'info_standard_update': return '新的標準設定檔卡片類型';
 			case 'info_standard_update_content': return '標準設定檔現已使用『hibiki Kinomoto』卡片類型。\n\n舊版標準設定檔仍保留以相容。';
