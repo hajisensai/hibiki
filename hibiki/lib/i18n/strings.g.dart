@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 12104 (712 per locale)
 ///
-/// Built on 2026-05-05 at 05:31 UTC
+/// Built on 2026-05-05 at 05:51 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -2317,8 +2317,8 @@ class _StringsDe implements _StringsEn {
 	@override String get error_log_share_subject => 'hibiki Fehlerprotokoll';
 	@override String get update_never_remind => 'Nicht mehr erinnern';
 	@override String get update_auto_install => 'Updates automatisch installieren';
-	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
-	@override String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
+	@override String get disable_dialog_scrim => 'Popup-Overlay deaktivieren (E-Ink)';
+	@override String get native_dictionary_popup => 'Natives Wörterbuch-Popup (E-Ink)';
 	@override String get update_settings => 'Update-Einstellungen';
 	@override String get anki_settings_label => 'Anki-Einstellungen';
 	@override String get anki_default_deck => 'Standard-Stapel';
@@ -2340,7 +2340,7 @@ class _StringsDe implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Gemischt: Zahlen und lateinische Buchstaben werden seitw?rts gedreht. Aufrecht: alle Zeichen bleiben aufrecht.';
 	@override String get anki_manage_profiles => 'Exportprofile verwalten';
 	@override String get anki_manage_profiles_hint => 'Feldzuordnung beim Export nach AnkiDroid konfigurieren. Jedes Profil ist an einen Anki-Notiztyp gebunden und definiert, welches hibiki-Feld in welches Anki-Feld eingetragen wird.';
-	@override String get collapse_dictionaries => 'Collapse dictionaries';
+	@override String get collapse_dictionaries => 'Wörterbücher einklappen';
 	@override String get deduplicate_pitch_accents => 'Tonh?henakzente deduplizieren';
 	@override String get harmonic_frequency => 'Worth?ufigkeiten aggregieren';
 	@override String get manage_audio_sources => 'Audioquellen verwalten';
@@ -3080,8 +3080,8 @@ class _StringsEs implements _StringsEn {
 	@override String get error_log_share_subject => 'Registro de errores de hibiki';
 	@override String get update_never_remind => 'No recordar de nuevo';
 	@override String get update_auto_install => 'Instalar actualizaciones automáticamente';
-	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
-	@override String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
+	@override String get disable_dialog_scrim => 'Desactivar superposición de popup (e-ink)';
+	@override String get native_dictionary_popup => 'Popup de diccionario nativo (e-ink)';
 	@override String get update_settings => 'Configuración de actualizaciones';
 	@override String get anki_settings_label => 'Configuración de Anki';
 	@override String get anki_default_deck => 'Mazo predeterminado';
@@ -3103,7 +3103,7 @@ class _StringsEs implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Mixto: números y letras latinas se rotan de lado. Vertical: todos los caracteres se mantienen verticales.';
 	@override String get anki_manage_profiles => 'Gestionar perfiles de exportación';
 	@override String get anki_manage_profiles_hint => 'Configurar cómo se mapean los campos de las tarjetas al exportar a AnkiDroid. Cada perfil se vincula a un tipo de nota Anki y define qué campo de hibiki llena cada campo de Anki.';
-	@override String get collapse_dictionaries => 'Collapse dictionaries';
+	@override String get collapse_dictionaries => 'Contraer diccionarios';
 	@override String get deduplicate_pitch_accents => 'Deduplicar acentos tonales';
 	@override String get harmonic_frequency => 'Agregar frecuencias de palabras';
 	@override String get manage_audio_sources => 'Gestionar fuentes de audio';
@@ -3843,8 +3843,8 @@ class _StringsFr implements _StringsEn {
 	@override String get error_log_share_subject => 'Journal d\'erreurs hibiki';
 	@override String get update_never_remind => 'Ne plus rappeler';
 	@override String get update_auto_install => 'Installer automatiquement les mises à jour';
-	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
-	@override String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
+	@override String get disable_dialog_scrim => 'Désactiver le fond du popup (e-ink)';
+	@override String get native_dictionary_popup => 'Popup de dictionnaire natif (e-ink)';
 	@override String get update_settings => 'Paramètres de mise à jour';
 	@override String get anki_settings_label => 'Paramètres Anki';
 	@override String get anki_default_deck => 'Paquet par défaut';
@@ -3866,7 +3866,7 @@ class _StringsFr implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Mixte : les chiffres et lettres latines sont tournés sur le c?té. Droit : tous les caractères restent droits.';
 	@override String get anki_manage_profiles => 'Gérer les profils d\'exportation';
 	@override String get anki_manage_profiles_hint => 'Configurer le mappage des champs lors de l\'exportation vers AnkiDroid. Chaque profil est lié à un type de note Anki et définit quel champ hibiki remplit quel champ Anki.';
-	@override String get collapse_dictionaries => 'Collapse dictionaries';
+	@override String get collapse_dictionaries => 'Réduire les dictionnaires';
 	@override String get deduplicate_pitch_accents => 'Dédupliquer les accents tonaux';
 	@override String get harmonic_frequency => 'Agréger les fréquences de mots';
 	@override String get manage_audio_sources => 'Gérer les sources audio';
@@ -4606,8 +4606,8 @@ class _StringsId implements _StringsEn {
 	@override String get error_log_share_subject => 'Log Error hibiki';
 	@override String get update_never_remind => 'Jangan ingatkan lagi';
 	@override String get update_auto_install => 'Pasang pembaruan otomatis';
-	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
-	@override String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
+	@override String get disable_dialog_scrim => 'Nonaktifkan overlay popup (e-ink)';
+	@override String get native_dictionary_popup => 'Popup kamus bawaan (e-ink)';
 	@override String get update_settings => 'Pengaturan Pembaruan';
 	@override String get anki_settings_label => 'Pengaturan Anki';
 	@override String get anki_default_deck => 'Dek Default';
@@ -4629,7 +4629,7 @@ class _StringsId implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Campuran: angka dan huruf Latin diputar ke samping. Tegak: semua karakter tetap tegak.';
 	@override String get anki_manage_profiles => 'Kelola Profil Ekspor';
 	@override String get anki_manage_profiles_hint => 'Konfigurasi pemetaan bidang kartu saat mengekspor ke AnkiDroid. Setiap profil terikat ke tipe catatan Anki dan menentukan bidang hibiki mana yang mengisi bidang Anki mana.';
-	@override String get collapse_dictionaries => 'Collapse dictionaries';
+	@override String get collapse_dictionaries => 'Ciutkan kamus';
 	@override String get deduplicate_pitch_accents => 'Hapus duplikat aksen nada';
 	@override String get harmonic_frequency => 'Gabungkan frekuensi kata';
 	@override String get manage_audio_sources => 'Kelola sumber audio';
@@ -5358,7 +5358,7 @@ class _StringsIt implements _StringsEn {
 	@override String get import_theme_invalid => 'Codice tema non valido';
 	@override String get import_theme_success => 'Tema importato';
 	@override String get auto_add_book_name_to_tags => 'Aggiungi automaticamente il titolo del libro alle etichette';
-	@override String get collapse_dictionaries => 'Collapse dictionaries';
+	@override String get collapse_dictionaries => 'Comprimi dizionari';
 	@override String get deduplicate_pitch_accents => 'Deduplica accenti tonali';
 	@override String get harmonic_frequency => 'Aggrega frequenze delle parole';
 	@override String get manage_audio_sources => 'Gestisci sorgenti audio';
@@ -5382,8 +5382,8 @@ class _StringsIt implements _StringsEn {
 	@override String get error_log_share_subject => 'Registro errori hibiki';
 	@override String get update_never_remind => 'Non ricordarmelo più';
 	@override String get update_auto_install => 'Installa automaticamente gli aggiornamenti';
-	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
-	@override String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
+	@override String get disable_dialog_scrim => 'Disattiva overlay popup (e-ink)';
+	@override String get native_dictionary_popup => 'Popup dizionario nativo (e-ink)';
 	@override String get update_settings => 'Impostazioni aggiornamento';
 	@override String get anki_settings_label => 'Impostazioni Anki';
 	@override String get anki_default_deck => 'Mazzo predefinito';
@@ -6124,7 +6124,7 @@ class _StringsJa implements _StringsEn {
 	@override String get import_theme_invalid => '無効なテーマコード';
 	@override String get import_theme_success => 'テーマをインポートしました';
 	@override String get auto_add_book_name_to_tags => 'タグに本のタイトルを自動追加';
-	@override String get collapse_dictionaries => 'Collapse dictionaries';
+	@override String get collapse_dictionaries => '辞書を折りたたむ';
 	@override String get deduplicate_pitch_accents => 'アクセント重複除外';
 	@override String get harmonic_frequency => '語彙頻度集約';
 	@override String get manage_audio_sources => '音声ソースの管理';
@@ -6149,7 +6149,7 @@ class _StringsJa implements _StringsEn {
 	@override String get update_never_remind => '今後通知しない';
 	@override String get update_auto_install => '自動インストール';
 	@override String get disable_dialog_scrim => 'ポップアップの背景オーバーレイを無効にする（E Ink）';
-	@override String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
+	@override String get native_dictionary_popup => 'ネイティブ辞書ポップアップ（電子ペーパー）';
 	@override String get update_settings => 'アップデート設定';
 	@override String get anki_settings_label => 'Anki 設定';
 	@override String get anki_default_deck => 'デフォルトデッキ';
@@ -6895,8 +6895,8 @@ class _StringsKo implements _StringsEn {
 	@override String get error_log_share_subject => 'hibiki ?? ??';
 	@override String get update_never_remind => '?? ??? ??';
 	@override String get update_auto_install => '?? ??';
-	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
-	@override String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
+	@override String get disable_dialog_scrim => '팝업 오버레이 비활성화 (e-ink)';
+	@override String get native_dictionary_popup => '기본 사전 팝업 (e-ink)';
 	@override String get update_settings => '???? ??';
 	@override String get anki_settings_label => 'Anki ??';
 	@override String get anki_default_deck => '?? ?';
@@ -6918,7 +6918,7 @@ class _StringsKo implements _StringsEn {
 	@override String get hint_vert_text_orient => '??: ??? ?? ??? ??? ?????. ??: ?? ??? ??? ?????.';
 	@override String get anki_manage_profiles => '???? ??? ??';
 	@override String get anki_manage_profiles_hint => 'AnkiDroid? ??? ? ?? ?? ??? ?????. ? ???? Anki ?? ??? ????, hibiki? ?? ??? Anki? ?? ??? ???? ?????.';
-	@override String get collapse_dictionaries => 'Collapse dictionaries';
+	@override String get collapse_dictionaries => '사전 접기';
 	@override String get deduplicate_pitch_accents => '?? ??? ?? ??';
 	@override String get harmonic_frequency => '?? ?? ??';
 	@override String get manage_audio_sources => '??? ?? ??';
@@ -7647,7 +7647,7 @@ class _StringsNl implements _StringsEn {
 	@override String get import_theme_invalid => 'Ongeldige themacode';
 	@override String get import_theme_success => 'Thema ge?mporteerd';
 	@override String get auto_add_book_name_to_tags => 'Boektitel automatisch aan labels toevoegen';
-	@override String get collapse_dictionaries => 'Collapse dictionaries';
+	@override String get collapse_dictionaries => 'Woordenboeken inklappen';
 	@override String get deduplicate_pitch_accents => 'Toonhoogteaccenten dedupliceren';
 	@override String get harmonic_frequency => 'Woordfrequenties aggregeren';
 	@override String get manage_audio_sources => 'Audiobronnen beheren';
@@ -7671,8 +7671,8 @@ class _StringsNl implements _StringsEn {
 	@override String get error_log_share_subject => 'hibiki foutenlogboek';
 	@override String get update_never_remind => 'Niet meer herinneren';
 	@override String get update_auto_install => 'Updates automatisch installeren';
-	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
-	@override String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
+	@override String get disable_dialog_scrim => 'Pop-up overlay uitschakelen (e-ink)';
+	@override String get native_dictionary_popup => 'Native woordenboek-popup (e-ink)';
 	@override String get update_settings => 'Update-instellingen';
 	@override String get anki_settings_label => 'Anki-instellingen';
 	@override String get anki_default_deck => 'Standaardstapel';
@@ -8421,8 +8421,8 @@ class _StringsPtBr implements _StringsEn {
 	@override String get error_log_share_subject => 'Log de Erros do hibiki';
 	@override String get update_never_remind => 'N?o lembrar novamente';
 	@override String get update_auto_install => 'Instalar atualiza??es automaticamente';
-	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
-	@override String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
+	@override String get disable_dialog_scrim => 'Desativar sobreposição do popup (e-ink)';
+	@override String get native_dictionary_popup => 'Popup de dicionário nativo (e-ink)';
 	@override String get update_settings => 'Configura??es de Atualiza??o';
 	@override String get anki_settings_label => 'Configura??es do Anki';
 	@override String get anki_default_deck => 'Baralho Padr?o';
@@ -8444,7 +8444,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Misto: números e letras latinas s?o girados de lado. Vertical: todos os caracteres permanecem verticais.';
 	@override String get anki_manage_profiles => 'Gerenciar Perfis de Exporta??o';
 	@override String get anki_manage_profiles_hint => 'Configurar como os campos dos cart?es s?o mapeados ao exportar para o AnkiDroid. Cada perfil se vincula a um tipo de nota Anki e define qual campo do hibiki preenche cada campo do Anki.';
-	@override String get collapse_dictionaries => 'Collapse dictionaries';
+	@override String get collapse_dictionaries => 'Recolher dicionários';
 	@override String get deduplicate_pitch_accents => 'Deduplicar acentos tonais';
 	@override String get harmonic_frequency => 'Agregar frequências de palavras';
 	@override String get manage_audio_sources => 'Gerenciar fontes de áudio';
@@ -9184,8 +9184,8 @@ class _StringsRu implements _StringsEn {
 	@override String get error_log_share_subject => 'Журнал ошибок hibiki';
 	@override String get update_never_remind => 'Больше не напоминать';
 	@override String get update_auto_install => 'Автоустановка обновлений';
-	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
-	@override String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
+	@override String get disable_dialog_scrim => 'Отключить затемнение (e-ink)';
+	@override String get native_dictionary_popup => 'Нативное всплывающее окно словаря (e-ink)';
 	@override String get update_settings => 'Настройки обновлений';
 	@override String get anki_settings_label => 'Настройки Anki';
 	@override String get anki_default_deck => 'Колода по умолчанию';
@@ -9207,7 +9207,7 @@ class _StringsRu implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Смешанный: цифры и латинские буквы поворачиваются набок. Прямой: все символы остаются прямыми.';
 	@override String get anki_manage_profiles => 'Управление профилями экспорта';
 	@override String get anki_manage_profiles_hint => 'Настройте сопоставление полей карточек при экспорте в AnkiDroid. Каждый профиль привязан к типу заметки Anki и определяет, какое поле hibiki заполняет какое поле Anki.';
-	@override String get collapse_dictionaries => 'Collapse dictionaries';
+	@override String get collapse_dictionaries => 'Свернуть словари';
 	@override String get deduplicate_pitch_accents => 'Удалить дубликаты тональных ударений';
 	@override String get harmonic_frequency => 'Агрегация частот слов';
 	@override String get manage_audio_sources => 'Управление аудиоисточниками';
@@ -9947,8 +9947,8 @@ class _StringsTh implements _StringsEn {
 	@override String get error_log_share_subject => '???????????????? hibiki';
 	@override String get update_never_remind => '???????????????';
 	@override String get update_auto_install => '??????????????????????';
-	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
-	@override String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
+	@override String get disable_dialog_scrim => 'ปิดพื้นหลังป๊อปอัป (e-ink)';
+	@override String get native_dictionary_popup => 'ป๊อปอัปพจนานุกรมแบบดั้งเดิม (e-ink)';
 	@override String get update_settings => '?????????????';
 	@override String get anki_settings_label => '??????? Anki';
 	@override String get anki_default_deck => '?????????????';
@@ -9970,7 +9970,7 @@ class _StringsTh implements _StringsEn {
 	@override String get hint_vert_text_orient => '???: ???????????????????????????? ???????: ??????????????????????';
 	@override String get anki_manage_profiles => '???????????????????';
 	@override String get anki_manage_profiles_hint => '???????????????????????????????????????? AnkiDroid ???????????????????????????? Anki ???????????????? hibiki ????????????? Anki ??';
-	@override String get collapse_dictionaries => 'Collapse dictionaries';
+	@override String get collapse_dictionaries => 'ยุบพจนานุกรม';
 	@override String get deduplicate_pitch_accents => '?????????????????';
 	@override String get harmonic_frequency => '????????????';
 	@override String get manage_audio_sources => '????????????????';
@@ -10699,7 +10699,7 @@ class _StringsTr implements _StringsEn {
 	@override String get import_theme_invalid => 'Ge?ersiz tema kodu';
 	@override String get import_theme_success => 'Tema i?e aktar?ld?';
 	@override String get auto_add_book_name_to_tags => 'Kitap ba?l???n? otomatik olarak etiketlere ekle';
-	@override String get collapse_dictionaries => 'Collapse dictionaries';
+	@override String get collapse_dictionaries => 'Sözlükleri daralt';
 	@override String get deduplicate_pitch_accents => 'Ton vurgular?n? tekrars?zla?t?r';
 	@override String get harmonic_frequency => 'Kelime s?kl?klar?n? birle?tir';
 	@override String get manage_audio_sources => 'Ses kaynaklar?n? y?net';
@@ -10723,8 +10723,8 @@ class _StringsTr implements _StringsEn {
 	@override String get error_log_share_subject => 'hibiki Hata Günlü?ü';
 	@override String get update_never_remind => 'Güncellemeleri hat?rlatma';
 	@override String get update_auto_install => 'Güncellemeleri otomatik yükle';
-	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
-	@override String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
+	@override String get disable_dialog_scrim => 'Açılır pencere arka planını devre dışı bırak (e-ink)';
+	@override String get native_dictionary_popup => 'Yerel sözlük açılır penceresi (e-ink)';
 	@override String get update_settings => 'Güncelleme ayarlar?';
 	@override String get anki_settings_label => 'Anki ayarlar?';
 	@override String get anki_default_deck => 'Varsay?lan deste';
@@ -11473,8 +11473,8 @@ class _StringsVi implements _StringsEn {
 	@override String get error_log_share_subject => 'Nh?t ky l?i hibiki';
 	@override String get update_never_remind => 'Kh?ng nh?c l?i';
 	@override String get update_auto_install => 'T? ??ng cài ??t b?n c?p nh?t';
-	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
-	@override String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
+	@override String get disable_dialog_scrim => 'Tắt lớp phủ popup (e-ink)';
+	@override String get native_dictionary_popup => 'Popup từ điển gốc (e-ink)';
 	@override String get update_settings => 'Cài ??t c?p nh?t';
 	@override String get anki_settings_label => 'Cài ??t Anki';
 	@override String get anki_default_deck => 'B? th? m?c ??nh';
@@ -11496,7 +11496,7 @@ class _StringsVi implements _StringsEn {
 	@override String get hint_vert_text_orient => 'H?n h?p: s? và ch? Latin ???c xoay ngang. Th?ng ??ng: t?t c? ky t? gi? th?ng ??ng.';
 	@override String get anki_manage_profiles => 'Qu?n ly h? s? xu?t';
 	@override String get anki_manage_profiles_hint => 'C?u hình ánh x? tr??ng th? khi xu?t sang AnkiDroid. M?i h? s? liên k?t v?i m?t lo?i ghi chú Anki và xác ??nh tr??ng hibiki nào ?i?n vào tr??ng Anki nào.';
-	@override String get collapse_dictionaries => 'Collapse dictionaries';
+	@override String get collapse_dictionaries => 'Thu gọn từ điển';
 	@override String get deduplicate_pitch_accents => 'Lo?i b? trùng l?p thanh ?i?u';
 	@override String get harmonic_frequency => 'T?ng h?p t?n su?t t?';
 	@override String get manage_audio_sources => 'Qu?n ly ngu?n am thanh';
@@ -15197,8 +15197,8 @@ extension on _StringsDe {
 			case 'error_log_share_subject': return 'hibiki Fehlerprotokoll';
 			case 'update_never_remind': return 'Nicht mehr erinnern';
 			case 'update_auto_install': return 'Updates automatisch installieren';
-			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
-			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
+			case 'disable_dialog_scrim': return 'Popup-Overlay deaktivieren (E-Ink)';
+			case 'native_dictionary_popup': return 'Natives Wörterbuch-Popup (E-Ink)';
 			case 'update_settings': return 'Update-Einstellungen';
 			case 'anki_settings_label': return 'Anki-Einstellungen';
 			case 'anki_default_deck': return 'Standard-Stapel';
@@ -15220,7 +15220,7 @@ extension on _StringsDe {
 			case 'hint_vert_text_orient': return 'Gemischt: Zahlen und lateinische Buchstaben werden seitw?rts gedreht. Aufrecht: alle Zeichen bleiben aufrecht.';
 			case 'anki_manage_profiles': return 'Exportprofile verwalten';
 			case 'anki_manage_profiles_hint': return 'Feldzuordnung beim Export nach AnkiDroid konfigurieren. Jedes Profil ist an einen Anki-Notiztyp gebunden und definiert, welches hibiki-Feld in welches Anki-Feld eingetragen wird.';
-			case 'collapse_dictionaries': return 'Collapse dictionaries';
+			case 'collapse_dictionaries': return 'Wörterbücher einklappen';
 			case 'deduplicate_pitch_accents': return 'Tonh?henakzente deduplizieren';
 			case 'harmonic_frequency': return 'Worth?ufigkeiten aggregieren';
 			case 'manage_audio_sources': return 'Audioquellen verwalten';
@@ -15921,8 +15921,8 @@ extension on _StringsEs {
 			case 'error_log_share_subject': return 'Registro de errores de hibiki';
 			case 'update_never_remind': return 'No recordar de nuevo';
 			case 'update_auto_install': return 'Instalar actualizaciones automáticamente';
-			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
-			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
+			case 'disable_dialog_scrim': return 'Desactivar superposición de popup (e-ink)';
+			case 'native_dictionary_popup': return 'Popup de diccionario nativo (e-ink)';
 			case 'update_settings': return 'Configuración de actualizaciones';
 			case 'anki_settings_label': return 'Configuración de Anki';
 			case 'anki_default_deck': return 'Mazo predeterminado';
@@ -15944,7 +15944,7 @@ extension on _StringsEs {
 			case 'hint_vert_text_orient': return 'Mixto: números y letras latinas se rotan de lado. Vertical: todos los caracteres se mantienen verticales.';
 			case 'anki_manage_profiles': return 'Gestionar perfiles de exportación';
 			case 'anki_manage_profiles_hint': return 'Configurar cómo se mapean los campos de las tarjetas al exportar a AnkiDroid. Cada perfil se vincula a un tipo de nota Anki y define qué campo de hibiki llena cada campo de Anki.';
-			case 'collapse_dictionaries': return 'Collapse dictionaries';
+			case 'collapse_dictionaries': return 'Contraer diccionarios';
 			case 'deduplicate_pitch_accents': return 'Deduplicar acentos tonales';
 			case 'harmonic_frequency': return 'Agregar frecuencias de palabras';
 			case 'manage_audio_sources': return 'Gestionar fuentes de audio';
@@ -16645,8 +16645,8 @@ extension on _StringsFr {
 			case 'error_log_share_subject': return 'Journal d\'erreurs hibiki';
 			case 'update_never_remind': return 'Ne plus rappeler';
 			case 'update_auto_install': return 'Installer automatiquement les mises à jour';
-			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
-			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
+			case 'disable_dialog_scrim': return 'Désactiver le fond du popup (e-ink)';
+			case 'native_dictionary_popup': return 'Popup de dictionnaire natif (e-ink)';
 			case 'update_settings': return 'Paramètres de mise à jour';
 			case 'anki_settings_label': return 'Paramètres Anki';
 			case 'anki_default_deck': return 'Paquet par défaut';
@@ -16668,7 +16668,7 @@ extension on _StringsFr {
 			case 'hint_vert_text_orient': return 'Mixte : les chiffres et lettres latines sont tournés sur le c?té. Droit : tous les caractères restent droits.';
 			case 'anki_manage_profiles': return 'Gérer les profils d\'exportation';
 			case 'anki_manage_profiles_hint': return 'Configurer le mappage des champs lors de l\'exportation vers AnkiDroid. Chaque profil est lié à un type de note Anki et définit quel champ hibiki remplit quel champ Anki.';
-			case 'collapse_dictionaries': return 'Collapse dictionaries';
+			case 'collapse_dictionaries': return 'Réduire les dictionnaires';
 			case 'deduplicate_pitch_accents': return 'Dédupliquer les accents tonaux';
 			case 'harmonic_frequency': return 'Agréger les fréquences de mots';
 			case 'manage_audio_sources': return 'Gérer les sources audio';
@@ -17369,8 +17369,8 @@ extension on _StringsId {
 			case 'error_log_share_subject': return 'Log Error hibiki';
 			case 'update_never_remind': return 'Jangan ingatkan lagi';
 			case 'update_auto_install': return 'Pasang pembaruan otomatis';
-			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
-			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
+			case 'disable_dialog_scrim': return 'Nonaktifkan overlay popup (e-ink)';
+			case 'native_dictionary_popup': return 'Popup kamus bawaan (e-ink)';
 			case 'update_settings': return 'Pengaturan Pembaruan';
 			case 'anki_settings_label': return 'Pengaturan Anki';
 			case 'anki_default_deck': return 'Dek Default';
@@ -17392,7 +17392,7 @@ extension on _StringsId {
 			case 'hint_vert_text_orient': return 'Campuran: angka dan huruf Latin diputar ke samping. Tegak: semua karakter tetap tegak.';
 			case 'anki_manage_profiles': return 'Kelola Profil Ekspor';
 			case 'anki_manage_profiles_hint': return 'Konfigurasi pemetaan bidang kartu saat mengekspor ke AnkiDroid. Setiap profil terikat ke tipe catatan Anki dan menentukan bidang hibiki mana yang mengisi bidang Anki mana.';
-			case 'collapse_dictionaries': return 'Collapse dictionaries';
+			case 'collapse_dictionaries': return 'Ciutkan kamus';
 			case 'deduplicate_pitch_accents': return 'Hapus duplikat aksen nada';
 			case 'harmonic_frequency': return 'Gabungkan frekuensi kata';
 			case 'manage_audio_sources': return 'Kelola sumber audio';
@@ -18082,7 +18082,7 @@ extension on _StringsIt {
 			case 'import_theme_invalid': return 'Codice tema non valido';
 			case 'import_theme_success': return 'Tema importato';
 			case 'auto_add_book_name_to_tags': return 'Aggiungi automaticamente il titolo del libro alle etichette';
-			case 'collapse_dictionaries': return 'Collapse dictionaries';
+			case 'collapse_dictionaries': return 'Comprimi dizionari';
 			case 'deduplicate_pitch_accents': return 'Deduplica accenti tonali';
 			case 'harmonic_frequency': return 'Aggrega frequenze delle parole';
 			case 'manage_audio_sources': return 'Gestisci sorgenti audio';
@@ -18106,8 +18106,8 @@ extension on _StringsIt {
 			case 'error_log_share_subject': return 'Registro errori hibiki';
 			case 'update_never_remind': return 'Non ricordarmelo più';
 			case 'update_auto_install': return 'Installa automaticamente gli aggiornamenti';
-			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
-			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
+			case 'disable_dialog_scrim': return 'Disattiva overlay popup (e-ink)';
+			case 'native_dictionary_popup': return 'Popup dizionario nativo (e-ink)';
 			case 'update_settings': return 'Impostazioni aggiornamento';
 			case 'anki_settings_label': return 'Impostazioni Anki';
 			case 'anki_default_deck': return 'Mazzo predefinito';
@@ -18809,7 +18809,7 @@ extension on _StringsJa {
 			case 'import_theme_invalid': return '無効なテーマコード';
 			case 'import_theme_success': return 'テーマをインポートしました';
 			case 'auto_add_book_name_to_tags': return 'タグに本のタイトルを自動追加';
-			case 'collapse_dictionaries': return 'Collapse dictionaries';
+			case 'collapse_dictionaries': return '辞書を折りたたむ';
 			case 'deduplicate_pitch_accents': return 'アクセント重複除外';
 			case 'harmonic_frequency': return '語彙頻度集約';
 			case 'manage_audio_sources': return '音声ソースの管理';
@@ -18834,7 +18834,7 @@ extension on _StringsJa {
 			case 'update_never_remind': return '今後通知しない';
 			case 'update_auto_install': return '自動インストール';
 			case 'disable_dialog_scrim': return 'ポップアップの背景オーバーレイを無効にする（E Ink）';
-			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
+			case 'native_dictionary_popup': return 'ネイティブ辞書ポップアップ（電子ペーパー）';
 			case 'update_settings': return 'アップデート設定';
 			case 'anki_settings_label': return 'Anki 設定';
 			case 'anki_default_deck': return 'デフォルトデッキ';
@@ -19541,8 +19541,8 @@ extension on _StringsKo {
 			case 'error_log_share_subject': return 'hibiki ?? ??';
 			case 'update_never_remind': return '?? ??? ??';
 			case 'update_auto_install': return '?? ??';
-			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
-			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
+			case 'disable_dialog_scrim': return '팝업 오버레이 비활성화 (e-ink)';
+			case 'native_dictionary_popup': return '기본 사전 팝업 (e-ink)';
 			case 'update_settings': return '???? ??';
 			case 'anki_settings_label': return 'Anki ??';
 			case 'anki_default_deck': return '?? ?';
@@ -19564,7 +19564,7 @@ extension on _StringsKo {
 			case 'hint_vert_text_orient': return '??: ??? ?? ??? ??? ?????. ??: ?? ??? ??? ?????.';
 			case 'anki_manage_profiles': return '???? ??? ??';
 			case 'anki_manage_profiles_hint': return 'AnkiDroid? ??? ? ?? ?? ??? ?????. ? ???? Anki ?? ??? ????, hibiki? ?? ??? Anki? ?? ??? ???? ?????.';
-			case 'collapse_dictionaries': return 'Collapse dictionaries';
+			case 'collapse_dictionaries': return '사전 접기';
 			case 'deduplicate_pitch_accents': return '?? ??? ?? ??';
 			case 'harmonic_frequency': return '?? ?? ??';
 			case 'manage_audio_sources': return '??? ?? ??';
@@ -20254,7 +20254,7 @@ extension on _StringsNl {
 			case 'import_theme_invalid': return 'Ongeldige themacode';
 			case 'import_theme_success': return 'Thema ge?mporteerd';
 			case 'auto_add_book_name_to_tags': return 'Boektitel automatisch aan labels toevoegen';
-			case 'collapse_dictionaries': return 'Collapse dictionaries';
+			case 'collapse_dictionaries': return 'Woordenboeken inklappen';
 			case 'deduplicate_pitch_accents': return 'Toonhoogteaccenten dedupliceren';
 			case 'harmonic_frequency': return 'Woordfrequenties aggregeren';
 			case 'manage_audio_sources': return 'Audiobronnen beheren';
@@ -20278,8 +20278,8 @@ extension on _StringsNl {
 			case 'error_log_share_subject': return 'hibiki foutenlogboek';
 			case 'update_never_remind': return 'Niet meer herinneren';
 			case 'update_auto_install': return 'Updates automatisch installeren';
-			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
-			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
+			case 'disable_dialog_scrim': return 'Pop-up overlay uitschakelen (e-ink)';
+			case 'native_dictionary_popup': return 'Native woordenboek-popup (e-ink)';
 			case 'update_settings': return 'Update-instellingen';
 			case 'anki_settings_label': return 'Anki-instellingen';
 			case 'anki_default_deck': return 'Standaardstapel';
@@ -20989,8 +20989,8 @@ extension on _StringsPtBr {
 			case 'error_log_share_subject': return 'Log de Erros do hibiki';
 			case 'update_never_remind': return 'N?o lembrar novamente';
 			case 'update_auto_install': return 'Instalar atualiza??es automaticamente';
-			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
-			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
+			case 'disable_dialog_scrim': return 'Desativar sobreposição do popup (e-ink)';
+			case 'native_dictionary_popup': return 'Popup de dicionário nativo (e-ink)';
 			case 'update_settings': return 'Configura??es de Atualiza??o';
 			case 'anki_settings_label': return 'Configura??es do Anki';
 			case 'anki_default_deck': return 'Baralho Padr?o';
@@ -21012,7 +21012,7 @@ extension on _StringsPtBr {
 			case 'hint_vert_text_orient': return 'Misto: números e letras latinas s?o girados de lado. Vertical: todos os caracteres permanecem verticais.';
 			case 'anki_manage_profiles': return 'Gerenciar Perfis de Exporta??o';
 			case 'anki_manage_profiles_hint': return 'Configurar como os campos dos cart?es s?o mapeados ao exportar para o AnkiDroid. Cada perfil se vincula a um tipo de nota Anki e define qual campo do hibiki preenche cada campo do Anki.';
-			case 'collapse_dictionaries': return 'Collapse dictionaries';
+			case 'collapse_dictionaries': return 'Recolher dicionários';
 			case 'deduplicate_pitch_accents': return 'Deduplicar acentos tonais';
 			case 'harmonic_frequency': return 'Agregar frequências de palavras';
 			case 'manage_audio_sources': return 'Gerenciar fontes de áudio';
@@ -21713,8 +21713,8 @@ extension on _StringsRu {
 			case 'error_log_share_subject': return 'Журнал ошибок hibiki';
 			case 'update_never_remind': return 'Больше не напоминать';
 			case 'update_auto_install': return 'Автоустановка обновлений';
-			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
-			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
+			case 'disable_dialog_scrim': return 'Отключить затемнение (e-ink)';
+			case 'native_dictionary_popup': return 'Нативное всплывающее окно словаря (e-ink)';
 			case 'update_settings': return 'Настройки обновлений';
 			case 'anki_settings_label': return 'Настройки Anki';
 			case 'anki_default_deck': return 'Колода по умолчанию';
@@ -21736,7 +21736,7 @@ extension on _StringsRu {
 			case 'hint_vert_text_orient': return 'Смешанный: цифры и латинские буквы поворачиваются набок. Прямой: все символы остаются прямыми.';
 			case 'anki_manage_profiles': return 'Управление профилями экспорта';
 			case 'anki_manage_profiles_hint': return 'Настройте сопоставление полей карточек при экспорте в AnkiDroid. Каждый профиль привязан к типу заметки Anki и определяет, какое поле hibiki заполняет какое поле Anki.';
-			case 'collapse_dictionaries': return 'Collapse dictionaries';
+			case 'collapse_dictionaries': return 'Свернуть словари';
 			case 'deduplicate_pitch_accents': return 'Удалить дубликаты тональных ударений';
 			case 'harmonic_frequency': return 'Агрегация частот слов';
 			case 'manage_audio_sources': return 'Управление аудиоисточниками';
@@ -22437,8 +22437,8 @@ extension on _StringsTh {
 			case 'error_log_share_subject': return '???????????????? hibiki';
 			case 'update_never_remind': return '???????????????';
 			case 'update_auto_install': return '??????????????????????';
-			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
-			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
+			case 'disable_dialog_scrim': return 'ปิดพื้นหลังป๊อปอัป (e-ink)';
+			case 'native_dictionary_popup': return 'ป๊อปอัปพจนานุกรมแบบดั้งเดิม (e-ink)';
 			case 'update_settings': return '?????????????';
 			case 'anki_settings_label': return '??????? Anki';
 			case 'anki_default_deck': return '?????????????';
@@ -22460,7 +22460,7 @@ extension on _StringsTh {
 			case 'hint_vert_text_orient': return '???: ???????????????????????????? ???????: ??????????????????????';
 			case 'anki_manage_profiles': return '???????????????????';
 			case 'anki_manage_profiles_hint': return '???????????????????????????????????????? AnkiDroid ???????????????????????????? Anki ???????????????? hibiki ????????????? Anki ??';
-			case 'collapse_dictionaries': return 'Collapse dictionaries';
+			case 'collapse_dictionaries': return 'ยุบพจนานุกรม';
 			case 'deduplicate_pitch_accents': return '?????????????????';
 			case 'harmonic_frequency': return '????????????';
 			case 'manage_audio_sources': return '????????????????';
@@ -23150,7 +23150,7 @@ extension on _StringsTr {
 			case 'import_theme_invalid': return 'Ge?ersiz tema kodu';
 			case 'import_theme_success': return 'Tema i?e aktar?ld?';
 			case 'auto_add_book_name_to_tags': return 'Kitap ba?l???n? otomatik olarak etiketlere ekle';
-			case 'collapse_dictionaries': return 'Collapse dictionaries';
+			case 'collapse_dictionaries': return 'Sözlükleri daralt';
 			case 'deduplicate_pitch_accents': return 'Ton vurgular?n? tekrars?zla?t?r';
 			case 'harmonic_frequency': return 'Kelime s?kl?klar?n? birle?tir';
 			case 'manage_audio_sources': return 'Ses kaynaklar?n? y?net';
@@ -23174,8 +23174,8 @@ extension on _StringsTr {
 			case 'error_log_share_subject': return 'hibiki Hata Günlü?ü';
 			case 'update_never_remind': return 'Güncellemeleri hat?rlatma';
 			case 'update_auto_install': return 'Güncellemeleri otomatik yükle';
-			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
-			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
+			case 'disable_dialog_scrim': return 'Açılır pencere arka planını devre dışı bırak (e-ink)';
+			case 'native_dictionary_popup': return 'Yerel sözlük açılır penceresi (e-ink)';
 			case 'update_settings': return 'Güncelleme ayarlar?';
 			case 'anki_settings_label': return 'Anki ayarlar?';
 			case 'anki_default_deck': return 'Varsay?lan deste';
@@ -23885,8 +23885,8 @@ extension on _StringsVi {
 			case 'error_log_share_subject': return 'Nh?t ky l?i hibiki';
 			case 'update_never_remind': return 'Kh?ng nh?c l?i';
 			case 'update_auto_install': return 'T? ??ng cài ??t b?n c?p nh?t';
-			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
-			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
+			case 'disable_dialog_scrim': return 'Tắt lớp phủ popup (e-ink)';
+			case 'native_dictionary_popup': return 'Popup từ điển gốc (e-ink)';
 			case 'update_settings': return 'Cài ??t c?p nh?t';
 			case 'anki_settings_label': return 'Cài ??t Anki';
 			case 'anki_default_deck': return 'B? th? m?c ??nh';
@@ -23908,7 +23908,7 @@ extension on _StringsVi {
 			case 'hint_vert_text_orient': return 'H?n h?p: s? và ch? Latin ???c xoay ngang. Th?ng ??ng: t?t c? ky t? gi? th?ng ??ng.';
 			case 'anki_manage_profiles': return 'Qu?n ly h? s? xu?t';
 			case 'anki_manage_profiles_hint': return 'C?u hình ánh x? tr??ng th? khi xu?t sang AnkiDroid. M?i h? s? liên k?t v?i m?t lo?i ghi chú Anki và xác ??nh tr??ng hibiki nào ?i?n vào tr??ng Anki nào.';
-			case 'collapse_dictionaries': return 'Collapse dictionaries';
+			case 'collapse_dictionaries': return 'Thu gọn từ điển';
 			case 'deduplicate_pitch_accents': return 'Lo?i b? trùng l?p thanh ?i?u';
 			case 'harmonic_frequency': return 'T?ng h?p t?n su?t t?';
 			case 'manage_audio_sources': return 'Qu?n ly ngu?n am thanh';
