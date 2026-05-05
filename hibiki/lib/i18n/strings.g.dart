@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 12166 (715 per locale)
+/// Strings: 12172 (716 per locale)
 ///
-/// Built on 2026-05-05 at 14:50 UTC
+/// Built on 2026-05-05 at 17:15 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -359,6 +359,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get audio_unavailable => 'No audio could be found.';
 	String get no_audio_enhancements => 'No audio enhancements are assigned.';
 	String card_exported({required Object deck}) => 'Card exported to 『${deck}』.';
+	String get card_duplicate => 'Duplicate card — not exported.';
+	String get card_export_not_configured => 'Anki not configured. Open Anki settings and tap Fetch.';
+	String get card_export_failed => 'Failed to export card.';
 	String get info_incognito_on => 'Incognito mode on. Dictionary, media and search history will not be tracked.';
 	String get info_incognito_off => 'Incognito mode off. Dictionary, media and search history will be tracked.';
 	String get exit_media_title => 'Exit Media';
@@ -917,7 +920,7 @@ class _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsAr implements _StringsEn {
+class _StringsAr extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -928,7 +931,9 @@ class _StringsAr implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -936,7 +941,7 @@ class _StringsAr implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsAr _root = this; // ignore: unused_field
 
@@ -1607,20 +1612,6 @@ class _StringsAr implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'إضافة عنوان الكتاب الحالي تلقائياً كوسم عند إنشاء بطاقات.';
 	@override String get anki_duplicate_check_hint => 'اختر أنواع بطاقات Anki للتحقق من التكرارات قبل إضافة بطاقة جديدة.';
 	@override String get anki_retry => 'إعادة المحاولة';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => 'ضبط حجم خط نص الكتاب (بالبكسل).';
 	@override String get hint_line_height => 'ضبط المسافة بين الأسطر. القيم الأكبر تزيد من سهولة القراءة.';
 	@override String get hint_text_indentation => 'عدد الأحرف لمسافة بادئة السطر الأول من كل فقرة.';
@@ -1670,8 +1661,8 @@ class _StringsAr implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInAr implements _StringsRetryingInEn {
-	_StringsRetryingInAr._(this._root);
+class _StringsRetryingInAr extends _StringsRetryingInEn {
+	_StringsRetryingInAr._(_StringsAr root) : this._root = root, super._(root);
 
 	@override final _StringsAr _root; // ignore: unused_field
 
@@ -1683,8 +1674,8 @@ class _StringsRetryingInAr implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesAr implements _StringsViewRepliesEn {
-	_StringsViewRepliesAr._(this._root);
+class _StringsViewRepliesAr extends _StringsViewRepliesEn {
+	_StringsViewRepliesAr._(_StringsAr root) : this._root = root, super._(root);
 
 	@override final _StringsAr _root; // ignore: unused_field
 
@@ -1696,7 +1687,7 @@ class _StringsViewRepliesAr implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsDe implements _StringsEn {
+class _StringsDe extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -1707,7 +1698,9 @@ class _StringsDe implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -1715,7 +1708,7 @@ class _StringsDe implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsDe _root = this; // ignore: unused_field
 
@@ -2361,20 +2354,6 @@ class _StringsDe implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Aktuellen Buchtitel beim Erstellen automatisch als Tag hinzufügen.';
 	@override String get anki_duplicate_check_hint => 'Ausw?hlen, welche Anki-Kartentypen vor dem Hinzufügen auf Duplikate geprüft werden.';
 	@override String get anki_retry => 'Erneut versuchen';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => 'Schriftgr??e des Buchtextes anpassen (in Pixel).';
 	@override String get hint_line_height => 'Zeilenabstand anpassen. Gr??ere Werte erh?hen die Lesbarkeit.';
 	@override String get hint_text_indentation => 'Anzahl der Zeichen für den Einzug der ersten Zeile jedes Absatzes.';
@@ -2449,8 +2428,8 @@ class _StringsDe implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInDe implements _StringsRetryingInEn {
-	_StringsRetryingInDe._(this._root);
+class _StringsRetryingInDe extends _StringsRetryingInEn {
+	_StringsRetryingInDe._(_StringsDe root) : this._root = root, super._(root);
 
 	@override final _StringsDe _root; // ignore: unused_field
 
@@ -2462,8 +2441,8 @@ class _StringsRetryingInDe implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesDe implements _StringsViewRepliesEn {
-	_StringsViewRepliesDe._(this._root);
+class _StringsViewRepliesDe extends _StringsViewRepliesEn {
+	_StringsViewRepliesDe._(_StringsDe root) : this._root = root, super._(root);
 
 	@override final _StringsDe _root; // ignore: unused_field
 
@@ -2475,7 +2454,7 @@ class _StringsViewRepliesDe implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsEs implements _StringsEn {
+class _StringsEs extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -2486,7 +2465,9 @@ class _StringsEs implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -2494,7 +2475,7 @@ class _StringsEs implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsEs _root = this; // ignore: unused_field
 
@@ -3140,20 +3121,6 @@ class _StringsEs implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'A?adir automáticamente el título del libro como etiqueta al crear tarjetas.';
 	@override String get anki_duplicate_check_hint => 'Seleccionar qué tipos de tarjetas Anki comprobar para duplicados antes de a?adir una nueva tarjeta.';
 	@override String get anki_retry => 'Reintentar';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => 'Ajustar el tama?o de fuente del texto del libro (en píxeles).';
 	@override String get hint_line_height => 'Ajustar el espaciado entre líneas de texto. Valores más grandes mejoran la legibilidad.';
 	@override String get hint_text_indentation => 'Número de caracteres para sangrar la primera línea de cada párrafo.';
@@ -3228,8 +3195,8 @@ class _StringsEs implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInEs implements _StringsRetryingInEn {
-	_StringsRetryingInEs._(this._root);
+class _StringsRetryingInEs extends _StringsRetryingInEn {
+	_StringsRetryingInEs._(_StringsEs root) : this._root = root, super._(root);
 
 	@override final _StringsEs _root; // ignore: unused_field
 
@@ -3241,8 +3208,8 @@ class _StringsRetryingInEs implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesEs implements _StringsViewRepliesEn {
-	_StringsViewRepliesEs._(this._root);
+class _StringsViewRepliesEs extends _StringsViewRepliesEn {
+	_StringsViewRepliesEs._(_StringsEs root) : this._root = root, super._(root);
 
 	@override final _StringsEs _root; // ignore: unused_field
 
@@ -3254,7 +3221,7 @@ class _StringsViewRepliesEs implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsFr implements _StringsEn {
+class _StringsFr extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -3265,7 +3232,9 @@ class _StringsFr implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -3273,7 +3242,7 @@ class _StringsFr implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsFr _root = this; // ignore: unused_field
 
@@ -3919,20 +3888,6 @@ class _StringsFr implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Ajouter automatiquement le titre du livre comme étiquette lors de la création de cartes.';
 	@override String get anki_duplicate_check_hint => 'Sélectionner les types de cartes Anki à vérifier pour les doublons avant d\'ajouter une nouvelle carte.';
 	@override String get anki_retry => 'Réessayer';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => 'Ajuster la taille de police du texte du livre (en pixels).';
 	@override String get hint_line_height => 'Ajuster l\'espacement entre les lignes de texte. Des valeurs plus grandes améliorent la lisibilité.';
 	@override String get hint_text_indentation => 'Nombre de caractères pour l\'indentation de la première ligne de chaque paragraphe.';
@@ -4007,8 +3962,8 @@ class _StringsFr implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInFr implements _StringsRetryingInEn {
-	_StringsRetryingInFr._(this._root);
+class _StringsRetryingInFr extends _StringsRetryingInEn {
+	_StringsRetryingInFr._(_StringsFr root) : this._root = root, super._(root);
 
 	@override final _StringsFr _root; // ignore: unused_field
 
@@ -4020,8 +3975,8 @@ class _StringsRetryingInFr implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesFr implements _StringsViewRepliesEn {
-	_StringsViewRepliesFr._(this._root);
+class _StringsViewRepliesFr extends _StringsViewRepliesEn {
+	_StringsViewRepliesFr._(_StringsFr root) : this._root = root, super._(root);
 
 	@override final _StringsFr _root; // ignore: unused_field
 
@@ -4033,7 +3988,7 @@ class _StringsViewRepliesFr implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsId implements _StringsEn {
+class _StringsId extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -4044,7 +3999,9 @@ class _StringsId implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -4052,7 +4009,7 @@ class _StringsId implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsId _root = this; // ignore: unused_field
 
@@ -4698,20 +4655,6 @@ class _StringsId implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Tambahkan judul buku saat ini sebagai tag secara otomatis saat membuat kartu.';
 	@override String get anki_duplicate_check_hint => 'Pilih tipe kartu Anki mana yang diperiksa duplikatnya sebelum menambahkan kartu baru.';
 	@override String get anki_retry => 'Coba Lagi';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => 'Sesuaikan ukuran font teks buku (dalam piksel).';
 	@override String get hint_line_height => 'Sesuaikan jarak antar baris teks. Nilai lebih besar meningkatkan keterbacaan.';
 	@override String get hint_text_indentation => 'Jumlah karakter untuk mengindentasi baris pertama setiap paragraf.';
@@ -4786,8 +4729,8 @@ class _StringsId implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInId implements _StringsRetryingInEn {
-	_StringsRetryingInId._(this._root);
+class _StringsRetryingInId extends _StringsRetryingInEn {
+	_StringsRetryingInId._(_StringsId root) : this._root = root, super._(root);
 
 	@override final _StringsId _root; // ignore: unused_field
 
@@ -4799,8 +4742,8 @@ class _StringsRetryingInId implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesId implements _StringsViewRepliesEn {
-	_StringsViewRepliesId._(this._root);
+class _StringsViewRepliesId extends _StringsViewRepliesEn {
+	_StringsViewRepliesId._(_StringsId root) : this._root = root, super._(root);
 
 	@override final _StringsId _root; // ignore: unused_field
 
@@ -4812,7 +4755,7 @@ class _StringsViewRepliesId implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsIt implements _StringsEn {
+class _StringsIt extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -4823,7 +4766,9 @@ class _StringsIt implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -4831,7 +4776,7 @@ class _StringsIt implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsIt _root = this; // ignore: unused_field
 
@@ -5490,20 +5435,6 @@ class _StringsIt implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Aggiungi automaticamente il titolo del libro come etichetta durante la creazione delle carte.';
 	@override String get anki_duplicate_check_hint => 'Seleziona i tipi di carte Anki da controllare per i duplicati prima di aggiungere una nuova carta.';
 	@override String get anki_retry => 'Riprova';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => 'Regola la dimensione del carattere del testo del libro (in pixel).';
 	@override String get hint_line_height => 'Regola la spaziatura tra le righe di testo. Valori più alti migliorano la leggibilità.';
 	@override String get hint_text_indentation => 'Numero di caratteri per il rientro della prima riga di ogni paragrafo.';
@@ -5565,8 +5496,8 @@ class _StringsIt implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInIt implements _StringsRetryingInEn {
-	_StringsRetryingInIt._(this._root);
+class _StringsRetryingInIt extends _StringsRetryingInEn {
+	_StringsRetryingInIt._(_StringsIt root) : this._root = root, super._(root);
 
 	@override final _StringsIt _root; // ignore: unused_field
 
@@ -5578,8 +5509,8 @@ class _StringsRetryingInIt implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesIt implements _StringsViewRepliesEn {
-	_StringsViewRepliesIt._(this._root);
+class _StringsViewRepliesIt extends _StringsViewRepliesEn {
+	_StringsViewRepliesIt._(_StringsIt root) : this._root = root, super._(root);
 
 	@override final _StringsIt _root; // ignore: unused_field
 
@@ -5591,7 +5522,7 @@ class _StringsViewRepliesIt implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsJa implements _StringsEn {
+class _StringsJa extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -5602,7 +5533,9 @@ class _StringsJa implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -5610,7 +5543,7 @@ class _StringsJa implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsJa _root = this; // ignore: unused_field
 
@@ -6272,20 +6205,6 @@ class _StringsJa implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'カード作成時、現在の書籍タイトルをタグとして自動追加します。';
 	@override String get anki_duplicate_check_hint => '新しいカードを追加する前に、どのカードタイプで重複をチェックするか選択します。';
 	@override String get anki_retry => '再試行';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => '本文のフォントサイズを調整します（ピクセル）。';
 	@override String get hint_line_height => '行間を調整します。値が大きいほど読みやすくなります。';
 	@override String get hint_text_indentation => '各段落の最初の行の字下げ文字数。';
@@ -6344,8 +6263,8 @@ class _StringsJa implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInJa implements _StringsRetryingInEn {
-	_StringsRetryingInJa._(this._root);
+class _StringsRetryingInJa extends _StringsRetryingInEn {
+	_StringsRetryingInJa._(_StringsJa root) : this._root = root, super._(root);
 
 	@override final _StringsJa _root; // ignore: unused_field
 
@@ -6357,8 +6276,8 @@ class _StringsRetryingInJa implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesJa implements _StringsViewRepliesEn {
-	_StringsViewRepliesJa._(this._root);
+class _StringsViewRepliesJa extends _StringsViewRepliesEn {
+	_StringsViewRepliesJa._(_StringsJa root) : this._root = root, super._(root);
 
 	@override final _StringsJa _root; // ignore: unused_field
 
@@ -6370,7 +6289,7 @@ class _StringsViewRepliesJa implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsKo implements _StringsEn {
+class _StringsKo extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -6381,7 +6300,9 @@ class _StringsKo implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -6389,7 +6310,7 @@ class _StringsKo implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsKo _root = this; // ignore: unused_field
 
@@ -7035,20 +6956,6 @@ class _StringsKo implements _StringsEn {
 	@override String get anki_auto_tag_hint => '?? ?? ? ?? ? ??? ??? ?? ?????.';
 	@override String get anki_duplicate_check_hint => '? ??? ???? ?? ?? ?? ???? ??? ???? ?????.';
 	@override String get anki_retry => '?? ??';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => '??? ?? ??? ????? (??).';
 	@override String get hint_line_height => '? ??? ?????. ?? ??? ???? ?????.';
 	@override String get hint_text_indentation => '? ?? ? ?? ???? ?? ?.';
@@ -7123,8 +7030,8 @@ class _StringsKo implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInKo implements _StringsRetryingInEn {
-	_StringsRetryingInKo._(this._root);
+class _StringsRetryingInKo extends _StringsRetryingInEn {
+	_StringsRetryingInKo._(_StringsKo root) : this._root = root, super._(root);
 
 	@override final _StringsKo _root; // ignore: unused_field
 
@@ -7136,8 +7043,8 @@ class _StringsRetryingInKo implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesKo implements _StringsViewRepliesEn {
-	_StringsViewRepliesKo._(this._root);
+class _StringsViewRepliesKo extends _StringsViewRepliesEn {
+	_StringsViewRepliesKo._(_StringsKo root) : this._root = root, super._(root);
 
 	@override final _StringsKo _root; // ignore: unused_field
 
@@ -7149,7 +7056,7 @@ class _StringsViewRepliesKo implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsNl implements _StringsEn {
+class _StringsNl extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -7160,7 +7067,9 @@ class _StringsNl implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -7168,7 +7077,7 @@ class _StringsNl implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsNl _root = this; // ignore: unused_field
 
@@ -7827,20 +7736,6 @@ class _StringsNl implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Boektitel automatisch als label toevoegen bij het maken van kaarten.';
 	@override String get anki_duplicate_check_hint => 'Selecteer welke Anki-kaarttypen op duplicaten worden gecontroleerd vóór het toevoegen.';
 	@override String get anki_retry => 'Opnieuw proberen';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => 'Pas de lettergrootte van de boektekst aan (in pixels).';
 	@override String get hint_line_height => 'Pas de afstand tussen tekstregels aan. Grotere waarden verhogen de leesbaarheid.';
 	@override String get hint_text_indentation => 'Aantal tekens voor de inspringing van de eerste regel van elke alinea.';
@@ -7902,8 +7797,8 @@ class _StringsNl implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInNl implements _StringsRetryingInEn {
-	_StringsRetryingInNl._(this._root);
+class _StringsRetryingInNl extends _StringsRetryingInEn {
+	_StringsRetryingInNl._(_StringsNl root) : this._root = root, super._(root);
 
 	@override final _StringsNl _root; // ignore: unused_field
 
@@ -7915,8 +7810,8 @@ class _StringsRetryingInNl implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesNl implements _StringsViewRepliesEn {
-	_StringsViewRepliesNl._(this._root);
+class _StringsViewRepliesNl extends _StringsViewRepliesEn {
+	_StringsViewRepliesNl._(_StringsNl root) : this._root = root, super._(root);
 
 	@override final _StringsNl _root; // ignore: unused_field
 
@@ -7928,7 +7823,7 @@ class _StringsViewRepliesNl implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsPtBr implements _StringsEn {
+class _StringsPtBr extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -7939,7 +7834,9 @@ class _StringsPtBr implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -7947,7 +7844,7 @@ class _StringsPtBr implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsPtBr _root = this; // ignore: unused_field
 
@@ -8593,20 +8490,6 @@ class _StringsPtBr implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Adicionar automaticamente o título do livro como tag ao criar cart?es.';
 	@override String get anki_duplicate_check_hint => 'Selecionar quais tipos de cart?es Anki verificar para duplicatas antes de adicionar um novo cart?o.';
 	@override String get anki_retry => 'Tentar Novamente';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => 'Ajustar o tamanho da fonte do texto do livro (em pixels).';
 	@override String get hint_line_height => 'Ajustar o espa?amento entre linhas de texto. Valores maiores melhoram a legibilidade.';
 	@override String get hint_text_indentation => 'Número de caracteres para recuar a primeira linha de cada parágrafo.';
@@ -8681,8 +8564,8 @@ class _StringsPtBr implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInPtBr implements _StringsRetryingInEn {
-	_StringsRetryingInPtBr._(this._root);
+class _StringsRetryingInPtBr extends _StringsRetryingInEn {
+	_StringsRetryingInPtBr._(_StringsPtBr root) : this._root = root, super._(root);
 
 	@override final _StringsPtBr _root; // ignore: unused_field
 
@@ -8694,8 +8577,8 @@ class _StringsRetryingInPtBr implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesPtBr implements _StringsViewRepliesEn {
-	_StringsViewRepliesPtBr._(this._root);
+class _StringsViewRepliesPtBr extends _StringsViewRepliesEn {
+	_StringsViewRepliesPtBr._(_StringsPtBr root) : this._root = root, super._(root);
 
 	@override final _StringsPtBr _root; // ignore: unused_field
 
@@ -8707,7 +8590,7 @@ class _StringsViewRepliesPtBr implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsRu implements _StringsEn {
+class _StringsRu extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -8718,7 +8601,9 @@ class _StringsRu implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -8726,7 +8611,7 @@ class _StringsRu implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsRu _root = this; // ignore: unused_field
 
@@ -9372,20 +9257,6 @@ class _StringsRu implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Автоматически добавлять название текущей книги как тег при создании карточек.';
 	@override String get anki_duplicate_check_hint => 'Выберите, какие типы карточек Anki проверять на дубликаты перед добавлением новой карточки.';
 	@override String get anki_retry => 'Повторить';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => 'Настроить размер шрифта текста книги (в пикселях).';
 	@override String get hint_line_height => 'Настроить межстрочный интервал. Большие значения улучшают читаемость.';
 	@override String get hint_text_indentation => 'Количество символов для отступа первой строки каждого абзаца.';
@@ -9460,8 +9331,8 @@ class _StringsRu implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInRu implements _StringsRetryingInEn {
-	_StringsRetryingInRu._(this._root);
+class _StringsRetryingInRu extends _StringsRetryingInEn {
+	_StringsRetryingInRu._(_StringsRu root) : this._root = root, super._(root);
 
 	@override final _StringsRu _root; // ignore: unused_field
 
@@ -9473,8 +9344,8 @@ class _StringsRetryingInRu implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesRu implements _StringsViewRepliesEn {
-	_StringsViewRepliesRu._(this._root);
+class _StringsViewRepliesRu extends _StringsViewRepliesEn {
+	_StringsViewRepliesRu._(_StringsRu root) : this._root = root, super._(root);
 
 	@override final _StringsRu _root; // ignore: unused_field
 
@@ -9486,7 +9357,7 @@ class _StringsViewRepliesRu implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsTh implements _StringsEn {
+class _StringsTh extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -9497,7 +9368,9 @@ class _StringsTh implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -9505,7 +9378,7 @@ class _StringsTh implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsTh _root = this; // ignore: unused_field
 
@@ -10151,20 +10024,6 @@ class _StringsTh implements _StringsEn {
 	@override String get anki_auto_tag_hint => '????????????????????????????????????????????????????????';
 	@override String get anki_duplicate_check_hint => '???????????????? Anki ?????????????????????????????????????????';
 	@override String get anki_retry => '???????????';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => '?????????????????????????????? (??????)';
 	@override String get hint_line_height => '????????????????????????? ????????????????????????';
 	@override String get hint_text_indentation => '?????????????????????????????????????????????????';
@@ -10239,8 +10098,8 @@ class _StringsTh implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInTh implements _StringsRetryingInEn {
-	_StringsRetryingInTh._(this._root);
+class _StringsRetryingInTh extends _StringsRetryingInEn {
+	_StringsRetryingInTh._(_StringsTh root) : this._root = root, super._(root);
 
 	@override final _StringsTh _root; // ignore: unused_field
 
@@ -10252,8 +10111,8 @@ class _StringsRetryingInTh implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesTh implements _StringsViewRepliesEn {
-	_StringsViewRepliesTh._(this._root);
+class _StringsViewRepliesTh extends _StringsViewRepliesEn {
+	_StringsViewRepliesTh._(_StringsTh root) : this._root = root, super._(root);
 
 	@override final _StringsTh _root; // ignore: unused_field
 
@@ -10265,7 +10124,7 @@ class _StringsViewRepliesTh implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsTr implements _StringsEn {
+class _StringsTr extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -10276,7 +10135,9 @@ class _StringsTr implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -10284,7 +10145,7 @@ class _StringsTr implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsTr _root = this; // ignore: unused_field
 
@@ -10943,20 +10804,6 @@ class _StringsTr implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'Kart olu?tururken kitap ba?l???n? otomatik olarak etiket ekle.';
 	@override String get anki_duplicate_check_hint => 'Yeni kart eklemeden ?nce hangi Anki kart türlerinin tekrar kontrolü yap?laca??n? se?in.';
 	@override String get anki_retry => 'Tekrar dene';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => 'Kitap metninin yaz? tipi boyutunu ayarlay?n (piksel cinsinden).';
 	@override String get hint_line_height => 'Metin sat?rlar? aras?ndaki bo?lu?u ayarlay?n. Daha büyük de?erler okunabilirli?i art?r?r.';
 	@override String get hint_text_indentation => 'Her paragraf?n ilk sat?r? i?in girinti karakter say?s?.';
@@ -11018,8 +10865,8 @@ class _StringsTr implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInTr implements _StringsRetryingInEn {
-	_StringsRetryingInTr._(this._root);
+class _StringsRetryingInTr extends _StringsRetryingInEn {
+	_StringsRetryingInTr._(_StringsTr root) : this._root = root, super._(root);
 
 	@override final _StringsTr _root; // ignore: unused_field
 
@@ -11031,8 +10878,8 @@ class _StringsRetryingInTr implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesTr implements _StringsViewRepliesEn {
-	_StringsViewRepliesTr._(this._root);
+class _StringsViewRepliesTr extends _StringsViewRepliesEn {
+	_StringsViewRepliesTr._(_StringsTr root) : this._root = root, super._(root);
 
 	@override final _StringsTr _root; // ignore: unused_field
 
@@ -11044,7 +10891,7 @@ class _StringsViewRepliesTr implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsVi implements _StringsEn {
+class _StringsVi extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -11055,7 +10902,9 @@ class _StringsVi implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -11063,7 +10912,7 @@ class _StringsVi implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsVi _root = this; // ignore: unused_field
 
@@ -11709,20 +11558,6 @@ class _StringsVi implements _StringsEn {
 	@override String get anki_auto_tag_hint => 'T? ??ng thêm tên sách hi?n t?i làm tag khi t?o th?.';
 	@override String get anki_duplicate_check_hint => 'Ch?n lo?i th? Anki nào ?? ki?m tra trùng l?p tr??c khi thêm th? m?i.';
 	@override String get anki_retry => 'Th? l?i';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => '?i?u ch?nh c? ch? c?a v?n b?n sách (tính b?ng pixel).';
 	@override String get hint_line_height => '?i?u ch?nh kho?ng cách gi?a các dòng v?n b?n. Giá tr? l?n h?n t?ng kh? n?ng ??c.';
 	@override String get hint_text_indentation => 'S? ky t? th?t l? dòng ??u tiên c?a m?i ?o?n.';
@@ -11797,8 +11632,8 @@ class _StringsVi implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInVi implements _StringsRetryingInEn {
-	_StringsRetryingInVi._(this._root);
+class _StringsRetryingInVi extends _StringsRetryingInEn {
+	_StringsRetryingInVi._(_StringsVi root) : this._root = root, super._(root);
 
 	@override final _StringsVi _root; // ignore: unused_field
 
@@ -11810,8 +11645,8 @@ class _StringsRetryingInVi implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesVi implements _StringsViewRepliesEn {
-	_StringsViewRepliesVi._(this._root);
+class _StringsViewRepliesVi extends _StringsViewRepliesEn {
+	_StringsViewRepliesVi._(_StringsVi root) : this._root = root, super._(root);
 
 	@override final _StringsVi _root; // ignore: unused_field
 
@@ -11823,7 +11658,7 @@ class _StringsViewRepliesVi implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsZhCn implements _StringsEn {
+class _StringsZhCn extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -11834,7 +11669,9 @@ class _StringsZhCn implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -11842,7 +11679,7 @@ class _StringsZhCn implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsZhCn _root = this; // ignore: unused_field
 
@@ -12044,6 +11881,9 @@ class _StringsZhCn implements _StringsEn {
 	@override String get audio_unavailable => '未找到音频。';
 	@override String get no_audio_enhancements => '未分配音频增强。';
 	@override String card_exported({required Object deck}) => '卡片已导出到『${deck}』。';
+	@override String get card_duplicate => '重复卡片，未导出。';
+	@override String get card_export_not_configured => 'Anki 尚未配置。请打开 Anki 设置并点击获取。';
+	@override String get card_export_failed => '导出卡片失败。';
 	@override String get info_incognito_on => '隐身模式已开启。词典、媒体和搜索历史不会被记录。';
 	@override String get info_incognito_off => '隐身模式已关闭。词典、媒体和搜索历史将被记录。';
 	@override String get exit_media_title => '退出媒体';
@@ -12576,8 +12416,8 @@ class _StringsZhCn implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInZhCn implements _StringsRetryingInEn {
-	_StringsRetryingInZhCn._(this._root);
+class _StringsRetryingInZhCn extends _StringsRetryingInEn {
+	_StringsRetryingInZhCn._(_StringsZhCn root) : this._root = root, super._(root);
 
 	@override final _StringsZhCn _root; // ignore: unused_field
 
@@ -12589,8 +12429,8 @@ class _StringsRetryingInZhCn implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesZhCn implements _StringsViewRepliesEn {
-	_StringsViewRepliesZhCn._(this._root);
+class _StringsViewRepliesZhCn extends _StringsViewRepliesEn {
+	_StringsViewRepliesZhCn._(_StringsZhCn root) : this._root = root, super._(root);
 
 	@override final _StringsZhCn _root; // ignore: unused_field
 
@@ -12602,7 +12442,7 @@ class _StringsViewRepliesZhCn implements _StringsViewRepliesEn {
 }
 
 // Path: <root>
-class _StringsZhHk implements _StringsEn {
+class _StringsZhHk extends _StringsEn {
 
 	/// You can call this constructor and build your own translation instance of this locale.
 	/// Constructing via the enum [AppLocale.build] is preferred.
@@ -12613,7 +12453,9 @@ class _StringsZhHk implements _StringsEn {
 		    overrides: overrides ?? {},
 		    cardinalResolver: cardinalResolver,
 		    ordinalResolver: ordinalResolver,
-		  ) {
+		  ),
+		  super.build(cardinalResolver: cardinalResolver, ordinalResolver: ordinalResolver) {
+		super.$meta.setFlatMapFunction($meta.getTranslation); // copy base translations to super.$meta
 		$meta.setFlatMapFunction(_flatMapFunction);
 	}
 
@@ -12621,7 +12463,7 @@ class _StringsZhHk implements _StringsEn {
 	@override final TranslationMetadata<AppLocale, _StringsEn> $meta;
 
 	/// Access flat map
-	@override dynamic operator[](String key) => $meta.getTranslation(key);
+	@override dynamic operator[](String key) => $meta.getTranslation(key) ?? super.$meta.getTranslation(key);
 
 	@override late final _StringsZhHk _root = this; // ignore: unused_field
 
@@ -13278,20 +13120,6 @@ class _StringsZhHk implements _StringsEn {
 	@override String get anki_auto_tag_hint => '製卡時自動將目前書名加入為標籤。';
 	@override String get anki_duplicate_check_hint => '選擇匯出前檢查哪些卡片類型中是否已有重複。';
 	@override String get anki_retry => '重試';
-	@override String get anki_fetch => 'Fetch from AnkiDroid';
-	@override String get anki_fetching => 'Fetching...';
-	@override String get anki_deck => 'Deck';
-	@override String get anki_note_type => 'Note Type';
-	@override String get anki_field_mappings => 'Field Mappings';
-	@override String get anki_tags => 'Tags';
-	@override String get anki_tags_hint => 'Space-separated tags added to every card';
-	@override String get anki_allow_duplicates => 'Allow Duplicates';
-	@override String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
-	@override String get anki_compact_glossaries => 'Compact Glossaries';
-	@override String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
-	@override String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
-	@override String get anki_field_not_mapped => 'Not mapped';
-	@override String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	@override String get hint_font_size => '調整正文字型大小（像素）。';
 	@override String get hint_line_height => '調整行距，數值越大行距越寬，閱讀更舒適。';
 	@override String get hint_text_indentation => '每段首行縮排的字元數。';
@@ -13355,8 +13183,8 @@ class _StringsZhHk implements _StringsEn {
 }
 
 // Path: retrying_in
-class _StringsRetryingInZhHk implements _StringsRetryingInEn {
-	_StringsRetryingInZhHk._(this._root);
+class _StringsRetryingInZhHk extends _StringsRetryingInEn {
+	_StringsRetryingInZhHk._(_StringsZhHk root) : this._root = root, super._(root);
 
 	@override final _StringsZhHk _root; // ignore: unused_field
 
@@ -13368,8 +13196,8 @@ class _StringsRetryingInZhHk implements _StringsRetryingInEn {
 }
 
 // Path: view_replies
-class _StringsViewRepliesZhHk implements _StringsViewRepliesEn {
-	_StringsViewRepliesZhHk._(this._root);
+class _StringsViewRepliesZhHk extends _StringsViewRepliesEn {
+	_StringsViewRepliesZhHk._(_StringsZhHk root) : this._root = root, super._(root);
 
 	@override final _StringsZhHk _root; // ignore: unused_field
 
@@ -13583,6 +13411,9 @@ extension on _StringsEn {
 			case 'audio_unavailable': return 'No audio could be found.';
 			case 'no_audio_enhancements': return 'No audio enhancements are assigned.';
 			case 'card_exported': return ({required Object deck}) => 'Card exported to 『${deck}』.';
+			case 'card_duplicate': return 'Duplicate card — not exported.';
+			case 'card_export_not_configured': return 'Anki not configured. Open Anki settings and tap Fetch.';
+			case 'card_export_failed': return 'Failed to export card.';
 			case 'info_incognito_on': return 'Incognito mode on. Dictionary, media and search history will not be tracked.';
 			case 'info_incognito_off': return 'Incognito mode off. Dictionary, media and search history will be tracked.';
 			case 'exit_media_title': return 'Exit Media';
@@ -14798,20 +14629,6 @@ extension on _StringsAr {
 			case 'anki_auto_tag_hint': return 'إضافة عنوان الكتاب الحالي تلقائياً كوسم عند إنشاء بطاقات.';
 			case 'anki_duplicate_check_hint': return 'اختر أنواع بطاقات Anki للتحقق من التكرارات قبل إضافة بطاقة جديدة.';
 			case 'anki_retry': return 'إعادة المحاولة';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return 'ضبط حجم خط نص الكتاب (بالبكسل).';
 			case 'hint_line_height': return 'ضبط المسافة بين الأسطر. القيم الأكبر تزيد من سهولة القراءة.';
 			case 'hint_text_indentation': return 'عدد الأحرف لمسافة بادئة السطر الأول من كل فقرة.';
@@ -15513,20 +15330,6 @@ extension on _StringsDe {
 			case 'anki_auto_tag_hint': return 'Aktuellen Buchtitel beim Erstellen automatisch als Tag hinzufügen.';
 			case 'anki_duplicate_check_hint': return 'Ausw?hlen, welche Anki-Kartentypen vor dem Hinzufügen auf Duplikate geprüft werden.';
 			case 'anki_retry': return 'Erneut versuchen';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return 'Schriftgr??e des Buchtextes anpassen (in Pixel).';
 			case 'hint_line_height': return 'Zeilenabstand anpassen. Gr??ere Werte erh?hen die Lesbarkeit.';
 			case 'hint_text_indentation': return 'Anzahl der Zeichen für den Einzug der ersten Zeile jedes Absatzes.';
@@ -16253,20 +16056,6 @@ extension on _StringsEs {
 			case 'anki_auto_tag_hint': return 'A?adir automáticamente el título del libro como etiqueta al crear tarjetas.';
 			case 'anki_duplicate_check_hint': return 'Seleccionar qué tipos de tarjetas Anki comprobar para duplicados antes de a?adir una nueva tarjeta.';
 			case 'anki_retry': return 'Reintentar';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return 'Ajustar el tama?o de fuente del texto del libro (en píxeles).';
 			case 'hint_line_height': return 'Ajustar el espaciado entre líneas de texto. Valores más grandes mejoran la legibilidad.';
 			case 'hint_text_indentation': return 'Número de caracteres para sangrar la primera línea de cada párrafo.';
@@ -16993,20 +16782,6 @@ extension on _StringsFr {
 			case 'anki_auto_tag_hint': return 'Ajouter automatiquement le titre du livre comme étiquette lors de la création de cartes.';
 			case 'anki_duplicate_check_hint': return 'Sélectionner les types de cartes Anki à vérifier pour les doublons avant d\'ajouter une nouvelle carte.';
 			case 'anki_retry': return 'Réessayer';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return 'Ajuster la taille de police du texte du livre (en pixels).';
 			case 'hint_line_height': return 'Ajuster l\'espacement entre les lignes de texte. Des valeurs plus grandes améliorent la lisibilité.';
 			case 'hint_text_indentation': return 'Nombre de caractères pour l\'indentation de la première ligne de chaque paragraphe.';
@@ -17733,20 +17508,6 @@ extension on _StringsId {
 			case 'anki_auto_tag_hint': return 'Tambahkan judul buku saat ini sebagai tag secara otomatis saat membuat kartu.';
 			case 'anki_duplicate_check_hint': return 'Pilih tipe kartu Anki mana yang diperiksa duplikatnya sebelum menambahkan kartu baru.';
 			case 'anki_retry': return 'Coba Lagi';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return 'Sesuaikan ukuran font teks buku (dalam piksel).';
 			case 'hint_line_height': return 'Sesuaikan jarak antar baris teks. Nilai lebih besar meningkatkan keterbacaan.';
 			case 'hint_text_indentation': return 'Jumlah karakter untuk mengindentasi baris pertama setiap paragraf.';
@@ -18486,20 +18247,6 @@ extension on _StringsIt {
 			case 'anki_auto_tag_hint': return 'Aggiungi automaticamente il titolo del libro come etichetta durante la creazione delle carte.';
 			case 'anki_duplicate_check_hint': return 'Seleziona i tipi di carte Anki da controllare per i duplicati prima di aggiungere una nuova carta.';
 			case 'anki_retry': return 'Riprova';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return 'Regola la dimensione del carattere del testo del libro (in pixel).';
 			case 'hint_line_height': return 'Regola la spaziatura tra le righe di testo. Valori più alti migliorano la leggibilità.';
 			case 'hint_text_indentation': return 'Numero di caratteri per il rientro della prima riga di ogni paragrafo.';
@@ -19229,20 +18976,6 @@ extension on _StringsJa {
 			case 'anki_auto_tag_hint': return 'カード作成時、現在の書籍タイトルをタグとして自動追加します。';
 			case 'anki_duplicate_check_hint': return '新しいカードを追加する前に、どのカードタイプで重複をチェックするか選択します。';
 			case 'anki_retry': return '再試行';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return '本文のフォントサイズを調整します（ピクセル）。';
 			case 'hint_line_height': return '行間を調整します。値が大きいほど読みやすくなります。';
 			case 'hint_text_indentation': return '各段落の最初の行の字下げ文字数。';
@@ -19953,20 +19686,6 @@ extension on _StringsKo {
 			case 'anki_auto_tag_hint': return '?? ?? ? ?? ? ??? ??? ?? ?????.';
 			case 'anki_duplicate_check_hint': return '? ??? ???? ?? ?? ?? ???? ??? ???? ?????.';
 			case 'anki_retry': return '?? ??';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return '??? ?? ??? ????? (??).';
 			case 'hint_line_height': return '? ??? ?????. ?? ??? ???? ?????.';
 			case 'hint_text_indentation': return '? ?? ? ?? ???? ?? ?.';
@@ -20706,20 +20425,6 @@ extension on _StringsNl {
 			case 'anki_auto_tag_hint': return 'Boektitel automatisch als label toevoegen bij het maken van kaarten.';
 			case 'anki_duplicate_check_hint': return 'Selecteer welke Anki-kaarttypen op duplicaten worden gecontroleerd vóór het toevoegen.';
 			case 'anki_retry': return 'Opnieuw proberen';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return 'Pas de lettergrootte van de boektekst aan (in pixels).';
 			case 'hint_line_height': return 'Pas de afstand tussen tekstregels aan. Grotere waarden verhogen de leesbaarheid.';
 			case 'hint_text_indentation': return 'Aantal tekens voor de inspringing van de eerste regel van elke alinea.';
@@ -21433,20 +21138,6 @@ extension on _StringsPtBr {
 			case 'anki_auto_tag_hint': return 'Adicionar automaticamente o título do livro como tag ao criar cart?es.';
 			case 'anki_duplicate_check_hint': return 'Selecionar quais tipos de cart?es Anki verificar para duplicatas antes de adicionar um novo cart?o.';
 			case 'anki_retry': return 'Tentar Novamente';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return 'Ajustar o tamanho da fonte do texto do livro (em pixels).';
 			case 'hint_line_height': return 'Ajustar o espa?amento entre linhas de texto. Valores maiores melhoram a legibilidade.';
 			case 'hint_text_indentation': return 'Número de caracteres para recuar a primeira linha de cada parágrafo.';
@@ -22173,20 +21864,6 @@ extension on _StringsRu {
 			case 'anki_auto_tag_hint': return 'Автоматически добавлять название текущей книги как тег при создании карточек.';
 			case 'anki_duplicate_check_hint': return 'Выберите, какие типы карточек Anki проверять на дубликаты перед добавлением новой карточки.';
 			case 'anki_retry': return 'Повторить';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return 'Настроить размер шрифта текста книги (в пикселях).';
 			case 'hint_line_height': return 'Настроить межстрочный интервал. Большие значения улучшают читаемость.';
 			case 'hint_text_indentation': return 'Количество символов для отступа первой строки каждого абзаца.';
@@ -22913,20 +22590,6 @@ extension on _StringsTh {
 			case 'anki_auto_tag_hint': return '????????????????????????????????????????????????????????';
 			case 'anki_duplicate_check_hint': return '???????????????? Anki ?????????????????????????????????????????';
 			case 'anki_retry': return '???????????';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return '?????????????????????????????? (??????)';
 			case 'hint_line_height': return '????????????????????????? ????????????????????????';
 			case 'hint_text_indentation': return '?????????????????????????????????????????????????';
@@ -23666,20 +23329,6 @@ extension on _StringsTr {
 			case 'anki_auto_tag_hint': return 'Kart olu?tururken kitap ba?l???n? otomatik olarak etiket ekle.';
 			case 'anki_duplicate_check_hint': return 'Yeni kart eklemeden ?nce hangi Anki kart türlerinin tekrar kontrolü yap?laca??n? se?in.';
 			case 'anki_retry': return 'Tekrar dene';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return 'Kitap metninin yaz? tipi boyutunu ayarlay?n (piksel cinsinden).';
 			case 'hint_line_height': return 'Metin sat?rlar? aras?ndaki bo?lu?u ayarlay?n. Daha büyük de?erler okunabilirli?i art?r?r.';
 			case 'hint_text_indentation': return 'Her paragraf?n ilk sat?r? i?in girinti karakter say?s?.';
@@ -24393,20 +24042,6 @@ extension on _StringsVi {
 			case 'anki_auto_tag_hint': return 'T? ??ng thêm tên sách hi?n t?i làm tag khi t?o th?.';
 			case 'anki_duplicate_check_hint': return 'Ch?n lo?i th? Anki nào ?? ki?m tra trùng l?p tr??c khi thêm th? m?i.';
 			case 'anki_retry': return 'Th? l?i';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return '?i?u ch?nh c? ch? c?a v?n b?n sách (tính b?ng pixel).';
 			case 'hint_line_height': return '?i?u ch?nh kho?ng cách gi?a các dòng v?n b?n. Giá tr? l?n h?n t?ng kh? n?ng ??c.';
 			case 'hint_text_indentation': return 'S? ky t? th?t l? dòng ??u tiên c?a m?i ?o?n.';
@@ -24683,6 +24318,9 @@ extension on _StringsZhCn {
 			case 'audio_unavailable': return '未找到音频。';
 			case 'no_audio_enhancements': return '未分配音频增强。';
 			case 'card_exported': return ({required Object deck}) => '卡片已导出到『${deck}』。';
+			case 'card_duplicate': return '重复卡片，未导出。';
+			case 'card_export_not_configured': return 'Anki 尚未配置。请打开 Anki 设置并点击获取。';
+			case 'card_export_failed': return '导出卡片失败。';
 			case 'info_incognito_on': return '隐身模式已开启。词典、媒体和搜索历史不会被记录。';
 			case 'info_incognito_off': return '隐身模式已关闭。词典、媒体和搜索历史将被记录。';
 			case 'exit_media_title': return '退出媒体';
@@ -25884,20 +25522,6 @@ extension on _StringsZhHk {
 			case 'anki_auto_tag_hint': return '製卡時自動將目前書名加入為標籤。';
 			case 'anki_duplicate_check_hint': return '選擇匯出前檢查哪些卡片類型中是否已有重複。';
 			case 'anki_retry': return '重試';
-			case 'anki_fetch': return 'Fetch from AnkiDroid';
-			case 'anki_fetching': return 'Fetching...';
-			case 'anki_deck': return 'Deck';
-			case 'anki_note_type': return 'Note Type';
-			case 'anki_field_mappings': return 'Field Mappings';
-			case 'anki_tags': return 'Tags';
-			case 'anki_tags_hint': return 'Space-separated tags added to every card';
-			case 'anki_allow_duplicates': return 'Allow Duplicates';
-			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
-			case 'anki_compact_glossaries': return 'Compact Glossaries';
-			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
-			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
-			case 'anki_field_not_mapped': return 'Not mapped';
-			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return '調整正文字型大小（像素）。';
 			case 'hint_line_height': return '調整行距，數值越大行距越寬，閱讀更舒適。';
 			case 'hint_text_indentation': return '每段首行縮排的字元數。';
