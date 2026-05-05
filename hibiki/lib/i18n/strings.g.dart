@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 12138 (714 per locale)
+/// Strings: 12166 (715 per locale)
 ///
-/// Built on 2026-05-05 at 14:05 UTC
+/// Built on 2026-05-05 at 14:50 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -842,6 +842,20 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
 	String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	String get anki_retry => 'Retry';
+	String get anki_fetch => 'Fetch from AnkiDroid';
+	String get anki_fetching => 'Fetching...';
+	String get anki_deck => 'Deck';
+	String get anki_note_type => 'Note Type';
+	String get anki_field_mappings => 'Field Mappings';
+	String get anki_tags => 'Tags';
+	String get anki_tags_hint => 'Space-separated tags added to every card';
+	String get anki_allow_duplicates => 'Allow Duplicates';
+	String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
+	String get anki_compact_glossaries => 'Compact Glossaries';
+	String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
+	String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
+	String get anki_field_not_mapped => 'Not mapped';
+	String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
 	String get hint_font_size => 'Adjust the font size of the book text (in pixels).';
 	String get hint_line_height => 'Adjust the spacing between lines of text. Larger values increase readability.';
 	String get hint_text_indentation => 'Number of characters to indent the first line of each paragraph.';
@@ -12315,6 +12329,20 @@ class _StringsZhCn implements _StringsEn {
 	@override String get anki_auto_tag_hint => '制卡时自动将当前书名添加为标签。';
 	@override String get anki_duplicate_check_hint => '选择导出前检查哪些卡片类型中是否已有重复。';
 	@override String get anki_retry => '重试';
+	@override String get anki_fetch => '从 AnkiDroid 获取';
+	@override String get anki_fetching => '获取中...';
+	@override String get anki_deck => '牌组';
+	@override String get anki_note_type => '笔记类型';
+	@override String get anki_field_mappings => '字段映射';
+	@override String get anki_tags => '标签';
+	@override String get anki_tags_hint => '空格分隔，每张卡片都会添加';
+	@override String get anki_allow_duplicates => '允许重复';
+	@override String get anki_allow_duplicates_hint => '添加卡片时跳过重复检查';
+	@override String get anki_compact_glossaries => '紧凑释义';
+	@override String get anki_compact_glossaries_hint => '使用紧凑格式显示释义';
+	@override String get anki_not_configured => '点击「获取」从 AnkiDroid 加载牌组和笔记类型。';
+	@override String get anki_field_not_mapped => '未映射';
+	@override String anki_select_handlebar({required Object field}) => '选择 ${field} 的值';
 	@override String get hint_font_size => '调整正文字体大小（像素）。';
 	@override String get hint_line_height => '调整行间距，数值越大行距越宽，阅读更舒适。';
 	@override String get hint_text_indentation => '每段首行缩进的字符数。';
@@ -13834,6 +13862,20 @@ extension on _StringsEn {
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
+			case 'anki_fetch': return 'Fetch from AnkiDroid';
+			case 'anki_fetching': return 'Fetching...';
+			case 'anki_deck': return 'Deck';
+			case 'anki_note_type': return 'Note Type';
+			case 'anki_field_mappings': return 'Field Mappings';
+			case 'anki_tags': return 'Tags';
+			case 'anki_tags_hint': return 'Space-separated tags added to every card';
+			case 'anki_allow_duplicates': return 'Allow Duplicates';
+			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
+			case 'anki_compact_glossaries': return 'Compact Glossaries';
+			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
+			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
+			case 'anki_field_not_mapped': return 'Not mapped';
+			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
 			case 'hint_font_size': return 'Adjust the font size of the book text (in pixels).';
 			case 'hint_line_height': return 'Adjust the spacing between lines of text. Larger values increase readability.';
 			case 'hint_text_indentation': return 'Number of characters to indent the first line of each paragraph.';
@@ -24722,6 +24764,20 @@ extension on _StringsZhCn {
 			case 'anki_auto_tag_hint': return '制卡时自动将当前书名添加为标签。';
 			case 'anki_duplicate_check_hint': return '选择导出前检查哪些卡片类型中是否已有重复。';
 			case 'anki_retry': return '重试';
+			case 'anki_fetch': return '从 AnkiDroid 获取';
+			case 'anki_fetching': return '获取中...';
+			case 'anki_deck': return '牌组';
+			case 'anki_note_type': return '笔记类型';
+			case 'anki_field_mappings': return '字段映射';
+			case 'anki_tags': return '标签';
+			case 'anki_tags_hint': return '空格分隔，每张卡片都会添加';
+			case 'anki_allow_duplicates': return '允许重复';
+			case 'anki_allow_duplicates_hint': return '添加卡片时跳过重复检查';
+			case 'anki_compact_glossaries': return '紧凑释义';
+			case 'anki_compact_glossaries_hint': return '使用紧凑格式显示释义';
+			case 'anki_not_configured': return '点击「获取」从 AnkiDroid 加载牌组和笔记类型。';
+			case 'anki_field_not_mapped': return '未映射';
+			case 'anki_select_handlebar': return ({required Object field}) => '选择 ${field} 的值';
 			case 'hint_font_size': return '调整正文字体大小（像素）。';
 			case 'hint_line_height': return '调整行间距，数值越大行距越宽，阅读更舒适。';
 			case 'hint_text_indentation': return '每段首行缩进的字符数。';
