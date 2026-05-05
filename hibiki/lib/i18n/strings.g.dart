@@ -470,6 +470,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get auto_search => 'Auto search';
 	String get auto_search_debounce_delay => 'Auto search debounce delay';
 	String get dictionary_font_size => 'Dictionary font size';
+	String get popup_max_width => 'Popup max width';
+	String get unit_dp => 'dp';
 	String get handlebar_expression => 'Expression';
 	String get handlebar_reading => 'Reading';
 	String get handlebar_furigana_plain => 'Furigana';
@@ -1233,6 +1235,8 @@ class _StringsAr implements _StringsEn {
 	@override String get auto_search => 'بحث تلقائي';
 	@override String get auto_search_debounce_delay => 'تأخير البحث التلقائي';
 	@override String get dictionary_font_size => 'حجم خط القاموس';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'التعبير';
 	@override String get handlebar_reading => 'القراءة';
 	@override String get handlebar_furigana_plain => 'فوريغانا';
@@ -1989,6 +1993,8 @@ class _StringsDe implements _StringsEn {
 	@override String get auto_search => 'Automatische Suche';
 	@override String get auto_search_debounce_delay => 'Verz?gerung der automatischen Suche';
 	@override String get dictionary_font_size => 'W?rterbuch-Schriftgr??e';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Ausdruck';
 	@override String get handlebar_reading => 'Lesung';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -2752,6 +2758,8 @@ class _StringsEs implements _StringsEn {
 	@override String get auto_search => 'Búsqueda automática';
 	@override String get auto_search_debounce_delay => 'Retardo de búsqueda automática';
 	@override String get dictionary_font_size => 'Tama?o de fuente del diccionario';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Expresión';
 	@override String get handlebar_reading => 'Lectura';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -3515,6 +3523,8 @@ class _StringsFr implements _StringsEn {
 	@override String get auto_search => 'Recherche automatique';
 	@override String get auto_search_debounce_delay => 'Délai de la recherche automatique';
 	@override String get dictionary_font_size => 'Taille de police du dictionnaire';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Expression';
 	@override String get handlebar_reading => 'Lecture';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -4278,6 +4288,8 @@ class _StringsId implements _StringsEn {
 	@override String get auto_search => 'Pencarian otomatis';
 	@override String get auto_search_debounce_delay => 'Delay debounce pencarian otomatis';
 	@override String get dictionary_font_size => 'Ukuran font kamus';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Ekspresi';
 	@override String get handlebar_reading => 'Bacaan';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -5048,6 +5060,8 @@ class _StringsIt implements _StringsEn {
 	@override String get auto_search => 'Ricerca automatica';
 	@override String get auto_search_debounce_delay => 'Ritardo ricerca automatica';
 	@override String get dictionary_font_size => 'Dimensione carattere dizionario';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Espressione';
 	@override String get handlebar_reading => 'Lettura';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -5804,6 +5818,8 @@ class _StringsJa implements _StringsEn {
 	@override String get auto_search => '自動検索';
 	@override String get auto_search_debounce_delay => '自動検索のデバウンス遅延';
 	@override String get dictionary_font_size => '辞書のフォントサイズ';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => '表現';
 	@override String get handlebar_reading => '読み';
 	@override String get handlebar_furigana_plain => '振り仮名';
@@ -6567,6 +6583,8 @@ class _StringsKo implements _StringsEn {
 	@override String get auto_search => '?? ??';
 	@override String get auto_search_debounce_delay => '?? ?? ?? ??';
 	@override String get dictionary_font_size => '?? ?? ??';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => '??';
 	@override String get handlebar_reading => '??';
 	@override String get handlebar_furigana_plain => '????';
@@ -7337,6 +7355,8 @@ class _StringsNl implements _StringsEn {
 	@override String get auto_search => 'Automatisch zoeken';
 	@override String get auto_search_debounce_delay => 'Vertraging automatisch zoeken';
 	@override String get dictionary_font_size => 'Lettergrootte woordenboek';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Uitdrukking';
 	@override String get handlebar_reading => 'Lezing';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -8093,6 +8113,8 @@ class _StringsPtBr implements _StringsEn {
 	@override String get auto_search => 'Busca automática';
 	@override String get auto_search_debounce_delay => 'Atraso da busca automática';
 	@override String get dictionary_font_size => 'Tamanho da fonte do dicionário';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Express?o';
 	@override String get handlebar_reading => 'Leitura';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -8856,6 +8878,8 @@ class _StringsRu implements _StringsEn {
 	@override String get auto_search => 'Автопоиск';
 	@override String get auto_search_debounce_delay => 'Задержка автопоиска';
 	@override String get dictionary_font_size => 'Размер шрифта словаря';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Выражение';
 	@override String get handlebar_reading => 'Чтение';
 	@override String get handlebar_furigana_plain => 'Фуригана';
@@ -9619,6 +9643,8 @@ class _StringsTh implements _StringsEn {
 	@override String get auto_search => '??????????????';
 	@override String get auto_search_debounce_delay => '???????????????????????';
 	@override String get dictionary_font_size => '??????????????????';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => '???????';
 	@override String get handlebar_reading => '???????';
 	@override String get handlebar_furigana_plain => '????????';
@@ -10389,6 +10415,8 @@ class _StringsTr implements _StringsEn {
 	@override String get auto_search => 'Otomatik arama';
 	@override String get auto_search_debounce_delay => 'Otomatik arama gecikmesi';
 	@override String get dictionary_font_size => 'S?zlük yaz? tipi boyutu';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => '?fade';
 	@override String get handlebar_reading => 'Okuma';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -11145,6 +11173,8 @@ class _StringsVi implements _StringsEn {
 	@override String get auto_search => 'T? ??ng tìm ki?m';
 	@override String get auto_search_debounce_delay => '?? tr? tìm ki?m t? ??ng';
 	@override String get dictionary_font_size => 'C? ch? t? ?i?n';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Bi?u th?c';
 	@override String get handlebar_reading => 'Phiên am';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -11915,6 +11945,8 @@ class _StringsZhCn implements _StringsEn {
 	@override String get auto_search => '自动搜索';
 	@override String get auto_search_debounce_delay => '自动搜索防抖延迟';
 	@override String get dictionary_font_size => '词典字号';
+	@override String get popup_max_width => '查词窗口最大宽度';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => '词条';
 	@override String get handlebar_reading => '读音';
 	@override String get handlebar_furigana_plain => '振假名';
@@ -12671,6 +12703,8 @@ class _StringsZhHk implements _StringsEn {
 	@override String get auto_search => '自動搜尋';
 	@override String get auto_search_debounce_delay => '自動搜尋防抖延遲';
 	@override String get dictionary_font_size => '辭典字級';
+	@override String get popup_max_width => 'Popup max width';
+	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => '詞條';
 	@override String get handlebar_reading => '讀音';
 	@override String get handlebar_furigana_plain => '振假名';
@@ -13422,6 +13456,8 @@ extension on _StringsEn {
 			case 'auto_search': return 'Auto search';
 			case 'auto_search_debounce_delay': return 'Auto search debounce delay';
 			case 'dictionary_font_size': return 'Dictionary font size';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Expression';
 			case 'handlebar_reading': return 'Reading';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -14146,6 +14182,8 @@ extension on _StringsAr {
 			case 'auto_search': return 'بحث تلقائي';
 			case 'auto_search_debounce_delay': return 'تأخير البحث التلقائي';
 			case 'dictionary_font_size': return 'حجم خط القاموس';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'التعبير';
 			case 'handlebar_reading': return 'القراءة';
 			case 'handlebar_furigana_plain': return 'فوريغانا';
@@ -14863,6 +14901,8 @@ extension on _StringsDe {
 			case 'auto_search': return 'Automatische Suche';
 			case 'auto_search_debounce_delay': return 'Verz?gerung der automatischen Suche';
 			case 'dictionary_font_size': return 'W?rterbuch-Schriftgr??e';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Ausdruck';
 			case 'handlebar_reading': return 'Lesung';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -15587,6 +15627,8 @@ extension on _StringsEs {
 			case 'auto_search': return 'Búsqueda automática';
 			case 'auto_search_debounce_delay': return 'Retardo de búsqueda automática';
 			case 'dictionary_font_size': return 'Tama?o de fuente del diccionario';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Expresión';
 			case 'handlebar_reading': return 'Lectura';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -16311,6 +16353,8 @@ extension on _StringsFr {
 			case 'auto_search': return 'Recherche automatique';
 			case 'auto_search_debounce_delay': return 'Délai de la recherche automatique';
 			case 'dictionary_font_size': return 'Taille de police du dictionnaire';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Expression';
 			case 'handlebar_reading': return 'Lecture';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -17035,6 +17079,8 @@ extension on _StringsId {
 			case 'auto_search': return 'Pencarian otomatis';
 			case 'auto_search_debounce_delay': return 'Delay debounce pencarian otomatis';
 			case 'dictionary_font_size': return 'Ukuran font kamus';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Ekspresi';
 			case 'handlebar_reading': return 'Bacaan';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -17766,6 +17812,8 @@ extension on _StringsIt {
 			case 'auto_search': return 'Ricerca automatica';
 			case 'auto_search_debounce_delay': return 'Ritardo ricerca automatica';
 			case 'dictionary_font_size': return 'Dimensione carattere dizionario';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Espressione';
 			case 'handlebar_reading': return 'Lettura';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -18483,6 +18531,8 @@ extension on _StringsJa {
 			case 'auto_search': return '自動検索';
 			case 'auto_search_debounce_delay': return '自動検索のデバウンス遅延';
 			case 'dictionary_font_size': return '辞書のフォントサイズ';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return '表現';
 			case 'handlebar_reading': return '読み';
 			case 'handlebar_furigana_plain': return '振り仮名';
@@ -19207,6 +19257,8 @@ extension on _StringsKo {
 			case 'auto_search': return '?? ??';
 			case 'auto_search_debounce_delay': return '?? ?? ?? ??';
 			case 'dictionary_font_size': return '?? ?? ??';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return '??';
 			case 'handlebar_reading': return '??';
 			case 'handlebar_furigana_plain': return '????';
@@ -19938,6 +19990,8 @@ extension on _StringsNl {
 			case 'auto_search': return 'Automatisch zoeken';
 			case 'auto_search_debounce_delay': return 'Vertraging automatisch zoeken';
 			case 'dictionary_font_size': return 'Lettergrootte woordenboek';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Uitdrukking';
 			case 'handlebar_reading': return 'Lezing';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -20655,6 +20709,8 @@ extension on _StringsPtBr {
 			case 'auto_search': return 'Busca automática';
 			case 'auto_search_debounce_delay': return 'Atraso da busca automática';
 			case 'dictionary_font_size': return 'Tamanho da fonte do dicionário';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Express?o';
 			case 'handlebar_reading': return 'Leitura';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -21379,6 +21435,8 @@ extension on _StringsRu {
 			case 'auto_search': return 'Автопоиск';
 			case 'auto_search_debounce_delay': return 'Задержка автопоиска';
 			case 'dictionary_font_size': return 'Размер шрифта словаря';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Выражение';
 			case 'handlebar_reading': return 'Чтение';
 			case 'handlebar_furigana_plain': return 'Фуригана';
@@ -22103,6 +22161,8 @@ extension on _StringsTh {
 			case 'auto_search': return '??????????????';
 			case 'auto_search_debounce_delay': return '???????????????????????';
 			case 'dictionary_font_size': return '??????????????????';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return '???????';
 			case 'handlebar_reading': return '???????';
 			case 'handlebar_furigana_plain': return '????????';
@@ -22834,6 +22894,8 @@ extension on _StringsTr {
 			case 'auto_search': return 'Otomatik arama';
 			case 'auto_search_debounce_delay': return 'Otomatik arama gecikmesi';
 			case 'dictionary_font_size': return 'S?zlük yaz? tipi boyutu';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return '?fade';
 			case 'handlebar_reading': return 'Okuma';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -23551,6 +23613,8 @@ extension on _StringsVi {
 			case 'auto_search': return 'T? ??ng tìm ki?m';
 			case 'auto_search_debounce_delay': return '?? tr? tìm ki?m t? ??ng';
 			case 'dictionary_font_size': return 'C? ch? t? ?i?n';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Bi?u th?c';
 			case 'handlebar_reading': return 'Phiên am';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -24282,6 +24346,8 @@ extension on _StringsZhCn {
 			case 'auto_search': return '自动搜索';
 			case 'auto_search_debounce_delay': return '自动搜索防抖延迟';
 			case 'dictionary_font_size': return '词典字号';
+			case 'popup_max_width': return '查词窗口最大宽度';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return '词条';
 			case 'handlebar_reading': return '读音';
 			case 'handlebar_furigana_plain': return '振假名';
@@ -24999,6 +25065,8 @@ extension on _StringsZhHk {
 			case 'auto_search': return '自動搜尋';
 			case 'auto_search_debounce_delay': return '自動搜尋防抖延遲';
 			case 'dictionary_font_size': return '辭典字級';
+			case 'popup_max_width': return 'Popup max width';
+			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return '詞條';
 			case 'handlebar_reading': return '讀音';
 			case 'handlebar_furigana_plain': return '振假名';
