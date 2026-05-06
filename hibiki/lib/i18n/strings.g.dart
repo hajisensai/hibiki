@@ -845,6 +845,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get error_log_share_subject => 'hibiki Error Log';
 	String get update_never_remind => 'Don\'t remind me about updates';
 	String get update_auto_install => 'Auto-install updates';
+	String get update_beta_channel => 'Receive beta updates';
 	String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
 	String get update_settings => 'Update Settings';
@@ -1612,6 +1613,7 @@ class _StringsAr extends _StringsEn {
 	@override String get error_log_share_subject => 'سجل أخطاء hibiki';
 	@override String get update_never_remind => 'عدم التذكير بالتحديثات';
 	@override String get update_auto_install => 'تثبيت التحديثات تلقائياً';
+	@override String get update_beta_channel => 'تلقي تحديثات تجريبية';
 	@override String get disable_dialog_scrim => 'تعطيل تراكب النافذة المنبثقة (حبر إلكتروني)';
 	@override String get native_dictionary_popup => 'نافذة قاموس أصلية (حبر إلكتروني)';
 	@override String get update_settings => 'إعدادات التحديث';
@@ -2354,6 +2356,7 @@ class _StringsDe extends _StringsEn {
 	@override String get error_log_share_subject => 'hibiki Fehlerprotokoll';
 	@override String get update_never_remind => 'Nicht mehr erinnern';
 	@override String get update_auto_install => 'Updates automatisch installieren';
+	@override String get update_beta_channel => 'Beta-Updates erhalten';
 	@override String get disable_dialog_scrim => 'Popup-Overlay deaktivieren (E-Ink)';
 	@override String get native_dictionary_popup => 'Natives Wörterbuch-Popup (E-Ink)';
 	@override String get update_settings => 'Update-Einstellungen';
@@ -3121,6 +3124,7 @@ class _StringsEs extends _StringsEn {
 	@override String get error_log_share_subject => 'Registro de errores de hibiki';
 	@override String get update_never_remind => 'No recordar de nuevo';
 	@override String get update_auto_install => 'Instalar actualizaciones automáticamente';
+	@override String get update_beta_channel => 'Recibir actualizaciones beta';
 	@override String get disable_dialog_scrim => 'Desactivar superposición de popup (e-ink)';
 	@override String get native_dictionary_popup => 'Popup de diccionario nativo (e-ink)';
 	@override String get update_settings => 'Configuración de actualizaciones';
@@ -3888,6 +3892,7 @@ class _StringsFr extends _StringsEn {
 	@override String get error_log_share_subject => 'Journal d\'erreurs hibiki';
 	@override String get update_never_remind => 'Ne plus rappeler';
 	@override String get update_auto_install => 'Installer automatiquement les mises à jour';
+	@override String get update_beta_channel => 'Recevoir les mises à jour bêta';
 	@override String get disable_dialog_scrim => 'Désactiver le fond du popup (e-ink)';
 	@override String get native_dictionary_popup => 'Popup de dictionnaire natif (e-ink)';
 	@override String get update_settings => 'Paramètres de mise à jour';
@@ -4655,6 +4660,7 @@ class _StringsId extends _StringsEn {
 	@override String get error_log_share_subject => 'Log Error hibiki';
 	@override String get update_never_remind => 'Jangan ingatkan lagi';
 	@override String get update_auto_install => 'Pasang pembaruan otomatis';
+	@override String get update_beta_channel => 'Terima pembaruan beta';
 	@override String get disable_dialog_scrim => 'Nonaktifkan overlay popup (e-ink)';
 	@override String get native_dictionary_popup => 'Popup kamus bawaan (e-ink)';
 	@override String get update_settings => 'Pengaturan Pembaruan';
@@ -5435,6 +5441,7 @@ class _StringsIt extends _StringsEn {
 	@override String get error_log_share_subject => 'Registro errori hibiki';
 	@override String get update_never_remind => 'Non ricordarmelo più';
 	@override String get update_auto_install => 'Installa automaticamente gli aggiornamenti';
+	@override String get update_beta_channel => 'Ricevi aggiornamenti beta';
 	@override String get disable_dialog_scrim => 'Disattiva overlay popup (e-ink)';
 	@override String get native_dictionary_popup => 'Popup dizionario nativo (e-ink)';
 	@override String get update_settings => 'Impostazioni aggiornamento';
@@ -6205,6 +6212,7 @@ class _StringsJa extends _StringsEn {
 	@override String get error_log_share_subject => 'hibiki エラーログ';
 	@override String get update_never_remind => '今後通知しない';
 	@override String get update_auto_install => '自動インストール';
+	@override String get update_beta_channel => 'ベータ版アップデートを受信';
 	@override String get disable_dialog_scrim => 'ポップアップの背景オーバーレイを無効にする（E Ink）';
 	@override String get native_dictionary_popup => 'ネイティブ辞書ポップアップ（電子ペーパー）';
 	@override String get update_settings => 'アップデート設定';
@@ -6956,6 +6964,7 @@ class _StringsKo extends _StringsEn {
 	@override String get error_log_share_subject => 'hibiki ?? ??';
 	@override String get update_never_remind => '?? ??? ??';
 	@override String get update_auto_install => '?? ??';
+	@override String get update_beta_channel => '베타 업데이트 받기';
 	@override String get disable_dialog_scrim => '팝업 오버레이 비활성화 (e-ink)';
 	@override String get native_dictionary_popup => '기본 사전 팝업 (e-ink)';
 	@override String get update_settings => '???? ??';
@@ -7736,6 +7745,7 @@ class _StringsNl extends _StringsEn {
 	@override String get error_log_share_subject => 'hibiki foutenlogboek';
 	@override String get update_never_remind => 'Niet meer herinneren';
 	@override String get update_auto_install => 'Updates automatisch installeren';
+	@override String get update_beta_channel => 'Bèta-updates ontvangen';
 	@override String get disable_dialog_scrim => 'Pop-up overlay uitschakelen (e-ink)';
 	@override String get native_dictionary_popup => 'Native woordenboek-popup (e-ink)';
 	@override String get update_settings => 'Update-instellingen';
@@ -8490,6 +8500,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get error_log_share_subject => 'Log de Erros do hibiki';
 	@override String get update_never_remind => 'N?o lembrar novamente';
 	@override String get update_auto_install => 'Instalar atualiza??es automaticamente';
+	@override String get update_beta_channel => 'Receber atualizações beta';
 	@override String get disable_dialog_scrim => 'Desativar sobreposição do popup (e-ink)';
 	@override String get native_dictionary_popup => 'Popup de dicionário nativo (e-ink)';
 	@override String get update_settings => 'Configura??es de Atualiza??o';
@@ -9257,6 +9268,7 @@ class _StringsRu extends _StringsEn {
 	@override String get error_log_share_subject => 'Журнал ошибок hibiki';
 	@override String get update_never_remind => 'Больше не напоминать';
 	@override String get update_auto_install => 'Автоустановка обновлений';
+	@override String get update_beta_channel => 'Получать бета-обновления';
 	@override String get disable_dialog_scrim => 'Отключить затемнение (e-ink)';
 	@override String get native_dictionary_popup => 'Нативное всплывающее окно словаря (e-ink)';
 	@override String get update_settings => 'Настройки обновлений';
@@ -10024,6 +10036,7 @@ class _StringsTh extends _StringsEn {
 	@override String get error_log_share_subject => '???????????????? hibiki';
 	@override String get update_never_remind => '???????????????';
 	@override String get update_auto_install => '??????????????????????';
+	@override String get update_beta_channel => 'รับการอัปเดตเบต้า';
 	@override String get disable_dialog_scrim => 'ปิดพื้นหลังป๊อปอัป (e-ink)';
 	@override String get native_dictionary_popup => 'ป๊อปอัปพจนานุกรมแบบดั้งเดิม (e-ink)';
 	@override String get update_settings => '?????????????';
@@ -10804,6 +10817,7 @@ class _StringsTr extends _StringsEn {
 	@override String get error_log_share_subject => 'hibiki Hata Günlü?ü';
 	@override String get update_never_remind => 'Güncellemeleri hat?rlatma';
 	@override String get update_auto_install => 'Güncellemeleri otomatik yükle';
+	@override String get update_beta_channel => 'Beta güncellemelerini al';
 	@override String get disable_dialog_scrim => 'Açılır pencere arka planını devre dışı bırak (e-ink)';
 	@override String get native_dictionary_popup => 'Yerel sözlük açılır penceresi (e-ink)';
 	@override String get update_settings => 'Güncelleme ayarlar?';
@@ -11558,6 +11572,7 @@ class _StringsVi extends _StringsEn {
 	@override String get error_log_share_subject => 'Nh?t ky l?i hibiki';
 	@override String get update_never_remind => 'Kh?ng nh?c l?i';
 	@override String get update_auto_install => 'T? ??ng cài ??t b?n c?p nh?t';
+	@override String get update_beta_channel => 'Nhận bản cập nhật thử nghiệm';
 	@override String get disable_dialog_scrim => 'Tắt lớp phủ popup (e-ink)';
 	@override String get native_dictionary_popup => 'Popup từ điển gốc (e-ink)';
 	@override String get update_settings => 'Cài ??t c?p nh?t';
@@ -12377,6 +12392,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get error_log_share_subject => 'hibiki 错误日志';
 	@override String get update_never_remind => '不再提醒自动更新';
 	@override String get update_auto_install => '自动安装更新';
+	@override String get update_beta_channel => '接收测试版更新';
 	@override String get disable_dialog_scrim => '关闭弹窗背景遮罩（墨水屏）';
 	@override String get native_dictionary_popup => '原生辞典弹窗（墨水屏）';
 	@override String get update_settings => '更新设置';
@@ -13132,6 +13148,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get error_log_share_subject => 'hibiki 錯誤記錄';
 	@override String get update_never_remind => '不再提醒';
 	@override String get update_auto_install => '自動安裝更新';
+	@override String get update_beta_channel => '接收測試版更新';
 	@override String get disable_dialog_scrim => '關閉彈窗背景遮罩（墨水屏）';
 	@override String get native_dictionary_popup => '原生辭典彈窗（墨水屏）';
 	@override String get update_settings => '更新設定';
@@ -13927,6 +13944,7 @@ extension on _StringsEn {
 			case 'error_log_share_subject': return 'hibiki Error Log';
 			case 'update_never_remind': return 'Don\'t remind me about updates';
 			case 'update_auto_install': return 'Auto-install updates';
+			case 'update_beta_channel': return 'Receive beta updates';
 			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
 			case 'update_settings': return 'Update Settings';
@@ -14653,6 +14671,7 @@ extension on _StringsAr {
 			case 'error_log_share_subject': return 'سجل أخطاء hibiki';
 			case 'update_never_remind': return 'عدم التذكير بالتحديثات';
 			case 'update_auto_install': return 'تثبيت التحديثات تلقائياً';
+			case 'update_beta_channel': return 'تلقي تحديثات تجريبية';
 			case 'disable_dialog_scrim': return 'تعطيل تراكب النافذة المنبثقة (حبر إلكتروني)';
 			case 'native_dictionary_popup': return 'نافذة قاموس أصلية (حبر إلكتروني)';
 			case 'update_settings': return 'إعدادات التحديث';
@@ -15354,6 +15373,7 @@ extension on _StringsDe {
 			case 'error_log_share_subject': return 'hibiki Fehlerprotokoll';
 			case 'update_never_remind': return 'Nicht mehr erinnern';
 			case 'update_auto_install': return 'Updates automatisch installieren';
+			case 'update_beta_channel': return 'Beta-Updates erhalten';
 			case 'disable_dialog_scrim': return 'Popup-Overlay deaktivieren (E-Ink)';
 			case 'native_dictionary_popup': return 'Natives Wörterbuch-Popup (E-Ink)';
 			case 'update_settings': return 'Update-Einstellungen';
@@ -16080,6 +16100,7 @@ extension on _StringsEs {
 			case 'error_log_share_subject': return 'Registro de errores de hibiki';
 			case 'update_never_remind': return 'No recordar de nuevo';
 			case 'update_auto_install': return 'Instalar actualizaciones automáticamente';
+			case 'update_beta_channel': return 'Recibir actualizaciones beta';
 			case 'disable_dialog_scrim': return 'Desactivar superposición de popup (e-ink)';
 			case 'native_dictionary_popup': return 'Popup de diccionario nativo (e-ink)';
 			case 'update_settings': return 'Configuración de actualizaciones';
@@ -16806,6 +16827,7 @@ extension on _StringsFr {
 			case 'error_log_share_subject': return 'Journal d\'erreurs hibiki';
 			case 'update_never_remind': return 'Ne plus rappeler';
 			case 'update_auto_install': return 'Installer automatiquement les mises à jour';
+			case 'update_beta_channel': return 'Recevoir les mises à jour bêta';
 			case 'disable_dialog_scrim': return 'Désactiver le fond du popup (e-ink)';
 			case 'native_dictionary_popup': return 'Popup de dictionnaire natif (e-ink)';
 			case 'update_settings': return 'Paramètres de mise à jour';
@@ -17532,6 +17554,7 @@ extension on _StringsId {
 			case 'error_log_share_subject': return 'Log Error hibiki';
 			case 'update_never_remind': return 'Jangan ingatkan lagi';
 			case 'update_auto_install': return 'Pasang pembaruan otomatis';
+			case 'update_beta_channel': return 'Terima pembaruan beta';
 			case 'disable_dialog_scrim': return 'Nonaktifkan overlay popup (e-ink)';
 			case 'native_dictionary_popup': return 'Popup kamus bawaan (e-ink)';
 			case 'update_settings': return 'Pengaturan Pembaruan';
@@ -18271,6 +18294,7 @@ extension on _StringsIt {
 			case 'error_log_share_subject': return 'Registro errori hibiki';
 			case 'update_never_remind': return 'Non ricordarmelo più';
 			case 'update_auto_install': return 'Installa automaticamente gli aggiornamenti';
+			case 'update_beta_channel': return 'Ricevi aggiornamenti beta';
 			case 'disable_dialog_scrim': return 'Disattiva overlay popup (e-ink)';
 			case 'native_dictionary_popup': return 'Popup dizionario nativo (e-ink)';
 			case 'update_settings': return 'Impostazioni aggiornamento';
@@ -19000,6 +19024,7 @@ extension on _StringsJa {
 			case 'error_log_share_subject': return 'hibiki エラーログ';
 			case 'update_never_remind': return '今後通知しない';
 			case 'update_auto_install': return '自動インストール';
+			case 'update_beta_channel': return 'ベータ版アップデートを受信';
 			case 'disable_dialog_scrim': return 'ポップアップの背景オーバーレイを無効にする（E Ink）';
 			case 'native_dictionary_popup': return 'ネイティブ辞書ポップアップ（電子ペーパー）';
 			case 'update_settings': return 'アップデート設定';
@@ -19710,6 +19735,7 @@ extension on _StringsKo {
 			case 'error_log_share_subject': return 'hibiki ?? ??';
 			case 'update_never_remind': return '?? ??? ??';
 			case 'update_auto_install': return '?? ??';
+			case 'update_beta_channel': return '베타 업데이트 받기';
 			case 'disable_dialog_scrim': return '팝업 오버레이 비활성화 (e-ink)';
 			case 'native_dictionary_popup': return '기본 사전 팝업 (e-ink)';
 			case 'update_settings': return '???? ??';
@@ -20449,6 +20475,7 @@ extension on _StringsNl {
 			case 'error_log_share_subject': return 'hibiki foutenlogboek';
 			case 'update_never_remind': return 'Niet meer herinneren';
 			case 'update_auto_install': return 'Updates automatisch installeren';
+			case 'update_beta_channel': return 'Bèta-updates ontvangen';
 			case 'disable_dialog_scrim': return 'Pop-up overlay uitschakelen (e-ink)';
 			case 'native_dictionary_popup': return 'Native woordenboek-popup (e-ink)';
 			case 'update_settings': return 'Update-instellingen';
@@ -21162,6 +21189,7 @@ extension on _StringsPtBr {
 			case 'error_log_share_subject': return 'Log de Erros do hibiki';
 			case 'update_never_remind': return 'N?o lembrar novamente';
 			case 'update_auto_install': return 'Instalar atualiza??es automaticamente';
+			case 'update_beta_channel': return 'Receber atualizações beta';
 			case 'disable_dialog_scrim': return 'Desativar sobreposição do popup (e-ink)';
 			case 'native_dictionary_popup': return 'Popup de dicionário nativo (e-ink)';
 			case 'update_settings': return 'Configura??es de Atualiza??o';
@@ -21888,6 +21916,7 @@ extension on _StringsRu {
 			case 'error_log_share_subject': return 'Журнал ошибок hibiki';
 			case 'update_never_remind': return 'Больше не напоминать';
 			case 'update_auto_install': return 'Автоустановка обновлений';
+			case 'update_beta_channel': return 'Получать бета-обновления';
 			case 'disable_dialog_scrim': return 'Отключить затемнение (e-ink)';
 			case 'native_dictionary_popup': return 'Нативное всплывающее окно словаря (e-ink)';
 			case 'update_settings': return 'Настройки обновлений';
@@ -22614,6 +22643,7 @@ extension on _StringsTh {
 			case 'error_log_share_subject': return '???????????????? hibiki';
 			case 'update_never_remind': return '???????????????';
 			case 'update_auto_install': return '??????????????????????';
+			case 'update_beta_channel': return 'รับการอัปเดตเบต้า';
 			case 'disable_dialog_scrim': return 'ปิดพื้นหลังป๊อปอัป (e-ink)';
 			case 'native_dictionary_popup': return 'ป๊อปอัปพจนานุกรมแบบดั้งเดิม (e-ink)';
 			case 'update_settings': return '?????????????';
@@ -23353,6 +23383,7 @@ extension on _StringsTr {
 			case 'error_log_share_subject': return 'hibiki Hata Günlü?ü';
 			case 'update_never_remind': return 'Güncellemeleri hat?rlatma';
 			case 'update_auto_install': return 'Güncellemeleri otomatik yükle';
+			case 'update_beta_channel': return 'Beta güncellemelerini al';
 			case 'disable_dialog_scrim': return 'Açılır pencere arka planını devre dışı bırak (e-ink)';
 			case 'native_dictionary_popup': return 'Yerel sözlük açılır penceresi (e-ink)';
 			case 'update_settings': return 'Güncelleme ayarlar?';
@@ -24066,6 +24097,7 @@ extension on _StringsVi {
 			case 'error_log_share_subject': return 'Nh?t ky l?i hibiki';
 			case 'update_never_remind': return 'Kh?ng nh?c l?i';
 			case 'update_auto_install': return 'T? ??ng cài ??t b?n c?p nh?t';
+			case 'update_beta_channel': return 'Nhận bản cập nhật thử nghiệm';
 			case 'disable_dialog_scrim': return 'Tắt lớp phủ popup (e-ink)';
 			case 'native_dictionary_popup': return 'Popup từ điển gốc (e-ink)';
 			case 'update_settings': return 'Cài ??t c?p nh?t';
@@ -24844,6 +24876,7 @@ extension on _StringsZhCn {
 			case 'error_log_share_subject': return 'hibiki 错误日志';
 			case 'update_never_remind': return '不再提醒自动更新';
 			case 'update_auto_install': return '自动安装更新';
+			case 'update_beta_channel': return '接收测试版更新';
 			case 'disable_dialog_scrim': return '关闭弹窗背景遮罩（墨水屏）';
 			case 'native_dictionary_popup': return '原生辞典弹窗（墨水屏）';
 			case 'update_settings': return '更新设置';
@@ -25558,6 +25591,7 @@ extension on _StringsZhHk {
 			case 'error_log_share_subject': return 'hibiki 錯誤記錄';
 			case 'update_never_remind': return '不再提醒';
 			case 'update_auto_install': return '自動安裝更新';
+			case 'update_beta_channel': return '接收測試版更新';
 			case 'disable_dialog_scrim': return '關閉彈窗背景遮罩（墨水屏）';
 			case 'native_dictionary_popup': return '原生辭典彈窗（墨水屏）';
 			case 'update_settings': return '更新設定';
