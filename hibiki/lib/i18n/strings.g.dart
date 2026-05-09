@@ -175,6 +175,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get pick_image => 'Pick Image';
 	String get undo => 'Undo';
 	String get copy => 'Copy';
+	String get cut => 'Cut';
 	String get clear => 'Clear';
 	String get creator => 'Creator';
 	String get share => 'Share';
@@ -1047,6 +1048,7 @@ class _StringsAr extends _StringsEn {
 	@override String get pick_image => 'اختيار صورة';
 	@override String get undo => 'تراجع';
 	@override String get copy => 'نسخ';
+	@override String get cut => 'قص';
 	@override String get clear => 'مسح';
 	@override String get creator => 'المنشئ';
 	@override String get share => 'مشاركة';
@@ -1875,6 +1877,7 @@ class _StringsDe extends _StringsEn {
 	@override String get pick_image => 'Bild ausw?hlen';
 	@override String get undo => 'Rückg?ngig';
 	@override String get copy => 'Kopieren';
+	@override String get cut => 'Ausschneiden';
 	@override String get clear => 'Leeren';
 	@override String get creator => 'Ersteller';
 	@override String get share => 'Teilen';
@@ -2703,6 +2706,7 @@ class _StringsEs extends _StringsEn {
 	@override String get pick_image => 'Elegir imagen';
 	@override String get undo => 'Deshacer';
 	@override String get copy => 'Copiar';
+	@override String get cut => 'Cortar';
 	@override String get clear => 'Limpiar';
 	@override String get creator => 'Creador';
 	@override String get share => 'Compartir';
@@ -3531,6 +3535,7 @@ class _StringsFr extends _StringsEn {
 	@override String get pick_image => 'Choisir une image';
 	@override String get undo => 'Annuler';
 	@override String get copy => 'Copier';
+	@override String get cut => 'Couper';
 	@override String get clear => 'Effacer';
 	@override String get creator => 'Créateur';
 	@override String get share => 'Partager';
@@ -4359,6 +4364,7 @@ class _StringsId extends _StringsEn {
 	@override String get pick_image => 'Pilih Gambar';
 	@override String get undo => 'Urungkan';
 	@override String get copy => 'Salin';
+	@override String get cut => 'Potong';
 	@override String get clear => 'Hapus';
 	@override String get creator => 'Pembuat';
 	@override String get share => 'Bagikan';
@@ -5187,6 +5193,7 @@ class _StringsIt extends _StringsEn {
 	@override String get pick_image => 'Scegli immagine';
 	@override String get undo => 'Annulla';
 	@override String get copy => 'Copia';
+	@override String get cut => 'Taglia';
 	@override String get clear => 'Cancella';
 	@override String get creator => 'Creatore';
 	@override String get share => 'Condividi';
@@ -6015,6 +6022,7 @@ class _StringsJa extends _StringsEn {
 	@override String get pick_image => '画像を選択';
 	@override String get undo => '元に戻す';
 	@override String get copy => 'コピー';
+	@override String get cut => '切り取り';
 	@override String get clear => 'クリア';
 	@override String get creator => '作成';
 	@override String get share => '共有';
@@ -6847,6 +6855,7 @@ class _StringsKo extends _StringsEn {
 	@override String get pick_image => '??? ??';
 	@override String get undo => '?? ??';
 	@override String get copy => '??';
+	@override String get cut => '???';
 	@override String get clear => '???';
 	@override String get creator => '?? ??';
 	@override String get share => '??';
@@ -7675,6 +7684,7 @@ class _StringsNl extends _StringsEn {
 	@override String get pick_image => 'Kies afbeelding';
 	@override String get undo => 'Ongedaan maken';
 	@override String get copy => 'Kopi?ren';
+	@override String get cut => 'Knippen';
 	@override String get clear => 'Wissen';
 	@override String get creator => 'Maker';
 	@override String get share => 'Delen';
@@ -8503,6 +8513,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get pick_image => 'Escolher Imagem';
 	@override String get undo => 'Desfazer';
 	@override String get copy => 'Copiar';
+	@override String get cut => 'Recortar';
 	@override String get clear => 'Limpar';
 	@override String get creator => 'Criador';
 	@override String get share => 'Compartilhar';
@@ -9331,6 +9342,7 @@ class _StringsRu extends _StringsEn {
 	@override String get pick_image => 'Выбрать изображение';
 	@override String get undo => 'Отменить';
 	@override String get copy => 'Копировать';
+	@override String get cut => 'Вырезать';
 	@override String get clear => 'Очистить';
 	@override String get creator => 'Создатель';
 	@override String get share => 'Поделиться';
@@ -10159,6 +10171,7 @@ class _StringsTh extends _StringsEn {
 	@override String get pick_image => '???????????';
 	@override String get undo => '??????';
 	@override String get copy => '??????';
+	@override String get cut => '???';
 	@override String get clear => '????';
 	@override String get creator => '????????';
 	@override String get share => '????';
@@ -10987,6 +11000,7 @@ class _StringsTr extends _StringsEn {
 	@override String get pick_image => 'Resim se?';
 	@override String get undo => 'Geri al';
 	@override String get copy => 'Kopyala';
+	@override String get cut => 'Kes';
 	@override String get clear => 'Temizle';
 	@override String get creator => 'Olu?turucu';
 	@override String get share => 'Payla?';
@@ -11815,6 +11829,7 @@ class _StringsVi extends _StringsEn {
 	@override String get pick_image => 'Ch?n ?nh';
 	@override String get undo => 'Hoàn tác';
 	@override String get copy => 'Sao chép';
+	@override String get cut => 'Cắt';
 	@override String get clear => 'Xóa';
 	@override String get creator => 'T?o th?';
 	@override String get share => 'Chia s?';
@@ -12642,6 +12657,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get pick_image => '选择图片';
 	@override String get undo => '撤销';
 	@override String get copy => '复制';
+	@override String get cut => '剪切';
 	@override String get clear => '清除';
 	@override String get creator => '制卡';
 	@override String get share => '分享';
@@ -13514,6 +13530,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get pick_image => '選擇圖片';
 	@override String get undo => '復原';
 	@override String get copy => '複製';
+	@override String get cut => '剪下';
 	@override String get clear => '清除';
 	@override String get creator => '製卡';
 	@override String get share => '分享';
