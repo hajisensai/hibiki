@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 13944 (820 per locale)
+/// Strings: 13952 (820 per locale)
 ///
-/// Built on 2026-05-10 at 16:54 UTC
+/// Built on 2026-05-11 at 06:32 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -830,6 +830,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get font_color_desc => 'Reader text color';
 	String get background_color_desc => 'Reader page background';
 	String get selection_color_desc => 'Reader text selection highlight';
+	String get color_sasayaki => 'Sasayaki Highlight';
+	String get color_sasayaki_desc => 'Audiobook subtitle sync highlight';
+	String get color_link => 'Link Color';
+	String get color_link_desc => 'Reader hyperlink color';
 	String get section_reader_colors => 'Reader Colors';
 	String get section_advanced_colors => 'Advanced';
 	String get auto_add_book_name_to_tags => 'Auto-add book title to tags';
@@ -13926,6 +13930,10 @@ class _StringsZhCn extends _StringsEn {
 	@override String get font_color_desc => '阅读器文字颜色';
 	@override String get background_color_desc => '阅读器页面背景';
 	@override String get selection_color_desc => '阅读器选中高亮';
+	@override String get color_sasayaki => 'Sasayaki 高亮';
+	@override String get color_sasayaki_desc => '有声书字幕同步高亮';
+	@override String get color_link => '链接颜色';
+	@override String get color_link_desc => '阅读器超链接颜色';
 	@override String get section_reader_colors => '阅读器颜色';
 	@override String get section_advanced_colors => '高级选项';
 	@override String get auto_add_book_name_to_tags => '自动添加书名到标签';
@@ -15660,6 +15668,10 @@ extension on _StringsEn {
 			case 'font_color_desc': return 'Reader text color';
 			case 'background_color_desc': return 'Reader page background';
 			case 'selection_color_desc': return 'Reader text selection highlight';
+			case 'color_sasayaki': return 'Sasayaki Highlight';
+			case 'color_sasayaki_desc': return 'Audiobook subtitle sync highlight';
+			case 'color_link': return 'Link Color';
+			case 'color_link_desc': return 'Reader hyperlink color';
 			case 'section_reader_colors': return 'Reader Colors';
 			case 'section_advanced_colors': return 'Advanced';
 			case 'auto_add_book_name_to_tags': return 'Auto-add book title to tags';
@@ -28141,6 +28153,10 @@ extension on _StringsZhCn {
 			case 'font_color_desc': return '阅读器文字颜色';
 			case 'background_color_desc': return '阅读器页面背景';
 			case 'selection_color_desc': return '阅读器选中高亮';
+			case 'color_sasayaki': return 'Sasayaki 高亮';
+			case 'color_sasayaki_desc': return '有声书字幕同步高亮';
+			case 'color_link': return '链接颜色';
+			case 'color_link_desc': return '阅读器超链接颜色';
 			case 'section_reader_colors': return '阅读器颜色';
 			case 'section_advanced_colors': return '高级选项';
 			case 'auto_add_book_name_to_tags': return '自动添加书名到标签';
