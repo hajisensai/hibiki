@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 14094 (829 per locale)
+/// Strings: 14096 (829 per locale)
 ///
-/// Built on 2026-05-11 at 17:12 UTC
+/// Built on 2026-05-11 at 17:35 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -723,6 +723,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get show_media_notification => 'Show media notification';
 	String get show_floating_lyric => 'Floating lyric overlay';
 	String get floating_lyric_hint => 'Show current sentence over other apps.';
+	String get show_floating_dict => 'Floating dictionary';
+	String get floating_dict_hint => 'Monitor clipboard for dictionary lookup.';
 	String get follow_audio_on_tooltip => 'Follow audio: ON';
 	String get follow_audio_off_tooltip => 'Follow audio: OFF';
 	String get reading_progress => 'Reading Progress';
@@ -15703,6 +15705,8 @@ extension on _StringsEn {
 			case 'show_media_notification': return 'Show media notification';
 			case 'show_floating_lyric': return 'Floating lyric overlay';
 			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'show_floating_dict': return 'Floating dictionary';
+			case 'floating_dict_hint': return 'Monitor clipboard for dictionary lookup.';
 			case 'follow_audio_on_tooltip': return 'Follow audio: ON';
 			case 'follow_audio_off_tooltip': return 'Follow audio: OFF';
 			case 'reading_progress': return 'Reading Progress';
