@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 14093 (829 per locale)
+/// Strings: 14094 (829 per locale)
 ///
-/// Built on 2026-05-11 at 15:41 UTC
+/// Built on 2026-05-11 at 17:12 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -718,6 +718,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get prev_sentence => 'Previous sentence';
 	String get next_sentence => 'Next sentence';
 	String get audiobook_settings => 'Audiobook Settings';
+	String get lyrics_mode => 'Lyrics mode';
 	String get show_play_bar => 'Show playback bar';
 	String get show_media_notification => 'Show media notification';
 	String get show_floating_lyric => 'Floating lyric overlay';
@@ -15697,6 +15698,7 @@ extension on _StringsEn {
 			case 'prev_sentence': return 'Previous sentence';
 			case 'next_sentence': return 'Next sentence';
 			case 'audiobook_settings': return 'Audiobook Settings';
+			case 'lyrics_mode': return 'Lyrics mode';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
 			case 'show_floating_lyric': return 'Floating lyric overlay';
