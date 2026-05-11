@@ -461,6 +461,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get manager => 'Manager';
 	String get volume_button_page_turning => 'Volume button page turning';
 	String get invert_volume_buttons => 'Invert volume buttons';
+	String get invert_swipe_direction => 'Invert swipe page turn direction';
 	String get volume_button_turning_speed => 'Volume key page turning speed';
 	String get extend_page_beyond_navbar => 'Extend page beyond navigation bar';
 	String get keep_screen_awake => 'Keep screen awake';
@@ -903,6 +904,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 	String get action_favorite => 'Favorite';
 	String get favorite_added => 'Sentence saved to favorites';
+	String get favorite_removed => 'Sentence removed from favorites';
 	String get no_sentence_selected => 'No sentence selected';
 	String favorites({required Object n}) => 'Favorites (${n})';
 	String get no_favorites => 'No saved sentences';
@@ -1337,6 +1339,7 @@ class _StringsAr extends _StringsEn {
 	@override String get manager => 'المدير';
 	@override String get volume_button_page_turning => 'تقليب الصفحات بأزرار الصوت';
 	@override String get invert_volume_buttons => 'عكس أزرار الصوت';
+	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'سرعة تقليب الصفحات';
 	@override String get extend_page_beyond_navbar => 'تمديد الصفحة خلف شريط التنقل';
 	@override String get keep_screen_awake => 'إبقاء الشاشة مستيقظة';
@@ -1724,6 +1727,7 @@ class _StringsAr extends _StringsEn {
 	@override String get anki_manage_profiles_hint => 'ضبط كيفية ربط حقول البطاقات عند التصدير إلى AnkiDroid. كل ملف يرتبط بنوع ملاحظة Anki ويحدد أي حقل hibiki يملأ أي حقل Anki.';
 	@override String get action_favorite => 'مفضّلة';
 	@override String get favorite_added => 'تم حفظ الجملة في المفضّلات';
+	@override String get favorite_removed => 'تمت إزالة الجملة من المفضّلات';
 	@override String favorites({required Object n}) => 'المفضّلات (${n})';
 	@override String get no_favorites => 'لا توجد جمل محفوظة';
 	@override String get favorites_title => 'الجمل المفضّلة';
@@ -2202,6 +2206,7 @@ class _StringsDe extends _StringsEn {
 	@override String get manager => 'Verwalter';
 	@override String get volume_button_page_turning => 'Seitenbl?ttern mit Lautst?rketasten';
 	@override String get invert_volume_buttons => 'Lautst?rketasten invertieren';
+	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Kontinuierliche Scrollgeschwindigkeit';
 	@override String get extend_page_beyond_navbar => 'Seite über Navigationsleiste hinaus erweitern';
 	@override String get keep_screen_awake => 'Bildschirm eingeschaltet lassen';
@@ -2585,6 +2590,7 @@ class _StringsDe extends _StringsEn {
 	@override String get dictionary_type_term => 'Begriff';
 	@override String get action_favorite => 'Favorit';
 	@override String get favorite_added => 'Satz in Favoriten gespeichert';
+	@override String get favorite_removed => 'Satz aus Favoriten entfernt';
 	@override String favorites({required Object n}) => 'Favoriten (${n})';
 	@override String get no_favorites => 'Keine gespeicherten Sätze';
 	@override String get favorites_title => 'Gespeicherte Sätze';
@@ -3075,6 +3081,7 @@ class _StringsEs extends _StringsEn {
 	@override String get manager => 'Gestor';
 	@override String get volume_button_page_turning => 'Pasar página con botones de volumen';
 	@override String get invert_volume_buttons => 'Invertir botones de volumen';
+	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Velocidad de desplazamiento continuo';
 	@override String get extend_page_beyond_navbar => 'Extender página más allá de la barra de navegación';
 	@override String get keep_screen_awake => 'Mantener pantalla encendida';
@@ -3458,6 +3465,7 @@ class _StringsEs extends _StringsEn {
 	@override String get dictionary_type_term => 'Término';
 	@override String get action_favorite => 'Favorito';
 	@override String get favorite_added => 'Oración guardada en favoritos';
+	@override String get favorite_removed => 'Oración eliminada de favoritos';
 	@override String favorites({required Object n}) => 'Favoritos (${n})';
 	@override String get no_favorites => 'No hay oraciones guardadas';
 	@override String get favorites_title => 'Oraciones favoritas';
@@ -3948,6 +3956,7 @@ class _StringsFr extends _StringsEn {
 	@override String get manager => 'Gestionnaire';
 	@override String get volume_button_page_turning => 'Tourner les pages avec les boutons de volume';
 	@override String get invert_volume_buttons => 'Inverser les boutons de volume';
+	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Vitesse de défilement continu';
 	@override String get extend_page_beyond_navbar => 'étendre la page au-delà de la barre de navigation';
 	@override String get keep_screen_awake => 'Garder l\'écran allumé';
@@ -4331,6 +4340,7 @@ class _StringsFr extends _StringsEn {
 	@override String get dictionary_type_term => 'Terme';
 	@override String get action_favorite => 'Favori';
 	@override String get favorite_added => 'Phrase enregistrée dans les favoris';
+	@override String get favorite_removed => 'Phrase retirée des favoris';
 	@override String favorites({required Object n}) => 'Favoris (${n})';
 	@override String get no_favorites => 'Aucune phrase enregistrée';
 	@override String get favorites_title => 'Phrases favorites';
@@ -4821,6 +4831,7 @@ class _StringsId extends _StringsEn {
 	@override String get manager => 'Manajer';
 	@override String get volume_button_page_turning => 'Tombol volume untuk ganti halaman';
 	@override String get invert_volume_buttons => 'Balik tombol volume';
+	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Kecepatan scroll berkelanjutan';
 	@override String get extend_page_beyond_navbar => 'Perluas halaman melewati navigation bar';
 	@override String get keep_screen_awake => 'Layar selalu menyala';
@@ -5204,6 +5215,7 @@ class _StringsId extends _StringsEn {
 	@override String get dictionary_type_term => 'Istilah';
 	@override String get action_favorite => 'Favorit';
 	@override String get favorite_added => 'Kalimat disimpan ke favorit';
+	@override String get favorite_removed => 'Kalimat dihapus dari favorit';
 	@override String favorites({required Object n}) => 'Favorit (${n})';
 	@override String get no_favorites => 'Tidak ada kalimat tersimpan';
 	@override String get favorites_title => 'Kalimat Favorit';
@@ -5702,6 +5714,7 @@ class _StringsIt extends _StringsEn {
 	@override String get manager => 'Gestore';
 	@override String get volume_button_page_turning => 'Cambia pagina con i tasti volume';
 	@override String get invert_volume_buttons => 'Inverti tasti volume';
+	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Velocità di scorrimento continuo';
 	@override String get extend_page_beyond_navbar => 'Estendi pagina oltre la barra di navigazione';
 	@override String get keep_screen_awake => 'Mantieni lo schermo acceso';
@@ -6077,6 +6090,7 @@ class _StringsIt extends _StringsEn {
 	@override String get anki_manage_profiles_hint => 'Configura la mappatura dei campi durante l\'esportazione verso AnkiDroid. Ogni profilo è collegato a un tipo di nota Anki e definisce quale campo hibiki riempie quale campo Anki.';
 	@override String get action_favorite => 'Preferito';
 	@override String get favorite_added => 'Frase salvata nei preferiti';
+	@override String get favorite_removed => 'Frase rimossa dai preferiti';
 	@override String favorites({required Object n}) => 'Preferiti (${n})';
 	@override String get no_favorites => 'Nessuna frase salvata';
 	@override String get favorites_title => 'Frasi preferite';
@@ -6567,6 +6581,7 @@ class _StringsJa extends _StringsEn {
 	@override String get manager => '管理';
 	@override String get volume_button_page_turning => '音量ボタンでページ送り';
 	@override String get invert_volume_buttons => '音量ボタンの方向を反転';
+	@override String get invert_swipe_direction => 'スワイプページ送り方向を反転';
 	@override String get volume_button_turning_speed => '音量キーページ送り速度';
 	@override String get extend_page_beyond_navbar => 'ナビゲーションバーの先までページを拡張';
 	@override String get keep_screen_awake => '画面を常時点灯';
@@ -6961,6 +6976,7 @@ class _StringsJa extends _StringsEn {
 	@override String get dictionary_type_term => '用語';
 	@override String get action_favorite => 'お気に入り';
 	@override String get favorite_added => 'お気に入りに追加しました';
+	@override String get favorite_removed => 'お気に入りから削除しました';
 	@override String favorites({required Object n}) => 'お気に入り (${n})';
 	@override String get no_favorites => 'お気に入りはありません';
 	@override String get favorites_title => 'お気に入りの文';
@@ -7441,6 +7457,7 @@ class _StringsKo extends _StringsEn {
 	@override String get manager => '??';
 	@override String get volume_button_page_turning => '?? ???? ??? ???';
 	@override String get invert_volume_buttons => '?? ?? ??';
+	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => '?? ??? ??';
 	@override String get extend_page_beyond_navbar => '????? ? ??? ??? ??';
 	@override String get keep_screen_awake => '?? ?? ??';
@@ -7824,6 +7841,7 @@ class _StringsKo extends _StringsEn {
 	@override String get dictionary_type_term => '??';
 	@override String get action_favorite => '즐겨찾기';
 	@override String get favorite_added => '문장이 즐겨찾기에 저장되었습니다';
+	@override String get favorite_removed => '문장이 즐겨찾기에서 삭제되었습니다';
 	@override String favorites({required Object n}) => '즐겨찾기 (${n})';
 	@override String get no_favorites => '저장된 문장이 없습니다';
 	@override String get favorites_title => '즐겨찾기 문장';
@@ -8322,6 +8340,7 @@ class _StringsNl extends _StringsEn {
 	@override String get manager => 'Beheerder';
 	@override String get volume_button_page_turning => 'Pagina\'s omslaan met volumeknoppen';
 	@override String get invert_volume_buttons => 'Volumeknoppen omkeren';
+	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Continue scrollsnelheid';
 	@override String get extend_page_beyond_navbar => 'Pagina voorbij navigatiebalk uitbreiden';
 	@override String get keep_screen_awake => 'Scherm aan houden';
@@ -8697,6 +8716,7 @@ class _StringsNl extends _StringsEn {
 	@override String get anki_manage_profiles_hint => 'Configureer de veldmapping bij het exporteren naar AnkiDroid. Elk profiel is gekoppeld aan een Anki-notitietype en bepaalt welk hibiki-veld welk Anki-veld vult.';
 	@override String get action_favorite => 'Favoriet';
 	@override String get favorite_added => 'Zin opgeslagen in favorieten';
+	@override String get favorite_removed => 'Zin verwijderd uit favorieten';
 	@override String favorites({required Object n}) => 'Favorieten (${n})';
 	@override String get no_favorites => 'Geen opgeslagen zinnen';
 	@override String get favorites_title => 'Favoriete zinnen';
@@ -9187,6 +9207,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get manager => 'Gerenciador';
 	@override String get volume_button_page_turning => 'Virar página com bot?o de volume';
 	@override String get invert_volume_buttons => 'Inverter bot?es de volume';
+	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Velocidade de rolagem contínua';
 	@override String get extend_page_beyond_navbar => 'Estender página além da barra de navega??o';
 	@override String get keep_screen_awake => 'Manter tela ligada';
@@ -9570,6 +9591,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get dictionary_type_term => 'Termo';
 	@override String get action_favorite => 'Favorito';
 	@override String get favorite_added => 'Frase salva nos favoritos';
+	@override String get favorite_removed => 'Frase removida dos favoritos';
 	@override String favorites({required Object n}) => 'Favoritos (${n})';
 	@override String get no_favorites => 'Nenhuma frase salva';
 	@override String get favorites_title => 'Frases favoritas';
@@ -10060,6 +10082,7 @@ class _StringsRu extends _StringsEn {
 	@override String get manager => 'Менеджер';
 	@override String get volume_button_page_turning => 'Перелистывание кнопками громкости';
 	@override String get invert_volume_buttons => 'Инвертировать кнопки громкости';
+	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Скорость непрерывной прокрутки';
 	@override String get extend_page_beyond_navbar => 'Расширить страницу за навигационную панель';
 	@override String get keep_screen_awake => 'Не выключать экран';
@@ -10443,6 +10466,7 @@ class _StringsRu extends _StringsEn {
 	@override String get dictionary_type_term => 'Термин';
 	@override String get action_favorite => 'В избранное';
 	@override String get favorite_added => 'Предложение сохранено в избранное';
+	@override String get favorite_removed => 'Предложение удалено из избранного';
 	@override String favorites({required Object n}) => 'Избранное (${n})';
 	@override String get no_favorites => 'Нет сохранённых предложений';
 	@override String get favorites_title => 'Избранные предложения';
@@ -10933,6 +10957,7 @@ class _StringsTh extends _StringsEn {
 	@override String get manager => '??????';
 	@override String get volume_button_page_turning => '???????????????????????';
 	@override String get invert_volume_buttons => '?????????????';
+	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => '???????????????????????';
 	@override String get extend_page_beyond_navbar => '????????????????????';
 	@override String get keep_screen_awake => '??????????????';
@@ -11316,6 +11341,7 @@ class _StringsTh extends _StringsEn {
 	@override String get dictionary_type_term => '???????';
 	@override String get action_favorite => 'ชื่นชอบ';
 	@override String get favorite_added => 'บันทึกประโยคไว้ในรายการโปรดแล้ว';
+	@override String get favorite_removed => 'ลบประโยคออกจากรายการโปรดแล้ว';
 	@override String favorites({required Object n}) => 'รายการโปรด (${n})';
 	@override String get no_favorites => 'ไม่มีประโยคที่บันทึกไว้';
 	@override String get favorites_title => 'ประโยคที่ชื่นชอบ';
@@ -11814,6 +11840,7 @@ class _StringsTr extends _StringsEn {
 	@override String get manager => 'Y?netici';
 	@override String get volume_button_page_turning => 'Ses dü?meleriyle sayfa ?evirme';
 	@override String get invert_volume_buttons => 'Ses dü?melerini ters ?evir';
+	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Sürekli kayd?rma h?z?';
 	@override String get extend_page_beyond_navbar => 'Sayfay? gezinme ?ubu?unun ?tesine geni?let';
 	@override String get keep_screen_awake => 'Ekran? a??k tut';
@@ -12189,6 +12216,7 @@ class _StringsTr extends _StringsEn {
 	@override String get anki_manage_profiles_hint => 'AnkiDroid\'a d??a aktar?rken alan e?lemesini yap?land?r?n. Her profil bir Anki not türüne ba?l?d?r ve hangi hibiki alan?n?n hangi Anki alan?n? dolduraca??n? tan?mlar.';
 	@override String get action_favorite => 'Favorilere ekle';
 	@override String get favorite_added => 'Cümle favorilere kaydedildi';
+	@override String get favorite_removed => 'Cümle favorilerden kaldırıldı';
 	@override String favorites({required Object n}) => 'Favoriler (${n})';
 	@override String get no_favorites => 'Kaydedilmiş cümle yok';
 	@override String get favorites_title => 'Favori Cümleler';
@@ -12679,6 +12707,7 @@ class _StringsVi extends _StringsEn {
 	@override String get manager => 'Qu?n ly';
 	@override String get volume_button_page_turning => 'L?t trang b?ng nút am l??ng';
 	@override String get invert_volume_buttons => '??o ng??c nút am l??ng';
+	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'T?c ?? cu?n liên t?c';
 	@override String get extend_page_beyond_navbar => 'M? r?ng trang qua thanh ?i?u h??ng';
 	@override String get keep_screen_awake => 'Gi? màn hình sáng';
@@ -13062,6 +13091,7 @@ class _StringsVi extends _StringsEn {
 	@override String get dictionary_type_term => 'Thu?t ng?';
 	@override String get action_favorite => 'Yêu thích';
 	@override String get favorite_added => 'Đã lưu câu vào mục yêu thích';
+	@override String get favorite_removed => 'Đã xóa câu khỏi mục yêu thích';
 	@override String favorites({required Object n}) => 'Yêu thích (${n})';
 	@override String get no_favorites => 'Chưa có câu nào được lưu';
 	@override String get favorites_title => 'Câu yêu thích';
@@ -13563,6 +13593,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get manager => '管理器';
 	@override String get volume_button_page_turning => '音量键翻页';
 	@override String get invert_volume_buttons => '反转音量键方向';
+	@override String get invert_swipe_direction => '反转滑动翻页方向';
 	@override String get volume_button_turning_speed => '音量键翻页速度';
 	@override String get extend_page_beyond_navbar => '页面延伸至导航栏之外';
 	@override String get keep_screen_awake => '阅读时防止息屏';
@@ -14003,6 +14034,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get anki_manage_profiles_hint => '配置导出到 AnkiDroid 时各字段的映射方式。每个配置绑定一个 Anki 笔记类型，定义 hibiki 的哪个字段填充 Anki 的哪个字段。';
 	@override String get action_favorite => '收藏';
 	@override String get favorite_added => '句子已收藏';
+	@override String get favorite_removed => '句子已取消收藏';
 	@override String favorites({required Object n}) => '收藏 (${n})';
 	@override String get no_favorites => '暂无收藏句子';
 	@override String get favorites_title => '收藏的句子';
@@ -14430,6 +14462,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get manager => '管理員';
 	@override String get volume_button_page_turning => '音量鍵翻頁';
 	@override String get invert_volume_buttons => '反轉音量鍵方向';
+	@override String get invert_swipe_direction => '反轉滑動翻頁方向';
 	@override String get volume_button_turning_speed => '音量鍵翻頁速度';
 	@override String get extend_page_beyond_navbar => '頁面延伸至導覽列之外';
 	@override String get keep_screen_awake => '閱讀時防止螢幕關閉';
@@ -14824,6 +14857,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get dictionary_type_term => '釋義';
 	@override String get action_favorite => '收藏';
 	@override String get favorite_added => '句子已收藏';
+	@override String get favorite_removed => '句子已取消收藏';
 	@override String favorites({required Object n}) => '收藏 (${n})';
 	@override String get no_favorites => '暫無收藏句子';
 	@override String get favorites_title => '收藏的句子';
@@ -15293,6 +15327,7 @@ extension on _StringsEn {
 			case 'manager': return 'Manager';
 			case 'volume_button_page_turning': return 'Volume button page turning';
 			case 'invert_volume_buttons': return 'Invert volume buttons';
+			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Volume key page turning speed';
 			case 'extend_page_beyond_navbar': return 'Extend page beyond navigation bar';
 			case 'keep_screen_awake': return 'Keep screen awake';
@@ -15741,6 +15776,7 @@ extension on _StringsEn {
 			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 			case 'action_favorite': return 'Favorite';
 			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'no_sentence_selected': return 'No sentence selected';
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
@@ -16128,6 +16164,7 @@ extension on _StringsAr {
 			case 'manager': return 'المدير';
 			case 'volume_button_page_turning': return 'تقليب الصفحات بأزرار الصوت';
 			case 'invert_volume_buttons': return 'عكس أزرار الصوت';
+			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'سرعة تقليب الصفحات';
 			case 'extend_page_beyond_navbar': return 'تمديد الصفحة خلف شريط التنقل';
 			case 'keep_screen_awake': return 'إبقاء الشاشة مستيقظة';
@@ -16521,6 +16558,7 @@ extension on _StringsAr {
 			case 'anki_manage_profiles_hint': return 'ضبط كيفية ربط حقول البطاقات عند التصدير إلى AnkiDroid. كل ملف يرتبط بنوع ملاحظة Anki ويحدد أي حقل hibiki يملأ أي حقل Anki.';
 			case 'action_favorite': return 'مفضّلة';
 			case 'favorite_added': return 'تم حفظ الجملة في المفضّلات';
+			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => 'المفضّلات (${n})';
 			case 'no_favorites': return 'لا توجد جمل محفوظة';
 			case 'favorites_title': return 'الجمل المفضّلة';
@@ -16952,6 +16990,7 @@ extension on _StringsDe {
 			case 'manager': return 'Verwalter';
 			case 'volume_button_page_turning': return 'Seitenbl?ttern mit Lautst?rketasten';
 			case 'invert_volume_buttons': return 'Lautst?rketasten invertieren';
+			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Kontinuierliche Scrollgeschwindigkeit';
 			case 'extend_page_beyond_navbar': return 'Seite über Navigationsleiste hinaus erweitern';
 			case 'keep_screen_awake': return 'Bildschirm eingeschaltet lassen';
@@ -17341,6 +17380,7 @@ extension on _StringsDe {
 			case 'dictionary_type_term': return 'Begriff';
 			case 'action_favorite': return 'Favorit';
 			case 'favorite_added': return 'Satz in Favoriten gespeichert';
+			case 'favorite_removed': return 'Satz aus Favoriten entfernt';
 			case 'favorites': return ({required Object n}) => 'Favoriten (${n})';
 			case 'no_favorites': return 'Keine gespeicherten Sätze';
 			case 'favorites_title': return 'Gespeicherte Sätze';
@@ -17784,6 +17824,7 @@ extension on _StringsEs {
 			case 'manager': return 'Gestor';
 			case 'volume_button_page_turning': return 'Pasar página con botones de volumen';
 			case 'invert_volume_buttons': return 'Invertir botones de volumen';
+			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Velocidad de desplazamiento continuo';
 			case 'extend_page_beyond_navbar': return 'Extender página más allá de la barra de navegación';
 			case 'keep_screen_awake': return 'Mantener pantalla encendida';
@@ -18173,6 +18214,7 @@ extension on _StringsEs {
 			case 'dictionary_type_term': return 'Término';
 			case 'action_favorite': return 'Favorito';
 			case 'favorite_added': return 'Oración guardada en favoritos';
+			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => 'Favoritos (${n})';
 			case 'no_favorites': return 'No hay oraciones guardadas';
 			case 'favorites_title': return 'Oraciones favoritas';
@@ -18616,6 +18658,7 @@ extension on _StringsFr {
 			case 'manager': return 'Gestionnaire';
 			case 'volume_button_page_turning': return 'Tourner les pages avec les boutons de volume';
 			case 'invert_volume_buttons': return 'Inverser les boutons de volume';
+			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Vitesse de défilement continu';
 			case 'extend_page_beyond_navbar': return 'étendre la page au-delà de la barre de navigation';
 			case 'keep_screen_awake': return 'Garder l\'écran allumé';
@@ -19005,6 +19048,7 @@ extension on _StringsFr {
 			case 'dictionary_type_term': return 'Terme';
 			case 'action_favorite': return 'Favori';
 			case 'favorite_added': return 'Phrase enregistrée dans les favoris';
+			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => 'Favoris (${n})';
 			case 'no_favorites': return 'Aucune phrase enregistrée';
 			case 'favorites_title': return 'Phrases favorites';
@@ -19448,6 +19492,7 @@ extension on _StringsId {
 			case 'manager': return 'Manajer';
 			case 'volume_button_page_turning': return 'Tombol volume untuk ganti halaman';
 			case 'invert_volume_buttons': return 'Balik tombol volume';
+			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Kecepatan scroll berkelanjutan';
 			case 'extend_page_beyond_navbar': return 'Perluas halaman melewati navigation bar';
 			case 'keep_screen_awake': return 'Layar selalu menyala';
@@ -19837,6 +19882,7 @@ extension on _StringsId {
 			case 'dictionary_type_term': return 'Istilah';
 			case 'action_favorite': return 'Favorit';
 			case 'favorite_added': return 'Kalimat disimpan ke favorit';
+			case 'favorite_removed': return 'Kalimat dihapus dari favorit';
 			case 'favorites': return ({required Object n}) => 'Favorit (${n})';
 			case 'no_favorites': return 'Tidak ada kalimat tersimpan';
 			case 'favorites_title': return 'Kalimat Favorit';
@@ -20288,6 +20334,7 @@ extension on _StringsIt {
 			case 'manager': return 'Gestore';
 			case 'volume_button_page_turning': return 'Cambia pagina con i tasti volume';
 			case 'invert_volume_buttons': return 'Inverti tasti volume';
+			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Velocità di scorrimento continuo';
 			case 'extend_page_beyond_navbar': return 'Estendi pagina oltre la barra di navigazione';
 			case 'keep_screen_awake': return 'Mantieni lo schermo acceso';
@@ -20669,6 +20716,7 @@ extension on _StringsIt {
 			case 'anki_manage_profiles_hint': return 'Configura la mappatura dei campi durante l\'esportazione verso AnkiDroid. Ogni profilo è collegato a un tipo di nota Anki e definisce quale campo hibiki riempie quale campo Anki.';
 			case 'action_favorite': return 'Preferito';
 			case 'favorite_added': return 'Frase salvata nei preferiti';
+			case 'favorite_removed': return 'Frase rimossa dai preferiti';
 			case 'favorites': return ({required Object n}) => 'Preferiti (${n})';
 			case 'no_favorites': return 'Nessuna frase salvata';
 			case 'favorites_title': return 'Frasi preferite';
@@ -21112,6 +21160,7 @@ extension on _StringsJa {
 			case 'manager': return '管理';
 			case 'volume_button_page_turning': return '音量ボタンでページ送り';
 			case 'invert_volume_buttons': return '音量ボタンの方向を反転';
+			case 'invert_swipe_direction': return 'スワイプページ送り方向を反転';
 			case 'volume_button_turning_speed': return '音量キーページ送り速度';
 			case 'extend_page_beyond_navbar': return 'ナビゲーションバーの先までページを拡張';
 			case 'keep_screen_awake': return '画面を常時点灯';
@@ -21512,6 +21561,7 @@ extension on _StringsJa {
 			case 'dictionary_type_term': return '用語';
 			case 'action_favorite': return 'お気に入り';
 			case 'favorite_added': return 'お気に入りに追加しました';
+			case 'favorite_removed': return 'お気に入りから削除しました';
 			case 'favorites': return ({required Object n}) => 'お気に入り (${n})';
 			case 'no_favorites': return 'お気に入りはありません';
 			case 'favorites_title': return 'お気に入りの文';
@@ -21945,6 +21995,7 @@ extension on _StringsKo {
 			case 'manager': return '??';
 			case 'volume_button_page_turning': return '?? ???? ??? ???';
 			case 'invert_volume_buttons': return '?? ?? ??';
+			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return '?? ??? ??';
 			case 'extend_page_beyond_navbar': return '????? ? ??? ??? ??';
 			case 'keep_screen_awake': return '?? ?? ??';
@@ -22334,6 +22385,7 @@ extension on _StringsKo {
 			case 'dictionary_type_term': return '??';
 			case 'action_favorite': return '즐겨찾기';
 			case 'favorite_added': return '문장이 즐겨찾기에 저장되었습니다';
+			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => '즐겨찾기 (${n})';
 			case 'no_favorites': return '저장된 문장이 없습니다';
 			case 'favorites_title': return '즐겨찾기 문장';
@@ -22785,6 +22837,7 @@ extension on _StringsNl {
 			case 'manager': return 'Beheerder';
 			case 'volume_button_page_turning': return 'Pagina\'s omslaan met volumeknoppen';
 			case 'invert_volume_buttons': return 'Volumeknoppen omkeren';
+			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Continue scrollsnelheid';
 			case 'extend_page_beyond_navbar': return 'Pagina voorbij navigatiebalk uitbreiden';
 			case 'keep_screen_awake': return 'Scherm aan houden';
@@ -23166,6 +23219,7 @@ extension on _StringsNl {
 			case 'anki_manage_profiles_hint': return 'Configureer de veldmapping bij het exporteren naar AnkiDroid. Elk profiel is gekoppeld aan een Anki-notitietype en bepaalt welk hibiki-veld welk Anki-veld vult.';
 			case 'action_favorite': return 'Favoriet';
 			case 'favorite_added': return 'Zin opgeslagen in favorieten';
+			case 'favorite_removed': return 'Zin verwijderd uit favorieten';
 			case 'favorites': return ({required Object n}) => 'Favorieten (${n})';
 			case 'no_favorites': return 'Geen opgeslagen zinnen';
 			case 'favorites_title': return 'Favoriete zinnen';
@@ -23609,6 +23663,7 @@ extension on _StringsPtBr {
 			case 'manager': return 'Gerenciador';
 			case 'volume_button_page_turning': return 'Virar página com bot?o de volume';
 			case 'invert_volume_buttons': return 'Inverter bot?es de volume';
+			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Velocidade de rolagem contínua';
 			case 'extend_page_beyond_navbar': return 'Estender página além da barra de navega??o';
 			case 'keep_screen_awake': return 'Manter tela ligada';
@@ -23998,6 +24053,7 @@ extension on _StringsPtBr {
 			case 'dictionary_type_term': return 'Termo';
 			case 'action_favorite': return 'Favorito';
 			case 'favorite_added': return 'Frase salva nos favoritos';
+			case 'favorite_removed': return 'Frase removida dos favoritos';
 			case 'favorites': return ({required Object n}) => 'Favoritos (${n})';
 			case 'no_favorites': return 'Nenhuma frase salva';
 			case 'favorites_title': return 'Frases favoritas';
@@ -24441,6 +24497,7 @@ extension on _StringsRu {
 			case 'manager': return 'Менеджер';
 			case 'volume_button_page_turning': return 'Перелистывание кнопками громкости';
 			case 'invert_volume_buttons': return 'Инвертировать кнопки громкости';
+			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Скорость непрерывной прокрутки';
 			case 'extend_page_beyond_navbar': return 'Расширить страницу за навигационную панель';
 			case 'keep_screen_awake': return 'Не выключать экран';
@@ -24830,6 +24887,7 @@ extension on _StringsRu {
 			case 'dictionary_type_term': return 'Термин';
 			case 'action_favorite': return 'В избранное';
 			case 'favorite_added': return 'Предложение сохранено в избранное';
+			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => 'Избранное (${n})';
 			case 'no_favorites': return 'Нет сохранённых предложений';
 			case 'favorites_title': return 'Избранные предложения';
@@ -25273,6 +25331,7 @@ extension on _StringsTh {
 			case 'manager': return '??????';
 			case 'volume_button_page_turning': return '???????????????????????';
 			case 'invert_volume_buttons': return '?????????????';
+			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return '???????????????????????';
 			case 'extend_page_beyond_navbar': return '????????????????????';
 			case 'keep_screen_awake': return '??????????????';
@@ -25662,6 +25721,7 @@ extension on _StringsTh {
 			case 'dictionary_type_term': return '???????';
 			case 'action_favorite': return 'ชื่นชอบ';
 			case 'favorite_added': return 'บันทึกประโยคไว้ในรายการโปรดแล้ว';
+			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => 'รายการโปรด (${n})';
 			case 'no_favorites': return 'ไม่มีประโยคที่บันทึกไว้';
 			case 'favorites_title': return 'ประโยคที่ชื่นชอบ';
@@ -26113,6 +26173,7 @@ extension on _StringsTr {
 			case 'manager': return 'Y?netici';
 			case 'volume_button_page_turning': return 'Ses dü?meleriyle sayfa ?evirme';
 			case 'invert_volume_buttons': return 'Ses dü?melerini ters ?evir';
+			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Sürekli kayd?rma h?z?';
 			case 'extend_page_beyond_navbar': return 'Sayfay? gezinme ?ubu?unun ?tesine geni?let';
 			case 'keep_screen_awake': return 'Ekran? a??k tut';
@@ -26494,6 +26555,7 @@ extension on _StringsTr {
 			case 'anki_manage_profiles_hint': return 'AnkiDroid\'a d??a aktar?rken alan e?lemesini yap?land?r?n. Her profil bir Anki not türüne ba?l?d?r ve hangi hibiki alan?n?n hangi Anki alan?n? dolduraca??n? tan?mlar.';
 			case 'action_favorite': return 'Favorilere ekle';
 			case 'favorite_added': return 'Cümle favorilere kaydedildi';
+			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => 'Favoriler (${n})';
 			case 'no_favorites': return 'Kaydedilmiş cümle yok';
 			case 'favorites_title': return 'Favori Cümleler';
@@ -26937,6 +26999,7 @@ extension on _StringsVi {
 			case 'manager': return 'Qu?n ly';
 			case 'volume_button_page_turning': return 'L?t trang b?ng nút am l??ng';
 			case 'invert_volume_buttons': return '??o ng??c nút am l??ng';
+			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'T?c ?? cu?n liên t?c';
 			case 'extend_page_beyond_navbar': return 'M? r?ng trang qua thanh ?i?u h??ng';
 			case 'keep_screen_awake': return 'Gi? màn hình sáng';
@@ -27326,6 +27389,7 @@ extension on _StringsVi {
 			case 'dictionary_type_term': return 'Thu?t ng?';
 			case 'action_favorite': return 'Yêu thích';
 			case 'favorite_added': return 'Đã lưu câu vào mục yêu thích';
+			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => 'Yêu thích (${n})';
 			case 'no_favorites': return 'Chưa có câu nào được lưu';
 			case 'favorites_title': return 'Câu yêu thích';
@@ -27780,6 +27844,7 @@ extension on _StringsZhCn {
 			case 'manager': return '管理器';
 			case 'volume_button_page_turning': return '音量键翻页';
 			case 'invert_volume_buttons': return '反转音量键方向';
+			case 'invert_swipe_direction': return '反转滑动翻页方向';
 			case 'volume_button_turning_speed': return '音量键翻页速度';
 			case 'extend_page_beyond_navbar': return '页面延伸至导航栏之外';
 			case 'keep_screen_awake': return '阅读时防止息屏';
@@ -28226,6 +28291,7 @@ extension on _StringsZhCn {
 			case 'anki_manage_profiles_hint': return '配置导出到 AnkiDroid 时各字段的映射方式。每个配置绑定一个 Anki 笔记类型，定义 hibiki 的哪个字段填充 Anki 的哪个字段。';
 			case 'action_favorite': return '收藏';
 			case 'favorite_added': return '句子已收藏';
+			case 'favorite_removed': return '句子已取消收藏';
 			case 'favorites': return ({required Object n}) => '收藏 (${n})';
 			case 'no_favorites': return '暂无收藏句子';
 			case 'favorites_title': return '收藏的句子';
@@ -28606,6 +28672,7 @@ extension on _StringsZhHk {
 			case 'manager': return '管理員';
 			case 'volume_button_page_turning': return '音量鍵翻頁';
 			case 'invert_volume_buttons': return '反轉音量鍵方向';
+			case 'invert_swipe_direction': return '反轉滑動翻頁方向';
 			case 'volume_button_turning_speed': return '音量鍵翻頁速度';
 			case 'extend_page_beyond_navbar': return '頁面延伸至導覽列之外';
 			case 'keep_screen_awake': return '閱讀時防止螢幕關閉';
@@ -29006,6 +29073,7 @@ extension on _StringsZhHk {
 			case 'dictionary_type_term': return '釋義';
 			case 'action_favorite': return '收藏';
 			case 'favorite_added': return '句子已收藏';
+			case 'favorite_removed': return '句子已取消收藏';
 			case 'favorites': return ({required Object n}) => '收藏 (${n})';
 			case 'no_favorites': return '暫無收藏句子';
 			case 'favorites_title': return '收藏的句子';
