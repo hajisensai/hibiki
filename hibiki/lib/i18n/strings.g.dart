@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 13952 (820 per locale)
+/// Strings: 14076 (828 per locale)
 ///
-/// Built on 2026-05-11 at 06:32 UTC
+/// Built on 2026-05-11 at 14:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1339,7 +1339,6 @@ class _StringsAr extends _StringsEn {
 	@override String get manager => 'المدير';
 	@override String get volume_button_page_turning => 'تقليب الصفحات بأزرار الصوت';
 	@override String get invert_volume_buttons => 'عكس أزرار الصوت';
-	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'سرعة تقليب الصفحات';
 	@override String get extend_page_beyond_navbar => 'تمديد الصفحة خلف شريط التنقل';
 	@override String get keep_screen_awake => 'إبقاء الشاشة مستيقظة';
@@ -1727,7 +1726,6 @@ class _StringsAr extends _StringsEn {
 	@override String get anki_manage_profiles_hint => 'ضبط كيفية ربط حقول البطاقات عند التصدير إلى AnkiDroid. كل ملف يرتبط بنوع ملاحظة Anki ويحدد أي حقل hibiki يملأ أي حقل Anki.';
 	@override String get action_favorite => 'مفضّلة';
 	@override String get favorite_added => 'تم حفظ الجملة في المفضّلات';
-	@override String get favorite_removed => 'تمت إزالة الجملة من المفضّلات';
 	@override String favorites({required Object n}) => 'المفضّلات (${n})';
 	@override String get no_favorites => 'لا توجد جمل محفوظة';
 	@override String get favorites_title => 'الجمل المفضّلة';
@@ -1863,6 +1861,14 @@ class _StringsAr extends _StringsEn {
 	@override String get jump_to_char_hint => 'أدخل موضع الحرف…';
 	@override String jump_to_char_current({required Object current, required Object total}) => 'الحالي: ${current} / ${total}';
 	@override String jump_to_char_out_of_range({required Object max}) => 'خارج النطاق (الحد الأقصى ${max})';
+	@override String get favorite_removed => 'تمت إزالة الجملة من المفضلة';
+	@override String get no_sentence_selected => 'لم يتم اختيار جملة';
+	@override String get color_link => 'لون الرابط';
+	@override String get color_link_desc => 'لون الروابط في القارئ';
+	@override String get color_sasayaki => 'تمييز Sasayaki';
+	@override String get color_sasayaki_desc => 'تمييز مزامنة ترجمة الكتاب المسموع';
+	@override String get invert_swipe_direction => 'عكس اتجاه التمرير لقلب الصفحات';
+	@override String get tap_empty_hide_chrome => 'انقر على المنطقة الفارغة لإخفاء عناصر التحكم';
 }
 
 // Path: retrying_in
@@ -2206,7 +2212,6 @@ class _StringsDe extends _StringsEn {
 	@override String get manager => 'Verwalter';
 	@override String get volume_button_page_turning => 'Seitenbl?ttern mit Lautst?rketasten';
 	@override String get invert_volume_buttons => 'Lautst?rketasten invertieren';
-	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Kontinuierliche Scrollgeschwindigkeit';
 	@override String get extend_page_beyond_navbar => 'Seite über Navigationsleiste hinaus erweitern';
 	@override String get keep_screen_awake => 'Bildschirm eingeschaltet lassen';
@@ -2590,7 +2595,6 @@ class _StringsDe extends _StringsEn {
 	@override String get dictionary_type_term => 'Begriff';
 	@override String get action_favorite => 'Favorit';
 	@override String get favorite_added => 'Satz in Favoriten gespeichert';
-	@override String get favorite_removed => 'Satz aus Favoriten entfernt';
 	@override String favorites({required Object n}) => 'Favoriten (${n})';
 	@override String get no_favorites => 'Keine gespeicherten Sätze';
 	@override String get favorites_title => 'Gespeicherte Sätze';
@@ -2738,6 +2742,14 @@ class _StringsDe extends _StringsEn {
 	@override String get jump_to_char_hint => 'Zeichenposition eingeben…';
 	@override String jump_to_char_current({required Object current, required Object total}) => 'Aktuell: ${current} / ${total}';
 	@override String jump_to_char_out_of_range({required Object max}) => 'Außerhalb des Bereichs (max. ${max})';
+	@override String get favorite_removed => 'Satz aus Favoriten entfernt';
+	@override String get no_sentence_selected => 'Kein Satz ausgewählt';
+	@override String get color_link => 'Linkfarbe';
+	@override String get color_link_desc => 'Hyperlink-Farbe im Reader';
+	@override String get color_sasayaki => 'Sasayaki-Hervorhebung';
+	@override String get color_sasayaki_desc => 'Untertitel-Synchronisierung des Hörbuchs';
+	@override String get invert_swipe_direction => 'Wischrichtung zum Blättern umkehren';
+	@override String get tap_empty_hide_chrome => 'Auf leeren Bereich tippen, um Steuerung auszublenden';
 }
 
 // Path: retrying_in
@@ -3081,7 +3093,6 @@ class _StringsEs extends _StringsEn {
 	@override String get manager => 'Gestor';
 	@override String get volume_button_page_turning => 'Pasar página con botones de volumen';
 	@override String get invert_volume_buttons => 'Invertir botones de volumen';
-	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Velocidad de desplazamiento continuo';
 	@override String get extend_page_beyond_navbar => 'Extender página más allá de la barra de navegación';
 	@override String get keep_screen_awake => 'Mantener pantalla encendida';
@@ -3465,7 +3476,6 @@ class _StringsEs extends _StringsEn {
 	@override String get dictionary_type_term => 'Término';
 	@override String get action_favorite => 'Favorito';
 	@override String get favorite_added => 'Oración guardada en favoritos';
-	@override String get favorite_removed => 'Oración eliminada de favoritos';
 	@override String favorites({required Object n}) => 'Favoritos (${n})';
 	@override String get no_favorites => 'No hay oraciones guardadas';
 	@override String get favorites_title => 'Oraciones favoritas';
@@ -3613,6 +3623,14 @@ class _StringsEs extends _StringsEn {
 	@override String get jump_to_char_hint => 'Introduce la posición del carácter…';
 	@override String jump_to_char_current({required Object current, required Object total}) => 'Actual: ${current} / ${total}';
 	@override String jump_to_char_out_of_range({required Object max}) => 'Fuera de rango (máx ${max})';
+	@override String get favorite_removed => 'Frase eliminada de favoritos';
+	@override String get no_sentence_selected => 'No se ha seleccionado ninguna frase';
+	@override String get color_link => 'Color de enlace';
+	@override String get color_link_desc => 'Color de los hipervínculos del lector';
+	@override String get color_sasayaki => 'Resaltado Sasayaki';
+	@override String get color_sasayaki_desc => 'Resaltado de sincronización de subtítulos del audiolibro';
+	@override String get invert_swipe_direction => 'Invertir dirección de deslizamiento para pasar páginas';
+	@override String get tap_empty_hide_chrome => 'Toca un área vacía para ocultar los controles';
 }
 
 // Path: retrying_in
@@ -3956,7 +3974,6 @@ class _StringsFr extends _StringsEn {
 	@override String get manager => 'Gestionnaire';
 	@override String get volume_button_page_turning => 'Tourner les pages avec les boutons de volume';
 	@override String get invert_volume_buttons => 'Inverser les boutons de volume';
-	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Vitesse de défilement continu';
 	@override String get extend_page_beyond_navbar => 'étendre la page au-delà de la barre de navigation';
 	@override String get keep_screen_awake => 'Garder l\'écran allumé';
@@ -4340,7 +4357,6 @@ class _StringsFr extends _StringsEn {
 	@override String get dictionary_type_term => 'Terme';
 	@override String get action_favorite => 'Favori';
 	@override String get favorite_added => 'Phrase enregistrée dans les favoris';
-	@override String get favorite_removed => 'Phrase retirée des favoris';
 	@override String favorites({required Object n}) => 'Favoris (${n})';
 	@override String get no_favorites => 'Aucune phrase enregistrée';
 	@override String get favorites_title => 'Phrases favorites';
@@ -4488,6 +4504,14 @@ class _StringsFr extends _StringsEn {
 	@override String get jump_to_char_hint => 'Entrez la position du caractère…';
 	@override String jump_to_char_current({required Object current, required Object total}) => 'Actuel : ${current} / ${total}';
 	@override String jump_to_char_out_of_range({required Object max}) => 'Hors limites (max ${max})';
+	@override String get favorite_removed => 'Phrase retirée des favoris';
+	@override String get no_sentence_selected => 'Aucune phrase sélectionnée';
+	@override String get color_link => 'Couleur des liens';
+	@override String get color_link_desc => 'Couleur des hyperliens du lecteur';
+	@override String get color_sasayaki => 'Surlignage Sasayaki';
+	@override String get color_sasayaki_desc => 'Surlignage de synchronisation des sous-titres du livre audio';
+	@override String get invert_swipe_direction => 'Inverser la direction du balayage pour tourner les pages';
+	@override String get tap_empty_hide_chrome => 'Appuyez sur une zone vide pour masquer les contrôles';
 }
 
 // Path: retrying_in
@@ -4831,7 +4855,6 @@ class _StringsId extends _StringsEn {
 	@override String get manager => 'Manajer';
 	@override String get volume_button_page_turning => 'Tombol volume untuk ganti halaman';
 	@override String get invert_volume_buttons => 'Balik tombol volume';
-	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Kecepatan scroll berkelanjutan';
 	@override String get extend_page_beyond_navbar => 'Perluas halaman melewati navigation bar';
 	@override String get keep_screen_awake => 'Layar selalu menyala';
@@ -5215,7 +5238,6 @@ class _StringsId extends _StringsEn {
 	@override String get dictionary_type_term => 'Istilah';
 	@override String get action_favorite => 'Favorit';
 	@override String get favorite_added => 'Kalimat disimpan ke favorit';
-	@override String get favorite_removed => 'Kalimat dihapus dari favorit';
 	@override String favorites({required Object n}) => 'Favorit (${n})';
 	@override String get no_favorites => 'Tidak ada kalimat tersimpan';
 	@override String get favorites_title => 'Kalimat Favorit';
@@ -5363,6 +5385,14 @@ class _StringsId extends _StringsEn {
 	@override String get jump_to_char_hint => 'Masukkan posisi karakter…';
 	@override String jump_to_char_current({required Object current, required Object total}) => 'Saat ini: ${current} / ${total}';
 	@override String jump_to_char_out_of_range({required Object max}) => 'Di luar jangkauan (maks ${max})';
+	@override String get favorite_removed => 'Kalimat dihapus dari favorit';
+	@override String get no_sentence_selected => 'Tidak ada kalimat yang dipilih';
+	@override String get color_link => 'Warna tautan';
+	@override String get color_link_desc => 'Warna hyperlink di pembaca';
+	@override String get color_sasayaki => 'Sorotan Sasayaki';
+	@override String get color_sasayaki_desc => 'Sorotan sinkronisasi subtitle buku audio';
+	@override String get invert_swipe_direction => 'Balik arah geser untuk membalik halaman';
+	@override String get tap_empty_hide_chrome => 'Ketuk area kosong untuk menyembunyikan kontrol';
 }
 
 // Path: retrying_in
@@ -5714,7 +5744,6 @@ class _StringsIt extends _StringsEn {
 	@override String get manager => 'Gestore';
 	@override String get volume_button_page_turning => 'Cambia pagina con i tasti volume';
 	@override String get invert_volume_buttons => 'Inverti tasti volume';
-	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Velocità di scorrimento continuo';
 	@override String get extend_page_beyond_navbar => 'Estendi pagina oltre la barra di navigazione';
 	@override String get keep_screen_awake => 'Mantieni lo schermo acceso';
@@ -6090,7 +6119,6 @@ class _StringsIt extends _StringsEn {
 	@override String get anki_manage_profiles_hint => 'Configura la mappatura dei campi durante l\'esportazione verso AnkiDroid. Ogni profilo è collegato a un tipo di nota Anki e definisce quale campo hibiki riempie quale campo Anki.';
 	@override String get action_favorite => 'Preferito';
 	@override String get favorite_added => 'Frase salvata nei preferiti';
-	@override String get favorite_removed => 'Frase rimossa dai preferiti';
 	@override String favorites({required Object n}) => 'Preferiti (${n})';
 	@override String get no_favorites => 'Nessuna frase salvata';
 	@override String get favorites_title => 'Frasi preferite';
@@ -6238,6 +6266,14 @@ class _StringsIt extends _StringsEn {
 	@override String get jump_to_char_hint => 'Inserisci la posizione del carattere…';
 	@override String jump_to_char_current({required Object current, required Object total}) => 'Attuale: ${current} / ${total}';
 	@override String jump_to_char_out_of_range({required Object max}) => 'Fuori intervallo (max ${max})';
+	@override String get favorite_removed => 'Frase rimossa dai preferiti';
+	@override String get no_sentence_selected => 'Nessuna frase selezionata';
+	@override String get color_link => 'Colore link';
+	@override String get color_link_desc => 'Colore dei collegamenti nel lettore';
+	@override String get color_sasayaki => 'Evidenziazione Sasayaki';
+	@override String get color_sasayaki_desc => 'Evidenziazione sincronizzazione sottotitoli audiolibro';
+	@override String get invert_swipe_direction => 'Inverti direzione scorrimento per voltare pagina';
+	@override String get tap_empty_hide_chrome => 'Tocca un\'area vuota per nascondere i controlli';
 }
 
 // Path: retrying_in
@@ -6976,7 +7012,6 @@ class _StringsJa extends _StringsEn {
 	@override String get dictionary_type_term => '用語';
 	@override String get action_favorite => 'お気に入り';
 	@override String get favorite_added => 'お気に入りに追加しました';
-	@override String get favorite_removed => 'お気に入りから削除しました';
 	@override String favorites({required Object n}) => 'お気に入り (${n})';
 	@override String get no_favorites => 'お気に入りはありません';
 	@override String get favorites_title => 'お気に入りの文';
@@ -7114,6 +7149,12 @@ class _StringsJa extends _StringsEn {
 	@override String get import_step_reading_idb => '書籍情報を読み込み中…';
 	@override String get import_step_saving => 'レコードを保存中…';
 	@override String get stat_today_hourly => '今日の時間帯別';
+	@override String get favorite_removed => 'お気に入りから削除しました';
+	@override String get no_sentence_selected => '文が選択されていません';
+	@override String get color_link => 'リンクの色';
+	@override String get color_link_desc => 'リーダーのハイパーリンク色';
+	@override String get color_sasayaki => 'ささやきハイライト';
+	@override String get color_sasayaki_desc => 'オーディオブック字幕同期ハイライト';
 }
 
 // Path: retrying_in
@@ -7457,7 +7498,6 @@ class _StringsKo extends _StringsEn {
 	@override String get manager => '??';
 	@override String get volume_button_page_turning => '?? ???? ??? ???';
 	@override String get invert_volume_buttons => '?? ?? ??';
-	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => '?? ??? ??';
 	@override String get extend_page_beyond_navbar => '????? ? ??? ??? ??';
 	@override String get keep_screen_awake => '?? ?? ??';
@@ -7841,7 +7881,6 @@ class _StringsKo extends _StringsEn {
 	@override String get dictionary_type_term => '??';
 	@override String get action_favorite => '즐겨찾기';
 	@override String get favorite_added => '문장이 즐겨찾기에 저장되었습니다';
-	@override String get favorite_removed => '문장이 즐겨찾기에서 삭제되었습니다';
 	@override String favorites({required Object n}) => '즐겨찾기 (${n})';
 	@override String get no_favorites => '저장된 문장이 없습니다';
 	@override String get favorites_title => '즐겨찾기 문장';
@@ -7989,6 +8028,14 @@ class _StringsKo extends _StringsEn {
 	@override String get jump_to_char_hint => '문자 위치를 입력하세요…';
 	@override String jump_to_char_current({required Object current, required Object total}) => '현재: ${current} / ${total}';
 	@override String jump_to_char_out_of_range({required Object max}) => '범위 초과 (최대 ${max})';
+	@override String get favorite_removed => '즐겨찾기에서 제거됨';
+	@override String get no_sentence_selected => '선택한 문장이 없습니다';
+	@override String get color_link => '링크 색상';
+	@override String get color_link_desc => '리더 하이퍼링크 색상';
+	@override String get color_sasayaki => '사사야키 하이라이트';
+	@override String get color_sasayaki_desc => '오디오북 자막 동기화 하이라이트';
+	@override String get invert_swipe_direction => '스와이프 페이지 넘김 방향 반전';
+	@override String get tap_empty_hide_chrome => '빈 영역을 탭하여 컨트롤 숨기기';
 }
 
 // Path: retrying_in
@@ -8340,7 +8387,6 @@ class _StringsNl extends _StringsEn {
 	@override String get manager => 'Beheerder';
 	@override String get volume_button_page_turning => 'Pagina\'s omslaan met volumeknoppen';
 	@override String get invert_volume_buttons => 'Volumeknoppen omkeren';
-	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Continue scrollsnelheid';
 	@override String get extend_page_beyond_navbar => 'Pagina voorbij navigatiebalk uitbreiden';
 	@override String get keep_screen_awake => 'Scherm aan houden';
@@ -8716,7 +8762,6 @@ class _StringsNl extends _StringsEn {
 	@override String get anki_manage_profiles_hint => 'Configureer de veldmapping bij het exporteren naar AnkiDroid. Elk profiel is gekoppeld aan een Anki-notitietype en bepaalt welk hibiki-veld welk Anki-veld vult.';
 	@override String get action_favorite => 'Favoriet';
 	@override String get favorite_added => 'Zin opgeslagen in favorieten';
-	@override String get favorite_removed => 'Zin verwijderd uit favorieten';
 	@override String favorites({required Object n}) => 'Favorieten (${n})';
 	@override String get no_favorites => 'Geen opgeslagen zinnen';
 	@override String get favorites_title => 'Favoriete zinnen';
@@ -8864,6 +8909,14 @@ class _StringsNl extends _StringsEn {
 	@override String get jump_to_char_hint => 'Voer tekenpositie in…';
 	@override String jump_to_char_current({required Object current, required Object total}) => 'Huidig: ${current} / ${total}';
 	@override String jump_to_char_out_of_range({required Object max}) => 'Buiten bereik (max ${max})';
+	@override String get favorite_removed => 'Zin verwijderd uit favorieten';
+	@override String get no_sentence_selected => 'Geen zin geselecteerd';
+	@override String get color_link => 'Linkkleur';
+	@override String get color_link_desc => 'Hyperlinkkleur in de lezer';
+	@override String get color_sasayaki => 'Sasayaki-markering';
+	@override String get color_sasayaki_desc => 'Markering van ondertitelsynchronisatie van het luisterboek';
+	@override String get invert_swipe_direction => 'Veegrichting voor bladeren omdraaien';
+	@override String get tap_empty_hide_chrome => 'Tik op een leeg gebied om bedieningselementen te verbergen';
 }
 
 // Path: retrying_in
@@ -9207,7 +9260,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get manager => 'Gerenciador';
 	@override String get volume_button_page_turning => 'Virar página com bot?o de volume';
 	@override String get invert_volume_buttons => 'Inverter bot?es de volume';
-	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Velocidade de rolagem contínua';
 	@override String get extend_page_beyond_navbar => 'Estender página além da barra de navega??o';
 	@override String get keep_screen_awake => 'Manter tela ligada';
@@ -9591,7 +9643,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get dictionary_type_term => 'Termo';
 	@override String get action_favorite => 'Favorito';
 	@override String get favorite_added => 'Frase salva nos favoritos';
-	@override String get favorite_removed => 'Frase removida dos favoritos';
 	@override String favorites({required Object n}) => 'Favoritos (${n})';
 	@override String get no_favorites => 'Nenhuma frase salva';
 	@override String get favorites_title => 'Frases favoritas';
@@ -9739,6 +9790,14 @@ class _StringsPtBr extends _StringsEn {
 	@override String get jump_to_char_hint => 'Digite a posição do caractere…';
 	@override String jump_to_char_current({required Object current, required Object total}) => 'Atual: ${current} / ${total}';
 	@override String jump_to_char_out_of_range({required Object max}) => 'Fora do intervalo (máx ${max})';
+	@override String get favorite_removed => 'Frase removida dos favoritos';
+	@override String get no_sentence_selected => 'Nenhuma frase selecionada';
+	@override String get color_link => 'Cor do link';
+	@override String get color_link_desc => 'Cor dos hiperlinks do leitor';
+	@override String get color_sasayaki => 'Destaque Sasayaki';
+	@override String get color_sasayaki_desc => 'Destaque de sincronização de legendas do audiolivro';
+	@override String get invert_swipe_direction => 'Inverter direção do deslizar para virar páginas';
+	@override String get tap_empty_hide_chrome => 'Toque em uma área vazia para ocultar os controles';
 }
 
 // Path: retrying_in
@@ -10082,7 +10141,6 @@ class _StringsRu extends _StringsEn {
 	@override String get manager => 'Менеджер';
 	@override String get volume_button_page_turning => 'Перелистывание кнопками громкости';
 	@override String get invert_volume_buttons => 'Инвертировать кнопки громкости';
-	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Скорость непрерывной прокрутки';
 	@override String get extend_page_beyond_navbar => 'Расширить страницу за навигационную панель';
 	@override String get keep_screen_awake => 'Не выключать экран';
@@ -10466,7 +10524,6 @@ class _StringsRu extends _StringsEn {
 	@override String get dictionary_type_term => 'Термин';
 	@override String get action_favorite => 'В избранное';
 	@override String get favorite_added => 'Предложение сохранено в избранное';
-	@override String get favorite_removed => 'Предложение удалено из избранного';
 	@override String favorites({required Object n}) => 'Избранное (${n})';
 	@override String get no_favorites => 'Нет сохранённых предложений';
 	@override String get favorites_title => 'Избранные предложения';
@@ -10614,6 +10671,14 @@ class _StringsRu extends _StringsEn {
 	@override String get jump_to_char_hint => 'Введите позицию символа…';
 	@override String jump_to_char_current({required Object current, required Object total}) => 'Текущая: ${current} / ${total}';
 	@override String jump_to_char_out_of_range({required Object max}) => 'Вне диапазона (макс. ${max})';
+	@override String get favorite_removed => 'Предложение удалено из избранного';
+	@override String get no_sentence_selected => 'Предложение не выбрано';
+	@override String get color_link => 'Цвет ссылки';
+	@override String get color_link_desc => 'Цвет гиперссылок в ридере';
+	@override String get color_sasayaki => 'Подсветка Sasayaki';
+	@override String get color_sasayaki_desc => 'Подсветка синхронизации субтитров аудиокниги';
+	@override String get invert_swipe_direction => 'Инвертировать направление свайпа для перелистывания';
+	@override String get tap_empty_hide_chrome => 'Нажмите на пустую область, чтобы скрыть панели управления';
 }
 
 // Path: retrying_in
@@ -10957,7 +11022,6 @@ class _StringsTh extends _StringsEn {
 	@override String get manager => '??????';
 	@override String get volume_button_page_turning => '???????????????????????';
 	@override String get invert_volume_buttons => '?????????????';
-	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => '???????????????????????';
 	@override String get extend_page_beyond_navbar => '????????????????????';
 	@override String get keep_screen_awake => '??????????????';
@@ -11341,7 +11405,6 @@ class _StringsTh extends _StringsEn {
 	@override String get dictionary_type_term => '???????';
 	@override String get action_favorite => 'ชื่นชอบ';
 	@override String get favorite_added => 'บันทึกประโยคไว้ในรายการโปรดแล้ว';
-	@override String get favorite_removed => 'ลบประโยคออกจากรายการโปรดแล้ว';
 	@override String favorites({required Object n}) => 'รายการโปรด (${n})';
 	@override String get no_favorites => 'ไม่มีประโยคที่บันทึกไว้';
 	@override String get favorites_title => 'ประโยคที่ชื่นชอบ';
@@ -11489,6 +11552,14 @@ class _StringsTh extends _StringsEn {
 	@override String get jump_to_char_hint => 'ป้อนตำแหน่งอักขระ…';
 	@override String jump_to_char_current({required Object current, required Object total}) => 'ปัจจุบัน: ${current} / ${total}';
 	@override String jump_to_char_out_of_range({required Object max}) => 'นอกช่วง (สูงสุด ${max})';
+	@override String get favorite_removed => 'ลบประโยคออกจากรายการโปรดแล้ว';
+	@override String get no_sentence_selected => 'ไม่ได้เลือกประโยค';
+	@override String get color_link => 'สีลิงก์';
+	@override String get color_link_desc => 'สีไฮเปอร์ลิงก์ในตัวอ่าน';
+	@override String get color_sasayaki => 'ไฮไลท์ Sasayaki';
+	@override String get color_sasayaki_desc => 'ไฮไลท์การซิงค์คำบรรยายหนังสือเสียง';
+	@override String get invert_swipe_direction => 'กลับทิศทางการปัดเปลี่ยนหน้า';
+	@override String get tap_empty_hide_chrome => 'แตะพื้นที่ว่างเพื่อซ่อนแถบควบคุม';
 }
 
 // Path: retrying_in
@@ -11840,7 +11911,6 @@ class _StringsTr extends _StringsEn {
 	@override String get manager => 'Y?netici';
 	@override String get volume_button_page_turning => 'Ses dü?meleriyle sayfa ?evirme';
 	@override String get invert_volume_buttons => 'Ses dü?melerini ters ?evir';
-	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'Sürekli kayd?rma h?z?';
 	@override String get extend_page_beyond_navbar => 'Sayfay? gezinme ?ubu?unun ?tesine geni?let';
 	@override String get keep_screen_awake => 'Ekran? a??k tut';
@@ -12216,7 +12286,6 @@ class _StringsTr extends _StringsEn {
 	@override String get anki_manage_profiles_hint => 'AnkiDroid\'a d??a aktar?rken alan e?lemesini yap?land?r?n. Her profil bir Anki not türüne ba?l?d?r ve hangi hibiki alan?n?n hangi Anki alan?n? dolduraca??n? tan?mlar.';
 	@override String get action_favorite => 'Favorilere ekle';
 	@override String get favorite_added => 'Cümle favorilere kaydedildi';
-	@override String get favorite_removed => 'Cümle favorilerden kaldırıldı';
 	@override String favorites({required Object n}) => 'Favoriler (${n})';
 	@override String get no_favorites => 'Kaydedilmiş cümle yok';
 	@override String get favorites_title => 'Favori Cümleler';
@@ -12364,6 +12433,14 @@ class _StringsTr extends _StringsEn {
 	@override String get jump_to_char_hint => 'Karakter konumu girin…';
 	@override String jump_to_char_current({required Object current, required Object total}) => 'Mevcut: ${current} / ${total}';
 	@override String jump_to_char_out_of_range({required Object max}) => 'Aralık dışı (maks ${max})';
+	@override String get favorite_removed => 'Cümle favorilerden kaldırıldı';
+	@override String get no_sentence_selected => 'Cümle seçilmedi';
+	@override String get color_link => 'Bağlantı rengi';
+	@override String get color_link_desc => 'Okuyucu köprü rengi';
+	@override String get color_sasayaki => 'Sasayaki vurgusu';
+	@override String get color_sasayaki_desc => 'Sesli kitap altyazı senkronizasyon vurgusu';
+	@override String get invert_swipe_direction => 'Kaydırma yönünü tersine çevir';
+	@override String get tap_empty_hide_chrome => 'Kontrolleri gizlemek için boş alana dokunun';
 }
 
 // Path: retrying_in
@@ -12707,7 +12784,6 @@ class _StringsVi extends _StringsEn {
 	@override String get manager => 'Qu?n ly';
 	@override String get volume_button_page_turning => 'L?t trang b?ng nút am l??ng';
 	@override String get invert_volume_buttons => '??o ng??c nút am l??ng';
-	@override String get invert_swipe_direction => 'Invert swipe page turn direction';
 	@override String get volume_button_turning_speed => 'T?c ?? cu?n liên t?c';
 	@override String get extend_page_beyond_navbar => 'M? r?ng trang qua thanh ?i?u h??ng';
 	@override String get keep_screen_awake => 'Gi? màn hình sáng';
@@ -13091,7 +13167,6 @@ class _StringsVi extends _StringsEn {
 	@override String get dictionary_type_term => 'Thu?t ng?';
 	@override String get action_favorite => 'Yêu thích';
 	@override String get favorite_added => 'Đã lưu câu vào mục yêu thích';
-	@override String get favorite_removed => 'Đã xóa câu khỏi mục yêu thích';
 	@override String favorites({required Object n}) => 'Yêu thích (${n})';
 	@override String get no_favorites => 'Chưa có câu nào được lưu';
 	@override String get favorites_title => 'Câu yêu thích';
@@ -13239,6 +13314,14 @@ class _StringsVi extends _StringsEn {
 	@override String get jump_to_char_hint => 'Nhập vị trí ký tự…';
 	@override String jump_to_char_current({required Object current, required Object total}) => 'Hiện tại: ${current} / ${total}';
 	@override String jump_to_char_out_of_range({required Object max}) => 'Ngoài phạm vi (tối đa ${max})';
+	@override String get favorite_removed => 'Đã xóa câu khỏi mục yêu thích';
+	@override String get no_sentence_selected => 'Chưa chọn câu nào';
+	@override String get color_link => 'Màu liên kết';
+	@override String get color_link_desc => 'Màu siêu liên kết trong trình đọc';
+	@override String get color_sasayaki => 'Tô sáng Sasayaki';
+	@override String get color_sasayaki_desc => 'Tô sáng đồng bộ phụ đề sách nói';
+	@override String get invert_swipe_direction => 'Đảo ngược hướng vuốt lật trang';
+	@override String get tap_empty_hide_chrome => 'Chạm vùng trống để ẩn thanh điều khiển';
 }
 
 // Path: retrying_in
@@ -14034,7 +14117,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String get anki_manage_profiles_hint => '配置导出到 AnkiDroid 时各字段的映射方式。每个配置绑定一个 Anki 笔记类型，定义 hibiki 的哪个字段填充 Anki 的哪个字段。';
 	@override String get action_favorite => '收藏';
 	@override String get favorite_added => '句子已收藏';
-	@override String get favorite_removed => '句子已取消收藏';
 	@override String favorites({required Object n}) => '收藏 (${n})';
 	@override String get no_favorites => '暂无收藏句子';
 	@override String get favorites_title => '收藏的句子';
@@ -14119,6 +14201,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get creator_action_add_to_stash => '添加到暂存';
 	@override String get creator_action_play_audio => '播放音频';
 	@override String get creator_action_share => '分享';
+	@override String get favorite_removed => '句子已取消收藏。';
+	@override String get no_sentence_selected => '未选择句子';
 }
 
 // Path: retrying_in
@@ -14857,7 +14941,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String get dictionary_type_term => '釋義';
 	@override String get action_favorite => '收藏';
 	@override String get favorite_added => '句子已收藏';
-	@override String get favorite_removed => '句子已取消收藏';
 	@override String favorites({required Object n}) => '收藏 (${n})';
 	@override String get no_favorites => '暫無收藏句子';
 	@override String get favorites_title => '收藏的句子';
@@ -14994,6 +15077,13 @@ class _StringsZhHk extends _StringsEn {
 	@override String get import_step_reading_idb => '讀取書籍資訊…';
 	@override String get import_step_saving => '儲存記錄…';
 	@override String get stat_today_hourly => '今日按時段';
+	@override String get favorite_removed => '句子已取消收藏。';
+	@override String get no_sentence_selected => '未選擇句子';
+	@override String get tap_empty_hide_chrome => '點擊空白處隱藏控制列';
+	@override String get color_link => '連結顏色';
+	@override String get color_link_desc => '閱讀器超連結顏色';
+	@override String get color_sasayaki => 'Sasayaki 醒目標示';
+	@override String get color_sasayaki_desc => '有聲書字幕同步醒目標示';
 }
 
 // Path: retrying_in
@@ -16164,7 +16254,6 @@ extension on _StringsAr {
 			case 'manager': return 'المدير';
 			case 'volume_button_page_turning': return 'تقليب الصفحات بأزرار الصوت';
 			case 'invert_volume_buttons': return 'عكس أزرار الصوت';
-			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'سرعة تقليب الصفحات';
 			case 'extend_page_beyond_navbar': return 'تمديد الصفحة خلف شريط التنقل';
 			case 'keep_screen_awake': return 'إبقاء الشاشة مستيقظة';
@@ -16558,7 +16647,6 @@ extension on _StringsAr {
 			case 'anki_manage_profiles_hint': return 'ضبط كيفية ربط حقول البطاقات عند التصدير إلى AnkiDroid. كل ملف يرتبط بنوع ملاحظة Anki ويحدد أي حقل hibiki يملأ أي حقل Anki.';
 			case 'action_favorite': return 'مفضّلة';
 			case 'favorite_added': return 'تم حفظ الجملة في المفضّلات';
-			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => 'المفضّلات (${n})';
 			case 'no_favorites': return 'لا توجد جمل محفوظة';
 			case 'favorites_title': return 'الجمل المفضّلة';
@@ -16694,6 +16782,14 @@ extension on _StringsAr {
 			case 'jump_to_char_hint': return 'أدخل موضع الحرف…';
 			case 'jump_to_char_current': return ({required Object current, required Object total}) => 'الحالي: ${current} / ${total}';
 			case 'jump_to_char_out_of_range': return ({required Object max}) => 'خارج النطاق (الحد الأقصى ${max})';
+			case 'favorite_removed': return 'تمت إزالة الجملة من المفضلة';
+			case 'no_sentence_selected': return 'لم يتم اختيار جملة';
+			case 'color_link': return 'لون الرابط';
+			case 'color_link_desc': return 'لون الروابط في القارئ';
+			case 'color_sasayaki': return 'تمييز Sasayaki';
+			case 'color_sasayaki_desc': return 'تمييز مزامنة ترجمة الكتاب المسموع';
+			case 'invert_swipe_direction': return 'عكس اتجاه التمرير لقلب الصفحات';
+			case 'tap_empty_hide_chrome': return 'انقر على المنطقة الفارغة لإخفاء عناصر التحكم';
 			default: return null;
 		}
 	}
@@ -16990,7 +17086,6 @@ extension on _StringsDe {
 			case 'manager': return 'Verwalter';
 			case 'volume_button_page_turning': return 'Seitenbl?ttern mit Lautst?rketasten';
 			case 'invert_volume_buttons': return 'Lautst?rketasten invertieren';
-			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Kontinuierliche Scrollgeschwindigkeit';
 			case 'extend_page_beyond_navbar': return 'Seite über Navigationsleiste hinaus erweitern';
 			case 'keep_screen_awake': return 'Bildschirm eingeschaltet lassen';
@@ -17380,7 +17475,6 @@ extension on _StringsDe {
 			case 'dictionary_type_term': return 'Begriff';
 			case 'action_favorite': return 'Favorit';
 			case 'favorite_added': return 'Satz in Favoriten gespeichert';
-			case 'favorite_removed': return 'Satz aus Favoriten entfernt';
 			case 'favorites': return ({required Object n}) => 'Favoriten (${n})';
 			case 'no_favorites': return 'Keine gespeicherten Sätze';
 			case 'favorites_title': return 'Gespeicherte Sätze';
@@ -17528,6 +17622,14 @@ extension on _StringsDe {
 			case 'jump_to_char_hint': return 'Zeichenposition eingeben…';
 			case 'jump_to_char_current': return ({required Object current, required Object total}) => 'Aktuell: ${current} / ${total}';
 			case 'jump_to_char_out_of_range': return ({required Object max}) => 'Außerhalb des Bereichs (max. ${max})';
+			case 'favorite_removed': return 'Satz aus Favoriten entfernt';
+			case 'no_sentence_selected': return 'Kein Satz ausgewählt';
+			case 'color_link': return 'Linkfarbe';
+			case 'color_link_desc': return 'Hyperlink-Farbe im Reader';
+			case 'color_sasayaki': return 'Sasayaki-Hervorhebung';
+			case 'color_sasayaki_desc': return 'Untertitel-Synchronisierung des Hörbuchs';
+			case 'invert_swipe_direction': return 'Wischrichtung zum Blättern umkehren';
+			case 'tap_empty_hide_chrome': return 'Auf leeren Bereich tippen, um Steuerung auszublenden';
 			default: return null;
 		}
 	}
@@ -17824,7 +17926,6 @@ extension on _StringsEs {
 			case 'manager': return 'Gestor';
 			case 'volume_button_page_turning': return 'Pasar página con botones de volumen';
 			case 'invert_volume_buttons': return 'Invertir botones de volumen';
-			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Velocidad de desplazamiento continuo';
 			case 'extend_page_beyond_navbar': return 'Extender página más allá de la barra de navegación';
 			case 'keep_screen_awake': return 'Mantener pantalla encendida';
@@ -18214,7 +18315,6 @@ extension on _StringsEs {
 			case 'dictionary_type_term': return 'Término';
 			case 'action_favorite': return 'Favorito';
 			case 'favorite_added': return 'Oración guardada en favoritos';
-			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => 'Favoritos (${n})';
 			case 'no_favorites': return 'No hay oraciones guardadas';
 			case 'favorites_title': return 'Oraciones favoritas';
@@ -18362,6 +18462,14 @@ extension on _StringsEs {
 			case 'jump_to_char_hint': return 'Introduce la posición del carácter…';
 			case 'jump_to_char_current': return ({required Object current, required Object total}) => 'Actual: ${current} / ${total}';
 			case 'jump_to_char_out_of_range': return ({required Object max}) => 'Fuera de rango (máx ${max})';
+			case 'favorite_removed': return 'Frase eliminada de favoritos';
+			case 'no_sentence_selected': return 'No se ha seleccionado ninguna frase';
+			case 'color_link': return 'Color de enlace';
+			case 'color_link_desc': return 'Color de los hipervínculos del lector';
+			case 'color_sasayaki': return 'Resaltado Sasayaki';
+			case 'color_sasayaki_desc': return 'Resaltado de sincronización de subtítulos del audiolibro';
+			case 'invert_swipe_direction': return 'Invertir dirección de deslizamiento para pasar páginas';
+			case 'tap_empty_hide_chrome': return 'Toca un área vacía para ocultar los controles';
 			default: return null;
 		}
 	}
@@ -18658,7 +18766,6 @@ extension on _StringsFr {
 			case 'manager': return 'Gestionnaire';
 			case 'volume_button_page_turning': return 'Tourner les pages avec les boutons de volume';
 			case 'invert_volume_buttons': return 'Inverser les boutons de volume';
-			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Vitesse de défilement continu';
 			case 'extend_page_beyond_navbar': return 'étendre la page au-delà de la barre de navigation';
 			case 'keep_screen_awake': return 'Garder l\'écran allumé';
@@ -19048,7 +19155,6 @@ extension on _StringsFr {
 			case 'dictionary_type_term': return 'Terme';
 			case 'action_favorite': return 'Favori';
 			case 'favorite_added': return 'Phrase enregistrée dans les favoris';
-			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => 'Favoris (${n})';
 			case 'no_favorites': return 'Aucune phrase enregistrée';
 			case 'favorites_title': return 'Phrases favorites';
@@ -19196,6 +19302,14 @@ extension on _StringsFr {
 			case 'jump_to_char_hint': return 'Entrez la position du caractère…';
 			case 'jump_to_char_current': return ({required Object current, required Object total}) => 'Actuel : ${current} / ${total}';
 			case 'jump_to_char_out_of_range': return ({required Object max}) => 'Hors limites (max ${max})';
+			case 'favorite_removed': return 'Phrase retirée des favoris';
+			case 'no_sentence_selected': return 'Aucune phrase sélectionnée';
+			case 'color_link': return 'Couleur des liens';
+			case 'color_link_desc': return 'Couleur des hyperliens du lecteur';
+			case 'color_sasayaki': return 'Surlignage Sasayaki';
+			case 'color_sasayaki_desc': return 'Surlignage de synchronisation des sous-titres du livre audio';
+			case 'invert_swipe_direction': return 'Inverser la direction du balayage pour tourner les pages';
+			case 'tap_empty_hide_chrome': return 'Appuyez sur une zone vide pour masquer les contrôles';
 			default: return null;
 		}
 	}
@@ -19492,7 +19606,6 @@ extension on _StringsId {
 			case 'manager': return 'Manajer';
 			case 'volume_button_page_turning': return 'Tombol volume untuk ganti halaman';
 			case 'invert_volume_buttons': return 'Balik tombol volume';
-			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Kecepatan scroll berkelanjutan';
 			case 'extend_page_beyond_navbar': return 'Perluas halaman melewati navigation bar';
 			case 'keep_screen_awake': return 'Layar selalu menyala';
@@ -19882,7 +19995,6 @@ extension on _StringsId {
 			case 'dictionary_type_term': return 'Istilah';
 			case 'action_favorite': return 'Favorit';
 			case 'favorite_added': return 'Kalimat disimpan ke favorit';
-			case 'favorite_removed': return 'Kalimat dihapus dari favorit';
 			case 'favorites': return ({required Object n}) => 'Favorit (${n})';
 			case 'no_favorites': return 'Tidak ada kalimat tersimpan';
 			case 'favorites_title': return 'Kalimat Favorit';
@@ -20030,6 +20142,14 @@ extension on _StringsId {
 			case 'jump_to_char_hint': return 'Masukkan posisi karakter…';
 			case 'jump_to_char_current': return ({required Object current, required Object total}) => 'Saat ini: ${current} / ${total}';
 			case 'jump_to_char_out_of_range': return ({required Object max}) => 'Di luar jangkauan (maks ${max})';
+			case 'favorite_removed': return 'Kalimat dihapus dari favorit';
+			case 'no_sentence_selected': return 'Tidak ada kalimat yang dipilih';
+			case 'color_link': return 'Warna tautan';
+			case 'color_link_desc': return 'Warna hyperlink di pembaca';
+			case 'color_sasayaki': return 'Sorotan Sasayaki';
+			case 'color_sasayaki_desc': return 'Sorotan sinkronisasi subtitle buku audio';
+			case 'invert_swipe_direction': return 'Balik arah geser untuk membalik halaman';
+			case 'tap_empty_hide_chrome': return 'Ketuk area kosong untuk menyembunyikan kontrol';
 			default: return null;
 		}
 	}
@@ -20334,7 +20454,6 @@ extension on _StringsIt {
 			case 'manager': return 'Gestore';
 			case 'volume_button_page_turning': return 'Cambia pagina con i tasti volume';
 			case 'invert_volume_buttons': return 'Inverti tasti volume';
-			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Velocità di scorrimento continuo';
 			case 'extend_page_beyond_navbar': return 'Estendi pagina oltre la barra di navigazione';
 			case 'keep_screen_awake': return 'Mantieni lo schermo acceso';
@@ -20716,7 +20835,6 @@ extension on _StringsIt {
 			case 'anki_manage_profiles_hint': return 'Configura la mappatura dei campi durante l\'esportazione verso AnkiDroid. Ogni profilo è collegato a un tipo di nota Anki e definisce quale campo hibiki riempie quale campo Anki.';
 			case 'action_favorite': return 'Preferito';
 			case 'favorite_added': return 'Frase salvata nei preferiti';
-			case 'favorite_removed': return 'Frase rimossa dai preferiti';
 			case 'favorites': return ({required Object n}) => 'Preferiti (${n})';
 			case 'no_favorites': return 'Nessuna frase salvata';
 			case 'favorites_title': return 'Frasi preferite';
@@ -20864,6 +20982,14 @@ extension on _StringsIt {
 			case 'jump_to_char_hint': return 'Inserisci la posizione del carattere…';
 			case 'jump_to_char_current': return ({required Object current, required Object total}) => 'Attuale: ${current} / ${total}';
 			case 'jump_to_char_out_of_range': return ({required Object max}) => 'Fuori intervallo (max ${max})';
+			case 'favorite_removed': return 'Frase rimossa dai preferiti';
+			case 'no_sentence_selected': return 'Nessuna frase selezionata';
+			case 'color_link': return 'Colore link';
+			case 'color_link_desc': return 'Colore dei collegamenti nel lettore';
+			case 'color_sasayaki': return 'Evidenziazione Sasayaki';
+			case 'color_sasayaki_desc': return 'Evidenziazione sincronizzazione sottotitoli audiolibro';
+			case 'invert_swipe_direction': return 'Inverti direzione scorrimento per voltare pagina';
+			case 'tap_empty_hide_chrome': return 'Tocca un\'area vuota per nascondere i controlli';
 			default: return null;
 		}
 	}
@@ -21561,7 +21687,6 @@ extension on _StringsJa {
 			case 'dictionary_type_term': return '用語';
 			case 'action_favorite': return 'お気に入り';
 			case 'favorite_added': return 'お気に入りに追加しました';
-			case 'favorite_removed': return 'お気に入りから削除しました';
 			case 'favorites': return ({required Object n}) => 'お気に入り (${n})';
 			case 'no_favorites': return 'お気に入りはありません';
 			case 'favorites_title': return 'お気に入りの文';
@@ -21699,6 +21824,12 @@ extension on _StringsJa {
 			case 'import_step_reading_idb': return '書籍情報を読み込み中…';
 			case 'import_step_saving': return 'レコードを保存中…';
 			case 'stat_today_hourly': return '今日の時間帯別';
+			case 'favorite_removed': return 'お気に入りから削除しました';
+			case 'no_sentence_selected': return '文が選択されていません';
+			case 'color_link': return 'リンクの色';
+			case 'color_link_desc': return 'リーダーのハイパーリンク色';
+			case 'color_sasayaki': return 'ささやきハイライト';
+			case 'color_sasayaki_desc': return 'オーディオブック字幕同期ハイライト';
 			default: return null;
 		}
 	}
@@ -21995,7 +22126,6 @@ extension on _StringsKo {
 			case 'manager': return '??';
 			case 'volume_button_page_turning': return '?? ???? ??? ???';
 			case 'invert_volume_buttons': return '?? ?? ??';
-			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return '?? ??? ??';
 			case 'extend_page_beyond_navbar': return '????? ? ??? ??? ??';
 			case 'keep_screen_awake': return '?? ?? ??';
@@ -22385,7 +22515,6 @@ extension on _StringsKo {
 			case 'dictionary_type_term': return '??';
 			case 'action_favorite': return '즐겨찾기';
 			case 'favorite_added': return '문장이 즐겨찾기에 저장되었습니다';
-			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => '즐겨찾기 (${n})';
 			case 'no_favorites': return '저장된 문장이 없습니다';
 			case 'favorites_title': return '즐겨찾기 문장';
@@ -22533,6 +22662,14 @@ extension on _StringsKo {
 			case 'jump_to_char_hint': return '문자 위치를 입력하세요…';
 			case 'jump_to_char_current': return ({required Object current, required Object total}) => '현재: ${current} / ${total}';
 			case 'jump_to_char_out_of_range': return ({required Object max}) => '범위 초과 (최대 ${max})';
+			case 'favorite_removed': return '즐겨찾기에서 제거됨';
+			case 'no_sentence_selected': return '선택한 문장이 없습니다';
+			case 'color_link': return '링크 색상';
+			case 'color_link_desc': return '리더 하이퍼링크 색상';
+			case 'color_sasayaki': return '사사야키 하이라이트';
+			case 'color_sasayaki_desc': return '오디오북 자막 동기화 하이라이트';
+			case 'invert_swipe_direction': return '스와이프 페이지 넘김 방향 반전';
+			case 'tap_empty_hide_chrome': return '빈 영역을 탭하여 컨트롤 숨기기';
 			default: return null;
 		}
 	}
@@ -22837,7 +22974,6 @@ extension on _StringsNl {
 			case 'manager': return 'Beheerder';
 			case 'volume_button_page_turning': return 'Pagina\'s omslaan met volumeknoppen';
 			case 'invert_volume_buttons': return 'Volumeknoppen omkeren';
-			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Continue scrollsnelheid';
 			case 'extend_page_beyond_navbar': return 'Pagina voorbij navigatiebalk uitbreiden';
 			case 'keep_screen_awake': return 'Scherm aan houden';
@@ -23219,7 +23355,6 @@ extension on _StringsNl {
 			case 'anki_manage_profiles_hint': return 'Configureer de veldmapping bij het exporteren naar AnkiDroid. Elk profiel is gekoppeld aan een Anki-notitietype en bepaalt welk hibiki-veld welk Anki-veld vult.';
 			case 'action_favorite': return 'Favoriet';
 			case 'favorite_added': return 'Zin opgeslagen in favorieten';
-			case 'favorite_removed': return 'Zin verwijderd uit favorieten';
 			case 'favorites': return ({required Object n}) => 'Favorieten (${n})';
 			case 'no_favorites': return 'Geen opgeslagen zinnen';
 			case 'favorites_title': return 'Favoriete zinnen';
@@ -23367,6 +23502,14 @@ extension on _StringsNl {
 			case 'jump_to_char_hint': return 'Voer tekenpositie in…';
 			case 'jump_to_char_current': return ({required Object current, required Object total}) => 'Huidig: ${current} / ${total}';
 			case 'jump_to_char_out_of_range': return ({required Object max}) => 'Buiten bereik (max ${max})';
+			case 'favorite_removed': return 'Zin verwijderd uit favorieten';
+			case 'no_sentence_selected': return 'Geen zin geselecteerd';
+			case 'color_link': return 'Linkkleur';
+			case 'color_link_desc': return 'Hyperlinkkleur in de lezer';
+			case 'color_sasayaki': return 'Sasayaki-markering';
+			case 'color_sasayaki_desc': return 'Markering van ondertitelsynchronisatie van het luisterboek';
+			case 'invert_swipe_direction': return 'Veegrichting voor bladeren omdraaien';
+			case 'tap_empty_hide_chrome': return 'Tik op een leeg gebied om bedieningselementen te verbergen';
 			default: return null;
 		}
 	}
@@ -23663,7 +23806,6 @@ extension on _StringsPtBr {
 			case 'manager': return 'Gerenciador';
 			case 'volume_button_page_turning': return 'Virar página com bot?o de volume';
 			case 'invert_volume_buttons': return 'Inverter bot?es de volume';
-			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Velocidade de rolagem contínua';
 			case 'extend_page_beyond_navbar': return 'Estender página além da barra de navega??o';
 			case 'keep_screen_awake': return 'Manter tela ligada';
@@ -24053,7 +24195,6 @@ extension on _StringsPtBr {
 			case 'dictionary_type_term': return 'Termo';
 			case 'action_favorite': return 'Favorito';
 			case 'favorite_added': return 'Frase salva nos favoritos';
-			case 'favorite_removed': return 'Frase removida dos favoritos';
 			case 'favorites': return ({required Object n}) => 'Favoritos (${n})';
 			case 'no_favorites': return 'Nenhuma frase salva';
 			case 'favorites_title': return 'Frases favoritas';
@@ -24201,6 +24342,14 @@ extension on _StringsPtBr {
 			case 'jump_to_char_hint': return 'Digite a posição do caractere…';
 			case 'jump_to_char_current': return ({required Object current, required Object total}) => 'Atual: ${current} / ${total}';
 			case 'jump_to_char_out_of_range': return ({required Object max}) => 'Fora do intervalo (máx ${max})';
+			case 'favorite_removed': return 'Frase removida dos favoritos';
+			case 'no_sentence_selected': return 'Nenhuma frase selecionada';
+			case 'color_link': return 'Cor do link';
+			case 'color_link_desc': return 'Cor dos hiperlinks do leitor';
+			case 'color_sasayaki': return 'Destaque Sasayaki';
+			case 'color_sasayaki_desc': return 'Destaque de sincronização de legendas do audiolivro';
+			case 'invert_swipe_direction': return 'Inverter direção do deslizar para virar páginas';
+			case 'tap_empty_hide_chrome': return 'Toque em uma área vazia para ocultar os controles';
 			default: return null;
 		}
 	}
@@ -24497,7 +24646,6 @@ extension on _StringsRu {
 			case 'manager': return 'Менеджер';
 			case 'volume_button_page_turning': return 'Перелистывание кнопками громкости';
 			case 'invert_volume_buttons': return 'Инвертировать кнопки громкости';
-			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Скорость непрерывной прокрутки';
 			case 'extend_page_beyond_navbar': return 'Расширить страницу за навигационную панель';
 			case 'keep_screen_awake': return 'Не выключать экран';
@@ -24887,7 +25035,6 @@ extension on _StringsRu {
 			case 'dictionary_type_term': return 'Термин';
 			case 'action_favorite': return 'В избранное';
 			case 'favorite_added': return 'Предложение сохранено в избранное';
-			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => 'Избранное (${n})';
 			case 'no_favorites': return 'Нет сохранённых предложений';
 			case 'favorites_title': return 'Избранные предложения';
@@ -25035,6 +25182,14 @@ extension on _StringsRu {
 			case 'jump_to_char_hint': return 'Введите позицию символа…';
 			case 'jump_to_char_current': return ({required Object current, required Object total}) => 'Текущая: ${current} / ${total}';
 			case 'jump_to_char_out_of_range': return ({required Object max}) => 'Вне диапазона (макс. ${max})';
+			case 'favorite_removed': return 'Предложение удалено из избранного';
+			case 'no_sentence_selected': return 'Предложение не выбрано';
+			case 'color_link': return 'Цвет ссылки';
+			case 'color_link_desc': return 'Цвет гиперссылок в ридере';
+			case 'color_sasayaki': return 'Подсветка Sasayaki';
+			case 'color_sasayaki_desc': return 'Подсветка синхронизации субтитров аудиокниги';
+			case 'invert_swipe_direction': return 'Инвертировать направление свайпа для перелистывания';
+			case 'tap_empty_hide_chrome': return 'Нажмите на пустую область, чтобы скрыть панели управления';
 			default: return null;
 		}
 	}
@@ -25331,7 +25486,6 @@ extension on _StringsTh {
 			case 'manager': return '??????';
 			case 'volume_button_page_turning': return '???????????????????????';
 			case 'invert_volume_buttons': return '?????????????';
-			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return '???????????????????????';
 			case 'extend_page_beyond_navbar': return '????????????????????';
 			case 'keep_screen_awake': return '??????????????';
@@ -25721,7 +25875,6 @@ extension on _StringsTh {
 			case 'dictionary_type_term': return '???????';
 			case 'action_favorite': return 'ชื่นชอบ';
 			case 'favorite_added': return 'บันทึกประโยคไว้ในรายการโปรดแล้ว';
-			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => 'รายการโปรด (${n})';
 			case 'no_favorites': return 'ไม่มีประโยคที่บันทึกไว้';
 			case 'favorites_title': return 'ประโยคที่ชื่นชอบ';
@@ -25869,6 +26022,14 @@ extension on _StringsTh {
 			case 'jump_to_char_hint': return 'ป้อนตำแหน่งอักขระ…';
 			case 'jump_to_char_current': return ({required Object current, required Object total}) => 'ปัจจุบัน: ${current} / ${total}';
 			case 'jump_to_char_out_of_range': return ({required Object max}) => 'นอกช่วง (สูงสุด ${max})';
+			case 'favorite_removed': return 'ลบประโยคออกจากรายการโปรดแล้ว';
+			case 'no_sentence_selected': return 'ไม่ได้เลือกประโยค';
+			case 'color_link': return 'สีลิงก์';
+			case 'color_link_desc': return 'สีไฮเปอร์ลิงก์ในตัวอ่าน';
+			case 'color_sasayaki': return 'ไฮไลท์ Sasayaki';
+			case 'color_sasayaki_desc': return 'ไฮไลท์การซิงค์คำบรรยายหนังสือเสียง';
+			case 'invert_swipe_direction': return 'กลับทิศทางการปัดเปลี่ยนหน้า';
+			case 'tap_empty_hide_chrome': return 'แตะพื้นที่ว่างเพื่อซ่อนแถบควบคุม';
 			default: return null;
 		}
 	}
@@ -26173,7 +26334,6 @@ extension on _StringsTr {
 			case 'manager': return 'Y?netici';
 			case 'volume_button_page_turning': return 'Ses dü?meleriyle sayfa ?evirme';
 			case 'invert_volume_buttons': return 'Ses dü?melerini ters ?evir';
-			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'Sürekli kayd?rma h?z?';
 			case 'extend_page_beyond_navbar': return 'Sayfay? gezinme ?ubu?unun ?tesine geni?let';
 			case 'keep_screen_awake': return 'Ekran? a??k tut';
@@ -26555,7 +26715,6 @@ extension on _StringsTr {
 			case 'anki_manage_profiles_hint': return 'AnkiDroid\'a d??a aktar?rken alan e?lemesini yap?land?r?n. Her profil bir Anki not türüne ba?l?d?r ve hangi hibiki alan?n?n hangi Anki alan?n? dolduraca??n? tan?mlar.';
 			case 'action_favorite': return 'Favorilere ekle';
 			case 'favorite_added': return 'Cümle favorilere kaydedildi';
-			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => 'Favoriler (${n})';
 			case 'no_favorites': return 'Kaydedilmiş cümle yok';
 			case 'favorites_title': return 'Favori Cümleler';
@@ -26703,6 +26862,14 @@ extension on _StringsTr {
 			case 'jump_to_char_hint': return 'Karakter konumu girin…';
 			case 'jump_to_char_current': return ({required Object current, required Object total}) => 'Mevcut: ${current} / ${total}';
 			case 'jump_to_char_out_of_range': return ({required Object max}) => 'Aralık dışı (maks ${max})';
+			case 'favorite_removed': return 'Cümle favorilerden kaldırıldı';
+			case 'no_sentence_selected': return 'Cümle seçilmedi';
+			case 'color_link': return 'Bağlantı rengi';
+			case 'color_link_desc': return 'Okuyucu köprü rengi';
+			case 'color_sasayaki': return 'Sasayaki vurgusu';
+			case 'color_sasayaki_desc': return 'Sesli kitap altyazı senkronizasyon vurgusu';
+			case 'invert_swipe_direction': return 'Kaydırma yönünü tersine çevir';
+			case 'tap_empty_hide_chrome': return 'Kontrolleri gizlemek için boş alana dokunun';
 			default: return null;
 		}
 	}
@@ -26999,7 +27166,6 @@ extension on _StringsVi {
 			case 'manager': return 'Qu?n ly';
 			case 'volume_button_page_turning': return 'L?t trang b?ng nút am l??ng';
 			case 'invert_volume_buttons': return '??o ng??c nút am l??ng';
-			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
 			case 'volume_button_turning_speed': return 'T?c ?? cu?n liên t?c';
 			case 'extend_page_beyond_navbar': return 'M? r?ng trang qua thanh ?i?u h??ng';
 			case 'keep_screen_awake': return 'Gi? màn hình sáng';
@@ -27389,7 +27555,6 @@ extension on _StringsVi {
 			case 'dictionary_type_term': return 'Thu?t ng?';
 			case 'action_favorite': return 'Yêu thích';
 			case 'favorite_added': return 'Đã lưu câu vào mục yêu thích';
-			case 'favorite_removed': return 'Sentence removed from favorites';
 			case 'favorites': return ({required Object n}) => 'Yêu thích (${n})';
 			case 'no_favorites': return 'Chưa có câu nào được lưu';
 			case 'favorites_title': return 'Câu yêu thích';
@@ -27537,6 +27702,14 @@ extension on _StringsVi {
 			case 'jump_to_char_hint': return 'Nhập vị trí ký tự…';
 			case 'jump_to_char_current': return ({required Object current, required Object total}) => 'Hiện tại: ${current} / ${total}';
 			case 'jump_to_char_out_of_range': return ({required Object max}) => 'Ngoài phạm vi (tối đa ${max})';
+			case 'favorite_removed': return 'Đã xóa câu khỏi mục yêu thích';
+			case 'no_sentence_selected': return 'Chưa chọn câu nào';
+			case 'color_link': return 'Màu liên kết';
+			case 'color_link_desc': return 'Màu siêu liên kết trong trình đọc';
+			case 'color_sasayaki': return 'Tô sáng Sasayaki';
+			case 'color_sasayaki_desc': return 'Tô sáng đồng bộ phụ đề sách nói';
+			case 'invert_swipe_direction': return 'Đảo ngược hướng vuốt lật trang';
+			case 'tap_empty_hide_chrome': return 'Chạm vùng trống để ẩn thanh điều khiển';
 			default: return null;
 		}
 	}
@@ -28291,7 +28464,6 @@ extension on _StringsZhCn {
 			case 'anki_manage_profiles_hint': return '配置导出到 AnkiDroid 时各字段的映射方式。每个配置绑定一个 Anki 笔记类型，定义 hibiki 的哪个字段填充 Anki 的哪个字段。';
 			case 'action_favorite': return '收藏';
 			case 'favorite_added': return '句子已收藏';
-			case 'favorite_removed': return '句子已取消收藏';
 			case 'favorites': return ({required Object n}) => '收藏 (${n})';
 			case 'no_favorites': return '暂无收藏句子';
 			case 'favorites_title': return '收藏的句子';
@@ -28376,6 +28548,8 @@ extension on _StringsZhCn {
 			case 'creator_action_add_to_stash': return '添加到暂存';
 			case 'creator_action_play_audio': return '播放音频';
 			case 'creator_action_share': return '分享';
+			case 'favorite_removed': return '句子已取消收藏。';
+			case 'no_sentence_selected': return '未选择句子';
 			default: return null;
 		}
 	}
@@ -29073,7 +29247,6 @@ extension on _StringsZhHk {
 			case 'dictionary_type_term': return '釋義';
 			case 'action_favorite': return '收藏';
 			case 'favorite_added': return '句子已收藏';
-			case 'favorite_removed': return '句子已取消收藏';
 			case 'favorites': return ({required Object n}) => '收藏 (${n})';
 			case 'no_favorites': return '暫無收藏句子';
 			case 'favorites_title': return '收藏的句子';
@@ -29210,6 +29383,13 @@ extension on _StringsZhHk {
 			case 'import_step_reading_idb': return '讀取書籍資訊…';
 			case 'import_step_saving': return '儲存記錄…';
 			case 'stat_today_hourly': return '今日按時段';
+			case 'favorite_removed': return '句子已取消收藏。';
+			case 'no_sentence_selected': return '未選擇句子';
+			case 'tap_empty_hide_chrome': return '點擊空白處隱藏控制列';
+			case 'color_link': return '連結顏色';
+			case 'color_link_desc': return '閱讀器超連結顏色';
+			case 'color_sasayaki': return 'Sasayaki 醒目標示';
+			case 'color_sasayaki_desc': return '有聲書字幕同步醒目標示';
 			default: return null;
 		}
 	}
