@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 14100 (829 per locale)
+/// Strings: 14142 (831 per locale)
 ///
-/// Built on 2026-05-12 at 02:53 UTC
+/// Built on 2026-05-12 at 03:16 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -872,6 +872,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get update_never_remind => 'Don\'t remind me about updates';
 	String get update_auto_install => 'Auto-install updates';
 	String get update_beta_channel => 'Receive beta updates';
+	String get update_debug_channel => 'Receive debug updates';
+	String get update_debug_channel_warning => '⚠ Debug builds are unstable and may contain breaking changes. Do not enable unless you know what you are doing.';
 	String get debug_log_toggle => 'Enable debug log';
 	String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
@@ -996,6 +998,34 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get creator_action_add_to_stash => 'Add To Stash';
 	String get creator_action_play_audio => 'Play Audio';
 	String get creator_action_share => 'Share';
+	String get dialog_ok => 'OK';
+	String get tag_filter => 'Filter by Tag';
+	String get tag_filter_title => 'Tag Filter';
+	String get tag_manage => 'Manage Tags';
+	String get tag_manage_title => 'Manage Tags';
+	String get tag_clear_filter => 'Clear Filter';
+	String get tag_no_tags_hint => 'No tags yet. Tap Manage Tags to create one.';
+	String get tag_no_books_for_filter => 'No books match the selected tags';
+	String get tag_label => 'Tags';
+	String get tag_new => 'New Tag';
+	String get tag_name_hint => 'Tag name';
+	String get tag_name_empty => 'Tag name cannot be empty';
+	String get tag_name_duplicate => 'A tag with this name already exists';
+	String get tag_delete_confirm => 'Delete tag "{name}"? This will remove it from all books.';
+	String get tag_color => 'Color';
+	String get tag_book_count => '{count} books';
+	String get miscellaneous_settings => 'Miscellaneous';
+	String get app_icon_label => 'App Icon';
+	String get icon_default => 'Default';
+	String get icon_full => 'Illustrated';
+	String get icon_minimal => 'Minimal';
+	String get icon_custom => 'Custom';
+	String get icon_custom_hint => 'Custom image creates a home screen shortcut. Remove the old icon manually.';
+	String get icon_custom_confirm_title => 'Create Shortcut';
+	String get icon_custom_confirm_body => 'This will create a new shortcut on your home screen. Continue?';
+	String get icon_switch_success => 'Icon switched. Home screen will refresh shortly.';
+	String get icon_shortcut_created => 'Shortcut created';
+	String get icon_shortcut_unsupported => 'Custom shortcuts are not supported on this device';
 }
 
 // Path: retrying_in
@@ -14226,6 +14256,18 @@ class _StringsZhCn extends _StringsEn {
 	@override String get creator_action_share => '分享';
 	@override String get favorite_removed => '句子已取消收藏。';
 	@override String get no_sentence_selected => '未选择句子';
+	@override String get miscellaneous_settings => '杂项';
+	@override String get app_icon_label => '应用图标';
+	@override String get icon_default => '默认';
+	@override String get icon_full => '插画';
+	@override String get icon_minimal => '极简';
+	@override String get icon_custom => '自选';
+	@override String get icon_custom_hint => '自选图片将创建桌面快捷方式，需手动移除旧图标';
+	@override String get icon_custom_confirm_title => '创建快捷方式';
+	@override String get icon_custom_confirm_body => '将在桌面创建新的快捷方式，是否继续？';
+	@override String get icon_switch_success => '图标已切换，桌面将在几秒后刷新';
+	@override String get icon_shortcut_created => '快捷方式已创建';
+	@override String get icon_shortcut_unsupported => '当前设备不支持创建自定义快捷方式';
 }
 
 // Path: retrying_in
@@ -15858,6 +15900,8 @@ extension on _StringsEn {
 			case 'update_never_remind': return 'Don\'t remind me about updates';
 			case 'update_auto_install': return 'Auto-install updates';
 			case 'update_beta_channel': return 'Receive beta updates';
+			case 'update_debug_channel': return 'Receive debug updates';
+			case 'update_debug_channel_warning': return '⚠ Debug builds are unstable and may contain breaking changes. Do not enable unless you know what you are doing.';
 			case 'debug_log_toggle': return 'Enable debug log';
 			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
@@ -15982,6 +16026,34 @@ extension on _StringsEn {
 			case 'creator_action_add_to_stash': return 'Add To Stash';
 			case 'creator_action_play_audio': return 'Play Audio';
 			case 'creator_action_share': return 'Share';
+			case 'dialog_ok': return 'OK';
+			case 'tag_filter': return 'Filter by Tag';
+			case 'tag_filter_title': return 'Tag Filter';
+			case 'tag_manage': return 'Manage Tags';
+			case 'tag_manage_title': return 'Manage Tags';
+			case 'tag_clear_filter': return 'Clear Filter';
+			case 'tag_no_tags_hint': return 'No tags yet. Tap Manage Tags to create one.';
+			case 'tag_no_books_for_filter': return 'No books match the selected tags';
+			case 'tag_label': return 'Tags';
+			case 'tag_new': return 'New Tag';
+			case 'tag_name_hint': return 'Tag name';
+			case 'tag_name_empty': return 'Tag name cannot be empty';
+			case 'tag_name_duplicate': return 'A tag with this name already exists';
+			case 'tag_delete_confirm': return 'Delete tag "{name}"? This will remove it from all books.';
+			case 'tag_color': return 'Color';
+			case 'tag_book_count': return '{count} books';
+			case 'miscellaneous_settings': return 'Miscellaneous';
+			case 'app_icon_label': return 'App Icon';
+			case 'icon_default': return 'Default';
+			case 'icon_full': return 'Illustrated';
+			case 'icon_minimal': return 'Minimal';
+			case 'icon_custom': return 'Custom';
+			case 'icon_custom_hint': return 'Custom image creates a home screen shortcut. Remove the old icon manually.';
+			case 'icon_custom_confirm_title': return 'Create Shortcut';
+			case 'icon_custom_confirm_body': return 'This will create a new shortcut on your home screen. Continue?';
+			case 'icon_switch_success': return 'Icon switched. Home screen will refresh shortly.';
+			case 'icon_shortcut_created': return 'Shortcut created';
+			case 'icon_shortcut_unsupported': return 'Custom shortcuts are not supported on this device';
 			default: return null;
 		}
 	}
@@ -28597,6 +28669,18 @@ extension on _StringsZhCn {
 			case 'creator_action_share': return '分享';
 			case 'favorite_removed': return '句子已取消收藏。';
 			case 'no_sentence_selected': return '未选择句子';
+			case 'miscellaneous_settings': return '杂项';
+			case 'app_icon_label': return '应用图标';
+			case 'icon_default': return '默认';
+			case 'icon_full': return '插画';
+			case 'icon_minimal': return '极简';
+			case 'icon_custom': return '自选';
+			case 'icon_custom_hint': return '自选图片将创建桌面快捷方式，需手动移除旧图标';
+			case 'icon_custom_confirm_title': return '创建快捷方式';
+			case 'icon_custom_confirm_body': return '将在桌面创建新的快捷方式，是否继续？';
+			case 'icon_switch_success': return '图标已切换，桌面将在几秒后刷新';
+			case 'icon_shortcut_created': return '快捷方式已创建';
+			case 'icon_shortcut_unsupported': return '当前设备不支持创建自定义快捷方式';
 			default: return null;
 		}
 	}
