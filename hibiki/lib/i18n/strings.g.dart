@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 14096 (829 per locale)
+/// Strings: 14100 (829 per locale)
 ///
-/// Built on 2026-05-11 at 17:35 UTC
+/// Built on 2026-05-12 at 02:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -614,6 +614,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get audiobook_not_attached => 'No audiobook';
 	String get audiobook_import_success => 'Audiobook imported';
 	String get audiobook_import_error => 'Import failed';
+	String audiobook_import_error_disk_full({required Object size}) => 'Not enough storage space (need ${size})';
+	String audiobook_import_error_copy_failed({required Object name}) => 'File copy failed: ${name}';
+	String get audiobook_load_error => 'Failed to load audio';
+	String import_step_copying_file({required Object name}) => 'Copying ${name}…';
 	String get audiobook_remove_confirm => 'Remove the attached audiobook?';
 	String get import_step_parsing => 'Parsing subtitles…';
 	String get import_step_building_epub => 'Building EPUB…';
@@ -15596,6 +15600,10 @@ extension on _StringsEn {
 			case 'audiobook_not_attached': return 'No audiobook';
 			case 'audiobook_import_success': return 'Audiobook imported';
 			case 'audiobook_import_error': return 'Import failed';
+			case 'audiobook_import_error_disk_full': return ({required Object size}) => 'Not enough storage space (need ${size})';
+			case 'audiobook_import_error_copy_failed': return ({required Object name}) => 'File copy failed: ${name}';
+			case 'audiobook_load_error': return 'Failed to load audio';
+			case 'import_step_copying_file': return ({required Object name}) => 'Copying ${name}…';
 			case 'audiobook_remove_confirm': return 'Remove the attached audiobook?';
 			case 'import_step_parsing': return 'Parsing subtitles…';
 			case 'import_step_building_epub': return 'Building EPUB…';
