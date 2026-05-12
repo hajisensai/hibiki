@@ -206,6 +206,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get dictionary_section_kanji => 'Kanji Dictionaries';
 	String get dictionary_section_frequency => 'Frequency Dictionaries';
 	String get dictionary_section_pitch => 'Pitch Dictionaries';
+	String get custom_dict_css => 'Custom CSS';
+	String get custom_dict_css_global => 'Global (all dictionaries)';
 	String get dialog_close => 'CLOSE';
 	String get dialog_clear => 'CLEAR';
 	String get dialog_clear_all_dictionaries => 'Delete All Dictionaries';
@@ -15228,6 +15230,8 @@ extension on _StringsEn {
 			case 'dictionary_section_kanji': return 'Kanji Dictionaries';
 			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
 			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
+			case 'custom_dict_css': return 'Custom CSS';
+			case 'custom_dict_css_global': return 'Global (all dictionaries)';
 			case 'dialog_close': return 'CLOSE';
 			case 'dialog_clear': return 'CLEAR';
 			case 'dialog_clear_all_dictionaries': return 'Delete All Dictionaries';
