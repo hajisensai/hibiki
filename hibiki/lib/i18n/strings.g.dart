@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 15487 (911 per locale)
+/// Strings: 15504 (912 per locale)
 ///
-/// Built on 2026-05-13 at 10:24 UTC
+/// Built on 2026-05-13 at 11:58 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1023,6 +1023,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get creator_action_play_audio => 'Play Audio';
 	String get creator_action_share => 'Share';
 	String get dialog_ok => 'OK';
+	String get profile_copy_suffix => '(copy)';
 	String get tag_filter => 'Filter by Tag';
 	String get tag_filter_title => 'Tag Filter';
 	String get tag_manage => 'Manage Tags';
@@ -1981,6 +1982,7 @@ class _StringsAr extends _StringsEn {
 	@override String get custom_dict_css => 'CSS مخصص';
 	@override String get custom_dict_css_global => 'عام (جميع القواميس)';
 	@override String get dialog_ok => 'موافق';
+	@override String get profile_copy_suffix => '(نسخة)';
 	@override String get floating_dict_hint => 'مراقبة الحافظة للبحث في القاموس.';
 	@override String import_step_copying_file({required Object name}) => 'نسخ ${name}…';
 	@override String get lyrics_mode => 'وضع الكلمات';
@@ -2945,6 +2947,7 @@ class _StringsDe extends _StringsEn {
 	@override String get custom_dict_css => 'Benutzerdefiniertes CSS';
 	@override String get custom_dict_css_global => 'Global (alle Wörterbücher)';
 	@override String get dialog_ok => 'OK';
+	@override String get profile_copy_suffix => '(Kopie)';
 	@override String get floating_dict_hint => 'Zwischenablage auf Wörterbuchabfragen überwachen.';
 	@override String import_step_copying_file({required Object name}) => '${name} wird kopiert…';
 	@override String get lyrics_mode => 'Liedtext-Modus';
@@ -3909,6 +3912,7 @@ class _StringsEs extends _StringsEn {
 	@override String get custom_dict_css => 'CSS personalizado';
 	@override String get custom_dict_css_global => 'Global (todos los diccionarios)';
 	@override String get dialog_ok => 'Aceptar';
+	@override String get profile_copy_suffix => '(copia)';
 	@override String get floating_dict_hint => 'Supervisar el portapapeles para consultas del diccionario.';
 	@override String import_step_copying_file({required Object name}) => 'Copiando ${name}…';
 	@override String get lyrics_mode => 'Modo letra';
@@ -4873,6 +4877,7 @@ class _StringsFr extends _StringsEn {
 	@override String get custom_dict_css => 'CSS personnalisé';
 	@override String get custom_dict_css_global => 'Global (tous les dictionnaires)';
 	@override String get dialog_ok => 'OK';
+	@override String get profile_copy_suffix => '(copie)';
 	@override String get floating_dict_hint => 'Surveiller le presse-papiers pour les recherches dans le dictionnaire.';
 	@override String import_step_copying_file({required Object name}) => 'Copie de ${name}…';
 	@override String get lyrics_mode => 'Mode paroles';
@@ -5837,6 +5842,7 @@ class _StringsId extends _StringsEn {
 	@override String get custom_dict_css => 'CSS Kustom';
 	@override String get custom_dict_css_global => 'Global (semua kamus)';
 	@override String get dialog_ok => 'OK';
+	@override String get profile_copy_suffix => '(salinan)';
 	@override String get floating_dict_hint => 'Pantau clipboard untuk pencarian kamus.';
 	@override String import_step_copying_file({required Object name}) => 'Menyalin ${name}…';
 	@override String get lyrics_mode => 'Mode lirik';
@@ -6801,6 +6807,7 @@ class _StringsIt extends _StringsEn {
 	@override String get custom_dict_css => 'CSS personalizzato';
 	@override String get custom_dict_css_global => 'Globale (tutti i dizionari)';
 	@override String get dialog_ok => 'OK';
+	@override String get profile_copy_suffix => '(copia)';
 	@override String get floating_dict_hint => 'Monitora gli appunti per le ricerche nel dizionario.';
 	@override String import_step_copying_file({required Object name}) => 'Copia di ${name}…';
 	@override String get lyrics_mode => 'Modalità testi';
@@ -7765,6 +7772,7 @@ class _StringsJa extends _StringsEn {
 	@override String get custom_dict_css => 'カスタム CSS';
 	@override String get custom_dict_css_global => 'グローバル（全辞書）';
 	@override String get dialog_ok => 'OK';
+	@override String get profile_copy_suffix => '（コピー）';
 	@override String get floating_dict_hint => 'クリップボードを監視して辞書を引きます。';
 	@override String import_step_copying_file({required Object name}) => '${name} をコピー中…';
 	@override String get lyrics_mode => '歌詞モード';
@@ -8729,6 +8737,7 @@ class _StringsKo extends _StringsEn {
 	@override String get custom_dict_css => '사용자 CSS';
 	@override String get custom_dict_css_global => '전체 (모든 사전)';
 	@override String get dialog_ok => '확인';
+	@override String get profile_copy_suffix => '(사본)';
 	@override String get floating_dict_hint => '클립보드를 감시하여 사전을 검색합니다.';
 	@override String import_step_copying_file({required Object name}) => '${name} 복사 중…';
 	@override String get lyrics_mode => '가사 모드';
@@ -9693,6 +9702,7 @@ class _StringsNl extends _StringsEn {
 	@override String get custom_dict_css => 'Aangepaste CSS';
 	@override String get custom_dict_css_global => 'Globaal (alle woordenboeken)';
 	@override String get dialog_ok => 'OK';
+	@override String get profile_copy_suffix => '(kopie)';
 	@override String get floating_dict_hint => 'Klembord controleren voor woordenboekopzoekingen.';
 	@override String import_step_copying_file({required Object name}) => '${name} kopiëren…';
 	@override String get lyrics_mode => 'Songtekstmodus';
@@ -10657,6 +10667,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get custom_dict_css => 'CSS personalizado';
 	@override String get custom_dict_css_global => 'Global (todos os dicionários)';
 	@override String get dialog_ok => 'OK';
+	@override String get profile_copy_suffix => '(cópia)';
 	@override String get floating_dict_hint => 'Monitorar área de transferência para consulta no dicionário.';
 	@override String import_step_copying_file({required Object name}) => 'Copiando ${name}…';
 	@override String get lyrics_mode => 'Modo letra';
@@ -11621,6 +11632,7 @@ class _StringsRu extends _StringsEn {
 	@override String get custom_dict_css => 'Пользовательский CSS';
 	@override String get custom_dict_css_global => 'Глобальный (все словари)';
 	@override String get dialog_ok => 'ОК';
+	@override String get profile_copy_suffix => '(копия)';
 	@override String get floating_dict_hint => 'Отслеживать буфер обмена для поиска в словаре.';
 	@override String import_step_copying_file({required Object name}) => 'Копирование ${name}…';
 	@override String get lyrics_mode => 'Режим текста песни';
@@ -12585,6 +12597,7 @@ class _StringsTh extends _StringsEn {
 	@override String get custom_dict_css => 'CSS กำหนดเอง';
 	@override String get custom_dict_css_global => 'ส่วนกลาง (พจนานุกรมทั้งหมด)';
 	@override String get dialog_ok => 'ตกลง';
+	@override String get profile_copy_suffix => '(สำเนา)';
 	@override String get floating_dict_hint => 'ติดตามคลิปบอร์ดเพื่อค้นหาในพจนานุกรม';
 	@override String import_step_copying_file({required Object name}) => 'กำลังคัดลอก ${name}…';
 	@override String get lyrics_mode => 'โหมดเนื้อเพลง';
@@ -13549,6 +13562,7 @@ class _StringsTr extends _StringsEn {
 	@override String get custom_dict_css => 'Özel CSS';
 	@override String get custom_dict_css_global => 'Genel (tüm sözlükler)';
 	@override String get dialog_ok => 'Tamam';
+	@override String get profile_copy_suffix => '(kopya)';
 	@override String get floating_dict_hint => 'Sözlük araması için panoyu izle.';
 	@override String import_step_copying_file({required Object name}) => '${name} kopyalanıyor…';
 	@override String get lyrics_mode => 'Şarkı sözü modu';
@@ -14513,6 +14527,7 @@ class _StringsVi extends _StringsEn {
 	@override String get custom_dict_css => 'CSS tùy chỉnh';
 	@override String get custom_dict_css_global => 'Toàn cục (tất cả từ điển)';
 	@override String get dialog_ok => 'OK';
+	@override String get profile_copy_suffix => '(bản sao)';
 	@override String get floating_dict_hint => 'Theo dõi clipboard để tra từ điển.';
 	@override String import_step_copying_file({required Object name}) => 'Đang sao chép ${name}…';
 	@override String get lyrics_mode => 'Chế độ lời bài hát';
@@ -15491,6 +15506,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get custom_dict_css => '自定义 CSS';
 	@override String get custom_dict_css_global => '全局（所有词典）';
 	@override String get dialog_ok => '确定';
+	@override String get profile_copy_suffix => '（副本）';
 	@override String get floating_dict_hint => '监听剪贴板以触发词典查询。';
 	@override String import_step_copying_file({required Object name}) => '正在复制 ${name}…';
 	@override String get lyrics_mode => '歌词模式';
@@ -16443,6 +16459,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get custom_dict_css => '自訂 CSS';
 	@override String get custom_dict_css_global => '全域（所有辭典）';
 	@override String get dialog_ok => '確定';
+	@override String get profile_copy_suffix => '（副本）';
 	@override String get floating_dict_hint => '監聽剪貼簿以進行辭典查詢。';
 	@override String import_step_copying_file({required Object name}) => '正在複製 ${name}…';
 	@override String get lyrics_mode => '歌詞模式';
@@ -17396,6 +17413,7 @@ extension on _StringsEn {
 			case 'creator_action_play_audio': return 'Play Audio';
 			case 'creator_action_share': return 'Share';
 			case 'dialog_ok': return 'OK';
+			case 'profile_copy_suffix': return '(copy)';
 			case 'tag_filter': return 'Filter by Tag';
 			case 'tag_filter_title': return 'Tag Filter';
 			case 'tag_manage': return 'Manage Tags';
@@ -18313,6 +18331,7 @@ extension on _StringsAr {
 			case 'custom_dict_css': return 'CSS مخصص';
 			case 'custom_dict_css_global': return 'عام (جميع القواميس)';
 			case 'dialog_ok': return 'موافق';
+			case 'profile_copy_suffix': return '(نسخة)';
 			case 'floating_dict_hint': return 'مراقبة الحافظة للبحث في القاموس.';
 			case 'import_step_copying_file': return ({required Object name}) => 'نسخ ${name}…';
 			case 'lyrics_mode': return 'وضع الكلمات';
@@ -19236,6 +19255,7 @@ extension on _StringsDe {
 			case 'custom_dict_css': return 'Benutzerdefiniertes CSS';
 			case 'custom_dict_css_global': return 'Global (alle Wörterbücher)';
 			case 'dialog_ok': return 'OK';
+			case 'profile_copy_suffix': return '(Kopie)';
 			case 'floating_dict_hint': return 'Zwischenablage auf Wörterbuchabfragen überwachen.';
 			case 'import_step_copying_file': return ({required Object name}) => '${name} wird kopiert…';
 			case 'lyrics_mode': return 'Liedtext-Modus';
@@ -20159,6 +20179,7 @@ extension on _StringsEs {
 			case 'custom_dict_css': return 'CSS personalizado';
 			case 'custom_dict_css_global': return 'Global (todos los diccionarios)';
 			case 'dialog_ok': return 'Aceptar';
+			case 'profile_copy_suffix': return '(copia)';
 			case 'floating_dict_hint': return 'Supervisar el portapapeles para consultas del diccionario.';
 			case 'import_step_copying_file': return ({required Object name}) => 'Copiando ${name}…';
 			case 'lyrics_mode': return 'Modo letra';
@@ -21082,6 +21103,7 @@ extension on _StringsFr {
 			case 'custom_dict_css': return 'CSS personnalisé';
 			case 'custom_dict_css_global': return 'Global (tous les dictionnaires)';
 			case 'dialog_ok': return 'OK';
+			case 'profile_copy_suffix': return '(copie)';
 			case 'floating_dict_hint': return 'Surveiller le presse-papiers pour les recherches dans le dictionnaire.';
 			case 'import_step_copying_file': return ({required Object name}) => 'Copie de ${name}…';
 			case 'lyrics_mode': return 'Mode paroles';
@@ -22005,6 +22027,7 @@ extension on _StringsId {
 			case 'custom_dict_css': return 'CSS Kustom';
 			case 'custom_dict_css_global': return 'Global (semua kamus)';
 			case 'dialog_ok': return 'OK';
+			case 'profile_copy_suffix': return '(salinan)';
 			case 'floating_dict_hint': return 'Pantau clipboard untuk pencarian kamus.';
 			case 'import_step_copying_file': return ({required Object name}) => 'Menyalin ${name}…';
 			case 'lyrics_mode': return 'Mode lirik';
@@ -22928,6 +22951,7 @@ extension on _StringsIt {
 			case 'custom_dict_css': return 'CSS personalizzato';
 			case 'custom_dict_css_global': return 'Globale (tutti i dizionari)';
 			case 'dialog_ok': return 'OK';
+			case 'profile_copy_suffix': return '(copia)';
 			case 'floating_dict_hint': return 'Monitora gli appunti per le ricerche nel dizionario.';
 			case 'import_step_copying_file': return ({required Object name}) => 'Copia di ${name}…';
 			case 'lyrics_mode': return 'Modalità testi';
@@ -23851,6 +23875,7 @@ extension on _StringsJa {
 			case 'custom_dict_css': return 'カスタム CSS';
 			case 'custom_dict_css_global': return 'グローバル（全辞書）';
 			case 'dialog_ok': return 'OK';
+			case 'profile_copy_suffix': return '（コピー）';
 			case 'floating_dict_hint': return 'クリップボードを監視して辞書を引きます。';
 			case 'import_step_copying_file': return ({required Object name}) => '${name} をコピー中…';
 			case 'lyrics_mode': return '歌詞モード';
@@ -24774,6 +24799,7 @@ extension on _StringsKo {
 			case 'custom_dict_css': return '사용자 CSS';
 			case 'custom_dict_css_global': return '전체 (모든 사전)';
 			case 'dialog_ok': return '확인';
+			case 'profile_copy_suffix': return '(사본)';
 			case 'floating_dict_hint': return '클립보드를 감시하여 사전을 검색합니다.';
 			case 'import_step_copying_file': return ({required Object name}) => '${name} 복사 중…';
 			case 'lyrics_mode': return '가사 모드';
@@ -25697,6 +25723,7 @@ extension on _StringsNl {
 			case 'custom_dict_css': return 'Aangepaste CSS';
 			case 'custom_dict_css_global': return 'Globaal (alle woordenboeken)';
 			case 'dialog_ok': return 'OK';
+			case 'profile_copy_suffix': return '(kopie)';
 			case 'floating_dict_hint': return 'Klembord controleren voor woordenboekopzoekingen.';
 			case 'import_step_copying_file': return ({required Object name}) => '${name} kopiëren…';
 			case 'lyrics_mode': return 'Songtekstmodus';
@@ -26620,6 +26647,7 @@ extension on _StringsPtBr {
 			case 'custom_dict_css': return 'CSS personalizado';
 			case 'custom_dict_css_global': return 'Global (todos os dicionários)';
 			case 'dialog_ok': return 'OK';
+			case 'profile_copy_suffix': return '(cópia)';
 			case 'floating_dict_hint': return 'Monitorar área de transferência para consulta no dicionário.';
 			case 'import_step_copying_file': return ({required Object name}) => 'Copiando ${name}…';
 			case 'lyrics_mode': return 'Modo letra';
@@ -27543,6 +27571,7 @@ extension on _StringsRu {
 			case 'custom_dict_css': return 'Пользовательский CSS';
 			case 'custom_dict_css_global': return 'Глобальный (все словари)';
 			case 'dialog_ok': return 'ОК';
+			case 'profile_copy_suffix': return '(копия)';
 			case 'floating_dict_hint': return 'Отслеживать буфер обмена для поиска в словаре.';
 			case 'import_step_copying_file': return ({required Object name}) => 'Копирование ${name}…';
 			case 'lyrics_mode': return 'Режим текста песни';
@@ -28466,6 +28495,7 @@ extension on _StringsTh {
 			case 'custom_dict_css': return 'CSS กำหนดเอง';
 			case 'custom_dict_css_global': return 'ส่วนกลาง (พจนานุกรมทั้งหมด)';
 			case 'dialog_ok': return 'ตกลง';
+			case 'profile_copy_suffix': return '(สำเนา)';
 			case 'floating_dict_hint': return 'ติดตามคลิปบอร์ดเพื่อค้นหาในพจนานุกรม';
 			case 'import_step_copying_file': return ({required Object name}) => 'กำลังคัดลอก ${name}…';
 			case 'lyrics_mode': return 'โหมดเนื้อเพลง';
@@ -29389,6 +29419,7 @@ extension on _StringsTr {
 			case 'custom_dict_css': return 'Özel CSS';
 			case 'custom_dict_css_global': return 'Genel (tüm sözlükler)';
 			case 'dialog_ok': return 'Tamam';
+			case 'profile_copy_suffix': return '(kopya)';
 			case 'floating_dict_hint': return 'Sözlük araması için panoyu izle.';
 			case 'import_step_copying_file': return ({required Object name}) => '${name} kopyalanıyor…';
 			case 'lyrics_mode': return 'Şarkı sözü modu';
@@ -30312,6 +30343,7 @@ extension on _StringsVi {
 			case 'custom_dict_css': return 'CSS tùy chỉnh';
 			case 'custom_dict_css_global': return 'Toàn cục (tất cả từ điển)';
 			case 'dialog_ok': return 'OK';
+			case 'profile_copy_suffix': return '(bản sao)';
 			case 'floating_dict_hint': return 'Theo dõi clipboard để tra từ điển.';
 			case 'import_step_copying_file': return ({required Object name}) => 'Đang sao chép ${name}…';
 			case 'lyrics_mode': return 'Chế độ lời bài hát';
@@ -31249,6 +31281,7 @@ extension on _StringsZhCn {
 			case 'custom_dict_css': return '自定义 CSS';
 			case 'custom_dict_css_global': return '全局（所有词典）';
 			case 'dialog_ok': return '确定';
+			case 'profile_copy_suffix': return '（副本）';
 			case 'floating_dict_hint': return '监听剪贴板以触发词典查询。';
 			case 'import_step_copying_file': return ({required Object name}) => '正在复制 ${name}…';
 			case 'lyrics_mode': return '歌词模式';
@@ -32160,6 +32193,7 @@ extension on _StringsZhHk {
 			case 'custom_dict_css': return '自訂 CSS';
 			case 'custom_dict_css_global': return '全域（所有辭典）';
 			case 'dialog_ok': return '確定';
+			case 'profile_copy_suffix': return '（副本）';
 			case 'floating_dict_hint': return '監聽剪貼簿以進行辭典查詢。';
 			case 'import_step_copying_file': return ({required Object name}) => '正在複製 ${name}…';
 			case 'lyrics_mode': return '歌詞模式';
