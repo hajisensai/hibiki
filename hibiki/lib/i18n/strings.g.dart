@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 14199 (835 per locale)
+/// Strings: 14216 (836 per locale)
 ///
-/// Built on 2026-05-13 at 01:53 UTC
+/// Built on 2026-05-13 at 02:24 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -952,6 +952,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get floating_lyric_lock => 'Lock';
 	String get floating_lyric_unlock => 'Unlock';
 	String get floating_lyric_close => 'Close';
+	String get floating_lyric_permission_hint => 'Please enable "Display over other apps" permission and try again';
 	String get floating_lyric_font_size => 'Floating subtitle font size';
 	String get initialization_failed => 'Initialisation failed';
 	String get book_search => 'Search in Book';
@@ -1805,6 +1806,7 @@ class _StringsAr extends _StringsEn {
 	@override String get floating_lyric_lock => 'قفل';
 	@override String get floating_lyric_unlock => 'فتح القفل';
 	@override String get floating_lyric_close => 'إغلاق';
+	@override String get floating_lyric_permission_hint => 'يرجى تفعيل إذن "العرض فوق التطبيقات الأخرى" والمحاولة مرة أخرى';
 	@override String get floating_lyric_font_size => 'حجم خط الترجمة العائمة';
 	@override String get book_search => 'بحث في الكتاب';
 	@override String get book_search_hint => 'أدخل نص البحث…';
@@ -2679,6 +2681,7 @@ class _StringsDe extends _StringsEn {
 	@override String get floating_lyric_lock => 'Sperren';
 	@override String get floating_lyric_unlock => 'Entsperren';
 	@override String get floating_lyric_close => 'Schließen';
+	@override String get floating_lyric_permission_hint => 'Bitte aktivieren Sie die Berechtigung "Über anderen Apps anzeigen" und versuchen Sie es erneut';
 	@override String get floating_lyric_font_size => 'Schriftgröße der schwebenden Untertitel';
 	@override String get audio_panel_title => 'Audiodateien';
 	@override String get audio_panel_auto => 'Automatisch';
@@ -3563,6 +3566,7 @@ class _StringsEs extends _StringsEn {
 	@override String get floating_lyric_lock => 'Bloquear';
 	@override String get floating_lyric_unlock => 'Desbloquear';
 	@override String get floating_lyric_close => 'Cerrar';
+	@override String get floating_lyric_permission_hint => 'Por favor, activa el permiso "Mostrar sobre otras aplicaciones" e inténtalo de nuevo';
 	@override String get floating_lyric_font_size => 'Tamaño de fuente del subtítulo flotante';
 	@override String get audio_panel_title => 'Archivos de audio';
 	@override String get audio_panel_auto => 'Automático';
@@ -4447,6 +4451,7 @@ class _StringsFr extends _StringsEn {
 	@override String get floating_lyric_lock => 'Verrouiller';
 	@override String get floating_lyric_unlock => 'Déverrouiller';
 	@override String get floating_lyric_close => 'Fermer';
+	@override String get floating_lyric_permission_hint => 'Veuillez activer l\'autorisation « Afficher au-dessus des autres applications » et réessayer';
 	@override String get floating_lyric_font_size => 'Taille de police du sous-titre flottant';
 	@override String get audio_panel_title => 'Fichiers audio';
 	@override String get audio_panel_auto => 'Automatique';
@@ -5331,6 +5336,7 @@ class _StringsId extends _StringsEn {
 	@override String get floating_lyric_lock => 'Kunci';
 	@override String get floating_lyric_unlock => 'Buka Kunci';
 	@override String get floating_lyric_close => 'Tutup';
+	@override String get floating_lyric_permission_hint => 'Harap aktifkan izin "Tampilkan di atas aplikasi lain" dan coba lagi';
 	@override String get floating_lyric_font_size => 'Ukuran font subtitle mengambang';
 	@override String get audio_panel_title => 'File Audio';
 	@override String get audio_panel_auto => 'Otomatis';
@@ -6215,6 +6221,7 @@ class _StringsIt extends _StringsEn {
 	@override String get floating_lyric_lock => 'Blocca';
 	@override String get floating_lyric_unlock => 'Sblocca';
 	@override String get floating_lyric_close => 'Chiudi';
+	@override String get floating_lyric_permission_hint => 'Abilita l\'autorizzazione "Mostra sopra altre app" e riprova';
 	@override String get floating_lyric_font_size => 'Dimensione carattere sottotitolo flottante';
 	@override String get audio_panel_title => 'File audio';
 	@override String get audio_panel_auto => 'Automatico';
@@ -7111,6 +7118,7 @@ class _StringsJa extends _StringsEn {
 	@override String get floating_lyric_lock => 'ロック';
 	@override String get floating_lyric_unlock => 'ロック解除';
 	@override String get floating_lyric_close => '閉じる';
+	@override String get floating_lyric_permission_hint => '「他のアプリの上に表示」権限を有効にしてもう一度お試しください';
 	@override String get floating_lyric_font_size => 'フローティング字幕の文字サイズ';
 	@override String get book_search => '書籍内検索';
 	@override String get book_search_hint => '検索テキストを入力…';
@@ -7983,6 +7991,7 @@ class _StringsKo extends _StringsEn {
 	@override String get floating_lyric_lock => '잠금';
 	@override String get floating_lyric_unlock => '잠금 해제';
 	@override String get floating_lyric_close => '닫기';
+	@override String get floating_lyric_permission_hint => '"다른 앱 위에 표시" 권한을 활성화한 후 다시 시도해 주세요';
 	@override String get floating_lyric_font_size => '플로팅 자막 글꼴 크기';
 	@override String get audio_panel_title => '오디오 파일';
 	@override String get audio_panel_auto => '자동';
@@ -8867,6 +8876,7 @@ class _StringsNl extends _StringsEn {
 	@override String get floating_lyric_lock => 'Vergrendelen';
 	@override String get floating_lyric_unlock => 'Ontgrendelen';
 	@override String get floating_lyric_close => 'Sluiten';
+	@override String get floating_lyric_permission_hint => 'Schakel de machtiging "Weergeven boven andere apps" in en probeer opnieuw';
 	@override String get floating_lyric_font_size => 'Lettergrootte zwevende ondertitel';
 	@override String get audio_panel_title => 'Audiobestanden';
 	@override String get audio_panel_auto => 'Automatisch';
@@ -9751,6 +9761,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get floating_lyric_lock => 'Bloquear';
 	@override String get floating_lyric_unlock => 'Desbloquear';
 	@override String get floating_lyric_close => 'Fechar';
+	@override String get floating_lyric_permission_hint => 'Ative a permissão "Exibir sobre outros apps" e tente novamente';
 	@override String get floating_lyric_font_size => 'Tamanho da fonte da legenda flutuante';
 	@override String get audio_panel_title => 'Arquivos de áudio';
 	@override String get audio_panel_auto => 'Automático';
@@ -10635,6 +10646,7 @@ class _StringsRu extends _StringsEn {
 	@override String get floating_lyric_lock => 'Заблокировать';
 	@override String get floating_lyric_unlock => 'Разблокировать';
 	@override String get floating_lyric_close => 'Закрыть';
+	@override String get floating_lyric_permission_hint => 'Включите разрешение «Поверх других приложений» и попробуйте снова';
 	@override String get floating_lyric_font_size => 'Размер шрифта плавающих субтитров';
 	@override String get audio_panel_title => 'Аудиофайлы';
 	@override String get audio_panel_auto => 'Авто';
@@ -11519,6 +11531,7 @@ class _StringsTh extends _StringsEn {
 	@override String get floating_lyric_lock => 'ล็อก';
 	@override String get floating_lyric_unlock => 'ปลดล็อก';
 	@override String get floating_lyric_close => 'ปิด';
+	@override String get floating_lyric_permission_hint => 'กรุณาเปิดสิทธิ์ "แสดงทับแอปอื่น" แล้วลองอีกครั้ง';
 	@override String get floating_lyric_font_size => 'ขนาดตัวอักษรซับไตเติลลอย';
 	@override String get audio_panel_title => 'ไฟล์เสียง';
 	@override String get audio_panel_auto => 'อัตโนมัติ';
@@ -12403,6 +12416,7 @@ class _StringsTr extends _StringsEn {
 	@override String get floating_lyric_lock => 'Kilitle';
 	@override String get floating_lyric_unlock => 'Kilidi aç';
 	@override String get floating_lyric_close => 'Kapat';
+	@override String get floating_lyric_permission_hint => 'Lütfen "Diğer uygulamaların üzerinde göster" iznini etkinleştirin ve tekrar deneyin';
 	@override String get floating_lyric_font_size => 'Kayan altyazı yazı tipi boyutu';
 	@override String get audio_panel_title => 'Ses Dosyaları';
 	@override String get audio_panel_auto => 'Otomatik';
@@ -13287,6 +13301,7 @@ class _StringsVi extends _StringsEn {
 	@override String get floating_lyric_lock => 'Khóa';
 	@override String get floating_lyric_unlock => 'Mở khóa';
 	@override String get floating_lyric_close => 'Đóng';
+	@override String get floating_lyric_permission_hint => 'Vui lòng bật quyền "Hiển thị trên ứng dụng khác" và thử lại';
 	@override String get floating_lyric_font_size => 'Cỡ chữ phụ đề nổi';
 	@override String get audio_panel_title => 'Tệp âm thanh';
 	@override String get audio_panel_auto => 'Tự động';
@@ -14238,6 +14253,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get floating_lyric_lock => '锁定';
 	@override String get floating_lyric_unlock => '解锁';
 	@override String get floating_lyric_close => '关闭';
+	@override String get floating_lyric_permission_hint => '请开启「显示在其他应用上层」权限后重试';
 	@override String get floating_lyric_font_size => '悬浮字幕字号';
 	@override String get show_floating_lyric => '悬浮字幕';
 	@override String get floating_lyric_hint => '在其他应用上方显示当前句子。';
@@ -15077,6 +15093,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get floating_lyric_lock => '鎖定';
 	@override String get floating_lyric_unlock => '解鎖';
 	@override String get floating_lyric_close => '關閉';
+	@override String get floating_lyric_permission_hint => '請開啟「顯示在其他應用程式上層」權限後重試';
 	@override String get floating_lyric_font_size => '懸浮字幕字號';
 	@override String get show_floating_lyric => '懸浮字幕';
 	@override String get floating_lyric_hint => '在其他應用程式上方顯示目前句子。';
@@ -16037,6 +16054,7 @@ extension on _StringsEn {
 			case 'floating_lyric_lock': return 'Lock';
 			case 'floating_lyric_unlock': return 'Unlock';
 			case 'floating_lyric_close': return 'Close';
+			case 'floating_lyric_permission_hint': return 'Please enable "Display over other apps" permission and try again';
 			case 'floating_lyric_font_size': return 'Floating subtitle font size';
 			case 'initialization_failed': return 'Initialisation failed';
 			case 'book_search': return 'Search in Book';
@@ -16849,6 +16867,7 @@ extension on _StringsAr {
 			case 'floating_lyric_lock': return 'قفل';
 			case 'floating_lyric_unlock': return 'فتح القفل';
 			case 'floating_lyric_close': return 'إغلاق';
+			case 'floating_lyric_permission_hint': return 'يرجى تفعيل إذن "العرض فوق التطبيقات الأخرى" والمحاولة مرة أخرى';
 			case 'floating_lyric_font_size': return 'حجم خط الترجمة العائمة';
 			case 'book_search': return 'بحث في الكتاب';
 			case 'book_search_hint': return 'أدخل نص البحث…';
@@ -17682,6 +17701,7 @@ extension on _StringsDe {
 			case 'floating_lyric_lock': return 'Sperren';
 			case 'floating_lyric_unlock': return 'Entsperren';
 			case 'floating_lyric_close': return 'Schließen';
+			case 'floating_lyric_permission_hint': return 'Bitte aktivieren Sie die Berechtigung "Über anderen Apps anzeigen" und versuchen Sie es erneut';
 			case 'floating_lyric_font_size': return 'Schriftgröße der schwebenden Untertitel';
 			case 'audio_panel_title': return 'Audiodateien';
 			case 'audio_panel_auto': return 'Automatisch';
@@ -18525,6 +18545,7 @@ extension on _StringsEs {
 			case 'floating_lyric_lock': return 'Bloquear';
 			case 'floating_lyric_unlock': return 'Desbloquear';
 			case 'floating_lyric_close': return 'Cerrar';
+			case 'floating_lyric_permission_hint': return 'Por favor, activa el permiso "Mostrar sobre otras aplicaciones" e inténtalo de nuevo';
 			case 'floating_lyric_font_size': return 'Tamaño de fuente del subtítulo flotante';
 			case 'audio_panel_title': return 'Archivos de audio';
 			case 'audio_panel_auto': return 'Automático';
@@ -19368,6 +19389,7 @@ extension on _StringsFr {
 			case 'floating_lyric_lock': return 'Verrouiller';
 			case 'floating_lyric_unlock': return 'Déverrouiller';
 			case 'floating_lyric_close': return 'Fermer';
+			case 'floating_lyric_permission_hint': return 'Veuillez activer l\'autorisation « Afficher au-dessus des autres applications » et réessayer';
 			case 'floating_lyric_font_size': return 'Taille de police du sous-titre flottant';
 			case 'audio_panel_title': return 'Fichiers audio';
 			case 'audio_panel_auto': return 'Automatique';
@@ -20211,6 +20233,7 @@ extension on _StringsId {
 			case 'floating_lyric_lock': return 'Kunci';
 			case 'floating_lyric_unlock': return 'Buka Kunci';
 			case 'floating_lyric_close': return 'Tutup';
+			case 'floating_lyric_permission_hint': return 'Harap aktifkan izin "Tampilkan di atas aplikasi lain" dan coba lagi';
 			case 'floating_lyric_font_size': return 'Ukuran font subtitle mengambang';
 			case 'audio_panel_title': return 'File Audio';
 			case 'audio_panel_auto': return 'Otomatis';
@@ -21054,6 +21077,7 @@ extension on _StringsIt {
 			case 'floating_lyric_lock': return 'Blocca';
 			case 'floating_lyric_unlock': return 'Sblocca';
 			case 'floating_lyric_close': return 'Chiudi';
+			case 'floating_lyric_permission_hint': return 'Abilita l\'autorizzazione "Mostra sopra altre app" e riprova';
 			case 'floating_lyric_font_size': return 'Dimensione carattere sottotitolo flottante';
 			case 'audio_panel_title': return 'File audio';
 			case 'audio_panel_auto': return 'Automatico';
@@ -21909,6 +21933,7 @@ extension on _StringsJa {
 			case 'floating_lyric_lock': return 'ロック';
 			case 'floating_lyric_unlock': return 'ロック解除';
 			case 'floating_lyric_close': return '閉じる';
+			case 'floating_lyric_permission_hint': return '「他のアプリの上に表示」権限を有効にしてもう一度お試しください';
 			case 'floating_lyric_font_size': return 'フローティング字幕の文字サイズ';
 			case 'book_search': return '書籍内検索';
 			case 'book_search_hint': return '検索テキストを入力…';
@@ -22740,6 +22765,7 @@ extension on _StringsKo {
 			case 'floating_lyric_lock': return '잠금';
 			case 'floating_lyric_unlock': return '잠금 해제';
 			case 'floating_lyric_close': return '닫기';
+			case 'floating_lyric_permission_hint': return '"다른 앱 위에 표시" 권한을 활성화한 후 다시 시도해 주세요';
 			case 'floating_lyric_font_size': return '플로팅 자막 글꼴 크기';
 			case 'audio_panel_title': return '오디오 파일';
 			case 'audio_panel_auto': return '자동';
@@ -23583,6 +23609,7 @@ extension on _StringsNl {
 			case 'floating_lyric_lock': return 'Vergrendelen';
 			case 'floating_lyric_unlock': return 'Ontgrendelen';
 			case 'floating_lyric_close': return 'Sluiten';
+			case 'floating_lyric_permission_hint': return 'Schakel de machtiging "Weergeven boven andere apps" in en probeer opnieuw';
 			case 'floating_lyric_font_size': return 'Lettergrootte zwevende ondertitel';
 			case 'audio_panel_title': return 'Audiobestanden';
 			case 'audio_panel_auto': return 'Automatisch';
@@ -24426,6 +24453,7 @@ extension on _StringsPtBr {
 			case 'floating_lyric_lock': return 'Bloquear';
 			case 'floating_lyric_unlock': return 'Desbloquear';
 			case 'floating_lyric_close': return 'Fechar';
+			case 'floating_lyric_permission_hint': return 'Ative a permissão "Exibir sobre outros apps" e tente novamente';
 			case 'floating_lyric_font_size': return 'Tamanho da fonte da legenda flutuante';
 			case 'audio_panel_title': return 'Arquivos de áudio';
 			case 'audio_panel_auto': return 'Automático';
@@ -25269,6 +25297,7 @@ extension on _StringsRu {
 			case 'floating_lyric_lock': return 'Заблокировать';
 			case 'floating_lyric_unlock': return 'Разблокировать';
 			case 'floating_lyric_close': return 'Закрыть';
+			case 'floating_lyric_permission_hint': return 'Включите разрешение «Поверх других приложений» и попробуйте снова';
 			case 'floating_lyric_font_size': return 'Размер шрифта плавающих субтитров';
 			case 'audio_panel_title': return 'Аудиофайлы';
 			case 'audio_panel_auto': return 'Авто';
@@ -26112,6 +26141,7 @@ extension on _StringsTh {
 			case 'floating_lyric_lock': return 'ล็อก';
 			case 'floating_lyric_unlock': return 'ปลดล็อก';
 			case 'floating_lyric_close': return 'ปิด';
+			case 'floating_lyric_permission_hint': return 'กรุณาเปิดสิทธิ์ "แสดงทับแอปอื่น" แล้วลองอีกครั้ง';
 			case 'floating_lyric_font_size': return 'ขนาดตัวอักษรซับไตเติลลอย';
 			case 'audio_panel_title': return 'ไฟล์เสียง';
 			case 'audio_panel_auto': return 'อัตโนมัติ';
@@ -26955,6 +26985,7 @@ extension on _StringsTr {
 			case 'floating_lyric_lock': return 'Kilitle';
 			case 'floating_lyric_unlock': return 'Kilidi aç';
 			case 'floating_lyric_close': return 'Kapat';
+			case 'floating_lyric_permission_hint': return 'Lütfen "Diğer uygulamaların üzerinde göster" iznini etkinleştirin ve tekrar deneyin';
 			case 'floating_lyric_font_size': return 'Kayan altyazı yazı tipi boyutu';
 			case 'audio_panel_title': return 'Ses Dosyaları';
 			case 'audio_panel_auto': return 'Otomatik';
@@ -27798,6 +27829,7 @@ extension on _StringsVi {
 			case 'floating_lyric_lock': return 'Khóa';
 			case 'floating_lyric_unlock': return 'Mở khóa';
 			case 'floating_lyric_close': return 'Đóng';
+			case 'floating_lyric_permission_hint': return 'Vui lòng bật quyền "Hiển thị trên ứng dụng khác" và thử lại';
 			case 'floating_lyric_font_size': return 'Cỡ chữ phụ đề nổi';
 			case 'audio_panel_title': return 'Tệp âm thanh';
 			case 'audio_panel_auto': return 'Tự động';
@@ -28708,6 +28740,7 @@ extension on _StringsZhCn {
 			case 'floating_lyric_lock': return '锁定';
 			case 'floating_lyric_unlock': return '解锁';
 			case 'floating_lyric_close': return '关闭';
+			case 'floating_lyric_permission_hint': return '请开启「显示在其他应用上层」权限后重试';
 			case 'floating_lyric_font_size': return '悬浮字幕字号';
 			case 'show_floating_lyric': return '悬浮字幕';
 			case 'floating_lyric_hint': return '在其他应用上方显示当前句子。';
@@ -29506,6 +29539,7 @@ extension on _StringsZhHk {
 			case 'floating_lyric_lock': return '鎖定';
 			case 'floating_lyric_unlock': return '解鎖';
 			case 'floating_lyric_close': return '關閉';
+			case 'floating_lyric_permission_hint': return '請開啟「顯示在其他應用程式上層」權限後重試';
 			case 'floating_lyric_font_size': return '懸浮字幕字號';
 			case 'show_floating_lyric': return '懸浮字幕';
 			case 'floating_lyric_hint': return '在其他應用程式上方顯示目前句子。';
