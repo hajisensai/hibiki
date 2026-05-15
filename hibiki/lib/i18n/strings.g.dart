@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 15470 (910 per locale)
+/// Strings: 15502 (911 per locale)
 ///
-/// Built on 2026-05-13 at 18:29 UTC
+/// Built on 2026-05-15 at 14:55 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1071,6 +1071,21 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
 	String get untitled => 'Untitled';
 	String get section_epub => 'EPUB';
+	String get book_css_editor_title => 'Edit Book CSS';
+	String get book_css_editor_edit_css => 'Edit CSS';
+	String get book_css_editor_reset_current => 'Reset Current';
+	String get book_css_editor_reset_all => 'Reset All';
+	String get book_css_editor_save => 'Save';
+	String get book_css_editor_no_css_files => 'This book has no CSS files.';
+	String get book_css_editor_unsaved_changes => 'Unsaved Changes';
+	String get book_css_editor_unsaved_changes_message => 'You have unsaved changes. What would you like to do?';
+	String get book_css_editor_confirm_reset => 'Reset this file to its original content?';
+	String get book_css_editor_confirm_reset_all => 'Reset all modified CSS files to their original content?';
+	String get book_css_editor_discard => 'Discard';
+	String get book_css_editor_cancel => 'Cancel';
+	String get book_css_editor_saved => 'CSS saved.';
+	String get book_css_editor_reset_done => 'CSS reset.';
+	String get book_css_editor_no_extract_dir => 'Book data not found on disk.';
 }
 
 // Path: retrying_in
@@ -2527,12 +2542,12 @@ class _StringsDe extends _StringsEn {
 	@override String get audiobook_import_error => 'Import fehlgeschlagen';
 	@override String get audiobook_remove_confirm => 'Angeh?ngtes H?rbuch entfernen?';
 	@override String get srt_import => 'Buch importieren';
-	@override String get srt_import_hint_epub_or_srt => 'EPUB und Untertitel: mindestens eines ausw?hlen';
-	@override String get srt_import_pick_srt => 'Untertiteldatei ausw?hlen';
-	@override String get srt_import_pick_srt_dir => 'Untertitelverzeichnis ausw?hlen';
-	@override String get srt_no_subtitle_files => 'Keine Untertiteldateien im ausgew?hlten Verzeichnis gefunden';
-	@override String get srt_pick_subtitle_file => 'Untertiteldatei ausw?hlen';
-	@override String get srt_import_pick_epub => 'EPUB ausw?hlen';
+	@override String get srt_import_hint_epub_or_srt => 'EPUB und Untertitel: mindestens eines auswählen';
+	@override String get srt_import_pick_srt => 'Untertiteldatei auswählen';
+	@override String get srt_import_pick_srt_dir => 'Untertitelverzeichnis auswählen';
+	@override String get srt_no_subtitle_files => 'Keine Untertiteldateien im ausgewählten Verzeichnis gefunden';
+	@override String get srt_pick_subtitle_file => 'Untertiteldatei auswählen';
+	@override String get srt_import_pick_epub => 'EPUB auswählen';
 	@override String get srt_import_pick_audio_dir => 'Audioverzeichnis ausw?hlen';
 	@override String get srt_import_pick_audio_files => 'Audiodateien ausw?hlen';
 	@override String srt_import_files_selected({required Object n}) => '${n} Dateien ausgew?hlt';
@@ -8311,12 +8326,12 @@ class _StringsKo extends _StringsEn {
 	@override String get audiobook_import_error => '???? ??';
 	@override String get audiobook_remove_confirm => '??? ????? ?????????';
 	@override String get srt_import => '? ????';
-	@override String get srt_import_hint_epub_or_srt => 'EPUB? ??: ??? ??? ??????';
-	@override String get srt_import_pick_srt => '?? ?? ??';
-	@override String get srt_import_pick_srt_dir => '?? ???? ??';
-	@override String get srt_no_subtitle_files => '??? ????? ?? ??? ????';
-	@override String get srt_pick_subtitle_file => '?? ?? ??';
-	@override String get srt_import_pick_epub => 'EPUB ??';
+	@override String get srt_import_hint_epub_or_srt => 'EPUB과 자막: 최소 하나를 선택하세요';
+	@override String get srt_import_pick_srt => '자막 파일 선택';
+	@override String get srt_import_pick_srt_dir => '자막 디렉토리 선택';
+	@override String get srt_no_subtitle_files => '선택한 디렉토리에 자막 파일이 없습니다';
+	@override String get srt_pick_subtitle_file => '자막 파일 선택';
+	@override String get srt_import_pick_epub => 'EPUB 선택';
 	@override String get srt_import_pick_audio_dir => '??? ???? ??';
 	@override String get srt_import_pick_audio_files => '??? ?? ??';
 	@override String srt_import_files_selected({required Object n}) => '${n}? ?? ???';
@@ -12167,12 +12182,12 @@ class _StringsTh extends _StringsEn {
 	@override String get audiobook_import_error => '????????????????';
 	@override String get audiobook_remove_confirm => '?????????????????????????';
 	@override String get srt_import => '?????????????';
-	@override String get srt_import_hint_epub_or_srt => 'EPUB ?????????????: ?????????????????????????';
-	@override String get srt_import_pick_srt => '?????????????????';
-	@override String get srt_import_pick_srt_dir => '??????????????????????';
-	@override String get srt_no_subtitle_files => '????????????????????????????????????';
-	@override String get srt_pick_subtitle_file => '?????????????????';
-	@override String get srt_import_pick_epub => '????? EPUB';
+	@override String get srt_import_hint_epub_or_srt => 'EPUB และคำบรรยาย: เลือกอย่างน้อยหนึ่งรายการ';
+	@override String get srt_import_pick_srt => 'เลือกไฟล์คำบรรยาย';
+	@override String get srt_import_pick_srt_dir => 'เลือกโฟลเดอร์คำบรรยาย';
+	@override String get srt_no_subtitle_files => 'ไม่พบไฟล์คำบรรยายในโฟลเดอร์ที่เลือก';
+	@override String get srt_pick_subtitle_file => 'เลือกไฟล์คำบรรยาย';
+	@override String get srt_import_pick_epub => 'เลือก EPUB';
 	@override String get srt_import_pick_audio_dir => '???????????????????';
 	@override String get srt_import_pick_audio_files => '??????????????';
 	@override String srt_import_files_selected({required Object n}) => '????? ${n} ????????';
@@ -13139,12 +13154,12 @@ class _StringsTr extends _StringsEn {
 	@override String get audiobook_import_error => '??e aktarma ba?ar?s?z';
 	@override String get audiobook_remove_confirm => 'Ba?l? sesli kitap kald?r?ls?n m??';
 	@override String get srt_import => 'Kitap i?e aktar';
-	@override String get srt_import_hint_epub_or_srt => 'EPUB ve altyaz?: en az birini se?in';
-	@override String get srt_import_pick_srt => 'Altyaz? dosyas? se?';
-	@override String get srt_import_pick_srt_dir => 'Altyaz? klas?rü se?';
-	@override String get srt_no_subtitle_files => 'Se?ilen klas?rde altyaz? dosyas? bulunamad?';
-	@override String get srt_pick_subtitle_file => 'Altyaz? dosyas? se?';
-	@override String get srt_import_pick_epub => 'EPUB se?';
+	@override String get srt_import_hint_epub_or_srt => 'EPUB ve altyazı: en az birini seçin';
+	@override String get srt_import_pick_srt => 'Altyazı dosyası seç';
+	@override String get srt_import_pick_srt_dir => 'Altyazı klasörü seç';
+	@override String get srt_no_subtitle_files => 'Seçilen klasörde altyazı dosyası bulunamadı';
+	@override String get srt_pick_subtitle_file => 'Altyazı dosyası seç';
+	@override String get srt_import_pick_epub => 'EPUB seç';
 	@override String get srt_import_pick_audio_dir => 'Ses klas?rü se?';
 	@override String get srt_import_pick_audio_files => 'Ses dosyalar?n? se?';
 	@override String srt_import_files_selected({required Object n}) => '${n} dosya se?ildi';
@@ -14095,12 +14110,12 @@ class _StringsVi extends _StringsEn {
 	@override String get audiobook_import_error => 'Nh?p th?t b?i';
 	@override String get audiobook_remove_confirm => 'Xóa sách nói ?? g?n?';
 	@override String get srt_import => 'Nh?p sách';
-	@override String get srt_import_hint_epub_or_srt => 'EPUB và ph? ??: ch?n ít nh?t m?t';
-	@override String get srt_import_pick_srt => 'Ch?n t?p ph? ??';
-	@override String get srt_import_pick_srt_dir => 'Ch?n th? m?c ph? ??';
-	@override String get srt_no_subtitle_files => 'Kh?ng tìm th?y t?p ph? ?? trong th? m?c ?? ch?n';
-	@override String get srt_pick_subtitle_file => 'Ch?n t?p ph? ??';
-	@override String get srt_import_pick_epub => 'Ch?n EPUB';
+	@override String get srt_import_hint_epub_or_srt => 'EPUB và phụ đề: chọn ít nhất một';
+	@override String get srt_import_pick_srt => 'Chọn tệp phụ đề';
+	@override String get srt_import_pick_srt_dir => 'Chọn thư mục phụ đề';
+	@override String get srt_no_subtitle_files => 'Không tìm thấy tệp phụ đề trong thư mục đã chọn';
+	@override String get srt_pick_subtitle_file => 'Chọn tệp phụ đề';
+	@override String get srt_import_pick_epub => 'Chọn EPUB';
 	@override String get srt_import_pick_audio_dir => 'Ch?n th? m?c am thanh';
 	@override String get srt_import_pick_audio_files => 'Ch?n t?p am thanh';
 	@override String srt_import_files_selected({required Object n}) => '?? ch?n ${n} t?p';
@@ -17444,6 +17459,21 @@ extension on _StringsEn {
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
 			case 'untitled': return 'Untitled';
 			case 'section_epub': return 'EPUB';
+			case 'book_css_editor_title': return 'Edit Book CSS';
+			case 'book_css_editor_edit_css': return 'Edit CSS';
+			case 'book_css_editor_reset_current': return 'Reset Current';
+			case 'book_css_editor_reset_all': return 'Reset All';
+			case 'book_css_editor_save': return 'Save';
+			case 'book_css_editor_no_css_files': return 'This book has no CSS files.';
+			case 'book_css_editor_unsaved_changes': return 'Unsaved Changes';
+			case 'book_css_editor_unsaved_changes_message': return 'You have unsaved changes. What would you like to do?';
+			case 'book_css_editor_confirm_reset': return 'Reset this file to its original content?';
+			case 'book_css_editor_confirm_reset_all': return 'Reset all modified CSS files to their original content?';
+			case 'book_css_editor_discard': return 'Discard';
+			case 'book_css_editor_cancel': return 'Cancel';
+			case 'book_css_editor_saved': return 'CSS saved.';
+			case 'book_css_editor_reset_done': return 'CSS reset.';
+			case 'book_css_editor_no_extract_dir': return 'Book data not found on disk.';
 			default: return null;
 		}
 	}
@@ -18818,12 +18848,12 @@ extension on _StringsDe {
 			case 'audiobook_import_error': return 'Import fehlgeschlagen';
 			case 'audiobook_remove_confirm': return 'Angeh?ngtes H?rbuch entfernen?';
 			case 'srt_import': return 'Buch importieren';
-			case 'srt_import_hint_epub_or_srt': return 'EPUB und Untertitel: mindestens eines ausw?hlen';
-			case 'srt_import_pick_srt': return 'Untertiteldatei ausw?hlen';
-			case 'srt_import_pick_srt_dir': return 'Untertitelverzeichnis ausw?hlen';
-			case 'srt_no_subtitle_files': return 'Keine Untertiteldateien im ausgew?hlten Verzeichnis gefunden';
-			case 'srt_pick_subtitle_file': return 'Untertiteldatei ausw?hlen';
-			case 'srt_import_pick_epub': return 'EPUB ausw?hlen';
+			case 'srt_import_hint_epub_or_srt': return 'EPUB und Untertitel: mindestens eines auswählen';
+			case 'srt_import_pick_srt': return 'Untertiteldatei auswählen';
+			case 'srt_import_pick_srt_dir': return 'Untertitelverzeichnis auswählen';
+			case 'srt_no_subtitle_files': return 'Keine Untertiteldateien im ausgewählten Verzeichnis gefunden';
+			case 'srt_pick_subtitle_file': return 'Untertiteldatei auswählen';
+			case 'srt_import_pick_epub': return 'EPUB auswählen';
 			case 'srt_import_pick_audio_dir': return 'Audioverzeichnis ausw?hlen';
 			case 'srt_import_pick_audio_files': return 'Audiodateien ausw?hlen';
 			case 'srt_import_files_selected': return ({required Object n}) => '${n} Dateien ausgew?hlt';
@@ -24356,12 +24386,12 @@ extension on _StringsKo {
 			case 'audiobook_import_error': return '???? ??';
 			case 'audiobook_remove_confirm': return '??? ????? ?????????';
 			case 'srt_import': return '? ????';
-			case 'srt_import_hint_epub_or_srt': return 'EPUB? ??: ??? ??? ??????';
-			case 'srt_import_pick_srt': return '?? ?? ??';
-			case 'srt_import_pick_srt_dir': return '?? ???? ??';
-			case 'srt_no_subtitle_files': return '??? ????? ?? ??? ????';
-			case 'srt_pick_subtitle_file': return '?? ?? ??';
-			case 'srt_import_pick_epub': return 'EPUB ??';
+			case 'srt_import_hint_epub_or_srt': return 'EPUB과 자막: 최소 하나를 선택하세요';
+			case 'srt_import_pick_srt': return '자막 파일 선택';
+			case 'srt_import_pick_srt_dir': return '자막 디렉토리 선택';
+			case 'srt_no_subtitle_files': return '선택한 디렉토리에 자막 파일이 없습니다';
+			case 'srt_pick_subtitle_file': return '자막 파일 선택';
+			case 'srt_import_pick_epub': return 'EPUB 선택';
 			case 'srt_import_pick_audio_dir': return '??? ???? ??';
 			case 'srt_import_pick_audio_files': return '??? ?? ??';
 			case 'srt_import_files_selected': return ({required Object n}) => '${n}? ?? ???';
@@ -28048,12 +28078,12 @@ extension on _StringsTh {
 			case 'audiobook_import_error': return '????????????????';
 			case 'audiobook_remove_confirm': return '?????????????????????????';
 			case 'srt_import': return '?????????????';
-			case 'srt_import_hint_epub_or_srt': return 'EPUB ?????????????: ?????????????????????????';
-			case 'srt_import_pick_srt': return '?????????????????';
-			case 'srt_import_pick_srt_dir': return '??????????????????????';
-			case 'srt_no_subtitle_files': return '????????????????????????????????????';
-			case 'srt_pick_subtitle_file': return '?????????????????';
-			case 'srt_import_pick_epub': return '????? EPUB';
+			case 'srt_import_hint_epub_or_srt': return 'EPUB และคำบรรยาย: เลือกอย่างน้อยหนึ่งรายการ';
+			case 'srt_import_pick_srt': return 'เลือกไฟล์คำบรรยาย';
+			case 'srt_import_pick_srt_dir': return 'เลือกโฟลเดอร์คำบรรยาย';
+			case 'srt_no_subtitle_files': return 'ไม่พบไฟล์คำบรรยายในโฟลเดอร์ที่เลือก';
+			case 'srt_pick_subtitle_file': return 'เลือกไฟล์คำบรรยาย';
+			case 'srt_import_pick_epub': return 'เลือก EPUB';
 			case 'srt_import_pick_audio_dir': return '???????????????????';
 			case 'srt_import_pick_audio_files': return '??????????????';
 			case 'srt_import_files_selected': return ({required Object n}) => '????? ${n} ????????';
@@ -28979,12 +29009,12 @@ extension on _StringsTr {
 			case 'audiobook_import_error': return '??e aktarma ba?ar?s?z';
 			case 'audiobook_remove_confirm': return 'Ba?l? sesli kitap kald?r?ls?n m??';
 			case 'srt_import': return 'Kitap i?e aktar';
-			case 'srt_import_hint_epub_or_srt': return 'EPUB ve altyaz?: en az birini se?in';
-			case 'srt_import_pick_srt': return 'Altyaz? dosyas? se?';
-			case 'srt_import_pick_srt_dir': return 'Altyaz? klas?rü se?';
-			case 'srt_no_subtitle_files': return 'Se?ilen klas?rde altyaz? dosyas? bulunamad?';
-			case 'srt_pick_subtitle_file': return 'Altyaz? dosyas? se?';
-			case 'srt_import_pick_epub': return 'EPUB se?';
+			case 'srt_import_hint_epub_or_srt': return 'EPUB ve altyazı: en az birini seçin';
+			case 'srt_import_pick_srt': return 'Altyazı dosyası seç';
+			case 'srt_import_pick_srt_dir': return 'Altyazı klasörü seç';
+			case 'srt_no_subtitle_files': return 'Seçilen klasörde altyazı dosyası bulunamadı';
+			case 'srt_pick_subtitle_file': return 'Altyazı dosyası seç';
+			case 'srt_import_pick_epub': return 'EPUB seç';
 			case 'srt_import_pick_audio_dir': return 'Ses klas?rü se?';
 			case 'srt_import_pick_audio_files': return 'Ses dosyalar?n? se?';
 			case 'srt_import_files_selected': return ({required Object n}) => '${n} dosya se?ildi';
@@ -29894,12 +29924,12 @@ extension on _StringsVi {
 			case 'audiobook_import_error': return 'Nh?p th?t b?i';
 			case 'audiobook_remove_confirm': return 'Xóa sách nói ?? g?n?';
 			case 'srt_import': return 'Nh?p sách';
-			case 'srt_import_hint_epub_or_srt': return 'EPUB và ph? ??: ch?n ít nh?t m?t';
-			case 'srt_import_pick_srt': return 'Ch?n t?p ph? ??';
-			case 'srt_import_pick_srt_dir': return 'Ch?n th? m?c ph? ??';
-			case 'srt_no_subtitle_files': return 'Kh?ng tìm th?y t?p ph? ?? trong th? m?c ?? ch?n';
-			case 'srt_pick_subtitle_file': return 'Ch?n t?p ph? ??';
-			case 'srt_import_pick_epub': return 'Ch?n EPUB';
+			case 'srt_import_hint_epub_or_srt': return 'EPUB và phụ đề: chọn ít nhất một';
+			case 'srt_import_pick_srt': return 'Chọn tệp phụ đề';
+			case 'srt_import_pick_srt_dir': return 'Chọn thư mục phụ đề';
+			case 'srt_no_subtitle_files': return 'Không tìm thấy tệp phụ đề trong thư mục đã chọn';
+			case 'srt_pick_subtitle_file': return 'Chọn tệp phụ đề';
+			case 'srt_import_pick_epub': return 'Chọn EPUB';
 			case 'srt_import_pick_audio_dir': return 'Ch?n th? m?c am thanh';
 			case 'srt_import_pick_audio_files': return 'Ch?n t?p am thanh';
 			case 'srt_import_files_selected': return ({required Object n}) => '?? ch?n ${n} t?p';
