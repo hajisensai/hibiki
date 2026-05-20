@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 16094 (946 per locale)
 ///
-/// Built on 2026-05-20 at 13:26 UTC
+/// Built on 2026-05-20 at 13:56 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1109,7 +1109,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get batch_select => 'Select';
 	String batch_selected_count({required Object n}) => '${n} selected';
 	String get batch_select_all => 'All';
-	String get batch_deselect_all => 'None';
+	String get batch_invert_selection => 'Invert';
 	String batch_delete_confirm({required Object n}) => 'Delete ${n} book(s)? This cannot be undone.';
 	String batch_delete_success({required Object n}) => 'Deleted ${n} book(s).';
 	String get batch_tag_title => 'Manage Tags';
@@ -8098,7 +8098,7 @@ class _StringsJa extends _StringsEn {
 	@override String get batch_select => '選択';
 	@override String batch_selected_count({required Object n}) => '${n} 件選択中';
 	@override String get batch_select_all => 'すべて';
-	@override String get batch_deselect_all => '選択解除';
+	@override String get batch_invert_selection => '選択反転';
 	@override String batch_delete_confirm({required Object n}) => '${n} 冊の本を削除しますか？この操作は元に戻せません。';
 	@override String batch_delete_success({required Object n}) => '${n} 冊の本を削除しました。';
 	@override String get batch_tag_title => 'タグを一括管理';
@@ -16084,7 +16084,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get batch_select => '选择';
 	@override String batch_selected_count({required Object n}) => '已选 ${n} 项';
 	@override String get batch_select_all => '全选';
-	@override String get batch_deselect_all => '取消全选';
+	@override String get batch_invert_selection => '反选';
 	@override String batch_delete_confirm({required Object n}) => '确定删除 ${n} 本书？此操作不可撤销。';
 	@override String batch_delete_success({required Object n}) => '已删除 ${n} 本书。';
 	@override String get batch_tag_title => '批量管理标签';
@@ -17091,7 +17091,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get batch_select => '選擇';
 	@override String batch_selected_count({required Object n}) => '已選 ${n} 項';
 	@override String get batch_select_all => '全選';
-	@override String get batch_deselect_all => '取消全選';
+	@override String get batch_invert_selection => '反選';
 	@override String batch_delete_confirm({required Object n}) => '確定刪除 ${n} 本書？此操作不可撤銷。';
 	@override String batch_delete_success({required Object n}) => '已刪除 ${n} 本書。';
 	@override String get batch_tag_title => '批量管理標籤';
@@ -18089,7 +18089,7 @@ extension on _StringsEn {
 			case 'batch_select': return 'Select';
 			case 'batch_selected_count': return ({required Object n}) => '${n} selected';
 			case 'batch_select_all': return 'All';
-			case 'batch_deselect_all': return 'None';
+			case 'batch_invert_selection': return 'Invert';
 			case 'batch_delete_confirm': return ({required Object n}) => 'Delete ${n} book(s)? This cannot be undone.';
 			case 'batch_delete_success': return ({required Object n}) => 'Deleted ${n} book(s).';
 			case 'batch_tag_title': return 'Manage Tags';
@@ -24791,7 +24791,7 @@ extension on _StringsJa {
 			case 'batch_select': return '選択';
 			case 'batch_selected_count': return ({required Object n}) => '${n} 件選択中';
 			case 'batch_select_all': return 'すべて';
-			case 'batch_deselect_all': return '選択解除';
+			case 'batch_invert_selection': return '選択反転';
 			case 'batch_delete_confirm': return ({required Object n}) => '${n} 冊の本を削除しますか？この操作は元に戻せません。';
 			case 'batch_delete_success': return ({required Object n}) => '${n} 冊の本を削除しました。';
 			case 'batch_tag_title': return 'タグを一括管理';
@@ -32449,7 +32449,7 @@ extension on _StringsZhCn {
 			case 'batch_select': return '选择';
 			case 'batch_selected_count': return ({required Object n}) => '已选 ${n} 项';
 			case 'batch_select_all': return '全选';
-			case 'batch_deselect_all': return '取消全选';
+			case 'batch_invert_selection': return '反选';
 			case 'batch_delete_confirm': return ({required Object n}) => '确定删除 ${n} 本书？此操作不可撤销。';
 			case 'batch_delete_success': return ({required Object n}) => '已删除 ${n} 本书。';
 			case 'batch_tag_title': return '批量管理标签';
@@ -33415,7 +33415,7 @@ extension on _StringsZhHk {
 			case 'batch_select': return '選擇';
 			case 'batch_selected_count': return ({required Object n}) => '已選 ${n} 項';
 			case 'batch_select_all': return '全選';
-			case 'batch_deselect_all': return '取消全選';
+			case 'batch_invert_selection': return '反選';
 			case 'batch_delete_confirm': return ({required Object n}) => '確定刪除 ${n} 本書？此操作不可撤銷。';
 			case 'batch_delete_success': return ({required Object n}) => '已刪除 ${n} 本書。';
 			case 'batch_tag_title': return '批量管理標籤';
