@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 15965 (939 per locale)
+/// Strings: 16054 (944 per locale)
 ///
-/// Built on 2026-05-20 at 06:51 UTC
+/// Built on 2026-05-20 at 11:43 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -193,6 +193,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get dialog_read => 'READ';
 	String get dialog_view => 'VIEW';
 	String get dialog_edit => 'EDIT';
+	String get dialog_edit_info => 'Edit Info';
 	String get dialog_export => 'EXPORT';
 	String get dialog_import => 'IMPORT';
 	String get dialog_importing => 'IMPORTING…';
@@ -609,6 +610,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_file_error => 'Cannot Load File';
 	String get video_file_error_content => 'Unable to load the video file. Please ensure this file exists and is located in a directory accessible by the application.';
 	String get audiobook_import => 'Import Audiobook';
+	String get audio_import => 'Import Audio';
 	String get audiobook_remove => 'Remove Audiobook';
 	String get audiobook_pick_audio_dir => 'Pick Audio Directory';
 	String get audiobook_pick_alignment => 'Pick Alignment File';
@@ -633,7 +635,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get srt_import_pick_srt_dir => 'Pick Subtitle Directory';
 	String get srt_no_subtitle_files => 'No subtitle files found in selected directory';
 	String get srt_pick_subtitle_file => 'Select Subtitle File';
-	String get srt_import_pick_epub => 'Pick EPUB (combinable with subtitle & audio)';
+	String get srt_import_pick_epub => 'Pick EPUB';
 	String get srt_import_pick_audio_dir => 'Pick Audio Directory';
 	String get srt_import_pick_audio_files => 'Pick Audio Files';
 	String srt_import_files_selected({required Object n}) => '${n} files selected';
@@ -1052,6 +1054,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get local_audio_add_db => 'Add Local Audio Database';
 	String get lyrics_mode => 'Lyrics Mode';
 	String get book_mode => 'Book Mode';
+	String get lyrics_font_size => 'Lyrics Font Size';
+	String get lyrics_font_size_hint => 'Lyrics font size is independent of book mode';
+	String get lyrics_mode_hint_title => 'Lyrics Mode';
+	String get lyrics_mode_hint_body => 'Lyrics mode has its own font size setting. You can adjust it in ⚙ Settings → Typography.';
 	String get miscellaneous_settings => 'Miscellaneous';
 	String get no_results_found => 'No results found.';
 	String get pause_on_lookup => 'Pause on Lookup';
@@ -1068,10 +1074,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get profile_label => 'Profile';
 	String get profile_management => 'Profile Management';
 	String get profile_media_audiobook => 'Audiobook';
-	String get profile_media_epub => 'EPUB';
+	String get profile_media_epub => 'Book';
+	String get profile_media_lyrics => 'Lyrics Mode';
 	String get profile_media_none => 'None';
+	String get profile_media_srtbook => 'Subtitle Book';
 	String get profile_media_type_bindings => 'Media Type Bindings';
-	String get profile_media_video => 'Video';
 	String get profile_name_hint => 'Profile name';
 	String get profile_rename => 'Rename';
 	String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} matched — ${detail}';
@@ -1082,6 +1089,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get srt_import_pick_cover => 'Pick Cover Image';
 	String tag_added_to_book({required Object name}) => 'Tag "${name}" added to book.';
 	String tag_already_on_book({required Object name}) => 'Tag "${name}" is already on this book.';
+	String get tag_builtin_reading => 'Reading';
+	String get tag_builtin_finished => 'Finished';
 	String tag_book_count({required Object count}) => '${count} book(s)';
 	String get tag_clear_filter => 'Clear Filter';
 	String get tag_color => 'Color';
@@ -1188,6 +1197,7 @@ class _StringsAr extends _StringsEn {
 	@override String get dialog_read => 'قراءة';
 	@override String get dialog_view => 'عرض';
 	@override String get dialog_edit => 'تعديل';
+	@override String get dialog_edit_info => 'تعديل المعلومات';
 	@override String get dialog_export => 'تصدير';
 	@override String get dialog_import => 'استيراد';
 	@override String get dialog_import_dictionary => 'استيراد قاموس';
@@ -1594,6 +1604,7 @@ class _StringsAr extends _StringsEn {
 	@override String get video_file_error => 'تعذّر تحميل الملف';
 	@override String get video_file_error_content => 'تعذّر تحميل ملف الفيديو. تأكد من وجود الملف في دليل يمكن للتطبيق الوصول إليه.';
 	@override String get audiobook_import => 'استيراد كتاب مسموع';
+	@override String get audio_import => 'استيراد صوت';
 	@override String get audiobook_remove => 'إزالة الكتاب المسموع';
 	@override String get audiobook_pick_audio_dir => 'اختيار دليل الصوت';
 	@override String get audiobook_pick_alignment => 'اختيار ملف المحاذاة';
@@ -1607,7 +1618,7 @@ class _StringsAr extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => 'اختيار دليل الترجمات';
 	@override String get srt_no_subtitle_files => 'لم يتم العثور على ملفات ترجمة في الدليل المحدد';
 	@override String get srt_pick_subtitle_file => 'اختيار ملف ترجمة';
-	@override String get srt_import_pick_epub => 'اختيار EPUB (يمكن دمجه مع الترجمة والصوت)';
+	@override String get srt_import_pick_epub => 'اختيار EPUB';
 	@override String get srt_import_pick_audio_dir => 'اختيار دليل الصوت';
 	@override String get srt_import_pick_audio_files => 'اختيار ملفات صوت';
 	@override String srt_import_files_selected({required Object n}) => 'تم تحديد ${n} ملف';
@@ -2060,10 +2071,11 @@ class _StringsAr extends _StringsEn {
 	@override String get profile_label => 'الملف الشخصي';
 	@override String get profile_management => 'إدارة الملفات الشخصية';
 	@override String get profile_media_audiobook => 'كتاب مسموع';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => 'كتاب';
+	@override String get profile_media_lyrics => 'وضع الكلمات';
 	@override String get profile_media_none => 'لا شيء';
+	@override String get profile_media_srtbook => 'كتاب الترجمة';
 	@override String get profile_media_type_bindings => 'ربط أنواع الوسائط';
-	@override String get profile_media_video => 'فيديو';
 	@override String get profile_name_hint => 'اسم الملف الشخصي';
 	@override String get profile_rename => 'إعادة تسمية';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} مطابق — ${detail}';
@@ -2074,6 +2086,8 @@ class _StringsAr extends _StringsEn {
 	@override String get srt_import_pick_cover => 'اختيار صورة الغلاف';
 	@override String tag_added_to_book({required Object name}) => 'تمت إضافة الوسم "${name}" إلى الكتاب.';
 	@override String tag_already_on_book({required Object name}) => 'الوسم "${name}" موجود بالفعل في هذا الكتاب.';
+	@override String get tag_builtin_reading => 'قيد القراءة';
+	@override String get tag_builtin_finished => 'مكتمل';
 	@override String tag_book_count({required Object count}) => '${count} كتاب';
 	@override String get tag_clear_filter => 'مسح التصفية';
 	@override String get tag_color => 'اللون';
@@ -2180,6 +2194,7 @@ class _StringsDe extends _StringsEn {
 	@override String get dialog_read => 'LESEN';
 	@override String get dialog_view => 'ANSEHEN';
 	@override String get dialog_edit => 'BEARBEITEN';
+	@override String get dialog_edit_info => 'Info bearbeiten';
 	@override String get dialog_export => 'EXPORTIEREN';
 	@override String get dialog_import => 'IMPORTIEREN';
 	@override String get dialog_import_dictionary => 'Wörterbuch importieren';
@@ -2595,6 +2610,7 @@ class _StringsDe extends _StringsEn {
 	@override String get video_file_error => 'Datei kann nicht geladen werden';
 	@override String get video_file_error_content => 'Die Videodatei kann nicht geladen werden. Bitte stellen Sie sicher, dass die Datei existiert und sich in einem für die App zugänglichen Verzeichnis befindet.';
 	@override String get audiobook_import => 'Hörbuch importieren';
+	@override String get audio_import => 'Audio importieren';
 	@override String get audiobook_remove => 'Hörbuch entfernen';
 	@override String get audiobook_pick_audio_dir => 'Audioverzeichnis auswählen';
 	@override String get audiobook_pick_alignment => 'Ausrichtungsdatei auswählen';
@@ -2619,7 +2635,7 @@ class _StringsDe extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => 'Untertitelverzeichnis auswählen';
 	@override String get srt_no_subtitle_files => 'Keine Untertiteldateien im ausgewählten Verzeichnis gefunden';
 	@override String get srt_pick_subtitle_file => 'Untertiteldatei auswählen';
-	@override String get srt_import_pick_epub => 'EPUB auswählen (kombinierbar mit Untertitel & Audio)';
+	@override String get srt_import_pick_epub => 'EPUB auswählen';
 	@override String get srt_import_pick_audio_dir => 'Audioverzeichnis auswählen';
 	@override String get srt_import_pick_audio_files => 'Audiodateien auswählen';
 	@override String srt_import_files_selected({required Object n}) => '${n} Dateien ausgewählt';
@@ -3052,10 +3068,11 @@ class _StringsDe extends _StringsEn {
 	@override String get profile_label => 'Profil';
 	@override String get profile_management => 'Profilverwaltung';
 	@override String get profile_media_audiobook => 'Hörbuch';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => 'Buch';
+	@override String get profile_media_lyrics => 'Liedtext-Modus';
 	@override String get profile_media_none => 'Keine';
+	@override String get profile_media_srtbook => 'Untertitelbuch';
 	@override String get profile_media_type_bindings => 'Medientyp-Zuordnungen';
-	@override String get profile_media_video => 'Video';
 	@override String get profile_name_hint => 'Profilname';
 	@override String get profile_rename => 'Umbenennen';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} übereinstimmend — ${detail}';
@@ -3066,6 +3083,8 @@ class _StringsDe extends _StringsEn {
 	@override String get srt_import_pick_cover => 'Coverbild auswählen';
 	@override String tag_added_to_book({required Object name}) => 'Tag "${name}" zum Buch hinzugefügt.';
 	@override String tag_already_on_book({required Object name}) => 'Tag "${name}" ist bereits auf diesem Buch.';
+	@override String get tag_builtin_reading => 'Lese ich';
+	@override String get tag_builtin_finished => 'Gelesen';
 	@override String tag_book_count({required Object count}) => '${count} Buch/Bücher';
 	@override String get tag_clear_filter => 'Filter löschen';
 	@override String get tag_color => 'Farbe';
@@ -3172,6 +3191,7 @@ class _StringsEs extends _StringsEn {
 	@override String get dialog_read => 'LEER';
 	@override String get dialog_view => 'VER';
 	@override String get dialog_edit => 'EDITAR';
+	@override String get dialog_edit_info => 'Editar info';
 	@override String get dialog_export => 'EXPORTAR';
 	@override String get dialog_import => 'IMPORTAR';
 	@override String get dialog_import_dictionary => 'Importar diccionario';
@@ -3570,6 +3590,7 @@ class _StringsEs extends _StringsEn {
 	@override String get video_file_error => 'No se puede cargar el archivo';
 	@override String get video_file_error_content => 'No se pudo cargar el archivo de vídeo. Asegúrate de que el archivo existe y está en un directorio accesible por la aplicación.';
 	@override String get audiobook_import => 'Importar audiolibro';
+	@override String get audio_import => 'Importar audio';
 	@override String get audiobook_remove => 'Eliminar audiolibro';
 	@override String get audiobook_pick_audio_dir => 'Elegir directorio de audio';
 	@override String get audiobook_pick_alignment => 'Elegir archivo de alineación';
@@ -3583,7 +3604,7 @@ class _StringsEs extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => 'Elegir directorio de subtítulos';
 	@override String get srt_no_subtitle_files => 'No se encontraron archivos de subtítulos en el directorio seleccionado';
 	@override String get srt_pick_subtitle_file => 'Seleccionar archivo de subtítulos';
-	@override String get srt_import_pick_epub => 'Elegir EPUB (combinable con subtítulos y audio)';
+	@override String get srt_import_pick_epub => 'Elegir EPUB';
 	@override String get srt_import_pick_audio_dir => 'Elegir directorio de audio';
 	@override String get srt_import_pick_audio_files => 'Elegir archivos de audio';
 	@override String srt_import_files_selected({required Object n}) => '${n} archivos seleccionados';
@@ -4044,10 +4065,11 @@ class _StringsEs extends _StringsEn {
 	@override String get profile_label => 'Perfil';
 	@override String get profile_management => 'Gestión de perfiles';
 	@override String get profile_media_audiobook => 'Audiolibro';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => 'Libro';
+	@override String get profile_media_lyrics => 'Modo letras';
 	@override String get profile_media_none => 'Ninguno';
+	@override String get profile_media_srtbook => 'Libro de subtítulos';
 	@override String get profile_media_type_bindings => 'Asociaciones de tipo de medio';
-	@override String get profile_media_video => 'Vídeo';
 	@override String get profile_name_hint => 'Nombre del perfil';
 	@override String get profile_rename => 'Renombrar';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} coincidencia — ${detail}';
@@ -4058,6 +4080,8 @@ class _StringsEs extends _StringsEn {
 	@override String get srt_import_pick_cover => 'Elegir imagen de portada';
 	@override String tag_added_to_book({required Object name}) => 'Etiqueta "${name}" añadida al libro.';
 	@override String tag_already_on_book({required Object name}) => 'La etiqueta "${name}" ya está en este libro.';
+	@override String get tag_builtin_reading => 'Leyendo';
+	@override String get tag_builtin_finished => 'Leído';
 	@override String tag_book_count({required Object count}) => '${count} libro(s)';
 	@override String get tag_clear_filter => 'Borrar filtro';
 	@override String get tag_color => 'Color';
@@ -4164,6 +4188,7 @@ class _StringsFr extends _StringsEn {
 	@override String get dialog_read => 'LIRE';
 	@override String get dialog_view => 'VOIR';
 	@override String get dialog_edit => 'MODIFIER';
+	@override String get dialog_edit_info => 'Modifier les infos';
 	@override String get dialog_export => 'EXPORTER';
 	@override String get dialog_import => 'IMPORTER';
 	@override String get dialog_import_dictionary => 'Importer un dictionnaire';
@@ -4562,6 +4587,7 @@ class _StringsFr extends _StringsEn {
 	@override String get video_file_error => 'Impossible de charger le fichier';
 	@override String get video_file_error_content => 'Impossible de charger le fichier vidéo. Veuillez vérifier que ce fichier existe et se trouve dans un répertoire accessible par l\'application.';
 	@override String get audiobook_import => 'Importer un livre audio';
+	@override String get audio_import => 'Importer audio';
 	@override String get audiobook_remove => 'Supprimer le livre audio';
 	@override String get audiobook_pick_audio_dir => 'Choisir le répertoire audio';
 	@override String get audiobook_pick_alignment => 'Choisir le fichier d\'alignement';
@@ -4575,7 +4601,7 @@ class _StringsFr extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => 'Choisir le répertoire de sous-titres';
 	@override String get srt_no_subtitle_files => 'Aucun fichier de sous-titres trouvé dans le répertoire sélectionné';
 	@override String get srt_pick_subtitle_file => 'Sélectionner un fichier de sous-titres';
-	@override String get srt_import_pick_epub => 'Choisir un EPUB (combinable avec sous-titres et audio)';
+	@override String get srt_import_pick_epub => 'Choisir un EPUB';
 	@override String get srt_import_pick_audio_dir => 'Choisir le répertoire audio';
 	@override String get srt_import_pick_audio_files => 'Choisir les fichiers audio';
 	@override String srt_import_files_selected({required Object n}) => '${n} fichiers sélectionnés';
@@ -5036,10 +5062,11 @@ class _StringsFr extends _StringsEn {
 	@override String get profile_label => 'Profil';
 	@override String get profile_management => 'Gestion des profils';
 	@override String get profile_media_audiobook => 'Livre audio';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => 'Livre';
+	@override String get profile_media_lyrics => 'Mode paroles';
 	@override String get profile_media_none => 'Aucun';
+	@override String get profile_media_srtbook => 'Livre sous-titré';
 	@override String get profile_media_type_bindings => 'Associations de types de médias';
-	@override String get profile_media_video => 'Vidéo';
 	@override String get profile_name_hint => 'Nom du profil';
 	@override String get profile_rename => 'Renommer';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} correspondance — ${detail}';
@@ -5050,6 +5077,8 @@ class _StringsFr extends _StringsEn {
 	@override String get srt_import_pick_cover => 'Choisir une image de couverture';
 	@override String tag_added_to_book({required Object name}) => 'Tag "${name}" ajouté au livre.';
 	@override String tag_already_on_book({required Object name}) => 'Le tag "${name}" est déjà sur ce livre.';
+	@override String get tag_builtin_reading => 'En cours';
+	@override String get tag_builtin_finished => 'Terminé';
 	@override String tag_book_count({required Object count}) => '${count} livre(s)';
 	@override String get tag_clear_filter => 'Effacer le filtre';
 	@override String get tag_color => 'Couleur';
@@ -5156,6 +5185,7 @@ class _StringsId extends _StringsEn {
 	@override String get dialog_read => 'BACA';
 	@override String get dialog_view => 'LIHAT';
 	@override String get dialog_edit => 'EDIT';
+	@override String get dialog_edit_info => 'Edit Info';
 	@override String get dialog_export => 'EKSPOR';
 	@override String get dialog_import => 'IMPOR';
 	@override String get dialog_import_dictionary => 'Impor Kamus';
@@ -5554,6 +5584,7 @@ class _StringsId extends _StringsEn {
 	@override String get video_file_error => 'Tidak Dapat Memuat File';
 	@override String get video_file_error_content => 'Tidak dapat memuat file video. Pastikan file ini ada dan berada di direktori yang dapat diakses oleh aplikasi.';
 	@override String get audiobook_import => 'Impor Buku Audio';
+	@override String get audio_import => 'Impor Audio';
 	@override String get audiobook_remove => 'Hapus Buku Audio';
 	@override String get audiobook_pick_audio_dir => 'Pilih Direktori Audio';
 	@override String get audiobook_pick_alignment => 'Pilih File Penyelarasan';
@@ -5567,7 +5598,7 @@ class _StringsId extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => 'Pilih Direktori Subtitle';
 	@override String get srt_no_subtitle_files => 'Tidak ada file subtitle di direktori yang dipilih';
 	@override String get srt_pick_subtitle_file => 'Pilih File Subtitle';
-	@override String get srt_import_pick_epub => 'Pilih EPUB (dapat dikombinasikan dengan subtitle & audio)';
+	@override String get srt_import_pick_epub => 'Pilih EPUB';
 	@override String get srt_import_pick_audio_dir => 'Pilih Direktori Audio';
 	@override String get srt_import_pick_audio_files => 'Pilih File Audio';
 	@override String srt_import_files_selected({required Object n}) => '${n} file dipilih';
@@ -6028,10 +6059,11 @@ class _StringsId extends _StringsEn {
 	@override String get profile_label => 'Profil';
 	@override String get profile_management => 'Manajemen Profil';
 	@override String get profile_media_audiobook => 'Buku Audio';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => 'Buku';
+	@override String get profile_media_lyrics => 'Mode lirik';
 	@override String get profile_media_none => 'Tidak Ada';
+	@override String get profile_media_srtbook => 'Buku subtitle';
 	@override String get profile_media_type_bindings => 'Pengikatan Tipe Media';
-	@override String get profile_media_video => 'Video';
 	@override String get profile_name_hint => 'Nama profil';
 	@override String get profile_rename => 'Ganti Nama';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} cocok — ${detail}';
@@ -6042,6 +6074,8 @@ class _StringsId extends _StringsEn {
 	@override String get srt_import_pick_cover => 'Pilih Gambar Sampul';
 	@override String tag_added_to_book({required Object name}) => 'Tag "${name}" ditambahkan ke buku.';
 	@override String tag_already_on_book({required Object name}) => 'Tag "${name}" sudah ada di buku ini.';
+	@override String get tag_builtin_reading => 'Sedang Dibaca';
+	@override String get tag_builtin_finished => 'Selesai';
 	@override String tag_book_count({required Object count}) => '${count} buku';
 	@override String get tag_clear_filter => 'Hapus Filter';
 	@override String get tag_color => 'Warna';
@@ -6148,6 +6182,7 @@ class _StringsIt extends _StringsEn {
 	@override String get dialog_read => 'LEGGI';
 	@override String get dialog_view => 'VISUALIZZA';
 	@override String get dialog_edit => 'MODIFICA';
+	@override String get dialog_edit_info => 'Modifica info';
 	@override String get dialog_export => 'ESPORTA';
 	@override String get dialog_import => 'IMPORTA';
 	@override String get dialog_import_dictionary => 'Importa dizionario';
@@ -6554,6 +6589,7 @@ class _StringsIt extends _StringsEn {
 	@override String get video_file_error => 'Impossibile caricare il file';
 	@override String get video_file_error_content => 'Impossibile caricare il file video. Assicurati che il file esista e si trovi in una cartella accessibile dall\'applicazione.';
 	@override String get audiobook_import => 'Importa audiolibro';
+	@override String get audio_import => 'Importa audio';
 	@override String get audiobook_remove => 'Rimuovi audiolibro';
 	@override String get audiobook_pick_audio_dir => 'Scegli cartella audio';
 	@override String get audiobook_pick_alignment => 'Scegli file di allineamento';
@@ -6567,7 +6603,7 @@ class _StringsIt extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => 'Scegli cartella sottotitoli';
 	@override String get srt_no_subtitle_files => 'Nessun file di sottotitoli trovato nella cartella selezionata';
 	@override String get srt_pick_subtitle_file => 'Seleziona file sottotitoli';
-	@override String get srt_import_pick_epub => 'Scegli EPUB (combinabile con sottotitoli e audio)';
+	@override String get srt_import_pick_epub => 'Scegli EPUB';
 	@override String get srt_import_pick_audio_dir => 'Scegli cartella audio';
 	@override String get srt_import_pick_audio_files => 'Scegli file audio';
 	@override String srt_import_files_selected({required Object n}) => '${n} file selezionati';
@@ -7020,10 +7056,11 @@ class _StringsIt extends _StringsEn {
 	@override String get profile_label => 'Profilo';
 	@override String get profile_management => 'Gestione profili';
 	@override String get profile_media_audiobook => 'Audiolibro';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => 'Libro';
+	@override String get profile_media_lyrics => 'Modalità testi';
 	@override String get profile_media_none => 'Nessuno';
+	@override String get profile_media_srtbook => 'Libro sottotitolato';
 	@override String get profile_media_type_bindings => 'Associazioni tipo di media';
-	@override String get profile_media_video => 'Video';
 	@override String get profile_name_hint => 'Nome del profilo';
 	@override String get profile_rename => 'Rinomina';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} corrispondente — ${detail}';
@@ -7034,6 +7071,8 @@ class _StringsIt extends _StringsEn {
 	@override String get srt_import_pick_cover => 'Scegli immagine di copertina';
 	@override String tag_added_to_book({required Object name}) => 'Etichetta "${name}" aggiunta al libro.';
 	@override String tag_already_on_book({required Object name}) => 'L\'etichetta "${name}" è già presente in questo libro.';
+	@override String get tag_builtin_reading => 'In lettura';
+	@override String get tag_builtin_finished => 'Letto';
 	@override String tag_book_count({required Object count}) => '${count} libro/i';
 	@override String get tag_clear_filter => 'Rimuovi filtro';
 	@override String get tag_color => 'Colore';
@@ -7140,6 +7179,7 @@ class _StringsJa extends _StringsEn {
 	@override String get dialog_read => '読む';
 	@override String get dialog_view => '表示';
 	@override String get dialog_edit => '編集';
+	@override String get dialog_edit_info => '情報を編集';
 	@override String get dialog_export => 'エクスポート';
 	@override String get dialog_import => 'インポート';
 	@override String get dialog_import_dictionary => '辞書をインポート';
@@ -7540,6 +7580,7 @@ class _StringsJa extends _StringsEn {
 	@override String get video_file_error => 'ファイルを読み込めません';
 	@override String get video_file_error_content => '動画ファイルを読み込めませんでした。ファイルが存在し、アプリがアクセス可能なディレクトリにあることを確認してください。';
 	@override String get audiobook_import => 'オーディオブックをインポート';
+	@override String get audio_import => '音声をインポート';
 	@override String get audiobook_remove => 'オーディオブックを削除';
 	@override String get audiobook_pick_audio_dir => '音声ディレクトリを選択';
 	@override String get audiobook_pick_alignment => 'アラインメントファイルを選択';
@@ -7553,7 +7594,7 @@ class _StringsJa extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => '字幕ディレクトリを選択';
 	@override String get srt_no_subtitle_files => '選択したディレクトリに字幕ファイルがありません';
 	@override String get srt_pick_subtitle_file => '字幕ファイルを選択';
-	@override String get srt_import_pick_epub => 'EPUBを選択（字幕・音声と組み合わせ可能）';
+	@override String get srt_import_pick_epub => 'EPUBを選択';
 	@override String get srt_import_pick_audio_dir => '音声ディレクトリを選択';
 	@override String get srt_import_pick_audio_files => '音声ファイルを選択';
 	@override String srt_import_files_selected({required Object n}) => '${n} 件のファイルを選択済み';
@@ -8012,10 +8053,11 @@ class _StringsJa extends _StringsEn {
 	@override String get profile_label => 'プロファイル';
 	@override String get profile_management => 'プロファイル管理';
 	@override String get profile_media_audiobook => 'オーディオブック';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => '普通の本';
+	@override String get profile_media_lyrics => '歌詞モード';
 	@override String get profile_media_none => 'なし';
+	@override String get profile_media_srtbook => '字幕ブック';
 	@override String get profile_media_type_bindings => 'メディアタイプの紐付け';
-	@override String get profile_media_video => 'ビデオ';
 	@override String get profile_name_hint => 'プロファイル名';
 	@override String get profile_rename => '名前を変更';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} マッチ — ${detail}';
@@ -8026,6 +8068,8 @@ class _StringsJa extends _StringsEn {
 	@override String get srt_import_pick_cover => 'カバー画像を選択';
 	@override String tag_added_to_book({required Object name}) => 'タグ「${name}」を本に追加しました。';
 	@override String tag_already_on_book({required Object name}) => 'タグ「${name}」は既にこの本に付いています。';
+	@override String get tag_builtin_reading => '読書中';
+	@override String get tag_builtin_finished => '読了';
 	@override String tag_book_count({required Object count}) => '${count} 冊';
 	@override String get tag_clear_filter => 'フィルターを解除';
 	@override String get tag_color => '色';
@@ -8132,6 +8176,7 @@ class _StringsKo extends _StringsEn {
 	@override String get dialog_read => '읽기';
 	@override String get dialog_view => '보기';
 	@override String get dialog_edit => '편집';
+	@override String get dialog_edit_info => '정보 편집';
 	@override String get dialog_export => '내보내기';
 	@override String get dialog_import => '가져오기';
 	@override String get dialog_import_dictionary => '사전 가져오기';
@@ -8547,6 +8592,7 @@ class _StringsKo extends _StringsEn {
 	@override String get video_file_error => '파일을 로드할 수 없음';
 	@override String get video_file_error_content => '동영상 파일을 로드할 수 없습니다. 파일이 존재하고 앱에서 접근 가능한 디렉토리에 있는지 확인하세요.';
 	@override String get audiobook_import => '오디오북 가져오기';
+	@override String get audio_import => '오디오 가져오기';
 	@override String get audiobook_remove => '오디오북 제거';
 	@override String get audiobook_pick_audio_dir => '오디오 디렉토리 선택';
 	@override String get audiobook_pick_alignment => '정렬 파일 선택';
@@ -8571,7 +8617,7 @@ class _StringsKo extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => '자막 디렉토리 선택';
 	@override String get srt_no_subtitle_files => '선택한 디렉토리에 자막 파일이 없습니다';
 	@override String get srt_pick_subtitle_file => '자막 파일 선택';
-	@override String get srt_import_pick_epub => 'EPUB 선택 (자막 및 오디오와 결합 가능)';
+	@override String get srt_import_pick_epub => 'EPUB 선택';
 	@override String get srt_import_pick_audio_dir => '오디오 디렉토리 선택';
 	@override String get srt_import_pick_audio_files => '오디오 파일 선택';
 	@override String srt_import_files_selected({required Object n}) => '${n}개 파일 선택됨';
@@ -9004,10 +9050,11 @@ class _StringsKo extends _StringsEn {
 	@override String get profile_label => '프로필';
 	@override String get profile_management => '프로필 관리';
 	@override String get profile_media_audiobook => '오디오북';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => '일반 책';
+	@override String get profile_media_lyrics => '가사 모드';
 	@override String get profile_media_none => '없음';
+	@override String get profile_media_srtbook => '자막 북';
 	@override String get profile_media_type_bindings => '미디어 유형 바인딩';
-	@override String get profile_media_video => '동영상';
 	@override String get profile_name_hint => '프로필 이름';
 	@override String get profile_rename => '이름 변경';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} 일치 — ${detail}';
@@ -9018,6 +9065,8 @@ class _StringsKo extends _StringsEn {
 	@override String get srt_import_pick_cover => '표지 이미지 선택';
 	@override String tag_added_to_book({required Object name}) => '태그 "${name}"이(가) 책에 추가되었습니다.';
 	@override String tag_already_on_book({required Object name}) => '태그 "${name}"이(가) 이미 이 책에 있습니다.';
+	@override String get tag_builtin_reading => '읽는 중';
+	@override String get tag_builtin_finished => '완독';
 	@override String tag_book_count({required Object count}) => '${count}권';
 	@override String get tag_clear_filter => '필터 해제';
 	@override String get tag_color => '색상';
@@ -9124,6 +9173,7 @@ class _StringsNl extends _StringsEn {
 	@override String get dialog_read => 'LEZEN';
 	@override String get dialog_view => 'BEKIJKEN';
 	@override String get dialog_edit => 'BEWERKEN';
+	@override String get dialog_edit_info => 'Info bewerken';
 	@override String get dialog_export => 'EXPORTEREN';
 	@override String get dialog_import => 'IMPORTEREN';
 	@override String get dialog_import_dictionary => 'Woordenboek importeren';
@@ -9530,6 +9580,7 @@ class _StringsNl extends _StringsEn {
 	@override String get video_file_error => 'Kan bestand niet laden';
 	@override String get video_file_error_content => 'Kan het videobestand niet laden. Zorg ervoor dat dit bestand bestaat en zich bevindt in een map die toegankelijk is voor de applicatie.';
 	@override String get audiobook_import => 'Audioboek importeren';
+	@override String get audio_import => 'Audio importeren';
 	@override String get audiobook_remove => 'Audioboek verwijderen';
 	@override String get audiobook_pick_audio_dir => 'Kies audiomap';
 	@override String get audiobook_pick_alignment => 'Kies uitlijningsbestand';
@@ -9543,7 +9594,7 @@ class _StringsNl extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => 'Kies ondertitelmap';
 	@override String get srt_no_subtitle_files => 'Geen ondertitelbestanden gevonden in de geselecteerde map';
 	@override String get srt_pick_subtitle_file => 'Selecteer ondertitelbestand';
-	@override String get srt_import_pick_epub => 'Kies EPUB (combineerbaar met ondertitels en audio)';
+	@override String get srt_import_pick_epub => 'Kies EPUB';
 	@override String get srt_import_pick_audio_dir => 'Kies audiomap';
 	@override String get srt_import_pick_audio_files => 'Kies audiobestanden';
 	@override String srt_import_files_selected({required Object n}) => '${n} bestanden geselecteerd';
@@ -9996,10 +10047,11 @@ class _StringsNl extends _StringsEn {
 	@override String get profile_label => 'Profiel';
 	@override String get profile_management => 'Profielbeheer';
 	@override String get profile_media_audiobook => 'Audioboek';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => 'Boek';
+	@override String get profile_media_lyrics => 'Songtekstmodus';
 	@override String get profile_media_none => 'Geen';
+	@override String get profile_media_srtbook => 'Ondertitelboek';
 	@override String get profile_media_type_bindings => 'Mediatypekoppelingen';
-	@override String get profile_media_video => 'Video';
 	@override String get profile_name_hint => 'Profielnaam';
 	@override String get profile_rename => 'Hernoemen';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} overeenkomst — ${detail}';
@@ -10010,6 +10062,8 @@ class _StringsNl extends _StringsEn {
 	@override String get srt_import_pick_cover => 'Kies omslagafbeelding';
 	@override String tag_added_to_book({required Object name}) => 'Tag "${name}" toegevoegd aan boek.';
 	@override String tag_already_on_book({required Object name}) => 'Tag "${name}" staat al op dit boek.';
+	@override String get tag_builtin_reading => 'Aan het lezen';
+	@override String get tag_builtin_finished => 'Gelezen';
 	@override String tag_book_count({required Object count}) => '${count} boek(en)';
 	@override String get tag_clear_filter => 'Filter wissen';
 	@override String get tag_color => 'Kleur';
@@ -10115,6 +10169,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get dialog_read => 'LER';
 	@override String get dialog_view => 'VISUALIZAR';
 	@override String get dialog_edit => 'EDITAR';
+	@override String get dialog_edit_info => 'Editar Info';
 	@override String get dialog_export => 'EXPORTAR';
 	@override String get dialog_import => 'IMPORTAR';
 	@override String get dialog_importing => 'IMPORTANDO…';
@@ -10531,6 +10586,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_file_error => 'Não é Possível Carregar o Arquivo';
 	@override String get video_file_error_content => 'Não foi possível carregar o arquivo de vídeo. Verifique se o arquivo existe e está em um diretório acessível pelo aplicativo.';
 	@override String get audiobook_import => 'Importar Audiolivro';
+	@override String get audio_import => 'Importar Áudio';
 	@override String get audiobook_remove => 'Remover Audiolivro';
 	@override String get audiobook_pick_audio_dir => 'Escolher Diretório de Áudio';
 	@override String get audiobook_pick_alignment => 'Escolher Arquivo de Alinhamento';
@@ -10555,7 +10611,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => 'Escolher Diretório de Legendas';
 	@override String get srt_no_subtitle_files => 'Nenhum arquivo de legendas encontrado no diretório selecionado';
 	@override String get srt_pick_subtitle_file => 'Selecionar Arquivo de Legendas';
-	@override String get srt_import_pick_epub => 'Escolher EPUB (combinável com legendas e áudio)';
+	@override String get srt_import_pick_epub => 'Escolher EPUB';
 	@override String get srt_import_pick_audio_dir => 'Escolher Diretório de Áudio';
 	@override String get srt_import_pick_audio_files => 'Escolher Arquivos de Áudio';
 	@override String srt_import_files_selected({required Object n}) => '${n} arquivos selecionados';
@@ -10988,10 +11044,11 @@ class _StringsPtBr extends _StringsEn {
 	@override String get profile_label => 'Perfil';
 	@override String get profile_management => 'Gerenciamento de Perfis';
 	@override String get profile_media_audiobook => 'Audiolivro';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => 'Livro';
+	@override String get profile_media_lyrics => 'Modo letras';
 	@override String get profile_media_none => 'Nenhum';
+	@override String get profile_media_srtbook => 'Livro de legendas';
 	@override String get profile_media_type_bindings => 'Associações de Tipo de Mídia';
-	@override String get profile_media_video => 'Vídeo';
 	@override String get profile_name_hint => 'Nome do perfil';
 	@override String get profile_rename => 'Renomear';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} correspondência — ${detail}';
@@ -11002,6 +11059,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get srt_import_pick_cover => 'Escolher Imagem de Capa';
 	@override String tag_added_to_book({required Object name}) => 'Tag "${name}" adicionada ao livro.';
 	@override String tag_already_on_book({required Object name}) => 'A tag "${name}" já está neste livro.';
+	@override String get tag_builtin_reading => 'Lendo';
+	@override String get tag_builtin_finished => 'Lido';
 	@override String tag_book_count({required Object count}) => '${count} livro(s)';
 	@override String get tag_clear_filter => 'Limpar Filtro';
 	@override String get tag_color => 'Cor';
@@ -11108,6 +11167,7 @@ class _StringsRu extends _StringsEn {
 	@override String get dialog_read => 'ЧИТАТЬ';
 	@override String get dialog_view => 'ПРОСМОТР';
 	@override String get dialog_edit => 'ИЗМЕНИТЬ';
+	@override String get dialog_edit_info => 'Редактировать';
 	@override String get dialog_export => 'ЭКСПОРТ';
 	@override String get dialog_import => 'ИМПОРТ';
 	@override String get dialog_import_dictionary => 'Импортировать словарь';
@@ -11506,6 +11566,7 @@ class _StringsRu extends _StringsEn {
 	@override String get video_file_error => 'Не удалось загрузить файл';
 	@override String get video_file_error_content => 'Не удалось загрузить видеофайл. Убедитесь, что файл существует и находится в каталоге, доступном приложению.';
 	@override String get audiobook_import => 'Импортировать аудиокнигу';
+	@override String get audio_import => 'Импортировать аудио';
 	@override String get audiobook_remove => 'Удалить аудиокнигу';
 	@override String get audiobook_pick_audio_dir => 'Выбрать папку с аудио';
 	@override String get audiobook_pick_alignment => 'Выбрать файл выравнивания';
@@ -11519,7 +11580,7 @@ class _StringsRu extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => 'Выбрать папку с субтитрами';
 	@override String get srt_no_subtitle_files => 'В выбранной папке нет файлов субтитров';
 	@override String get srt_pick_subtitle_file => 'Выбрать файл субтитров';
-	@override String get srt_import_pick_epub => 'Выбрать EPUB (комбинируется с субтитрами и аудио)';
+	@override String get srt_import_pick_epub => 'Выбрать EPUB';
 	@override String get srt_import_pick_audio_dir => 'Выбрать папку с аудио';
 	@override String get srt_import_pick_audio_files => 'Выбрать аудиофайлы';
 	@override String srt_import_files_selected({required Object n}) => 'Выбрано файлов: ${n}';
@@ -11980,10 +12041,11 @@ class _StringsRu extends _StringsEn {
 	@override String get profile_label => 'Профиль';
 	@override String get profile_management => 'Управление профилями';
 	@override String get profile_media_audiobook => 'Аудиокнига';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => 'Книга';
+	@override String get profile_media_lyrics => 'Режим текстов';
 	@override String get profile_media_none => 'Нет';
+	@override String get profile_media_srtbook => 'Субтитровая книга';
 	@override String get profile_media_type_bindings => 'Привязки типов медиа';
-	@override String get profile_media_video => 'Видео';
 	@override String get profile_name_hint => 'Название профиля';
 	@override String get profile_rename => 'Переименовать';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} совпадение — ${detail}';
@@ -11994,6 +12056,8 @@ class _StringsRu extends _StringsEn {
 	@override String get srt_import_pick_cover => 'Выбрать обложку';
 	@override String tag_added_to_book({required Object name}) => 'Тег "${name}" добавлен к книге.';
 	@override String tag_already_on_book({required Object name}) => 'Тег "${name}" уже есть у этой книги.';
+	@override String get tag_builtin_reading => 'Читаю';
+	@override String get tag_builtin_finished => 'Прочитано';
 	@override String tag_book_count({required Object count}) => '${count} книг(а)';
 	@override String get tag_clear_filter => 'Сбросить фильтр';
 	@override String get tag_color => 'Цвет';
@@ -12099,6 +12163,7 @@ class _StringsTh extends _StringsEn {
 	@override String get dialog_read => 'อ่าน';
 	@override String get dialog_view => 'ดู';
 	@override String get dialog_edit => 'แก้ไข';
+	@override String get dialog_edit_info => 'แก้ไขข้อมูล';
 	@override String get dialog_export => 'ส่งออก';
 	@override String get dialog_import => 'นำเข้า';
 	@override String get dialog_importing => 'กำลังนำเข้า…';
@@ -12515,6 +12580,7 @@ class _StringsTh extends _StringsEn {
 	@override String get video_file_error => 'ไม่สามารถโหลดไฟล์';
 	@override String get video_file_error_content => 'ไม่สามารถโหลดไฟล์วิดีโอ กรุณาตรวจสอบว่าไฟล์นี้มีอยู่และอยู่ในไดเรกทอรีที่แอปเข้าถึงได้';
 	@override String get audiobook_import => 'นำเข้าหนังสือเสียง';
+	@override String get audio_import => 'นำเข้าเสียง';
 	@override String get audiobook_remove => 'ลบหนังสือเสียง';
 	@override String get audiobook_pick_audio_dir => 'เลือกโฟลเดอร์เสียง';
 	@override String get audiobook_pick_alignment => 'เลือกไฟล์การจัดตำแหน่ง';
@@ -12539,7 +12605,7 @@ class _StringsTh extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => 'เลือกโฟลเดอร์ซับไตเติล';
 	@override String get srt_no_subtitle_files => 'ไม่พบไฟล์ซับไตเติลในโฟลเดอร์ที่เลือก';
 	@override String get srt_pick_subtitle_file => 'เลือกไฟล์ซับไตเติล';
-	@override String get srt_import_pick_epub => 'เลือก EPUB (รวมกับซับไตเติลและเสียงได้)';
+	@override String get srt_import_pick_epub => 'เลือก EPUB';
 	@override String get srt_import_pick_audio_dir => 'เลือกโฟลเดอร์เสียง';
 	@override String get srt_import_pick_audio_files => 'เลือกไฟล์เสียง';
 	@override String srt_import_files_selected({required Object n}) => 'เลือก ${n} ไฟล์แล้ว';
@@ -12972,10 +13038,11 @@ class _StringsTh extends _StringsEn {
 	@override String get profile_label => 'โปรไฟล์';
 	@override String get profile_management => 'จัดการโปรไฟล์';
 	@override String get profile_media_audiobook => 'หนังสือเสียง';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => 'หนังสือ';
+	@override String get profile_media_lyrics => 'โหมดเนื้อเพลง';
 	@override String get profile_media_none => 'ไม่มี';
+	@override String get profile_media_srtbook => 'หนังสือบรรยาย';
 	@override String get profile_media_type_bindings => 'การผูกประเภทสื่อ';
-	@override String get profile_media_video => 'วิดีโอ';
 	@override String get profile_name_hint => 'ชื่อโปรไฟล์';
 	@override String get profile_rename => 'เปลี่ยนชื่อ';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} ตรง — ${detail}';
@@ -12986,6 +13053,8 @@ class _StringsTh extends _StringsEn {
 	@override String get srt_import_pick_cover => 'เลือกรูปปก';
 	@override String tag_added_to_book({required Object name}) => 'เพิ่มแท็ก "${name}" ในหนังสือแล้ว';
 	@override String tag_already_on_book({required Object name}) => 'แท็ก "${name}" มีอยู่ในหนังสือนี้แล้ว';
+	@override String get tag_builtin_reading => 'กำลังอ่าน';
+	@override String get tag_builtin_finished => 'อ่านจบ';
 	@override String tag_book_count({required Object count}) => '${count} เล่ม';
 	@override String get tag_clear_filter => 'ล้างตัวกรอง';
 	@override String get tag_color => 'สี';
@@ -13091,6 +13160,7 @@ class _StringsTr extends _StringsEn {
 	@override String get dialog_read => 'OKU';
 	@override String get dialog_view => 'GÖRÜNTÜLE';
 	@override String get dialog_edit => 'DÜZENLE';
+	@override String get dialog_edit_info => 'Bilgiyi düzenle';
 	@override String get dialog_export => 'DIŞA AKTAR';
 	@override String get dialog_import => 'İÇE AKTAR';
 	@override String get dialog_importing => 'İÇE AKTARILIYOR…';
@@ -13507,6 +13577,7 @@ class _StringsTr extends _StringsEn {
 	@override String get video_file_error => 'Dosya yüklenemiyor';
 	@override String get video_file_error_content => 'Video dosyası yüklenemiyor. Bu dosyanın var olduğundan ve uygulama tarafından erişilebilir bir konumda olduğundan emin olun.';
 	@override String get audiobook_import => 'Sesli kitap içe aktar';
+	@override String get audio_import => 'Ses içe aktar';
 	@override String get audiobook_remove => 'Sesli kitabı kaldır';
 	@override String get audiobook_pick_audio_dir => 'Ses klasörü seç';
 	@override String get audiobook_pick_alignment => 'Hizalama dosyası seç';
@@ -13531,7 +13602,7 @@ class _StringsTr extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => 'Altyazı klasörü seç';
 	@override String get srt_no_subtitle_files => 'Seçilen klasörde altyazı dosyası bulunamadı';
 	@override String get srt_pick_subtitle_file => 'Altyazı dosyası seç';
-	@override String get srt_import_pick_epub => 'EPUB seç (altyazı ve sesle birleştirilebilir)';
+	@override String get srt_import_pick_epub => 'EPUB seç';
 	@override String get srt_import_pick_audio_dir => 'Ses klasörü seç';
 	@override String get srt_import_pick_audio_files => 'Ses dosyalarını seç';
 	@override String srt_import_files_selected({required Object n}) => '${n} dosya seçildi';
@@ -13964,10 +14035,11 @@ class _StringsTr extends _StringsEn {
 	@override String get profile_label => 'Profil';
 	@override String get profile_management => 'Profil Yönetimi';
 	@override String get profile_media_audiobook => 'Sesli Kitap';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => 'Kitap';
+	@override String get profile_media_lyrics => 'Şarkı sözü modu';
 	@override String get profile_media_none => 'Yok';
+	@override String get profile_media_srtbook => 'Altyazı kitabı';
 	@override String get profile_media_type_bindings => 'Medya Türü Bağlamaları';
-	@override String get profile_media_video => 'Video';
 	@override String get profile_name_hint => 'Profil adı';
 	@override String get profile_rename => 'Yeniden Adlandır';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} eşleşti — ${detail}';
@@ -13978,6 +14050,8 @@ class _StringsTr extends _StringsEn {
 	@override String get srt_import_pick_cover => 'Kapak Görseli Seç';
 	@override String tag_added_to_book({required Object name}) => '"${name}" etiketi kitaba eklendi.';
 	@override String tag_already_on_book({required Object name}) => '"${name}" etiketi zaten bu kitapta mevcut.';
+	@override String get tag_builtin_reading => 'Okunuyor';
+	@override String get tag_builtin_finished => 'Bitti';
 	@override String tag_book_count({required Object count}) => '${count} kitap';
 	@override String get tag_clear_filter => 'Filtreyi Temizle';
 	@override String get tag_color => 'Renk';
@@ -14084,6 +14158,7 @@ class _StringsVi extends _StringsEn {
 	@override String get dialog_read => 'ĐỌC';
 	@override String get dialog_view => 'XEM';
 	@override String get dialog_edit => 'SỬA';
+	@override String get dialog_edit_info => 'Sửa thông tin';
 	@override String get dialog_export => 'XUẤT';
 	@override String get dialog_import => 'NHẬP';
 	@override String get dialog_import_dictionary => 'Nhập từ điển';
@@ -14499,6 +14574,7 @@ class _StringsVi extends _StringsEn {
 	@override String get video_file_error => 'Không thể tải tệp';
 	@override String get video_file_error_content => 'Không thể tải tệp video. Hãy đảm bảo tệp tồn tại và nằm trong thư mục mà ứng dụng có thể truy cập.';
 	@override String get audiobook_import => 'Nhập sách nói';
+	@override String get audio_import => 'Nhập âm thanh';
 	@override String get audiobook_remove => 'Xóa sách nói';
 	@override String get audiobook_pick_audio_dir => 'Chọn thư mục âm thanh';
 	@override String get audiobook_pick_alignment => 'Chọn tệp căn chỉnh';
@@ -14523,7 +14599,7 @@ class _StringsVi extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => 'Chọn thư mục phụ đề';
 	@override String get srt_no_subtitle_files => 'Không tìm thấy tệp phụ đề trong thư mục đã chọn';
 	@override String get srt_pick_subtitle_file => 'Chọn tệp phụ đề';
-	@override String get srt_import_pick_epub => 'Chọn EPUB (có thể kết hợp với phụ đề & âm thanh)';
+	@override String get srt_import_pick_epub => 'Chọn EPUB';
 	@override String get srt_import_pick_audio_dir => 'Chọn thư mục âm thanh';
 	@override String get srt_import_pick_audio_files => 'Chọn tệp âm thanh';
 	@override String srt_import_files_selected({required Object n}) => 'Đã chọn ${n} tệp';
@@ -14956,10 +15032,11 @@ class _StringsVi extends _StringsEn {
 	@override String get profile_label => 'Hồ sơ';
 	@override String get profile_management => 'Quản lý hồ sơ';
 	@override String get profile_media_audiobook => 'Sách nói';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => 'Sách';
+	@override String get profile_media_lyrics => 'Chế độ lời bài hát';
 	@override String get profile_media_none => 'Không';
+	@override String get profile_media_srtbook => 'Sách phụ đề';
 	@override String get profile_media_type_bindings => 'Liên kết loại media';
-	@override String get profile_media_video => 'Video';
 	@override String get profile_name_hint => 'Tên hồ sơ';
 	@override String get profile_rename => 'Đổi tên';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} khớp — ${detail}';
@@ -14970,6 +15047,8 @@ class _StringsVi extends _StringsEn {
 	@override String get srt_import_pick_cover => 'Chọn ảnh bìa';
 	@override String tag_added_to_book({required Object name}) => 'Đã thêm thẻ "${name}" vào sách.';
 	@override String tag_already_on_book({required Object name}) => 'Thẻ "${name}" đã có trong sách này.';
+	@override String get tag_builtin_reading => 'Đang đọc';
+	@override String get tag_builtin_finished => 'Đã đọc';
 	@override String tag_book_count({required Object count}) => '${count} sách';
 	@override String get tag_clear_filter => 'Xóa bộ lọc';
 	@override String get tag_color => 'Màu';
@@ -15075,6 +15154,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get dialog_read => '阅读';
 	@override String get dialog_view => '查看';
 	@override String get dialog_edit => '编辑';
+	@override String get dialog_edit_info => '编辑信息';
 	@override String get dialog_export => '导出';
 	@override String get dialog_import => '导入';
 	@override String get dialog_importing => '正在导入…';
@@ -15489,6 +15569,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_file_error => '无法加载文件';
 	@override String get video_file_error_content => '无法加载视频文件。请确认该文件存在并位于应用可访问的目录中。';
 	@override String get audiobook_import => '导入有声书';
+	@override String get audio_import => '导入音频';
 	@override String get audiobook_remove => '移除有声书';
 	@override String get audiobook_pick_audio_dir => '选择音频目录';
 	@override String get audiobook_pick_alignment => '选择对齐文件';
@@ -15513,7 +15594,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => '选择字幕目录';
 	@override String get srt_no_subtitle_files => '所选目录中未找到字幕文件';
 	@override String get srt_pick_subtitle_file => '选择字幕文件';
-	@override String get srt_import_pick_epub => '选择 EPUB（可与字幕、音频组合）';
+	@override String get srt_import_pick_epub => '选择 EPUB';
 	@override String get srt_import_pick_audio_dir => '选择音频目录';
 	@override String get srt_import_pick_audio_files => '选择音频文件';
 	@override String srt_import_files_selected({required Object n}) => '已选择 ${n} 个文件';
@@ -15948,10 +16029,11 @@ class _StringsZhCn extends _StringsEn {
 	@override String get profile_label => '配置';
 	@override String get profile_management => '配置管理';
 	@override String get profile_media_audiobook => '有声书';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => '普通书';
+	@override String get profile_media_lyrics => '歌词模式';
 	@override String get profile_media_none => '无';
+	@override String get profile_media_srtbook => '字幕书';
 	@override String get profile_media_type_bindings => '媒体类型绑定';
-	@override String get profile_media_video => '视频';
 	@override String get profile_name_hint => '配置名称';
 	@override String get profile_rename => '重命名';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} 匹配 — ${detail}';
@@ -15962,6 +16044,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get srt_import_pick_cover => '选择封面图片';
 	@override String tag_added_to_book({required Object name}) => '标签「${name}」已添加到书籍。';
 	@override String tag_already_on_book({required Object name}) => '标签「${name}」已存在于此书。';
+	@override String get tag_builtin_reading => '在读';
+	@override String get tag_builtin_finished => '读完';
 	@override String tag_book_count({required Object count}) => '${count} 本';
 	@override String get tag_clear_filter => '清除筛选';
 	@override String get tag_color => '颜色';
@@ -16068,6 +16152,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get dialog_read => '閱讀';
 	@override String get dialog_view => '檢視';
 	@override String get dialog_edit => '編輯';
+	@override String get dialog_edit_info => '編輯資訊';
 	@override String get dialog_export => '匯出';
 	@override String get dialog_import => '匯入';
 	@override String get dialog_import_dictionary => '匯入辭典';
@@ -16468,6 +16553,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_file_error => '無法載入檔案';
 	@override String get video_file_error_content => '無法載入影片檔案。請確認該檔案存在並位於應用程式可存取的目錄中。';
 	@override String get audiobook_import => '匯入有聲書';
+	@override String get audio_import => '匯入音訊';
 	@override String get audiobook_remove => '移除有聲書';
 	@override String get audiobook_pick_audio_dir => '選擇音訊目錄';
 	@override String get audiobook_pick_alignment => '選擇對齊檔案';
@@ -16481,7 +16567,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get srt_import_pick_srt_dir => '選擇字幕目錄';
 	@override String get srt_no_subtitle_files => '所選目錄中未找到字幕檔';
 	@override String get srt_pick_subtitle_file => '選擇字幕檔';
-	@override String get srt_import_pick_epub => '選擇 EPUB（可與字幕、音訊組合）';
+	@override String get srt_import_pick_epub => '選擇 EPUB';
 	@override String get srt_import_pick_audio_dir => '選擇音訊目錄';
 	@override String get srt_import_pick_audio_files => '選擇音訊檔案';
 	@override String srt_import_files_selected({required Object n}) => '已選擇 ${n} 個檔案';
@@ -16940,10 +17026,11 @@ class _StringsZhHk extends _StringsEn {
 	@override String get profile_label => '設定檔';
 	@override String get profile_management => '設定檔管理';
 	@override String get profile_media_audiobook => '有聲書';
-	@override String get profile_media_epub => 'EPUB';
+	@override String get profile_media_epub => '普通書';
+	@override String get profile_media_lyrics => '歌詞模式';
 	@override String get profile_media_none => '無';
+	@override String get profile_media_srtbook => '字幕書';
 	@override String get profile_media_type_bindings => '媒體類型繫結';
-	@override String get profile_media_video => '影片';
 	@override String get profile_name_hint => '設定檔名稱';
 	@override String get profile_rename => '重新命名';
 	@override String sasayaki_health_label({required Object pct, required Object detail}) => '${pct} 比對 — ${detail}';
@@ -16954,6 +17041,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get srt_import_pick_cover => '選擇封面圖片';
 	@override String tag_added_to_book({required Object name}) => '標籤「${name}」已新增至書籍。';
 	@override String tag_already_on_book({required Object name}) => '標籤「${name}」已存在於此書。';
+	@override String get tag_builtin_reading => '在讀';
+	@override String get tag_builtin_finished => '讀完';
 	@override String tag_book_count({required Object count}) => '${count} 本';
 	@override String get tag_clear_filter => '清除篩選';
 	@override String get tag_color => '顏色';
@@ -17038,6 +17127,7 @@ extension on _StringsEn {
 			case 'dialog_read': return 'READ';
 			case 'dialog_view': return 'VIEW';
 			case 'dialog_edit': return 'EDIT';
+			case 'dialog_edit_info': return 'Edit Info';
 			case 'dialog_export': return 'EXPORT';
 			case 'dialog_import': return 'IMPORT';
 			case 'dialog_importing': return 'IMPORTING…';
@@ -17460,6 +17550,7 @@ extension on _StringsEn {
 			case 'video_file_error': return 'Cannot Load File';
 			case 'video_file_error_content': return 'Unable to load the video file. Please ensure this file exists and is located in a directory accessible by the application.';
 			case 'audiobook_import': return 'Import Audiobook';
+			case 'audio_import': return 'Import Audio';
 			case 'audiobook_remove': return 'Remove Audiobook';
 			case 'audiobook_pick_audio_dir': return 'Pick Audio Directory';
 			case 'audiobook_pick_alignment': return 'Pick Alignment File';
@@ -17484,7 +17575,7 @@ extension on _StringsEn {
 			case 'srt_import_pick_srt_dir': return 'Pick Subtitle Directory';
 			case 'srt_no_subtitle_files': return 'No subtitle files found in selected directory';
 			case 'srt_pick_subtitle_file': return 'Select Subtitle File';
-			case 'srt_import_pick_epub': return 'Pick EPUB (combinable with subtitle & audio)';
+			case 'srt_import_pick_epub': return 'Pick EPUB';
 			case 'srt_import_pick_audio_dir': return 'Pick Audio Directory';
 			case 'srt_import_pick_audio_files': return 'Pick Audio Files';
 			case 'srt_import_files_selected': return ({required Object n}) => '${n} files selected';
@@ -17903,6 +17994,10 @@ extension on _StringsEn {
 			case 'local_audio_add_db': return 'Add Local Audio Database';
 			case 'lyrics_mode': return 'Lyrics Mode';
 			case 'book_mode': return 'Book Mode';
+			case 'lyrics_font_size': return 'Lyrics Font Size';
+			case 'lyrics_font_size_hint': return 'Lyrics font size is independent of book mode';
+			case 'lyrics_mode_hint_title': return 'Lyrics Mode';
+			case 'lyrics_mode_hint_body': return 'Lyrics mode has its own font size setting. You can adjust it in ⚙ Settings → Typography.';
 			case 'miscellaneous_settings': return 'Miscellaneous';
 			case 'no_results_found': return 'No results found.';
 			case 'pause_on_lookup': return 'Pause on Lookup';
@@ -17919,10 +18014,11 @@ extension on _StringsEn {
 			case 'profile_label': return 'Profile';
 			case 'profile_management': return 'Profile Management';
 			case 'profile_media_audiobook': return 'Audiobook';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return 'Book';
+			case 'profile_media_lyrics': return 'Lyrics Mode';
 			case 'profile_media_none': return 'None';
+			case 'profile_media_srtbook': return 'Subtitle Book';
 			case 'profile_media_type_bindings': return 'Media Type Bindings';
-			case 'profile_media_video': return 'Video';
 			case 'profile_name_hint': return 'Profile name';
 			case 'profile_rename': return 'Rename';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} matched — ${detail}';
@@ -17933,6 +18029,8 @@ extension on _StringsEn {
 			case 'srt_import_pick_cover': return 'Pick Cover Image';
 			case 'tag_added_to_book': return ({required Object name}) => 'Tag "${name}" added to book.';
 			case 'tag_already_on_book': return ({required Object name}) => 'Tag "${name}" is already on this book.';
+			case 'tag_builtin_reading': return 'Reading';
+			case 'tag_builtin_finished': return 'Finished';
 			case 'tag_book_count': return ({required Object count}) => '${count} book(s)';
 			case 'tag_clear_filter': return 'Clear Filter';
 			case 'tag_color': return 'Color';
@@ -17992,6 +18090,7 @@ extension on _StringsAr {
 			case 'dialog_read': return 'قراءة';
 			case 'dialog_view': return 'عرض';
 			case 'dialog_edit': return 'تعديل';
+			case 'dialog_edit_info': return 'تعديل المعلومات';
 			case 'dialog_export': return 'تصدير';
 			case 'dialog_import': return 'استيراد';
 			case 'dialog_import_dictionary': return 'استيراد قاموس';
@@ -18404,6 +18503,7 @@ extension on _StringsAr {
 			case 'video_file_error': return 'تعذّر تحميل الملف';
 			case 'video_file_error_content': return 'تعذّر تحميل ملف الفيديو. تأكد من وجود الملف في دليل يمكن للتطبيق الوصول إليه.';
 			case 'audiobook_import': return 'استيراد كتاب مسموع';
+			case 'audio_import': return 'استيراد صوت';
 			case 'audiobook_remove': return 'إزالة الكتاب المسموع';
 			case 'audiobook_pick_audio_dir': return 'اختيار دليل الصوت';
 			case 'audiobook_pick_alignment': return 'اختيار ملف المحاذاة';
@@ -18417,7 +18517,7 @@ extension on _StringsAr {
 			case 'srt_import_pick_srt_dir': return 'اختيار دليل الترجمات';
 			case 'srt_no_subtitle_files': return 'لم يتم العثور على ملفات ترجمة في الدليل المحدد';
 			case 'srt_pick_subtitle_file': return 'اختيار ملف ترجمة';
-			case 'srt_import_pick_epub': return 'اختيار EPUB (يمكن دمجه مع الترجمة والصوت)';
+			case 'srt_import_pick_epub': return 'اختيار EPUB';
 			case 'srt_import_pick_audio_dir': return 'اختيار دليل الصوت';
 			case 'srt_import_pick_audio_files': return 'اختيار ملفات صوت';
 			case 'srt_import_files_selected': return ({required Object n}) => 'تم تحديد ${n} ملف';
@@ -18870,10 +18970,11 @@ extension on _StringsAr {
 			case 'profile_label': return 'الملف الشخصي';
 			case 'profile_management': return 'إدارة الملفات الشخصية';
 			case 'profile_media_audiobook': return 'كتاب مسموع';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return 'كتاب';
+			case 'profile_media_lyrics': return 'وضع الكلمات';
 			case 'profile_media_none': return 'لا شيء';
+			case 'profile_media_srtbook': return 'كتاب الترجمة';
 			case 'profile_media_type_bindings': return 'ربط أنواع الوسائط';
-			case 'profile_media_video': return 'فيديو';
 			case 'profile_name_hint': return 'اسم الملف الشخصي';
 			case 'profile_rename': return 'إعادة تسمية';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} مطابق — ${detail}';
@@ -18884,6 +18985,8 @@ extension on _StringsAr {
 			case 'srt_import_pick_cover': return 'اختيار صورة الغلاف';
 			case 'tag_added_to_book': return ({required Object name}) => 'تمت إضافة الوسم "${name}" إلى الكتاب.';
 			case 'tag_already_on_book': return ({required Object name}) => 'الوسم "${name}" موجود بالفعل في هذا الكتاب.';
+			case 'tag_builtin_reading': return 'قيد القراءة';
+			case 'tag_builtin_finished': return 'مكتمل';
 			case 'tag_book_count': return ({required Object count}) => '${count} كتاب';
 			case 'tag_clear_filter': return 'مسح التصفية';
 			case 'tag_color': return 'اللون';
@@ -18943,6 +19046,7 @@ extension on _StringsDe {
 			case 'dialog_read': return 'LESEN';
 			case 'dialog_view': return 'ANSEHEN';
 			case 'dialog_edit': return 'BEARBEITEN';
+			case 'dialog_edit_info': return 'Info bearbeiten';
 			case 'dialog_export': return 'EXPORTIEREN';
 			case 'dialog_import': return 'IMPORTIEREN';
 			case 'dialog_import_dictionary': return 'Wörterbuch importieren';
@@ -19364,6 +19468,7 @@ extension on _StringsDe {
 			case 'video_file_error': return 'Datei kann nicht geladen werden';
 			case 'video_file_error_content': return 'Die Videodatei kann nicht geladen werden. Bitte stellen Sie sicher, dass die Datei existiert und sich in einem für die App zugänglichen Verzeichnis befindet.';
 			case 'audiobook_import': return 'Hörbuch importieren';
+			case 'audio_import': return 'Audio importieren';
 			case 'audiobook_remove': return 'Hörbuch entfernen';
 			case 'audiobook_pick_audio_dir': return 'Audioverzeichnis auswählen';
 			case 'audiobook_pick_alignment': return 'Ausrichtungsdatei auswählen';
@@ -19388,7 +19493,7 @@ extension on _StringsDe {
 			case 'srt_import_pick_srt_dir': return 'Untertitelverzeichnis auswählen';
 			case 'srt_no_subtitle_files': return 'Keine Untertiteldateien im ausgewählten Verzeichnis gefunden';
 			case 'srt_pick_subtitle_file': return 'Untertiteldatei auswählen';
-			case 'srt_import_pick_epub': return 'EPUB auswählen (kombinierbar mit Untertitel & Audio)';
+			case 'srt_import_pick_epub': return 'EPUB auswählen';
 			case 'srt_import_pick_audio_dir': return 'Audioverzeichnis auswählen';
 			case 'srt_import_pick_audio_files': return 'Audiodateien auswählen';
 			case 'srt_import_files_selected': return ({required Object n}) => '${n} Dateien ausgewählt';
@@ -19821,10 +19926,11 @@ extension on _StringsDe {
 			case 'profile_label': return 'Profil';
 			case 'profile_management': return 'Profilverwaltung';
 			case 'profile_media_audiobook': return 'Hörbuch';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return 'Buch';
+			case 'profile_media_lyrics': return 'Liedtext-Modus';
 			case 'profile_media_none': return 'Keine';
+			case 'profile_media_srtbook': return 'Untertitelbuch';
 			case 'profile_media_type_bindings': return 'Medientyp-Zuordnungen';
-			case 'profile_media_video': return 'Video';
 			case 'profile_name_hint': return 'Profilname';
 			case 'profile_rename': return 'Umbenennen';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} übereinstimmend — ${detail}';
@@ -19835,6 +19941,8 @@ extension on _StringsDe {
 			case 'srt_import_pick_cover': return 'Coverbild auswählen';
 			case 'tag_added_to_book': return ({required Object name}) => 'Tag "${name}" zum Buch hinzugefügt.';
 			case 'tag_already_on_book': return ({required Object name}) => 'Tag "${name}" ist bereits auf diesem Buch.';
+			case 'tag_builtin_reading': return 'Lese ich';
+			case 'tag_builtin_finished': return 'Gelesen';
 			case 'tag_book_count': return ({required Object count}) => '${count} Buch/Bücher';
 			case 'tag_clear_filter': return 'Filter löschen';
 			case 'tag_color': return 'Farbe';
@@ -19894,6 +20002,7 @@ extension on _StringsEs {
 			case 'dialog_read': return 'LEER';
 			case 'dialog_view': return 'VER';
 			case 'dialog_edit': return 'EDITAR';
+			case 'dialog_edit_info': return 'Editar info';
 			case 'dialog_export': return 'EXPORTAR';
 			case 'dialog_import': return 'IMPORTAR';
 			case 'dialog_import_dictionary': return 'Importar diccionario';
@@ -20298,6 +20407,7 @@ extension on _StringsEs {
 			case 'video_file_error': return 'No se puede cargar el archivo';
 			case 'video_file_error_content': return 'No se pudo cargar el archivo de vídeo. Asegúrate de que el archivo existe y está en un directorio accesible por la aplicación.';
 			case 'audiobook_import': return 'Importar audiolibro';
+			case 'audio_import': return 'Importar audio';
 			case 'audiobook_remove': return 'Eliminar audiolibro';
 			case 'audiobook_pick_audio_dir': return 'Elegir directorio de audio';
 			case 'audiobook_pick_alignment': return 'Elegir archivo de alineación';
@@ -20311,7 +20421,7 @@ extension on _StringsEs {
 			case 'srt_import_pick_srt_dir': return 'Elegir directorio de subtítulos';
 			case 'srt_no_subtitle_files': return 'No se encontraron archivos de subtítulos en el directorio seleccionado';
 			case 'srt_pick_subtitle_file': return 'Seleccionar archivo de subtítulos';
-			case 'srt_import_pick_epub': return 'Elegir EPUB (combinable con subtítulos y audio)';
+			case 'srt_import_pick_epub': return 'Elegir EPUB';
 			case 'srt_import_pick_audio_dir': return 'Elegir directorio de audio';
 			case 'srt_import_pick_audio_files': return 'Elegir archivos de audio';
 			case 'srt_import_files_selected': return ({required Object n}) => '${n} archivos seleccionados';
@@ -20772,10 +20882,11 @@ extension on _StringsEs {
 			case 'profile_label': return 'Perfil';
 			case 'profile_management': return 'Gestión de perfiles';
 			case 'profile_media_audiobook': return 'Audiolibro';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return 'Libro';
+			case 'profile_media_lyrics': return 'Modo letras';
 			case 'profile_media_none': return 'Ninguno';
+			case 'profile_media_srtbook': return 'Libro de subtítulos';
 			case 'profile_media_type_bindings': return 'Asociaciones de tipo de medio';
-			case 'profile_media_video': return 'Vídeo';
 			case 'profile_name_hint': return 'Nombre del perfil';
 			case 'profile_rename': return 'Renombrar';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} coincidencia — ${detail}';
@@ -20786,6 +20897,8 @@ extension on _StringsEs {
 			case 'srt_import_pick_cover': return 'Elegir imagen de portada';
 			case 'tag_added_to_book': return ({required Object name}) => 'Etiqueta "${name}" añadida al libro.';
 			case 'tag_already_on_book': return ({required Object name}) => 'La etiqueta "${name}" ya está en este libro.';
+			case 'tag_builtin_reading': return 'Leyendo';
+			case 'tag_builtin_finished': return 'Leído';
 			case 'tag_book_count': return ({required Object count}) => '${count} libro(s)';
 			case 'tag_clear_filter': return 'Borrar filtro';
 			case 'tag_color': return 'Color';
@@ -20845,6 +20958,7 @@ extension on _StringsFr {
 			case 'dialog_read': return 'LIRE';
 			case 'dialog_view': return 'VOIR';
 			case 'dialog_edit': return 'MODIFIER';
+			case 'dialog_edit_info': return 'Modifier les infos';
 			case 'dialog_export': return 'EXPORTER';
 			case 'dialog_import': return 'IMPORTER';
 			case 'dialog_import_dictionary': return 'Importer un dictionnaire';
@@ -21249,6 +21363,7 @@ extension on _StringsFr {
 			case 'video_file_error': return 'Impossible de charger le fichier';
 			case 'video_file_error_content': return 'Impossible de charger le fichier vidéo. Veuillez vérifier que ce fichier existe et se trouve dans un répertoire accessible par l\'application.';
 			case 'audiobook_import': return 'Importer un livre audio';
+			case 'audio_import': return 'Importer audio';
 			case 'audiobook_remove': return 'Supprimer le livre audio';
 			case 'audiobook_pick_audio_dir': return 'Choisir le répertoire audio';
 			case 'audiobook_pick_alignment': return 'Choisir le fichier d\'alignement';
@@ -21262,7 +21377,7 @@ extension on _StringsFr {
 			case 'srt_import_pick_srt_dir': return 'Choisir le répertoire de sous-titres';
 			case 'srt_no_subtitle_files': return 'Aucun fichier de sous-titres trouvé dans le répertoire sélectionné';
 			case 'srt_pick_subtitle_file': return 'Sélectionner un fichier de sous-titres';
-			case 'srt_import_pick_epub': return 'Choisir un EPUB (combinable avec sous-titres et audio)';
+			case 'srt_import_pick_epub': return 'Choisir un EPUB';
 			case 'srt_import_pick_audio_dir': return 'Choisir le répertoire audio';
 			case 'srt_import_pick_audio_files': return 'Choisir les fichiers audio';
 			case 'srt_import_files_selected': return ({required Object n}) => '${n} fichiers sélectionnés';
@@ -21723,10 +21838,11 @@ extension on _StringsFr {
 			case 'profile_label': return 'Profil';
 			case 'profile_management': return 'Gestion des profils';
 			case 'profile_media_audiobook': return 'Livre audio';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return 'Livre';
+			case 'profile_media_lyrics': return 'Mode paroles';
 			case 'profile_media_none': return 'Aucun';
+			case 'profile_media_srtbook': return 'Livre sous-titré';
 			case 'profile_media_type_bindings': return 'Associations de types de médias';
-			case 'profile_media_video': return 'Vidéo';
 			case 'profile_name_hint': return 'Nom du profil';
 			case 'profile_rename': return 'Renommer';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} correspondance — ${detail}';
@@ -21737,6 +21853,8 @@ extension on _StringsFr {
 			case 'srt_import_pick_cover': return 'Choisir une image de couverture';
 			case 'tag_added_to_book': return ({required Object name}) => 'Tag "${name}" ajouté au livre.';
 			case 'tag_already_on_book': return ({required Object name}) => 'Le tag "${name}" est déjà sur ce livre.';
+			case 'tag_builtin_reading': return 'En cours';
+			case 'tag_builtin_finished': return 'Terminé';
 			case 'tag_book_count': return ({required Object count}) => '${count} livre(s)';
 			case 'tag_clear_filter': return 'Effacer le filtre';
 			case 'tag_color': return 'Couleur';
@@ -21796,6 +21914,7 @@ extension on _StringsId {
 			case 'dialog_read': return 'BACA';
 			case 'dialog_view': return 'LIHAT';
 			case 'dialog_edit': return 'EDIT';
+			case 'dialog_edit_info': return 'Edit Info';
 			case 'dialog_export': return 'EKSPOR';
 			case 'dialog_import': return 'IMPOR';
 			case 'dialog_import_dictionary': return 'Impor Kamus';
@@ -22200,6 +22319,7 @@ extension on _StringsId {
 			case 'video_file_error': return 'Tidak Dapat Memuat File';
 			case 'video_file_error_content': return 'Tidak dapat memuat file video. Pastikan file ini ada dan berada di direktori yang dapat diakses oleh aplikasi.';
 			case 'audiobook_import': return 'Impor Buku Audio';
+			case 'audio_import': return 'Impor Audio';
 			case 'audiobook_remove': return 'Hapus Buku Audio';
 			case 'audiobook_pick_audio_dir': return 'Pilih Direktori Audio';
 			case 'audiobook_pick_alignment': return 'Pilih File Penyelarasan';
@@ -22213,7 +22333,7 @@ extension on _StringsId {
 			case 'srt_import_pick_srt_dir': return 'Pilih Direktori Subtitle';
 			case 'srt_no_subtitle_files': return 'Tidak ada file subtitle di direktori yang dipilih';
 			case 'srt_pick_subtitle_file': return 'Pilih File Subtitle';
-			case 'srt_import_pick_epub': return 'Pilih EPUB (dapat dikombinasikan dengan subtitle & audio)';
+			case 'srt_import_pick_epub': return 'Pilih EPUB';
 			case 'srt_import_pick_audio_dir': return 'Pilih Direktori Audio';
 			case 'srt_import_pick_audio_files': return 'Pilih File Audio';
 			case 'srt_import_files_selected': return ({required Object n}) => '${n} file dipilih';
@@ -22674,10 +22794,11 @@ extension on _StringsId {
 			case 'profile_label': return 'Profil';
 			case 'profile_management': return 'Manajemen Profil';
 			case 'profile_media_audiobook': return 'Buku Audio';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return 'Buku';
+			case 'profile_media_lyrics': return 'Mode lirik';
 			case 'profile_media_none': return 'Tidak Ada';
+			case 'profile_media_srtbook': return 'Buku subtitle';
 			case 'profile_media_type_bindings': return 'Pengikatan Tipe Media';
-			case 'profile_media_video': return 'Video';
 			case 'profile_name_hint': return 'Nama profil';
 			case 'profile_rename': return 'Ganti Nama';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} cocok — ${detail}';
@@ -22688,6 +22809,8 @@ extension on _StringsId {
 			case 'srt_import_pick_cover': return 'Pilih Gambar Sampul';
 			case 'tag_added_to_book': return ({required Object name}) => 'Tag "${name}" ditambahkan ke buku.';
 			case 'tag_already_on_book': return ({required Object name}) => 'Tag "${name}" sudah ada di buku ini.';
+			case 'tag_builtin_reading': return 'Sedang Dibaca';
+			case 'tag_builtin_finished': return 'Selesai';
 			case 'tag_book_count': return ({required Object count}) => '${count} buku';
 			case 'tag_clear_filter': return 'Hapus Filter';
 			case 'tag_color': return 'Warna';
@@ -22747,6 +22870,7 @@ extension on _StringsIt {
 			case 'dialog_read': return 'LEGGI';
 			case 'dialog_view': return 'VISUALIZZA';
 			case 'dialog_edit': return 'MODIFICA';
+			case 'dialog_edit_info': return 'Modifica info';
 			case 'dialog_export': return 'ESPORTA';
 			case 'dialog_import': return 'IMPORTA';
 			case 'dialog_import_dictionary': return 'Importa dizionario';
@@ -23159,6 +23283,7 @@ extension on _StringsIt {
 			case 'video_file_error': return 'Impossibile caricare il file';
 			case 'video_file_error_content': return 'Impossibile caricare il file video. Assicurati che il file esista e si trovi in una cartella accessibile dall\'applicazione.';
 			case 'audiobook_import': return 'Importa audiolibro';
+			case 'audio_import': return 'Importa audio';
 			case 'audiobook_remove': return 'Rimuovi audiolibro';
 			case 'audiobook_pick_audio_dir': return 'Scegli cartella audio';
 			case 'audiobook_pick_alignment': return 'Scegli file di allineamento';
@@ -23172,7 +23297,7 @@ extension on _StringsIt {
 			case 'srt_import_pick_srt_dir': return 'Scegli cartella sottotitoli';
 			case 'srt_no_subtitle_files': return 'Nessun file di sottotitoli trovato nella cartella selezionata';
 			case 'srt_pick_subtitle_file': return 'Seleziona file sottotitoli';
-			case 'srt_import_pick_epub': return 'Scegli EPUB (combinabile con sottotitoli e audio)';
+			case 'srt_import_pick_epub': return 'Scegli EPUB';
 			case 'srt_import_pick_audio_dir': return 'Scegli cartella audio';
 			case 'srt_import_pick_audio_files': return 'Scegli file audio';
 			case 'srt_import_files_selected': return ({required Object n}) => '${n} file selezionati';
@@ -23625,10 +23750,11 @@ extension on _StringsIt {
 			case 'profile_label': return 'Profilo';
 			case 'profile_management': return 'Gestione profili';
 			case 'profile_media_audiobook': return 'Audiolibro';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return 'Libro';
+			case 'profile_media_lyrics': return 'Modalità testi';
 			case 'profile_media_none': return 'Nessuno';
+			case 'profile_media_srtbook': return 'Libro sottotitolato';
 			case 'profile_media_type_bindings': return 'Associazioni tipo di media';
-			case 'profile_media_video': return 'Video';
 			case 'profile_name_hint': return 'Nome del profilo';
 			case 'profile_rename': return 'Rinomina';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} corrispondente — ${detail}';
@@ -23639,6 +23765,8 @@ extension on _StringsIt {
 			case 'srt_import_pick_cover': return 'Scegli immagine di copertina';
 			case 'tag_added_to_book': return ({required Object name}) => 'Etichetta "${name}" aggiunta al libro.';
 			case 'tag_already_on_book': return ({required Object name}) => 'L\'etichetta "${name}" è già presente in questo libro.';
+			case 'tag_builtin_reading': return 'In lettura';
+			case 'tag_builtin_finished': return 'Letto';
 			case 'tag_book_count': return ({required Object count}) => '${count} libro/i';
 			case 'tag_clear_filter': return 'Rimuovi filtro';
 			case 'tag_color': return 'Colore';
@@ -23698,6 +23826,7 @@ extension on _StringsJa {
 			case 'dialog_read': return '読む';
 			case 'dialog_view': return '表示';
 			case 'dialog_edit': return '編集';
+			case 'dialog_edit_info': return '情報を編集';
 			case 'dialog_export': return 'エクスポート';
 			case 'dialog_import': return 'インポート';
 			case 'dialog_import_dictionary': return '辞書をインポート';
@@ -24104,6 +24233,7 @@ extension on _StringsJa {
 			case 'video_file_error': return 'ファイルを読み込めません';
 			case 'video_file_error_content': return '動画ファイルを読み込めませんでした。ファイルが存在し、アプリがアクセス可能なディレクトリにあることを確認してください。';
 			case 'audiobook_import': return 'オーディオブックをインポート';
+			case 'audio_import': return '音声をインポート';
 			case 'audiobook_remove': return 'オーディオブックを削除';
 			case 'audiobook_pick_audio_dir': return '音声ディレクトリを選択';
 			case 'audiobook_pick_alignment': return 'アラインメントファイルを選択';
@@ -24117,7 +24247,7 @@ extension on _StringsJa {
 			case 'srt_import_pick_srt_dir': return '字幕ディレクトリを選択';
 			case 'srt_no_subtitle_files': return '選択したディレクトリに字幕ファイルがありません';
 			case 'srt_pick_subtitle_file': return '字幕ファイルを選択';
-			case 'srt_import_pick_epub': return 'EPUBを選択（字幕・音声と組み合わせ可能）';
+			case 'srt_import_pick_epub': return 'EPUBを選択';
 			case 'srt_import_pick_audio_dir': return '音声ディレクトリを選択';
 			case 'srt_import_pick_audio_files': return '音声ファイルを選択';
 			case 'srt_import_files_selected': return ({required Object n}) => '${n} 件のファイルを選択済み';
@@ -24576,10 +24706,11 @@ extension on _StringsJa {
 			case 'profile_label': return 'プロファイル';
 			case 'profile_management': return 'プロファイル管理';
 			case 'profile_media_audiobook': return 'オーディオブック';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return '普通の本';
+			case 'profile_media_lyrics': return '歌詞モード';
 			case 'profile_media_none': return 'なし';
+			case 'profile_media_srtbook': return '字幕ブック';
 			case 'profile_media_type_bindings': return 'メディアタイプの紐付け';
-			case 'profile_media_video': return 'ビデオ';
 			case 'profile_name_hint': return 'プロファイル名';
 			case 'profile_rename': return '名前を変更';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} マッチ — ${detail}';
@@ -24590,6 +24721,8 @@ extension on _StringsJa {
 			case 'srt_import_pick_cover': return 'カバー画像を選択';
 			case 'tag_added_to_book': return ({required Object name}) => 'タグ「${name}」を本に追加しました。';
 			case 'tag_already_on_book': return ({required Object name}) => 'タグ「${name}」は既にこの本に付いています。';
+			case 'tag_builtin_reading': return '読書中';
+			case 'tag_builtin_finished': return '読了';
 			case 'tag_book_count': return ({required Object count}) => '${count} 冊';
 			case 'tag_clear_filter': return 'フィルターを解除';
 			case 'tag_color': return '色';
@@ -24649,6 +24782,7 @@ extension on _StringsKo {
 			case 'dialog_read': return '읽기';
 			case 'dialog_view': return '보기';
 			case 'dialog_edit': return '편집';
+			case 'dialog_edit_info': return '정보 편집';
 			case 'dialog_export': return '내보내기';
 			case 'dialog_import': return '가져오기';
 			case 'dialog_import_dictionary': return '사전 가져오기';
@@ -25070,6 +25204,7 @@ extension on _StringsKo {
 			case 'video_file_error': return '파일을 로드할 수 없음';
 			case 'video_file_error_content': return '동영상 파일을 로드할 수 없습니다. 파일이 존재하고 앱에서 접근 가능한 디렉토리에 있는지 확인하세요.';
 			case 'audiobook_import': return '오디오북 가져오기';
+			case 'audio_import': return '오디오 가져오기';
 			case 'audiobook_remove': return '오디오북 제거';
 			case 'audiobook_pick_audio_dir': return '오디오 디렉토리 선택';
 			case 'audiobook_pick_alignment': return '정렬 파일 선택';
@@ -25094,7 +25229,7 @@ extension on _StringsKo {
 			case 'srt_import_pick_srt_dir': return '자막 디렉토리 선택';
 			case 'srt_no_subtitle_files': return '선택한 디렉토리에 자막 파일이 없습니다';
 			case 'srt_pick_subtitle_file': return '자막 파일 선택';
-			case 'srt_import_pick_epub': return 'EPUB 선택 (자막 및 오디오와 결합 가능)';
+			case 'srt_import_pick_epub': return 'EPUB 선택';
 			case 'srt_import_pick_audio_dir': return '오디오 디렉토리 선택';
 			case 'srt_import_pick_audio_files': return '오디오 파일 선택';
 			case 'srt_import_files_selected': return ({required Object n}) => '${n}개 파일 선택됨';
@@ -25527,10 +25662,11 @@ extension on _StringsKo {
 			case 'profile_label': return '프로필';
 			case 'profile_management': return '프로필 관리';
 			case 'profile_media_audiobook': return '오디오북';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return '일반 책';
+			case 'profile_media_lyrics': return '가사 모드';
 			case 'profile_media_none': return '없음';
+			case 'profile_media_srtbook': return '자막 북';
 			case 'profile_media_type_bindings': return '미디어 유형 바인딩';
-			case 'profile_media_video': return '동영상';
 			case 'profile_name_hint': return '프로필 이름';
 			case 'profile_rename': return '이름 변경';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} 일치 — ${detail}';
@@ -25541,6 +25677,8 @@ extension on _StringsKo {
 			case 'srt_import_pick_cover': return '표지 이미지 선택';
 			case 'tag_added_to_book': return ({required Object name}) => '태그 "${name}"이(가) 책에 추가되었습니다.';
 			case 'tag_already_on_book': return ({required Object name}) => '태그 "${name}"이(가) 이미 이 책에 있습니다.';
+			case 'tag_builtin_reading': return '읽는 중';
+			case 'tag_builtin_finished': return '완독';
 			case 'tag_book_count': return ({required Object count}) => '${count}권';
 			case 'tag_clear_filter': return '필터 해제';
 			case 'tag_color': return '색상';
@@ -25600,6 +25738,7 @@ extension on _StringsNl {
 			case 'dialog_read': return 'LEZEN';
 			case 'dialog_view': return 'BEKIJKEN';
 			case 'dialog_edit': return 'BEWERKEN';
+			case 'dialog_edit_info': return 'Info bewerken';
 			case 'dialog_export': return 'EXPORTEREN';
 			case 'dialog_import': return 'IMPORTEREN';
 			case 'dialog_import_dictionary': return 'Woordenboek importeren';
@@ -26012,6 +26151,7 @@ extension on _StringsNl {
 			case 'video_file_error': return 'Kan bestand niet laden';
 			case 'video_file_error_content': return 'Kan het videobestand niet laden. Zorg ervoor dat dit bestand bestaat en zich bevindt in een map die toegankelijk is voor de applicatie.';
 			case 'audiobook_import': return 'Audioboek importeren';
+			case 'audio_import': return 'Audio importeren';
 			case 'audiobook_remove': return 'Audioboek verwijderen';
 			case 'audiobook_pick_audio_dir': return 'Kies audiomap';
 			case 'audiobook_pick_alignment': return 'Kies uitlijningsbestand';
@@ -26025,7 +26165,7 @@ extension on _StringsNl {
 			case 'srt_import_pick_srt_dir': return 'Kies ondertitelmap';
 			case 'srt_no_subtitle_files': return 'Geen ondertitelbestanden gevonden in de geselecteerde map';
 			case 'srt_pick_subtitle_file': return 'Selecteer ondertitelbestand';
-			case 'srt_import_pick_epub': return 'Kies EPUB (combineerbaar met ondertitels en audio)';
+			case 'srt_import_pick_epub': return 'Kies EPUB';
 			case 'srt_import_pick_audio_dir': return 'Kies audiomap';
 			case 'srt_import_pick_audio_files': return 'Kies audiobestanden';
 			case 'srt_import_files_selected': return ({required Object n}) => '${n} bestanden geselecteerd';
@@ -26478,10 +26618,11 @@ extension on _StringsNl {
 			case 'profile_label': return 'Profiel';
 			case 'profile_management': return 'Profielbeheer';
 			case 'profile_media_audiobook': return 'Audioboek';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return 'Boek';
+			case 'profile_media_lyrics': return 'Songtekstmodus';
 			case 'profile_media_none': return 'Geen';
+			case 'profile_media_srtbook': return 'Ondertitelboek';
 			case 'profile_media_type_bindings': return 'Mediatypekoppelingen';
-			case 'profile_media_video': return 'Video';
 			case 'profile_name_hint': return 'Profielnaam';
 			case 'profile_rename': return 'Hernoemen';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} overeenkomst — ${detail}';
@@ -26492,6 +26633,8 @@ extension on _StringsNl {
 			case 'srt_import_pick_cover': return 'Kies omslagafbeelding';
 			case 'tag_added_to_book': return ({required Object name}) => 'Tag "${name}" toegevoegd aan boek.';
 			case 'tag_already_on_book': return ({required Object name}) => 'Tag "${name}" staat al op dit boek.';
+			case 'tag_builtin_reading': return 'Aan het lezen';
+			case 'tag_builtin_finished': return 'Gelezen';
 			case 'tag_book_count': return ({required Object count}) => '${count} boek(en)';
 			case 'tag_clear_filter': return 'Filter wissen';
 			case 'tag_color': return 'Kleur';
@@ -26550,6 +26693,7 @@ extension on _StringsPtBr {
 			case 'dialog_read': return 'LER';
 			case 'dialog_view': return 'VISUALIZAR';
 			case 'dialog_edit': return 'EDITAR';
+			case 'dialog_edit_info': return 'Editar Info';
 			case 'dialog_export': return 'EXPORTAR';
 			case 'dialog_import': return 'IMPORTAR';
 			case 'dialog_importing': return 'IMPORTANDO…';
@@ -26972,6 +27116,7 @@ extension on _StringsPtBr {
 			case 'video_file_error': return 'Não é Possível Carregar o Arquivo';
 			case 'video_file_error_content': return 'Não foi possível carregar o arquivo de vídeo. Verifique se o arquivo existe e está em um diretório acessível pelo aplicativo.';
 			case 'audiobook_import': return 'Importar Audiolivro';
+			case 'audio_import': return 'Importar Áudio';
 			case 'audiobook_remove': return 'Remover Audiolivro';
 			case 'audiobook_pick_audio_dir': return 'Escolher Diretório de Áudio';
 			case 'audiobook_pick_alignment': return 'Escolher Arquivo de Alinhamento';
@@ -26996,7 +27141,7 @@ extension on _StringsPtBr {
 			case 'srt_import_pick_srt_dir': return 'Escolher Diretório de Legendas';
 			case 'srt_no_subtitle_files': return 'Nenhum arquivo de legendas encontrado no diretório selecionado';
 			case 'srt_pick_subtitle_file': return 'Selecionar Arquivo de Legendas';
-			case 'srt_import_pick_epub': return 'Escolher EPUB (combinável com legendas e áudio)';
+			case 'srt_import_pick_epub': return 'Escolher EPUB';
 			case 'srt_import_pick_audio_dir': return 'Escolher Diretório de Áudio';
 			case 'srt_import_pick_audio_files': return 'Escolher Arquivos de Áudio';
 			case 'srt_import_files_selected': return ({required Object n}) => '${n} arquivos selecionados';
@@ -27429,10 +27574,11 @@ extension on _StringsPtBr {
 			case 'profile_label': return 'Perfil';
 			case 'profile_management': return 'Gerenciamento de Perfis';
 			case 'profile_media_audiobook': return 'Audiolivro';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return 'Livro';
+			case 'profile_media_lyrics': return 'Modo letras';
 			case 'profile_media_none': return 'Nenhum';
+			case 'profile_media_srtbook': return 'Livro de legendas';
 			case 'profile_media_type_bindings': return 'Associações de Tipo de Mídia';
-			case 'profile_media_video': return 'Vídeo';
 			case 'profile_name_hint': return 'Nome do perfil';
 			case 'profile_rename': return 'Renomear';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} correspondência — ${detail}';
@@ -27443,6 +27589,8 @@ extension on _StringsPtBr {
 			case 'srt_import_pick_cover': return 'Escolher Imagem de Capa';
 			case 'tag_added_to_book': return ({required Object name}) => 'Tag "${name}" adicionada ao livro.';
 			case 'tag_already_on_book': return ({required Object name}) => 'A tag "${name}" já está neste livro.';
+			case 'tag_builtin_reading': return 'Lendo';
+			case 'tag_builtin_finished': return 'Lido';
 			case 'tag_book_count': return ({required Object count}) => '${count} livro(s)';
 			case 'tag_clear_filter': return 'Limpar Filtro';
 			case 'tag_color': return 'Cor';
@@ -27502,6 +27650,7 @@ extension on _StringsRu {
 			case 'dialog_read': return 'ЧИТАТЬ';
 			case 'dialog_view': return 'ПРОСМОТР';
 			case 'dialog_edit': return 'ИЗМЕНИТЬ';
+			case 'dialog_edit_info': return 'Редактировать';
 			case 'dialog_export': return 'ЭКСПОРТ';
 			case 'dialog_import': return 'ИМПОРТ';
 			case 'dialog_import_dictionary': return 'Импортировать словарь';
@@ -27906,6 +28055,7 @@ extension on _StringsRu {
 			case 'video_file_error': return 'Не удалось загрузить файл';
 			case 'video_file_error_content': return 'Не удалось загрузить видеофайл. Убедитесь, что файл существует и находится в каталоге, доступном приложению.';
 			case 'audiobook_import': return 'Импортировать аудиокнигу';
+			case 'audio_import': return 'Импортировать аудио';
 			case 'audiobook_remove': return 'Удалить аудиокнигу';
 			case 'audiobook_pick_audio_dir': return 'Выбрать папку с аудио';
 			case 'audiobook_pick_alignment': return 'Выбрать файл выравнивания';
@@ -27919,7 +28069,7 @@ extension on _StringsRu {
 			case 'srt_import_pick_srt_dir': return 'Выбрать папку с субтитрами';
 			case 'srt_no_subtitle_files': return 'В выбранной папке нет файлов субтитров';
 			case 'srt_pick_subtitle_file': return 'Выбрать файл субтитров';
-			case 'srt_import_pick_epub': return 'Выбрать EPUB (комбинируется с субтитрами и аудио)';
+			case 'srt_import_pick_epub': return 'Выбрать EPUB';
 			case 'srt_import_pick_audio_dir': return 'Выбрать папку с аудио';
 			case 'srt_import_pick_audio_files': return 'Выбрать аудиофайлы';
 			case 'srt_import_files_selected': return ({required Object n}) => 'Выбрано файлов: ${n}';
@@ -28380,10 +28530,11 @@ extension on _StringsRu {
 			case 'profile_label': return 'Профиль';
 			case 'profile_management': return 'Управление профилями';
 			case 'profile_media_audiobook': return 'Аудиокнига';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return 'Книга';
+			case 'profile_media_lyrics': return 'Режим текстов';
 			case 'profile_media_none': return 'Нет';
+			case 'profile_media_srtbook': return 'Субтитровая книга';
 			case 'profile_media_type_bindings': return 'Привязки типов медиа';
-			case 'profile_media_video': return 'Видео';
 			case 'profile_name_hint': return 'Название профиля';
 			case 'profile_rename': return 'Переименовать';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} совпадение — ${detail}';
@@ -28394,6 +28545,8 @@ extension on _StringsRu {
 			case 'srt_import_pick_cover': return 'Выбрать обложку';
 			case 'tag_added_to_book': return ({required Object name}) => 'Тег "${name}" добавлен к книге.';
 			case 'tag_already_on_book': return ({required Object name}) => 'Тег "${name}" уже есть у этой книги.';
+			case 'tag_builtin_reading': return 'Читаю';
+			case 'tag_builtin_finished': return 'Прочитано';
 			case 'tag_book_count': return ({required Object count}) => '${count} книг(а)';
 			case 'tag_clear_filter': return 'Сбросить фильтр';
 			case 'tag_color': return 'Цвет';
@@ -28452,6 +28605,7 @@ extension on _StringsTh {
 			case 'dialog_read': return 'อ่าน';
 			case 'dialog_view': return 'ดู';
 			case 'dialog_edit': return 'แก้ไข';
+			case 'dialog_edit_info': return 'แก้ไขข้อมูล';
 			case 'dialog_export': return 'ส่งออก';
 			case 'dialog_import': return 'นำเข้า';
 			case 'dialog_importing': return 'กำลังนำเข้า…';
@@ -28874,6 +29028,7 @@ extension on _StringsTh {
 			case 'video_file_error': return 'ไม่สามารถโหลดไฟล์';
 			case 'video_file_error_content': return 'ไม่สามารถโหลดไฟล์วิดีโอ กรุณาตรวจสอบว่าไฟล์นี้มีอยู่และอยู่ในไดเรกทอรีที่แอปเข้าถึงได้';
 			case 'audiobook_import': return 'นำเข้าหนังสือเสียง';
+			case 'audio_import': return 'นำเข้าเสียง';
 			case 'audiobook_remove': return 'ลบหนังสือเสียง';
 			case 'audiobook_pick_audio_dir': return 'เลือกโฟลเดอร์เสียง';
 			case 'audiobook_pick_alignment': return 'เลือกไฟล์การจัดตำแหน่ง';
@@ -28898,7 +29053,7 @@ extension on _StringsTh {
 			case 'srt_import_pick_srt_dir': return 'เลือกโฟลเดอร์ซับไตเติล';
 			case 'srt_no_subtitle_files': return 'ไม่พบไฟล์ซับไตเติลในโฟลเดอร์ที่เลือก';
 			case 'srt_pick_subtitle_file': return 'เลือกไฟล์ซับไตเติล';
-			case 'srt_import_pick_epub': return 'เลือก EPUB (รวมกับซับไตเติลและเสียงได้)';
+			case 'srt_import_pick_epub': return 'เลือก EPUB';
 			case 'srt_import_pick_audio_dir': return 'เลือกโฟลเดอร์เสียง';
 			case 'srt_import_pick_audio_files': return 'เลือกไฟล์เสียง';
 			case 'srt_import_files_selected': return ({required Object n}) => 'เลือก ${n} ไฟล์แล้ว';
@@ -29331,10 +29486,11 @@ extension on _StringsTh {
 			case 'profile_label': return 'โปรไฟล์';
 			case 'profile_management': return 'จัดการโปรไฟล์';
 			case 'profile_media_audiobook': return 'หนังสือเสียง';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return 'หนังสือ';
+			case 'profile_media_lyrics': return 'โหมดเนื้อเพลง';
 			case 'profile_media_none': return 'ไม่มี';
+			case 'profile_media_srtbook': return 'หนังสือบรรยาย';
 			case 'profile_media_type_bindings': return 'การผูกประเภทสื่อ';
-			case 'profile_media_video': return 'วิดีโอ';
 			case 'profile_name_hint': return 'ชื่อโปรไฟล์';
 			case 'profile_rename': return 'เปลี่ยนชื่อ';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} ตรง — ${detail}';
@@ -29345,6 +29501,8 @@ extension on _StringsTh {
 			case 'srt_import_pick_cover': return 'เลือกรูปปก';
 			case 'tag_added_to_book': return ({required Object name}) => 'เพิ่มแท็ก "${name}" ในหนังสือแล้ว';
 			case 'tag_already_on_book': return ({required Object name}) => 'แท็ก "${name}" มีอยู่ในหนังสือนี้แล้ว';
+			case 'tag_builtin_reading': return 'กำลังอ่าน';
+			case 'tag_builtin_finished': return 'อ่านจบ';
 			case 'tag_book_count': return ({required Object count}) => '${count} เล่ม';
 			case 'tag_clear_filter': return 'ล้างตัวกรอง';
 			case 'tag_color': return 'สี';
@@ -29403,6 +29561,7 @@ extension on _StringsTr {
 			case 'dialog_read': return 'OKU';
 			case 'dialog_view': return 'GÖRÜNTÜLE';
 			case 'dialog_edit': return 'DÜZENLE';
+			case 'dialog_edit_info': return 'Bilgiyi düzenle';
 			case 'dialog_export': return 'DIŞA AKTAR';
 			case 'dialog_import': return 'İÇE AKTAR';
 			case 'dialog_importing': return 'İÇE AKTARILIYOR…';
@@ -29825,6 +29984,7 @@ extension on _StringsTr {
 			case 'video_file_error': return 'Dosya yüklenemiyor';
 			case 'video_file_error_content': return 'Video dosyası yüklenemiyor. Bu dosyanın var olduğundan ve uygulama tarafından erişilebilir bir konumda olduğundan emin olun.';
 			case 'audiobook_import': return 'Sesli kitap içe aktar';
+			case 'audio_import': return 'Ses içe aktar';
 			case 'audiobook_remove': return 'Sesli kitabı kaldır';
 			case 'audiobook_pick_audio_dir': return 'Ses klasörü seç';
 			case 'audiobook_pick_alignment': return 'Hizalama dosyası seç';
@@ -29849,7 +30009,7 @@ extension on _StringsTr {
 			case 'srt_import_pick_srt_dir': return 'Altyazı klasörü seç';
 			case 'srt_no_subtitle_files': return 'Seçilen klasörde altyazı dosyası bulunamadı';
 			case 'srt_pick_subtitle_file': return 'Altyazı dosyası seç';
-			case 'srt_import_pick_epub': return 'EPUB seç (altyazı ve sesle birleştirilebilir)';
+			case 'srt_import_pick_epub': return 'EPUB seç';
 			case 'srt_import_pick_audio_dir': return 'Ses klasörü seç';
 			case 'srt_import_pick_audio_files': return 'Ses dosyalarını seç';
 			case 'srt_import_files_selected': return ({required Object n}) => '${n} dosya seçildi';
@@ -30282,10 +30442,11 @@ extension on _StringsTr {
 			case 'profile_label': return 'Profil';
 			case 'profile_management': return 'Profil Yönetimi';
 			case 'profile_media_audiobook': return 'Sesli Kitap';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return 'Kitap';
+			case 'profile_media_lyrics': return 'Şarkı sözü modu';
 			case 'profile_media_none': return 'Yok';
+			case 'profile_media_srtbook': return 'Altyazı kitabı';
 			case 'profile_media_type_bindings': return 'Medya Türü Bağlamaları';
-			case 'profile_media_video': return 'Video';
 			case 'profile_name_hint': return 'Profil adı';
 			case 'profile_rename': return 'Yeniden Adlandır';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} eşleşti — ${detail}';
@@ -30296,6 +30457,8 @@ extension on _StringsTr {
 			case 'srt_import_pick_cover': return 'Kapak Görseli Seç';
 			case 'tag_added_to_book': return ({required Object name}) => '"${name}" etiketi kitaba eklendi.';
 			case 'tag_already_on_book': return ({required Object name}) => '"${name}" etiketi zaten bu kitapta mevcut.';
+			case 'tag_builtin_reading': return 'Okunuyor';
+			case 'tag_builtin_finished': return 'Bitti';
 			case 'tag_book_count': return ({required Object count}) => '${count} kitap';
 			case 'tag_clear_filter': return 'Filtreyi Temizle';
 			case 'tag_color': return 'Renk';
@@ -30355,6 +30518,7 @@ extension on _StringsVi {
 			case 'dialog_read': return 'ĐỌC';
 			case 'dialog_view': return 'XEM';
 			case 'dialog_edit': return 'SỬA';
+			case 'dialog_edit_info': return 'Sửa thông tin';
 			case 'dialog_export': return 'XUẤT';
 			case 'dialog_import': return 'NHẬP';
 			case 'dialog_import_dictionary': return 'Nhập từ điển';
@@ -30776,6 +30940,7 @@ extension on _StringsVi {
 			case 'video_file_error': return 'Không thể tải tệp';
 			case 'video_file_error_content': return 'Không thể tải tệp video. Hãy đảm bảo tệp tồn tại và nằm trong thư mục mà ứng dụng có thể truy cập.';
 			case 'audiobook_import': return 'Nhập sách nói';
+			case 'audio_import': return 'Nhập âm thanh';
 			case 'audiobook_remove': return 'Xóa sách nói';
 			case 'audiobook_pick_audio_dir': return 'Chọn thư mục âm thanh';
 			case 'audiobook_pick_alignment': return 'Chọn tệp căn chỉnh';
@@ -30800,7 +30965,7 @@ extension on _StringsVi {
 			case 'srt_import_pick_srt_dir': return 'Chọn thư mục phụ đề';
 			case 'srt_no_subtitle_files': return 'Không tìm thấy tệp phụ đề trong thư mục đã chọn';
 			case 'srt_pick_subtitle_file': return 'Chọn tệp phụ đề';
-			case 'srt_import_pick_epub': return 'Chọn EPUB (có thể kết hợp với phụ đề & âm thanh)';
+			case 'srt_import_pick_epub': return 'Chọn EPUB';
 			case 'srt_import_pick_audio_dir': return 'Chọn thư mục âm thanh';
 			case 'srt_import_pick_audio_files': return 'Chọn tệp âm thanh';
 			case 'srt_import_files_selected': return ({required Object n}) => 'Đã chọn ${n} tệp';
@@ -31233,10 +31398,11 @@ extension on _StringsVi {
 			case 'profile_label': return 'Hồ sơ';
 			case 'profile_management': return 'Quản lý hồ sơ';
 			case 'profile_media_audiobook': return 'Sách nói';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return 'Sách';
+			case 'profile_media_lyrics': return 'Chế độ lời bài hát';
 			case 'profile_media_none': return 'Không';
+			case 'profile_media_srtbook': return 'Sách phụ đề';
 			case 'profile_media_type_bindings': return 'Liên kết loại media';
-			case 'profile_media_video': return 'Video';
 			case 'profile_name_hint': return 'Tên hồ sơ';
 			case 'profile_rename': return 'Đổi tên';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} khớp — ${detail}';
@@ -31247,6 +31413,8 @@ extension on _StringsVi {
 			case 'srt_import_pick_cover': return 'Chọn ảnh bìa';
 			case 'tag_added_to_book': return ({required Object name}) => 'Đã thêm thẻ "${name}" vào sách.';
 			case 'tag_already_on_book': return ({required Object name}) => 'Thẻ "${name}" đã có trong sách này.';
+			case 'tag_builtin_reading': return 'Đang đọc';
+			case 'tag_builtin_finished': return 'Đã đọc';
 			case 'tag_book_count': return ({required Object count}) => '${count} sách';
 			case 'tag_clear_filter': return 'Xóa bộ lọc';
 			case 'tag_color': return 'Màu';
@@ -31305,6 +31473,7 @@ extension on _StringsZhCn {
 			case 'dialog_read': return '阅读';
 			case 'dialog_view': return '查看';
 			case 'dialog_edit': return '编辑';
+			case 'dialog_edit_info': return '编辑信息';
 			case 'dialog_export': return '导出';
 			case 'dialog_import': return '导入';
 			case 'dialog_importing': return '正在导入…';
@@ -31725,6 +31894,7 @@ extension on _StringsZhCn {
 			case 'video_file_error': return '无法加载文件';
 			case 'video_file_error_content': return '无法加载视频文件。请确认该文件存在并位于应用可访问的目录中。';
 			case 'audiobook_import': return '导入有声书';
+			case 'audio_import': return '导入音频';
 			case 'audiobook_remove': return '移除有声书';
 			case 'audiobook_pick_audio_dir': return '选择音频目录';
 			case 'audiobook_pick_alignment': return '选择对齐文件';
@@ -31749,7 +31919,7 @@ extension on _StringsZhCn {
 			case 'srt_import_pick_srt_dir': return '选择字幕目录';
 			case 'srt_no_subtitle_files': return '所选目录中未找到字幕文件';
 			case 'srt_pick_subtitle_file': return '选择字幕文件';
-			case 'srt_import_pick_epub': return '选择 EPUB（可与字幕、音频组合）';
+			case 'srt_import_pick_epub': return '选择 EPUB';
 			case 'srt_import_pick_audio_dir': return '选择音频目录';
 			case 'srt_import_pick_audio_files': return '选择音频文件';
 			case 'srt_import_files_selected': return ({required Object n}) => '已选择 ${n} 个文件';
@@ -32184,10 +32354,11 @@ extension on _StringsZhCn {
 			case 'profile_label': return '配置';
 			case 'profile_management': return '配置管理';
 			case 'profile_media_audiobook': return '有声书';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return '普通书';
+			case 'profile_media_lyrics': return '歌词模式';
 			case 'profile_media_none': return '无';
+			case 'profile_media_srtbook': return '字幕书';
 			case 'profile_media_type_bindings': return '媒体类型绑定';
-			case 'profile_media_video': return '视频';
 			case 'profile_name_hint': return '配置名称';
 			case 'profile_rename': return '重命名';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} 匹配 — ${detail}';
@@ -32198,6 +32369,8 @@ extension on _StringsZhCn {
 			case 'srt_import_pick_cover': return '选择封面图片';
 			case 'tag_added_to_book': return ({required Object name}) => '标签「${name}」已添加到书籍。';
 			case 'tag_already_on_book': return ({required Object name}) => '标签「${name}」已存在于此书。';
+			case 'tag_builtin_reading': return '在读';
+			case 'tag_builtin_finished': return '读完';
 			case 'tag_book_count': return ({required Object count}) => '${count} 本';
 			case 'tag_clear_filter': return '清除筛选';
 			case 'tag_color': return '颜色';
@@ -32257,6 +32430,7 @@ extension on _StringsZhHk {
 			case 'dialog_read': return '閱讀';
 			case 'dialog_view': return '檢視';
 			case 'dialog_edit': return '編輯';
+			case 'dialog_edit_info': return '編輯資訊';
 			case 'dialog_export': return '匯出';
 			case 'dialog_import': return '匯入';
 			case 'dialog_import_dictionary': return '匯入辭典';
@@ -32663,6 +32837,7 @@ extension on _StringsZhHk {
 			case 'video_file_error': return '無法載入檔案';
 			case 'video_file_error_content': return '無法載入影片檔案。請確認該檔案存在並位於應用程式可存取的目錄中。';
 			case 'audiobook_import': return '匯入有聲書';
+			case 'audio_import': return '匯入音訊';
 			case 'audiobook_remove': return '移除有聲書';
 			case 'audiobook_pick_audio_dir': return '選擇音訊目錄';
 			case 'audiobook_pick_alignment': return '選擇對齊檔案';
@@ -32676,7 +32851,7 @@ extension on _StringsZhHk {
 			case 'srt_import_pick_srt_dir': return '選擇字幕目錄';
 			case 'srt_no_subtitle_files': return '所選目錄中未找到字幕檔';
 			case 'srt_pick_subtitle_file': return '選擇字幕檔';
-			case 'srt_import_pick_epub': return '選擇 EPUB（可與字幕、音訊組合）';
+			case 'srt_import_pick_epub': return '選擇 EPUB';
 			case 'srt_import_pick_audio_dir': return '選擇音訊目錄';
 			case 'srt_import_pick_audio_files': return '選擇音訊檔案';
 			case 'srt_import_files_selected': return ({required Object n}) => '已選擇 ${n} 個檔案';
@@ -33135,10 +33310,11 @@ extension on _StringsZhHk {
 			case 'profile_label': return '設定檔';
 			case 'profile_management': return '設定檔管理';
 			case 'profile_media_audiobook': return '有聲書';
-			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_epub': return '普通書';
+			case 'profile_media_lyrics': return '歌詞模式';
 			case 'profile_media_none': return '無';
+			case 'profile_media_srtbook': return '字幕書';
 			case 'profile_media_type_bindings': return '媒體類型繫結';
-			case 'profile_media_video': return '影片';
 			case 'profile_name_hint': return '設定檔名稱';
 			case 'profile_rename': return '重新命名';
 			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => '${pct} 比對 — ${detail}';
@@ -33149,6 +33325,8 @@ extension on _StringsZhHk {
 			case 'srt_import_pick_cover': return '選擇封面圖片';
 			case 'tag_added_to_book': return ({required Object name}) => '標籤「${name}」已新增至書籍。';
 			case 'tag_already_on_book': return ({required Object name}) => '標籤「${name}」已存在於此書。';
+			case 'tag_builtin_reading': return '在讀';
+			case 'tag_builtin_finished': return '讀完';
 			case 'tag_book_count': return ({required Object count}) => '${count} 本';
 			case 'tag_clear_filter': return '清除篩選';
 			case 'tag_color': return '顏色';
