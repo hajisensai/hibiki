@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 15965 (939 per locale)
 ///
-/// Built on 2026-05-20 at 03:14 UTC
+/// Built on 2026-05-20 at 06:51 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1058,7 +1058,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get volume_key_sentence_nav => 'Volume Key Sentence Navigation';
 	String get preview_badge => 'Badge';
 	String get preview_switch => 'Switch';
-	String get profile_book_profile => 'Book Profile';
+	String get profile_book_profile => 'Assign Profile';
 	String profile_confirm_delete({required Object name}) => 'Delete profile "${name}"?';
 	String get profile_copy => 'Copy';
 	String get profile_copy_suffix => '(Copy)';
@@ -2050,7 +2050,7 @@ class _StringsAr extends _StringsEn {
 	@override String get volume_key_sentence_nav => 'التنقل بين الجمل بأزرار الصوت';
 	@override String get preview_badge => 'شارة';
 	@override String get preview_switch => 'مفتاح';
-	@override String get profile_book_profile => 'ملف الكتاب';
+	@override String get profile_book_profile => 'تعيين ملف التعريف';
 	@override String profile_confirm_delete({required Object name}) => 'حذف الملف الشخصي "${name}"؟';
 	@override String get profile_copy => 'نسخ';
 	@override String get profile_copy_suffix => '(نسخة)';
@@ -3042,7 +3042,7 @@ class _StringsDe extends _StringsEn {
 	@override String get volume_key_sentence_nav => 'Satznavigation mit Lautstärketasten';
 	@override String get preview_badge => 'Abzeichen';
 	@override String get preview_switch => 'Schalter';
-	@override String get profile_book_profile => 'Buchprofil';
+	@override String get profile_book_profile => 'Profil zuweisen';
 	@override String profile_confirm_delete({required Object name}) => 'Profil "${name}" löschen?';
 	@override String get profile_copy => 'Kopieren';
 	@override String get profile_copy_suffix => '(Kopie)';
@@ -4034,7 +4034,7 @@ class _StringsEs extends _StringsEn {
 	@override String get volume_key_sentence_nav => 'Navegación de oraciones con teclas de volumen';
 	@override String get preview_badge => 'Insignia';
 	@override String get preview_switch => 'Interruptor';
-	@override String get profile_book_profile => 'Perfil del libro';
+	@override String get profile_book_profile => 'Asignar perfil';
 	@override String profile_confirm_delete({required Object name}) => '¿Eliminar perfil "${name}"?';
 	@override String get profile_copy => 'Copiar';
 	@override String get profile_copy_suffix => '(Copia)';
@@ -5026,7 +5026,7 @@ class _StringsFr extends _StringsEn {
 	@override String get volume_key_sentence_nav => 'Navigation par phrase avec les touches de volume';
 	@override String get preview_badge => 'Badge';
 	@override String get preview_switch => 'Commutateur';
-	@override String get profile_book_profile => 'Profil du livre';
+	@override String get profile_book_profile => 'Attribuer un profil';
 	@override String profile_confirm_delete({required Object name}) => 'Supprimer le profil "${name}" ?';
 	@override String get profile_copy => 'Copier';
 	@override String get profile_copy_suffix => '(Copie)';
@@ -6018,7 +6018,7 @@ class _StringsId extends _StringsEn {
 	@override String get volume_key_sentence_nav => 'Navigasi kalimat dengan tombol volume';
 	@override String get preview_badge => 'Lencana';
 	@override String get preview_switch => 'Sakelar';
-	@override String get profile_book_profile => 'Profil Buku';
+	@override String get profile_book_profile => 'Tetapkan Profil';
 	@override String profile_confirm_delete({required Object name}) => 'Hapus profil "${name}"?';
 	@override String get profile_copy => 'Salin';
 	@override String get profile_copy_suffix => '(Salinan)';
@@ -7010,7 +7010,7 @@ class _StringsIt extends _StringsEn {
 	@override String get volume_key_sentence_nav => 'Navigazione frase con tasti volume';
 	@override String get preview_badge => 'Badge';
 	@override String get preview_switch => 'Interruttore';
-	@override String get profile_book_profile => 'Profilo del libro';
+	@override String get profile_book_profile => 'Assegna profilo';
 	@override String profile_confirm_delete({required Object name}) => 'Eliminare il profilo "${name}"?';
 	@override String get profile_copy => 'Copia';
 	@override String get profile_copy_suffix => '(Copia)';
@@ -8002,7 +8002,7 @@ class _StringsJa extends _StringsEn {
 	@override String get volume_key_sentence_nav => '音量キーで文ナビゲーション';
 	@override String get preview_badge => 'バッジ';
 	@override String get preview_switch => 'スイッチ';
-	@override String get profile_book_profile => 'ブックプロファイル';
+	@override String get profile_book_profile => 'プロファイル指定';
 	@override String profile_confirm_delete({required Object name}) => 'プロファイル「${name}」を削除しますか？';
 	@override String get profile_copy => 'コピー';
 	@override String get profile_copy_suffix => '（コピー）';
@@ -8994,7 +8994,7 @@ class _StringsKo extends _StringsEn {
 	@override String get volume_key_sentence_nav => '볼륨 키 문장 탐색';
 	@override String get preview_badge => '뱃지';
 	@override String get preview_switch => '스위치';
-	@override String get profile_book_profile => '책 프로필';
+	@override String get profile_book_profile => '프로필 지정';
 	@override String profile_confirm_delete({required Object name}) => '프로필 "${name}"을(를) 삭제하시겠습니까?';
 	@override String get profile_copy => '복사';
 	@override String get profile_copy_suffix => '(복사)';
@@ -9986,7 +9986,7 @@ class _StringsNl extends _StringsEn {
 	@override String get volume_key_sentence_nav => 'Zinsnavigatie met volumeknoppen';
 	@override String get preview_badge => 'Badge';
 	@override String get preview_switch => 'Schakelaar';
-	@override String get profile_book_profile => 'Boekprofiel';
+	@override String get profile_book_profile => 'Profiel toewijzen';
 	@override String profile_confirm_delete({required Object name}) => 'Profiel "${name}" verwijderen?';
 	@override String get profile_copy => 'Kopiëren';
 	@override String get profile_copy_suffix => '(Kopie)';
@@ -10978,7 +10978,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get volume_key_sentence_nav => 'Navegação de frases com teclas de volume';
 	@override String get preview_badge => 'Emblema';
 	@override String get preview_switch => 'Interruptor';
-	@override String get profile_book_profile => 'Perfil do Livro';
+	@override String get profile_book_profile => 'Atribuir Perfil';
 	@override String profile_confirm_delete({required Object name}) => 'Excluir perfil "${name}"?';
 	@override String get profile_copy => 'Copiar';
 	@override String get profile_copy_suffix => '(Cópia)';
@@ -11970,7 +11970,7 @@ class _StringsRu extends _StringsEn {
 	@override String get volume_key_sentence_nav => 'Навигация по предложениям кнопками громкости';
 	@override String get preview_badge => 'Значок';
 	@override String get preview_switch => 'Переключатель';
-	@override String get profile_book_profile => 'Профиль книги';
+	@override String get profile_book_profile => 'Назначить профиль';
 	@override String profile_confirm_delete({required Object name}) => 'Удалить профиль "${name}"?';
 	@override String get profile_copy => 'Копировать';
 	@override String get profile_copy_suffix => '(Копия)';
@@ -12962,7 +12962,7 @@ class _StringsTh extends _StringsEn {
 	@override String get volume_key_sentence_nav => 'นำทางประโยคด้วยปุ่มเสียง';
 	@override String get preview_badge => 'ป้าย';
 	@override String get preview_switch => 'สวิตช์';
-	@override String get profile_book_profile => 'โปรไฟล์หนังสือ';
+	@override String get profile_book_profile => 'กำหนดโปรไฟล์';
 	@override String profile_confirm_delete({required Object name}) => 'ลบโปรไฟล์ "${name}" หรือไม่?';
 	@override String get profile_copy => 'คัดลอก';
 	@override String get profile_copy_suffix => '(สำเนา)';
@@ -13954,7 +13954,7 @@ class _StringsTr extends _StringsEn {
 	@override String get volume_key_sentence_nav => 'Ses Tuşuyla Cümle Gezinme';
 	@override String get preview_badge => 'Rozet';
 	@override String get preview_switch => 'Anahtar';
-	@override String get profile_book_profile => 'Kitap Profili';
+	@override String get profile_book_profile => 'Profil Ata';
 	@override String profile_confirm_delete({required Object name}) => '"${name}" profili silinsin mi?';
 	@override String get profile_copy => 'Kopyala';
 	@override String get profile_copy_suffix => '(Kopya)';
@@ -14946,7 +14946,7 @@ class _StringsVi extends _StringsEn {
 	@override String get volume_key_sentence_nav => 'Điều hướng câu bằng phím âm lượng';
 	@override String get preview_badge => 'Huy hiệu';
 	@override String get preview_switch => 'Công tắc';
-	@override String get profile_book_profile => 'Hồ sơ sách';
+	@override String get profile_book_profile => 'Chỉ định cấu hình';
 	@override String profile_confirm_delete({required Object name}) => 'Xóa hồ sơ "${name}"?';
 	@override String get profile_copy => 'Sao chép';
 	@override String get profile_copy_suffix => '(Bản sao)';
@@ -15938,7 +15938,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get volume_key_sentence_nav => '音量键句子导航';
 	@override String get preview_badge => '徽章';
 	@override String get preview_switch => '开关';
-	@override String get profile_book_profile => '书籍配置';
+	@override String get profile_book_profile => '指定配置';
 	@override String profile_confirm_delete({required Object name}) => '删除配置「${name}」？';
 	@override String get profile_copy => '复制';
 	@override String get profile_copy_suffix => '（副本）';
@@ -16930,7 +16930,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get volume_key_sentence_nav => '音量鍵句子導覽';
 	@override String get preview_badge => '徽章';
 	@override String get preview_switch => '開關';
-	@override String get profile_book_profile => '書籍設定檔';
+	@override String get profile_book_profile => '指定設定檔';
 	@override String profile_confirm_delete({required Object name}) => '刪除設定檔「${name}」？';
 	@override String get profile_copy => '複製';
 	@override String get profile_copy_suffix => '（副本）';
@@ -17909,7 +17909,7 @@ extension on _StringsEn {
 			case 'volume_key_sentence_nav': return 'Volume Key Sentence Navigation';
 			case 'preview_badge': return 'Badge';
 			case 'preview_switch': return 'Switch';
-			case 'profile_book_profile': return 'Book Profile';
+			case 'profile_book_profile': return 'Assign Profile';
 			case 'profile_confirm_delete': return ({required Object name}) => 'Delete profile "${name}"?';
 			case 'profile_copy': return 'Copy';
 			case 'profile_copy_suffix': return '(Copy)';
@@ -18860,7 +18860,7 @@ extension on _StringsAr {
 			case 'volume_key_sentence_nav': return 'التنقل بين الجمل بأزرار الصوت';
 			case 'preview_badge': return 'شارة';
 			case 'preview_switch': return 'مفتاح';
-			case 'profile_book_profile': return 'ملف الكتاب';
+			case 'profile_book_profile': return 'تعيين ملف التعريف';
 			case 'profile_confirm_delete': return ({required Object name}) => 'حذف الملف الشخصي "${name}"؟';
 			case 'profile_copy': return 'نسخ';
 			case 'profile_copy_suffix': return '(نسخة)';
@@ -19811,7 +19811,7 @@ extension on _StringsDe {
 			case 'volume_key_sentence_nav': return 'Satznavigation mit Lautstärketasten';
 			case 'preview_badge': return 'Abzeichen';
 			case 'preview_switch': return 'Schalter';
-			case 'profile_book_profile': return 'Buchprofil';
+			case 'profile_book_profile': return 'Profil zuweisen';
 			case 'profile_confirm_delete': return ({required Object name}) => 'Profil "${name}" löschen?';
 			case 'profile_copy': return 'Kopieren';
 			case 'profile_copy_suffix': return '(Kopie)';
@@ -20762,7 +20762,7 @@ extension on _StringsEs {
 			case 'volume_key_sentence_nav': return 'Navegación de oraciones con teclas de volumen';
 			case 'preview_badge': return 'Insignia';
 			case 'preview_switch': return 'Interruptor';
-			case 'profile_book_profile': return 'Perfil del libro';
+			case 'profile_book_profile': return 'Asignar perfil';
 			case 'profile_confirm_delete': return ({required Object name}) => '¿Eliminar perfil "${name}"?';
 			case 'profile_copy': return 'Copiar';
 			case 'profile_copy_suffix': return '(Copia)';
@@ -21713,7 +21713,7 @@ extension on _StringsFr {
 			case 'volume_key_sentence_nav': return 'Navigation par phrase avec les touches de volume';
 			case 'preview_badge': return 'Badge';
 			case 'preview_switch': return 'Commutateur';
-			case 'profile_book_profile': return 'Profil du livre';
+			case 'profile_book_profile': return 'Attribuer un profil';
 			case 'profile_confirm_delete': return ({required Object name}) => 'Supprimer le profil "${name}" ?';
 			case 'profile_copy': return 'Copier';
 			case 'profile_copy_suffix': return '(Copie)';
@@ -22664,7 +22664,7 @@ extension on _StringsId {
 			case 'volume_key_sentence_nav': return 'Navigasi kalimat dengan tombol volume';
 			case 'preview_badge': return 'Lencana';
 			case 'preview_switch': return 'Sakelar';
-			case 'profile_book_profile': return 'Profil Buku';
+			case 'profile_book_profile': return 'Tetapkan Profil';
 			case 'profile_confirm_delete': return ({required Object name}) => 'Hapus profil "${name}"?';
 			case 'profile_copy': return 'Salin';
 			case 'profile_copy_suffix': return '(Salinan)';
@@ -23615,7 +23615,7 @@ extension on _StringsIt {
 			case 'volume_key_sentence_nav': return 'Navigazione frase con tasti volume';
 			case 'preview_badge': return 'Badge';
 			case 'preview_switch': return 'Interruttore';
-			case 'profile_book_profile': return 'Profilo del libro';
+			case 'profile_book_profile': return 'Assegna profilo';
 			case 'profile_confirm_delete': return ({required Object name}) => 'Eliminare il profilo "${name}"?';
 			case 'profile_copy': return 'Copia';
 			case 'profile_copy_suffix': return '(Copia)';
@@ -24566,7 +24566,7 @@ extension on _StringsJa {
 			case 'volume_key_sentence_nav': return '音量キーで文ナビゲーション';
 			case 'preview_badge': return 'バッジ';
 			case 'preview_switch': return 'スイッチ';
-			case 'profile_book_profile': return 'ブックプロファイル';
+			case 'profile_book_profile': return 'プロファイル指定';
 			case 'profile_confirm_delete': return ({required Object name}) => 'プロファイル「${name}」を削除しますか？';
 			case 'profile_copy': return 'コピー';
 			case 'profile_copy_suffix': return '（コピー）';
@@ -25517,7 +25517,7 @@ extension on _StringsKo {
 			case 'volume_key_sentence_nav': return '볼륨 키 문장 탐색';
 			case 'preview_badge': return '뱃지';
 			case 'preview_switch': return '스위치';
-			case 'profile_book_profile': return '책 프로필';
+			case 'profile_book_profile': return '프로필 지정';
 			case 'profile_confirm_delete': return ({required Object name}) => '프로필 "${name}"을(를) 삭제하시겠습니까?';
 			case 'profile_copy': return '복사';
 			case 'profile_copy_suffix': return '(복사)';
@@ -26468,7 +26468,7 @@ extension on _StringsNl {
 			case 'volume_key_sentence_nav': return 'Zinsnavigatie met volumeknoppen';
 			case 'preview_badge': return 'Badge';
 			case 'preview_switch': return 'Schakelaar';
-			case 'profile_book_profile': return 'Boekprofiel';
+			case 'profile_book_profile': return 'Profiel toewijzen';
 			case 'profile_confirm_delete': return ({required Object name}) => 'Profiel "${name}" verwijderen?';
 			case 'profile_copy': return 'Kopiëren';
 			case 'profile_copy_suffix': return '(Kopie)';
@@ -27419,7 +27419,7 @@ extension on _StringsPtBr {
 			case 'volume_key_sentence_nav': return 'Navegação de frases com teclas de volume';
 			case 'preview_badge': return 'Emblema';
 			case 'preview_switch': return 'Interruptor';
-			case 'profile_book_profile': return 'Perfil do Livro';
+			case 'profile_book_profile': return 'Atribuir Perfil';
 			case 'profile_confirm_delete': return ({required Object name}) => 'Excluir perfil "${name}"?';
 			case 'profile_copy': return 'Copiar';
 			case 'profile_copy_suffix': return '(Cópia)';
@@ -28370,7 +28370,7 @@ extension on _StringsRu {
 			case 'volume_key_sentence_nav': return 'Навигация по предложениям кнопками громкости';
 			case 'preview_badge': return 'Значок';
 			case 'preview_switch': return 'Переключатель';
-			case 'profile_book_profile': return 'Профиль книги';
+			case 'profile_book_profile': return 'Назначить профиль';
 			case 'profile_confirm_delete': return ({required Object name}) => 'Удалить профиль "${name}"?';
 			case 'profile_copy': return 'Копировать';
 			case 'profile_copy_suffix': return '(Копия)';
@@ -29321,7 +29321,7 @@ extension on _StringsTh {
 			case 'volume_key_sentence_nav': return 'นำทางประโยคด้วยปุ่มเสียง';
 			case 'preview_badge': return 'ป้าย';
 			case 'preview_switch': return 'สวิตช์';
-			case 'profile_book_profile': return 'โปรไฟล์หนังสือ';
+			case 'profile_book_profile': return 'กำหนดโปรไฟล์';
 			case 'profile_confirm_delete': return ({required Object name}) => 'ลบโปรไฟล์ "${name}" หรือไม่?';
 			case 'profile_copy': return 'คัดลอก';
 			case 'profile_copy_suffix': return '(สำเนา)';
@@ -30272,7 +30272,7 @@ extension on _StringsTr {
 			case 'volume_key_sentence_nav': return 'Ses Tuşuyla Cümle Gezinme';
 			case 'preview_badge': return 'Rozet';
 			case 'preview_switch': return 'Anahtar';
-			case 'profile_book_profile': return 'Kitap Profili';
+			case 'profile_book_profile': return 'Profil Ata';
 			case 'profile_confirm_delete': return ({required Object name}) => '"${name}" profili silinsin mi?';
 			case 'profile_copy': return 'Kopyala';
 			case 'profile_copy_suffix': return '(Kopya)';
@@ -31223,7 +31223,7 @@ extension on _StringsVi {
 			case 'volume_key_sentence_nav': return 'Điều hướng câu bằng phím âm lượng';
 			case 'preview_badge': return 'Huy hiệu';
 			case 'preview_switch': return 'Công tắc';
-			case 'profile_book_profile': return 'Hồ sơ sách';
+			case 'profile_book_profile': return 'Chỉ định cấu hình';
 			case 'profile_confirm_delete': return ({required Object name}) => 'Xóa hồ sơ "${name}"?';
 			case 'profile_copy': return 'Sao chép';
 			case 'profile_copy_suffix': return '(Bản sao)';
@@ -32174,7 +32174,7 @@ extension on _StringsZhCn {
 			case 'volume_key_sentence_nav': return '音量键句子导航';
 			case 'preview_badge': return '徽章';
 			case 'preview_switch': return '开关';
-			case 'profile_book_profile': return '书籍配置';
+			case 'profile_book_profile': return '指定配置';
 			case 'profile_confirm_delete': return ({required Object name}) => '删除配置「${name}」？';
 			case 'profile_copy': return '复制';
 			case 'profile_copy_suffix': return '（副本）';
@@ -33125,7 +33125,7 @@ extension on _StringsZhHk {
 			case 'volume_key_sentence_nav': return '音量鍵句子導覽';
 			case 'preview_badge': return '徽章';
 			case 'preview_switch': return '開關';
-			case 'profile_book_profile': return '書籍設定檔';
+			case 'profile_book_profile': return '指定設定檔';
 			case 'profile_confirm_delete': return ({required Object name}) => '刪除設定檔「${name}」？';
 			case 'profile_copy': return '複製';
 			case 'profile_copy_suffix': return '（副本）';
