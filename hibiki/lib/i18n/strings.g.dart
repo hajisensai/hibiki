@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 16054 (944 per locale)
+/// Strings: 16094 (946 per locale)
 ///
-/// Built on 2026-05-20 at 11:43 UTC
+/// Built on 2026-05-20 at 13:26 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1106,6 +1106,16 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get tag_new => 'New Tag';
 	String get tag_no_books_for_filter => 'No books match the selected tags.';
 	String get tag_no_tags_hint => 'No tags yet. Create one to get started.';
+	String get batch_select => 'Select';
+	String batch_selected_count({required Object n}) => '${n} selected';
+	String get batch_select_all => 'All';
+	String get batch_deselect_all => 'None';
+	String batch_delete_confirm({required Object n}) => 'Delete ${n} book(s)? This cannot be undone.';
+	String batch_delete_success({required Object n}) => 'Deleted ${n} book(s).';
+	String get batch_tag_title => 'Manage Tags';
+	String batch_tag_added({required Object name, required Object n}) => 'Tag "${name}" added to ${n} book(s).';
+	String batch_tag_removed({required Object name, required Object n}) => 'Tag "${name}" removed from ${n} book(s).';
+	String get batch_tag_apply => 'Apply';
 	String get untitled => 'Untitled';
 	String untitled_book({required Object id}) => 'Book ${id}';
 	String get update_debug_channel => 'Debug Update Channel';
@@ -8085,6 +8095,16 @@ class _StringsJa extends _StringsEn {
 	@override String get tag_new => '新しいタグ';
 	@override String get tag_no_books_for_filter => '選択したタグに一致する本がありません。';
 	@override String get tag_no_tags_hint => 'タグがありません。作成して始めましょう。';
+	@override String get batch_select => '選択';
+	@override String batch_selected_count({required Object n}) => '${n} 件選択中';
+	@override String get batch_select_all => 'すべて';
+	@override String get batch_deselect_all => '選択解除';
+	@override String batch_delete_confirm({required Object n}) => '${n} 冊の本を削除しますか？この操作は元に戻せません。';
+	@override String batch_delete_success({required Object n}) => '${n} 冊の本を削除しました。';
+	@override String get batch_tag_title => 'タグを一括管理';
+	@override String batch_tag_added({required Object n, required Object name}) => '${n} 冊の本にタグ「${name}」を追加しました。';
+	@override String batch_tag_removed({required Object n, required Object name}) => '${n} 冊の本からタグ「${name}」を削除しました。';
+	@override String get batch_tag_apply => '適用';
 	@override String get untitled => '無題';
 	@override String untitled_book({required Object id}) => 'ブック ${id}';
 	@override String get update_debug_channel => 'デバッグ更新チャンネル';
@@ -16061,6 +16081,16 @@ class _StringsZhCn extends _StringsEn {
 	@override String get tag_new => '新建标签';
 	@override String get tag_no_books_for_filter => '没有书籍匹配所选标签。';
 	@override String get tag_no_tags_hint => '还没有标签。创建一个开始吧。';
+	@override String get batch_select => '选择';
+	@override String batch_selected_count({required Object n}) => '已选 ${n} 项';
+	@override String get batch_select_all => '全选';
+	@override String get batch_deselect_all => '取消全选';
+	@override String batch_delete_confirm({required Object n}) => '确定删除 ${n} 本书？此操作不可撤销。';
+	@override String batch_delete_success({required Object n}) => '已删除 ${n} 本书。';
+	@override String get batch_tag_title => '批量管理标签';
+	@override String batch_tag_added({required Object n, required Object name}) => '已为 ${n} 本书添加标签「${name}」。';
+	@override String batch_tag_removed({required Object n, required Object name}) => '已从 ${n} 本书移除标签「${name}」。';
+	@override String get batch_tag_apply => '应用';
 	@override String get untitled => '无标题';
 	@override String untitled_book({required Object id}) => '书籍 ${id}';
 	@override String get update_debug_channel => '调试更新通道';
@@ -17058,6 +17088,16 @@ class _StringsZhHk extends _StringsEn {
 	@override String get tag_new => '新增標籤';
 	@override String get tag_no_books_for_filter => '沒有書籍符合所選標籤。';
 	@override String get tag_no_tags_hint => '還沒有標籤。建立一個開始吧。';
+	@override String get batch_select => '選擇';
+	@override String batch_selected_count({required Object n}) => '已選 ${n} 項';
+	@override String get batch_select_all => '全選';
+	@override String get batch_deselect_all => '取消全選';
+	@override String batch_delete_confirm({required Object n}) => '確定刪除 ${n} 本書？此操作不可撤銷。';
+	@override String batch_delete_success({required Object n}) => '已刪除 ${n} 本書。';
+	@override String get batch_tag_title => '批量管理標籤';
+	@override String batch_tag_added({required Object n, required Object name}) => '已為 ${n} 本書添加標籤「${name}」。';
+	@override String batch_tag_removed({required Object n, required Object name}) => '已從 ${n} 本書移除標籤「${name}」。';
+	@override String get batch_tag_apply => '套用';
 	@override String get untitled => '無標題';
 	@override String untitled_book({required Object id}) => '書籍 ${id}';
 	@override String get update_debug_channel => '偵錯更新頻道';
@@ -18046,6 +18086,16 @@ extension on _StringsEn {
 			case 'tag_new': return 'New Tag';
 			case 'tag_no_books_for_filter': return 'No books match the selected tags.';
 			case 'tag_no_tags_hint': return 'No tags yet. Create one to get started.';
+			case 'batch_select': return 'Select';
+			case 'batch_selected_count': return ({required Object n}) => '${n} selected';
+			case 'batch_select_all': return 'All';
+			case 'batch_deselect_all': return 'None';
+			case 'batch_delete_confirm': return ({required Object n}) => 'Delete ${n} book(s)? This cannot be undone.';
+			case 'batch_delete_success': return ({required Object n}) => 'Deleted ${n} book(s).';
+			case 'batch_tag_title': return 'Manage Tags';
+			case 'batch_tag_added': return ({required Object name, required Object n}) => 'Tag "${name}" added to ${n} book(s).';
+			case 'batch_tag_removed': return ({required Object name, required Object n}) => 'Tag "${name}" removed from ${n} book(s).';
+			case 'batch_tag_apply': return 'Apply';
 			case 'untitled': return 'Untitled';
 			case 'untitled_book': return ({required Object id}) => 'Book ${id}';
 			case 'update_debug_channel': return 'Debug Update Channel';
@@ -24738,6 +24788,16 @@ extension on _StringsJa {
 			case 'tag_new': return '新しいタグ';
 			case 'tag_no_books_for_filter': return '選択したタグに一致する本がありません。';
 			case 'tag_no_tags_hint': return 'タグがありません。作成して始めましょう。';
+			case 'batch_select': return '選択';
+			case 'batch_selected_count': return ({required Object n}) => '${n} 件選択中';
+			case 'batch_select_all': return 'すべて';
+			case 'batch_deselect_all': return '選択解除';
+			case 'batch_delete_confirm': return ({required Object n}) => '${n} 冊の本を削除しますか？この操作は元に戻せません。';
+			case 'batch_delete_success': return ({required Object n}) => '${n} 冊の本を削除しました。';
+			case 'batch_tag_title': return 'タグを一括管理';
+			case 'batch_tag_added': return ({required Object n, required Object name}) => '${n} 冊の本にタグ「${name}」を追加しました。';
+			case 'batch_tag_removed': return ({required Object n, required Object name}) => '${n} 冊の本からタグ「${name}」を削除しました。';
+			case 'batch_tag_apply': return '適用';
 			case 'untitled': return '無題';
 			case 'untitled_book': return ({required Object id}) => 'ブック ${id}';
 			case 'update_debug_channel': return 'デバッグ更新チャンネル';
@@ -32386,6 +32446,16 @@ extension on _StringsZhCn {
 			case 'tag_new': return '新建标签';
 			case 'tag_no_books_for_filter': return '没有书籍匹配所选标签。';
 			case 'tag_no_tags_hint': return '还没有标签。创建一个开始吧。';
+			case 'batch_select': return '选择';
+			case 'batch_selected_count': return ({required Object n}) => '已选 ${n} 项';
+			case 'batch_select_all': return '全选';
+			case 'batch_deselect_all': return '取消全选';
+			case 'batch_delete_confirm': return ({required Object n}) => '确定删除 ${n} 本书？此操作不可撤销。';
+			case 'batch_delete_success': return ({required Object n}) => '已删除 ${n} 本书。';
+			case 'batch_tag_title': return '批量管理标签';
+			case 'batch_tag_added': return ({required Object n, required Object name}) => '已为 ${n} 本书添加标签「${name}」。';
+			case 'batch_tag_removed': return ({required Object n, required Object name}) => '已从 ${n} 本书移除标签「${name}」。';
+			case 'batch_tag_apply': return '应用';
 			case 'untitled': return '无标题';
 			case 'untitled_book': return ({required Object id}) => '书籍 ${id}';
 			case 'update_debug_channel': return '调试更新通道';
@@ -33342,6 +33412,16 @@ extension on _StringsZhHk {
 			case 'tag_new': return '新增標籤';
 			case 'tag_no_books_for_filter': return '沒有書籍符合所選標籤。';
 			case 'tag_no_tags_hint': return '還沒有標籤。建立一個開始吧。';
+			case 'batch_select': return '選擇';
+			case 'batch_selected_count': return ({required Object n}) => '已選 ${n} 項';
+			case 'batch_select_all': return '全選';
+			case 'batch_deselect_all': return '取消全選';
+			case 'batch_delete_confirm': return ({required Object n}) => '確定刪除 ${n} 本書？此操作不可撤銷。';
+			case 'batch_delete_success': return ({required Object n}) => '已刪除 ${n} 本書。';
+			case 'batch_tag_title': return '批量管理標籤';
+			case 'batch_tag_added': return ({required Object n, required Object name}) => '已為 ${n} 本書添加標籤「${name}」。';
+			case 'batch_tag_removed': return ({required Object n, required Object name}) => '已從 ${n} 本書移除標籤「${name}」。';
+			case 'batch_tag_apply': return '套用';
 			case 'untitled': return '無標題';
 			case 'untitled_book': return ({required Object id}) => '書籍 ${id}';
 			case 'update_debug_channel': return '偵錯更新頻道';
