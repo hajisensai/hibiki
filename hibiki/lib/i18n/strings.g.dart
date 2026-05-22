@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 16439 (967 per locale)
+/// Strings: 16490 (970 per locale)
 ///
-/// Built on 2026-05-21 at 14:41 UTC
+/// Built on 2026-05-22 at 03:59 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -772,6 +772,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get srt_import_missing_audio_dir => 'Please select an audio directory';
   String get srt_import_missing_title => 'Please enter a book title';
   String get srt_import_error => 'Import failed';
+  String health_match_summary({required Object pct}) => 'Match ${pct}%';
+  String file_count({required Object count}) => '${count} files';
   String get audio_panel_title => 'Audio Files';
   String get audio_panel_auto => 'Auto';
   String get audio_panel_unpaired => 'Unpaired';
@@ -959,6 +961,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get custom_fonts_no_fonts_in_archive =>
       'No font files found in archive';
   String get custom_fonts_recommended => 'Recommended Fonts';
+  String get theme_system => 'System';
   String get theme_light => 'White';
   String get theme_ecru => 'Ecru';
   String get theme_water => 'Water Blue';
@@ -1241,7 +1244,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get dict_category_kanji => 'Kanji';
   String get dict_category_names => 'Names';
   String get dict_category_supplementary => 'Supplementary';
-  String get dict_download_browse => 'Browse Dictionaries';
+  String get dict_download_browse => 'Download Dictionaries';
   String get dict_download_language => 'Your language';
   String dict_download_button({required Object count}) => 'Download (${count})';
   String get dict_download_complete => 'Download complete.';
@@ -2467,6 +2470,10 @@ class _StringsAr extends _StringsEn {
   @override
   String get srt_import_error => 'فشل الاستيراد';
   @override
+  String health_match_summary({required Object pct}) => 'تطابق ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} ملفات';
+  @override
   String get audio_panel_title => 'ملفات الصوت';
   @override
   String get audio_panel_auto => 'تلقائي';
@@ -2809,6 +2816,8 @@ class _StringsAr extends _StringsEn {
       'لم يتم العثور على ملفات خطوط في الأرشيف';
   @override
   String get custom_fonts_recommended => 'خطوط موصى بها';
+  @override
+  String get theme_system => 'النظام';
   @override
   String get theme_light => 'أبيض';
   @override
@@ -3327,7 +3336,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get dict_category_supplementary => 'تكميلي';
   @override
-  String get dict_download_browse => 'تصفّح القواميس';
+  String get dict_download_browse => 'تنزيل القواميس';
   @override
   String get dict_download_language => 'لغتك';
   @override
@@ -4685,6 +4694,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get srt_import_error => 'Import fehlgeschlagen';
   @override
+  String health_match_summary({required Object pct}) =>
+      'Übereinstimmung ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} Dateien';
+  @override
   String get audio_panel_title => 'Audiodateien';
   @override
   String get audio_panel_auto => 'Automatisch';
@@ -5037,6 +5051,8 @@ class _StringsDe extends _StringsEn {
       'Keine Schriftdateien im Archiv gefunden';
   @override
   String get custom_fonts_recommended => 'Empfohlene Schriften';
+  @override
+  String get theme_system => 'System';
   @override
   String get theme_light => 'Weiß';
   @override
@@ -5565,7 +5581,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get dict_category_supplementary => 'Ergänzend';
   @override
-  String get dict_download_browse => 'Wörterbücher durchsuchen';
+  String get dict_download_browse => 'Wörterbücher herunterladen';
   @override
   String get dict_download_language => 'Deine Sprache';
   @override
@@ -6931,6 +6947,10 @@ class _StringsEs extends _StringsEn {
   @override
   String get srt_import_error => 'Error en la importación';
   @override
+  String health_match_summary({required Object pct}) => 'Coincidencia ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} archivos';
+  @override
   String get audio_panel_title => 'Archivos de audio';
   @override
   String get audio_panel_auto => 'Automático';
@@ -7287,6 +7307,8 @@ class _StringsEs extends _StringsEn {
       'No se encontraron fuentes en el archivo';
   @override
   String get custom_fonts_recommended => 'Fuentes recomendadas';
+  @override
+  String get theme_system => 'Sistema';
   @override
   String get theme_light => 'Blanco';
   @override
@@ -7819,7 +7841,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get dict_category_supplementary => 'Suplementario';
   @override
-  String get dict_download_browse => 'Explorar diccionarios';
+  String get dict_download_browse => 'Descargar diccionarios';
   @override
   String get dict_download_language => 'Tu idioma';
   @override
@@ -9191,6 +9213,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get srt_import_error => 'échec de l\'importation';
   @override
+  String health_match_summary({required Object pct}) =>
+      'Correspondance ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} fichiers';
+  @override
   String get audio_panel_title => 'Fichiers audio';
   @override
   String get audio_panel_auto => 'Automatique';
@@ -9549,6 +9576,8 @@ class _StringsFr extends _StringsEn {
       'Aucun fichier de police trouvé dans l\'archive';
   @override
   String get custom_fonts_recommended => 'Polices recommandées';
+  @override
+  String get theme_system => 'Système';
   @override
   String get theme_light => 'Blanc';
   @override
@@ -10085,7 +10114,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get dict_category_supplementary => 'Supplémentaire';
   @override
-  String get dict_download_browse => 'Parcourir les dictionnaires';
+  String get dict_download_browse => 'Télécharger des dictionnaires';
   @override
   String get dict_download_language => 'Votre langue';
   @override
@@ -11431,6 +11460,10 @@ class _StringsId extends _StringsEn {
   @override
   String get srt_import_error => 'Impor gagal';
   @override
+  String health_match_summary({required Object pct}) => 'Kecocokan ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} file';
+  @override
   String get audio_panel_title => 'File Audio';
   @override
   String get audio_panel_auto => 'Otomatis';
@@ -11781,6 +11814,8 @@ class _StringsId extends _StringsEn {
       'Tidak ada file font dalam arsip';
   @override
   String get custom_fonts_recommended => 'Font Rekomendasi';
+  @override
+  String get theme_system => 'Sistem';
   @override
   String get theme_light => 'Putih';
   @override
@@ -12300,7 +12335,7 @@ class _StringsId extends _StringsEn {
   @override
   String get dict_category_supplementary => 'Tambahan';
   @override
-  String get dict_download_browse => 'Jelajahi Kamus';
+  String get dict_download_browse => 'Unduh Kamus';
   @override
   String get dict_download_language => 'Bahasa Anda';
   @override
@@ -13655,6 +13690,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get srt_import_error => 'Importazione fallita';
   @override
+  String health_match_summary({required Object pct}) =>
+      'Corrispondenza ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} file';
+  @override
   String get audio_panel_title => 'File audio';
   @override
   String get audio_panel_auto => 'Automatico';
@@ -14007,6 +14047,8 @@ class _StringsIt extends _StringsEn {
       'Nessun file di caratteri trovato nell\'archivio';
   @override
   String get custom_fonts_recommended => 'Caratteri consigliati';
+  @override
+  String get theme_system => 'Sistema';
   @override
   String get theme_light => 'Bianco';
   @override
@@ -14539,7 +14581,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get dict_category_supplementary => 'Supplementari';
   @override
-  String get dict_download_browse => 'Sfoglia dizionari';
+  String get dict_download_browse => 'Scarica dizionari';
   @override
   String get dict_download_language => 'La tua lingua';
   @override
@@ -15827,6 +15869,10 @@ class _StringsJa extends _StringsEn {
   @override
   String get srt_import_error => 'インポートに失敗しました';
   @override
+  String health_match_summary({required Object pct}) => '一致 ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} ファイル';
+  @override
   String get audio_panel_title => '音声ファイル';
   @override
   String get audio_panel_auto => '自動';
@@ -16157,6 +16203,8 @@ class _StringsJa extends _StringsEn {
   String get custom_fonts_no_fonts_in_archive => 'アーカイブにフォントファイルが見つかりません';
   @override
   String get custom_fonts_recommended => 'おすすめフォント';
+  @override
+  String get theme_system => 'システム';
   @override
   String get theme_light => 'ホワイト';
   @override
@@ -16649,7 +16697,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get dict_category_supplementary => '補助';
   @override
-  String get dict_download_browse => '辞書を閲覧';
+  String get dict_download_browse => '辞書をダウンロード';
   @override
   String get dict_download_language => 'あなたの言語';
   @override
@@ -17929,6 +17977,10 @@ class _StringsKo extends _StringsEn {
   @override
   String get srt_import_error => '가져오기 실패';
   @override
+  String health_match_summary({required Object pct}) => '일치 ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count}개 파일';
+  @override
   String get audio_panel_title => '오디오 파일';
   @override
   String get audio_panel_auto => '자동';
@@ -18257,6 +18309,8 @@ class _StringsKo extends _StringsEn {
   String get custom_fonts_no_fonts_in_archive => '아카이브에서 글꼴 파일을 찾을 수 없습니다';
   @override
   String get custom_fonts_recommended => '추천 글꼴';
+  @override
+  String get theme_system => '시스템';
   @override
   String get theme_light => '화이트';
   @override
@@ -18752,7 +18806,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get dict_category_supplementary => '보충';
   @override
-  String get dict_download_browse => '사전 둘러보기';
+  String get dict_download_browse => '사전 다운로드';
   @override
   String get dict_download_language => '사용 언어';
   @override
@@ -20091,6 +20145,10 @@ class _StringsNl extends _StringsEn {
   @override
   String get srt_import_error => 'Importeren mislukt';
   @override
+  String health_match_summary({required Object pct}) => 'Overeenkomst ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} bestanden';
+  @override
   String get audio_panel_title => 'Audiobestanden';
   @override
   String get audio_panel_auto => 'Automatisch';
@@ -20441,6 +20499,8 @@ class _StringsNl extends _StringsEn {
       'Geen lettertypebestanden gevonden in archief';
   @override
   String get custom_fonts_recommended => 'Aanbevolen lettertypen';
+  @override
+  String get theme_system => 'Systeem';
   @override
   String get theme_light => 'Wit';
   @override
@@ -20968,7 +21028,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get dict_category_supplementary => 'Aanvullend';
   @override
-  String get dict_download_browse => 'Woordenboeken bekijken';
+  String get dict_download_browse => 'Woordenboeken downloaden';
   @override
   String get dict_download_language => 'Je taal';
   @override
@@ -22326,6 +22386,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get srt_import_error => 'Falha na importação';
   @override
+  String health_match_summary({required Object pct}) =>
+      'Correspondência ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} arquivos';
+  @override
   String get audio_panel_title => 'Arquivos de áudio';
   @override
   String get audio_panel_auto => 'Automático';
@@ -22679,6 +22744,8 @@ class _StringsPtBr extends _StringsEn {
       'Nenhum arquivo de fonte encontrado no arquivo';
   @override
   String get custom_fonts_recommended => 'Fontes recomendadas';
+  @override
+  String get theme_system => 'Sistema';
   @override
   String get theme_light => 'Branco';
   @override
@@ -23210,7 +23277,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get dict_category_supplementary => 'Suplementar';
   @override
-  String get dict_download_browse => 'Explorar Dicionários';
+  String get dict_download_browse => 'Baixar Dicionários';
   @override
   String get dict_download_language => 'Seu idioma';
   @override
@@ -24556,6 +24623,10 @@ class _StringsRu extends _StringsEn {
   @override
   String get srt_import_error => 'Ошибка импорта';
   @override
+  String health_match_summary({required Object pct}) => 'Совпадение ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} файлов';
+  @override
   String get audio_panel_title => 'Аудиофайлы';
   @override
   String get audio_panel_auto => 'Авто';
@@ -24903,6 +24974,8 @@ class _StringsRu extends _StringsEn {
       'В архиве не найдено файлов шрифтов';
   @override
   String get custom_fonts_recommended => 'Рекомендуемые шрифты';
+  @override
+  String get theme_system => 'Системная';
   @override
   String get theme_light => 'Белая';
   @override
@@ -25433,7 +25506,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get dict_category_supplementary => 'Дополнительные';
   @override
-  String get dict_download_browse => 'Обзор словарей';
+  String get dict_download_browse => 'Скачать словари';
   @override
   String get dict_download_language => 'Ваш язык';
   @override
@@ -26753,6 +26826,10 @@ class _StringsTh extends _StringsEn {
   @override
   String get srt_import_error => 'การนำเข้าล้มเหลว';
   @override
+  String health_match_summary({required Object pct}) => 'ตรงกัน ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} ไฟล์';
+  @override
   String get audio_panel_title => 'ไฟล์เสียง';
   @override
   String get audio_panel_auto => 'อัตโนมัติ';
@@ -27093,6 +27170,8 @@ class _StringsTh extends _StringsEn {
   String get custom_fonts_no_fonts_in_archive => 'ไม่พบไฟล์ฟอนต์ในไฟล์บีบอัด';
   @override
   String get custom_fonts_recommended => 'ฟอนต์แนะนำ';
+  @override
+  String get theme_system => 'ระบบ';
   @override
   String get theme_light => 'ขาว';
   @override
@@ -27607,7 +27686,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get dict_category_supplementary => 'เสริม';
   @override
-  String get dict_download_browse => 'เรียกดูพจนานุกรม';
+  String get dict_download_browse => 'ดาวน์โหลดพจนานุกรม';
   @override
   String get dict_download_language => 'ภาษาของคุณ';
   @override
@@ -28941,6 +29020,10 @@ class _StringsTr extends _StringsEn {
   @override
   String get srt_import_error => 'İçe aktarma başarısız';
   @override
+  String health_match_summary({required Object pct}) => 'Eşleşme ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} dosya';
+  @override
   String get audio_panel_title => 'Ses Dosyaları';
   @override
   String get audio_panel_auto => 'Otomatik';
@@ -29290,6 +29373,8 @@ class _StringsTr extends _StringsEn {
       'Arşivde yazı tipi dosyası bulunamadı';
   @override
   String get custom_fonts_recommended => 'Önerilen Yazı Tipleri';
+  @override
+  String get theme_system => 'Sistem';
   @override
   String get theme_light => 'Beyaz';
   @override
@@ -29814,7 +29899,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get dict_category_supplementary => 'Ek';
   @override
-  String get dict_download_browse => 'Sözlüklere Göz At';
+  String get dict_download_browse => 'Sözlükleri İndir';
   @override
   String get dict_download_language => 'Diliniz';
   @override
@@ -31134,6 +31219,10 @@ class _StringsVi extends _StringsEn {
   @override
   String get srt_import_error => 'Nhập thất bại';
   @override
+  String health_match_summary({required Object pct}) => 'Khớp ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} tệp';
+  @override
   String get audio_panel_title => 'Tệp âm thanh';
   @override
   String get audio_panel_auto => 'Tự động';
@@ -31482,6 +31571,8 @@ class _StringsVi extends _StringsEn {
       'Không tìm thấy tệp phông chữ trong tệp nén';
   @override
   String get custom_fonts_recommended => 'Phông chữ đề xuất';
+  @override
+  String get theme_system => 'Hệ thống';
   @override
   String get theme_light => 'Trắng';
   @override
@@ -32003,7 +32094,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get dict_category_supplementary => 'Bổ sung';
   @override
-  String get dict_download_browse => 'Duyệt từ điển';
+  String get dict_download_browse => 'Tải từ điển';
   @override
   String get dict_download_language => 'Ngôn ngữ';
   @override
@@ -33274,6 +33365,10 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get srt_import_error => '导入失败';
   @override
+  String health_match_summary({required Object pct}) => '匹配 ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} 个文件';
+  @override
   String get audio_panel_title => '音频文件';
   @override
   String get audio_panel_auto => '自动';
@@ -33599,6 +33694,8 @@ class _StringsZhCn extends _StringsEn {
   String get custom_fonts_no_fonts_in_archive => '压缩包中未找到字体文件';
   @override
   String get custom_fonts_recommended => '推荐字体';
+  @override
+  String get theme_system => '跟随系统';
   @override
   String get theme_light => '白色';
   @override
@@ -34083,7 +34180,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get dict_category_supplementary => '补充';
   @override
-  String get dict_download_browse => '浏览词典';
+  String get dict_download_browse => '下载推荐词典';
   @override
   String get dict_download_language => '你的语言';
   @override
@@ -35339,6 +35436,10 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get srt_import_error => '匯入失敗';
   @override
+  String health_match_summary({required Object pct}) => '匹配 ${pct}%';
+  @override
+  String file_count({required Object count}) => '${count} 個檔案';
+  @override
   String get audio_panel_title => '音訊檔案';
   @override
   String get audio_panel_auto => '自動';
@@ -35663,6 +35764,8 @@ class _StringsZhHk extends _StringsEn {
   String get custom_fonts_no_fonts_in_archive => '壓縮檔中未找到字型檔案';
   @override
   String get custom_fonts_recommended => '推薦字型';
+  @override
+  String get theme_system => '跟隨系統';
   @override
   String get theme_light => '白色';
   @override
@@ -36145,7 +36248,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get dict_category_supplementary => '補充';
   @override
-  String get dict_download_browse => '瀏覽辭典';
+  String get dict_download_browse => '下載推薦辭典';
   @override
   String get dict_download_language => '你的語言';
   @override
@@ -37368,6 +37471,10 @@ extension on _StringsEn {
         return 'Please enter a book title';
       case 'srt_import_error':
         return 'Import failed';
+      case 'health_match_summary':
+        return ({required Object pct}) => 'Match ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} files';
       case 'audio_panel_title':
         return 'Audio Files';
       case 'audio_panel_auto':
@@ -37692,6 +37799,8 @@ extension on _StringsEn {
         return 'No font files found in archive';
       case 'custom_fonts_recommended':
         return 'Recommended Fonts';
+      case 'theme_system':
+        return 'System';
       case 'theme_light':
         return 'White';
       case 'theme_ecru':
@@ -38165,7 +38274,7 @@ extension on _StringsEn {
       case 'dict_category_supplementary':
         return 'Supplementary';
       case 'dict_download_browse':
-        return 'Browse Dictionaries';
+        return 'Download Dictionaries';
       case 'dict_download_language':
         return 'Your language';
       case 'dict_download_button':
@@ -39348,6 +39457,10 @@ extension on _StringsAr {
         return 'يرجى إدخال عنوان الكتاب';
       case 'srt_import_error':
         return 'فشل الاستيراد';
+      case 'health_match_summary':
+        return ({required Object pct}) => 'تطابق ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} ملفات';
       case 'audio_panel_title':
         return 'ملفات الصوت';
       case 'audio_panel_auto':
@@ -39671,6 +39784,8 @@ extension on _StringsAr {
         return 'لم يتم العثور على ملفات خطوط في الأرشيف';
       case 'custom_fonts_recommended':
         return 'خطوط موصى بها';
+      case 'theme_system':
+        return 'النظام';
       case 'theme_light':
         return 'أبيض';
       case 'theme_ecru':
@@ -40144,7 +40259,7 @@ extension on _StringsAr {
       case 'dict_category_supplementary':
         return 'تكميلي';
       case 'dict_download_browse':
-        return 'تصفّح القواميس';
+        return 'تنزيل القواميس';
       case 'dict_download_language':
         return 'لغتك';
       case 'dict_download_button':
@@ -41331,6 +41446,10 @@ extension on _StringsDe {
         return 'Bitte geben Sie einen Buchtitel ein';
       case 'srt_import_error':
         return 'Import fehlgeschlagen';
+      case 'health_match_summary':
+        return ({required Object pct}) => 'Übereinstimmung ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} Dateien';
       case 'audio_panel_title':
         return 'Audiodateien';
       case 'audio_panel_auto':
@@ -41657,6 +41776,8 @@ extension on _StringsDe {
         return 'Keine Schriftdateien im Archiv gefunden';
       case 'custom_fonts_recommended':
         return 'Empfohlene Schriften';
+      case 'theme_system':
+        return 'System';
       case 'theme_light':
         return 'Weiß';
       case 'theme_ecru':
@@ -42134,7 +42255,7 @@ extension on _StringsDe {
       case 'dict_category_supplementary':
         return 'Ergänzend';
       case 'dict_download_browse':
-        return 'Wörterbücher durchsuchen';
+        return 'Wörterbücher herunterladen';
       case 'dict_download_language':
         return 'Deine Sprache';
       case 'dict_download_button':
@@ -43322,6 +43443,10 @@ extension on _StringsEs {
         return 'Introduce un título para el libro';
       case 'srt_import_error':
         return 'Error en la importación';
+      case 'health_match_summary':
+        return ({required Object pct}) => 'Coincidencia ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} archivos';
       case 'audio_panel_title':
         return 'Archivos de audio';
       case 'audio_panel_auto':
@@ -43648,6 +43773,8 @@ extension on _StringsEs {
         return 'No se encontraron fuentes en el archivo';
       case 'custom_fonts_recommended':
         return 'Fuentes recomendadas';
+      case 'theme_system':
+        return 'Sistema';
       case 'theme_light':
         return 'Blanco';
       case 'theme_ecru':
@@ -44123,7 +44250,7 @@ extension on _StringsEs {
       case 'dict_category_supplementary':
         return 'Suplementario';
       case 'dict_download_browse':
-        return 'Explorar diccionarios';
+        return 'Descargar diccionarios';
       case 'dict_download_language':
         return 'Tu idioma';
       case 'dict_download_button':
@@ -45310,6 +45437,10 @@ extension on _StringsFr {
         return 'Veuillez saisir un titre de livre';
       case 'srt_import_error':
         return 'échec de l\'importation';
+      case 'health_match_summary':
+        return ({required Object pct}) => 'Correspondance ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} fichiers';
       case 'audio_panel_title':
         return 'Fichiers audio';
       case 'audio_panel_auto':
@@ -45636,6 +45767,8 @@ extension on _StringsFr {
         return 'Aucun fichier de police trouvé dans l\'archive';
       case 'custom_fonts_recommended':
         return 'Polices recommandées';
+      case 'theme_system':
+        return 'Système';
       case 'theme_light':
         return 'Blanc';
       case 'theme_ecru':
@@ -46112,7 +46245,7 @@ extension on _StringsFr {
       case 'dict_category_supplementary':
         return 'Supplémentaire';
       case 'dict_download_browse':
-        return 'Parcourir les dictionnaires';
+        return 'Télécharger des dictionnaires';
       case 'dict_download_language':
         return 'Votre langue';
       case 'dict_download_button':
@@ -47300,6 +47433,10 @@ extension on _StringsId {
         return 'Silakan masukkan judul buku';
       case 'srt_import_error':
         return 'Impor gagal';
+      case 'health_match_summary':
+        return ({required Object pct}) => 'Kecocokan ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} file';
       case 'audio_panel_title':
         return 'File Audio';
       case 'audio_panel_auto':
@@ -47624,6 +47761,8 @@ extension on _StringsId {
         return 'Tidak ada file font dalam arsip';
       case 'custom_fonts_recommended':
         return 'Font Rekomendasi';
+      case 'theme_system':
+        return 'Sistem';
       case 'theme_light':
         return 'Putih';
       case 'theme_ecru':
@@ -48097,7 +48236,7 @@ extension on _StringsId {
       case 'dict_category_supplementary':
         return 'Tambahan';
       case 'dict_download_browse':
-        return 'Jelajahi Kamus';
+        return 'Unduh Kamus';
       case 'dict_download_language':
         return 'Bahasa Anda';
       case 'dict_download_button':
@@ -49284,6 +49423,10 @@ extension on _StringsIt {
         return 'Inserisci un titolo per il libro';
       case 'srt_import_error':
         return 'Importazione fallita';
+      case 'health_match_summary':
+        return ({required Object pct}) => 'Corrispondenza ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} file';
       case 'audio_panel_title':
         return 'File audio';
       case 'audio_panel_auto':
@@ -49609,6 +49752,8 @@ extension on _StringsIt {
         return 'Nessun file di caratteri trovato nell\'archivio';
       case 'custom_fonts_recommended':
         return 'Caratteri consigliati';
+      case 'theme_system':
+        return 'Sistema';
       case 'theme_light':
         return 'Bianco';
       case 'theme_ecru':
@@ -50083,7 +50228,7 @@ extension on _StringsIt {
       case 'dict_category_supplementary':
         return 'Supplementari';
       case 'dict_download_browse':
-        return 'Sfoglia dizionari';
+        return 'Scarica dizionari';
       case 'dict_download_language':
         return 'La tua lingua';
       case 'dict_download_button':
@@ -51264,6 +51409,10 @@ extension on _StringsJa {
         return '本のタイトルを入力してください';
       case 'srt_import_error':
         return 'インポートに失敗しました';
+      case 'health_match_summary':
+        return ({required Object pct}) => '一致 ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} ファイル';
       case 'audio_panel_title':
         return '音声ファイル';
       case 'audio_panel_auto':
@@ -51586,6 +51735,8 @@ extension on _StringsJa {
         return 'アーカイブにフォントファイルが見つかりません';
       case 'custom_fonts_recommended':
         return 'おすすめフォント';
+      case 'theme_system':
+        return 'システム';
       case 'theme_light':
         return 'ホワイト';
       case 'theme_ecru':
@@ -52058,7 +52209,7 @@ extension on _StringsJa {
       case 'dict_category_supplementary':
         return '補助';
       case 'dict_download_browse':
-        return '辞書を閲覧';
+        return '辞書をダウンロード';
       case 'dict_download_language':
         return 'あなたの言語';
       case 'dict_download_button':
@@ -53236,6 +53387,10 @@ extension on _StringsKo {
         return '책 제목을 입력하세요';
       case 'srt_import_error':
         return '가져오기 실패';
+      case 'health_match_summary':
+        return ({required Object pct}) => '일치 ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count}개 파일';
       case 'audio_panel_title':
         return '오디오 파일';
       case 'audio_panel_auto':
@@ -53559,6 +53714,8 @@ extension on _StringsKo {
         return '아카이브에서 글꼴 파일을 찾을 수 없습니다';
       case 'custom_fonts_recommended':
         return '추천 글꼴';
+      case 'theme_system':
+        return '시스템';
       case 'theme_light':
         return '화이트';
       case 'theme_ecru':
@@ -54031,7 +54188,7 @@ extension on _StringsKo {
       case 'dict_category_supplementary':
         return '보충';
       case 'dict_download_browse':
-        return '사전 둘러보기';
+        return '사전 다운로드';
       case 'dict_download_language':
         return '사용 언어';
       case 'dict_download_button':
@@ -55216,6 +55373,10 @@ extension on _StringsNl {
         return 'Voer een boektitel in';
       case 'srt_import_error':
         return 'Importeren mislukt';
+      case 'health_match_summary':
+        return ({required Object pct}) => 'Overeenkomst ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} bestanden';
       case 'audio_panel_title':
         return 'Audiobestanden';
       case 'audio_panel_auto':
@@ -55542,6 +55703,8 @@ extension on _StringsNl {
         return 'Geen lettertypebestanden gevonden in archief';
       case 'custom_fonts_recommended':
         return 'Aanbevolen lettertypen';
+      case 'theme_system':
+        return 'Systeem';
       case 'theme_light':
         return 'Wit';
       case 'theme_ecru':
@@ -56016,7 +56179,7 @@ extension on _StringsNl {
       case 'dict_category_supplementary':
         return 'Aanvullend';
       case 'dict_download_browse':
-        return 'Woordenboeken bekijken';
+        return 'Woordenboeken downloaden';
       case 'dict_download_language':
         return 'Je taal';
       case 'dict_download_button':
@@ -57201,6 +57364,10 @@ extension on _StringsPtBr {
         return 'Insira um título para o livro';
       case 'srt_import_error':
         return 'Falha na importação';
+      case 'health_match_summary':
+        return ({required Object pct}) => 'Correspondência ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} arquivos';
       case 'audio_panel_title':
         return 'Arquivos de áudio';
       case 'audio_panel_auto':
@@ -57527,6 +57694,8 @@ extension on _StringsPtBr {
         return 'Nenhum arquivo de fonte encontrado no arquivo';
       case 'custom_fonts_recommended':
         return 'Fontes recomendadas';
+      case 'theme_system':
+        return 'Sistema';
       case 'theme_light':
         return 'Branco';
       case 'theme_ecru':
@@ -58001,7 +58170,7 @@ extension on _StringsPtBr {
       case 'dict_category_supplementary':
         return 'Suplementar';
       case 'dict_download_browse':
-        return 'Explorar Dicionários';
+        return 'Baixar Dicionários';
       case 'dict_download_language':
         return 'Seu idioma';
       case 'dict_download_button':
@@ -59186,6 +59355,10 @@ extension on _StringsRu {
         return 'Введите название книги';
       case 'srt_import_error':
         return 'Ошибка импорта';
+      case 'health_match_summary':
+        return ({required Object pct}) => 'Совпадение ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} файлов';
       case 'audio_panel_title':
         return 'Аудиофайлы';
       case 'audio_panel_auto':
@@ -59511,6 +59684,8 @@ extension on _StringsRu {
         return 'В архиве не найдено файлов шрифтов';
       case 'custom_fonts_recommended':
         return 'Рекомендуемые шрифты';
+      case 'theme_system':
+        return 'Системная';
       case 'theme_light':
         return 'Белая';
       case 'theme_ecru':
@@ -59986,7 +60161,7 @@ extension on _StringsRu {
       case 'dict_category_supplementary':
         return 'Дополнительные';
       case 'dict_download_browse':
-        return 'Обзор словарей';
+        return 'Скачать словари';
       case 'dict_download_language':
         return 'Ваш язык';
       case 'dict_download_button':
@@ -61169,6 +61344,10 @@ extension on _StringsTh {
         return 'กรุณาป้อนชื่อหนังสือ';
       case 'srt_import_error':
         return 'การนำเข้าล้มเหลว';
+      case 'health_match_summary':
+        return ({required Object pct}) => 'ตรงกัน ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} ไฟล์';
       case 'audio_panel_title':
         return 'ไฟล์เสียง';
       case 'audio_panel_auto':
@@ -61493,6 +61672,8 @@ extension on _StringsTh {
         return 'ไม่พบไฟล์ฟอนต์ในไฟล์บีบอัด';
       case 'custom_fonts_recommended':
         return 'ฟอนต์แนะนำ';
+      case 'theme_system':
+        return 'ระบบ';
       case 'theme_light':
         return 'ขาว';
       case 'theme_ecru':
@@ -61966,7 +62147,7 @@ extension on _StringsTh {
       case 'dict_category_supplementary':
         return 'เสริม';
       case 'dict_download_browse':
-        return 'เรียกดูพจนานุกรม';
+        return 'ดาวน์โหลดพจนานุกรม';
       case 'dict_download_language':
         return 'ภาษาของคุณ';
       case 'dict_download_button':
@@ -63149,6 +63330,10 @@ extension on _StringsTr {
         return 'Lütfen bir kitap başlığı girin';
       case 'srt_import_error':
         return 'İçe aktarma başarısız';
+      case 'health_match_summary':
+        return ({required Object pct}) => 'Eşleşme ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} dosya';
       case 'audio_panel_title':
         return 'Ses Dosyaları';
       case 'audio_panel_auto':
@@ -63474,6 +63659,8 @@ extension on _StringsTr {
         return 'Arşivde yazı tipi dosyası bulunamadı';
       case 'custom_fonts_recommended':
         return 'Önerilen Yazı Tipleri';
+      case 'theme_system':
+        return 'Sistem';
       case 'theme_light':
         return 'Beyaz';
       case 'theme_ecru':
@@ -63947,7 +64134,7 @@ extension on _StringsTr {
       case 'dict_category_supplementary':
         return 'Ek';
       case 'dict_download_browse':
-        return 'Sözlüklere Göz At';
+        return 'Sözlükleri İndir';
       case 'dict_download_language':
         return 'Diliniz';
       case 'dict_download_button':
@@ -65130,6 +65317,10 @@ extension on _StringsVi {
         return 'Vui lòng nhập tên sách';
       case 'srt_import_error':
         return 'Nhập thất bại';
+      case 'health_match_summary':
+        return ({required Object pct}) => 'Khớp ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} tệp';
       case 'audio_panel_title':
         return 'Tệp âm thanh';
       case 'audio_panel_auto':
@@ -65453,6 +65644,8 @@ extension on _StringsVi {
         return 'Không tìm thấy tệp phông chữ trong tệp nén';
       case 'custom_fonts_recommended':
         return 'Phông chữ đề xuất';
+      case 'theme_system':
+        return 'Hệ thống';
       case 'theme_light':
         return 'Trắng';
       case 'theme_ecru':
@@ -65927,7 +66120,7 @@ extension on _StringsVi {
       case 'dict_category_supplementary':
         return 'Bổ sung';
       case 'dict_download_browse':
-        return 'Duyệt từ điển';
+        return 'Tải từ điển';
       case 'dict_download_language':
         return 'Ngôn ngữ';
       case 'dict_download_button':
@@ -67103,6 +67296,10 @@ extension on _StringsZhCn {
         return '请输入书名';
       case 'srt_import_error':
         return '导入失败';
+      case 'health_match_summary':
+        return ({required Object pct}) => '匹配 ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} 个文件';
       case 'audio_panel_title':
         return '音频文件';
       case 'audio_panel_auto':
@@ -67425,6 +67622,8 @@ extension on _StringsZhCn {
         return '压缩包中未找到字体文件';
       case 'custom_fonts_recommended':
         return '推荐字体';
+      case 'theme_system':
+        return '跟随系统';
       case 'theme_light':
         return '白色';
       case 'theme_ecru':
@@ -67897,7 +68096,7 @@ extension on _StringsZhCn {
       case 'dict_category_supplementary':
         return '补充';
       case 'dict_download_browse':
-        return '浏览词典';
+        return '下载推荐词典';
       case 'dict_download_language':
         return '你的语言';
       case 'dict_download_button':
@@ -69071,6 +69270,10 @@ extension on _StringsZhHk {
         return '請輸入書名';
       case 'srt_import_error':
         return '匯入失敗';
+      case 'health_match_summary':
+        return ({required Object pct}) => '匹配 ${pct}%';
+      case 'file_count':
+        return ({required Object count}) => '${count} 個檔案';
       case 'audio_panel_title':
         return '音訊檔案';
       case 'audio_panel_auto':
@@ -69393,6 +69596,8 @@ extension on _StringsZhHk {
         return '壓縮檔中未找到字型檔案';
       case 'custom_fonts_recommended':
         return '推薦字型';
+      case 'theme_system':
+        return '跟隨系統';
       case 'theme_light':
         return '白色';
       case 'theme_ecru':
@@ -69865,7 +70070,7 @@ extension on _StringsZhHk {
       case 'dict_category_supplementary':
         return '補充';
       case 'dict_download_browse':
-        return '瀏覽辭典';
+        return '下載推薦辭典';
       case 'dict_download_language':
         return '你的語言';
       case 'dict_download_button':
