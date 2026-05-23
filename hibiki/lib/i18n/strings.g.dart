@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 16541 (973 per locale)
+/// Strings: 16556 (973 per locale)
 ///
-/// Built on 2026-05-23 at 03:37 UTC
+/// Built on 2026-05-23 at 09:31 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -710,6 +710,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get margin_right => 'Right Margin';
 	String get columns_per_page => 'Columns per Page';
 	String get ttu_page_columns_auto => 'Auto';
+	String get spread_mode => 'Spread Mode';
+	String get spread_off => 'Off';
+	String get spread_on => 'On';
+	String get spread_auto => 'Auto';
+	String get spread_direction => 'Spread Direction';
 	String get ttu_vert_kerning => 'Font Kerning (Vertical)';
 	String get ttu_font_vpal => 'VPAL (Vertical Alt)';
 	String get ttu_vert_text_orient => 'Text Orientation';
@@ -7892,6 +7897,11 @@ class _StringsJa extends _StringsEn {
 	@override String get margin_right => '右余白';
 	@override String get columns_per_page => 'ページあたりの列数';
 	@override String get ttu_page_columns_auto => '自動';
+	@override String get spread_mode => '見開きモード';
+	@override String get spread_off => 'オフ';
+	@override String get spread_on => 'オン';
+	@override String get spread_auto => '自動';
+	@override String get spread_direction => '見開き方向';
 	@override String get ttu_vert_kerning => 'カーニング（縦書き）';
 	@override String get ttu_font_vpal => 'VPAL（縦書き代替）';
 	@override String get ttu_vert_text_orient => '文字の向き';
@@ -16100,6 +16110,11 @@ class _StringsZhCn extends _StringsEn {
 	@override String get margin_right => '右边距';
 	@override String get columns_per_page => '每页列数';
 	@override String get ttu_page_columns_auto => '自动';
+	@override String get spread_mode => '跨页模式';
+	@override String get spread_off => '关闭';
+	@override String get spread_on => '开启';
+	@override String get spread_auto => '自动';
+	@override String get spread_direction => '跨页方向';
 	@override String get ttu_vert_kerning => '字偶间距（纵排）';
 	@override String get ttu_font_vpal => 'VPAL 纵排替代';
 	@override String get ttu_vert_text_orient => '文字方向';
@@ -18137,6 +18152,11 @@ extension on _StringsEn {
 			case 'margin_right': return 'Right Margin';
 			case 'columns_per_page': return 'Columns per Page';
 			case 'ttu_page_columns_auto': return 'Auto';
+			case 'spread_mode': return 'Spread Mode';
+			case 'spread_off': return 'Off';
+			case 'spread_on': return 'On';
+			case 'spread_auto': return 'Auto';
+			case 'spread_direction': return 'Spread Direction';
 			case 'ttu_vert_kerning': return 'Font Kerning (Vertical)';
 			case 'ttu_font_vpal': return 'VPAL (Vertical Alt)';
 			case 'ttu_vert_text_orient': return 'Text Orientation';
@@ -25032,6 +25052,11 @@ extension on _StringsJa {
 			case 'margin_right': return '右余白';
 			case 'columns_per_page': return 'ページあたりの列数';
 			case 'ttu_page_columns_auto': return '自動';
+			case 'spread_mode': return '見開きモード';
+			case 'spread_off': return 'オフ';
+			case 'spread_on': return 'オン';
+			case 'spread_auto': return '自動';
+			case 'spread_direction': return '見開き方向';
 			case 'ttu_vert_kerning': return 'カーニング（縦書き）';
 			case 'ttu_font_vpal': return 'VPAL（縦書き代替）';
 			case 'ttu_vert_text_orient': return '文字の向き';
@@ -32912,6 +32937,11 @@ extension on _StringsZhCn {
 			case 'margin_right': return '右边距';
 			case 'columns_per_page': return '每页列数';
 			case 'ttu_page_columns_auto': return '自动';
+			case 'spread_mode': return '跨页模式';
+			case 'spread_off': return '关闭';
+			case 'spread_on': return '开启';
+			case 'spread_auto': return '自动';
+			case 'spread_direction': return '跨页方向';
 			case 'ttu_vert_kerning': return '字偶间距（纵排）';
 			case 'ttu_font_vpal': return 'VPAL 纵排替代';
 			case 'ttu_vert_text_orient': return '文字方向';
