@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 16583 (975 per locale)
+/// Strings: 16617 (977 per locale)
 ///
-/// Built on 2026-05-25 at 07:54 UTC
+/// Built on 2026-05-25 at 12:12 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -198,6 +198,23 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   late final _StringsEn _root = this; // ignore: unused_field
 
   // Translations
+  String get settings_destination_appearance => 'Appearance';
+  String get settings_destination_profiles => 'Configuration Schemes';
+  String get settings_destination_reading_display => 'Reading Display';
+  String get settings_destination_reading_controls => 'Reading Controls';
+  String get settings_destination_lookup => 'Lookup';
+  String get settings_destination_card_creation => 'Card Creation';
+  String get settings_destination_listening => 'Listening';
+  String get settings_destination_sync_backup => 'Sync & Backup';
+  String get settings_destination_system => 'System';
+  String get settings_destination_diagnostics => 'Diagnostics';
+  String get settings_section_app_shell => 'App';
+  String get settings_section_lookup_behavior => 'Lookup Behavior';
+  String get settings_section_lookup_display => 'Result Display';
+  String get settings_section_update_channel => 'Update Channel';
+  String get update_channel_stable => 'Stable';
+  String get update_channel_beta => 'Beta';
+  String get update_channel_debug => 'Debug';
   String get dictionary_media_type => 'Dictionary';
   String get player_media_type => 'Player';
   String get reader_media_type => 'Reader';
@@ -32503,6 +32520,40 @@ class _StringsZhCn extends _StringsEn {
 
   // Translations
   @override
+  String get settings_destination_appearance => '外观';
+  @override
+  String get settings_destination_profiles => '配置方案';
+  @override
+  String get settings_destination_reading_display => '阅读显示';
+  @override
+  String get settings_destination_reading_controls => '阅读操作';
+  @override
+  String get settings_destination_lookup => '查词';
+  @override
+  String get settings_destination_card_creation => '制卡';
+  @override
+  String get settings_destination_listening => '听书';
+  @override
+  String get settings_destination_sync_backup => '同步与备份';
+  @override
+  String get settings_destination_system => '系统';
+  @override
+  String get settings_destination_diagnostics => '诊断';
+  @override
+  String get settings_section_app_shell => '应用';
+  @override
+  String get settings_section_lookup_behavior => '查词行为';
+  @override
+  String get settings_section_lookup_display => '结果显示';
+  @override
+  String get settings_section_update_channel => '更新通道';
+  @override
+  String get update_channel_stable => '稳定版';
+  @override
+  String get update_channel_beta => '测试版';
+  @override
+  String get update_channel_debug => '调试版';
+  @override
   String get dictionary_media_type => '词典';
   @override
   String get player_media_type => '播放器';
@@ -36632,6 +36683,40 @@ class _StringsViewRepliesZhHk extends _StringsViewRepliesEn {
 extension on _StringsEn {
   dynamic _flatMapFunction(String path) {
     switch (path) {
+      case 'settings_destination_appearance':
+        return 'Appearance';
+      case 'settings_destination_profiles':
+        return 'Configuration Schemes';
+      case 'settings_destination_reading_display':
+        return 'Reading Display';
+      case 'settings_destination_reading_controls':
+        return 'Reading Controls';
+      case 'settings_destination_lookup':
+        return 'Lookup';
+      case 'settings_destination_card_creation':
+        return 'Card Creation';
+      case 'settings_destination_listening':
+        return 'Listening';
+      case 'settings_destination_sync_backup':
+        return 'Sync & Backup';
+      case 'settings_destination_system':
+        return 'System';
+      case 'settings_destination_diagnostics':
+        return 'Diagnostics';
+      case 'settings_section_app_shell':
+        return 'App';
+      case 'settings_section_lookup_behavior':
+        return 'Lookup Behavior';
+      case 'settings_section_lookup_display':
+        return 'Result Display';
+      case 'settings_section_update_channel':
+        return 'Update Channel';
+      case 'update_channel_stable':
+        return 'Stable';
+      case 'update_channel_beta':
+        return 'Beta';
+      case 'update_channel_debug':
+        return 'Debug';
       case 'dictionary_media_type':
         return 'Dictionary';
       case 'player_media_type':
@@ -66639,6 +66724,40 @@ extension on _StringsVi {
 extension on _StringsZhCn {
   dynamic _flatMapFunction(String path) {
     switch (path) {
+      case 'settings_destination_appearance':
+        return '外观';
+      case 'settings_destination_profiles':
+        return '配置方案';
+      case 'settings_destination_reading_display':
+        return '阅读显示';
+      case 'settings_destination_reading_controls':
+        return '阅读操作';
+      case 'settings_destination_lookup':
+        return '查词';
+      case 'settings_destination_card_creation':
+        return '制卡';
+      case 'settings_destination_listening':
+        return '听书';
+      case 'settings_destination_sync_backup':
+        return '同步与备份';
+      case 'settings_destination_system':
+        return '系统';
+      case 'settings_destination_diagnostics':
+        return '诊断';
+      case 'settings_section_app_shell':
+        return '应用';
+      case 'settings_section_lookup_behavior':
+        return '查词行为';
+      case 'settings_section_lookup_display':
+        return '结果显示';
+      case 'settings_section_update_channel':
+        return '更新通道';
+      case 'update_channel_stable':
+        return '稳定版';
+      case 'update_channel_beta':
+        return '测试版';
+      case 'update_channel_debug':
+        return '调试版';
       case 'dictionary_media_type':
         return '词典';
       case 'player_media_type':
