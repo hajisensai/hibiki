@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 17357 (1021 per locale)
+/// Strings: 17391 (1023 per locale)
 ///
-/// Built on 2026-05-25 at 16:08 UTC
+/// Built on 2026-05-26 at 05:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -926,6 +926,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get anki_allow_duplicates_hint => 'Skip duplicate check when adding cards';
 	String get anki_compact_glossaries => 'Compact Glossaries';
 	String get anki_compact_glossaries_hint => 'Use compact format for glossary entries';
+	String get anki_connect_host => 'Host';
+	String get anki_connect_port => 'Port';
 	String get anki_not_configured => 'Tap Fetch to load decks and note types from AnkiDroid.';
 	String get anki_field_not_mapped => 'Not mapped';
 	String anki_select_handlebar({required Object field}) => 'Select value for ${field}';
@@ -2255,6 +2257,8 @@ class _StringsAr extends _StringsEn {
 	@override String get update_channel_beta => 'تجريبي';
 	@override String get update_channel_debug => 'تصحيح';
 	@override String get update_channel_stable => 'مستقر';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -3329,6 +3333,8 @@ class _StringsDe extends _StringsEn {
 	@override String get update_channel_beta => 'Beta';
 	@override String get update_channel_debug => 'Debug';
 	@override String get update_channel_stable => 'Stabil';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -4403,6 +4409,8 @@ class _StringsEs extends _StringsEn {
 	@override String get update_channel_beta => 'Beta';
 	@override String get update_channel_debug => 'Depuración';
 	@override String get update_channel_stable => 'Estable';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -5477,6 +5485,8 @@ class _StringsFr extends _StringsEn {
 	@override String get update_channel_beta => 'Bêta';
 	@override String get update_channel_debug => 'Débogage';
 	@override String get update_channel_stable => 'Stable';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -6551,6 +6561,8 @@ class _StringsId extends _StringsEn {
 	@override String get update_channel_beta => 'Beta';
 	@override String get update_channel_debug => 'Debug';
 	@override String get update_channel_stable => 'Stabil';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -7625,6 +7637,8 @@ class _StringsIt extends _StringsEn {
 	@override String get update_channel_beta => 'Beta';
 	@override String get update_channel_debug => 'Debug';
 	@override String get update_channel_stable => 'Stabile';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -8699,6 +8713,8 @@ class _StringsJa extends _StringsEn {
 	@override String get update_channel_beta => 'ベータ';
 	@override String get update_channel_debug => 'デバッグ';
 	@override String get update_channel_stable => '安定版';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -9773,6 +9789,8 @@ class _StringsKo extends _StringsEn {
 	@override String get update_channel_beta => '베타';
 	@override String get update_channel_debug => '디버그';
 	@override String get update_channel_stable => '안정';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -10847,6 +10865,8 @@ class _StringsNl extends _StringsEn {
 	@override String get update_channel_beta => 'Bèta';
 	@override String get update_channel_debug => 'Debug';
 	@override String get update_channel_stable => 'Stabiel';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -11921,6 +11941,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get update_channel_beta => 'Beta';
 	@override String get update_channel_debug => 'Depuração';
 	@override String get update_channel_stable => 'Estável';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -12995,6 +13017,8 @@ class _StringsRu extends _StringsEn {
 	@override String get update_channel_beta => 'Бета';
 	@override String get update_channel_debug => 'Отладка';
 	@override String get update_channel_stable => 'Стабильная';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -14069,6 +14093,8 @@ class _StringsTh extends _StringsEn {
 	@override String get update_channel_beta => 'เบต้า';
 	@override String get update_channel_debug => 'ดีบัก';
 	@override String get update_channel_stable => 'เสถียร';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -15143,6 +15169,8 @@ class _StringsTr extends _StringsEn {
 	@override String get update_channel_beta => 'Beta';
 	@override String get update_channel_debug => 'Hata Ayıklama';
 	@override String get update_channel_stable => 'Kararlı';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -16217,6 +16245,8 @@ class _StringsVi extends _StringsEn {
 	@override String get update_channel_beta => 'Beta';
 	@override String get update_channel_debug => 'Debug';
 	@override String get update_channel_stable => 'Ổn định';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -17291,6 +17321,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get sync_statistics => '同步统计';
 	@override String get sync_summary => 'Google Drive · 兼容 ッツ Reader';
 	@override String get sync_title => '同步';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -18365,6 +18397,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get update_channel_beta => '測試版';
 	@override String get update_channel_debug => '除錯版';
 	@override String get update_channel_stable => '穩定版';
+	@override String get anki_connect_host => 'Host';
+	@override String get anki_connect_port => 'Port';
 }
 
 // Path: retrying_in
@@ -19169,6 +19203,8 @@ extension on _StringsEn {
 			case 'anki_allow_duplicates_hint': return 'Skip duplicate check when adding cards';
 			case 'anki_compact_glossaries': return 'Compact Glossaries';
 			case 'anki_compact_glossaries_hint': return 'Use compact format for glossary entries';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			case 'anki_not_configured': return 'Tap Fetch to load decks and note types from AnkiDroid.';
 			case 'anki_field_not_mapped': return 'Not mapped';
 			case 'anki_select_handlebar': return ({required Object field}) => 'Select value for ${field}';
@@ -20457,6 +20493,8 @@ extension on _StringsAr {
 			case 'update_channel_beta': return 'تجريبي';
 			case 'update_channel_debug': return 'تصحيح';
 			case 'update_channel_stable': return 'مستقر';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -21490,6 +21528,8 @@ extension on _StringsDe {
 			case 'update_channel_beta': return 'Beta';
 			case 'update_channel_debug': return 'Debug';
 			case 'update_channel_stable': return 'Stabil';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -22523,6 +22563,8 @@ extension on _StringsEs {
 			case 'update_channel_beta': return 'Beta';
 			case 'update_channel_debug': return 'Depuración';
 			case 'update_channel_stable': return 'Estable';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -23556,6 +23598,8 @@ extension on _StringsFr {
 			case 'update_channel_beta': return 'Bêta';
 			case 'update_channel_debug': return 'Débogage';
 			case 'update_channel_stable': return 'Stable';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -24589,6 +24633,8 @@ extension on _StringsId {
 			case 'update_channel_beta': return 'Beta';
 			case 'update_channel_debug': return 'Debug';
 			case 'update_channel_stable': return 'Stabil';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -25622,6 +25668,8 @@ extension on _StringsIt {
 			case 'update_channel_beta': return 'Beta';
 			case 'update_channel_debug': return 'Debug';
 			case 'update_channel_stable': return 'Stabile';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -26655,6 +26703,8 @@ extension on _StringsJa {
 			case 'update_channel_beta': return 'ベータ';
 			case 'update_channel_debug': return 'デバッグ';
 			case 'update_channel_stable': return '安定版';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -27688,6 +27738,8 @@ extension on _StringsKo {
 			case 'update_channel_beta': return '베타';
 			case 'update_channel_debug': return '디버그';
 			case 'update_channel_stable': return '안정';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -28721,6 +28773,8 @@ extension on _StringsNl {
 			case 'update_channel_beta': return 'Bèta';
 			case 'update_channel_debug': return 'Debug';
 			case 'update_channel_stable': return 'Stabiel';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -29754,6 +29808,8 @@ extension on _StringsPtBr {
 			case 'update_channel_beta': return 'Beta';
 			case 'update_channel_debug': return 'Depuração';
 			case 'update_channel_stable': return 'Estável';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -30787,6 +30843,8 @@ extension on _StringsRu {
 			case 'update_channel_beta': return 'Бета';
 			case 'update_channel_debug': return 'Отладка';
 			case 'update_channel_stable': return 'Стабильная';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -31820,6 +31878,8 @@ extension on _StringsTh {
 			case 'update_channel_beta': return 'เบต้า';
 			case 'update_channel_debug': return 'ดีบัก';
 			case 'update_channel_stable': return 'เสถียร';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -32853,6 +32913,8 @@ extension on _StringsTr {
 			case 'update_channel_beta': return 'Beta';
 			case 'update_channel_debug': return 'Hata Ayıklama';
 			case 'update_channel_stable': return 'Kararlı';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -33886,6 +33948,8 @@ extension on _StringsVi {
 			case 'update_channel_beta': return 'Beta';
 			case 'update_channel_debug': return 'Debug';
 			case 'update_channel_stable': return 'Ổn định';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -34919,6 +34983,8 @@ extension on _StringsZhCn {
 			case 'sync_statistics': return '同步统计';
 			case 'sync_summary': return 'Google Drive · 兼容 ッツ Reader';
 			case 'sync_title': return '同步';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
@@ -35952,6 +36018,8 @@ extension on _StringsZhHk {
 			case 'update_channel_beta': return '測試版';
 			case 'update_channel_debug': return '除錯版';
 			case 'update_channel_stable': return '穩定版';
+			case 'anki_connect_host': return 'Host';
+			case 'anki_connect_port': return 'Port';
 			default: return null;
 		}
 	}
