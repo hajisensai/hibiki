@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 17714 (1042 per locale)
+/// Strings: 17737 (1043 per locale)
 ///
-/// Built on 2026-05-26 at 10:06 UTC
+/// Built on 2026-05-26 at 11:04 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -841,6 +841,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get theme_black => 'Pure Black';
 	String get custom_theme => 'Custom Theme';
 	String get dark_mode => 'Dark Mode';
+	String get dark_mode_light => 'Light';
+	String get dark_mode_system => 'System';
+	String get dark_mode_dark => 'Dark';
 	String get seed_color => 'Seed Color';
 	String get font_color => 'Font Color';
 	String get background_color => 'Background Color';
@@ -1155,6 +1158,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get batch_tag_title => 'Manage Tags';
 	String batch_tag_added({required Object name, required Object n}) => 'Tag "${name}" added to ${n} book(s).';
 	String batch_tag_removed({required Object name, required Object n}) => 'Tag "${name}" removed from ${n} book(s).';
+	String get batch_tag_keep => 'Keep';
+	String get batch_tag_add => 'Add';
+	String get batch_tag_remove => 'Remove';
 	String get batch_tag_apply => 'Apply';
 	String get untitled => 'Untitled';
 	String untitled_book({required Object id}) => 'Book ${id}';
@@ -1170,6 +1176,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get sync_sign_out => 'Sign Out';
 	String get sync_signed_in => 'Signed in';
 	String get sync_not_signed_in => 'Not signed in';
+	String get sync_checking_account => 'Checking account…';
 	String get sync_options => 'Sync Options';
 	String get sync_mode => 'Sync Mode';
 	String get sync_mode_merge => 'Merge';
@@ -2267,6 +2274,7 @@ class _StringsAr extends _StringsEn {
 	@override String get sync_mode_merge => 'دمج';
 	@override String get sync_mode_replace => 'استبدال';
 	@override String get sync_not_signed_in => 'لم يتم تسجيل الدخول';
+	@override String get sync_checking_account => 'جارٍ التحقق من الحساب…';
 	@override String get sync_options => 'خيارات المزامنة';
 	@override String get sync_sign_in => 'تسجيل الدخول';
 	@override String get sync_sign_out => 'تسجيل الخروج';
@@ -3362,6 +3370,7 @@ class _StringsDe extends _StringsEn {
 	@override String get sync_mode_merge => 'Zusammenführen';
 	@override String get sync_mode_replace => 'Ersetzen';
 	@override String get sync_not_signed_in => 'Nicht angemeldet';
+	@override String get sync_checking_account => 'Konto wird überprüft…';
 	@override String get sync_options => 'Synchronisierungsoptionen';
 	@override String get sync_sign_in => 'Anmelden';
 	@override String get sync_sign_out => 'Abmelden';
@@ -4457,6 +4466,7 @@ class _StringsEs extends _StringsEn {
 	@override String get sync_mode_merge => 'Combinar';
 	@override String get sync_mode_replace => 'Reemplazar';
 	@override String get sync_not_signed_in => 'No conectado';
+	@override String get sync_checking_account => 'Verificando cuenta…';
 	@override String get sync_options => 'Opciones de sincronización';
 	@override String get sync_sign_in => 'Iniciar sesión';
 	@override String get sync_sign_out => 'Cerrar sesión';
@@ -5552,6 +5562,7 @@ class _StringsFr extends _StringsEn {
 	@override String get sync_mode_merge => 'Fusionner';
 	@override String get sync_mode_replace => 'Remplacer';
 	@override String get sync_not_signed_in => 'Non connecté';
+	@override String get sync_checking_account => 'Vérification du compte…';
 	@override String get sync_options => 'Options de synchronisation';
 	@override String get sync_sign_in => 'Se connecter';
 	@override String get sync_sign_out => 'Se déconnecter';
@@ -6647,6 +6658,7 @@ class _StringsId extends _StringsEn {
 	@override String get sync_mode_merge => 'Gabungkan';
 	@override String get sync_mode_replace => 'Ganti';
 	@override String get sync_not_signed_in => 'Belum masuk';
+	@override String get sync_checking_account => 'Memeriksa akun…';
 	@override String get sync_options => 'Opsi Sinkronisasi';
 	@override String get sync_sign_in => 'Masuk';
 	@override String get sync_sign_out => 'Keluar';
@@ -7742,6 +7754,7 @@ class _StringsIt extends _StringsEn {
 	@override String get sync_mode_merge => 'Unisci';
 	@override String get sync_mode_replace => 'Sostituisci';
 	@override String get sync_not_signed_in => 'Non connesso';
+	@override String get sync_checking_account => 'Verifica account…';
 	@override String get sync_options => 'Opzioni sincronizzazione';
 	@override String get sync_sign_in => 'Accedi';
 	@override String get sync_sign_out => 'Esci';
@@ -8837,6 +8850,7 @@ class _StringsJa extends _StringsEn {
 	@override String get sync_mode_merge => 'マージ';
 	@override String get sync_mode_replace => '置換';
 	@override String get sync_not_signed_in => '未ログイン';
+	@override String get sync_checking_account => 'アカウント確認中…';
 	@override String get sync_options => '同期オプション';
 	@override String get sync_sign_in => 'ログイン';
 	@override String get sync_sign_out => 'ログアウト';
@@ -9932,6 +9946,7 @@ class _StringsKo extends _StringsEn {
 	@override String get sync_mode_merge => '병합';
 	@override String get sync_mode_replace => '교체';
 	@override String get sync_not_signed_in => '로그인되지 않음';
+	@override String get sync_checking_account => '계정 확인 중…';
 	@override String get sync_options => '동기화 옵션';
 	@override String get sync_sign_in => '로그인';
 	@override String get sync_sign_out => '로그아웃';
@@ -11027,6 +11042,7 @@ class _StringsNl extends _StringsEn {
 	@override String get sync_mode_merge => 'Samenvoegen';
 	@override String get sync_mode_replace => 'Vervangen';
 	@override String get sync_not_signed_in => 'Niet aangemeld';
+	@override String get sync_checking_account => 'Account controleren…';
 	@override String get sync_options => 'Synchronisatieopties';
 	@override String get sync_sign_in => 'Aanmelden';
 	@override String get sync_sign_out => 'Afmelden';
@@ -12122,6 +12138,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get sync_mode_merge => 'Mesclar';
 	@override String get sync_mode_replace => 'Substituir';
 	@override String get sync_not_signed_in => 'Não conectado';
+	@override String get sync_checking_account => 'Verificando conta…';
 	@override String get sync_options => 'Opções de sincronização';
 	@override String get sync_sign_in => 'Entrar';
 	@override String get sync_sign_out => 'Sair';
@@ -13217,6 +13234,7 @@ class _StringsRu extends _StringsEn {
 	@override String get sync_mode_merge => 'Объединить';
 	@override String get sync_mode_replace => 'Заменить';
 	@override String get sync_not_signed_in => 'Не авторизован';
+	@override String get sync_checking_account => 'Проверка аккаунта…';
 	@override String get sync_options => 'Параметры синхронизации';
 	@override String get sync_sign_in => 'Войти';
 	@override String get sync_sign_out => 'Выйти';
@@ -14312,6 +14330,7 @@ class _StringsTh extends _StringsEn {
 	@override String get sync_mode_merge => 'รวม';
 	@override String get sync_mode_replace => 'แทนที่';
 	@override String get sync_not_signed_in => 'ยังไม่ได้เข้าสู่ระบบ';
+	@override String get sync_checking_account => 'กำลังตรวจสอบบัญชี…';
 	@override String get sync_options => 'ตัวเลือกซิงค์';
 	@override String get sync_sign_in => 'เข้าสู่ระบบ';
 	@override String get sync_sign_out => 'ออกจากระบบ';
@@ -15407,6 +15426,7 @@ class _StringsTr extends _StringsEn {
 	@override String get sync_mode_merge => 'Birleştir';
 	@override String get sync_mode_replace => 'Değiştir';
 	@override String get sync_not_signed_in => 'Oturum açılmadı';
+	@override String get sync_checking_account => 'Hesap kontrol ediliyor…';
 	@override String get sync_options => 'Senkronizasyon Seçenekleri';
 	@override String get sync_sign_in => 'Oturum Aç';
 	@override String get sync_sign_out => 'Oturumu Kapat';
@@ -16502,6 +16522,7 @@ class _StringsVi extends _StringsEn {
 	@override String get sync_mode_merge => 'Hợp nhất';
 	@override String get sync_mode_replace => 'Thay thế';
 	@override String get sync_not_signed_in => 'Chưa đăng nhập';
+	@override String get sync_checking_account => 'Đang kiểm tra tài khoản…';
 	@override String get sync_options => 'Tùy chọn đồng bộ';
 	@override String get sync_sign_in => 'Đăng nhập';
 	@override String get sync_sign_out => 'Đăng xuất';
@@ -17600,6 +17621,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get sync_mode_merge => '合并';
 	@override String get sync_mode_replace => '替换';
 	@override String get sync_not_signed_in => '未登录';
+	@override String get sync_checking_account => '正在检查账户…';
 	@override String get sync_options => '同步选项';
 	@override String get sync_sign_in => '登录';
 	@override String get sync_sign_out => '退出登录';
@@ -18692,6 +18714,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get sync_mode_merge => '合併';
 	@override String get sync_mode_replace => '取代';
 	@override String get sync_not_signed_in => '未登入';
+	@override String get sync_checking_account => '正在檢查帳戶…';
 	@override String get sync_options => '同步選項';
 	@override String get sync_sign_in => '登入';
 	@override String get sync_sign_out => '登出';
@@ -19441,6 +19464,9 @@ extension on _StringsEn {
 			case 'theme_black': return 'Pure Black';
 			case 'custom_theme': return 'Custom Theme';
 			case 'dark_mode': return 'Dark Mode';
+			case 'dark_mode_light': return 'Light';
+			case 'dark_mode_system': return 'System';
+			case 'dark_mode_dark': return 'Dark';
 			case 'seed_color': return 'Seed Color';
 			case 'font_color': return 'Font Color';
 			case 'background_color': return 'Background Color';
@@ -19755,6 +19781,9 @@ extension on _StringsEn {
 			case 'batch_tag_title': return 'Manage Tags';
 			case 'batch_tag_added': return ({required Object name, required Object n}) => 'Tag "${name}" added to ${n} book(s).';
 			case 'batch_tag_removed': return ({required Object name, required Object n}) => 'Tag "${name}" removed from ${n} book(s).';
+			case 'batch_tag_keep': return 'Keep';
+			case 'batch_tag_add': return 'Add';
+			case 'batch_tag_remove': return 'Remove';
 			case 'batch_tag_apply': return 'Apply';
 			case 'untitled': return 'Untitled';
 			case 'untitled_book': return ({required Object id}) => 'Book ${id}';
@@ -19770,6 +19799,7 @@ extension on _StringsEn {
 			case 'sync_sign_out': return 'Sign Out';
 			case 'sync_signed_in': return 'Signed in';
 			case 'sync_not_signed_in': return 'Not signed in';
+			case 'sync_checking_account': return 'Checking account…';
 			case 'sync_options': return 'Sync Options';
 			case 'sync_mode': return 'Sync Mode';
 			case 'sync_mode_merge': return 'Merge';
@@ -20826,6 +20856,7 @@ extension on _StringsAr {
 			case 'sync_mode_merge': return 'دمج';
 			case 'sync_mode_replace': return 'استبدال';
 			case 'sync_not_signed_in': return 'لم يتم تسجيل الدخول';
+			case 'sync_checking_account': return 'جارٍ التحقق من الحساب…';
 			case 'sync_options': return 'خيارات المزامنة';
 			case 'sync_sign_in': return 'تسجيل الدخول';
 			case 'sync_sign_out': return 'تسجيل الخروج';
@@ -21880,6 +21911,7 @@ extension on _StringsDe {
 			case 'sync_mode_merge': return 'Zusammenführen';
 			case 'sync_mode_replace': return 'Ersetzen';
 			case 'sync_not_signed_in': return 'Nicht angemeldet';
+			case 'sync_checking_account': return 'Konto wird überprüft…';
 			case 'sync_options': return 'Synchronisierungsoptionen';
 			case 'sync_sign_in': return 'Anmelden';
 			case 'sync_sign_out': return 'Abmelden';
@@ -22934,6 +22966,7 @@ extension on _StringsEs {
 			case 'sync_mode_merge': return 'Combinar';
 			case 'sync_mode_replace': return 'Reemplazar';
 			case 'sync_not_signed_in': return 'No conectado';
+			case 'sync_checking_account': return 'Verificando cuenta…';
 			case 'sync_options': return 'Opciones de sincronización';
 			case 'sync_sign_in': return 'Iniciar sesión';
 			case 'sync_sign_out': return 'Cerrar sesión';
@@ -23988,6 +24021,7 @@ extension on _StringsFr {
 			case 'sync_mode_merge': return 'Fusionner';
 			case 'sync_mode_replace': return 'Remplacer';
 			case 'sync_not_signed_in': return 'Non connecté';
+			case 'sync_checking_account': return 'Vérification du compte…';
 			case 'sync_options': return 'Options de synchronisation';
 			case 'sync_sign_in': return 'Se connecter';
 			case 'sync_sign_out': return 'Se déconnecter';
@@ -25042,6 +25076,7 @@ extension on _StringsId {
 			case 'sync_mode_merge': return 'Gabungkan';
 			case 'sync_mode_replace': return 'Ganti';
 			case 'sync_not_signed_in': return 'Belum masuk';
+			case 'sync_checking_account': return 'Memeriksa akun…';
 			case 'sync_options': return 'Opsi Sinkronisasi';
 			case 'sync_sign_in': return 'Masuk';
 			case 'sync_sign_out': return 'Keluar';
@@ -26096,6 +26131,7 @@ extension on _StringsIt {
 			case 'sync_mode_merge': return 'Unisci';
 			case 'sync_mode_replace': return 'Sostituisci';
 			case 'sync_not_signed_in': return 'Non connesso';
+			case 'sync_checking_account': return 'Verifica account…';
 			case 'sync_options': return 'Opzioni sincronizzazione';
 			case 'sync_sign_in': return 'Accedi';
 			case 'sync_sign_out': return 'Esci';
@@ -27150,6 +27186,7 @@ extension on _StringsJa {
 			case 'sync_mode_merge': return 'マージ';
 			case 'sync_mode_replace': return '置換';
 			case 'sync_not_signed_in': return '未ログイン';
+			case 'sync_checking_account': return 'アカウント確認中…';
 			case 'sync_options': return '同期オプション';
 			case 'sync_sign_in': return 'ログイン';
 			case 'sync_sign_out': return 'ログアウト';
@@ -28204,6 +28241,7 @@ extension on _StringsKo {
 			case 'sync_mode_merge': return '병합';
 			case 'sync_mode_replace': return '교체';
 			case 'sync_not_signed_in': return '로그인되지 않음';
+			case 'sync_checking_account': return '계정 확인 중…';
 			case 'sync_options': return '동기화 옵션';
 			case 'sync_sign_in': return '로그인';
 			case 'sync_sign_out': return '로그아웃';
@@ -29258,6 +29296,7 @@ extension on _StringsNl {
 			case 'sync_mode_merge': return 'Samenvoegen';
 			case 'sync_mode_replace': return 'Vervangen';
 			case 'sync_not_signed_in': return 'Niet aangemeld';
+			case 'sync_checking_account': return 'Account controleren…';
 			case 'sync_options': return 'Synchronisatieopties';
 			case 'sync_sign_in': return 'Aanmelden';
 			case 'sync_sign_out': return 'Afmelden';
@@ -30312,6 +30351,7 @@ extension on _StringsPtBr {
 			case 'sync_mode_merge': return 'Mesclar';
 			case 'sync_mode_replace': return 'Substituir';
 			case 'sync_not_signed_in': return 'Não conectado';
+			case 'sync_checking_account': return 'Verificando conta…';
 			case 'sync_options': return 'Opções de sincronização';
 			case 'sync_sign_in': return 'Entrar';
 			case 'sync_sign_out': return 'Sair';
@@ -31366,6 +31406,7 @@ extension on _StringsRu {
 			case 'sync_mode_merge': return 'Объединить';
 			case 'sync_mode_replace': return 'Заменить';
 			case 'sync_not_signed_in': return 'Не авторизован';
+			case 'sync_checking_account': return 'Проверка аккаунта…';
 			case 'sync_options': return 'Параметры синхронизации';
 			case 'sync_sign_in': return 'Войти';
 			case 'sync_sign_out': return 'Выйти';
@@ -32420,6 +32461,7 @@ extension on _StringsTh {
 			case 'sync_mode_merge': return 'รวม';
 			case 'sync_mode_replace': return 'แทนที่';
 			case 'sync_not_signed_in': return 'ยังไม่ได้เข้าสู่ระบบ';
+			case 'sync_checking_account': return 'กำลังตรวจสอบบัญชี…';
 			case 'sync_options': return 'ตัวเลือกซิงค์';
 			case 'sync_sign_in': return 'เข้าสู่ระบบ';
 			case 'sync_sign_out': return 'ออกจากระบบ';
@@ -33474,6 +33516,7 @@ extension on _StringsTr {
 			case 'sync_mode_merge': return 'Birleştir';
 			case 'sync_mode_replace': return 'Değiştir';
 			case 'sync_not_signed_in': return 'Oturum açılmadı';
+			case 'sync_checking_account': return 'Hesap kontrol ediliyor…';
 			case 'sync_options': return 'Senkronizasyon Seçenekleri';
 			case 'sync_sign_in': return 'Oturum Aç';
 			case 'sync_sign_out': return 'Oturumu Kapat';
@@ -34528,6 +34571,7 @@ extension on _StringsVi {
 			case 'sync_mode_merge': return 'Hợp nhất';
 			case 'sync_mode_replace': return 'Thay thế';
 			case 'sync_not_signed_in': return 'Chưa đăng nhập';
+			case 'sync_checking_account': return 'Đang kiểm tra tài khoản…';
 			case 'sync_options': return 'Tùy chọn đồng bộ';
 			case 'sync_sign_in': return 'Đăng nhập';
 			case 'sync_sign_out': return 'Đăng xuất';
@@ -35585,6 +35629,7 @@ extension on _StringsZhCn {
 			case 'sync_mode_merge': return '合并';
 			case 'sync_mode_replace': return '替换';
 			case 'sync_not_signed_in': return '未登录';
+			case 'sync_checking_account': return '正在检查账户…';
 			case 'sync_options': return '同步选项';
 			case 'sync_sign_in': return '登录';
 			case 'sync_sign_out': return '退出登录';
@@ -36636,6 +36681,7 @@ extension on _StringsZhHk {
 			case 'sync_mode_merge': return '合併';
 			case 'sync_mode_replace': return '取代';
 			case 'sync_not_signed_in': return '未登入';
+			case 'sync_checking_account': return '正在檢查帳戶…';
 			case 'sync_options': return '同步選項';
 			case 'sync_sign_in': return '登入';
 			case 'sync_sign_out': return '登出';
