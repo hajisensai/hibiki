@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 17737 (1043 per locale)
+/// Strings: 17833 (1049 per locale)
 ///
-/// Built on 2026-05-26 at 11:04 UTC
+/// Built on 2026-05-26 at 14:23 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1921,6 +1921,9 @@ class _StringsAr extends _StringsEn {
 	@override String get theme_black => 'أسود صرف';
 	@override String get custom_theme => 'مظهر مخصص';
 	@override String get dark_mode => 'الوضع الداكن';
+	@override String get dark_mode_light => 'فاتح';
+	@override String get dark_mode_system => 'النظام';
+	@override String get dark_mode_dark => 'داكن';
 	@override String get seed_color => 'اللون الأساسي';
 	@override String get font_color => 'لون الخط';
 	@override String get background_color => 'لون الخلفية';
@@ -2229,6 +2232,9 @@ class _StringsAr extends _StringsEn {
 	@override String get batch_tag_title => 'إدارة العلامات';
 	@override String batch_tag_added({required Object name, required Object n}) => 'تمت إضافة العلامة "${name}" إلى ${n} كتاب/كتب.';
 	@override String batch_tag_removed({required Object name, required Object n}) => 'تمت إزالة العلامة "${name}" من ${n} كتاب/كتب.';
+	@override String get batch_tag_keep => 'إبقاء';
+	@override String get batch_tag_add => 'إضافة';
+	@override String get batch_tag_remove => 'إزالة';
 	@override String get batch_tag_apply => 'تطبيق';
 	@override String get untitled => 'بدون عنوان';
 	@override String untitled_book({required Object id}) => 'كتاب ${id}';
@@ -3017,6 +3023,9 @@ class _StringsDe extends _StringsEn {
 	@override String get theme_black => 'Reinschwarz';
 	@override String get custom_theme => 'Benutzerdefiniertes Design';
 	@override String get dark_mode => 'Dunkler Modus';
+	@override String get dark_mode_light => 'Hell';
+	@override String get dark_mode_system => 'System';
+	@override String get dark_mode_dark => 'Dunkel';
 	@override String get seed_color => 'Grundfarbe';
 	@override String get font_color => 'Schriftfarbe';
 	@override String get background_color => 'Hintergrundfarbe';
@@ -3325,6 +3334,9 @@ class _StringsDe extends _StringsEn {
 	@override String get batch_tag_title => 'Tags verwalten';
 	@override String batch_tag_added({required Object name, required Object n}) => 'Tag "${name}" zu ${n} Buch/Büchern hinzugefügt.';
 	@override String batch_tag_removed({required Object name, required Object n}) => 'Tag "${name}" von ${n} Buch/Büchern entfernt.';
+	@override String get batch_tag_keep => 'Behalten';
+	@override String get batch_tag_add => 'Hinzufügen';
+	@override String get batch_tag_remove => 'Entfernen';
 	@override String get batch_tag_apply => 'Anwenden';
 	@override String get untitled => 'Ohne Titel';
 	@override String untitled_book({required Object id}) => 'Buch ${id}';
@@ -4113,6 +4125,9 @@ class _StringsEs extends _StringsEn {
 	@override String get theme_black => 'Negro puro';
 	@override String get custom_theme => 'Tema personalizado';
 	@override String get dark_mode => 'Modo oscuro';
+	@override String get dark_mode_light => 'Claro';
+	@override String get dark_mode_system => 'Sistema';
+	@override String get dark_mode_dark => 'Oscuro';
 	@override String get seed_color => 'Color base';
 	@override String get font_color => 'Color de fuente';
 	@override String get background_color => 'Color de fondo';
@@ -4421,6 +4436,9 @@ class _StringsEs extends _StringsEn {
 	@override String get batch_tag_title => 'Gestionar etiquetas';
 	@override String batch_tag_added({required Object name, required Object n}) => 'Etiqueta "${name}" añadida a ${n} libro(s).';
 	@override String batch_tag_removed({required Object name, required Object n}) => 'Etiqueta "${name}" eliminada de ${n} libro(s).';
+	@override String get batch_tag_keep => 'Mantener';
+	@override String get batch_tag_add => 'Añadir';
+	@override String get batch_tag_remove => 'Eliminar';
 	@override String get batch_tag_apply => 'Aplicar';
 	@override String get untitled => 'Sin título';
 	@override String untitled_book({required Object id}) => 'Libro ${id}';
@@ -5209,6 +5227,9 @@ class _StringsFr extends _StringsEn {
 	@override String get theme_black => 'Noir pur';
 	@override String get custom_theme => 'Thème personnalisé';
 	@override String get dark_mode => 'Mode sombre';
+	@override String get dark_mode_light => 'Clair';
+	@override String get dark_mode_system => 'Système';
+	@override String get dark_mode_dark => 'Sombre';
 	@override String get seed_color => 'Couleur de base';
 	@override String get font_color => 'Couleur de police';
 	@override String get background_color => 'Couleur d\'arrière-plan';
@@ -5517,6 +5538,9 @@ class _StringsFr extends _StringsEn {
 	@override String get batch_tag_title => 'Gérer les balises';
 	@override String batch_tag_added({required Object name, required Object n}) => 'Balise « ${name} » ajoutée à ${n} livre(s).';
 	@override String batch_tag_removed({required Object name, required Object n}) => 'Balise « ${name} » retirée de ${n} livre(s).';
+	@override String get batch_tag_keep => 'Conserver';
+	@override String get batch_tag_add => 'Ajouter';
+	@override String get batch_tag_remove => 'Retirer';
 	@override String get batch_tag_apply => 'Appliquer';
 	@override String get untitled => 'Sans titre';
 	@override String untitled_book({required Object id}) => 'Livre ${id}';
@@ -6305,6 +6329,9 @@ class _StringsId extends _StringsEn {
 	@override String get theme_black => 'Hitam murni';
 	@override String get custom_theme => 'Tema Kustom';
 	@override String get dark_mode => 'Mode Gelap';
+	@override String get dark_mode_light => 'Terang';
+	@override String get dark_mode_system => 'Sistem';
+	@override String get dark_mode_dark => 'Gelap';
 	@override String get seed_color => 'Warna Dasar';
 	@override String get font_color => 'Warna Font';
 	@override String get background_color => 'Warna latar belakang';
@@ -6613,6 +6640,9 @@ class _StringsId extends _StringsEn {
 	@override String get batch_tag_title => 'Kelola Tag';
 	@override String batch_tag_added({required Object name, required Object n}) => 'Tag "${name}" ditambahkan ke ${n} buku.';
 	@override String batch_tag_removed({required Object name, required Object n}) => 'Tag "${name}" dihapus dari ${n} buku.';
+	@override String get batch_tag_keep => 'Pertahankan';
+	@override String get batch_tag_add => 'Tambah';
+	@override String get batch_tag_remove => 'Hapus';
 	@override String get batch_tag_apply => 'Terapkan';
 	@override String get untitled => 'Tanpa Judul';
 	@override String untitled_book({required Object id}) => 'Buku ${id}';
@@ -7401,6 +7431,9 @@ class _StringsIt extends _StringsEn {
 	@override String get theme_black => 'Nero puro';
 	@override String get custom_theme => 'Tema personalizzato';
 	@override String get dark_mode => 'Modalità scura';
+	@override String get dark_mode_light => 'Chiaro';
+	@override String get dark_mode_system => 'Sistema';
+	@override String get dark_mode_dark => 'Scuro';
 	@override String get seed_color => 'Colore base';
 	@override String get font_color => 'Colore carattere';
 	@override String get background_color => 'Colore di sfondo';
@@ -7709,6 +7742,9 @@ class _StringsIt extends _StringsEn {
 	@override String get batch_tag_title => 'Gestisci tag';
 	@override String batch_tag_added({required Object name, required Object n}) => 'Tag "${name}" aggiunto a ${n} libro/i.';
 	@override String batch_tag_removed({required Object name, required Object n}) => 'Tag "${name}" rimosso da ${n} libro/i.';
+	@override String get batch_tag_keep => 'Mantieni';
+	@override String get batch_tag_add => 'Aggiungi';
+	@override String get batch_tag_remove => 'Rimuovi';
 	@override String get batch_tag_apply => 'Applica';
 	@override String get untitled => 'Senza titolo';
 	@override String untitled_book({required Object id}) => 'Libro ${id}';
@@ -8502,6 +8538,9 @@ class _StringsJa extends _StringsEn {
 	@override String get theme_black => 'ブラック';
 	@override String get custom_theme => 'カスタムテーマ';
 	@override String get dark_mode => 'ダークモード';
+	@override String get dark_mode_light => 'ライト';
+	@override String get dark_mode_system => 'システム';
+	@override String get dark_mode_dark => 'ダーク';
 	@override String get seed_color => 'シードカラー';
 	@override String get font_color => '文字色';
 	@override String get background_color => '背景色';
@@ -8810,6 +8849,9 @@ class _StringsJa extends _StringsEn {
 	@override String get batch_tag_title => 'タグを一括管理';
 	@override String batch_tag_added({required Object n, required Object name}) => '${n} 冊の本にタグ「${name}」を追加しました。';
 	@override String batch_tag_removed({required Object n, required Object name}) => '${n} 冊の本からタグ「${name}」を削除しました。';
+	@override String get batch_tag_keep => '保持';
+	@override String get batch_tag_add => '追加';
+	@override String get batch_tag_remove => '削除';
 	@override String get batch_tag_apply => '適用';
 	@override String get untitled => '無題';
 	@override String untitled_book({required Object id}) => 'ブック ${id}';
@@ -9593,6 +9635,9 @@ class _StringsKo extends _StringsEn {
 	@override String get theme_black => '퓨어 블랙';
 	@override String get custom_theme => '사용자 테마';
 	@override String get dark_mode => '다크 모드';
+	@override String get dark_mode_light => '밝게';
+	@override String get dark_mode_system => '시스템';
+	@override String get dark_mode_dark => '어둡게';
 	@override String get seed_color => '시드 색상';
 	@override String get font_color => '글꼴 색상';
 	@override String get background_color => '배경색';
@@ -9901,6 +9946,9 @@ class _StringsKo extends _StringsEn {
 	@override String get batch_tag_title => '태그 관리';
 	@override String batch_tag_added({required Object name, required Object n}) => '태그 "${name}"이(가) ${n}개 도서에 추가되었습니다.';
 	@override String batch_tag_removed({required Object name, required Object n}) => '태그 "${name}"이(가) ${n}개 도서에서 제거되었습니다.';
+	@override String get batch_tag_keep => '유지';
+	@override String get batch_tag_add => '추가';
+	@override String get batch_tag_remove => '제거';
 	@override String get batch_tag_apply => '적용';
 	@override String get untitled => '제목 없음';
 	@override String untitled_book({required Object id}) => '도서 ${id}';
@@ -10689,6 +10737,9 @@ class _StringsNl extends _StringsEn {
 	@override String get theme_black => 'Puur zwart';
 	@override String get custom_theme => 'Aangepast thema';
 	@override String get dark_mode => 'Donkere modus';
+	@override String get dark_mode_light => 'Licht';
+	@override String get dark_mode_system => 'Systeem';
+	@override String get dark_mode_dark => 'Donker';
 	@override String get seed_color => 'Basiskleur';
 	@override String get font_color => 'Letterkleur';
 	@override String get background_color => 'Achtergrondkleur';
@@ -10997,6 +11048,9 @@ class _StringsNl extends _StringsEn {
 	@override String get batch_tag_title => 'Tags beheren';
 	@override String batch_tag_added({required Object name, required Object n}) => 'Tag "${name}" toegevoegd aan ${n} boek(en).';
 	@override String batch_tag_removed({required Object name, required Object n}) => 'Tag "${name}" verwijderd van ${n} boek(en).';
+	@override String get batch_tag_keep => 'Behouden';
+	@override String get batch_tag_add => 'Toevoegen';
+	@override String get batch_tag_remove => 'Verwijderen';
 	@override String get batch_tag_apply => 'Toepassen';
 	@override String get untitled => 'Naamloos';
 	@override String untitled_book({required Object id}) => 'Boek ${id}';
@@ -11785,6 +11839,9 @@ class _StringsPtBr extends _StringsEn {
 	@override String get theme_black => 'Preto puro';
 	@override String get custom_theme => 'Tema Personalizado';
 	@override String get dark_mode => 'Modo Escuro';
+	@override String get dark_mode_light => 'Claro';
+	@override String get dark_mode_system => 'Sistema';
+	@override String get dark_mode_dark => 'Escuro';
 	@override String get seed_color => 'Cor Base';
 	@override String get font_color => 'Cor da Fonte';
 	@override String get background_color => 'Cor de fundo';
@@ -12093,6 +12150,9 @@ class _StringsPtBr extends _StringsEn {
 	@override String get batch_tag_title => 'Gerenciar tags';
 	@override String batch_tag_added({required Object name, required Object n}) => 'Tag "${name}" adicionada a ${n} livro(s).';
 	@override String batch_tag_removed({required Object name, required Object n}) => 'Tag "${name}" removida de ${n} livro(s).';
+	@override String get batch_tag_keep => 'Manter';
+	@override String get batch_tag_add => 'Adicionar';
+	@override String get batch_tag_remove => 'Remover';
 	@override String get batch_tag_apply => 'Aplicar';
 	@override String get untitled => 'Sem Título';
 	@override String untitled_book({required Object id}) => 'Livro ${id}';
@@ -12881,6 +12941,9 @@ class _StringsRu extends _StringsEn {
 	@override String get theme_black => 'Чёрная';
 	@override String get custom_theme => 'Пользовательская тема';
 	@override String get dark_mode => 'Тёмный режим';
+	@override String get dark_mode_light => 'Светлая';
+	@override String get dark_mode_system => 'Системная';
+	@override String get dark_mode_dark => 'Тёмная';
 	@override String get seed_color => 'Базовый цвет';
 	@override String get font_color => 'Цвет шрифта';
 	@override String get background_color => 'Цвет фона';
@@ -13189,6 +13252,9 @@ class _StringsRu extends _StringsEn {
 	@override String get batch_tag_title => 'Управление тегами';
 	@override String batch_tag_added({required Object name, required Object n}) => 'Тег "${name}" добавлен к ${n} книге(ам).';
 	@override String batch_tag_removed({required Object name, required Object n}) => 'Тег "${name}" удалён из ${n} книги(г).';
+	@override String get batch_tag_keep => 'Оставить';
+	@override String get batch_tag_add => 'Добавить';
+	@override String get batch_tag_remove => 'Удалить';
 	@override String get batch_tag_apply => 'Применить';
 	@override String get untitled => 'Без названия';
 	@override String untitled_book({required Object id}) => 'Книга ${id}';
@@ -13977,6 +14043,9 @@ class _StringsTh extends _StringsEn {
 	@override String get theme_black => 'ดำสนิท';
 	@override String get custom_theme => 'ธีมกำหนดเอง';
 	@override String get dark_mode => 'โหมดมืด';
+	@override String get dark_mode_light => 'สว่าง';
+	@override String get dark_mode_system => 'ระบบ';
+	@override String get dark_mode_dark => 'มืด';
 	@override String get seed_color => 'สีพื้นฐาน';
 	@override String get font_color => 'สีตัวอักษร';
 	@override String get background_color => 'สีพื้นหลัง';
@@ -14285,6 +14354,9 @@ class _StringsTh extends _StringsEn {
 	@override String get batch_tag_title => 'จัดการแท็ก';
 	@override String batch_tag_added({required Object name, required Object n}) => 'เพิ่มแท็ก "${name}" ไปยัง ${n} เล่มแล้ว';
 	@override String batch_tag_removed({required Object name, required Object n}) => 'ลบแท็ก "${name}" ออกจาก ${n} เล่มแล้ว';
+	@override String get batch_tag_keep => 'คงไว้';
+	@override String get batch_tag_add => 'เพิ่ม';
+	@override String get batch_tag_remove => 'ลบ';
 	@override String get batch_tag_apply => 'นำไปใช้';
 	@override String get untitled => 'ไม่มีชื่อ';
 	@override String untitled_book({required Object id}) => 'หนังสือ ${id}';
@@ -15073,6 +15145,9 @@ class _StringsTr extends _StringsEn {
 	@override String get theme_black => 'Saf siyah';
 	@override String get custom_theme => 'Özel tema';
 	@override String get dark_mode => 'Koyu mod';
+	@override String get dark_mode_light => 'Açık';
+	@override String get dark_mode_system => 'Sistem';
+	@override String get dark_mode_dark => 'Koyu';
 	@override String get seed_color => 'Ana renk';
 	@override String get font_color => 'Yazı rengi';
 	@override String get background_color => 'Arka plan rengi';
@@ -15381,6 +15456,9 @@ class _StringsTr extends _StringsEn {
 	@override String get batch_tag_title => 'Etiketleri Yönet';
 	@override String batch_tag_added({required Object name, required Object n}) => '"${name}" etiketi ${n} kitaba eklendi.';
 	@override String batch_tag_removed({required Object name, required Object n}) => '"${name}" etiketi ${n} kitaptan kaldırıldı.';
+	@override String get batch_tag_keep => 'Koru';
+	@override String get batch_tag_add => 'Ekle';
+	@override String get batch_tag_remove => 'Kaldır';
 	@override String get batch_tag_apply => 'Uygula';
 	@override String get untitled => 'Başlıksız';
 	@override String untitled_book({required Object id}) => 'Kitap ${id}';
@@ -16169,6 +16247,9 @@ class _StringsVi extends _StringsEn {
 	@override String get theme_black => 'Đen tuyền';
 	@override String get custom_theme => 'Giao diện tùy chỉnh';
 	@override String get dark_mode => 'Chế độ tối';
+	@override String get dark_mode_light => 'Sáng';
+	@override String get dark_mode_system => 'Hệ thống';
+	@override String get dark_mode_dark => 'Tối';
 	@override String get seed_color => 'Màu chủ đạo';
 	@override String get font_color => 'Màu chữ';
 	@override String get background_color => 'Màu nền';
@@ -16477,6 +16558,9 @@ class _StringsVi extends _StringsEn {
 	@override String get batch_tag_title => 'Quản lý thẻ';
 	@override String batch_tag_added({required Object name, required Object n}) => 'Đã thêm thẻ "${name}" vào ${n} cuốn sách.';
 	@override String batch_tag_removed({required Object name, required Object n}) => 'Đã xóa thẻ "${name}" khỏi ${n} cuốn sách.';
+	@override String get batch_tag_keep => 'Giữ';
+	@override String get batch_tag_add => 'Thêm';
+	@override String get batch_tag_remove => 'Xóa';
 	@override String get batch_tag_apply => 'Áp dụng';
 	@override String get untitled => 'Không có tiêu đề';
 	@override String untitled_book({required Object id}) => 'Sách ${id}';
@@ -17287,6 +17371,9 @@ class _StringsZhCn extends _StringsEn {
 	@override String get theme_black => '纯黑';
 	@override String get custom_theme => '自定义主题';
 	@override String get dark_mode => '深色模式';
+	@override String get dark_mode_light => '浅色';
+	@override String get dark_mode_system => '跟随系统';
+	@override String get dark_mode_dark => '深色';
 	@override String get seed_color => '种子色';
 	@override String get font_color => '字体颜色';
 	@override String get background_color => '背景颜色';
@@ -17595,6 +17682,9 @@ class _StringsZhCn extends _StringsEn {
 	@override String get batch_tag_title => '批量管理标签';
 	@override String batch_tag_added({required Object n, required Object name}) => '已为 ${n} 本书添加标签「${name}」。';
 	@override String batch_tag_removed({required Object n, required Object name}) => '已从 ${n} 本书移除标签「${name}」。';
+	@override String get batch_tag_keep => '保持';
+	@override String get batch_tag_add => '添加';
+	@override String get batch_tag_remove => '移除';
 	@override String get batch_tag_apply => '应用';
 	@override String get untitled => '无标题';
 	@override String untitled_book({required Object id}) => '书籍 ${id}';
@@ -18361,6 +18451,9 @@ class _StringsZhHk extends _StringsEn {
 	@override String get theme_black => '純黑';
 	@override String get custom_theme => '自訂主題';
 	@override String get dark_mode => '深色模式';
+	@override String get dark_mode_light => '淺色';
+	@override String get dark_mode_system => '跟隨系統';
+	@override String get dark_mode_dark => '深色';
 	@override String get seed_color => '種子色';
 	@override String get font_color => '字體顏色';
 	@override String get background_color => '背景顏色';
@@ -18669,6 +18762,9 @@ class _StringsZhHk extends _StringsEn {
 	@override String get batch_tag_title => '批量管理標籤';
 	@override String batch_tag_added({required Object n, required Object name}) => '已為 ${n} 本書添加標籤「${name}」。';
 	@override String batch_tag_removed({required Object n, required Object name}) => '已從 ${n} 本書移除標籤「${name}」。';
+	@override String get batch_tag_keep => '保留';
+	@override String get batch_tag_add => '添加';
+	@override String get batch_tag_remove => '移除';
 	@override String get batch_tag_apply => '套用';
 	@override String get untitled => '無標題';
 	@override String untitled_book({required Object id}) => '書籍 ${id}';
@@ -20503,6 +20599,9 @@ extension on _StringsAr {
 			case 'theme_black': return 'أسود صرف';
 			case 'custom_theme': return 'مظهر مخصص';
 			case 'dark_mode': return 'الوضع الداكن';
+			case 'dark_mode_light': return 'فاتح';
+			case 'dark_mode_system': return 'النظام';
+			case 'dark_mode_dark': return 'داكن';
 			case 'seed_color': return 'اللون الأساسي';
 			case 'font_color': return 'لون الخط';
 			case 'background_color': return 'لون الخلفية';
@@ -20811,6 +20910,9 @@ extension on _StringsAr {
 			case 'batch_tag_title': return 'إدارة العلامات';
 			case 'batch_tag_added': return ({required Object name, required Object n}) => 'تمت إضافة العلامة "${name}" إلى ${n} كتاب/كتب.';
 			case 'batch_tag_removed': return ({required Object name, required Object n}) => 'تمت إزالة العلامة "${name}" من ${n} كتاب/كتب.';
+			case 'batch_tag_keep': return 'إبقاء';
+			case 'batch_tag_add': return 'إضافة';
+			case 'batch_tag_remove': return 'إزالة';
 			case 'batch_tag_apply': return 'تطبيق';
 			case 'untitled': return 'بدون عنوان';
 			case 'untitled_book': return ({required Object id}) => 'كتاب ${id}';
@@ -21558,6 +21660,9 @@ extension on _StringsDe {
 			case 'theme_black': return 'Reinschwarz';
 			case 'custom_theme': return 'Benutzerdefiniertes Design';
 			case 'dark_mode': return 'Dunkler Modus';
+			case 'dark_mode_light': return 'Hell';
+			case 'dark_mode_system': return 'System';
+			case 'dark_mode_dark': return 'Dunkel';
 			case 'seed_color': return 'Grundfarbe';
 			case 'font_color': return 'Schriftfarbe';
 			case 'background_color': return 'Hintergrundfarbe';
@@ -21866,6 +21971,9 @@ extension on _StringsDe {
 			case 'batch_tag_title': return 'Tags verwalten';
 			case 'batch_tag_added': return ({required Object name, required Object n}) => 'Tag "${name}" zu ${n} Buch/Büchern hinzugefügt.';
 			case 'batch_tag_removed': return ({required Object name, required Object n}) => 'Tag "${name}" von ${n} Buch/Büchern entfernt.';
+			case 'batch_tag_keep': return 'Behalten';
+			case 'batch_tag_add': return 'Hinzufügen';
+			case 'batch_tag_remove': return 'Entfernen';
 			case 'batch_tag_apply': return 'Anwenden';
 			case 'untitled': return 'Ohne Titel';
 			case 'untitled_book': return ({required Object id}) => 'Buch ${id}';
@@ -22613,6 +22721,9 @@ extension on _StringsEs {
 			case 'theme_black': return 'Negro puro';
 			case 'custom_theme': return 'Tema personalizado';
 			case 'dark_mode': return 'Modo oscuro';
+			case 'dark_mode_light': return 'Claro';
+			case 'dark_mode_system': return 'Sistema';
+			case 'dark_mode_dark': return 'Oscuro';
 			case 'seed_color': return 'Color base';
 			case 'font_color': return 'Color de fuente';
 			case 'background_color': return 'Color de fondo';
@@ -22921,6 +23032,9 @@ extension on _StringsEs {
 			case 'batch_tag_title': return 'Gestionar etiquetas';
 			case 'batch_tag_added': return ({required Object name, required Object n}) => 'Etiqueta "${name}" añadida a ${n} libro(s).';
 			case 'batch_tag_removed': return ({required Object name, required Object n}) => 'Etiqueta "${name}" eliminada de ${n} libro(s).';
+			case 'batch_tag_keep': return 'Mantener';
+			case 'batch_tag_add': return 'Añadir';
+			case 'batch_tag_remove': return 'Eliminar';
 			case 'batch_tag_apply': return 'Aplicar';
 			case 'untitled': return 'Sin título';
 			case 'untitled_book': return ({required Object id}) => 'Libro ${id}';
@@ -23668,6 +23782,9 @@ extension on _StringsFr {
 			case 'theme_black': return 'Noir pur';
 			case 'custom_theme': return 'Thème personnalisé';
 			case 'dark_mode': return 'Mode sombre';
+			case 'dark_mode_light': return 'Clair';
+			case 'dark_mode_system': return 'Système';
+			case 'dark_mode_dark': return 'Sombre';
 			case 'seed_color': return 'Couleur de base';
 			case 'font_color': return 'Couleur de police';
 			case 'background_color': return 'Couleur d\'arrière-plan';
@@ -23976,6 +24093,9 @@ extension on _StringsFr {
 			case 'batch_tag_title': return 'Gérer les balises';
 			case 'batch_tag_added': return ({required Object name, required Object n}) => 'Balise « ${name} » ajoutée à ${n} livre(s).';
 			case 'batch_tag_removed': return ({required Object name, required Object n}) => 'Balise « ${name} » retirée de ${n} livre(s).';
+			case 'batch_tag_keep': return 'Conserver';
+			case 'batch_tag_add': return 'Ajouter';
+			case 'batch_tag_remove': return 'Retirer';
 			case 'batch_tag_apply': return 'Appliquer';
 			case 'untitled': return 'Sans titre';
 			case 'untitled_book': return ({required Object id}) => 'Livre ${id}';
@@ -24723,6 +24843,9 @@ extension on _StringsId {
 			case 'theme_black': return 'Hitam murni';
 			case 'custom_theme': return 'Tema Kustom';
 			case 'dark_mode': return 'Mode Gelap';
+			case 'dark_mode_light': return 'Terang';
+			case 'dark_mode_system': return 'Sistem';
+			case 'dark_mode_dark': return 'Gelap';
 			case 'seed_color': return 'Warna Dasar';
 			case 'font_color': return 'Warna Font';
 			case 'background_color': return 'Warna latar belakang';
@@ -25031,6 +25154,9 @@ extension on _StringsId {
 			case 'batch_tag_title': return 'Kelola Tag';
 			case 'batch_tag_added': return ({required Object name, required Object n}) => 'Tag "${name}" ditambahkan ke ${n} buku.';
 			case 'batch_tag_removed': return ({required Object name, required Object n}) => 'Tag "${name}" dihapus dari ${n} buku.';
+			case 'batch_tag_keep': return 'Pertahankan';
+			case 'batch_tag_add': return 'Tambah';
+			case 'batch_tag_remove': return 'Hapus';
 			case 'batch_tag_apply': return 'Terapkan';
 			case 'untitled': return 'Tanpa Judul';
 			case 'untitled_book': return ({required Object id}) => 'Buku ${id}';
@@ -25778,6 +25904,9 @@ extension on _StringsIt {
 			case 'theme_black': return 'Nero puro';
 			case 'custom_theme': return 'Tema personalizzato';
 			case 'dark_mode': return 'Modalità scura';
+			case 'dark_mode_light': return 'Chiaro';
+			case 'dark_mode_system': return 'Sistema';
+			case 'dark_mode_dark': return 'Scuro';
 			case 'seed_color': return 'Colore base';
 			case 'font_color': return 'Colore carattere';
 			case 'background_color': return 'Colore di sfondo';
@@ -26086,6 +26215,9 @@ extension on _StringsIt {
 			case 'batch_tag_title': return 'Gestisci tag';
 			case 'batch_tag_added': return ({required Object name, required Object n}) => 'Tag "${name}" aggiunto a ${n} libro/i.';
 			case 'batch_tag_removed': return ({required Object name, required Object n}) => 'Tag "${name}" rimosso da ${n} libro/i.';
+			case 'batch_tag_keep': return 'Mantieni';
+			case 'batch_tag_add': return 'Aggiungi';
+			case 'batch_tag_remove': return 'Rimuovi';
 			case 'batch_tag_apply': return 'Applica';
 			case 'untitled': return 'Senza titolo';
 			case 'untitled_book': return ({required Object id}) => 'Libro ${id}';
@@ -26838,6 +26970,9 @@ extension on _StringsJa {
 			case 'theme_black': return 'ブラック';
 			case 'custom_theme': return 'カスタムテーマ';
 			case 'dark_mode': return 'ダークモード';
+			case 'dark_mode_light': return 'ライト';
+			case 'dark_mode_system': return 'システム';
+			case 'dark_mode_dark': return 'ダーク';
 			case 'seed_color': return 'シードカラー';
 			case 'font_color': return '文字色';
 			case 'background_color': return '背景色';
@@ -27146,6 +27281,9 @@ extension on _StringsJa {
 			case 'batch_tag_title': return 'タグを一括管理';
 			case 'batch_tag_added': return ({required Object n, required Object name}) => '${n} 冊の本にタグ「${name}」を追加しました。';
 			case 'batch_tag_removed': return ({required Object n, required Object name}) => '${n} 冊の本からタグ「${name}」を削除しました。';
+			case 'batch_tag_keep': return '保持';
+			case 'batch_tag_add': return '追加';
+			case 'batch_tag_remove': return '削除';
 			case 'batch_tag_apply': return '適用';
 			case 'untitled': return '無題';
 			case 'untitled_book': return ({required Object id}) => 'ブック ${id}';
@@ -27888,6 +28026,9 @@ extension on _StringsKo {
 			case 'theme_black': return '퓨어 블랙';
 			case 'custom_theme': return '사용자 테마';
 			case 'dark_mode': return '다크 모드';
+			case 'dark_mode_light': return '밝게';
+			case 'dark_mode_system': return '시스템';
+			case 'dark_mode_dark': return '어둡게';
 			case 'seed_color': return '시드 색상';
 			case 'font_color': return '글꼴 색상';
 			case 'background_color': return '배경색';
@@ -28196,6 +28337,9 @@ extension on _StringsKo {
 			case 'batch_tag_title': return '태그 관리';
 			case 'batch_tag_added': return ({required Object name, required Object n}) => '태그 "${name}"이(가) ${n}개 도서에 추가되었습니다.';
 			case 'batch_tag_removed': return ({required Object name, required Object n}) => '태그 "${name}"이(가) ${n}개 도서에서 제거되었습니다.';
+			case 'batch_tag_keep': return '유지';
+			case 'batch_tag_add': return '추가';
+			case 'batch_tag_remove': return '제거';
 			case 'batch_tag_apply': return '적용';
 			case 'untitled': return '제목 없음';
 			case 'untitled_book': return ({required Object id}) => '도서 ${id}';
@@ -28943,6 +29087,9 @@ extension on _StringsNl {
 			case 'theme_black': return 'Puur zwart';
 			case 'custom_theme': return 'Aangepast thema';
 			case 'dark_mode': return 'Donkere modus';
+			case 'dark_mode_light': return 'Licht';
+			case 'dark_mode_system': return 'Systeem';
+			case 'dark_mode_dark': return 'Donker';
 			case 'seed_color': return 'Basiskleur';
 			case 'font_color': return 'Letterkleur';
 			case 'background_color': return 'Achtergrondkleur';
@@ -29251,6 +29398,9 @@ extension on _StringsNl {
 			case 'batch_tag_title': return 'Tags beheren';
 			case 'batch_tag_added': return ({required Object name, required Object n}) => 'Tag "${name}" toegevoegd aan ${n} boek(en).';
 			case 'batch_tag_removed': return ({required Object name, required Object n}) => 'Tag "${name}" verwijderd van ${n} boek(en).';
+			case 'batch_tag_keep': return 'Behouden';
+			case 'batch_tag_add': return 'Toevoegen';
+			case 'batch_tag_remove': return 'Verwijderen';
 			case 'batch_tag_apply': return 'Toepassen';
 			case 'untitled': return 'Naamloos';
 			case 'untitled_book': return ({required Object id}) => 'Boek ${id}';
@@ -29998,6 +30148,9 @@ extension on _StringsPtBr {
 			case 'theme_black': return 'Preto puro';
 			case 'custom_theme': return 'Tema Personalizado';
 			case 'dark_mode': return 'Modo Escuro';
+			case 'dark_mode_light': return 'Claro';
+			case 'dark_mode_system': return 'Sistema';
+			case 'dark_mode_dark': return 'Escuro';
 			case 'seed_color': return 'Cor Base';
 			case 'font_color': return 'Cor da Fonte';
 			case 'background_color': return 'Cor de fundo';
@@ -30306,6 +30459,9 @@ extension on _StringsPtBr {
 			case 'batch_tag_title': return 'Gerenciar tags';
 			case 'batch_tag_added': return ({required Object name, required Object n}) => 'Tag "${name}" adicionada a ${n} livro(s).';
 			case 'batch_tag_removed': return ({required Object name, required Object n}) => 'Tag "${name}" removida de ${n} livro(s).';
+			case 'batch_tag_keep': return 'Manter';
+			case 'batch_tag_add': return 'Adicionar';
+			case 'batch_tag_remove': return 'Remover';
 			case 'batch_tag_apply': return 'Aplicar';
 			case 'untitled': return 'Sem Título';
 			case 'untitled_book': return ({required Object id}) => 'Livro ${id}';
@@ -31053,6 +31209,9 @@ extension on _StringsRu {
 			case 'theme_black': return 'Чёрная';
 			case 'custom_theme': return 'Пользовательская тема';
 			case 'dark_mode': return 'Тёмный режим';
+			case 'dark_mode_light': return 'Светлая';
+			case 'dark_mode_system': return 'Системная';
+			case 'dark_mode_dark': return 'Тёмная';
 			case 'seed_color': return 'Базовый цвет';
 			case 'font_color': return 'Цвет шрифта';
 			case 'background_color': return 'Цвет фона';
@@ -31361,6 +31520,9 @@ extension on _StringsRu {
 			case 'batch_tag_title': return 'Управление тегами';
 			case 'batch_tag_added': return ({required Object name, required Object n}) => 'Тег "${name}" добавлен к ${n} книге(ам).';
 			case 'batch_tag_removed': return ({required Object name, required Object n}) => 'Тег "${name}" удалён из ${n} книги(г).';
+			case 'batch_tag_keep': return 'Оставить';
+			case 'batch_tag_add': return 'Добавить';
+			case 'batch_tag_remove': return 'Удалить';
 			case 'batch_tag_apply': return 'Применить';
 			case 'untitled': return 'Без названия';
 			case 'untitled_book': return ({required Object id}) => 'Книга ${id}';
@@ -32108,6 +32270,9 @@ extension on _StringsTh {
 			case 'theme_black': return 'ดำสนิท';
 			case 'custom_theme': return 'ธีมกำหนดเอง';
 			case 'dark_mode': return 'โหมดมืด';
+			case 'dark_mode_light': return 'สว่าง';
+			case 'dark_mode_system': return 'ระบบ';
+			case 'dark_mode_dark': return 'มืด';
 			case 'seed_color': return 'สีพื้นฐาน';
 			case 'font_color': return 'สีตัวอักษร';
 			case 'background_color': return 'สีพื้นหลัง';
@@ -32416,6 +32581,9 @@ extension on _StringsTh {
 			case 'batch_tag_title': return 'จัดการแท็ก';
 			case 'batch_tag_added': return ({required Object name, required Object n}) => 'เพิ่มแท็ก "${name}" ไปยัง ${n} เล่มแล้ว';
 			case 'batch_tag_removed': return ({required Object name, required Object n}) => 'ลบแท็ก "${name}" ออกจาก ${n} เล่มแล้ว';
+			case 'batch_tag_keep': return 'คงไว้';
+			case 'batch_tag_add': return 'เพิ่ม';
+			case 'batch_tag_remove': return 'ลบ';
 			case 'batch_tag_apply': return 'นำไปใช้';
 			case 'untitled': return 'ไม่มีชื่อ';
 			case 'untitled_book': return ({required Object id}) => 'หนังสือ ${id}';
@@ -33163,6 +33331,9 @@ extension on _StringsTr {
 			case 'theme_black': return 'Saf siyah';
 			case 'custom_theme': return 'Özel tema';
 			case 'dark_mode': return 'Koyu mod';
+			case 'dark_mode_light': return 'Açık';
+			case 'dark_mode_system': return 'Sistem';
+			case 'dark_mode_dark': return 'Koyu';
 			case 'seed_color': return 'Ana renk';
 			case 'font_color': return 'Yazı rengi';
 			case 'background_color': return 'Arka plan rengi';
@@ -33471,6 +33642,9 @@ extension on _StringsTr {
 			case 'batch_tag_title': return 'Etiketleri Yönet';
 			case 'batch_tag_added': return ({required Object name, required Object n}) => '"${name}" etiketi ${n} kitaba eklendi.';
 			case 'batch_tag_removed': return ({required Object name, required Object n}) => '"${name}" etiketi ${n} kitaptan kaldırıldı.';
+			case 'batch_tag_keep': return 'Koru';
+			case 'batch_tag_add': return 'Ekle';
+			case 'batch_tag_remove': return 'Kaldır';
 			case 'batch_tag_apply': return 'Uygula';
 			case 'untitled': return 'Başlıksız';
 			case 'untitled_book': return ({required Object id}) => 'Kitap ${id}';
@@ -34218,6 +34392,9 @@ extension on _StringsVi {
 			case 'theme_black': return 'Đen tuyền';
 			case 'custom_theme': return 'Giao diện tùy chỉnh';
 			case 'dark_mode': return 'Chế độ tối';
+			case 'dark_mode_light': return 'Sáng';
+			case 'dark_mode_system': return 'Hệ thống';
+			case 'dark_mode_dark': return 'Tối';
 			case 'seed_color': return 'Màu chủ đạo';
 			case 'font_color': return 'Màu chữ';
 			case 'background_color': return 'Màu nền';
@@ -34526,6 +34703,9 @@ extension on _StringsVi {
 			case 'batch_tag_title': return 'Quản lý thẻ';
 			case 'batch_tag_added': return ({required Object name, required Object n}) => 'Đã thêm thẻ "${name}" vào ${n} cuốn sách.';
 			case 'batch_tag_removed': return ({required Object name, required Object n}) => 'Đã xóa thẻ "${name}" khỏi ${n} cuốn sách.';
+			case 'batch_tag_keep': return 'Giữ';
+			case 'batch_tag_add': return 'Thêm';
+			case 'batch_tag_remove': return 'Xóa';
 			case 'batch_tag_apply': return 'Áp dụng';
 			case 'untitled': return 'Không có tiêu đề';
 			case 'untitled_book': return ({required Object id}) => 'Sách ${id}';
@@ -35295,6 +35475,9 @@ extension on _StringsZhCn {
 			case 'theme_black': return '纯黑';
 			case 'custom_theme': return '自定义主题';
 			case 'dark_mode': return '深色模式';
+			case 'dark_mode_light': return '浅色';
+			case 'dark_mode_system': return '跟随系统';
+			case 'dark_mode_dark': return '深色';
 			case 'seed_color': return '种子色';
 			case 'font_color': return '字体颜色';
 			case 'background_color': return '背景颜色';
@@ -35603,6 +35786,9 @@ extension on _StringsZhCn {
 			case 'batch_tag_title': return '批量管理标签';
 			case 'batch_tag_added': return ({required Object n, required Object name}) => '已为 ${n} 本书添加标签「${name}」。';
 			case 'batch_tag_removed': return ({required Object n, required Object name}) => '已从 ${n} 本书移除标签「${name}」。';
+			case 'batch_tag_keep': return '保持';
+			case 'batch_tag_add': return '添加';
+			case 'batch_tag_remove': return '移除';
 			case 'batch_tag_apply': return '应用';
 			case 'untitled': return '无标题';
 			case 'untitled_book': return ({required Object id}) => '书籍 ${id}';
@@ -36328,6 +36514,9 @@ extension on _StringsZhHk {
 			case 'theme_black': return '純黑';
 			case 'custom_theme': return '自訂主題';
 			case 'dark_mode': return '深色模式';
+			case 'dark_mode_light': return '淺色';
+			case 'dark_mode_system': return '跟隨系統';
+			case 'dark_mode_dark': return '深色';
 			case 'seed_color': return '種子色';
 			case 'font_color': return '字體顏色';
 			case 'background_color': return '背景顏色';
@@ -36636,6 +36825,9 @@ extension on _StringsZhHk {
 			case 'batch_tag_title': return '批量管理標籤';
 			case 'batch_tag_added': return ({required Object n, required Object name}) => '已為 ${n} 本書添加標籤「${name}」。';
 			case 'batch_tag_removed': return ({required Object n, required Object name}) => '已從 ${n} 本書移除標籤「${name}」。';
+			case 'batch_tag_keep': return '保留';
+			case 'batch_tag_add': return '添加';
+			case 'batch_tag_remove': return '移除';
 			case 'batch_tag_apply': return '套用';
 			case 'untitled': return '無標題';
 			case 'untitled_book': return ({required Object id}) => '書籍 ${id}';
