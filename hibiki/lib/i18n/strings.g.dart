@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 17391 (1023 per locale)
+/// Strings: 17714 (1042 per locale)
 ///
-/// Built on 2026-05-26 at 05:02 UTC
+/// Built on 2026-05-26 at 10:06 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1165,6 +1165,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get sync_account => 'Account';
 	String get sync_client_id => 'Google OAuth Client ID';
 	String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	String get sync_client_secret => 'Client Secret';
 	String get sync_sign_in => 'Sign In';
 	String get sync_sign_out => 'Sign Out';
 	String get sync_signed_in => 'Signed in';
@@ -1183,6 +1184,24 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String sync_error({required Object message}) => 'Sync error: ${message}';
 	String sync_auth_error({required Object message}) => 'Authentication failed: ${message}';
 	String sync_last_sync({required Object time}) => 'Last sync: ${time}';
+	String get sync_compare => 'Compare Data';
+	String get sync_compare_title => 'Local vs Remote';
+	String get sync_compare_local => 'Local';
+	String get sync_compare_remote => 'Remote';
+	String get sync_compare_no_data => 'No data';
+	String get sync_compare_empty => 'No books found';
+	String get sync_compare_days => 'days';
+	String get sync_compare_conflicts => 'Conflicts';
+	String get sync_compare_all_books => 'All Books';
+	String get sync_compare_select_all => 'Select All';
+	String get sync_compare_all_local => 'All → Local';
+	String get sync_compare_all_remote => 'All → Remote';
+	String get sync_compare_all_skip => 'All → Skip';
+	String get sync_compare_use_local => 'Local';
+	String get sync_compare_use_remote => 'Remote';
+	String get sync_compare_skip => 'Skip';
+	String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -2238,6 +2257,7 @@ class _StringsAr extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => 'فشلت المصادقة: ${message}';
 	@override String get sync_client_id => 'معرّف عميل Google OAuth';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'اكتملت المزامنة: ${imported} مستوردة، ${exported} مصدّرة، ${synced} بدون تغيير.';
 	@override String sync_error({required Object message}) => 'خطأ في المزامنة: ${message}';
 	@override String get sync_import_only => 'استيراد فقط';
@@ -2259,6 +2279,24 @@ class _StringsAr extends _StringsEn {
 	@override String get update_channel_stable => 'مستقر';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -3314,6 +3352,7 @@ class _StringsDe extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => 'Authentifizierung fehlgeschlagen: ${message}';
 	@override String get sync_client_id => 'Google OAuth Client-ID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Synchronisierung abgeschlossen: ${imported} importiert, ${exported} exportiert, ${synced} unverändert.';
 	@override String sync_error({required Object message}) => 'Synchronisierungsfehler: ${message}';
 	@override String get sync_import_only => 'Nur importieren';
@@ -3335,6 +3374,24 @@ class _StringsDe extends _StringsEn {
 	@override String get update_channel_stable => 'Stabil';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -4390,6 +4447,7 @@ class _StringsEs extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => 'Error de autenticación: ${message}';
 	@override String get sync_client_id => 'ID de cliente Google OAuth';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Sincronización completa: ${imported} importados, ${exported} exportados, ${synced} sin cambios.';
 	@override String sync_error({required Object message}) => 'Error de sincronización: ${message}';
 	@override String get sync_import_only => 'Solo importar';
@@ -4411,6 +4469,24 @@ class _StringsEs extends _StringsEn {
 	@override String get update_channel_stable => 'Estable';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -5466,6 +5542,7 @@ class _StringsFr extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => 'Échec de l\'authentification : ${message}';
 	@override String get sync_client_id => 'ID client Google OAuth';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Synchronisation terminée : ${imported} importés, ${exported} exportés, ${synced} inchangés.';
 	@override String sync_error({required Object message}) => 'Erreur de synchronisation : ${message}';
 	@override String get sync_import_only => 'Importer seulement';
@@ -5487,6 +5564,24 @@ class _StringsFr extends _StringsEn {
 	@override String get update_channel_stable => 'Stable';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -6542,6 +6637,7 @@ class _StringsId extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => 'Autentikasi gagal: ${message}';
 	@override String get sync_client_id => 'ID Klien Google OAuth';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Sinkronisasi selesai: ${imported} diimpor, ${exported} diekspor, ${synced} tidak berubah.';
 	@override String sync_error({required Object message}) => 'Kesalahan sinkronisasi: ${message}';
 	@override String get sync_import_only => 'Impor Saja';
@@ -6563,6 +6659,24 @@ class _StringsId extends _StringsEn {
 	@override String get update_channel_stable => 'Stabil';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -7618,6 +7732,7 @@ class _StringsIt extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => 'Autenticazione fallita: ${message}';
 	@override String get sync_client_id => 'ID client Google OAuth';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Sincronizzazione completata: ${imported} importati, ${exported} esportati, ${synced} invariati.';
 	@override String sync_error({required Object message}) => 'Errore di sincronizzazione: ${message}';
 	@override String get sync_import_only => 'Solo importazione';
@@ -7639,6 +7754,24 @@ class _StringsIt extends _StringsEn {
 	@override String get update_channel_stable => 'Stabile';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -8694,6 +8827,7 @@ class _StringsJa extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => '認証失敗：${message}';
 	@override String get sync_client_id => 'Google OAuth クライアントID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => '同期完了：${imported} インポート、${exported} エクスポート、${synced} 変更なし。';
 	@override String sync_error({required Object message}) => '同期エラー：${message}';
 	@override String get sync_import_only => 'インポートのみ';
@@ -8715,6 +8849,24 @@ class _StringsJa extends _StringsEn {
 	@override String get update_channel_stable => '安定版';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -9770,6 +9922,7 @@ class _StringsKo extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => '인증 실패: ${message}';
 	@override String get sync_client_id => 'Google OAuth 클라이언트 ID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => '동기화 완료: ${imported} 가져옴, ${exported} 내보냄, ${synced} 변경 없음.';
 	@override String sync_error({required Object message}) => '동기화 오류: ${message}';
 	@override String get sync_import_only => '가져오기만';
@@ -9791,6 +9944,24 @@ class _StringsKo extends _StringsEn {
 	@override String get update_channel_stable => '안정';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -10846,6 +11017,7 @@ class _StringsNl extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => 'Authenticatie mislukt: ${message}';
 	@override String get sync_client_id => 'Google OAuth Client-ID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Synchronisatie voltooid: ${imported} geïmporteerd, ${exported} geëxporteerd, ${synced} ongewijzigd.';
 	@override String sync_error({required Object message}) => 'Synchronisatiefout: ${message}';
 	@override String get sync_import_only => 'Alleen importeren';
@@ -10867,6 +11039,24 @@ class _StringsNl extends _StringsEn {
 	@override String get update_channel_stable => 'Stabiel';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -11922,6 +12112,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => 'Falha na autenticação: ${message}';
 	@override String get sync_client_id => 'ID de cliente Google OAuth';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Sincronização concluída: ${imported} importados, ${exported} exportados, ${synced} inalterados.';
 	@override String sync_error({required Object message}) => 'Erro de sincronização: ${message}';
 	@override String get sync_import_only => 'Apenas importar';
@@ -11943,6 +12134,24 @@ class _StringsPtBr extends _StringsEn {
 	@override String get update_channel_stable => 'Estável';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -12998,6 +13207,7 @@ class _StringsRu extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => 'Ошибка аутентификации: ${message}';
 	@override String get sync_client_id => 'ID клиента Google OAuth';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Синхронизация завершена: ${imported} импортировано, ${exported} экспортировано, ${synced} без изменений.';
 	@override String sync_error({required Object message}) => 'Ошибка синхронизации: ${message}';
 	@override String get sync_import_only => 'Только импорт';
@@ -13019,6 +13229,24 @@ class _StringsRu extends _StringsEn {
 	@override String get update_channel_stable => 'Стабильная';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -14074,6 +14302,7 @@ class _StringsTh extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => 'การยืนยันตัวตนล้มเหลว: ${message}';
 	@override String get sync_client_id => 'Google OAuth Client ID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'ซิงค์เสร็จสิ้น: นำเข้า ${imported}, ส่งออก ${exported}, ไม่เปลี่ยนแปลง ${synced}';
 	@override String sync_error({required Object message}) => 'ข้อผิดพลาดการซิงค์: ${message}';
 	@override String get sync_import_only => 'นำเข้าเท่านั้น';
@@ -14095,6 +14324,24 @@ class _StringsTh extends _StringsEn {
 	@override String get update_channel_stable => 'เสถียร';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -15150,6 +15397,7 @@ class _StringsTr extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => 'Kimlik doğrulama başarısız: ${message}';
 	@override String get sync_client_id => 'Google OAuth İstemci Kimliği';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Senkronizasyon tamamlandı: ${imported} içe aktarıldı, ${exported} dışa aktarıldı, ${synced} değişmedi.';
 	@override String sync_error({required Object message}) => 'Senkronizasyon hatası: ${message}';
 	@override String get sync_import_only => 'Yalnızca İçe Aktar';
@@ -15171,6 +15419,24 @@ class _StringsTr extends _StringsEn {
 	@override String get update_channel_stable => 'Kararlı';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -16226,6 +16492,7 @@ class _StringsVi extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => 'Xác thực thất bại: ${message}';
 	@override String get sync_client_id => 'Google OAuth Client ID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Đồng bộ hoàn tất: ${imported} đã nhập, ${exported} đã xuất, ${synced} không thay đổi.';
 	@override String sync_error({required Object message}) => 'Lỗi đồng bộ: ${message}';
 	@override String get sync_import_only => 'Chỉ nhập';
@@ -16247,6 +16514,24 @@ class _StringsVi extends _StringsEn {
 	@override String get update_channel_stable => 'Ổn định';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -17305,6 +17590,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => '认证失败：${message}';
 	@override String get sync_client_id => 'Google OAuth 客户端 ID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => '同步完成：${imported} 已导入，${exported} 已导出，${synced} 无变更。';
 	@override String sync_error({required Object message}) => '同步错误：${message}';
 	@override String get sync_import_only => '仅导入';
@@ -17323,6 +17609,24 @@ class _StringsZhCn extends _StringsEn {
 	@override String get sync_title => '同步';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -18378,6 +18682,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String sync_auth_error({required Object message}) => '認證失敗：${message}';
 	@override String get sync_client_id => 'Google OAuth 用戶端 ID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
+	@override String get sync_client_secret => 'Client Secret';
 	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => '同步完成：${imported} 已匯入，${exported} 已匯出，${synced} 無變更。';
 	@override String sync_error({required Object message}) => '同步錯誤：${message}';
 	@override String get sync_import_only => '僅匯入';
@@ -18399,6 +18704,24 @@ class _StringsZhHk extends _StringsEn {
 	@override String get update_channel_stable => '穩定版';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
+	@override String get sync_compare => 'Compare Data';
+	@override String get sync_compare_title => 'Local vs Remote';
+	@override String get sync_compare_local => 'Local';
+	@override String get sync_compare_remote => 'Remote';
+	@override String get sync_compare_no_data => 'No data';
+	@override String get sync_compare_empty => 'No books found';
+	@override String get sync_compare_days => 'days';
+	@override String get sync_compare_conflicts => 'Conflicts';
+	@override String get sync_compare_all_books => 'All Books';
+	@override String get sync_compare_select_all => 'Select All';
+	@override String get sync_compare_all_local => 'All → Local';
+	@override String get sync_compare_all_remote => 'All → Remote';
+	@override String get sync_compare_all_skip => 'All → Skip';
+	@override String get sync_compare_use_local => 'Local';
+	@override String get sync_compare_use_remote => 'Remote';
+	@override String get sync_compare_skip => 'Skip';
+	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
+	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
 }
 
 // Path: retrying_in
@@ -19442,6 +19765,7 @@ extension on _StringsEn {
 			case 'sync_account': return 'Account';
 			case 'sync_client_id': return 'Google OAuth Client ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_sign_in': return 'Sign In';
 			case 'sync_sign_out': return 'Sign Out';
 			case 'sync_signed_in': return 'Signed in';
@@ -19460,6 +19784,24 @@ extension on _StringsEn {
 			case 'sync_error': return ({required Object message}) => 'Sync error: ${message}';
 			case 'sync_auth_error': return ({required Object message}) => 'Authentication failed: ${message}';
 			case 'sync_last_sync': return ({required Object time}) => 'Last sync: ${time}';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -20474,6 +20816,7 @@ extension on _StringsAr {
 			case 'sync_auth_error': return ({required Object message}) => 'فشلت المصادقة: ${message}';
 			case 'sync_client_id': return 'معرّف عميل Google OAuth';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'اكتملت المزامنة: ${imported} مستوردة، ${exported} مصدّرة، ${synced} بدون تغيير.';
 			case 'sync_error': return ({required Object message}) => 'خطأ في المزامنة: ${message}';
 			case 'sync_import_only': return 'استيراد فقط';
@@ -20495,6 +20838,24 @@ extension on _StringsAr {
 			case 'update_channel_stable': return 'مستقر';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -21509,6 +21870,7 @@ extension on _StringsDe {
 			case 'sync_auth_error': return ({required Object message}) => 'Authentifizierung fehlgeschlagen: ${message}';
 			case 'sync_client_id': return 'Google OAuth Client-ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Synchronisierung abgeschlossen: ${imported} importiert, ${exported} exportiert, ${synced} unverändert.';
 			case 'sync_error': return ({required Object message}) => 'Synchronisierungsfehler: ${message}';
 			case 'sync_import_only': return 'Nur importieren';
@@ -21530,6 +21892,24 @@ extension on _StringsDe {
 			case 'update_channel_stable': return 'Stabil';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -22544,6 +22924,7 @@ extension on _StringsEs {
 			case 'sync_auth_error': return ({required Object message}) => 'Error de autenticación: ${message}';
 			case 'sync_client_id': return 'ID de cliente Google OAuth';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Sincronización completa: ${imported} importados, ${exported} exportados, ${synced} sin cambios.';
 			case 'sync_error': return ({required Object message}) => 'Error de sincronización: ${message}';
 			case 'sync_import_only': return 'Solo importar';
@@ -22565,6 +22946,24 @@ extension on _StringsEs {
 			case 'update_channel_stable': return 'Estable';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -23579,6 +23978,7 @@ extension on _StringsFr {
 			case 'sync_auth_error': return ({required Object message}) => 'Échec de l\'authentification : ${message}';
 			case 'sync_client_id': return 'ID client Google OAuth';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Synchronisation terminée : ${imported} importés, ${exported} exportés, ${synced} inchangés.';
 			case 'sync_error': return ({required Object message}) => 'Erreur de synchronisation : ${message}';
 			case 'sync_import_only': return 'Importer seulement';
@@ -23600,6 +24000,24 @@ extension on _StringsFr {
 			case 'update_channel_stable': return 'Stable';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -24614,6 +25032,7 @@ extension on _StringsId {
 			case 'sync_auth_error': return ({required Object message}) => 'Autentikasi gagal: ${message}';
 			case 'sync_client_id': return 'ID Klien Google OAuth';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Sinkronisasi selesai: ${imported} diimpor, ${exported} diekspor, ${synced} tidak berubah.';
 			case 'sync_error': return ({required Object message}) => 'Kesalahan sinkronisasi: ${message}';
 			case 'sync_import_only': return 'Impor Saja';
@@ -24635,6 +25054,24 @@ extension on _StringsId {
 			case 'update_channel_stable': return 'Stabil';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -25649,6 +26086,7 @@ extension on _StringsIt {
 			case 'sync_auth_error': return ({required Object message}) => 'Autenticazione fallita: ${message}';
 			case 'sync_client_id': return 'ID client Google OAuth';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Sincronizzazione completata: ${imported} importati, ${exported} esportati, ${synced} invariati.';
 			case 'sync_error': return ({required Object message}) => 'Errore di sincronizzazione: ${message}';
 			case 'sync_import_only': return 'Solo importazione';
@@ -25670,6 +26108,24 @@ extension on _StringsIt {
 			case 'update_channel_stable': return 'Stabile';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -26684,6 +27140,7 @@ extension on _StringsJa {
 			case 'sync_auth_error': return ({required Object message}) => '認証失敗：${message}';
 			case 'sync_client_id': return 'Google OAuth クライアントID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => '同期完了：${imported} インポート、${exported} エクスポート、${synced} 変更なし。';
 			case 'sync_error': return ({required Object message}) => '同期エラー：${message}';
 			case 'sync_import_only': return 'インポートのみ';
@@ -26705,6 +27162,24 @@ extension on _StringsJa {
 			case 'update_channel_stable': return '安定版';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -27719,6 +28194,7 @@ extension on _StringsKo {
 			case 'sync_auth_error': return ({required Object message}) => '인증 실패: ${message}';
 			case 'sync_client_id': return 'Google OAuth 클라이언트 ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => '동기화 완료: ${imported} 가져옴, ${exported} 내보냄, ${synced} 변경 없음.';
 			case 'sync_error': return ({required Object message}) => '동기화 오류: ${message}';
 			case 'sync_import_only': return '가져오기만';
@@ -27740,6 +28216,24 @@ extension on _StringsKo {
 			case 'update_channel_stable': return '안정';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -28754,6 +29248,7 @@ extension on _StringsNl {
 			case 'sync_auth_error': return ({required Object message}) => 'Authenticatie mislukt: ${message}';
 			case 'sync_client_id': return 'Google OAuth Client-ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Synchronisatie voltooid: ${imported} geïmporteerd, ${exported} geëxporteerd, ${synced} ongewijzigd.';
 			case 'sync_error': return ({required Object message}) => 'Synchronisatiefout: ${message}';
 			case 'sync_import_only': return 'Alleen importeren';
@@ -28775,6 +29270,24 @@ extension on _StringsNl {
 			case 'update_channel_stable': return 'Stabiel';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -29789,6 +30302,7 @@ extension on _StringsPtBr {
 			case 'sync_auth_error': return ({required Object message}) => 'Falha na autenticação: ${message}';
 			case 'sync_client_id': return 'ID de cliente Google OAuth';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Sincronização concluída: ${imported} importados, ${exported} exportados, ${synced} inalterados.';
 			case 'sync_error': return ({required Object message}) => 'Erro de sincronização: ${message}';
 			case 'sync_import_only': return 'Apenas importar';
@@ -29810,6 +30324,24 @@ extension on _StringsPtBr {
 			case 'update_channel_stable': return 'Estável';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -30824,6 +31356,7 @@ extension on _StringsRu {
 			case 'sync_auth_error': return ({required Object message}) => 'Ошибка аутентификации: ${message}';
 			case 'sync_client_id': return 'ID клиента Google OAuth';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Синхронизация завершена: ${imported} импортировано, ${exported} экспортировано, ${synced} без изменений.';
 			case 'sync_error': return ({required Object message}) => 'Ошибка синхронизации: ${message}';
 			case 'sync_import_only': return 'Только импорт';
@@ -30845,6 +31378,24 @@ extension on _StringsRu {
 			case 'update_channel_stable': return 'Стабильная';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -31859,6 +32410,7 @@ extension on _StringsTh {
 			case 'sync_auth_error': return ({required Object message}) => 'การยืนยันตัวตนล้มเหลว: ${message}';
 			case 'sync_client_id': return 'Google OAuth Client ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'ซิงค์เสร็จสิ้น: นำเข้า ${imported}, ส่งออก ${exported}, ไม่เปลี่ยนแปลง ${synced}';
 			case 'sync_error': return ({required Object message}) => 'ข้อผิดพลาดการซิงค์: ${message}';
 			case 'sync_import_only': return 'นำเข้าเท่านั้น';
@@ -31880,6 +32432,24 @@ extension on _StringsTh {
 			case 'update_channel_stable': return 'เสถียร';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -32894,6 +33464,7 @@ extension on _StringsTr {
 			case 'sync_auth_error': return ({required Object message}) => 'Kimlik doğrulama başarısız: ${message}';
 			case 'sync_client_id': return 'Google OAuth İstemci Kimliği';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Senkronizasyon tamamlandı: ${imported} içe aktarıldı, ${exported} dışa aktarıldı, ${synced} değişmedi.';
 			case 'sync_error': return ({required Object message}) => 'Senkronizasyon hatası: ${message}';
 			case 'sync_import_only': return 'Yalnızca İçe Aktar';
@@ -32915,6 +33486,24 @@ extension on _StringsTr {
 			case 'update_channel_stable': return 'Kararlı';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -33929,6 +34518,7 @@ extension on _StringsVi {
 			case 'sync_auth_error': return ({required Object message}) => 'Xác thực thất bại: ${message}';
 			case 'sync_client_id': return 'Google OAuth Client ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Đồng bộ hoàn tất: ${imported} đã nhập, ${exported} đã xuất, ${synced} không thay đổi.';
 			case 'sync_error': return ({required Object message}) => 'Lỗi đồng bộ: ${message}';
 			case 'sync_import_only': return 'Chỉ nhập';
@@ -33950,6 +34540,24 @@ extension on _StringsVi {
 			case 'update_channel_stable': return 'Ổn định';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -34967,6 +35575,7 @@ extension on _StringsZhCn {
 			case 'sync_auth_error': return ({required Object message}) => '认证失败：${message}';
 			case 'sync_client_id': return 'Google OAuth 客户端 ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => '同步完成：${imported} 已导入，${exported} 已导出，${synced} 无变更。';
 			case 'sync_error': return ({required Object message}) => '同步错误：${message}';
 			case 'sync_import_only': return '仅导入';
@@ -34985,6 +35594,24 @@ extension on _StringsZhCn {
 			case 'sync_title': return '同步';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
@@ -35999,6 +36626,7 @@ extension on _StringsZhHk {
 			case 'sync_auth_error': return ({required Object message}) => '認證失敗：${message}';
 			case 'sync_client_id': return 'Google OAuth 用戶端 ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
+			case 'sync_client_secret': return 'Client Secret';
 			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => '同步完成：${imported} 已匯入，${exported} 已匯出，${synced} 無變更。';
 			case 'sync_error': return ({required Object message}) => '同步錯誤：${message}';
 			case 'sync_import_only': return '僅匯入';
@@ -36020,6 +36648,24 @@ extension on _StringsZhHk {
 			case 'update_channel_stable': return '穩定版';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
+			case 'sync_compare': return 'Compare Data';
+			case 'sync_compare_title': return 'Local vs Remote';
+			case 'sync_compare_local': return 'Local';
+			case 'sync_compare_remote': return 'Remote';
+			case 'sync_compare_no_data': return 'No data';
+			case 'sync_compare_empty': return 'No books found';
+			case 'sync_compare_days': return 'days';
+			case 'sync_compare_conflicts': return 'Conflicts';
+			case 'sync_compare_all_books': return 'All Books';
+			case 'sync_compare_select_all': return 'Select All';
+			case 'sync_compare_all_local': return 'All → Local';
+			case 'sync_compare_all_remote': return 'All → Remote';
+			case 'sync_compare_all_skip': return 'All → Skip';
+			case 'sync_compare_use_local': return 'Local';
+			case 'sync_compare_use_remote': return 'Remote';
+			case 'sync_compare_skip': return 'Skip';
+			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
+			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
 			default: return null;
 		}
 	}
