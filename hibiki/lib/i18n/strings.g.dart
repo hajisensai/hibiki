@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 17833 (1049 per locale)
+/// Strings: 17986 (1058 per locale)
 ///
-/// Built on 2026-05-26 at 14:23 UTC
+/// Built on 2026-05-27 at 03:43 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1178,16 +1178,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get sync_not_signed_in => 'Not signed in';
 	String get sync_checking_account => 'Checking account…';
 	String get sync_options => 'Sync Options';
-	String get sync_mode => 'Sync Mode';
-	String get sync_mode_merge => 'Merge';
-	String get sync_mode_replace => 'Replace';
 	String get sync_statistics => 'Sync Statistics';
 	String get sync_audiobook => 'Sync Audiobook Position';
 	String get sync_actions => 'Actions';
-	String get sync_all => 'Sync All Books';
-	String get sync_import_only => 'Import Only';
-	String get sync_in_progress => 'Syncing…';
-	String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Sync complete: ${imported} imported, ${exported} exported, ${synced} unchanged.';
 	String sync_error({required Object message}) => 'Sync error: ${message}';
 	String sync_auth_error({required Object message}) => 'Authentication failed: ${message}';
 	String sync_last_sync({required Object time}) => 'Last sync: ${time}';
@@ -1209,6 +1202,22 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get sync_compare_skip => 'Skip';
 	String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	String get sync_auto_sync => 'Auto Sync';
+	String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	String get no_matching_audio_cue => 'No matching audio for this sentence';
+	String get sync_exit_warning_title => 'Sync In Progress';
+	String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	String get sync_content => 'Sync book files';
+	String get sync_content_warning => 'Large files will use storage space and data';
+	String get sync_backend => 'Storage backend';
+	String get sync_backend_google_drive => 'Google Drive';
+	String get sync_backend_webdav => 'WebDAV';
+	String get sync_webdav_url => 'Server URL';
+	String get sync_webdav_username => 'Username';
+	String get sync_webdav_password => 'Password';
+	String get sync_webdav_test => 'Test connection';
+	String get sync_webdav_test_success => 'Connection successful';
+	String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -2265,20 +2274,13 @@ class _StringsAr extends _StringsEn {
 	@override String get spread_on => 'تشغيل';
 	@override String get sync_account => 'الحساب';
 	@override String get sync_actions => 'الإجراءات';
-	@override String get sync_all => 'مزامنة كل الكتب';
 	@override String get sync_audiobook => 'مزامنة موضع الكتاب الصوتي';
 	@override String sync_auth_error({required Object message}) => 'فشلت المصادقة: ${message}';
 	@override String get sync_client_id => 'معرّف عميل Google OAuth';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'اكتملت المزامنة: ${imported} مستوردة، ${exported} مصدّرة، ${synced} بدون تغيير.';
 	@override String sync_error({required Object message}) => 'خطأ في المزامنة: ${message}';
-	@override String get sync_import_only => 'استيراد فقط';
-	@override String get sync_in_progress => 'جارٍ المزامنة…';
 	@override String sync_last_sync({required Object time}) => 'آخر مزامنة: ${time}';
-	@override String get sync_mode => 'وضع المزامنة';
-	@override String get sync_mode_merge => 'دمج';
-	@override String get sync_mode_replace => 'استبدال';
 	@override String get sync_not_signed_in => 'لم يتم تسجيل الدخول';
 	@override String get sync_checking_account => 'جارٍ التحقق من الحساب…';
 	@override String get sync_options => 'خيارات المزامنة';
@@ -2311,6 +2313,22 @@ class _StringsAr extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -3367,20 +3385,13 @@ class _StringsDe extends _StringsEn {
 	@override String get spread_on => 'Ein';
 	@override String get sync_account => 'Konto';
 	@override String get sync_actions => 'Aktionen';
-	@override String get sync_all => 'Alle Bücher synchronisieren';
 	@override String get sync_audiobook => 'Hörbuchposition synchronisieren';
 	@override String sync_auth_error({required Object message}) => 'Authentifizierung fehlgeschlagen: ${message}';
 	@override String get sync_client_id => 'Google OAuth Client-ID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Synchronisierung abgeschlossen: ${imported} importiert, ${exported} exportiert, ${synced} unverändert.';
 	@override String sync_error({required Object message}) => 'Synchronisierungsfehler: ${message}';
-	@override String get sync_import_only => 'Nur importieren';
-	@override String get sync_in_progress => 'Synchronisierung…';
 	@override String sync_last_sync({required Object time}) => 'Letzte Synchronisierung: ${time}';
-	@override String get sync_mode => 'Synchronisierungsmodus';
-	@override String get sync_mode_merge => 'Zusammenführen';
-	@override String get sync_mode_replace => 'Ersetzen';
 	@override String get sync_not_signed_in => 'Nicht angemeldet';
 	@override String get sync_checking_account => 'Konto wird überprüft…';
 	@override String get sync_options => 'Synchronisierungsoptionen';
@@ -3413,6 +3424,22 @@ class _StringsDe extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -4469,20 +4496,13 @@ class _StringsEs extends _StringsEn {
 	@override String get spread_on => 'Activado';
 	@override String get sync_account => 'Cuenta';
 	@override String get sync_actions => 'Acciones';
-	@override String get sync_all => 'Sincronizar todos los libros';
 	@override String get sync_audiobook => 'Sincronizar posición del audiolibro';
 	@override String sync_auth_error({required Object message}) => 'Error de autenticación: ${message}';
 	@override String get sync_client_id => 'ID de cliente Google OAuth';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Sincronización completa: ${imported} importados, ${exported} exportados, ${synced} sin cambios.';
 	@override String sync_error({required Object message}) => 'Error de sincronización: ${message}';
-	@override String get sync_import_only => 'Solo importar';
-	@override String get sync_in_progress => 'Sincronizando…';
 	@override String sync_last_sync({required Object time}) => 'Última sincronización: ${time}';
-	@override String get sync_mode => 'Modo de sincronización';
-	@override String get sync_mode_merge => 'Combinar';
-	@override String get sync_mode_replace => 'Reemplazar';
 	@override String get sync_not_signed_in => 'No conectado';
 	@override String get sync_checking_account => 'Verificando cuenta…';
 	@override String get sync_options => 'Opciones de sincronización';
@@ -4515,6 +4535,22 @@ class _StringsEs extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -5571,20 +5607,13 @@ class _StringsFr extends _StringsEn {
 	@override String get spread_on => 'Activé';
 	@override String get sync_account => 'Compte';
 	@override String get sync_actions => 'Actions';
-	@override String get sync_all => 'Synchroniser tous les livres';
 	@override String get sync_audiobook => 'Synchroniser la position du livre audio';
 	@override String sync_auth_error({required Object message}) => 'Échec de l\'authentification : ${message}';
 	@override String get sync_client_id => 'ID client Google OAuth';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Synchronisation terminée : ${imported} importés, ${exported} exportés, ${synced} inchangés.';
 	@override String sync_error({required Object message}) => 'Erreur de synchronisation : ${message}';
-	@override String get sync_import_only => 'Importer seulement';
-	@override String get sync_in_progress => 'Synchronisation…';
 	@override String sync_last_sync({required Object time}) => 'Dernière synchronisation : ${time}';
-	@override String get sync_mode => 'Mode de synchronisation';
-	@override String get sync_mode_merge => 'Fusionner';
-	@override String get sync_mode_replace => 'Remplacer';
 	@override String get sync_not_signed_in => 'Non connecté';
 	@override String get sync_checking_account => 'Vérification du compte…';
 	@override String get sync_options => 'Options de synchronisation';
@@ -5617,6 +5646,22 @@ class _StringsFr extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -6673,20 +6718,13 @@ class _StringsId extends _StringsEn {
 	@override String get spread_on => 'Nyala';
 	@override String get sync_account => 'Akun';
 	@override String get sync_actions => 'Tindakan';
-	@override String get sync_all => 'Sinkronkan Semua Buku';
 	@override String get sync_audiobook => 'Sinkronkan Posisi Buku Audio';
 	@override String sync_auth_error({required Object message}) => 'Autentikasi gagal: ${message}';
 	@override String get sync_client_id => 'ID Klien Google OAuth';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Sinkronisasi selesai: ${imported} diimpor, ${exported} diekspor, ${synced} tidak berubah.';
 	@override String sync_error({required Object message}) => 'Kesalahan sinkronisasi: ${message}';
-	@override String get sync_import_only => 'Impor Saja';
-	@override String get sync_in_progress => 'Menyinkronkan…';
 	@override String sync_last_sync({required Object time}) => 'Sinkronisasi terakhir: ${time}';
-	@override String get sync_mode => 'Mode Sinkronisasi';
-	@override String get sync_mode_merge => 'Gabungkan';
-	@override String get sync_mode_replace => 'Ganti';
 	@override String get sync_not_signed_in => 'Belum masuk';
 	@override String get sync_checking_account => 'Memeriksa akun…';
 	@override String get sync_options => 'Opsi Sinkronisasi';
@@ -6719,6 +6757,22 @@ class _StringsId extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -7775,20 +7829,13 @@ class _StringsIt extends _StringsEn {
 	@override String get spread_on => 'Attivato';
 	@override String get sync_account => 'Account';
 	@override String get sync_actions => 'Azioni';
-	@override String get sync_all => 'Sincronizza tutti i libri';
 	@override String get sync_audiobook => 'Sincronizza posizione audiolibro';
 	@override String sync_auth_error({required Object message}) => 'Autenticazione fallita: ${message}';
 	@override String get sync_client_id => 'ID client Google OAuth';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Sincronizzazione completata: ${imported} importati, ${exported} esportati, ${synced} invariati.';
 	@override String sync_error({required Object message}) => 'Errore di sincronizzazione: ${message}';
-	@override String get sync_import_only => 'Solo importazione';
-	@override String get sync_in_progress => 'Sincronizzazione…';
 	@override String sync_last_sync({required Object time}) => 'Ultima sincronizzazione: ${time}';
-	@override String get sync_mode => 'Modalità sincronizzazione';
-	@override String get sync_mode_merge => 'Unisci';
-	@override String get sync_mode_replace => 'Sostituisci';
 	@override String get sync_not_signed_in => 'Non connesso';
 	@override String get sync_checking_account => 'Verifica account…';
 	@override String get sync_options => 'Opzioni sincronizzazione';
@@ -7821,6 +7868,22 @@ class _StringsIt extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -8877,20 +8940,13 @@ class _StringsJa extends _StringsEn {
 	@override String get settings_section_update_channel => '更新チャンネル';
 	@override String get sync_account => 'アカウント';
 	@override String get sync_actions => 'アクション';
-	@override String get sync_all => '全書籍を同期';
 	@override String get sync_audiobook => 'オーディオブック位置を同期';
 	@override String sync_auth_error({required Object message}) => '認証失敗：${message}';
 	@override String get sync_client_id => 'Google OAuth クライアントID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => '同期完了：${imported} インポート、${exported} エクスポート、${synced} 変更なし。';
 	@override String sync_error({required Object message}) => '同期エラー：${message}';
-	@override String get sync_import_only => 'インポートのみ';
-	@override String get sync_in_progress => '同期中…';
 	@override String sync_last_sync({required Object time}) => '最終同期：${time}';
-	@override String get sync_mode => '同期モード';
-	@override String get sync_mode_merge => 'マージ';
-	@override String get sync_mode_replace => '置換';
 	@override String get sync_not_signed_in => '未ログイン';
 	@override String get sync_checking_account => 'アカウント確認中…';
 	@override String get sync_options => '同期オプション';
@@ -8923,6 +8979,22 @@ class _StringsJa extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -9979,20 +10051,13 @@ class _StringsKo extends _StringsEn {
 	@override String get spread_on => '켜기';
 	@override String get sync_account => '계정';
 	@override String get sync_actions => '작업';
-	@override String get sync_all => '모든 책 동기화';
 	@override String get sync_audiobook => '오디오북 위치 동기화';
 	@override String sync_auth_error({required Object message}) => '인증 실패: ${message}';
 	@override String get sync_client_id => 'Google OAuth 클라이언트 ID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => '동기화 완료: ${imported} 가져옴, ${exported} 내보냄, ${synced} 변경 없음.';
 	@override String sync_error({required Object message}) => '동기화 오류: ${message}';
-	@override String get sync_import_only => '가져오기만';
-	@override String get sync_in_progress => '동기화 중…';
 	@override String sync_last_sync({required Object time}) => '마지막 동기화: ${time}';
-	@override String get sync_mode => '동기화 모드';
-	@override String get sync_mode_merge => '병합';
-	@override String get sync_mode_replace => '교체';
 	@override String get sync_not_signed_in => '로그인되지 않음';
 	@override String get sync_checking_account => '계정 확인 중…';
 	@override String get sync_options => '동기화 옵션';
@@ -10025,6 +10090,22 @@ class _StringsKo extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -11081,20 +11162,13 @@ class _StringsNl extends _StringsEn {
 	@override String get spread_on => 'Aan';
 	@override String get sync_account => 'Account';
 	@override String get sync_actions => 'Acties';
-	@override String get sync_all => 'Alle boeken synchroniseren';
 	@override String get sync_audiobook => 'Luisterbookpositie synchroniseren';
 	@override String sync_auth_error({required Object message}) => 'Authenticatie mislukt: ${message}';
 	@override String get sync_client_id => 'Google OAuth Client-ID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Synchronisatie voltooid: ${imported} geïmporteerd, ${exported} geëxporteerd, ${synced} ongewijzigd.';
 	@override String sync_error({required Object message}) => 'Synchronisatiefout: ${message}';
-	@override String get sync_import_only => 'Alleen importeren';
-	@override String get sync_in_progress => 'Synchroniseren…';
 	@override String sync_last_sync({required Object time}) => 'Laatste synchronisatie: ${time}';
-	@override String get sync_mode => 'Synchronisatiemodus';
-	@override String get sync_mode_merge => 'Samenvoegen';
-	@override String get sync_mode_replace => 'Vervangen';
 	@override String get sync_not_signed_in => 'Niet aangemeld';
 	@override String get sync_checking_account => 'Account controleren…';
 	@override String get sync_options => 'Synchronisatieopties';
@@ -11127,6 +11201,22 @@ class _StringsNl extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -12183,20 +12273,13 @@ class _StringsPtBr extends _StringsEn {
 	@override String get spread_on => 'Ativado';
 	@override String get sync_account => 'Conta';
 	@override String get sync_actions => 'Ações';
-	@override String get sync_all => 'Sincronizar todos os livros';
 	@override String get sync_audiobook => 'Sincronizar posição do audiolivro';
 	@override String sync_auth_error({required Object message}) => 'Falha na autenticação: ${message}';
 	@override String get sync_client_id => 'ID de cliente Google OAuth';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Sincronização concluída: ${imported} importados, ${exported} exportados, ${synced} inalterados.';
 	@override String sync_error({required Object message}) => 'Erro de sincronização: ${message}';
-	@override String get sync_import_only => 'Apenas importar';
-	@override String get sync_in_progress => 'Sincronizando…';
 	@override String sync_last_sync({required Object time}) => 'Última sincronização: ${time}';
-	@override String get sync_mode => 'Modo de sincronização';
-	@override String get sync_mode_merge => 'Mesclar';
-	@override String get sync_mode_replace => 'Substituir';
 	@override String get sync_not_signed_in => 'Não conectado';
 	@override String get sync_checking_account => 'Verificando conta…';
 	@override String get sync_options => 'Opções de sincronização';
@@ -12229,6 +12312,22 @@ class _StringsPtBr extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -13285,20 +13384,13 @@ class _StringsRu extends _StringsEn {
 	@override String get spread_on => 'Вкл';
 	@override String get sync_account => 'Аккаунт';
 	@override String get sync_actions => 'Действия';
-	@override String get sync_all => 'Синхронизировать все книги';
 	@override String get sync_audiobook => 'Синхронизировать позицию аудиокниги';
 	@override String sync_auth_error({required Object message}) => 'Ошибка аутентификации: ${message}';
 	@override String get sync_client_id => 'ID клиента Google OAuth';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Синхронизация завершена: ${imported} импортировано, ${exported} экспортировано, ${synced} без изменений.';
 	@override String sync_error({required Object message}) => 'Ошибка синхронизации: ${message}';
-	@override String get sync_import_only => 'Только импорт';
-	@override String get sync_in_progress => 'Синхронизация…';
 	@override String sync_last_sync({required Object time}) => 'Последняя синхронизация: ${time}';
-	@override String get sync_mode => 'Режим синхронизации';
-	@override String get sync_mode_merge => 'Объединить';
-	@override String get sync_mode_replace => 'Заменить';
 	@override String get sync_not_signed_in => 'Не авторизован';
 	@override String get sync_checking_account => 'Проверка аккаунта…';
 	@override String get sync_options => 'Параметры синхронизации';
@@ -13331,6 +13423,22 @@ class _StringsRu extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -14387,20 +14495,13 @@ class _StringsTh extends _StringsEn {
 	@override String get spread_on => 'เปิด';
 	@override String get sync_account => 'บัญชี';
 	@override String get sync_actions => 'การดำเนินการ';
-	@override String get sync_all => 'ซิงค์หนังสือทั้งหมด';
 	@override String get sync_audiobook => 'ซิงค์ตำแหน่งหนังสือเสียง';
 	@override String sync_auth_error({required Object message}) => 'การยืนยันตัวตนล้มเหลว: ${message}';
 	@override String get sync_client_id => 'Google OAuth Client ID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'ซิงค์เสร็จสิ้น: นำเข้า ${imported}, ส่งออก ${exported}, ไม่เปลี่ยนแปลง ${synced}';
 	@override String sync_error({required Object message}) => 'ข้อผิดพลาดการซิงค์: ${message}';
-	@override String get sync_import_only => 'นำเข้าเท่านั้น';
-	@override String get sync_in_progress => 'กำลังซิงค์…';
 	@override String sync_last_sync({required Object time}) => 'ซิงค์ล่าสุด: ${time}';
-	@override String get sync_mode => 'โหมดซิงค์';
-	@override String get sync_mode_merge => 'รวม';
-	@override String get sync_mode_replace => 'แทนที่';
 	@override String get sync_not_signed_in => 'ยังไม่ได้เข้าสู่ระบบ';
 	@override String get sync_checking_account => 'กำลังตรวจสอบบัญชี…';
 	@override String get sync_options => 'ตัวเลือกซิงค์';
@@ -14433,6 +14534,22 @@ class _StringsTh extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -15489,20 +15606,13 @@ class _StringsTr extends _StringsEn {
 	@override String get spread_on => 'Açık';
 	@override String get sync_account => 'Hesap';
 	@override String get sync_actions => 'İşlemler';
-	@override String get sync_all => 'Tüm Kitapları Senkronize Et';
 	@override String get sync_audiobook => 'Sesli Kitap Konumunu Senkronize Et';
 	@override String sync_auth_error({required Object message}) => 'Kimlik doğrulama başarısız: ${message}';
 	@override String get sync_client_id => 'Google OAuth İstemci Kimliği';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Senkronizasyon tamamlandı: ${imported} içe aktarıldı, ${exported} dışa aktarıldı, ${synced} değişmedi.';
 	@override String sync_error({required Object message}) => 'Senkronizasyon hatası: ${message}';
-	@override String get sync_import_only => 'Yalnızca İçe Aktar';
-	@override String get sync_in_progress => 'Senkronize ediliyor…';
 	@override String sync_last_sync({required Object time}) => 'Son senkronizasyon: ${time}';
-	@override String get sync_mode => 'Senkronizasyon Modu';
-	@override String get sync_mode_merge => 'Birleştir';
-	@override String get sync_mode_replace => 'Değiştir';
 	@override String get sync_not_signed_in => 'Oturum açılmadı';
 	@override String get sync_checking_account => 'Hesap kontrol ediliyor…';
 	@override String get sync_options => 'Senkronizasyon Seçenekleri';
@@ -15535,6 +15645,22 @@ class _StringsTr extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -16591,20 +16717,13 @@ class _StringsVi extends _StringsEn {
 	@override String get spread_on => 'Bật';
 	@override String get sync_account => 'Tài khoản';
 	@override String get sync_actions => 'Hành động';
-	@override String get sync_all => 'Đồng bộ tất cả sách';
 	@override String get sync_audiobook => 'Đồng bộ vị trí sách nói';
 	@override String sync_auth_error({required Object message}) => 'Xác thực thất bại: ${message}';
 	@override String get sync_client_id => 'Google OAuth Client ID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => 'Đồng bộ hoàn tất: ${imported} đã nhập, ${exported} đã xuất, ${synced} không thay đổi.';
 	@override String sync_error({required Object message}) => 'Lỗi đồng bộ: ${message}';
-	@override String get sync_import_only => 'Chỉ nhập';
-	@override String get sync_in_progress => 'Đang đồng bộ…';
 	@override String sync_last_sync({required Object time}) => 'Lần đồng bộ cuối: ${time}';
-	@override String get sync_mode => 'Chế độ đồng bộ';
-	@override String get sync_mode_merge => 'Hợp nhất';
-	@override String get sync_mode_replace => 'Thay thế';
 	@override String get sync_not_signed_in => 'Chưa đăng nhập';
 	@override String get sync_checking_account => 'Đang kiểm tra tài khoản…';
 	@override String get sync_options => 'Tùy chọn đồng bộ';
@@ -16637,6 +16756,22 @@ class _StringsVi extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -17696,20 +17831,13 @@ class _StringsZhCn extends _StringsEn {
 	@override String audio_source_timeout({required Object host}) => '音频源超时："${host}" — 服务器无响应，请稍后重试或更换音频源';
 	@override String get sync_account => '账户';
 	@override String get sync_actions => '操作';
-	@override String get sync_all => '同步所有书籍';
 	@override String get sync_audiobook => '同步有声书位置';
 	@override String sync_auth_error({required Object message}) => '认证失败：${message}';
 	@override String get sync_client_id => 'Google OAuth 客户端 ID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => '同步完成：${imported} 已导入，${exported} 已导出，${synced} 无变更。';
 	@override String sync_error({required Object message}) => '同步错误：${message}';
-	@override String get sync_import_only => '仅导入';
-	@override String get sync_in_progress => '同步中…';
 	@override String sync_last_sync({required Object time}) => '上次同步：${time}';
-	@override String get sync_mode => '同步模式';
-	@override String get sync_mode_merge => '合并';
-	@override String get sync_mode_replace => '替换';
 	@override String get sync_not_signed_in => '未登录';
 	@override String get sync_checking_account => '正在检查账户…';
 	@override String get sync_options => '同步选项';
@@ -17739,6 +17867,22 @@ class _StringsZhCn extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => '自动同步';
+	@override String sync_auto_complete({required Object direction, required Object title}) => '同步: ${direction} ${title}';
+	@override String get no_matching_audio_cue => '该语句没有匹配的音频';
+	@override String get sync_exit_warning_title => '同步进行中';
+	@override String get sync_exit_warning => '同步尚未完成，现在退出可能会丢失数据。';
+	@override String get sync_content => '同步书籍文件';
+	@override String get sync_content_warning => '大文件会消耗存储空间和流量';
+	@override String get sync_backend => '存储后端';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => '服务器地址';
+	@override String get sync_webdav_username => '用户名';
+	@override String get sync_webdav_password => '密码';
+	@override String get sync_webdav_test => '测试连接';
+	@override String get sync_webdav_test_success => '连接成功';
+	@override String sync_webdav_test_failed({required Object message}) => '连接失败: ${message}';
 }
 
 // Path: retrying_in
@@ -18795,20 +18939,13 @@ class _StringsZhHk extends _StringsEn {
 	@override String get spread_on => '開啟';
 	@override String get sync_account => '帳戶';
 	@override String get sync_actions => '操作';
-	@override String get sync_all => '同步所有書籍';
 	@override String get sync_audiobook => '同步有聲書位置';
 	@override String sync_auth_error({required Object message}) => '認證失敗：${message}';
 	@override String get sync_client_id => 'Google OAuth 用戶端 ID';
 	@override String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
 	@override String get sync_client_secret => 'Client Secret';
-	@override String sync_complete({required Object imported, required Object exported, required Object synced}) => '同步完成：${imported} 已匯入，${exported} 已匯出，${synced} 無變更。';
 	@override String sync_error({required Object message}) => '同步錯誤：${message}';
-	@override String get sync_import_only => '僅匯入';
-	@override String get sync_in_progress => '同步中…';
 	@override String sync_last_sync({required Object time}) => '上次同步：${time}';
-	@override String get sync_mode => '同步模式';
-	@override String get sync_mode_merge => '合併';
-	@override String get sync_mode_replace => '取代';
 	@override String get sync_not_signed_in => '未登入';
 	@override String get sync_checking_account => '正在檢查帳戶…';
 	@override String get sync_options => '同步選項';
@@ -18841,6 +18978,22 @@ class _StringsZhHk extends _StringsEn {
 	@override String get sync_compare_skip => 'Skip';
 	@override String sync_compare_applied({required Object count}) => 'Applied ${count} changes';
 	@override String sync_compare_apply({required Object count}) => 'Apply (${count})';
+	@override String get sync_auto_sync => 'Auto Sync';
+	@override String sync_auto_complete({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+	@override String get no_matching_audio_cue => 'No matching audio for this sentence';
+	@override String get sync_exit_warning_title => 'Sync In Progress';
+	@override String get sync_exit_warning => 'Sync is still in progress. Exiting now may cause data loss.';
+	@override String get sync_content => 'Sync book files';
+	@override String get sync_content_warning => 'Large files will use storage space and data';
+	@override String get sync_backend => 'Storage backend';
+	@override String get sync_backend_google_drive => 'Google Drive';
+	@override String get sync_backend_webdav => 'WebDAV';
+	@override String get sync_webdav_url => 'Server URL';
+	@override String get sync_webdav_username => 'Username';
+	@override String get sync_webdav_password => 'Password';
+	@override String get sync_webdav_test => 'Test connection';
+	@override String get sync_webdav_test_success => 'Connection successful';
+	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
 }
 
 // Path: retrying_in
@@ -19897,16 +20050,9 @@ extension on _StringsEn {
 			case 'sync_not_signed_in': return 'Not signed in';
 			case 'sync_checking_account': return 'Checking account…';
 			case 'sync_options': return 'Sync Options';
-			case 'sync_mode': return 'Sync Mode';
-			case 'sync_mode_merge': return 'Merge';
-			case 'sync_mode_replace': return 'Replace';
 			case 'sync_statistics': return 'Sync Statistics';
 			case 'sync_audiobook': return 'Sync Audiobook Position';
 			case 'sync_actions': return 'Actions';
-			case 'sync_all': return 'Sync All Books';
-			case 'sync_import_only': return 'Import Only';
-			case 'sync_in_progress': return 'Syncing…';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Sync complete: ${imported} imported, ${exported} exported, ${synced} unchanged.';
 			case 'sync_error': return ({required Object message}) => 'Sync error: ${message}';
 			case 'sync_auth_error': return ({required Object message}) => 'Authentication failed: ${message}';
 			case 'sync_last_sync': return ({required Object time}) => 'Last sync: ${time}';
@@ -19928,6 +20074,22 @@ extension on _StringsEn {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -20943,20 +21105,13 @@ extension on _StringsAr {
 			case 'spread_on': return 'تشغيل';
 			case 'sync_account': return 'الحساب';
 			case 'sync_actions': return 'الإجراءات';
-			case 'sync_all': return 'مزامنة كل الكتب';
 			case 'sync_audiobook': return 'مزامنة موضع الكتاب الصوتي';
 			case 'sync_auth_error': return ({required Object message}) => 'فشلت المصادقة: ${message}';
 			case 'sync_client_id': return 'معرّف عميل Google OAuth';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'اكتملت المزامنة: ${imported} مستوردة، ${exported} مصدّرة، ${synced} بدون تغيير.';
 			case 'sync_error': return ({required Object message}) => 'خطأ في المزامنة: ${message}';
-			case 'sync_import_only': return 'استيراد فقط';
-			case 'sync_in_progress': return 'جارٍ المزامنة…';
 			case 'sync_last_sync': return ({required Object time}) => 'آخر مزامنة: ${time}';
-			case 'sync_mode': return 'وضع المزامنة';
-			case 'sync_mode_merge': return 'دمج';
-			case 'sync_mode_replace': return 'استبدال';
 			case 'sync_not_signed_in': return 'لم يتم تسجيل الدخول';
 			case 'sync_checking_account': return 'جارٍ التحقق من الحساب…';
 			case 'sync_options': return 'خيارات المزامنة';
@@ -20989,6 +21144,22 @@ extension on _StringsAr {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -22004,20 +22175,13 @@ extension on _StringsDe {
 			case 'spread_on': return 'Ein';
 			case 'sync_account': return 'Konto';
 			case 'sync_actions': return 'Aktionen';
-			case 'sync_all': return 'Alle Bücher synchronisieren';
 			case 'sync_audiobook': return 'Hörbuchposition synchronisieren';
 			case 'sync_auth_error': return ({required Object message}) => 'Authentifizierung fehlgeschlagen: ${message}';
 			case 'sync_client_id': return 'Google OAuth Client-ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Synchronisierung abgeschlossen: ${imported} importiert, ${exported} exportiert, ${synced} unverändert.';
 			case 'sync_error': return ({required Object message}) => 'Synchronisierungsfehler: ${message}';
-			case 'sync_import_only': return 'Nur importieren';
-			case 'sync_in_progress': return 'Synchronisierung…';
 			case 'sync_last_sync': return ({required Object time}) => 'Letzte Synchronisierung: ${time}';
-			case 'sync_mode': return 'Synchronisierungsmodus';
-			case 'sync_mode_merge': return 'Zusammenführen';
-			case 'sync_mode_replace': return 'Ersetzen';
 			case 'sync_not_signed_in': return 'Nicht angemeldet';
 			case 'sync_checking_account': return 'Konto wird überprüft…';
 			case 'sync_options': return 'Synchronisierungsoptionen';
@@ -22050,6 +22214,22 @@ extension on _StringsDe {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -23065,20 +23245,13 @@ extension on _StringsEs {
 			case 'spread_on': return 'Activado';
 			case 'sync_account': return 'Cuenta';
 			case 'sync_actions': return 'Acciones';
-			case 'sync_all': return 'Sincronizar todos los libros';
 			case 'sync_audiobook': return 'Sincronizar posición del audiolibro';
 			case 'sync_auth_error': return ({required Object message}) => 'Error de autenticación: ${message}';
 			case 'sync_client_id': return 'ID de cliente Google OAuth';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Sincronización completa: ${imported} importados, ${exported} exportados, ${synced} sin cambios.';
 			case 'sync_error': return ({required Object message}) => 'Error de sincronización: ${message}';
-			case 'sync_import_only': return 'Solo importar';
-			case 'sync_in_progress': return 'Sincronizando…';
 			case 'sync_last_sync': return ({required Object time}) => 'Última sincronización: ${time}';
-			case 'sync_mode': return 'Modo de sincronización';
-			case 'sync_mode_merge': return 'Combinar';
-			case 'sync_mode_replace': return 'Reemplazar';
 			case 'sync_not_signed_in': return 'No conectado';
 			case 'sync_checking_account': return 'Verificando cuenta…';
 			case 'sync_options': return 'Opciones de sincronización';
@@ -23111,6 +23284,22 @@ extension on _StringsEs {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -24126,20 +24315,13 @@ extension on _StringsFr {
 			case 'spread_on': return 'Activé';
 			case 'sync_account': return 'Compte';
 			case 'sync_actions': return 'Actions';
-			case 'sync_all': return 'Synchroniser tous les livres';
 			case 'sync_audiobook': return 'Synchroniser la position du livre audio';
 			case 'sync_auth_error': return ({required Object message}) => 'Échec de l\'authentification : ${message}';
 			case 'sync_client_id': return 'ID client Google OAuth';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Synchronisation terminée : ${imported} importés, ${exported} exportés, ${synced} inchangés.';
 			case 'sync_error': return ({required Object message}) => 'Erreur de synchronisation : ${message}';
-			case 'sync_import_only': return 'Importer seulement';
-			case 'sync_in_progress': return 'Synchronisation…';
 			case 'sync_last_sync': return ({required Object time}) => 'Dernière synchronisation : ${time}';
-			case 'sync_mode': return 'Mode de synchronisation';
-			case 'sync_mode_merge': return 'Fusionner';
-			case 'sync_mode_replace': return 'Remplacer';
 			case 'sync_not_signed_in': return 'Non connecté';
 			case 'sync_checking_account': return 'Vérification du compte…';
 			case 'sync_options': return 'Options de synchronisation';
@@ -24172,6 +24354,22 @@ extension on _StringsFr {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -25187,20 +25385,13 @@ extension on _StringsId {
 			case 'spread_on': return 'Nyala';
 			case 'sync_account': return 'Akun';
 			case 'sync_actions': return 'Tindakan';
-			case 'sync_all': return 'Sinkronkan Semua Buku';
 			case 'sync_audiobook': return 'Sinkronkan Posisi Buku Audio';
 			case 'sync_auth_error': return ({required Object message}) => 'Autentikasi gagal: ${message}';
 			case 'sync_client_id': return 'ID Klien Google OAuth';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Sinkronisasi selesai: ${imported} diimpor, ${exported} diekspor, ${synced} tidak berubah.';
 			case 'sync_error': return ({required Object message}) => 'Kesalahan sinkronisasi: ${message}';
-			case 'sync_import_only': return 'Impor Saja';
-			case 'sync_in_progress': return 'Menyinkronkan…';
 			case 'sync_last_sync': return ({required Object time}) => 'Sinkronisasi terakhir: ${time}';
-			case 'sync_mode': return 'Mode Sinkronisasi';
-			case 'sync_mode_merge': return 'Gabungkan';
-			case 'sync_mode_replace': return 'Ganti';
 			case 'sync_not_signed_in': return 'Belum masuk';
 			case 'sync_checking_account': return 'Memeriksa akun…';
 			case 'sync_options': return 'Opsi Sinkronisasi';
@@ -25233,6 +25424,22 @@ extension on _StringsId {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -26248,20 +26455,13 @@ extension on _StringsIt {
 			case 'spread_on': return 'Attivato';
 			case 'sync_account': return 'Account';
 			case 'sync_actions': return 'Azioni';
-			case 'sync_all': return 'Sincronizza tutti i libri';
 			case 'sync_audiobook': return 'Sincronizza posizione audiolibro';
 			case 'sync_auth_error': return ({required Object message}) => 'Autenticazione fallita: ${message}';
 			case 'sync_client_id': return 'ID client Google OAuth';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Sincronizzazione completata: ${imported} importati, ${exported} esportati, ${synced} invariati.';
 			case 'sync_error': return ({required Object message}) => 'Errore di sincronizzazione: ${message}';
-			case 'sync_import_only': return 'Solo importazione';
-			case 'sync_in_progress': return 'Sincronizzazione…';
 			case 'sync_last_sync': return ({required Object time}) => 'Ultima sincronizzazione: ${time}';
-			case 'sync_mode': return 'Modalità sincronizzazione';
-			case 'sync_mode_merge': return 'Unisci';
-			case 'sync_mode_replace': return 'Sostituisci';
 			case 'sync_not_signed_in': return 'Non connesso';
 			case 'sync_checking_account': return 'Verifica account…';
 			case 'sync_options': return 'Opzioni sincronizzazione';
@@ -26294,6 +26494,22 @@ extension on _StringsIt {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -27309,20 +27525,13 @@ extension on _StringsJa {
 			case 'settings_section_update_channel': return '更新チャンネル';
 			case 'sync_account': return 'アカウント';
 			case 'sync_actions': return 'アクション';
-			case 'sync_all': return '全書籍を同期';
 			case 'sync_audiobook': return 'オーディオブック位置を同期';
 			case 'sync_auth_error': return ({required Object message}) => '認証失敗：${message}';
 			case 'sync_client_id': return 'Google OAuth クライアントID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => '同期完了：${imported} インポート、${exported} エクスポート、${synced} 変更なし。';
 			case 'sync_error': return ({required Object message}) => '同期エラー：${message}';
-			case 'sync_import_only': return 'インポートのみ';
-			case 'sync_in_progress': return '同期中…';
 			case 'sync_last_sync': return ({required Object time}) => '最終同期：${time}';
-			case 'sync_mode': return '同期モード';
-			case 'sync_mode_merge': return 'マージ';
-			case 'sync_mode_replace': return '置換';
 			case 'sync_not_signed_in': return '未ログイン';
 			case 'sync_checking_account': return 'アカウント確認中…';
 			case 'sync_options': return '同期オプション';
@@ -27355,6 +27564,22 @@ extension on _StringsJa {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -28370,20 +28595,13 @@ extension on _StringsKo {
 			case 'spread_on': return '켜기';
 			case 'sync_account': return '계정';
 			case 'sync_actions': return '작업';
-			case 'sync_all': return '모든 책 동기화';
 			case 'sync_audiobook': return '오디오북 위치 동기화';
 			case 'sync_auth_error': return ({required Object message}) => '인증 실패: ${message}';
 			case 'sync_client_id': return 'Google OAuth 클라이언트 ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => '동기화 완료: ${imported} 가져옴, ${exported} 내보냄, ${synced} 변경 없음.';
 			case 'sync_error': return ({required Object message}) => '동기화 오류: ${message}';
-			case 'sync_import_only': return '가져오기만';
-			case 'sync_in_progress': return '동기화 중…';
 			case 'sync_last_sync': return ({required Object time}) => '마지막 동기화: ${time}';
-			case 'sync_mode': return '동기화 모드';
-			case 'sync_mode_merge': return '병합';
-			case 'sync_mode_replace': return '교체';
 			case 'sync_not_signed_in': return '로그인되지 않음';
 			case 'sync_checking_account': return '계정 확인 중…';
 			case 'sync_options': return '동기화 옵션';
@@ -28416,6 +28634,22 @@ extension on _StringsKo {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -29431,20 +29665,13 @@ extension on _StringsNl {
 			case 'spread_on': return 'Aan';
 			case 'sync_account': return 'Account';
 			case 'sync_actions': return 'Acties';
-			case 'sync_all': return 'Alle boeken synchroniseren';
 			case 'sync_audiobook': return 'Luisterbookpositie synchroniseren';
 			case 'sync_auth_error': return ({required Object message}) => 'Authenticatie mislukt: ${message}';
 			case 'sync_client_id': return 'Google OAuth Client-ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Synchronisatie voltooid: ${imported} geïmporteerd, ${exported} geëxporteerd, ${synced} ongewijzigd.';
 			case 'sync_error': return ({required Object message}) => 'Synchronisatiefout: ${message}';
-			case 'sync_import_only': return 'Alleen importeren';
-			case 'sync_in_progress': return 'Synchroniseren…';
 			case 'sync_last_sync': return ({required Object time}) => 'Laatste synchronisatie: ${time}';
-			case 'sync_mode': return 'Synchronisatiemodus';
-			case 'sync_mode_merge': return 'Samenvoegen';
-			case 'sync_mode_replace': return 'Vervangen';
 			case 'sync_not_signed_in': return 'Niet aangemeld';
 			case 'sync_checking_account': return 'Account controleren…';
 			case 'sync_options': return 'Synchronisatieopties';
@@ -29477,6 +29704,22 @@ extension on _StringsNl {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -30492,20 +30735,13 @@ extension on _StringsPtBr {
 			case 'spread_on': return 'Ativado';
 			case 'sync_account': return 'Conta';
 			case 'sync_actions': return 'Ações';
-			case 'sync_all': return 'Sincronizar todos os livros';
 			case 'sync_audiobook': return 'Sincronizar posição do audiolivro';
 			case 'sync_auth_error': return ({required Object message}) => 'Falha na autenticação: ${message}';
 			case 'sync_client_id': return 'ID de cliente Google OAuth';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Sincronização concluída: ${imported} importados, ${exported} exportados, ${synced} inalterados.';
 			case 'sync_error': return ({required Object message}) => 'Erro de sincronização: ${message}';
-			case 'sync_import_only': return 'Apenas importar';
-			case 'sync_in_progress': return 'Sincronizando…';
 			case 'sync_last_sync': return ({required Object time}) => 'Última sincronização: ${time}';
-			case 'sync_mode': return 'Modo de sincronização';
-			case 'sync_mode_merge': return 'Mesclar';
-			case 'sync_mode_replace': return 'Substituir';
 			case 'sync_not_signed_in': return 'Não conectado';
 			case 'sync_checking_account': return 'Verificando conta…';
 			case 'sync_options': return 'Opções de sincronização';
@@ -30538,6 +30774,22 @@ extension on _StringsPtBr {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -31553,20 +31805,13 @@ extension on _StringsRu {
 			case 'spread_on': return 'Вкл';
 			case 'sync_account': return 'Аккаунт';
 			case 'sync_actions': return 'Действия';
-			case 'sync_all': return 'Синхронизировать все книги';
 			case 'sync_audiobook': return 'Синхронизировать позицию аудиокниги';
 			case 'sync_auth_error': return ({required Object message}) => 'Ошибка аутентификации: ${message}';
 			case 'sync_client_id': return 'ID клиента Google OAuth';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Синхронизация завершена: ${imported} импортировано, ${exported} экспортировано, ${synced} без изменений.';
 			case 'sync_error': return ({required Object message}) => 'Ошибка синхронизации: ${message}';
-			case 'sync_import_only': return 'Только импорт';
-			case 'sync_in_progress': return 'Синхронизация…';
 			case 'sync_last_sync': return ({required Object time}) => 'Последняя синхронизация: ${time}';
-			case 'sync_mode': return 'Режим синхронизации';
-			case 'sync_mode_merge': return 'Объединить';
-			case 'sync_mode_replace': return 'Заменить';
 			case 'sync_not_signed_in': return 'Не авторизован';
 			case 'sync_checking_account': return 'Проверка аккаунта…';
 			case 'sync_options': return 'Параметры синхронизации';
@@ -31599,6 +31844,22 @@ extension on _StringsRu {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -32614,20 +32875,13 @@ extension on _StringsTh {
 			case 'spread_on': return 'เปิด';
 			case 'sync_account': return 'บัญชี';
 			case 'sync_actions': return 'การดำเนินการ';
-			case 'sync_all': return 'ซิงค์หนังสือทั้งหมด';
 			case 'sync_audiobook': return 'ซิงค์ตำแหน่งหนังสือเสียง';
 			case 'sync_auth_error': return ({required Object message}) => 'การยืนยันตัวตนล้มเหลว: ${message}';
 			case 'sync_client_id': return 'Google OAuth Client ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'ซิงค์เสร็จสิ้น: นำเข้า ${imported}, ส่งออก ${exported}, ไม่เปลี่ยนแปลง ${synced}';
 			case 'sync_error': return ({required Object message}) => 'ข้อผิดพลาดการซิงค์: ${message}';
-			case 'sync_import_only': return 'นำเข้าเท่านั้น';
-			case 'sync_in_progress': return 'กำลังซิงค์…';
 			case 'sync_last_sync': return ({required Object time}) => 'ซิงค์ล่าสุด: ${time}';
-			case 'sync_mode': return 'โหมดซิงค์';
-			case 'sync_mode_merge': return 'รวม';
-			case 'sync_mode_replace': return 'แทนที่';
 			case 'sync_not_signed_in': return 'ยังไม่ได้เข้าสู่ระบบ';
 			case 'sync_checking_account': return 'กำลังตรวจสอบบัญชี…';
 			case 'sync_options': return 'ตัวเลือกซิงค์';
@@ -32660,6 +32914,22 @@ extension on _StringsTh {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -33675,20 +33945,13 @@ extension on _StringsTr {
 			case 'spread_on': return 'Açık';
 			case 'sync_account': return 'Hesap';
 			case 'sync_actions': return 'İşlemler';
-			case 'sync_all': return 'Tüm Kitapları Senkronize Et';
 			case 'sync_audiobook': return 'Sesli Kitap Konumunu Senkronize Et';
 			case 'sync_auth_error': return ({required Object message}) => 'Kimlik doğrulama başarısız: ${message}';
 			case 'sync_client_id': return 'Google OAuth İstemci Kimliği';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Senkronizasyon tamamlandı: ${imported} içe aktarıldı, ${exported} dışa aktarıldı, ${synced} değişmedi.';
 			case 'sync_error': return ({required Object message}) => 'Senkronizasyon hatası: ${message}';
-			case 'sync_import_only': return 'Yalnızca İçe Aktar';
-			case 'sync_in_progress': return 'Senkronize ediliyor…';
 			case 'sync_last_sync': return ({required Object time}) => 'Son senkronizasyon: ${time}';
-			case 'sync_mode': return 'Senkronizasyon Modu';
-			case 'sync_mode_merge': return 'Birleştir';
-			case 'sync_mode_replace': return 'Değiştir';
 			case 'sync_not_signed_in': return 'Oturum açılmadı';
 			case 'sync_checking_account': return 'Hesap kontrol ediliyor…';
 			case 'sync_options': return 'Senkronizasyon Seçenekleri';
@@ -33721,6 +33984,22 @@ extension on _StringsTr {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -34736,20 +35015,13 @@ extension on _StringsVi {
 			case 'spread_on': return 'Bật';
 			case 'sync_account': return 'Tài khoản';
 			case 'sync_actions': return 'Hành động';
-			case 'sync_all': return 'Đồng bộ tất cả sách';
 			case 'sync_audiobook': return 'Đồng bộ vị trí sách nói';
 			case 'sync_auth_error': return ({required Object message}) => 'Xác thực thất bại: ${message}';
 			case 'sync_client_id': return 'Google OAuth Client ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => 'Đồng bộ hoàn tất: ${imported} đã nhập, ${exported} đã xuất, ${synced} không thay đổi.';
 			case 'sync_error': return ({required Object message}) => 'Lỗi đồng bộ: ${message}';
-			case 'sync_import_only': return 'Chỉ nhập';
-			case 'sync_in_progress': return 'Đang đồng bộ…';
 			case 'sync_last_sync': return ({required Object time}) => 'Lần đồng bộ cuối: ${time}';
-			case 'sync_mode': return 'Chế độ đồng bộ';
-			case 'sync_mode_merge': return 'Hợp nhất';
-			case 'sync_mode_replace': return 'Thay thế';
 			case 'sync_not_signed_in': return 'Chưa đăng nhập';
 			case 'sync_checking_account': return 'Đang kiểm tra tài khoản…';
 			case 'sync_options': return 'Tùy chọn đồng bộ';
@@ -34782,6 +35054,22 @@ extension on _StringsVi {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
@@ -35800,20 +36088,13 @@ extension on _StringsZhCn {
 			case 'audio_source_timeout': return ({required Object host}) => '音频源超时："${host}" — 服务器无响应，请稍后重试或更换音频源';
 			case 'sync_account': return '账户';
 			case 'sync_actions': return '操作';
-			case 'sync_all': return '同步所有书籍';
 			case 'sync_audiobook': return '同步有声书位置';
 			case 'sync_auth_error': return ({required Object message}) => '认证失败：${message}';
 			case 'sync_client_id': return 'Google OAuth 客户端 ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => '同步完成：${imported} 已导入，${exported} 已导出，${synced} 无变更。';
 			case 'sync_error': return ({required Object message}) => '同步错误：${message}';
-			case 'sync_import_only': return '仅导入';
-			case 'sync_in_progress': return '同步中…';
 			case 'sync_last_sync': return ({required Object time}) => '上次同步：${time}';
-			case 'sync_mode': return '同步模式';
-			case 'sync_mode_merge': return '合并';
-			case 'sync_mode_replace': return '替换';
 			case 'sync_not_signed_in': return '未登录';
 			case 'sync_checking_account': return '正在检查账户…';
 			case 'sync_options': return '同步选项';
@@ -35843,6 +36124,22 @@ extension on _StringsZhCn {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return '自动同步';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => '同步: ${direction} ${title}';
+			case 'no_matching_audio_cue': return '该语句没有匹配的音频';
+			case 'sync_exit_warning_title': return '同步进行中';
+			case 'sync_exit_warning': return '同步尚未完成，现在退出可能会丢失数据。';
+			case 'sync_content': return '同步书籍文件';
+			case 'sync_content_warning': return '大文件会消耗存储空间和流量';
+			case 'sync_backend': return '存储后端';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return '服务器地址';
+			case 'sync_webdav_username': return '用户名';
+			case 'sync_webdav_password': return '密码';
+			case 'sync_webdav_test': return '测试连接';
+			case 'sync_webdav_test_success': return '连接成功';
+			case 'sync_webdav_test_failed': return ({required Object message}) => '连接失败: ${message}';
 			default: return null;
 		}
 	}
@@ -36858,20 +37155,13 @@ extension on _StringsZhHk {
 			case 'spread_on': return '開啟';
 			case 'sync_account': return '帳戶';
 			case 'sync_actions': return '操作';
-			case 'sync_all': return '同步所有書籍';
 			case 'sync_audiobook': return '同步有聲書位置';
 			case 'sync_auth_error': return ({required Object message}) => '認證失敗：${message}';
 			case 'sync_client_id': return 'Google OAuth 用戶端 ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
 			case 'sync_client_secret': return 'Client Secret';
-			case 'sync_complete': return ({required Object imported, required Object exported, required Object synced}) => '同步完成：${imported} 已匯入，${exported} 已匯出，${synced} 無變更。';
 			case 'sync_error': return ({required Object message}) => '同步錯誤：${message}';
-			case 'sync_import_only': return '僅匯入';
-			case 'sync_in_progress': return '同步中…';
 			case 'sync_last_sync': return ({required Object time}) => '上次同步：${time}';
-			case 'sync_mode': return '同步模式';
-			case 'sync_mode_merge': return '合併';
-			case 'sync_mode_replace': return '取代';
 			case 'sync_not_signed_in': return '未登入';
 			case 'sync_checking_account': return '正在檢查帳戶…';
 			case 'sync_options': return '同步選項';
@@ -36904,6 +37194,22 @@ extension on _StringsZhHk {
 			case 'sync_compare_skip': return 'Skip';
 			case 'sync_compare_applied': return ({required Object count}) => 'Applied ${count} changes';
 			case 'sync_compare_apply': return ({required Object count}) => 'Apply (${count})';
+			case 'sync_auto_sync': return 'Auto Sync';
+			case 'sync_auto_complete': return ({required Object direction, required Object title}) => 'Sync: ${direction} ${title}';
+			case 'no_matching_audio_cue': return 'No matching audio for this sentence';
+			case 'sync_exit_warning_title': return 'Sync In Progress';
+			case 'sync_exit_warning': return 'Sync is still in progress. Exiting now may cause data loss.';
+			case 'sync_content': return 'Sync book files';
+			case 'sync_content_warning': return 'Large files will use storage space and data';
+			case 'sync_backend': return 'Storage backend';
+			case 'sync_backend_google_drive': return 'Google Drive';
+			case 'sync_backend_webdav': return 'WebDAV';
+			case 'sync_webdav_url': return 'Server URL';
+			case 'sync_webdav_username': return 'Username';
+			case 'sync_webdav_password': return 'Password';
+			case 'sync_webdav_test': return 'Test connection';
+			case 'sync_webdav_test_success': return 'Connection successful';
+			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
 			default: return null;
 		}
 	}
