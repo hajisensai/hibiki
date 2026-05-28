@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 18343 (1079 per locale)
+/// Strings: 18360 (1080 per locale)
 ///
-/// Built on 2026-05-28 at 07:01 UTC
+/// Built on 2026-05-28 at 12:54 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1239,6 +1239,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get backup_import_invalid => 'Invalid backup file';
 	String get backup_exporting => 'Creating backup…';
 	String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -2371,6 +2372,7 @@ class _StringsAr extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -3503,6 +3505,7 @@ class _StringsDe extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -4635,6 +4638,7 @@ class _StringsEs extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -5767,6 +5771,7 @@ class _StringsFr extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -6899,6 +6904,7 @@ class _StringsId extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -8031,6 +8037,7 @@ class _StringsIt extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -9163,6 +9170,7 @@ class _StringsJa extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -10295,6 +10303,7 @@ class _StringsKo extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -11427,6 +11436,7 @@ class _StringsNl extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -12559,6 +12569,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -13691,6 +13702,7 @@ class _StringsRu extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -14823,6 +14835,7 @@ class _StringsTh extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -15955,6 +15968,7 @@ class _StringsTr extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -17087,6 +17101,7 @@ class _StringsVi extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -18219,6 +18234,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get backup_import_invalid => '无效的备份文件';
 	@override String get backup_exporting => '正在创建备份…';
 	@override String backup_schema_newer({required Object version}) => '此备份需要更新版本的应用（schema ${version}）。请先更新。';
+	@override String get reverse_navigation_bar => '反转底栏方向';
 }
 
 // Path: retrying_in
@@ -19351,6 +19367,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get backup_import_invalid => 'Invalid backup file';
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 }
 
 // Path: retrying_in
@@ -20468,6 +20485,7 @@ extension on _StringsEn {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -21559,6 +21577,7 @@ extension on _StringsAr {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -22650,6 +22669,7 @@ extension on _StringsDe {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -23741,6 +23761,7 @@ extension on _StringsEs {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -24832,6 +24853,7 @@ extension on _StringsFr {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -25923,6 +25945,7 @@ extension on _StringsId {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -27014,6 +27037,7 @@ extension on _StringsIt {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -28105,6 +28129,7 @@ extension on _StringsJa {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -29196,6 +29221,7 @@ extension on _StringsKo {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -30287,6 +30313,7 @@ extension on _StringsNl {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -31378,6 +31405,7 @@ extension on _StringsPtBr {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -32469,6 +32497,7 @@ extension on _StringsRu {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -33560,6 +33589,7 @@ extension on _StringsTh {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -34651,6 +34681,7 @@ extension on _StringsTr {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -35742,6 +35773,7 @@ extension on _StringsVi {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
@@ -36833,6 +36865,7 @@ extension on _StringsZhCn {
 			case 'backup_import_invalid': return '无效的备份文件';
 			case 'backup_exporting': return '正在创建备份…';
 			case 'backup_schema_newer': return ({required Object version}) => '此备份需要更新版本的应用（schema ${version}）。请先更新。';
+			case 'reverse_navigation_bar': return '反转底栏方向';
 			default: return null;
 		}
 	}
@@ -37924,6 +37957,7 @@ extension on _StringsZhHk {
 			case 'backup_import_invalid': return 'Invalid backup file';
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
+			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			default: return null;
 		}
 	}
