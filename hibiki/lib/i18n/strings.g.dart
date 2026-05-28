@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 19329 (1137 per locale)
 ///
-/// Built on 2026-05-28 at 15:08 UTC
+/// Built on 2026-05-28 at 16:07 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1290,7 +1290,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	String get shortcut_press_key => 'Press a key combination...';
 	String get shortcut_press_gamepad => 'Press a gamepad button...';
-	String get shortcut_conflict => 'Already used by: {s}';
+	String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	String get shortcut_reset_defaults => 'Reset to Defaults';
 	String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	String get shortcut_keyboard => 'Keyboard';
@@ -2480,7 +2480,7 @@ class _StringsAr extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -3670,7 +3670,7 @@ class _StringsDe extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -4860,7 +4860,7 @@ class _StringsEs extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -6050,7 +6050,7 @@ class _StringsFr extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -7240,7 +7240,7 @@ class _StringsId extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -8430,7 +8430,7 @@ class _StringsIt extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -9620,7 +9620,7 @@ class _StringsJa extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -10810,7 +10810,7 @@ class _StringsKo extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -12000,7 +12000,7 @@ class _StringsNl extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -13190,7 +13190,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -14380,7 +14380,7 @@ class _StringsRu extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -15570,7 +15570,7 @@ class _StringsTh extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -16760,7 +16760,7 @@ class _StringsTr extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -17950,7 +17950,7 @@ class _StringsVi extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -19140,7 +19140,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => '上一句';
 	@override String get shortcut_press_key => '请按下快捷键组合...';
 	@override String get shortcut_press_gamepad => '请按下手柄按钮...';
-	@override String get shortcut_conflict => '已被占用：{s}';
+	@override String shortcut_conflict({required Object s}) => '已被占用：${s}';
 	@override String get shortcut_reset_defaults => '恢复默认';
 	@override String get shortcut_reset_confirm => '确定要将此部分的所有快捷键恢复为默认值吗？';
 	@override String get shortcut_keyboard => '键盘';
@@ -20330,7 +20330,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
 	@override String get shortcut_press_key => 'Press a key combination...';
 	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
-	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
 	@override String get shortcut_reset_defaults => 'Reset to Defaults';
 	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
 	@override String get shortcut_keyboard => 'Keyboard';
@@ -21505,7 +21505,7 @@ extension on _StringsEn {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -22654,7 +22654,7 @@ extension on _StringsAr {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -23803,7 +23803,7 @@ extension on _StringsDe {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -24952,7 +24952,7 @@ extension on _StringsEs {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -26101,7 +26101,7 @@ extension on _StringsFr {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -27250,7 +27250,7 @@ extension on _StringsId {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -28399,7 +28399,7 @@ extension on _StringsIt {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -29548,7 +29548,7 @@ extension on _StringsJa {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -30697,7 +30697,7 @@ extension on _StringsKo {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -31846,7 +31846,7 @@ extension on _StringsNl {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -32995,7 +32995,7 @@ extension on _StringsPtBr {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -34144,7 +34144,7 @@ extension on _StringsRu {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -35293,7 +35293,7 @@ extension on _StringsTh {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -36442,7 +36442,7 @@ extension on _StringsTr {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -37591,7 +37591,7 @@ extension on _StringsVi {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
@@ -38740,7 +38740,7 @@ extension on _StringsZhCn {
 			case 'shortcut_action_audiobook_prev_sentence': return '上一句';
 			case 'shortcut_press_key': return '请按下快捷键组合...';
 			case 'shortcut_press_gamepad': return '请按下手柄按钮...';
-			case 'shortcut_conflict': return '已被占用：{s}';
+			case 'shortcut_conflict': return ({required Object s}) => '已被占用：${s}';
 			case 'shortcut_reset_defaults': return '恢复默认';
 			case 'shortcut_reset_confirm': return '确定要将此部分的所有快捷键恢复为默认值吗？';
 			case 'shortcut_keyboard': return '键盘';
@@ -39889,7 +39889,7 @@ extension on _StringsZhHk {
 			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
 			case 'shortcut_press_key': return 'Press a key combination...';
 			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
-			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_conflict': return ({required Object s}) => 'Already used by: ${s}';
 			case 'shortcut_reset_defaults': return 'Reset to Defaults';
 			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
 			case 'shortcut_keyboard': return 'Keyboard';
