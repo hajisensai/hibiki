@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 18360 (1080 per locale)
+/// Strings: 18870 (1110 per locale)
 ///
-/// Built on 2026-05-28 at 12:54 UTC
+/// Built on 2026-05-28 at 14:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1240,6 +1240,36 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get backup_exporting => 'Creating backup…';
 	String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	String get reverse_navigation_bar => 'Reverse navigation bar';
+	String get sync_backend_onedrive => 'OneDrive';
+	String get sync_backend_dropbox => 'Dropbox';
+	String get sync_backend_box => 'Box';
+	String get sync_backend_ftp => 'FTP';
+	String get sync_backend_sftp => 'SFTP';
+	String get sync_backend_smb => 'SMB/CIFS';
+	String get sync_backend_hibiki_server => 'Hibiki P2P';
+	String get sync_server_enable => 'Enable sync server';
+	String get sync_server_port => 'Server port';
+	String get sync_server_token => 'Access token';
+	String get sync_server_copy_token => 'Copy token';
+	String get sync_server_regenerate_token => 'Regenerate token';
+	String get sync_server_running => 'Server running';
+	String get sync_server_stopped => 'Server stopped';
+	String get sync_lan_discovery => 'LAN devices';
+	String get sync_lan_scanning => 'Scanning...';
+	String get sync_lan_no_devices => 'No devices found';
+	String get sync_fallback_config => 'Fallback order';
+	String get sync_test_connection => 'Test connection';
+	String get sync_connection_success => 'Connection successful';
+	String get sync_connection_failed => 'Connection failed';
+	String get sync_host => 'Host';
+	String get sync_port => 'Port';
+	String get sync_username => 'Username';
+	String get sync_password => 'Password';
+	String get sync_use_tls => 'Use TLS';
+	String get sync_private_key => 'Private key';
+	String get skip_action => 'Skip Action';
+	String get skip_action_sentence => '1 sentence';
+	String skip_action_seconds({required Object n}) => '${n} seconds';
 }
 
 // Path: retrying_in
@@ -2373,6 +2403,36 @@ class _StringsAr extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} seconds';
 }
 
 // Path: retrying_in
@@ -3506,6 +3566,36 @@ class _StringsDe extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} seconds';
 }
 
 // Path: retrying_in
@@ -4639,6 +4729,36 @@ class _StringsEs extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} seconds';
 }
 
 // Path: retrying_in
@@ -5772,6 +5892,36 @@ class _StringsFr extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} seconds';
 }
 
 // Path: retrying_in
@@ -6905,6 +7055,36 @@ class _StringsId extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} seconds';
 }
 
 // Path: retrying_in
@@ -8038,6 +8218,36 @@ class _StringsIt extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} seconds';
 }
 
 // Path: retrying_in
@@ -9171,6 +9381,36 @@ class _StringsJa extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} 秒';
 }
 
 // Path: retrying_in
@@ -10304,6 +10544,36 @@ class _StringsKo extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} 秒';
 }
 
 // Path: retrying_in
@@ -11437,6 +11707,36 @@ class _StringsNl extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} seconds';
 }
 
 // Path: retrying_in
@@ -12570,6 +12870,36 @@ class _StringsPtBr extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} seconds';
 }
 
 // Path: retrying_in
@@ -13703,6 +14033,36 @@ class _StringsRu extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} seconds';
 }
 
 // Path: retrying_in
@@ -14836,6 +15196,36 @@ class _StringsTh extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} seconds';
 }
 
 // Path: retrying_in
@@ -15969,6 +16359,36 @@ class _StringsTr extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} seconds';
 }
 
 // Path: retrying_in
@@ -17102,6 +17522,36 @@ class _StringsVi extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} seconds';
 }
 
 // Path: retrying_in
@@ -18235,6 +18685,36 @@ class _StringsZhCn extends _StringsEn {
 	@override String get backup_exporting => '正在创建备份…';
 	@override String backup_schema_newer({required Object version}) => '此备份需要更新版本的应用（schema ${version}）。请先更新。';
 	@override String get reverse_navigation_bar => '反转底栏方向';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki 互联';
+	@override String get sync_server_enable => '启用同步服务';
+	@override String get sync_server_port => '服务端口';
+	@override String get sync_server_token => '访问令牌';
+	@override String get sync_server_copy_token => '复制令牌';
+	@override String get sync_server_regenerate_token => '重新生成令牌';
+	@override String get sync_server_running => '服务运行中';
+	@override String get sync_server_stopped => '服务已停止';
+	@override String get sync_lan_discovery => '局域网设备';
+	@override String get sync_lan_scanning => '扫描中...';
+	@override String get sync_lan_no_devices => '未发现设备';
+	@override String get sync_fallback_config => '回退顺序';
+	@override String get sync_test_connection => '测试连接';
+	@override String get sync_connection_success => '连接成功';
+	@override String get sync_connection_failed => '连接失败';
+	@override String get sync_host => '主机';
+	@override String get sync_port => '端口';
+	@override String get sync_username => '用户名';
+	@override String get sync_password => '密码';
+	@override String get sync_use_tls => '使用 TLS';
+	@override String get sync_private_key => '私钥';
+	@override String get skip_action => '跳过操作';
+	@override String get skip_action_sentence => '1 句';
+	@override String skip_action_seconds({required Object n}) => '${n} 秒';
 }
 
 // Path: retrying_in
@@ -19368,6 +19848,36 @@ class _StringsZhHk extends _StringsEn {
 	@override String get backup_exporting => 'Creating backup…';
 	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
+	@override String get sync_backend_onedrive => 'OneDrive';
+	@override String get sync_backend_dropbox => 'Dropbox';
+	@override String get sync_backend_box => 'Box';
+	@override String get sync_backend_ftp => 'FTP';
+	@override String get sync_backend_sftp => 'SFTP';
+	@override String get sync_backend_smb => 'SMB/CIFS';
+	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
+	@override String get sync_server_enable => 'Enable sync server';
+	@override String get sync_server_port => 'Server port';
+	@override String get sync_server_token => 'Access token';
+	@override String get sync_server_copy_token => 'Copy token';
+	@override String get sync_server_regenerate_token => 'Regenerate token';
+	@override String get sync_server_running => 'Server running';
+	@override String get sync_server_stopped => 'Server stopped';
+	@override String get sync_lan_discovery => 'LAN devices';
+	@override String get sync_lan_scanning => 'Scanning...';
+	@override String get sync_lan_no_devices => 'No devices found';
+	@override String get sync_fallback_config => 'Fallback order';
+	@override String get sync_test_connection => 'Test connection';
+	@override String get sync_connection_success => 'Connection successful';
+	@override String get sync_connection_failed => 'Connection failed';
+	@override String get sync_host => 'Host';
+	@override String get sync_port => 'Port';
+	@override String get sync_username => 'Username';
+	@override String get sync_password => 'Password';
+	@override String get sync_use_tls => 'Use TLS';
+	@override String get sync_private_key => 'Private key';
+	@override String get skip_action => 'Skip Action';
+	@override String get skip_action_sentence => '1 sentence';
+	@override String skip_action_seconds({required Object n}) => '${n} 秒';
 }
 
 // Path: retrying_in
@@ -20486,6 +20996,36 @@ extension on _StringsEn {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
 			default: return null;
 		}
 	}
@@ -21578,6 +22118,36 @@ extension on _StringsAr {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
 			default: return null;
 		}
 	}
@@ -22670,6 +23240,36 @@ extension on _StringsDe {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
 			default: return null;
 		}
 	}
@@ -23762,6 +24362,36 @@ extension on _StringsEs {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
 			default: return null;
 		}
 	}
@@ -24854,6 +25484,36 @@ extension on _StringsFr {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
 			default: return null;
 		}
 	}
@@ -25946,6 +26606,36 @@ extension on _StringsId {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
 			default: return null;
 		}
 	}
@@ -27038,6 +27728,36 @@ extension on _StringsIt {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
 			default: return null;
 		}
 	}
@@ -28130,6 +28850,36 @@ extension on _StringsJa {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} 秒';
 			default: return null;
 		}
 	}
@@ -29222,6 +29972,36 @@ extension on _StringsKo {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} 秒';
 			default: return null;
 		}
 	}
@@ -30314,6 +31094,36 @@ extension on _StringsNl {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
 			default: return null;
 		}
 	}
@@ -31406,6 +32216,36 @@ extension on _StringsPtBr {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
 			default: return null;
 		}
 	}
@@ -32498,6 +33338,36 @@ extension on _StringsRu {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
 			default: return null;
 		}
 	}
@@ -33590,6 +34460,36 @@ extension on _StringsTh {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
 			default: return null;
 		}
 	}
@@ -34682,6 +35582,36 @@ extension on _StringsTr {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
 			default: return null;
 		}
 	}
@@ -35774,6 +36704,36 @@ extension on _StringsVi {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
 			default: return null;
 		}
 	}
@@ -36866,6 +37826,36 @@ extension on _StringsZhCn {
 			case 'backup_exporting': return '正在创建备份…';
 			case 'backup_schema_newer': return ({required Object version}) => '此备份需要更新版本的应用（schema ${version}）。请先更新。';
 			case 'reverse_navigation_bar': return '反转底栏方向';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki 互联';
+			case 'sync_server_enable': return '启用同步服务';
+			case 'sync_server_port': return '服务端口';
+			case 'sync_server_token': return '访问令牌';
+			case 'sync_server_copy_token': return '复制令牌';
+			case 'sync_server_regenerate_token': return '重新生成令牌';
+			case 'sync_server_running': return '服务运行中';
+			case 'sync_server_stopped': return '服务已停止';
+			case 'sync_lan_discovery': return '局域网设备';
+			case 'sync_lan_scanning': return '扫描中...';
+			case 'sync_lan_no_devices': return '未发现设备';
+			case 'sync_fallback_config': return '回退顺序';
+			case 'sync_test_connection': return '测试连接';
+			case 'sync_connection_success': return '连接成功';
+			case 'sync_connection_failed': return '连接失败';
+			case 'sync_host': return '主机';
+			case 'sync_port': return '端口';
+			case 'sync_username': return '用户名';
+			case 'sync_password': return '密码';
+			case 'sync_use_tls': return '使用 TLS';
+			case 'sync_private_key': return '私钥';
+			case 'skip_action': return '跳过操作';
+			case 'skip_action_sentence': return '1 句';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} 秒';
 			default: return null;
 		}
 	}
@@ -37958,6 +38948,36 @@ extension on _StringsZhHk {
 			case 'backup_exporting': return 'Creating backup…';
 			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
+			case 'sync_backend_onedrive': return 'OneDrive';
+			case 'sync_backend_dropbox': return 'Dropbox';
+			case 'sync_backend_box': return 'Box';
+			case 'sync_backend_ftp': return 'FTP';
+			case 'sync_backend_sftp': return 'SFTP';
+			case 'sync_backend_smb': return 'SMB/CIFS';
+			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
+			case 'sync_server_enable': return 'Enable sync server';
+			case 'sync_server_port': return 'Server port';
+			case 'sync_server_token': return 'Access token';
+			case 'sync_server_copy_token': return 'Copy token';
+			case 'sync_server_regenerate_token': return 'Regenerate token';
+			case 'sync_server_running': return 'Server running';
+			case 'sync_server_stopped': return 'Server stopped';
+			case 'sync_lan_discovery': return 'LAN devices';
+			case 'sync_lan_scanning': return 'Scanning...';
+			case 'sync_lan_no_devices': return 'No devices found';
+			case 'sync_fallback_config': return 'Fallback order';
+			case 'sync_test_connection': return 'Test connection';
+			case 'sync_connection_success': return 'Connection successful';
+			case 'sync_connection_failed': return 'Connection failed';
+			case 'sync_host': return 'Host';
+			case 'sync_port': return 'Port';
+			case 'sync_username': return 'Username';
+			case 'sync_password': return 'Password';
+			case 'sync_use_tls': return 'Use TLS';
+			case 'sync_private_key': return 'Private key';
+			case 'skip_action': return 'Skip Action';
+			case 'skip_action_sentence': return '1 sentence';
+			case 'skip_action_seconds': return ({required Object n}) => '${n} 秒';
 			default: return null;
 		}
 	}
