@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 17986 (1058 per locale)
+/// Strings: 18105 (1065 per locale)
 ///
-/// Built on 2026-05-27 at 03:43 UTC
+/// Built on 2026-05-28 at 02:17 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1218,6 +1218,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get sync_webdav_test => 'Test connection';
 	String get sync_webdav_test_success => 'Connection successful';
 	String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	String get book_file_not_found => 'Book file not found';
+	String get epub_parse_fallback => 'Book metadata repaired from database';
+	String get retry => 'Retry';
+	String get copy_error => 'Copy Error';
+	String get error_copied => 'Error copied to clipboard';
+	String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -2329,6 +2336,13 @@ class _StringsAr extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -3440,6 +3454,13 @@ class _StringsDe extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -4551,6 +4572,13 @@ class _StringsEs extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -5662,6 +5690,13 @@ class _StringsFr extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -6773,6 +6808,13 @@ class _StringsId extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -7884,6 +7926,13 @@ class _StringsIt extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -8995,6 +9044,13 @@ class _StringsJa extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -10106,6 +10162,13 @@ class _StringsKo extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -11217,6 +11280,13 @@ class _StringsNl extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -12328,6 +12398,13 @@ class _StringsPtBr extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -13439,6 +13516,13 @@ class _StringsRu extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -14550,6 +14634,13 @@ class _StringsTh extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -15661,6 +15752,13 @@ class _StringsTr extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -16772,6 +16870,13 @@ class _StringsVi extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -17883,6 +17988,13 @@ class _StringsZhCn extends _StringsEn {
 	@override String get sync_webdav_test => '测试连接';
 	@override String get sync_webdav_test_success => '连接成功';
 	@override String sync_webdav_test_failed({required Object message}) => '连接失败: ${message}';
+	@override String get book_file_not_found => '找不到书籍文件';
+	@override String get epub_parse_fallback => '已从数据库修复书籍元数据';
+	@override String get retry => '重试';
+	@override String get copy_error => '复制错误';
+	@override String get error_copied => '错误已复制到剪贴板';
+	@override String dict_import_failed_summary({required Object n}) => '导入 ${n} 个词典失败';
+	@override String get reader_content_timeout => '内容加载超时，如显示异常请重新打开';
 }
 
 // Path: retrying_in
@@ -18994,6 +19106,13 @@ class _StringsZhHk extends _StringsEn {
 	@override String get sync_webdav_test => 'Test connection';
 	@override String get sync_webdav_test_success => 'Connection successful';
 	@override String sync_webdav_test_failed({required Object message}) => 'Connection failed: ${message}';
+	@override String get book_file_not_found => 'Book file not found';
+	@override String get epub_parse_fallback => 'Book metadata repaired from database';
+	@override String get retry => 'Retry';
+	@override String get copy_error => 'Copy Error';
+	@override String get error_copied => 'Error copied to clipboard';
+	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
+	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
 }
 
 // Path: retrying_in
@@ -20090,6 +20209,13 @@ extension on _StringsEn {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -21160,6 +21286,13 @@ extension on _StringsAr {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -22230,6 +22363,13 @@ extension on _StringsDe {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -23300,6 +23440,13 @@ extension on _StringsEs {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -24370,6 +24517,13 @@ extension on _StringsFr {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -25440,6 +25594,13 @@ extension on _StringsId {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -26510,6 +26671,13 @@ extension on _StringsIt {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -27580,6 +27748,13 @@ extension on _StringsJa {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -28650,6 +28825,13 @@ extension on _StringsKo {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -29720,6 +29902,13 @@ extension on _StringsNl {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -30790,6 +30979,13 @@ extension on _StringsPtBr {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -31860,6 +32056,13 @@ extension on _StringsRu {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -32930,6 +33133,13 @@ extension on _StringsTh {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -34000,6 +34210,13 @@ extension on _StringsTr {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -35070,6 +35287,13 @@ extension on _StringsVi {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
@@ -36140,6 +36364,13 @@ extension on _StringsZhCn {
 			case 'sync_webdav_test': return '测试连接';
 			case 'sync_webdav_test_success': return '连接成功';
 			case 'sync_webdav_test_failed': return ({required Object message}) => '连接失败: ${message}';
+			case 'book_file_not_found': return '找不到书籍文件';
+			case 'epub_parse_fallback': return '已从数据库修复书籍元数据';
+			case 'retry': return '重试';
+			case 'copy_error': return '复制错误';
+			case 'error_copied': return '错误已复制到剪贴板';
+			case 'dict_import_failed_summary': return ({required Object n}) => '导入 ${n} 个词典失败';
+			case 'reader_content_timeout': return '内容加载超时，如显示异常请重新打开';
 			default: return null;
 		}
 	}
@@ -37210,6 +37441,13 @@ extension on _StringsZhHk {
 			case 'sync_webdav_test': return 'Test connection';
 			case 'sync_webdav_test_success': return 'Connection successful';
 			case 'sync_webdav_test_failed': return ({required Object message}) => 'Connection failed: ${message}';
+			case 'book_file_not_found': return 'Book file not found';
+			case 'epub_parse_fallback': return 'Book metadata repaired from database';
+			case 'retry': return 'Retry';
+			case 'copy_error': return 'Copy Error';
+			case 'error_copied': return 'Error copied to clipboard';
+			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
 			default: return null;
 		}
 	}
