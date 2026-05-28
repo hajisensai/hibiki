@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 18870 (1110 per locale)
+/// Strings: 19329 (1137 per locale)
 ///
-/// Built on 2026-05-28 at 14:05 UTC
+/// Built on 2026-05-28 at 15:08 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1270,6 +1270,33 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get skip_action => 'Skip Action';
 	String get skip_action_sentence => '1 sentence';
 	String skip_action_seconds({required Object n}) => '${n} seconds';
+	String get shortcut_settings_title => 'Keyboard Shortcuts';
+	String get shortcut_scope_reader => 'Reader';
+	String get shortcut_scope_home => 'Home';
+	String get shortcut_scope_global => 'Global';
+	String get shortcut_scope_audiobook => 'Audiobook';
+	String get shortcut_action_reader_page_forward => 'Next Page';
+	String get shortcut_action_reader_page_backward => 'Previous Page';
+	String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	String get shortcut_action_home_tab_books => 'Books Tab';
+	String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	String get shortcut_action_home_tab_settings => 'Settings Tab';
+	String get shortcut_action_home_focus_search => 'Focus Search';
+	String get shortcut_action_global_back => 'Go Back';
+	String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	String get shortcut_press_key => 'Press a key combination...';
+	String get shortcut_press_gamepad => 'Press a gamepad button...';
+	String get shortcut_conflict => 'Already used by: {s}';
+	String get shortcut_reset_defaults => 'Reset to Defaults';
+	String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	String get shortcut_keyboard => 'Keyboard';
+	String get shortcut_gamepad => 'Gamepad';
+	String get shortcut_none => 'None';
+	String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -2433,6 +2460,33 @@ class _StringsAr extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} seconds';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -3596,6 +3650,33 @@ class _StringsDe extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} seconds';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -4759,6 +4840,33 @@ class _StringsEs extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} seconds';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -5922,6 +6030,33 @@ class _StringsFr extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} seconds';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -7085,6 +7220,33 @@ class _StringsId extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} seconds';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -8248,6 +8410,33 @@ class _StringsIt extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} seconds';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -9411,6 +9600,33 @@ class _StringsJa extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} 秒';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -10574,6 +10790,33 @@ class _StringsKo extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} 秒';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -11737,6 +11980,33 @@ class _StringsNl extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} seconds';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -12900,6 +13170,33 @@ class _StringsPtBr extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} seconds';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -14063,6 +14360,33 @@ class _StringsRu extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} seconds';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -15226,6 +15550,33 @@ class _StringsTh extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} seconds';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -16389,6 +16740,33 @@ class _StringsTr extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} seconds';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -17552,6 +17930,33 @@ class _StringsVi extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} seconds';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -18715,6 +19120,33 @@ class _StringsZhCn extends _StringsEn {
 	@override String get skip_action => '跳过操作';
 	@override String get skip_action_sentence => '1 句';
 	@override String skip_action_seconds({required Object n}) => '${n} 秒';
+	@override String get shortcut_settings_title => '快捷键设置';
+	@override String get shortcut_scope_reader => '阅读器';
+	@override String get shortcut_scope_home => '首页';
+	@override String get shortcut_scope_global => '全局';
+	@override String get shortcut_scope_audiobook => '有声书';
+	@override String get shortcut_action_reader_page_forward => '下一页';
+	@override String get shortcut_action_reader_page_backward => '上一页';
+	@override String get shortcut_action_reader_toggle_chrome => '显示/隐藏控制栏';
+	@override String get shortcut_action_reader_dismiss_dict => '关闭词典';
+	@override String get shortcut_action_reader_toggle_bookmark => '切换书签';
+	@override String get shortcut_action_home_tab_books => '书架标签';
+	@override String get shortcut_action_home_tab_dict => '词典标签';
+	@override String get shortcut_action_home_tab_settings => '设置标签';
+	@override String get shortcut_action_home_focus_search => '聚焦搜索';
+	@override String get shortcut_action_global_back => '返回';
+	@override String get shortcut_action_audiobook_play_pause => '播放/暂停';
+	@override String get shortcut_action_audiobook_next_sentence => '下一句';
+	@override String get shortcut_action_audiobook_prev_sentence => '上一句';
+	@override String get shortcut_press_key => '请按下快捷键组合...';
+	@override String get shortcut_press_gamepad => '请按下手柄按钮...';
+	@override String get shortcut_conflict => '已被占用：{s}';
+	@override String get shortcut_reset_defaults => '恢复默认';
+	@override String get shortcut_reset_confirm => '确定要将此部分的所有快捷键恢复为默认值吗？';
+	@override String get shortcut_keyboard => '键盘';
+	@override String get shortcut_gamepad => '手柄';
+	@override String get shortcut_none => '无';
+	@override String get shortcut_clear => '清除';
 }
 
 // Path: retrying_in
@@ -19878,6 +20310,33 @@ class _StringsZhHk extends _StringsEn {
 	@override String get skip_action => 'Skip Action';
 	@override String get skip_action_sentence => '1 sentence';
 	@override String skip_action_seconds({required Object n}) => '${n} 秒';
+	@override String get shortcut_settings_title => 'Keyboard Shortcuts';
+	@override String get shortcut_scope_reader => 'Reader';
+	@override String get shortcut_scope_home => 'Home';
+	@override String get shortcut_scope_global => 'Global';
+	@override String get shortcut_scope_audiobook => 'Audiobook';
+	@override String get shortcut_action_reader_page_forward => 'Next Page';
+	@override String get shortcut_action_reader_page_backward => 'Previous Page';
+	@override String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+	@override String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+	@override String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+	@override String get shortcut_action_home_tab_books => 'Books Tab';
+	@override String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+	@override String get shortcut_action_home_tab_settings => 'Settings Tab';
+	@override String get shortcut_action_home_focus_search => 'Focus Search';
+	@override String get shortcut_action_global_back => 'Go Back';
+	@override String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+	@override String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+	@override String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+	@override String get shortcut_press_key => 'Press a key combination...';
+	@override String get shortcut_press_gamepad => 'Press a gamepad button...';
+	@override String get shortcut_conflict => 'Already used by: {s}';
+	@override String get shortcut_reset_defaults => 'Reset to Defaults';
+	@override String get shortcut_reset_confirm => 'Reset all shortcuts in this section to defaults?';
+	@override String get shortcut_keyboard => 'Keyboard';
+	@override String get shortcut_gamepad => 'Gamepad';
+	@override String get shortcut_none => 'None';
+	@override String get shortcut_clear => 'Clear';
 }
 
 // Path: retrying_in
@@ -21026,6 +21485,33 @@ extension on _StringsEn {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -22148,6 +22634,33 @@ extension on _StringsAr {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -23270,6 +23783,33 @@ extension on _StringsDe {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -24392,6 +24932,33 @@ extension on _StringsEs {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -25514,6 +26081,33 @@ extension on _StringsFr {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -26636,6 +27230,33 @@ extension on _StringsId {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -27758,6 +28379,33 @@ extension on _StringsIt {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -28880,6 +29528,33 @@ extension on _StringsJa {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} 秒';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -30002,6 +30677,33 @@ extension on _StringsKo {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} 秒';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -31124,6 +31826,33 @@ extension on _StringsNl {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -32246,6 +32975,33 @@ extension on _StringsPtBr {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -33368,6 +34124,33 @@ extension on _StringsRu {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -34490,6 +35273,33 @@ extension on _StringsTh {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -35612,6 +36422,33 @@ extension on _StringsTr {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -36734,6 +37571,33 @@ extension on _StringsVi {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} seconds';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
@@ -37856,6 +38720,33 @@ extension on _StringsZhCn {
 			case 'skip_action': return '跳过操作';
 			case 'skip_action_sentence': return '1 句';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} 秒';
+			case 'shortcut_settings_title': return '快捷键设置';
+			case 'shortcut_scope_reader': return '阅读器';
+			case 'shortcut_scope_home': return '首页';
+			case 'shortcut_scope_global': return '全局';
+			case 'shortcut_scope_audiobook': return '有声书';
+			case 'shortcut_action_reader_page_forward': return '下一页';
+			case 'shortcut_action_reader_page_backward': return '上一页';
+			case 'shortcut_action_reader_toggle_chrome': return '显示/隐藏控制栏';
+			case 'shortcut_action_reader_dismiss_dict': return '关闭词典';
+			case 'shortcut_action_reader_toggle_bookmark': return '切换书签';
+			case 'shortcut_action_home_tab_books': return '书架标签';
+			case 'shortcut_action_home_tab_dict': return '词典标签';
+			case 'shortcut_action_home_tab_settings': return '设置标签';
+			case 'shortcut_action_home_focus_search': return '聚焦搜索';
+			case 'shortcut_action_global_back': return '返回';
+			case 'shortcut_action_audiobook_play_pause': return '播放/暂停';
+			case 'shortcut_action_audiobook_next_sentence': return '下一句';
+			case 'shortcut_action_audiobook_prev_sentence': return '上一句';
+			case 'shortcut_press_key': return '请按下快捷键组合...';
+			case 'shortcut_press_gamepad': return '请按下手柄按钮...';
+			case 'shortcut_conflict': return '已被占用：{s}';
+			case 'shortcut_reset_defaults': return '恢复默认';
+			case 'shortcut_reset_confirm': return '确定要将此部分的所有快捷键恢复为默认值吗？';
+			case 'shortcut_keyboard': return '键盘';
+			case 'shortcut_gamepad': return '手柄';
+			case 'shortcut_none': return '无';
+			case 'shortcut_clear': return '清除';
 			default: return null;
 		}
 	}
@@ -38978,6 +39869,33 @@ extension on _StringsZhHk {
 			case 'skip_action': return 'Skip Action';
 			case 'skip_action_sentence': return '1 sentence';
 			case 'skip_action_seconds': return ({required Object n}) => '${n} 秒';
+			case 'shortcut_settings_title': return 'Keyboard Shortcuts';
+			case 'shortcut_scope_reader': return 'Reader';
+			case 'shortcut_scope_home': return 'Home';
+			case 'shortcut_scope_global': return 'Global';
+			case 'shortcut_scope_audiobook': return 'Audiobook';
+			case 'shortcut_action_reader_page_forward': return 'Next Page';
+			case 'shortcut_action_reader_page_backward': return 'Previous Page';
+			case 'shortcut_action_reader_toggle_chrome': return 'Toggle Controls';
+			case 'shortcut_action_reader_dismiss_dict': return 'Dismiss Dictionary';
+			case 'shortcut_action_reader_toggle_bookmark': return 'Toggle Bookmark';
+			case 'shortcut_action_home_tab_books': return 'Books Tab';
+			case 'shortcut_action_home_tab_dict': return 'Dictionary Tab';
+			case 'shortcut_action_home_tab_settings': return 'Settings Tab';
+			case 'shortcut_action_home_focus_search': return 'Focus Search';
+			case 'shortcut_action_global_back': return 'Go Back';
+			case 'shortcut_action_audiobook_play_pause': return 'Play / Pause';
+			case 'shortcut_action_audiobook_next_sentence': return 'Next Sentence';
+			case 'shortcut_action_audiobook_prev_sentence': return 'Previous Sentence';
+			case 'shortcut_press_key': return 'Press a key combination...';
+			case 'shortcut_press_gamepad': return 'Press a gamepad button...';
+			case 'shortcut_conflict': return 'Already used by: {s}';
+			case 'shortcut_reset_defaults': return 'Reset to Defaults';
+			case 'shortcut_reset_confirm': return 'Reset all shortcuts in this section to defaults?';
+			case 'shortcut_keyboard': return 'Keyboard';
+			case 'shortcut_gamepad': return 'Gamepad';
+			case 'shortcut_none': return 'None';
+			case 'shortcut_clear': return 'Clear';
 			default: return null;
 		}
 	}
