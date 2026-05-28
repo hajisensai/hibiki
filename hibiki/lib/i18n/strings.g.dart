@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 18105 (1065 per locale)
+/// Strings: 18343 (1079 per locale)
 ///
-/// Built on 2026-05-28 at 02:17 UTC
+/// Built on 2026-05-28 at 07:01 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1225,6 +1225,20 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get error_copied => 'Error copied to clipboard';
 	String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	String get backup_local => 'Local Backup';
+	String get backup_export => 'Export Backup';
+	String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	String get backup_import => 'Import Backup';
+	String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	String get backup_export_success => 'Backup exported successfully';
+	String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	String get backup_import_confirm_title => 'Restore Backup?';
+	String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	String get backup_import_success => 'Backup restored. Restarting…';
+	String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	String get backup_import_invalid => 'Invalid backup file';
+	String get backup_exporting => 'Creating backup…';
+	String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -2343,6 +2357,20 @@ class _StringsAr extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -3461,6 +3489,20 @@ class _StringsDe extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -4579,6 +4621,20 @@ class _StringsEs extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -5697,6 +5753,20 @@ class _StringsFr extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -6815,6 +6885,20 @@ class _StringsId extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -7933,6 +8017,20 @@ class _StringsIt extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -9051,6 +9149,20 @@ class _StringsJa extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -10169,6 +10281,20 @@ class _StringsKo extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -11287,6 +11413,20 @@ class _StringsNl extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -12405,6 +12545,20 @@ class _StringsPtBr extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -13523,6 +13677,20 @@ class _StringsRu extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -14641,6 +14809,20 @@ class _StringsTh extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -15759,6 +15941,20 @@ class _StringsTr extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -16877,6 +17073,20 @@ class _StringsVi extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -17995,6 +18205,20 @@ class _StringsZhCn extends _StringsEn {
 	@override String get error_copied => '错误已复制到剪贴板';
 	@override String dict_import_failed_summary({required Object n}) => '导入 ${n} 个词典失败';
 	@override String get reader_content_timeout => '内容加载超时，如显示异常请重新打开';
+	@override String get backup_local => '本地备份';
+	@override String get backup_export => '导出备份';
+	@override String get backup_export_hint => '将所有设置、阅读进度和统计数据保存到文件';
+	@override String get backup_import => '导入备份';
+	@override String get backup_import_hint => '从备份文件恢复。应用将会重启。';
+	@override String get backup_export_success => '备份导出成功';
+	@override String backup_export_failed({required Object message}) => '备份导出失败：${message}';
+	@override String get backup_import_confirm_title => '恢复备份？';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => '这将用 ${date} 的备份替换所有当前数据。\n\n${bookCount} 本书，${statsCount} 条统计记录。\n\n恢复后应用将重启。';
+	@override String get backup_import_success => '备份已恢复。正在重启…';
+	@override String backup_import_failed({required Object message}) => '备份导入失败：${message}';
+	@override String get backup_import_invalid => '无效的备份文件';
+	@override String get backup_exporting => '正在创建备份…';
+	@override String backup_schema_newer({required Object version}) => '此备份需要更新版本的应用（schema ${version}）。请先更新。';
 }
 
 // Path: retrying_in
@@ -19113,6 +19337,20 @@ class _StringsZhHk extends _StringsEn {
 	@override String get error_copied => 'Error copied to clipboard';
 	@override String dict_import_failed_summary({required Object n}) => 'Failed to import ${n} dictionary(s)';
 	@override String get reader_content_timeout => 'Content loading timed out. Reopen if display is abnormal';
+	@override String get backup_local => 'Local Backup';
+	@override String get backup_export => 'Export Backup';
+	@override String get backup_export_hint => 'Save all settings, reading progress, and statistics to a file';
+	@override String get backup_import => 'Import Backup';
+	@override String get backup_import_hint => 'Restore from a backup file. The app will restart.';
+	@override String get backup_export_success => 'Backup exported successfully';
+	@override String backup_export_failed({required Object message}) => 'Backup export failed: ${message}';
+	@override String get backup_import_confirm_title => 'Restore Backup?';
+	@override String backup_import_confirm({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+	@override String get backup_import_success => 'Backup restored. Restarting…';
+	@override String backup_import_failed({required Object message}) => 'Backup import failed: ${message}';
+	@override String get backup_import_invalid => 'Invalid backup file';
+	@override String get backup_exporting => 'Creating backup…';
+	@override String backup_schema_newer({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 }
 
 // Path: retrying_in
@@ -20216,6 +20454,20 @@ extension on _StringsEn {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -21293,6 +21545,20 @@ extension on _StringsAr {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -22370,6 +22636,20 @@ extension on _StringsDe {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -23447,6 +23727,20 @@ extension on _StringsEs {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -24524,6 +24818,20 @@ extension on _StringsFr {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -25601,6 +25909,20 @@ extension on _StringsId {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -26678,6 +27000,20 @@ extension on _StringsIt {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -27755,6 +28091,20 @@ extension on _StringsJa {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -28832,6 +29182,20 @@ extension on _StringsKo {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -29909,6 +30273,20 @@ extension on _StringsNl {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -30986,6 +31364,20 @@ extension on _StringsPtBr {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -32063,6 +32455,20 @@ extension on _StringsRu {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -33140,6 +33546,20 @@ extension on _StringsTh {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -34217,6 +34637,20 @@ extension on _StringsTr {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -35294,6 +35728,20 @@ extension on _StringsVi {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
@@ -36371,6 +36819,20 @@ extension on _StringsZhCn {
 			case 'error_copied': return '错误已复制到剪贴板';
 			case 'dict_import_failed_summary': return ({required Object n}) => '导入 ${n} 个词典失败';
 			case 'reader_content_timeout': return '内容加载超时，如显示异常请重新打开';
+			case 'backup_local': return '本地备份';
+			case 'backup_export': return '导出备份';
+			case 'backup_export_hint': return '将所有设置、阅读进度和统计数据保存到文件';
+			case 'backup_import': return '导入备份';
+			case 'backup_import_hint': return '从备份文件恢复。应用将会重启。';
+			case 'backup_export_success': return '备份导出成功';
+			case 'backup_export_failed': return ({required Object message}) => '备份导出失败：${message}';
+			case 'backup_import_confirm_title': return '恢复备份？';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => '这将用 ${date} 的备份替换所有当前数据。\n\n${bookCount} 本书，${statsCount} 条统计记录。\n\n恢复后应用将重启。';
+			case 'backup_import_success': return '备份已恢复。正在重启…';
+			case 'backup_import_failed': return ({required Object message}) => '备份导入失败：${message}';
+			case 'backup_import_invalid': return '无效的备份文件';
+			case 'backup_exporting': return '正在创建备份…';
+			case 'backup_schema_newer': return ({required Object version}) => '此备份需要更新版本的应用（schema ${version}）。请先更新。';
 			default: return null;
 		}
 	}
@@ -37448,6 +37910,20 @@ extension on _StringsZhHk {
 			case 'error_copied': return 'Error copied to clipboard';
 			case 'dict_import_failed_summary': return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
 			case 'reader_content_timeout': return 'Content loading timed out. Reopen if display is abnormal';
+			case 'backup_local': return 'Local Backup';
+			case 'backup_export': return 'Export Backup';
+			case 'backup_export_hint': return 'Save all settings, reading progress, and statistics to a file';
+			case 'backup_import': return 'Import Backup';
+			case 'backup_import_hint': return 'Restore from a backup file. The app will restart.';
+			case 'backup_export_success': return 'Backup exported successfully';
+			case 'backup_export_failed': return ({required Object message}) => 'Backup export failed: ${message}';
+			case 'backup_import_confirm_title': return 'Restore Backup?';
+			case 'backup_import_confirm': return ({required Object date, required Object bookCount, required Object statsCount}) => 'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+			case 'backup_import_success': return 'Backup restored. Restarting…';
+			case 'backup_import_failed': return ({required Object message}) => 'Backup import failed: ${message}';
+			case 'backup_import_invalid': return 'Invalid backup file';
+			case 'backup_exporting': return 'Creating backup…';
+			case 'backup_schema_newer': return ({required Object version}) => 'This backup requires a newer version of the app (schema ${version}). Please update first.';
 			default: return null;
 		}
 	}
