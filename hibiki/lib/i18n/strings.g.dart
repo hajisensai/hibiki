@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 19329 (1137 per locale)
 ///
-/// Built on 2026-05-28 at 16:07 UTC
+/// Built on 2026-05-29 at 05:13 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1242,7 +1242,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get reverse_navigation_bar => 'Reverse navigation bar';
 	String get sync_backend_onedrive => 'OneDrive';
 	String get sync_backend_dropbox => 'Dropbox';
-	String get sync_backend_box => 'Box';
 	String get sync_backend_ftp => 'FTP';
 	String get sync_backend_sftp => 'SFTP';
 	String get sync_backend_smb => 'SMB/CIFS';
@@ -1297,6 +1296,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get shortcut_gamepad => 'Gamepad';
 	String get shortcut_none => 'None';
 	String get shortcut_clear => 'Clear';
+	String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -2432,7 +2432,6 @@ class _StringsAr extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -2487,6 +2486,7 @@ class _StringsAr extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -3622,7 +3622,6 @@ class _StringsDe extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -3677,6 +3676,7 @@ class _StringsDe extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -4812,7 +4812,6 @@ class _StringsEs extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -4867,6 +4866,7 @@ class _StringsEs extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -6002,7 +6002,6 @@ class _StringsFr extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -6057,6 +6056,7 @@ class _StringsFr extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -7192,7 +7192,6 @@ class _StringsId extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -7247,6 +7246,7 @@ class _StringsId extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -8382,7 +8382,6 @@ class _StringsIt extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -8437,6 +8436,7 @@ class _StringsIt extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -9572,7 +9572,6 @@ class _StringsJa extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -9627,6 +9626,7 @@ class _StringsJa extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -10762,7 +10762,6 @@ class _StringsKo extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -10817,6 +10816,7 @@ class _StringsKo extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -11952,7 +11952,6 @@ class _StringsNl extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -12007,6 +12006,7 @@ class _StringsNl extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -13142,7 +13142,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -13197,6 +13196,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -14332,7 +14332,6 @@ class _StringsRu extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -14387,6 +14386,7 @@ class _StringsRu extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -15522,7 +15522,6 @@ class _StringsTh extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -15577,6 +15576,7 @@ class _StringsTh extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -16712,7 +16712,6 @@ class _StringsTr extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -16767,6 +16766,7 @@ class _StringsTr extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -17902,7 +17902,6 @@ class _StringsVi extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -17957,6 +17956,7 @@ class _StringsVi extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -19092,7 +19092,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String get reverse_navigation_bar => '反转底栏方向';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -19147,6 +19146,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get shortcut_gamepad => '手柄';
 	@override String get shortcut_none => '无';
 	@override String get shortcut_clear => '清除';
+	@override String get shortcut_stop_capture => '停止捕获';
 }
 
 // Path: retrying_in
@@ -20282,7 +20282,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String get reverse_navigation_bar => 'Reverse navigation bar';
 	@override String get sync_backend_onedrive => 'OneDrive';
 	@override String get sync_backend_dropbox => 'Dropbox';
-	@override String get sync_backend_box => 'Box';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
 	@override String get sync_backend_smb => 'SMB/CIFS';
@@ -20337,6 +20336,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get shortcut_gamepad => 'Gamepad';
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
+	@override String get shortcut_stop_capture => 'Stop';
 }
 
 // Path: retrying_in
@@ -21457,7 +21457,6 @@ extension on _StringsEn {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -21512,6 +21511,7 @@ extension on _StringsEn {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -22606,7 +22606,6 @@ extension on _StringsAr {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -22661,6 +22660,7 @@ extension on _StringsAr {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -23755,7 +23755,6 @@ extension on _StringsDe {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -23810,6 +23809,7 @@ extension on _StringsDe {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -24904,7 +24904,6 @@ extension on _StringsEs {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -24959,6 +24958,7 @@ extension on _StringsEs {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -26053,7 +26053,6 @@ extension on _StringsFr {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -26108,6 +26107,7 @@ extension on _StringsFr {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -27202,7 +27202,6 @@ extension on _StringsId {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -27257,6 +27256,7 @@ extension on _StringsId {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -28351,7 +28351,6 @@ extension on _StringsIt {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -28406,6 +28405,7 @@ extension on _StringsIt {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -29500,7 +29500,6 @@ extension on _StringsJa {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -29555,6 +29554,7 @@ extension on _StringsJa {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -30649,7 +30649,6 @@ extension on _StringsKo {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -30704,6 +30703,7 @@ extension on _StringsKo {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -31798,7 +31798,6 @@ extension on _StringsNl {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -31853,6 +31852,7 @@ extension on _StringsNl {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -32947,7 +32947,6 @@ extension on _StringsPtBr {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -33002,6 +33001,7 @@ extension on _StringsPtBr {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -34096,7 +34096,6 @@ extension on _StringsRu {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -34151,6 +34150,7 @@ extension on _StringsRu {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -35245,7 +35245,6 @@ extension on _StringsTh {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -35300,6 +35299,7 @@ extension on _StringsTh {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -36394,7 +36394,6 @@ extension on _StringsTr {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -36449,6 +36448,7 @@ extension on _StringsTr {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -37543,7 +37543,6 @@ extension on _StringsVi {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -37598,6 +37597,7 @@ extension on _StringsVi {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
@@ -38692,7 +38692,6 @@ extension on _StringsZhCn {
 			case 'reverse_navigation_bar': return '反转底栏方向';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -38747,6 +38746,7 @@ extension on _StringsZhCn {
 			case 'shortcut_gamepad': return '手柄';
 			case 'shortcut_none': return '无';
 			case 'shortcut_clear': return '清除';
+			case 'shortcut_stop_capture': return '停止捕获';
 			default: return null;
 		}
 	}
@@ -39841,7 +39841,6 @@ extension on _StringsZhHk {
 			case 'reverse_navigation_bar': return 'Reverse navigation bar';
 			case 'sync_backend_onedrive': return 'OneDrive';
 			case 'sync_backend_dropbox': return 'Dropbox';
-			case 'sync_backend_box': return 'Box';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
 			case 'sync_backend_smb': return 'SMB/CIFS';
@@ -39896,6 +39895,7 @@ extension on _StringsZhHk {
 			case 'shortcut_gamepad': return 'Gamepad';
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
+			case 'shortcut_stop_capture': return 'Stop';
 			default: return null;
 		}
 	}
