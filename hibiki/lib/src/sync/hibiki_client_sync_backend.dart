@@ -7,12 +7,17 @@ import 'package:hibiki/src/sync/ttu_filename.dart';
 import 'package:hibiki/src/sync/ttu_models.dart';
 import 'package:hibiki/src/sync/webdav_ops.dart';
 
-class WebDavSyncBackend extends SyncBackend {
-  WebDavSyncBackend._();
-  static final WebDavSyncBackend instance = WebDavSyncBackend._();
+/// Sync backend for connecting to another Hibiki instance's embedded server.
+///
+/// Uses the WebDAV protocol (same as [WebDavSyncBackend]) but stores
+/// credentials in dedicated keys to avoid collision with the user's
+/// standalone WebDAV config.
+class HibikiClientSyncBackend extends SyncBackend {
+  HibikiClientSyncBackend._();
+  static final HibikiClientSyncBackend instance =
+      HibikiClientSyncBackend._();
 
   WebDavOps? _ops;
-  String? _username;
   String? _rootFolderId;
   final Map<String, String> _titleToFolderId = {};
 
@@ -22,21 +27,20 @@ class WebDavSyncBackend extends SyncBackend {
   Future<bool> get isAuthenticated async => _ops != null;
 
   @override
-  Future<String?> get currentEmail async => _username;
+  Future<String?> get currentEmail async => 'hibiki';
 
   @override
   Future<void> authenticate({required SyncRepository repo}) async {
-    final url = await repo.getWebDavUrl();
-    final user = await repo.getWebDavUsername();
-    final pass = await repo.getWebDavPassword();
+    final url = await repo.getHibikiClientUrl();
+    final token = await repo.getHibikiClientToken();
 
-    if (url == null || user == null || pass == null) {
-      throw SyncAuthError('WebDAV credentials not configured');
+    if (url == null || token == null) {
+      throw SyncAuthError('Hibiki server credentials not configured');
     }
 
     final normalized = WebDavOps.normalizeUrl(url);
-    _ops = WebDavOps(baseUrl: normalized, username: user, password: pass);
-    _username = user;
+    _ops = WebDavOps(
+        baseUrl: normalized, username: 'hibiki', password: token);
 
     await _ops!.testConnection();
   }
@@ -45,23 +49,20 @@ class WebDavSyncBackend extends SyncBackend {
   Future<void> signOut({required SyncRepository repo}) async {
     _ops?.close();
     _ops = null;
-    _username = null;
-    await repo.setWebDavUrl(null);
-    await repo.setWebDavUsername(null);
-    await repo.setWebDavPassword(null);
+    await repo.setHibikiClientUrl(null);
+    await repo.setHibikiClientToken(null);
   }
 
   @override
   Future<bool> restoreAuth(SyncRepository repo) async {
-    final url = await repo.getWebDavUrl();
-    final user = await repo.getWebDavUsername();
-    final pass = await repo.getWebDavPassword();
+    final url = await repo.getHibikiClientUrl();
+    final token = await repo.getHibikiClientToken();
 
-    if (url == null || user == null || pass == null) return false;
+    if (url == null || token == null) return false;
 
     final normalized = WebDavOps.normalizeUrl(url);
-    _ops = WebDavOps(baseUrl: normalized, username: user, password: pass);
-    _username = user;
+    _ops = WebDavOps(
+        baseUrl: normalized, username: 'hibiki', password: token);
     return true;
   }
 
@@ -114,7 +115,7 @@ class WebDavSyncBackend extends SyncBackend {
           await _ops!.putBytes(coverPath, coverData, format.mimeType);
         }
       } catch (e) {
-        debugPrint('[webdav] cover upload failed: $e');
+        debugPrint('[hibiki-client] cover upload failed: $e');
       }
     }
 
@@ -249,7 +250,7 @@ class WebDavSyncBackend extends SyncBackend {
         try {
           destination.deleteSync();
         } catch (e) {
-          debugPrint('[webdav] failed to clean up temp file: $e');
+          debugPrint('[hibiki-client] failed to clean up temp file: $e');
         }
       }
     }
@@ -299,13 +300,12 @@ class WebDavSyncBackend extends SyncBackend {
 
   Future<void> testConnection({
     required String url,
-    required String username,
-    required String password,
+    required String token,
   }) async {
     final ops = WebDavOps(
       baseUrl: WebDavOps.normalizeUrl(url),
-      username: username,
-      password: password,
+      username: 'hibiki',
+      password: token,
     );
     try {
       await ops.testConnection();

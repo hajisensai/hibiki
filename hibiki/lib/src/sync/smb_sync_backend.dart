@@ -1,15 +1,24 @@
 import 'dart:io';
+import 'dart:typed_data';
 
-import 'package:flutter/foundation.dart';
 import 'package:hibiki/src/sync/sync_backend.dart';
 import 'package:hibiki/src/sync/sync_repository.dart';
 import 'package:hibiki/src/sync/ttu_filename.dart';
 import 'package:hibiki/src/sync/ttu_models.dart';
 import 'package:hibiki/src/sync/webdav_ops.dart';
 
-class WebDavSyncBackend extends SyncBackend {
-  WebDavSyncBackend._();
-  static final WebDavSyncBackend instance = WebDavSyncBackend._();
+/// SMB/CIFS sync backend that delegates to WebDAV over HTTP.
+///
+/// There is no pure-Dart SMB library. Instead the user sets up an external
+/// SMB-to-WebDAV bridge (e.g. `rclone serve webdav`, NAS built-in WebDAV,
+/// or any reverse proxy) and provides the resulting WebDAV endpoint URL.
+///
+/// SMB-specific credentials (host, share, domain) are stored for display
+/// and future native SMB support. All actual I/O goes through standard
+/// WebDAV (PROPFIND / GET / PUT / MKCOL / DELETE) via [WebDavOps].
+class SmbSyncBackend extends SyncBackend {
+  SmbSyncBackend._();
+  static final SmbSyncBackend instance = SmbSyncBackend._();
 
   WebDavOps? _ops;
   String? _username;
@@ -26,15 +35,15 @@ class WebDavSyncBackend extends SyncBackend {
 
   @override
   Future<void> authenticate({required SyncRepository repo}) async {
-    final url = await repo.getWebDavUrl();
-    final user = await repo.getWebDavUsername();
-    final pass = await repo.getWebDavPassword();
+    final webDavUrl = await repo.getSmbWebDavUrl();
+    final user = await repo.getSmbUsername();
+    final pass = await repo.getSmbPassword();
 
-    if (url == null || user == null || pass == null) {
-      throw SyncAuthError('WebDAV credentials not configured');
+    if (webDavUrl == null || user == null || pass == null) {
+      throw SyncAuthError('SMB credentials not configured');
     }
 
-    final normalized = WebDavOps.normalizeUrl(url);
+    final normalized = WebDavOps.normalizeUrl(webDavUrl);
     _ops = WebDavOps(baseUrl: normalized, username: user, password: pass);
     _username = user;
 
@@ -46,20 +55,23 @@ class WebDavSyncBackend extends SyncBackend {
     _ops?.close();
     _ops = null;
     _username = null;
-    await repo.setWebDavUrl(null);
-    await repo.setWebDavUsername(null);
-    await repo.setWebDavPassword(null);
+    await repo.setSmbHost(null);
+    await repo.setSmbShare(null);
+    await repo.setSmbUsername(null);
+    await repo.setSmbPassword(null);
+    await repo.setSmbDomain(null);
+    await repo.setSmbWebDavUrl(null);
   }
 
   @override
   Future<bool> restoreAuth(SyncRepository repo) async {
-    final url = await repo.getWebDavUrl();
-    final user = await repo.getWebDavUsername();
-    final pass = await repo.getWebDavPassword();
+    final webDavUrl = await repo.getSmbWebDavUrl();
+    final user = await repo.getSmbUsername();
+    final pass = await repo.getSmbPassword();
 
-    if (url == null || user == null || pass == null) return false;
+    if (webDavUrl == null || user == null || pass == null) return false;
 
-    final normalized = WebDavOps.normalizeUrl(url);
+    final normalized = WebDavOps.normalizeUrl(webDavUrl);
     _ops = WebDavOps(baseUrl: normalized, username: user, password: pass);
     _username = user;
     return true;
@@ -113,9 +125,7 @@ class WebDavSyncBackend extends SyncBackend {
         if (!existing) {
           await _ops!.putBytes(coverPath, coverData, format.mimeType);
         }
-      } catch (e) {
-        debugPrint('[webdav] cover upload failed: $e');
-      }
+      } catch (_) {}
     }
 
     return path;
@@ -248,9 +258,7 @@ class WebDavSyncBackend extends SyncBackend {
       if (!success) {
         try {
           destination.deleteSync();
-        } catch (e) {
-          debugPrint('[webdav] failed to clean up temp file: $e');
-        }
+        } catch (_) {}
       }
     }
   }
