@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19431 (1143 per locale)
+/// Strings: 19448 (1144 per locale)
 ///
-/// Built on 2026-05-29 at 13:51 UTC
+/// Built on 2026-05-29 at 15:44 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1303,6 +1303,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -2499,6 +2500,7 @@ class _StringsAr extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -3695,6 +3697,7 @@ class _StringsDe extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -4891,6 +4894,7 @@ class _StringsEs extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -6087,6 +6091,7 @@ class _StringsFr extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -7283,6 +7288,7 @@ class _StringsId extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -8479,6 +8485,7 @@ class _StringsIt extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -9675,6 +9682,7 @@ class _StringsJa extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -10871,6 +10879,7 @@ class _StringsKo extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -12067,6 +12076,7 @@ class _StringsNl extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -13263,6 +13273,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -14459,6 +14470,7 @@ class _StringsRu extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -15655,6 +15667,7 @@ class _StringsTh extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -16851,6 +16864,7 @@ class _StringsTr extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -18047,6 +18061,7 @@ class _StringsVi extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -19243,6 +19258,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get sync_err_quota => '云端存储空间已满（配额已用尽）。';
 	@override String get sync_err_auth_expired => '登录已过期，请重新登录。';
 	@override String sync_server_port_in_use({required Object port}) => '端口 ${port} 已被占用，请换一个端口。';
+	@override String get sync_lan_scan_failed => '扫描失败——请检查网络权限或防火墙。';
 }
 
 // Path: retrying_in
@@ -20439,6 +20455,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
 }
 
 // Path: retrying_in
@@ -21620,6 +21637,7 @@ extension on _StringsEn {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -22775,6 +22793,7 @@ extension on _StringsAr {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -23930,6 +23949,7 @@ extension on _StringsDe {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -25085,6 +25105,7 @@ extension on _StringsEs {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -26240,6 +26261,7 @@ extension on _StringsFr {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -27395,6 +27417,7 @@ extension on _StringsId {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -28550,6 +28573,7 @@ extension on _StringsIt {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -29705,6 +29729,7 @@ extension on _StringsJa {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -30860,6 +30885,7 @@ extension on _StringsKo {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -32015,6 +32041,7 @@ extension on _StringsNl {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -33170,6 +33197,7 @@ extension on _StringsPtBr {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -34325,6 +34353,7 @@ extension on _StringsRu {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -35480,6 +35509,7 @@ extension on _StringsTh {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -36635,6 +36665,7 @@ extension on _StringsTr {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -37790,6 +37821,7 @@ extension on _StringsVi {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
@@ -38945,6 +38977,7 @@ extension on _StringsZhCn {
 			case 'sync_err_quota': return '云端存储空间已满（配额已用尽）。';
 			case 'sync_err_auth_expired': return '登录已过期，请重新登录。';
 			case 'sync_server_port_in_use': return ({required Object port}) => '端口 ${port} 已被占用，请换一个端口。';
+			case 'sync_lan_scan_failed': return '扫描失败——请检查网络权限或防火墙。';
 			default: return null;
 		}
 	}
@@ -40100,6 +40133,7 @@ extension on _StringsZhHk {
 			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
+			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
 			default: return null;
 		}
 	}
