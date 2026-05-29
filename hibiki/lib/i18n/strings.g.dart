@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19329 (1137 per locale)
+/// Strings: 19414 (1142 per locale)
 ///
-/// Built on 2026-05-29 at 05:13 UTC
+/// Built on 2026-05-29 at 10:28 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1297,6 +1297,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get shortcut_none => 'None';
 	String get shortcut_clear => 'Clear';
 	String get shortcut_stop_capture => 'Stop';
+	String get section_advanced_typography => 'Advanced';
+	String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -2487,6 +2492,11 @@ class _StringsAr extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -3677,6 +3687,11 @@ class _StringsDe extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -4867,6 +4882,11 @@ class _StringsEs extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -6057,6 +6077,11 @@ class _StringsFr extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -7247,6 +7272,11 @@ class _StringsId extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -8437,6 +8467,11 @@ class _StringsIt extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -9627,6 +9662,11 @@ class _StringsJa extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -10817,6 +10857,11 @@ class _StringsKo extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -12007,6 +12052,11 @@ class _StringsNl extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -13197,6 +13247,11 @@ class _StringsPtBr extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -14387,6 +14442,11 @@ class _StringsRu extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -15577,6 +15637,11 @@ class _StringsTh extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -16767,6 +16832,11 @@ class _StringsTr extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -17957,6 +18027,11 @@ class _StringsVi extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -19147,6 +19222,11 @@ class _StringsZhCn extends _StringsEn {
 	@override String get shortcut_none => '无';
 	@override String get shortcut_clear => '清除';
 	@override String get shortcut_stop_capture => '停止捕获';
+	@override String get section_advanced_typography => '高级选项';
+	@override String get sync_err_network => '无法连接服务器——请检查网络或代理设置。';
+	@override String get sync_err_timeout => '连接超时——服务器未在限定时间内响应。';
+	@override String get sync_err_quota => '云端存储空间已满（配额已用尽）。';
+	@override String get sync_err_auth_expired => '登录已过期，请重新登录。';
 }
 
 // Path: retrying_in
@@ -20337,6 +20417,11 @@ class _StringsZhHk extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
+	@override String get sync_err_network => 'Cannot reach the server — check your network or proxy settings.';
+	@override String get sync_err_timeout => 'Connection timed out — the server did not respond in time.';
+	@override String get sync_err_quota => 'Cloud storage is full (quota reached).';
+	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 }
 
 // Path: retrying_in
@@ -21512,6 +21597,11 @@ extension on _StringsEn {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -22661,6 +22751,11 @@ extension on _StringsAr {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -23810,6 +23905,11 @@ extension on _StringsDe {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -24959,6 +25059,11 @@ extension on _StringsEs {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -26108,6 +26213,11 @@ extension on _StringsFr {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -27257,6 +27367,11 @@ extension on _StringsId {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -28406,6 +28521,11 @@ extension on _StringsIt {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -29555,6 +29675,11 @@ extension on _StringsJa {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -30704,6 +30829,11 @@ extension on _StringsKo {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -31853,6 +31983,11 @@ extension on _StringsNl {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -33002,6 +33137,11 @@ extension on _StringsPtBr {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -34151,6 +34291,11 @@ extension on _StringsRu {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -35300,6 +35445,11 @@ extension on _StringsTh {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -36449,6 +36599,11 @@ extension on _StringsTr {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -37598,6 +37753,11 @@ extension on _StringsVi {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
@@ -38747,6 +38907,11 @@ extension on _StringsZhCn {
 			case 'shortcut_none': return '无';
 			case 'shortcut_clear': return '清除';
 			case 'shortcut_stop_capture': return '停止捕获';
+			case 'section_advanced_typography': return '高级选项';
+			case 'sync_err_network': return '无法连接服务器——请检查网络或代理设置。';
+			case 'sync_err_timeout': return '连接超时——服务器未在限定时间内响应。';
+			case 'sync_err_quota': return '云端存储空间已满（配额已用尽）。';
+			case 'sync_err_auth_expired': return '登录已过期，请重新登录。';
 			default: return null;
 		}
 	}
@@ -39896,6 +40061,11 @@ extension on _StringsZhHk {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
+			case 'sync_err_network': return 'Cannot reach the server — check your network or proxy settings.';
+			case 'sync_err_timeout': return 'Connection timed out — the server did not respond in time.';
+			case 'sync_err_quota': return 'Cloud storage is full (quota reached).';
+			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			default: return null;
 		}
 	}
