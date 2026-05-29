@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19329 (1137 per locale)
+/// Strings: 19346 (1138 per locale)
 ///
-/// Built on 2026-05-29 at 05:13 UTC
+/// Built on 2026-05-29 at 10:35 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1297,6 +1297,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get shortcut_none => 'None';
 	String get shortcut_clear => 'Clear';
 	String get shortcut_stop_capture => 'Stop';
+	String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -2487,6 +2488,7 @@ class _StringsAr extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -3677,6 +3679,7 @@ class _StringsDe extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -4867,6 +4870,7 @@ class _StringsEs extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -6057,6 +6061,7 @@ class _StringsFr extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -7247,6 +7252,7 @@ class _StringsId extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -8437,6 +8443,7 @@ class _StringsIt extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -9627,6 +9634,7 @@ class _StringsJa extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -10817,6 +10825,7 @@ class _StringsKo extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -12007,6 +12016,7 @@ class _StringsNl extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -13197,6 +13207,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -14387,6 +14398,7 @@ class _StringsRu extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -15577,6 +15589,7 @@ class _StringsTh extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -16767,6 +16780,7 @@ class _StringsTr extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -17957,6 +17971,7 @@ class _StringsVi extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -19147,6 +19162,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get shortcut_none => '无';
 	@override String get shortcut_clear => '清除';
 	@override String get shortcut_stop_capture => '停止捕获';
+	@override String get section_advanced_typography => '高级选项';
 }
 
 // Path: retrying_in
@@ -20337,6 +20353,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get shortcut_none => 'None';
 	@override String get shortcut_clear => 'Clear';
 	@override String get shortcut_stop_capture => 'Stop';
+	@override String get section_advanced_typography => 'Advanced';
 }
 
 // Path: retrying_in
@@ -21512,6 +21529,7 @@ extension on _StringsEn {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -22661,6 +22679,7 @@ extension on _StringsAr {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -23810,6 +23829,7 @@ extension on _StringsDe {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -24959,6 +24979,7 @@ extension on _StringsEs {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -26108,6 +26129,7 @@ extension on _StringsFr {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -27257,6 +27279,7 @@ extension on _StringsId {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -28406,6 +28429,7 @@ extension on _StringsIt {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -29555,6 +29579,7 @@ extension on _StringsJa {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -30704,6 +30729,7 @@ extension on _StringsKo {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -31853,6 +31879,7 @@ extension on _StringsNl {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -33002,6 +33029,7 @@ extension on _StringsPtBr {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -34151,6 +34179,7 @@ extension on _StringsRu {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -35300,6 +35329,7 @@ extension on _StringsTh {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -36449,6 +36479,7 @@ extension on _StringsTr {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -37598,6 +37629,7 @@ extension on _StringsVi {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
@@ -38747,6 +38779,7 @@ extension on _StringsZhCn {
 			case 'shortcut_none': return '无';
 			case 'shortcut_clear': return '清除';
 			case 'shortcut_stop_capture': return '停止捕获';
+			case 'section_advanced_typography': return '高级选项';
 			default: return null;
 		}
 	}
@@ -39896,6 +39929,7 @@ extension on _StringsZhHk {
 			case 'shortcut_none': return 'None';
 			case 'shortcut_clear': return 'Clear';
 			case 'shortcut_stop_capture': return 'Stop';
+			case 'section_advanced_typography': return 'Advanced';
 			default: return null;
 		}
 	}
