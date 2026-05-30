@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19550 (1150 per locale)
+/// Strings: 19601 (1153 per locale)
 ///
-/// Built on 2026-05-30 at 03:36 UTC
+/// Built on 2026-05-30 at 04:49 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1310,6 +1310,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get sync_section_actions => 'Sync actions';
 	String get sync_section_backup => 'Local backup';
 	String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	String get backup_import_settings_toggle => 'Import settings & profiles';
+	String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -2513,6 +2516,9 @@ class _StringsAr extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -3716,6 +3722,9 @@ class _StringsDe extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -4919,6 +4928,9 @@ class _StringsEs extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -6122,6 +6134,9 @@ class _StringsFr extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -7325,6 +7340,9 @@ class _StringsId extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -8528,6 +8546,9 @@ class _StringsIt extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -9731,6 +9752,9 @@ class _StringsJa extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -10934,6 +10958,9 @@ class _StringsKo extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -12137,6 +12164,9 @@ class _StringsNl extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -13340,6 +13370,9 @@ class _StringsPtBr extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -14543,6 +14576,9 @@ class _StringsRu extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -15746,6 +15782,9 @@ class _StringsTh extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -16949,6 +16988,9 @@ class _StringsTr extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -18152,6 +18194,9 @@ class _StringsVi extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -19355,6 +19400,9 @@ class _StringsZhCn extends _StringsEn {
 	@override String get sync_section_actions => '同步操作';
 	@override String get sync_section_backup => '本地备份';
 	@override String get backup_import_preserve_sync_note => '本设备的同步配置（账户与凭据）将保留。';
+	@override String get backup_import_settings_toggle => '导入设置与 Profile';
+	@override String get backup_import_settings_on_hint => '完整恢复：字体、外观、Profile 都来自备份。';
+	@override String get backup_import_settings_off_hint => '保留本机字体/外观/Profile，只恢复书籍与阅读数据。';
 }
 
 // Path: retrying_in
@@ -20558,6 +20606,9 @@ class _StringsZhHk extends _StringsEn {
 	@override String get sync_section_actions => 'Sync actions';
 	@override String get sync_section_backup => 'Local backup';
 	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
+	@override String get backup_import_settings_toggle => 'Import settings & profiles';
+	@override String get backup_import_settings_on_hint => 'Full restore: fonts, appearance and profiles come from the backup.';
+	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 }
 
 // Path: retrying_in
@@ -21746,6 +21797,9 @@ extension on _StringsEn {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -22908,6 +22962,9 @@ extension on _StringsAr {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -24070,6 +24127,9 @@ extension on _StringsDe {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -25232,6 +25292,9 @@ extension on _StringsEs {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -26394,6 +26457,9 @@ extension on _StringsFr {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -27556,6 +27622,9 @@ extension on _StringsId {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -28718,6 +28787,9 @@ extension on _StringsIt {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -29880,6 +29952,9 @@ extension on _StringsJa {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -31042,6 +31117,9 @@ extension on _StringsKo {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -32204,6 +32282,9 @@ extension on _StringsNl {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -33366,6 +33447,9 @@ extension on _StringsPtBr {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -34528,6 +34612,9 @@ extension on _StringsRu {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -35690,6 +35777,9 @@ extension on _StringsTh {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -36852,6 +36942,9 @@ extension on _StringsTr {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -38014,6 +38107,9 @@ extension on _StringsVi {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
@@ -39176,6 +39272,9 @@ extension on _StringsZhCn {
 			case 'sync_section_actions': return '同步操作';
 			case 'sync_section_backup': return '本地备份';
 			case 'backup_import_preserve_sync_note': return '本设备的同步配置（账户与凭据）将保留。';
+			case 'backup_import_settings_toggle': return '导入设置与 Profile';
+			case 'backup_import_settings_on_hint': return '完整恢复：字体、外观、Profile 都来自备份。';
+			case 'backup_import_settings_off_hint': return '保留本机字体/外观/Profile，只恢复书籍与阅读数据。';
 			default: return null;
 		}
 	}
@@ -40338,6 +40437,9 @@ extension on _StringsZhHk {
 			case 'sync_section_actions': return 'Sync actions';
 			case 'sync_section_backup': return 'Local backup';
 			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
+			case 'backup_import_settings_toggle': return 'Import settings & profiles';
+			case 'backup_import_settings_on_hint': return 'Full restore: fonts, appearance and profiles come from the backup.';
+			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			default: return null;
 		}
 	}
