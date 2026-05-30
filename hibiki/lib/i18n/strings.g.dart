@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19448 (1144 per locale)
+/// Strings: 19550 (1150 per locale)
 ///
-/// Built on 2026-05-29 at 15:44 UTC
+/// Built on 2026-05-30 at 03:36 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1244,7 +1244,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get sync_backend_dropbox => 'Dropbox';
 	String get sync_backend_ftp => 'FTP';
 	String get sync_backend_sftp => 'SFTP';
-	String get sync_backend_smb => 'SMB/CIFS';
 	String get sync_backend_hibiki_server => 'Hibiki P2P';
 	String get sync_server_enable => 'Enable sync server';
 	String get sync_server_port => 'Server port';
@@ -1304,6 +1303,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	String get sync_section_method => 'Sync method';
+	String get sync_section_host_server => 'This device as a sync server';
+	String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	String get sync_section_content => 'What to sync';
+	String get sync_section_actions => 'Sync actions';
+	String get sync_section_backup => 'Local backup';
+	String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -2441,7 +2447,6 @@ class _StringsAr extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -2501,6 +2506,13 @@ class _StringsAr extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -3638,7 +3650,6 @@ class _StringsDe extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -3698,6 +3709,13 @@ class _StringsDe extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -4835,7 +4853,6 @@ class _StringsEs extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -4895,6 +4912,13 @@ class _StringsEs extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -6032,7 +6056,6 @@ class _StringsFr extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -6092,6 +6115,13 @@ class _StringsFr extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -7229,7 +7259,6 @@ class _StringsId extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -7289,6 +7318,13 @@ class _StringsId extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -8426,7 +8462,6 @@ class _StringsIt extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -8486,6 +8521,13 @@ class _StringsIt extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -9623,7 +9665,6 @@ class _StringsJa extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -9683,6 +9724,13 @@ class _StringsJa extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -10820,7 +10868,6 @@ class _StringsKo extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -10880,6 +10927,13 @@ class _StringsKo extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -12017,7 +12071,6 @@ class _StringsNl extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -12077,6 +12130,13 @@ class _StringsNl extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -13214,7 +13274,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -13274,6 +13333,13 @@ class _StringsPtBr extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -14411,7 +14477,6 @@ class _StringsRu extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -14471,6 +14536,13 @@ class _StringsRu extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -15608,7 +15680,6 @@ class _StringsTh extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -15668,6 +15739,13 @@ class _StringsTh extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -16805,7 +16883,6 @@ class _StringsTr extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -16865,6 +16942,13 @@ class _StringsTr extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -18002,7 +18086,6 @@ class _StringsVi extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -18062,6 +18145,13 @@ class _StringsVi extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -19199,7 +19289,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki 互联';
 	@override String get sync_server_enable => '启用同步服务';
 	@override String get sync_server_port => '服务端口';
@@ -19259,6 +19348,13 @@ class _StringsZhCn extends _StringsEn {
 	@override String get sync_err_auth_expired => '登录已过期，请重新登录。';
 	@override String sync_server_port_in_use({required Object port}) => '端口 ${port} 已被占用，请换一个端口。';
 	@override String get sync_lan_scan_failed => '扫描失败——请检查网络权限或防火墙。';
+	@override String get sync_section_method => '同步方式';
+	@override String get sync_section_host_server => '本机作为同步服务器';
+	@override String get sync_section_host_server_footer => '让其他设备从本机同步，与上面选择的同步后端互不影响。';
+	@override String get sync_section_content => '同步内容';
+	@override String get sync_section_actions => '同步操作';
+	@override String get sync_section_backup => '本地备份';
+	@override String get backup_import_preserve_sync_note => '本设备的同步配置（账户与凭据）将保留。';
 }
 
 // Path: retrying_in
@@ -20396,7 +20492,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String get sync_backend_dropbox => 'Dropbox';
 	@override String get sync_backend_ftp => 'FTP';
 	@override String get sync_backend_sftp => 'SFTP';
-	@override String get sync_backend_smb => 'SMB/CIFS';
 	@override String get sync_backend_hibiki_server => 'Hibiki P2P';
 	@override String get sync_server_enable => 'Enable sync server';
 	@override String get sync_server_port => 'Server port';
@@ -20456,6 +20551,13 @@ class _StringsZhHk extends _StringsEn {
 	@override String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
 	@override String sync_server_port_in_use({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 	@override String get sync_lan_scan_failed => 'Scan failed — check network permissions or firewall.';
+	@override String get sync_section_method => 'Sync method';
+	@override String get sync_section_host_server => 'This device as a sync server';
+	@override String get sync_section_host_server_footer => 'Let other devices sync from this device. Independent of the sync backend above.';
+	@override String get sync_section_content => 'What to sync';
+	@override String get sync_section_actions => 'Sync actions';
+	@override String get sync_section_backup => 'Local backup';
+	@override String get backup_import_preserve_sync_note => 'Your sync settings on this device (account and credentials) will be kept.';
 }
 
 // Path: retrying_in
@@ -21578,7 +21680,6 @@ extension on _StringsEn {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -21638,6 +21739,13 @@ extension on _StringsEn {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -22734,7 +22842,6 @@ extension on _StringsAr {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -22794,6 +22901,13 @@ extension on _StringsAr {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -23890,7 +24004,6 @@ extension on _StringsDe {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -23950,6 +24063,13 @@ extension on _StringsDe {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -25046,7 +25166,6 @@ extension on _StringsEs {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -25106,6 +25225,13 @@ extension on _StringsEs {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -26202,7 +26328,6 @@ extension on _StringsFr {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -26262,6 +26387,13 @@ extension on _StringsFr {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -27358,7 +27490,6 @@ extension on _StringsId {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -27418,6 +27549,13 @@ extension on _StringsId {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -28514,7 +28652,6 @@ extension on _StringsIt {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -28574,6 +28711,13 @@ extension on _StringsIt {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -29670,7 +29814,6 @@ extension on _StringsJa {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -29730,6 +29873,13 @@ extension on _StringsJa {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -30826,7 +30976,6 @@ extension on _StringsKo {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -30886,6 +31035,13 @@ extension on _StringsKo {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -31982,7 +32138,6 @@ extension on _StringsNl {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -32042,6 +32197,13 @@ extension on _StringsNl {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -33138,7 +33300,6 @@ extension on _StringsPtBr {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -33198,6 +33359,13 @@ extension on _StringsPtBr {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -34294,7 +34462,6 @@ extension on _StringsRu {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -34354,6 +34521,13 @@ extension on _StringsRu {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -35450,7 +35624,6 @@ extension on _StringsTh {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -35510,6 +35683,13 @@ extension on _StringsTh {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -36606,7 +36786,6 @@ extension on _StringsTr {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -36666,6 +36845,13 @@ extension on _StringsTr {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -37762,7 +37948,6 @@ extension on _StringsVi {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -37822,6 +38007,13 @@ extension on _StringsVi {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
@@ -38918,7 +39110,6 @@ extension on _StringsZhCn {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki 互联';
 			case 'sync_server_enable': return '启用同步服务';
 			case 'sync_server_port': return '服务端口';
@@ -38978,6 +39169,13 @@ extension on _StringsZhCn {
 			case 'sync_err_auth_expired': return '登录已过期，请重新登录。';
 			case 'sync_server_port_in_use': return ({required Object port}) => '端口 ${port} 已被占用，请换一个端口。';
 			case 'sync_lan_scan_failed': return '扫描失败——请检查网络权限或防火墙。';
+			case 'sync_section_method': return '同步方式';
+			case 'sync_section_host_server': return '本机作为同步服务器';
+			case 'sync_section_host_server_footer': return '让其他设备从本机同步，与上面选择的同步后端互不影响。';
+			case 'sync_section_content': return '同步内容';
+			case 'sync_section_actions': return '同步操作';
+			case 'sync_section_backup': return '本地备份';
+			case 'backup_import_preserve_sync_note': return '本设备的同步配置（账户与凭据）将保留。';
 			default: return null;
 		}
 	}
@@ -40074,7 +40272,6 @@ extension on _StringsZhHk {
 			case 'sync_backend_dropbox': return 'Dropbox';
 			case 'sync_backend_ftp': return 'FTP';
 			case 'sync_backend_sftp': return 'SFTP';
-			case 'sync_backend_smb': return 'SMB/CIFS';
 			case 'sync_backend_hibiki_server': return 'Hibiki P2P';
 			case 'sync_server_enable': return 'Enable sync server';
 			case 'sync_server_port': return 'Server port';
@@ -40134,6 +40331,13 @@ extension on _StringsZhHk {
 			case 'sync_err_auth_expired': return 'Sign-in expired — please sign in again.';
 			case 'sync_server_port_in_use': return ({required Object port}) => 'Port ${port} is already in use — pick a different port.';
 			case 'sync_lan_scan_failed': return 'Scan failed — check network permissions or firewall.';
+			case 'sync_section_method': return 'Sync method';
+			case 'sync_section_host_server': return 'This device as a sync server';
+			case 'sync_section_host_server_footer': return 'Let other devices sync from this device. Independent of the sync backend above.';
+			case 'sync_section_content': return 'What to sync';
+			case 'sync_section_actions': return 'Sync actions';
+			case 'sync_section_backup': return 'Local backup';
+			case 'backup_import_preserve_sync_note': return 'Your sync settings on this device (account and credentials) will be kept.';
 			default: return null;
 		}
 	}
