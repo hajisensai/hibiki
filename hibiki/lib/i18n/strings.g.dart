@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19635 (1155 per locale)
+/// Strings: 19669 (1157 per locale)
 ///
-/// Built on 2026-05-30 at 07:33 UTC
+/// Built on 2026-05-31 at 03:03 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1315,6 +1315,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	String get microphone_permission_denied => 'Microphone permission is required to record.';
+	String get anki_connect_api_key => 'API Key';
+	String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -2523,6 +2525,8 @@ class _StringsAr extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -3731,6 +3735,8 @@ class _StringsDe extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -4939,6 +4945,8 @@ class _StringsEs extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -6147,6 +6155,8 @@ class _StringsFr extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -7355,6 +7365,8 @@ class _StringsId extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -8563,6 +8575,8 @@ class _StringsIt extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -9771,6 +9785,8 @@ class _StringsJa extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -10979,6 +10995,8 @@ class _StringsKo extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -12187,6 +12205,8 @@ class _StringsNl extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -13395,6 +13415,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -14603,6 +14625,8 @@ class _StringsRu extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -15811,6 +15835,8 @@ class _StringsTh extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -17019,6 +17045,8 @@ class _StringsTr extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -18227,6 +18255,8 @@ class _StringsVi extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -19435,6 +19465,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get backup_import_settings_off_hint => '保留本机字体/外观/Profile，只恢复书籍与阅读数据。';
 	@override String get reader_unsupported_platform => '本平台暂不支持阅读器。';
 	@override String get microphone_permission_denied => '录音需要麦克风权限。';
+	@override String get anki_connect_api_key => 'API 密钥';
+	@override String get anki_connect_api_key_hint => '若 AnkiConnect 未设置密钥则留空';
 }
 
 // Path: retrying_in
@@ -20643,6 +20675,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get backup_import_settings_off_hint => 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 	@override String get reader_unsupported_platform => 'The reader is not yet available on this platform.';
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
+	@override String get anki_connect_api_key => 'API Key';
+	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 }
 
 // Path: retrying_in
@@ -21836,6 +21870,8 @@ extension on _StringsEn {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -23003,6 +23039,8 @@ extension on _StringsAr {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -24170,6 +24208,8 @@ extension on _StringsDe {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -25337,6 +25377,8 @@ extension on _StringsEs {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -26504,6 +26546,8 @@ extension on _StringsFr {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -27671,6 +27715,8 @@ extension on _StringsId {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -28838,6 +28884,8 @@ extension on _StringsIt {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -30005,6 +30053,8 @@ extension on _StringsJa {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -31172,6 +31222,8 @@ extension on _StringsKo {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -32339,6 +32391,8 @@ extension on _StringsNl {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -33506,6 +33560,8 @@ extension on _StringsPtBr {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -34673,6 +34729,8 @@ extension on _StringsRu {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -35840,6 +35898,8 @@ extension on _StringsTh {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -37007,6 +37067,8 @@ extension on _StringsTr {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -38174,6 +38236,8 @@ extension on _StringsVi {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
@@ -39341,6 +39405,8 @@ extension on _StringsZhCn {
 			case 'backup_import_settings_off_hint': return '保留本机字体/外观/Profile，只恢复书籍与阅读数据。';
 			case 'reader_unsupported_platform': return '本平台暂不支持阅读器。';
 			case 'microphone_permission_denied': return '录音需要麦克风权限。';
+			case 'anki_connect_api_key': return 'API 密钥';
+			case 'anki_connect_api_key_hint': return '若 AnkiConnect 未设置密钥则留空';
 			default: return null;
 		}
 	}
@@ -40508,6 +40574,8 @@ extension on _StringsZhHk {
 			case 'backup_import_settings_off_hint': return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
 			case 'reader_unsupported_platform': return 'The reader is not yet available on this platform.';
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
+			case 'anki_connect_api_key': return 'API Key';
+			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			default: return null;
 		}
 	}
