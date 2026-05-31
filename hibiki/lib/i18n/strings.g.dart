@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19669 (1157 per locale)
+/// Strings: 19703 (1159 per locale)
 ///
-/// Built on 2026-05-31 at 03:03 UTC
+/// Built on 2026-05-31 at 16:24 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1317,6 +1317,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get microphone_permission_denied => 'Microphone permission is required to record.';
 	String get anki_connect_api_key => 'API Key';
 	String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -2527,6 +2529,8 @@ class _StringsAr extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -3737,6 +3741,8 @@ class _StringsDe extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -4947,6 +4953,8 @@ class _StringsEs extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -6157,6 +6165,8 @@ class _StringsFr extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -7367,6 +7377,8 @@ class _StringsId extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -8577,6 +8589,8 @@ class _StringsIt extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -9787,6 +9801,8 @@ class _StringsJa extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -10997,6 +11013,8 @@ class _StringsKo extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -12207,6 +12225,8 @@ class _StringsNl extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -13417,6 +13437,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -14627,6 +14649,8 @@ class _StringsRu extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -15837,6 +15861,8 @@ class _StringsTh extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -17047,6 +17073,8 @@ class _StringsTr extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -18257,6 +18285,8 @@ class _StringsVi extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -19467,6 +19497,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get microphone_permission_denied => '录音需要麦克风权限。';
 	@override String get anki_connect_api_key => 'API 密钥';
 	@override String get anki_connect_api_key_hint => '若 AnkiConnect 未设置密钥则留空';
+	@override String get shortcut_action_global_scroll_page_down => '向下翻一屏';
+	@override String get shortcut_action_global_scroll_page_up => '向上翻一屏';
 }
 
 // Path: retrying_in
@@ -20677,6 +20709,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get microphone_permission_denied => 'Microphone permission is required to record.';
 	@override String get anki_connect_api_key => 'API Key';
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
+	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
+	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
 }
 
 // Path: retrying_in
@@ -21872,6 +21906,8 @@ extension on _StringsEn {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -23041,6 +23077,8 @@ extension on _StringsAr {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -24210,6 +24248,8 @@ extension on _StringsDe {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -25379,6 +25419,8 @@ extension on _StringsEs {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -26548,6 +26590,8 @@ extension on _StringsFr {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -27717,6 +27761,8 @@ extension on _StringsId {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -28886,6 +28932,8 @@ extension on _StringsIt {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -30055,6 +30103,8 @@ extension on _StringsJa {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -31224,6 +31274,8 @@ extension on _StringsKo {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -32393,6 +32445,8 @@ extension on _StringsNl {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -33562,6 +33616,8 @@ extension on _StringsPtBr {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -34731,6 +34787,8 @@ extension on _StringsRu {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -35900,6 +35958,8 @@ extension on _StringsTh {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -37069,6 +37129,8 @@ extension on _StringsTr {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -38238,6 +38300,8 @@ extension on _StringsVi {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
@@ -39407,6 +39471,8 @@ extension on _StringsZhCn {
 			case 'microphone_permission_denied': return '录音需要麦克风权限。';
 			case 'anki_connect_api_key': return 'API 密钥';
 			case 'anki_connect_api_key_hint': return '若 AnkiConnect 未设置密钥则留空';
+			case 'shortcut_action_global_scroll_page_down': return '向下翻一屏';
+			case 'shortcut_action_global_scroll_page_up': return '向上翻一屏';
 			default: return null;
 		}
 	}
@@ -40576,6 +40642,8 @@ extension on _StringsZhHk {
 			case 'microphone_permission_denied': return 'Microphone permission is required to record.';
 			case 'anki_connect_api_key': return 'API Key';
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
+			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
+			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
 			default: return null;
 		}
 	}
