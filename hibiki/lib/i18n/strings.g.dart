@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19703 (1159 per locale)
+/// Strings: 19737 (1161 per locale)
 ///
-/// Built on 2026-05-31 at 16:24 UTC
+/// Built on 2026-05-31 at 18:09 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1319,6 +1319,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	String get shortcut_action_home_tab_prev => 'Previous tab';
+	String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -2531,6 +2533,8 @@ class _StringsAr extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -3743,6 +3747,8 @@ class _StringsDe extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -4955,6 +4961,8 @@ class _StringsEs extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -6167,6 +6175,8 @@ class _StringsFr extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -7379,6 +7389,8 @@ class _StringsId extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -8591,6 +8603,8 @@ class _StringsIt extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -9803,6 +9817,8 @@ class _StringsJa extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -11015,6 +11031,8 @@ class _StringsKo extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -12227,6 +12245,8 @@ class _StringsNl extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -13439,6 +13459,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -14651,6 +14673,8 @@ class _StringsRu extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -15863,6 +15887,8 @@ class _StringsTh extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -17075,6 +17101,8 @@ class _StringsTr extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -18287,6 +18315,8 @@ class _StringsVi extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -19499,6 +19529,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get anki_connect_api_key_hint => '若 AnkiConnect 未设置密钥则留空';
 	@override String get shortcut_action_global_scroll_page_down => '向下翻一屏';
 	@override String get shortcut_action_global_scroll_page_up => '向上翻一屏';
+	@override String get shortcut_action_home_tab_prev => '上一个标签页';
+	@override String get shortcut_action_home_tab_next => '下一个标签页';
 }
 
 // Path: retrying_in
@@ -20711,6 +20743,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get anki_connect_api_key_hint => 'Leave empty unless AnkiConnect requires a key';
 	@override String get shortcut_action_global_scroll_page_down => 'Scroll down one screen';
 	@override String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+	@override String get shortcut_action_home_tab_prev => 'Previous tab';
+	@override String get shortcut_action_home_tab_next => 'Next tab';
 }
 
 // Path: retrying_in
@@ -21908,6 +21942,8 @@ extension on _StringsEn {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -23079,6 +23115,8 @@ extension on _StringsAr {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -24250,6 +24288,8 @@ extension on _StringsDe {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -25421,6 +25461,8 @@ extension on _StringsEs {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -26592,6 +26634,8 @@ extension on _StringsFr {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -27763,6 +27807,8 @@ extension on _StringsId {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -28934,6 +28980,8 @@ extension on _StringsIt {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -30105,6 +30153,8 @@ extension on _StringsJa {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -31276,6 +31326,8 @@ extension on _StringsKo {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -32447,6 +32499,8 @@ extension on _StringsNl {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -33618,6 +33672,8 @@ extension on _StringsPtBr {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -34789,6 +34845,8 @@ extension on _StringsRu {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -35960,6 +36018,8 @@ extension on _StringsTh {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -37131,6 +37191,8 @@ extension on _StringsTr {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -38302,6 +38364,8 @@ extension on _StringsVi {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
@@ -39473,6 +39537,8 @@ extension on _StringsZhCn {
 			case 'anki_connect_api_key_hint': return '若 AnkiConnect 未设置密钥则留空';
 			case 'shortcut_action_global_scroll_page_down': return '向下翻一屏';
 			case 'shortcut_action_global_scroll_page_up': return '向上翻一屏';
+			case 'shortcut_action_home_tab_prev': return '上一个标签页';
+			case 'shortcut_action_home_tab_next': return '下一个标签页';
 			default: return null;
 		}
 	}
@@ -40644,6 +40710,8 @@ extension on _StringsZhHk {
 			case 'anki_connect_api_key_hint': return 'Leave empty unless AnkiConnect requires a key';
 			case 'shortcut_action_global_scroll_page_down': return 'Scroll down one screen';
 			case 'shortcut_action_global_scroll_page_up': return 'Scroll up one screen';
+			case 'shortcut_action_home_tab_prev': return 'Previous tab';
+			case 'shortcut_action_home_tab_next': return 'Next tab';
 			default: return null;
 		}
 	}
