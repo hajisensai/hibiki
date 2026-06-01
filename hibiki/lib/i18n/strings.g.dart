@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 19805 (1165 per locale)
 ///
-/// Built on 2026-05-31 at 19:50 UTC
+/// Built on 2026-06-01 at 01:43 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1167,7 +1167,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get update_debug_channel => 'Debug Update Channel';
 	String get update_debug_channel_warning => 'Debug channel builds may be unstable. Use at your own risk.';
 	String get sync_title => 'Sync';
-	String get sync_summary => 'Google Drive · ッツ Reader compatible';
+	String get sync_summary => 'Google Drive · ッツ/Hoshi Reader compatible';
 	String get sync_account => 'Account';
 	String get sync_client_id => 'Google OAuth Client ID';
 	String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
@@ -2395,7 +2395,7 @@ class _StringsAr extends _StringsEn {
 	@override String get sync_sign_out => 'تسجيل الخروج';
 	@override String get sync_signed_in => 'تم تسجيل الدخول';
 	@override String get sync_statistics => 'مزامنة الإحصائيات';
-	@override String get sync_summary => 'Google Drive · متوافق مع ッツ Reader';
+	@override String get sync_summary => 'Google Drive · متوافق مع ッツ/Hoshi Reader';
 	@override String get sync_title => 'المزامنة';
 	@override String get update_channel_beta => 'تجريبي';
 	@override String get update_channel_debug => 'تصحيح';
@@ -3613,7 +3613,7 @@ class _StringsDe extends _StringsEn {
 	@override String get sync_sign_out => 'Abmelden';
 	@override String get sync_signed_in => 'Angemeldet';
 	@override String get sync_statistics => 'Statistiken synchronisieren';
-	@override String get sync_summary => 'Google Drive · ッツ Reader-kompatibel';
+	@override String get sync_summary => 'Google Drive · ッツ/Hoshi Reader-kompatibel';
 	@override String get sync_title => 'Synchronisierung';
 	@override String get update_channel_beta => 'Beta';
 	@override String get update_channel_debug => 'Debug';
@@ -4831,7 +4831,7 @@ class _StringsEs extends _StringsEn {
 	@override String get sync_sign_out => 'Cerrar sesión';
 	@override String get sync_signed_in => 'Conectado';
 	@override String get sync_statistics => 'Sincronizar estadísticas';
-	@override String get sync_summary => 'Google Drive · Compatible con ッツ Reader';
+	@override String get sync_summary => 'Google Drive · Compatible con ッツ/Hoshi Reader';
 	@override String get sync_title => 'Sincronización';
 	@override String get update_channel_beta => 'Beta';
 	@override String get update_channel_debug => 'Depuración';
@@ -6049,7 +6049,7 @@ class _StringsFr extends _StringsEn {
 	@override String get sync_sign_out => 'Se déconnecter';
 	@override String get sync_signed_in => 'Connecté';
 	@override String get sync_statistics => 'Synchroniser les statistiques';
-	@override String get sync_summary => 'Google Drive · Compatible avec ッツ Reader';
+	@override String get sync_summary => 'Google Drive · Compatible avec ッツ/Hoshi Reader';
 	@override String get sync_title => 'Synchronisation';
 	@override String get update_channel_beta => 'Bêta';
 	@override String get update_channel_debug => 'Débogage';
@@ -7267,7 +7267,7 @@ class _StringsId extends _StringsEn {
 	@override String get sync_sign_out => 'Keluar';
 	@override String get sync_signed_in => 'Sudah masuk';
 	@override String get sync_statistics => 'Sinkronkan Statistik';
-	@override String get sync_summary => 'Google Drive · Kompatibel dengan ッツ Reader';
+	@override String get sync_summary => 'Google Drive · Kompatibel dengan ッツ/Hoshi Reader';
 	@override String get sync_title => 'Sinkronisasi';
 	@override String get update_channel_beta => 'Beta';
 	@override String get update_channel_debug => 'Debug';
@@ -8485,7 +8485,7 @@ class _StringsIt extends _StringsEn {
 	@override String get sync_sign_out => 'Esci';
 	@override String get sync_signed_in => 'Connesso';
 	@override String get sync_statistics => 'Sincronizza statistiche';
-	@override String get sync_summary => 'Google Drive · Compatibile con ッツ Reader';
+	@override String get sync_summary => 'Google Drive · Compatibile con ッツ/Hoshi Reader';
 	@override String get sync_title => 'Sincronizzazione';
 	@override String get update_channel_beta => 'Beta';
 	@override String get update_channel_debug => 'Debug';
@@ -9703,7 +9703,7 @@ class _StringsJa extends _StringsEn {
 	@override String get sync_sign_out => 'ログアウト';
 	@override String get sync_signed_in => 'ログイン済み';
 	@override String get sync_statistics => '統計を同期';
-	@override String get sync_summary => 'Google Drive · ッツ Reader互換';
+	@override String get sync_summary => 'Google Drive · ッツ/Hoshi Reader互換';
 	@override String get sync_title => '同期';
 	@override String get update_channel_beta => 'ベータ';
 	@override String get update_channel_debug => 'デバッグ';
@@ -10921,7 +10921,7 @@ class _StringsKo extends _StringsEn {
 	@override String get sync_sign_out => '로그아웃';
 	@override String get sync_signed_in => '로그인됨';
 	@override String get sync_statistics => '통계 동기화';
-	@override String get sync_summary => 'Google Drive · ッツ Reader 호환';
+	@override String get sync_summary => 'Google Drive · ッツ/Hoshi Reader 호환';
 	@override String get sync_title => '동기화';
 	@override String get update_channel_beta => '베타';
 	@override String get update_channel_debug => '디버그';
@@ -12139,7 +12139,7 @@ class _StringsNl extends _StringsEn {
 	@override String get sync_sign_out => 'Afmelden';
 	@override String get sync_signed_in => 'Aangemeld';
 	@override String get sync_statistics => 'Statistieken synchroniseren';
-	@override String get sync_summary => 'Google Drive · ッツ Reader-compatibel';
+	@override String get sync_summary => 'Google Drive · ッツ/Hoshi Reader-compatibel';
 	@override String get sync_title => 'Synchronisatie';
 	@override String get update_channel_beta => 'Bèta';
 	@override String get update_channel_debug => 'Debug';
@@ -13357,7 +13357,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get sync_sign_out => 'Sair';
 	@override String get sync_signed_in => 'Conectado';
 	@override String get sync_statistics => 'Sincronizar estatísticas';
-	@override String get sync_summary => 'Google Drive · Compatível com ッツ Reader';
+	@override String get sync_summary => 'Google Drive · Compatível com ッツ/Hoshi Reader';
 	@override String get sync_title => 'Sincronização';
 	@override String get update_channel_beta => 'Beta';
 	@override String get update_channel_debug => 'Depuração';
@@ -14575,7 +14575,7 @@ class _StringsRu extends _StringsEn {
 	@override String get sync_sign_out => 'Выйти';
 	@override String get sync_signed_in => 'Авторизован';
 	@override String get sync_statistics => 'Синхронизировать статистику';
-	@override String get sync_summary => 'Google Drive · Совместимо с ッツ Reader';
+	@override String get sync_summary => 'Google Drive · Совместимо с ッツ/Hoshi Reader';
 	@override String get sync_title => 'Синхронизация';
 	@override String get update_channel_beta => 'Бета';
 	@override String get update_channel_debug => 'Отладка';
@@ -15793,7 +15793,7 @@ class _StringsTh extends _StringsEn {
 	@override String get sync_sign_out => 'ออกจากระบบ';
 	@override String get sync_signed_in => 'เข้าสู่ระบบแล้ว';
 	@override String get sync_statistics => 'ซิงค์สถิติ';
-	@override String get sync_summary => 'Google Drive · รองรับ ッツ Reader';
+	@override String get sync_summary => 'Google Drive · รองรับ ッツ/Hoshi Reader';
 	@override String get sync_title => 'ซิงค์';
 	@override String get update_channel_beta => 'เบต้า';
 	@override String get update_channel_debug => 'ดีบัก';
@@ -17011,7 +17011,7 @@ class _StringsTr extends _StringsEn {
 	@override String get sync_sign_out => 'Oturumu Kapat';
 	@override String get sync_signed_in => 'Oturum açıldı';
 	@override String get sync_statistics => 'İstatistikleri Senkronize Et';
-	@override String get sync_summary => 'Google Drive · ッツ Reader uyumlu';
+	@override String get sync_summary => 'Google Drive · ッツ/Hoshi Reader uyumlu';
 	@override String get sync_title => 'Senkronizasyon';
 	@override String get update_channel_beta => 'Beta';
 	@override String get update_channel_debug => 'Hata Ayıklama';
@@ -18229,7 +18229,7 @@ class _StringsVi extends _StringsEn {
 	@override String get sync_sign_out => 'Đăng xuất';
 	@override String get sync_signed_in => 'Đã đăng nhập';
 	@override String get sync_statistics => 'Đồng bộ thống kê';
-	@override String get sync_summary => 'Google Drive · Tương thích ッツ Reader';
+	@override String get sync_summary => 'Google Drive · Tương thích ッツ/Hoshi Reader';
 	@override String get sync_title => 'Đồng bộ';
 	@override String get update_channel_beta => 'Beta';
 	@override String get update_channel_debug => 'Debug';
@@ -19450,7 +19450,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get sync_sign_out => '退出登录';
 	@override String get sync_signed_in => '已登录';
 	@override String get sync_statistics => '同步统计';
-	@override String get sync_summary => 'Google Drive · 兼容 ッツ Reader';
+	@override String get sync_summary => 'Google Drive · 兼容 ッツ/Hoshi Reader';
 	@override String get sync_title => '同步';
 	@override String get anki_connect_host => 'Host';
 	@override String get anki_connect_port => 'Port';
@@ -20665,7 +20665,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get sync_sign_out => '登出';
 	@override String get sync_signed_in => '已登入';
 	@override String get sync_statistics => '同步統計';
-	@override String get sync_summary => 'Google Drive · 相容 ッツ Reader';
+	@override String get sync_summary => 'Google Drive · 相容 ッツ/Hoshi Reader';
 	@override String get sync_title => '同步';
 	@override String get update_channel_beta => '測試版';
 	@override String get update_channel_debug => '除錯版';
@@ -21858,7 +21858,7 @@ extension on _StringsEn {
 			case 'update_debug_channel': return 'Debug Update Channel';
 			case 'update_debug_channel_warning': return 'Debug channel builds may be unstable. Use at your own risk.';
 			case 'sync_title': return 'Sync';
-			case 'sync_summary': return 'Google Drive · ッツ Reader compatible';
+			case 'sync_summary': return 'Google Drive · ッツ/Hoshi Reader compatible';
 			case 'sync_account': return 'Account';
 			case 'sync_client_id': return 'Google OAuth Client ID';
 			case 'sync_client_id_hint': return 'xxx.apps.googleusercontent.com';
@@ -23045,7 +23045,7 @@ extension on _StringsAr {
 			case 'sync_sign_out': return 'تسجيل الخروج';
 			case 'sync_signed_in': return 'تم تسجيل الدخول';
 			case 'sync_statistics': return 'مزامنة الإحصائيات';
-			case 'sync_summary': return 'Google Drive · متوافق مع ッツ Reader';
+			case 'sync_summary': return 'Google Drive · متوافق مع ッツ/Hoshi Reader';
 			case 'sync_title': return 'المزامنة';
 			case 'update_channel_beta': return 'تجريبي';
 			case 'update_channel_debug': return 'تصحيح';
@@ -24222,7 +24222,7 @@ extension on _StringsDe {
 			case 'sync_sign_out': return 'Abmelden';
 			case 'sync_signed_in': return 'Angemeldet';
 			case 'sync_statistics': return 'Statistiken synchronisieren';
-			case 'sync_summary': return 'Google Drive · ッツ Reader-kompatibel';
+			case 'sync_summary': return 'Google Drive · ッツ/Hoshi Reader-kompatibel';
 			case 'sync_title': return 'Synchronisierung';
 			case 'update_channel_beta': return 'Beta';
 			case 'update_channel_debug': return 'Debug';
@@ -25399,7 +25399,7 @@ extension on _StringsEs {
 			case 'sync_sign_out': return 'Cerrar sesión';
 			case 'sync_signed_in': return 'Conectado';
 			case 'sync_statistics': return 'Sincronizar estadísticas';
-			case 'sync_summary': return 'Google Drive · Compatible con ッツ Reader';
+			case 'sync_summary': return 'Google Drive · Compatible con ッツ/Hoshi Reader';
 			case 'sync_title': return 'Sincronización';
 			case 'update_channel_beta': return 'Beta';
 			case 'update_channel_debug': return 'Depuración';
@@ -26576,7 +26576,7 @@ extension on _StringsFr {
 			case 'sync_sign_out': return 'Se déconnecter';
 			case 'sync_signed_in': return 'Connecté';
 			case 'sync_statistics': return 'Synchroniser les statistiques';
-			case 'sync_summary': return 'Google Drive · Compatible avec ッツ Reader';
+			case 'sync_summary': return 'Google Drive · Compatible avec ッツ/Hoshi Reader';
 			case 'sync_title': return 'Synchronisation';
 			case 'update_channel_beta': return 'Bêta';
 			case 'update_channel_debug': return 'Débogage';
@@ -27753,7 +27753,7 @@ extension on _StringsId {
 			case 'sync_sign_out': return 'Keluar';
 			case 'sync_signed_in': return 'Sudah masuk';
 			case 'sync_statistics': return 'Sinkronkan Statistik';
-			case 'sync_summary': return 'Google Drive · Kompatibel dengan ッツ Reader';
+			case 'sync_summary': return 'Google Drive · Kompatibel dengan ッツ/Hoshi Reader';
 			case 'sync_title': return 'Sinkronisasi';
 			case 'update_channel_beta': return 'Beta';
 			case 'update_channel_debug': return 'Debug';
@@ -28930,7 +28930,7 @@ extension on _StringsIt {
 			case 'sync_sign_out': return 'Esci';
 			case 'sync_signed_in': return 'Connesso';
 			case 'sync_statistics': return 'Sincronizza statistiche';
-			case 'sync_summary': return 'Google Drive · Compatibile con ッツ Reader';
+			case 'sync_summary': return 'Google Drive · Compatibile con ッツ/Hoshi Reader';
 			case 'sync_title': return 'Sincronizzazione';
 			case 'update_channel_beta': return 'Beta';
 			case 'update_channel_debug': return 'Debug';
@@ -30107,7 +30107,7 @@ extension on _StringsJa {
 			case 'sync_sign_out': return 'ログアウト';
 			case 'sync_signed_in': return 'ログイン済み';
 			case 'sync_statistics': return '統計を同期';
-			case 'sync_summary': return 'Google Drive · ッツ Reader互換';
+			case 'sync_summary': return 'Google Drive · ッツ/Hoshi Reader互換';
 			case 'sync_title': return '同期';
 			case 'update_channel_beta': return 'ベータ';
 			case 'update_channel_debug': return 'デバッグ';
@@ -31284,7 +31284,7 @@ extension on _StringsKo {
 			case 'sync_sign_out': return '로그아웃';
 			case 'sync_signed_in': return '로그인됨';
 			case 'sync_statistics': return '통계 동기화';
-			case 'sync_summary': return 'Google Drive · ッツ Reader 호환';
+			case 'sync_summary': return 'Google Drive · ッツ/Hoshi Reader 호환';
 			case 'sync_title': return '동기화';
 			case 'update_channel_beta': return '베타';
 			case 'update_channel_debug': return '디버그';
@@ -32461,7 +32461,7 @@ extension on _StringsNl {
 			case 'sync_sign_out': return 'Afmelden';
 			case 'sync_signed_in': return 'Aangemeld';
 			case 'sync_statistics': return 'Statistieken synchroniseren';
-			case 'sync_summary': return 'Google Drive · ッツ Reader-compatibel';
+			case 'sync_summary': return 'Google Drive · ッツ/Hoshi Reader-compatibel';
 			case 'sync_title': return 'Synchronisatie';
 			case 'update_channel_beta': return 'Bèta';
 			case 'update_channel_debug': return 'Debug';
@@ -33638,7 +33638,7 @@ extension on _StringsPtBr {
 			case 'sync_sign_out': return 'Sair';
 			case 'sync_signed_in': return 'Conectado';
 			case 'sync_statistics': return 'Sincronizar estatísticas';
-			case 'sync_summary': return 'Google Drive · Compatível com ッツ Reader';
+			case 'sync_summary': return 'Google Drive · Compatível com ッツ/Hoshi Reader';
 			case 'sync_title': return 'Sincronização';
 			case 'update_channel_beta': return 'Beta';
 			case 'update_channel_debug': return 'Depuração';
@@ -34815,7 +34815,7 @@ extension on _StringsRu {
 			case 'sync_sign_out': return 'Выйти';
 			case 'sync_signed_in': return 'Авторизован';
 			case 'sync_statistics': return 'Синхронизировать статистику';
-			case 'sync_summary': return 'Google Drive · Совместимо с ッツ Reader';
+			case 'sync_summary': return 'Google Drive · Совместимо с ッツ/Hoshi Reader';
 			case 'sync_title': return 'Синхронизация';
 			case 'update_channel_beta': return 'Бета';
 			case 'update_channel_debug': return 'Отладка';
@@ -35992,7 +35992,7 @@ extension on _StringsTh {
 			case 'sync_sign_out': return 'ออกจากระบบ';
 			case 'sync_signed_in': return 'เข้าสู่ระบบแล้ว';
 			case 'sync_statistics': return 'ซิงค์สถิติ';
-			case 'sync_summary': return 'Google Drive · รองรับ ッツ Reader';
+			case 'sync_summary': return 'Google Drive · รองรับ ッツ/Hoshi Reader';
 			case 'sync_title': return 'ซิงค์';
 			case 'update_channel_beta': return 'เบต้า';
 			case 'update_channel_debug': return 'ดีบัก';
@@ -37169,7 +37169,7 @@ extension on _StringsTr {
 			case 'sync_sign_out': return 'Oturumu Kapat';
 			case 'sync_signed_in': return 'Oturum açıldı';
 			case 'sync_statistics': return 'İstatistikleri Senkronize Et';
-			case 'sync_summary': return 'Google Drive · ッツ Reader uyumlu';
+			case 'sync_summary': return 'Google Drive · ッツ/Hoshi Reader uyumlu';
 			case 'sync_title': return 'Senkronizasyon';
 			case 'update_channel_beta': return 'Beta';
 			case 'update_channel_debug': return 'Hata Ayıklama';
@@ -38346,7 +38346,7 @@ extension on _StringsVi {
 			case 'sync_sign_out': return 'Đăng xuất';
 			case 'sync_signed_in': return 'Đã đăng nhập';
 			case 'sync_statistics': return 'Đồng bộ thống kê';
-			case 'sync_summary': return 'Google Drive · Tương thích ッツ Reader';
+			case 'sync_summary': return 'Google Drive · Tương thích ッツ/Hoshi Reader';
 			case 'sync_title': return 'Đồng bộ';
 			case 'update_channel_beta': return 'Beta';
 			case 'update_channel_debug': return 'Debug';
@@ -39526,7 +39526,7 @@ extension on _StringsZhCn {
 			case 'sync_sign_out': return '退出登录';
 			case 'sync_signed_in': return '已登录';
 			case 'sync_statistics': return '同步统计';
-			case 'sync_summary': return 'Google Drive · 兼容 ッツ Reader';
+			case 'sync_summary': return 'Google Drive · 兼容 ッツ/Hoshi Reader';
 			case 'sync_title': return '同步';
 			case 'anki_connect_host': return 'Host';
 			case 'anki_connect_port': return 'Port';
@@ -40700,7 +40700,7 @@ extension on _StringsZhHk {
 			case 'sync_sign_out': return '登出';
 			case 'sync_signed_in': return '已登入';
 			case 'sync_statistics': return '同步統計';
-			case 'sync_summary': return 'Google Drive · 相容 ッツ Reader';
+			case 'sync_summary': return 'Google Drive · 相容 ッツ/Hoshi Reader';
 			case 'sync_title': return '同步';
 			case 'update_channel_beta': return '測試版';
 			case 'update_channel_debug': return '除錯版';
