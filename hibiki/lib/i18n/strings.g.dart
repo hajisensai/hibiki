@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19805 (1165 per locale)
+/// Strings: 19839 (1167 per locale)
 ///
-/// Built on 2026-06-01 at 01:43 UTC
+/// Built on 2026-06-01 at 04:41 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1325,6 +1325,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get move_down => 'Move down';
 	String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	String get on_screen_keyboard => 'On-screen keyboard';
+	String get app_ui_scale => 'UI size';
+	String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -2543,6 +2545,8 @@ class _StringsAr extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -3761,6 +3765,8 @@ class _StringsDe extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -4979,6 +4985,8 @@ class _StringsEs extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -6197,6 +6205,8 @@ class _StringsFr extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -7415,6 +7425,8 @@ class _StringsId extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -8633,6 +8645,8 @@ class _StringsIt extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -9851,6 +9865,8 @@ class _StringsJa extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -11069,6 +11085,8 @@ class _StringsKo extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -12287,6 +12305,8 @@ class _StringsNl extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -13505,6 +13525,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -14723,6 +14745,8 @@ class _StringsRu extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -15941,6 +15965,8 @@ class _StringsTh extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -17159,6 +17185,8 @@ class _StringsTr extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -18377,6 +18405,8 @@ class _StringsVi extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -19595,6 +19625,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get move_down => '下移';
 	@override String get shortcut_action_reader_toggle_furigana => '切换振假名';
 	@override String get on_screen_keyboard => '屏幕键盘';
+	@override String get app_ui_scale => '界面大小';
+	@override String get app_ui_scale_hint => '缩放应用文字和间距。大屏设备上如果控件偏大，可以调低。';
 }
 
 // Path: retrying_in
@@ -20813,6 +20845,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get move_down => 'Move down';
 	@override String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
 	@override String get on_screen_keyboard => 'On-screen keyboard';
+	@override String get app_ui_scale => 'UI size';
+	@override String get app_ui_scale_hint => 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 }
 
 // Path: retrying_in
@@ -22016,6 +22050,8 @@ extension on _StringsEn {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -23193,6 +23229,8 @@ extension on _StringsAr {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -24370,6 +24408,8 @@ extension on _StringsDe {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -25547,6 +25587,8 @@ extension on _StringsEs {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -26724,6 +26766,8 @@ extension on _StringsFr {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -27901,6 +27945,8 @@ extension on _StringsId {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -29078,6 +29124,8 @@ extension on _StringsIt {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -30255,6 +30303,8 @@ extension on _StringsJa {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -31432,6 +31482,8 @@ extension on _StringsKo {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -32609,6 +32661,8 @@ extension on _StringsNl {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -33786,6 +33840,8 @@ extension on _StringsPtBr {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -34963,6 +35019,8 @@ extension on _StringsRu {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -36140,6 +36198,8 @@ extension on _StringsTh {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -37317,6 +37377,8 @@ extension on _StringsTr {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -38494,6 +38556,8 @@ extension on _StringsVi {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
@@ -39671,6 +39735,8 @@ extension on _StringsZhCn {
 			case 'move_down': return '下移';
 			case 'shortcut_action_reader_toggle_furigana': return '切换振假名';
 			case 'on_screen_keyboard': return '屏幕键盘';
+			case 'app_ui_scale': return '界面大小';
+			case 'app_ui_scale_hint': return '缩放应用文字和间距。大屏设备上如果控件偏大，可以调低。';
 			default: return null;
 		}
 	}
@@ -40848,6 +40914,8 @@ extension on _StringsZhHk {
 			case 'move_down': return 'Move down';
 			case 'shortcut_action_reader_toggle_furigana': return 'Toggle furigana';
 			case 'on_screen_keyboard': return 'On-screen keyboard';
+			case 'app_ui_scale': return 'UI size';
+			case 'app_ui_scale_hint': return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
 			default: return null;
 		}
 	}
