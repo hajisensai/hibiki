@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 19907 (1171 per locale)
 ///
-/// Built on 2026-06-01 at 14:57 UTC
+/// Built on 2026-06-01 at 15:42 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1582,7 +1582,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get on_screen_keyboard => 'On-screen keyboard';
   String get app_ui_scale => 'UI size';
   String get app_ui_scale_hint =>
-      'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      'Scales app text and spacing from 30% to 300%. Increase it on large screens if controls feel too small.';
   String get remote_lookup_enabled => 'Use remote Hibiki lookup';
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
@@ -41180,7 +41180,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get app_ui_scale => '界面大小';
   @override
-  String get app_ui_scale_hint => '缩放应用文字和间距。大屏设备上如果控件偏大，可以调低。';
+  String get app_ui_scale_hint => '缩放应用文字和间距，范围 30% 到 300%。大屏设备上如果控件偏小，可以调高。';
   @override
   String get remote_lookup_enabled => '使用远端 Hibiki 查询';
   @override
@@ -46127,7 +46127,7 @@ extension on _StringsEn {
       case 'app_ui_scale':
         return 'UI size';
       case 'app_ui_scale_hint':
-        return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+        return 'Scales app text and spacing from 30% to 300%. Increase it on large screens if controls feel too small.';
       case 'remote_lookup_enabled':
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
@@ -82171,7 +82171,7 @@ extension on _StringsZhCn {
       case 'app_ui_scale':
         return '界面大小';
       case 'app_ui_scale_hint':
-        return '缩放应用文字和间距。大屏设备上如果控件偏大，可以调低。';
+        return '缩放应用文字和间距，范围 30% 到 300%。大屏设备上如果控件偏小，可以调高。';
       case 'remote_lookup_enabled':
         return '使用远端 Hibiki 查询';
       case 'remote_lookup_enabled_hint':
