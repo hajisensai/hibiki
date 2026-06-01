@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19873 (1169 per locale)
+/// Strings: 19907 (1171 per locale)
 ///
-/// Built on 2026-06-01 at 06:53 UTC
+/// Built on 2026-06-01 at 14:57 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1586,6 +1586,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get remote_lookup_enabled => 'Use remote Hibiki lookup';
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -4198,6 +4201,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -6886,6 +6894,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -9583,6 +9596,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -12295,6 +12313,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -14947,6 +14970,11 @@ class _StringsId extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -17632,6 +17660,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -20171,6 +20204,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -22715,6 +22753,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -25384,6 +25427,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -28068,6 +28116,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -30735,6 +30788,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -33350,6 +33408,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -36000,6 +36063,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -38630,6 +38698,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -41112,6 +41185,10 @@ class _StringsZhCn extends _StringsEn {
   String get remote_lookup_enabled => '使用远端 Hibiki 查询';
   @override
   String get remote_lookup_enabled_hint => '本地词典或本地音频未命中时，查询已配置的 Hibiki 服务器';
+  @override
+  String get sync_dictionary => '同步词典';
+  @override
+  String get sync_dictionary_warning => '词典包可能很大，并包含已导入的词典资源。';
 }
 
 // Path: retrying_in
@@ -43613,6 +43690,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get remote_lookup_enabled_hint =>
       'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+  @override
+  String get sync_dictionary => 'Sync dictionaries';
+  @override
+  String get sync_dictionary_warning =>
+      'Dictionary packages can be large and include imported dictionary resources.';
 }
 
 // Path: retrying_in
@@ -46050,6 +46132,10 @@ extension on _StringsEn {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -48445,6 +48531,10 @@ extension on _StringsAr {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -50854,6 +50944,10 @@ extension on _StringsDe {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -53262,6 +53356,10 @@ extension on _StringsEs {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -55671,6 +55769,10 @@ extension on _StringsFr {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -58071,6 +58173,10 @@ extension on _StringsId {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -60477,6 +60583,10 @@ extension on _StringsIt {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -62863,6 +62973,10 @@ extension on _StringsJa {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -65251,6 +65365,10 @@ extension on _StringsKo {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -67655,6 +67773,10 @@ extension on _StringsNl {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -70059,6 +70181,10 @@ extension on _StringsPtBr {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -72463,6 +72589,10 @@ extension on _StringsRu {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -74859,6 +74989,10 @@ extension on _StringsTh {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -77258,6 +77392,10 @@ extension on _StringsTr {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -79654,6 +79792,10 @@ extension on _StringsVi {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
@@ -82034,6 +82176,10 @@ extension on _StringsZhCn {
         return '使用远端 Hibiki 查询';
       case 'remote_lookup_enabled_hint':
         return '本地词典或本地音频未命中时，查询已配置的 Hibiki 服务器';
+      case 'sync_dictionary':
+        return '同步词典';
+      case 'sync_dictionary_warning':
+        return '词典包可能很大，并包含已导入的词典资源。';
       default:
         return null;
     }
@@ -84417,6 +84563,10 @@ extension on _StringsZhHk {
         return 'Use remote Hibiki lookup';
       case 'remote_lookup_enabled_hint':
         return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
+      case 'sync_dictionary':
+        return 'Sync dictionaries';
+      case 'sync_dictionary_warning':
+        return 'Dictionary packages can be large and include imported dictionary resources.';
       default:
         return null;
     }
