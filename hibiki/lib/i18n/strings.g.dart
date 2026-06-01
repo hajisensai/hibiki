@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19839 (1167 per locale)
+/// Strings: 19873 (1169 per locale)
 ///
-/// Built on 2026-06-01 at 04:41 UTC
+/// Built on 2026-06-01 at 06:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1583,6 +1583,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get app_ui_scale => 'UI size';
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -4190,6 +4193,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -6873,6 +6881,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -9565,6 +9578,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -12272,6 +12290,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -14919,6 +14942,11 @@ class _StringsId extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -17599,6 +17627,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -20133,6 +20166,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -22672,6 +22710,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -25336,6 +25379,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -28015,6 +28063,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -30677,6 +30730,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -33287,6 +33345,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -35932,6 +35995,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -38557,6 +38625,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -41035,6 +41108,10 @@ class _StringsZhCn extends _StringsEn {
   String get app_ui_scale => '界面大小';
   @override
   String get app_ui_scale_hint => '缩放应用文字和间距。大屏设备上如果控件偏大，可以调低。';
+  @override
+  String get remote_lookup_enabled => '使用远端 Hibiki 查询';
+  @override
+  String get remote_lookup_enabled_hint => '本地词典或本地音频未命中时，查询已配置的 Hibiki 服务器';
 }
 
 // Path: retrying_in
@@ -43531,6 +43608,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+  @override
+  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
+  @override
+  String get remote_lookup_enabled_hint =>
+      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
 }
 
 // Path: retrying_in
@@ -45964,6 +46046,10 @@ extension on _StringsEn {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -48355,6 +48441,10 @@ extension on _StringsAr {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -50760,6 +50850,10 @@ extension on _StringsDe {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -53164,6 +53258,10 @@ extension on _StringsEs {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -55569,6 +55667,10 @@ extension on _StringsFr {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -57965,6 +58067,10 @@ extension on _StringsId {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -60367,6 +60473,10 @@ extension on _StringsIt {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -62749,6 +62859,10 @@ extension on _StringsJa {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -65133,6 +65247,10 @@ extension on _StringsKo {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -67533,6 +67651,10 @@ extension on _StringsNl {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -69933,6 +70055,10 @@ extension on _StringsPtBr {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -72333,6 +72459,10 @@ extension on _StringsRu {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -74725,6 +74855,10 @@ extension on _StringsTh {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -77120,6 +77254,10 @@ extension on _StringsTr {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -79512,6 +79650,10 @@ extension on _StringsVi {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
@@ -81888,6 +82030,10 @@ extension on _StringsZhCn {
         return '界面大小';
       case 'app_ui_scale_hint':
         return '缩放应用文字和间距。大屏设备上如果控件偏大，可以调低。';
+      case 'remote_lookup_enabled':
+        return '使用远端 Hibiki 查询';
+      case 'remote_lookup_enabled_hint':
+        return '本地词典或本地音频未命中时，查询已配置的 Hibiki 服务器';
       default:
         return null;
     }
@@ -84267,6 +84413,10 @@ extension on _StringsZhHk {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
+      case 'remote_lookup_enabled':
+        return 'Use remote Hibiki lookup';
+      case 'remote_lookup_enabled_hint':
+        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       default:
         return null;
     }
