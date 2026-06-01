@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19907 (1171 per locale)
+/// Strings: 19924 (1172 per locale)
 ///
-/// Built on 2026-06-01 at 14:57 UTC
+/// Built on 2026-06-01 at 16:20 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1589,6 +1589,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_dictionary => 'Sync dictionaries';
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -4206,6 +4207,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -6899,6 +6902,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -9601,6 +9606,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -12318,6 +12325,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -14975,6 +14984,8 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -17665,6 +17676,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -20209,6 +20222,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -22758,6 +22773,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -25432,6 +25449,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -28121,6 +28140,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -30793,6 +30814,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -33413,6 +33436,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -36068,6 +36093,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -38703,6 +38730,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -41189,6 +41218,8 @@ class _StringsZhCn extends _StringsEn {
   String get sync_dictionary => '同步词典';
   @override
   String get sync_dictionary_warning => '词典包可能很大，并包含已导入的词典资源。';
+  @override
+  String get settings_destination_reading => '阅读';
 }
 
 // Path: retrying_in
@@ -43695,6 +43726,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -46136,6 +46169,8 @@ extension on _StringsEn {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -48535,6 +48570,8 @@ extension on _StringsAr {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -50948,6 +50985,8 @@ extension on _StringsDe {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -53360,6 +53399,8 @@ extension on _StringsEs {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -55773,6 +55814,8 @@ extension on _StringsFr {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -58177,6 +58220,8 @@ extension on _StringsId {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -60587,6 +60632,8 @@ extension on _StringsIt {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -62977,6 +63024,8 @@ extension on _StringsJa {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -65369,6 +65418,8 @@ extension on _StringsKo {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -67777,6 +67828,8 @@ extension on _StringsNl {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -70185,6 +70238,8 @@ extension on _StringsPtBr {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -72593,6 +72648,8 @@ extension on _StringsRu {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -74993,6 +75050,8 @@ extension on _StringsTh {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -77396,6 +77455,8 @@ extension on _StringsTr {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -79796,6 +79857,8 @@ extension on _StringsVi {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -82180,6 +82243,8 @@ extension on _StringsZhCn {
         return '同步词典';
       case 'sync_dictionary_warning':
         return '词典包可能很大，并包含已导入的词典资源。';
+      case 'settings_destination_reading':
+        return '阅读';
       default:
         return null;
     }
@@ -84567,6 +84632,8 @@ extension on _StringsZhHk {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
