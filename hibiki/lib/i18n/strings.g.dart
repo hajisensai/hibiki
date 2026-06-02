@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19941 (1173 per locale)
+/// Strings: 19924 (1172 per locale)
 ///
-/// Built on 2026-06-02 at 05:52 UTC
+/// Built on 2026-06-02 at 06:59 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1041,7 +1041,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String audio_source_error({required Object detail}) =>
       'Audio source error: ${detail}';
   String get local_audio => 'Local audio';
-  String get local_audio_not_set => 'No database selected';
   String get use_recommended_template => 'Recommended';
   String get recommended_template_exists =>
       'The standard profile already exists.';
@@ -3161,8 +3160,6 @@ class _StringsAr extends _StringsEn {
   String get manage_audio_sources => 'إدارة مصادر الصوت';
   @override
   String get local_audio => 'صوت محلي';
-  @override
-  String get local_audio_not_set => 'لم يتم اختيار قاعدة بيانات';
   @override
   String get use_recommended_template => 'موصى به';
   @override
@@ -5844,8 +5841,6 @@ class _StringsDe extends _StringsEn {
   String get manage_audio_sources => 'Audioquellen verwalten';
   @override
   String get local_audio => 'Lokales Audio';
-  @override
-  String get local_audio_not_set => 'Keine Datenbank ausgewählt';
   @override
   String get use_recommended_template => 'Empfohlen';
   @override
@@ -8548,8 +8543,6 @@ class _StringsEs extends _StringsEn {
   String get manage_audio_sources => 'Gestionar fuentes de audio';
   @override
   String get local_audio => 'Audio local';
-  @override
-  String get local_audio_not_set => 'No se seleccionó base de datos';
   @override
   String get use_recommended_template => 'Recomendado';
   @override
@@ -11267,8 +11260,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get local_audio => 'Audio local';
   @override
-  String get local_audio_not_set => 'Aucune base de données sélectionnée';
-  @override
   String get use_recommended_template => 'Recommandé';
   @override
   String get recommended_template_exists => 'Le profil standard existe déjà.';
@@ -13946,8 +13937,6 @@ class _StringsId extends _StringsEn {
   String get manage_audio_sources => 'Kelola sumber audio';
   @override
   String get local_audio => 'Audio lokal';
-  @override
-  String get local_audio_not_set => 'Tidak ada database yang dipilih';
   @override
   String get use_recommended_template => 'Rekomendasi';
   @override
@@ -16632,8 +16621,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get local_audio => 'Audio locale';
   @override
-  String get local_audio_not_set => 'Nessun database selezionato';
-  @override
   String get use_recommended_template => 'Raccomandato';
   @override
   String get recommended_template_exists => 'Il profilo standard esiste già.';
@@ -19239,8 +19226,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get local_audio => 'ローカル音声';
   @override
-  String get local_audio_not_set => 'データベース未選択';
-  @override
   String get use_recommended_template => '推奨';
   @override
   String get recommended_template_exists => '標準プロファイルは既に存在します。';
@@ -21777,8 +21762,6 @@ class _StringsKo extends _StringsEn {
   String get manage_audio_sources => '오디오 소스 관리';
   @override
   String get local_audio => '로컬 오디오';
-  @override
-  String get local_audio_not_set => '데이터베이스가 선택되지 않았습니다';
   @override
   String get use_recommended_template => '추천';
   @override
@@ -24413,8 +24396,6 @@ class _StringsNl extends _StringsEn {
   String get manage_audio_sources => 'Audiobronnen beheren';
   @override
   String get local_audio => 'Lokale audio';
-  @override
-  String get local_audio_not_set => 'Geen database geselecteerd';
   @override
   String get use_recommended_template => 'Aanbevolen';
   @override
@@ -27108,8 +27089,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get local_audio => 'Áudio local';
   @override
-  String get local_audio_not_set => 'Nenhum banco de dados selecionado';
-  @override
   String get use_recommended_template => 'Recomendado';
   @override
   String get recommended_template_exists => 'O perfil padrão já existe.';
@@ -29785,8 +29764,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get local_audio => 'Локальное аудио';
   @override
-  String get local_audio_not_set => 'База данных не выбрана';
-  @override
   String get use_recommended_template => 'Рекомендуемый';
   @override
   String get recommended_template_exists =>
@@ -32423,8 +32400,6 @@ class _StringsTh extends _StringsEn {
   String get manage_audio_sources => 'จัดการแหล่งเสียง';
   @override
   String get local_audio => 'เสียงในเครื่อง';
-  @override
-  String get local_audio_not_set => 'ยังไม่ได้เลือกฐานข้อมูล';
   @override
   String get use_recommended_template => 'แนะนำ';
   @override
@@ -35076,8 +35051,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get local_audio => 'Yerel ses';
   @override
-  String get local_audio_not_set => 'Veritabanı seçilmedi';
-  @override
   String get use_recommended_template => 'Önerilen';
   @override
   String get recommended_template_exists => 'Standart profil zaten mevcut.';
@@ -37718,8 +37691,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get local_audio => 'Âm thanh cục bộ';
   @override
-  String get local_audio_not_set => 'Chưa chọn cơ sở dữ liệu';
-  @override
   String get use_recommended_template => 'Được đề xuất';
   @override
   String get recommended_template_exists => 'Hồ sơ mặc định đã tồn tại.';
@@ -40328,8 +40299,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get local_audio => '本地音频';
   @override
-  String get local_audio_not_set => '未选择数据库';
-  @override
   String get use_recommended_template => '推荐模板';
   @override
   String get recommended_template_exists => '标准配置已存在。';
@@ -42774,8 +42743,6 @@ class _StringsZhHk extends _StringsEn {
   String get manage_audio_sources => '管理音訊來源';
   @override
   String get local_audio => '本地音頻';
-  @override
-  String get local_audio_not_set => '未選擇資料庫';
   @override
   String get use_recommended_template => '推薦範本';
   @override
@@ -45305,8 +45272,6 @@ extension on _StringsEn {
         return ({required Object detail}) => 'Audio source error: ${detail}';
       case 'local_audio':
         return 'Local audio';
-      case 'local_audio_not_set':
-        return 'No database selected';
       case 'use_recommended_template':
         return 'Recommended';
       case 'recommended_template_exists':
@@ -47656,8 +47621,6 @@ extension on _StringsAr {
         return 'إدارة مصادر الصوت';
       case 'local_audio':
         return 'صوت محلي';
-      case 'local_audio_not_set':
-        return 'لم يتم اختيار قاعدة بيانات';
       case 'use_recommended_template':
         return 'موصى به';
       case 'recommended_template_exists':
@@ -50065,8 +50028,6 @@ extension on _StringsDe {
         return 'Audioquellen verwalten';
       case 'local_audio':
         return 'Lokales Audio';
-      case 'local_audio_not_set':
-        return 'Keine Datenbank ausgewählt';
       case 'use_recommended_template':
         return 'Empfohlen';
       case 'recommended_template_exists':
@@ -52482,8 +52443,6 @@ extension on _StringsEs {
         return 'Gestionar fuentes de audio';
       case 'local_audio':
         return 'Audio local';
-      case 'local_audio_not_set':
-        return 'No se seleccionó base de datos';
       case 'use_recommended_template':
         return 'Recomendado';
       case 'recommended_template_exists':
@@ -54897,8 +54856,6 @@ extension on _StringsFr {
         return 'Gérer les sources audio';
       case 'local_audio':
         return 'Audio local';
-      case 'local_audio_not_set':
-        return 'Aucune base de données sélectionnée';
       case 'use_recommended_template':
         return 'Recommandé';
       case 'recommended_template_exists':
@@ -57312,8 +57269,6 @@ extension on _StringsId {
         return 'Kelola sumber audio';
       case 'local_audio':
         return 'Audio lokal';
-      case 'local_audio_not_set':
-        return 'Tidak ada database yang dipilih';
       case 'use_recommended_template':
         return 'Rekomendasi';
       case 'recommended_template_exists':
@@ -59723,8 +59678,6 @@ extension on _StringsIt {
         return 'Gestisci sorgenti audio';
       case 'local_audio':
         return 'Audio locale';
-      case 'local_audio_not_set':
-        return 'Nessun database selezionato';
       case 'use_recommended_template':
         return 'Raccomandato';
       case 'recommended_template_exists':
@@ -62136,8 +62089,6 @@ extension on _StringsJa {
         return '音声ソースの管理';
       case 'local_audio':
         return 'ローカル音声';
-      case 'local_audio_not_set':
-        return 'データベース未選択';
       case 'use_recommended_template':
         return '推奨';
       case 'recommended_template_exists':
@@ -64522,8 +64473,6 @@ extension on _StringsKo {
         return '오디오 소스 관리';
       case 'local_audio':
         return '로컬 오디오';
-      case 'local_audio_not_set':
-        return '데이터베이스가 선택되지 않았습니다';
       case 'use_recommended_template':
         return '추천';
       case 'recommended_template_exists':
@@ -66928,8 +66877,6 @@ extension on _StringsNl {
         return 'Audiobronnen beheren';
       case 'local_audio':
         return 'Lokale audio';
-      case 'local_audio_not_set':
-        return 'Geen database geselecteerd';
       case 'use_recommended_template':
         return 'Aanbevolen';
       case 'recommended_template_exists':
@@ -69338,8 +69285,6 @@ extension on _StringsPtBr {
         return 'Gerenciar fontes de áudio';
       case 'local_audio':
         return 'Áudio local';
-      case 'local_audio_not_set':
-        return 'Nenhum banco de dados selecionado';
       case 'use_recommended_template':
         return 'Recomendado';
       case 'recommended_template_exists':
@@ -71749,8 +71694,6 @@ extension on _StringsRu {
         return 'Управление аудиоисточниками';
       case 'local_audio':
         return 'Локальное аудио';
-      case 'local_audio_not_set':
-        return 'База данных не выбрана';
       case 'use_recommended_template':
         return 'Рекомендуемый';
       case 'recommended_template_exists':
@@ -74158,8 +74101,6 @@ extension on _StringsTh {
         return 'จัดการแหล่งเสียง';
       case 'local_audio':
         return 'เสียงในเครื่อง';
-      case 'local_audio_not_set':
-        return 'ยังไม่ได้เลือกฐานข้อมูล';
       case 'use_recommended_template':
         return 'แนะนำ';
       case 'recommended_template_exists':
@@ -76563,8 +76504,6 @@ extension on _StringsTr {
         return 'Ses kaynaklarını yönet';
       case 'local_audio':
         return 'Yerel ses';
-      case 'local_audio_not_set':
-        return 'Veritabanı seçilmedi';
       case 'use_recommended_template':
         return 'Önerilen';
       case 'recommended_template_exists':
@@ -78968,8 +78907,6 @@ extension on _StringsVi {
         return 'Quản lý nguồn âm thanh';
       case 'local_audio':
         return 'Âm thanh cục bộ';
-      case 'local_audio_not_set':
-        return 'Chưa chọn cơ sở dữ liệu';
       case 'use_recommended_template':
         return 'Được đề xuất';
       case 'recommended_template_exists':
@@ -81406,8 +81343,6 @@ extension on _StringsZhCn {
         return '管理音频来源';
       case 'local_audio':
         return '本地音频';
-      case 'local_audio_not_set':
-        return '未选择数据库';
       case 'use_recommended_template':
         return '推荐模板';
       case 'recommended_template_exists':
@@ -83752,8 +83687,6 @@ extension on _StringsZhHk {
         return '管理音訊來源';
       case 'local_audio':
         return '本地音頻';
-      case 'local_audio_not_set':
-        return '未選擇資料庫';
       case 'use_recommended_template':
         return '推薦範本';
       case 'recommended_template_exists':
