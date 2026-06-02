@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20094 (1182 per locale)
+/// Strings: 20145 (1185 per locale)
 ///
-/// Built on 2026-06-02 at 10:29 UTC
+/// Built on 2026-06-02 at 10:59 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1602,6 +1602,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get audio_source_added => 'Audio source added';
   String get local_audio_imported => 'Audio database added';
   String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -4243,6 +4246,12 @@ class _StringsAr extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -6960,6 +6969,12 @@ class _StringsDe extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -9686,6 +9701,12 @@ class _StringsEs extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -12427,6 +12448,12 @@ class _StringsFr extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -15108,6 +15135,12 @@ class _StringsId extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -17822,6 +17855,12 @@ class _StringsIt extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -20390,6 +20429,12 @@ class _StringsJa extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -22963,6 +23008,12 @@ class _StringsKo extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -25661,6 +25712,12 @@ class _StringsNl extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -28374,6 +28431,12 @@ class _StringsPtBr extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -31070,6 +31133,12 @@ class _StringsRu extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -33714,6 +33783,12 @@ class _StringsTh extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -36393,6 +36468,12 @@ class _StringsTr extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -39052,6 +39133,12 @@ class _StringsVi extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -41560,6 +41647,12 @@ class _StringsZhCn extends _StringsEn {
   String get local_audio_imported => '已添加音频数据库';
   @override
   String get local_audio_import_failed => '导入音频数据库失败';
+  @override
+  String get local_audio_edit_sources => '编辑来源';
+  @override
+  String get local_audio_source_order_title => '来源顺序';
+  @override
+  String get local_audio_no_sources => '此数据库未发现可用来源';
 }
 
 // Path: retrying_in
@@ -44090,6 +44183,12 @@ class _StringsZhHk extends _StringsEn {
   String get local_audio_imported => 'Audio database added';
   @override
   String get local_audio_import_failed => 'Failed to import audio database';
+  @override
+  String get local_audio_edit_sources => 'Edit sources';
+  @override
+  String get local_audio_source_order_title => 'Source priority';
+  @override
+  String get local_audio_no_sources => 'No sources found in this database';
 }
 
 // Path: retrying_in
@@ -46553,6 +46652,12 @@ extension on _StringsEn {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -48974,6 +49079,12 @@ extension on _StringsAr {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -51409,6 +51520,12 @@ extension on _StringsDe {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -53843,6 +53960,12 @@ extension on _StringsEs {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -56278,6 +56401,12 @@ extension on _StringsFr {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -58704,6 +58833,12 @@ extension on _StringsId {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -61136,6 +61271,12 @@ extension on _StringsIt {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -63548,6 +63689,12 @@ extension on _StringsJa {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -65962,6 +66109,12 @@ extension on _StringsKo {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -68392,6 +68545,12 @@ extension on _StringsNl {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -70822,6 +70981,12 @@ extension on _StringsPtBr {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -73252,6 +73417,12 @@ extension on _StringsRu {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -75674,6 +75845,12 @@ extension on _StringsTh {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -78099,6 +78276,12 @@ extension on _StringsTr {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -80521,6 +80704,12 @@ extension on _StringsVi {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
@@ -82927,6 +83116,12 @@ extension on _StringsZhCn {
         return '已添加音频数据库';
       case 'local_audio_import_failed':
         return '导入音频数据库失败';
+      case 'local_audio_edit_sources':
+        return '编辑来源';
+      case 'local_audio_source_order_title':
+        return '来源顺序';
+      case 'local_audio_no_sources':
+        return '此数据库未发现可用来源';
       default:
         return null;
     }
@@ -85336,6 +85531,12 @@ extension on _StringsZhHk {
         return 'Audio database added';
       case 'local_audio_import_failed':
         return 'Failed to import audio database';
+      case 'local_audio_edit_sources':
+        return 'Edit sources';
+      case 'local_audio_source_order_title':
+        return 'Source priority';
+      case 'local_audio_no_sources':
+        return 'No sources found in this database';
       default:
         return null;
     }
