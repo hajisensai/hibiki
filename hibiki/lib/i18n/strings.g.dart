@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19992 (1176 per locale)
+/// Strings: 20094 (1182 per locale)
 ///
-/// Built on 2026-06-02 at 09:57 UTC
+/// Built on 2026-06-02 at 10:29 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1595,6 +1595,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_pair_window_closed =>
       'Open pairing on the other device first';
   String get sync_pair_failed => 'Pairing failed';
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  String get audio_source_added => 'Audio source added';
+  String get local_audio_imported => 'Audio database added';
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -4223,6 +4230,19 @@ class _StringsAr extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -6927,6 +6947,19 @@ class _StringsDe extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -9640,6 +9673,19 @@ class _StringsEs extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -12368,6 +12414,19 @@ class _StringsFr extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -15036,6 +15095,19 @@ class _StringsId extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -17737,6 +17809,19 @@ class _StringsIt extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -20292,6 +20377,19 @@ class _StringsJa extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -22852,6 +22950,19 @@ class _StringsKo extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -25537,6 +25648,19 @@ class _StringsNl extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -28237,6 +28361,19 @@ class _StringsPtBr extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -30920,6 +31057,19 @@ class _StringsRu extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -33551,6 +33701,19 @@ class _StringsTh extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -36217,6 +36380,19 @@ class _StringsTr extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -38863,6 +39039,19 @@ class _StringsVi extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -41359,6 +41548,18 @@ class _StringsZhCn extends _StringsEn {
   String get sync_pair_window_closed => '请先在对方设备上开启配对';
   @override
   String get sync_pair_failed => '配对失败';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki 互联';
+  @override
+  String get audio_sources_remote_group => '远端来源';
+  @override
+  String get audio_source_url_invalid => '链接需为 http(s) 且含 term / reading 占位符';
+  @override
+  String get audio_source_added => '已添加音频来源';
+  @override
+  String get local_audio_imported => '已添加音频数据库';
+  @override
+  String get local_audio_import_failed => '导入音频数据库失败';
 }
 
 // Path: retrying_in
@@ -43876,6 +44077,19 @@ class _StringsZhHk extends _StringsEn {
       'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
+  @override
+  String get audio_source_hibiki_interconnect => 'Hibiki P2P';
+  @override
+  String get audio_sources_remote_group => 'Remote sources';
+  @override
+  String get audio_source_url_invalid =>
+      'Link must be http(s) and contain a term or reading placeholder';
+  @override
+  String get audio_source_added => 'Audio source added';
+  @override
+  String get local_audio_imported => 'Audio database added';
+  @override
+  String get local_audio_import_failed => 'Failed to import audio database';
 }
 
 // Path: retrying_in
@@ -46327,6 +46541,18 @@ extension on _StringsEn {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -48736,6 +48962,18 @@ extension on _StringsAr {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -51159,6 +51397,18 @@ extension on _StringsDe {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -53581,6 +53831,18 @@ extension on _StringsEs {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -56004,6 +56266,18 @@ extension on _StringsFr {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -58418,6 +58692,18 @@ extension on _StringsId {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -60838,6 +61124,18 @@ extension on _StringsIt {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -63238,6 +63536,18 @@ extension on _StringsJa {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -65640,6 +65950,18 @@ extension on _StringsKo {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -68058,6 +68380,18 @@ extension on _StringsNl {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -70476,6 +70810,18 @@ extension on _StringsPtBr {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -72894,6 +73240,18 @@ extension on _StringsRu {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -75304,6 +75662,18 @@ extension on _StringsTh {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -77717,6 +78087,18 @@ extension on _StringsTr {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -80127,6 +80509,18 @@ extension on _StringsVi {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
@@ -82521,6 +82915,18 @@ extension on _StringsZhCn {
         return '请先在对方设备上开启配对';
       case 'sync_pair_failed':
         return '配对失败';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki 互联';
+      case 'audio_sources_remote_group':
+        return '远端来源';
+      case 'audio_source_url_invalid':
+        return '链接需为 http(s) 且含 term / reading 占位符';
+      case 'audio_source_added':
+        return '已添加音频来源';
+      case 'local_audio_imported':
+        return '已添加音频数据库';
+      case 'local_audio_import_failed':
+        return '导入音频数据库失败';
       default:
         return null;
     }
@@ -84918,6 +85324,18 @@ extension on _StringsZhHk {
         return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
+      case 'audio_source_hibiki_interconnect':
+        return 'Hibiki P2P';
+      case 'audio_sources_remote_group':
+        return 'Remote sources';
+      case 'audio_source_url_invalid':
+        return 'Link must be http(s) and contain a term or reading placeholder';
+      case 'audio_source_added':
+        return 'Audio source added';
+      case 'local_audio_imported':
+        return 'Audio database added';
+      case 'local_audio_import_failed':
+        return 'Failed to import audio database';
       default:
         return null;
     }
