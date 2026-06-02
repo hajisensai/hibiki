@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 19907 (1171 per locale)
 ///
-/// Built on 2026-06-01 at 15:42 UTC
+/// Built on 2026-06-02 at 03:48 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -200,7 +200,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   // Translations
   String get settings_destination_appearance => 'Appearance';
   String get settings_destination_profiles => 'Configuration Schemes';
-  String get settings_destination_reading_display => 'Reading Display';
   String get settings_destination_reading_controls => 'Reading Controls';
   String get settings_destination_lookup => 'Lookup';
   String get settings_destination_card_creation => 'Card Creation';
@@ -1589,6 +1588,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_dictionary => 'Sync dictionaries';
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -3809,8 +3809,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'أدوات التحكم بالقراءة';
   @override
-  String get settings_destination_reading_display => 'عرض القراءة';
-  @override
   String get settings_destination_sync_backup => 'المزامنة والنسخ الاحتياطي';
   @override
   String get settings_destination_system => 'النظام';
@@ -4206,6 +4204,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -6500,8 +6500,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Lesesteuerung';
   @override
-  String get settings_destination_reading_display => 'Leseanzeige';
-  @override
   String get settings_destination_sync_backup => 'Sync & Backup';
   @override
   String get settings_destination_system => 'System';
@@ -6899,6 +6897,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -9201,8 +9201,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Controles de lectura';
   @override
-  String get settings_destination_reading_display => 'Pantalla de lectura';
-  @override
   String get settings_destination_sync_backup =>
       'Sincronización y copia de seguridad';
   @override
@@ -9601,6 +9599,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -11919,8 +11919,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Commandes de lecture';
   @override
-  String get settings_destination_reading_display => 'Affichage de lecture';
-  @override
   String get settings_destination_sync_backup => 'Sync et sauvegarde';
   @override
   String get settings_destination_system => 'Système';
@@ -12318,6 +12316,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -14576,8 +14576,6 @@ class _StringsId extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Kontrol Baca';
   @override
-  String get settings_destination_reading_display => 'Tampilan Baca';
-  @override
   String get settings_destination_sync_backup => 'Sinkronisasi & Cadangan';
   @override
   String get settings_destination_system => 'Sistem';
@@ -14975,6 +14973,8 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -17266,8 +17266,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Controlli di lettura';
   @override
-  String get settings_destination_reading_display => 'Visualizzazione lettura';
-  @override
   String get settings_destination_sync_backup => 'Sincronizzazione e backup';
   @override
   String get settings_destination_system => 'Sistema';
@@ -17665,6 +17663,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -19823,8 +19823,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get settings_destination_reading_controls => '読書コントロール';
   @override
-  String get settings_destination_reading_display => '読書表示';
-  @override
   String get settings_destination_sync_backup => '同期とバックアップ';
   @override
   String get settings_destination_system => 'システム';
@@ -20209,6 +20207,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -22362,8 +22362,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get settings_destination_reading_controls => '읽기 컨트롤';
   @override
-  String get settings_destination_reading_display => '읽기 디스플레이';
-  @override
   String get settings_destination_sync_backup => '동기화 및 백업';
   @override
   String get settings_destination_system => '시스템';
@@ -22758,6 +22756,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -25033,8 +25033,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Leesbesturing';
   @override
-  String get settings_destination_reading_display => 'Leesweergave';
-  @override
   String get settings_destination_sync_backup => 'Synchronisatie & back-up';
   @override
   String get settings_destination_system => 'Systeem';
@@ -25432,6 +25430,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -27722,8 +27722,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Controles de leitura';
   @override
-  String get settings_destination_reading_display => 'Exibição de leitura';
-  @override
   String get settings_destination_sync_backup => 'Sincronização e backup';
   @override
   String get settings_destination_system => 'Sistema';
@@ -28121,6 +28119,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -30393,8 +30393,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Управление чтением';
   @override
-  String get settings_destination_reading_display => 'Отображение чтения';
-  @override
   String get settings_destination_sync_backup =>
       'Синхронизация и резервное копирование';
   @override
@@ -30793,6 +30791,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -33015,8 +33015,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'ตัวควบคุมการอ่าน';
   @override
-  String get settings_destination_reading_display => 'การแสดงผลการอ่าน';
-  @override
   String get settings_destination_sync_backup => 'ซิงค์และสำรองข้อมูล';
   @override
   String get settings_destination_system => 'ระบบ';
@@ -33413,6 +33411,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -35669,8 +35669,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Okuma Kontrolleri';
   @override
-  String get settings_destination_reading_display => 'Okuma Görünümü';
-  @override
   String get settings_destination_sync_backup => 'Senkronizasyon ve Yedekleme';
   @override
   String get settings_destination_system => 'Sistem';
@@ -36068,6 +36066,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -38306,8 +38306,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Điều khiển đọc';
   @override
-  String get settings_destination_reading_display => 'Hiển thị đọc';
-  @override
   String get settings_destination_sync_backup => 'Đồng bộ & Sao lưu';
   @override
   String get settings_destination_system => 'Hệ thống';
@@ -38703,6 +38701,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -38784,8 +38784,6 @@ class _StringsZhCn extends _StringsEn {
   String get settings_destination_appearance => '外观';
   @override
   String get settings_destination_profiles => '配置方案';
-  @override
-  String get settings_destination_reading_display => '阅读显示';
   @override
   String get settings_destination_reading_controls => '阅读操作';
   @override
@@ -41189,6 +41187,8 @@ class _StringsZhCn extends _StringsEn {
   String get sync_dictionary => '同步词典';
   @override
   String get sync_dictionary_warning => '词典包可能很大，并包含已导入的词典资源。';
+  @override
+  String get settings_destination_reading => '阅读';
 }
 
 // Path: retrying_in
@@ -43299,8 +43299,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get settings_destination_reading_controls => '閱讀操作';
   @override
-  String get settings_destination_reading_display => '閱讀顯示';
-  @override
   String get settings_destination_sync_backup => '同步與備份';
   @override
   String get settings_destination_system => '系統';
@@ -43695,6 +43693,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
+  @override
+  String get settings_destination_reading => 'Reading';
 }
 
 // Path: retrying_in
@@ -43745,8 +43745,6 @@ extension on _StringsEn {
         return 'Appearance';
       case 'settings_destination_profiles':
         return 'Configuration Schemes';
-      case 'settings_destination_reading_display':
-        return 'Reading Display';
       case 'settings_destination_reading_controls':
         return 'Reading Controls';
       case 'settings_destination_lookup':
@@ -46136,6 +46134,8 @@ extension on _StringsEn {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -48162,8 +48162,6 @@ extension on _StringsAr {
         return 'مخططات التكوين';
       case 'settings_destination_reading_controls':
         return 'أدوات التحكم بالقراءة';
-      case 'settings_destination_reading_display':
-        return 'عرض القراءة';
       case 'settings_destination_sync_backup':
         return 'المزامنة والنسخ الاحتياطي';
       case 'settings_destination_system':
@@ -48535,6 +48533,8 @@ extension on _StringsAr {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -50573,8 +50573,6 @@ extension on _StringsDe {
         return 'Konfigurationsprofile';
       case 'settings_destination_reading_controls':
         return 'Lesesteuerung';
-      case 'settings_destination_reading_display':
-        return 'Leseanzeige';
       case 'settings_destination_sync_backup':
         return 'Sync & Backup';
       case 'settings_destination_system':
@@ -50948,6 +50946,8 @@ extension on _StringsDe {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -52985,8 +52985,6 @@ extension on _StringsEs {
         return 'Esquemas de configuración';
       case 'settings_destination_reading_controls':
         return 'Controles de lectura';
-      case 'settings_destination_reading_display':
-        return 'Pantalla de lectura';
       case 'settings_destination_sync_backup':
         return 'Sincronización y copia de seguridad';
       case 'settings_destination_system':
@@ -53360,6 +53358,8 @@ extension on _StringsEs {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -55398,8 +55398,6 @@ extension on _StringsFr {
         return 'Schémas de configuration';
       case 'settings_destination_reading_controls':
         return 'Commandes de lecture';
-      case 'settings_destination_reading_display':
-        return 'Affichage de lecture';
       case 'settings_destination_sync_backup':
         return 'Sync et sauvegarde';
       case 'settings_destination_system':
@@ -55773,6 +55771,8 @@ extension on _StringsFr {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -57803,8 +57803,6 @@ extension on _StringsId {
         return 'Skema Konfigurasi';
       case 'settings_destination_reading_controls':
         return 'Kontrol Baca';
-      case 'settings_destination_reading_display':
-        return 'Tampilan Baca';
       case 'settings_destination_sync_backup':
         return 'Sinkronisasi & Cadangan';
       case 'settings_destination_system':
@@ -58177,6 +58175,8 @@ extension on _StringsId {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -60212,8 +60212,6 @@ extension on _StringsIt {
         return 'Schemi di configurazione';
       case 'settings_destination_reading_controls':
         return 'Controlli di lettura';
-      case 'settings_destination_reading_display':
-        return 'Visualizzazione lettura';
       case 'settings_destination_sync_backup':
         return 'Sincronizzazione e backup';
       case 'settings_destination_system':
@@ -60587,6 +60585,8 @@ extension on _StringsIt {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -62614,8 +62614,6 @@ extension on _StringsJa {
         return '設定スキーム';
       case 'settings_destination_reading_controls':
         return '読書コントロール';
-      case 'settings_destination_reading_display':
-        return '読書表示';
       case 'settings_destination_sync_backup':
         return '同期とバックアップ';
       case 'settings_destination_system':
@@ -62977,6 +62975,8 @@ extension on _StringsJa {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -64996,8 +64996,6 @@ extension on _StringsKo {
         return '구성 스킴';
       case 'settings_destination_reading_controls':
         return '읽기 컨트롤';
-      case 'settings_destination_reading_display':
-        return '읽기 디스플레이';
       case 'settings_destination_sync_backup':
         return '동기화 및 백업';
       case 'settings_destination_system':
@@ -65369,6 +65367,8 @@ extension on _StringsKo {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -67403,8 +67403,6 @@ extension on _StringsNl {
         return 'Configuratieschema\'s';
       case 'settings_destination_reading_controls':
         return 'Leesbesturing';
-      case 'settings_destination_reading_display':
-        return 'Leesweergave';
       case 'settings_destination_sync_backup':
         return 'Synchronisatie & back-up';
       case 'settings_destination_system':
@@ -67777,6 +67775,8 @@ extension on _StringsNl {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -69810,8 +69810,6 @@ extension on _StringsPtBr {
         return 'Esquemas de configuração';
       case 'settings_destination_reading_controls':
         return 'Controles de leitura';
-      case 'settings_destination_reading_display':
-        return 'Exibição de leitura';
       case 'settings_destination_sync_backup':
         return 'Sincronização e backup';
       case 'settings_destination_system':
@@ -70185,6 +70183,8 @@ extension on _StringsPtBr {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -72218,8 +72218,6 @@ extension on _StringsRu {
         return 'Схемы конфигурации';
       case 'settings_destination_reading_controls':
         return 'Управление чтением';
-      case 'settings_destination_reading_display':
-        return 'Отображение чтения';
       case 'settings_destination_sync_backup':
         return 'Синхронизация и резервное копирование';
       case 'settings_destination_system':
@@ -72593,6 +72591,8 @@ extension on _StringsRu {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -74619,8 +74619,6 @@ extension on _StringsTh {
         return 'รูปแบบการกำหนดค่า';
       case 'settings_destination_reading_controls':
         return 'ตัวควบคุมการอ่าน';
-      case 'settings_destination_reading_display':
-        return 'การแสดงผลการอ่าน';
       case 'settings_destination_sync_backup':
         return 'ซิงค์และสำรองข้อมูล';
       case 'settings_destination_system':
@@ -74993,6 +74991,8 @@ extension on _StringsTh {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -77021,8 +77021,6 @@ extension on _StringsTr {
         return 'Yapılandırma Şemaları';
       case 'settings_destination_reading_controls':
         return 'Okuma Kontrolleri';
-      case 'settings_destination_reading_display':
-        return 'Okuma Görünümü';
       case 'settings_destination_sync_backup':
         return 'Senkronizasyon ve Yedekleme';
       case 'settings_destination_system':
@@ -77396,6 +77394,8 @@ extension on _StringsTr {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -79423,8 +79423,6 @@ extension on _StringsVi {
         return 'Sơ đồ cấu hình';
       case 'settings_destination_reading_controls':
         return 'Điều khiển đọc';
-      case 'settings_destination_reading_display':
-        return 'Hiển thị đọc';
       case 'settings_destination_sync_backup':
         return 'Đồng bộ & Sao lưu';
       case 'settings_destination_system':
@@ -79796,6 +79794,8 @@ extension on _StringsVi {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
@@ -79809,8 +79809,6 @@ extension on _StringsZhCn {
         return '外观';
       case 'settings_destination_profiles':
         return '配置方案';
-      case 'settings_destination_reading_display':
-        return '阅读显示';
       case 'settings_destination_reading_controls':
         return '阅读操作';
       case 'settings_destination_lookup':
@@ -82180,6 +82178,8 @@ extension on _StringsZhCn {
         return '同步词典';
       case 'sync_dictionary_warning':
         return '词典包可能很大，并包含已导入的词典资源。';
+      case 'settings_destination_reading':
+        return '阅读';
       default:
         return null;
     }
@@ -84194,8 +84194,6 @@ extension on _StringsZhHk {
         return '配置方案';
       case 'settings_destination_reading_controls':
         return '閱讀操作';
-      case 'settings_destination_reading_display':
-        return '閱讀顯示';
       case 'settings_destination_sync_backup':
         return '同步與備份';
       case 'settings_destination_system':
@@ -84567,6 +84565,8 @@ extension on _StringsZhHk {
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
         return 'Dictionary packages can be large and include imported dictionary resources.';
+      case 'settings_destination_reading':
+        return 'Reading';
       default:
         return null;
     }
