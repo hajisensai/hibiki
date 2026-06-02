@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20196 (1188 per locale)
+/// Strings: 20213 (1189 per locale)
 ///
-/// Built on 2026-06-02 at 14:28 UTC
+/// Built on 2026-06-02 at 14:58 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1608,6 +1608,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_pair_deny => 'Deny';
   String get sync_pair_denied => 'The other device declined pairing';
   String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -4261,6 +4263,9 @@ class _StringsAr extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -6990,6 +6995,9 @@ class _StringsDe extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -9728,6 +9736,9 @@ class _StringsEs extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -12481,6 +12492,9 @@ class _StringsFr extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -15174,6 +15188,9 @@ class _StringsId extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -17900,6 +17917,9 @@ class _StringsIt extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -20480,6 +20500,9 @@ class _StringsJa extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -23065,6 +23088,9 @@ class _StringsKo extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -25775,6 +25801,9 @@ class _StringsNl extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -28500,6 +28529,9 @@ class _StringsPtBr extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -31208,6 +31240,9 @@ class _StringsRu extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -33864,6 +33899,9 @@ class _StringsTh extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -36555,6 +36593,9 @@ class _StringsTr extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -39226,6 +39267,9 @@ class _StringsVi extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -41747,6 +41791,8 @@ class _StringsZhCn extends _StringsEn {
   String get sync_pair_denied => '对方拒绝了配对请求';
   @override
   String get sync_pair_unknown_device => '未知设备';
+  @override
+  String get sync_pair_unavailable => '对方设备未就绪或版本过旧，请确认对方已更新并开启同步后重试。';
 }
 
 // Path: retrying_in
@@ -44289,6 +44335,9 @@ class _StringsZhHk extends _StringsEn {
   String get sync_pair_denied => 'The other device declined pairing';
   @override
   String get sync_pair_unknown_device => 'Unknown device';
+  @override
+  String get sync_pair_unavailable =>
+      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
 }
 
 // Path: retrying_in
@@ -46764,6 +46813,8 @@ extension on _StringsEn {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -49197,6 +49248,8 @@ extension on _StringsAr {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -51644,6 +51697,8 @@ extension on _StringsDe {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -54090,6 +54145,8 @@ extension on _StringsEs {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -56537,6 +56594,8 @@ extension on _StringsFr {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -58975,6 +59034,8 @@ extension on _StringsId {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -61419,6 +61480,8 @@ extension on _StringsIt {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -63843,6 +63906,8 @@ extension on _StringsJa {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -66269,6 +66334,8 @@ extension on _StringsKo {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -68711,6 +68778,8 @@ extension on _StringsNl {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -71153,6 +71222,8 @@ extension on _StringsPtBr {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -73595,6 +73666,8 @@ extension on _StringsRu {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -76029,6 +76102,8 @@ extension on _StringsTh {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -78466,6 +78541,8 @@ extension on _StringsTr {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -80900,6 +80977,8 @@ extension on _StringsVi {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
@@ -83318,6 +83397,8 @@ extension on _StringsZhCn {
         return '对方拒绝了配对请求';
       case 'sync_pair_unknown_device':
         return '未知设备';
+      case 'sync_pair_unavailable':
+        return '对方设备未就绪或版本过旧，请确认对方已更新并开启同步后重试。';
       default:
         return null;
     }
@@ -85739,6 +85820,8 @@ extension on _StringsZhHk {
         return 'The other device declined pairing';
       case 'sync_pair_unknown_device':
         return 'Unknown device';
+      case 'sync_pair_unavailable':
+        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
       default:
         return null;
     }
