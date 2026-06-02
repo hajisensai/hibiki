@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20145 (1185 per locale)
+/// Strings: 20196 (1188 per locale)
 ///
-/// Built on 2026-06-02 at 12:47 UTC
+/// Built on 2026-06-02 at 14:28 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1589,11 +1589,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
   String get remote_audio_source => 'Remote audio';
-  String get sync_pair_open_button => 'Allow pairing';
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
   String get sync_pair_success => 'Paired — token filled in';
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   String get sync_pair_failed => 'Pairing failed';
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   String get audio_sources_remote_group => 'Remote sources';
@@ -1605,6 +1601,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get local_audio_edit_sources => 'Edit sources';
   String get local_audio_source_order_title => 'Source priority';
   String get local_audio_no_sources => 'No sources found in this database';
+  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  String get sync_pair_allow => 'Allow';
+  String get sync_pair_deny => 'Deny';
+  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -4223,14 +4226,7 @@ class _StringsAr extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -4252,6 +4248,19 @@ class _StringsAr extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -6946,14 +6955,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -6975,6 +6977,19 @@ class _StringsDe extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -9678,14 +9693,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -9707,6 +9715,19 @@ class _StringsEs extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -12425,14 +12446,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -12454,6 +12468,19 @@ class _StringsFr extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -15112,14 +15139,7 @@ class _StringsId extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -15141,6 +15161,19 @@ class _StringsId extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -17832,14 +17865,7 @@ class _StringsIt extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -17861,6 +17887,19 @@ class _StringsIt extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -20406,14 +20445,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -20435,6 +20467,19 @@ class _StringsJa extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -22985,14 +23030,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -23014,6 +23052,19 @@ class _StringsKo extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -25689,14 +25740,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -25718,6 +25762,19 @@ class _StringsNl extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -28408,14 +28465,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -28437,6 +28487,19 @@ class _StringsPtBr extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -31110,14 +31173,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -31139,6 +31195,19 @@ class _StringsRu extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -33760,14 +33829,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -33789,6 +33851,19 @@ class _StringsTh extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -36445,14 +36520,7 @@ class _StringsTr extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -36474,6 +36542,19 @@ class _StringsTr extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -39110,14 +39191,7 @@ class _StringsVi extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -39139,6 +39213,19 @@ class _StringsVi extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -41627,13 +41714,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get remote_audio_source => '远端音频';
   @override
-  String get sync_pair_open_button => '开启配对';
-  @override
-  String sync_pair_window_open({required Object n}) => '配对开启中：剩 ${n} 秒';
-  @override
   String get sync_pair_success => '配对成功，已自动填入 token';
-  @override
-  String get sync_pair_window_closed => '请先在对方设备上开启配对';
   @override
   String get sync_pair_failed => '配对失败';
   @override
@@ -41654,6 +41735,18 @@ class _StringsZhCn extends _StringsEn {
   String get local_audio_source_order_title => '来源顺序';
   @override
   String get local_audio_no_sources => '此数据库未发现可用来源';
+  @override
+  String get sync_pair_request_title => '配对请求';
+  @override
+  String get sync_pair_request_body => '有设备请求配对，允许它与本机同步吗？';
+  @override
+  String get sync_pair_allow => '允许';
+  @override
+  String get sync_pair_deny => '拒绝';
+  @override
+  String get sync_pair_denied => '对方拒绝了配对请求';
+  @override
+  String get sync_pair_unknown_device => '未知设备';
 }
 
 // Path: retrying_in
@@ -44161,14 +44254,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get remote_audio_source => 'Remote audio';
   @override
-  String get sync_pair_open_button => 'Allow pairing';
-  @override
-  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
-  @override
   String get sync_pair_success => 'Paired — token filled in';
-  @override
-  String get sync_pair_window_closed =>
-      'Open pairing on the other device first';
   @override
   String get sync_pair_failed => 'Pairing failed';
   @override
@@ -44190,6 +44276,19 @@ class _StringsZhHk extends _StringsEn {
   String get local_audio_source_order_title => 'Source priority';
   @override
   String get local_audio_no_sources => 'No sources found in this database';
+  @override
+  String get sync_pair_request_title => 'Pairing request';
+  @override
+  String get sync_pair_request_body =>
+      'A device is requesting to pair. Allow it to sync with this device?';
+  @override
+  String get sync_pair_allow => 'Allow';
+  @override
+  String get sync_pair_deny => 'Deny';
+  @override
+  String get sync_pair_denied => 'The other device declined pairing';
+  @override
+  String get sync_pair_unknown_device => 'Unknown device';
 }
 
 // Path: retrying_in
@@ -46631,14 +46730,8 @@ extension on _StringsEn {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -46659,6 +46752,18 @@ extension on _StringsEn {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -49058,14 +49163,8 @@ extension on _StringsAr {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -49086,6 +49185,18 @@ extension on _StringsAr {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -51499,14 +51610,8 @@ extension on _StringsDe {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -51527,6 +51632,18 @@ extension on _StringsDe {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -53939,14 +54056,8 @@ extension on _StringsEs {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -53967,6 +54078,18 @@ extension on _StringsEs {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -56380,14 +56503,8 @@ extension on _StringsFr {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -56408,6 +56525,18 @@ extension on _StringsFr {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -58812,14 +58941,8 @@ extension on _StringsId {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -58840,6 +58963,18 @@ extension on _StringsId {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -61250,14 +61385,8 @@ extension on _StringsIt {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -61278,6 +61407,18 @@ extension on _StringsIt {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -63668,14 +63809,8 @@ extension on _StringsJa {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -63696,6 +63831,18 @@ extension on _StringsJa {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -66088,14 +66235,8 @@ extension on _StringsKo {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -66116,6 +66257,18 @@ extension on _StringsKo {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -68524,14 +68677,8 @@ extension on _StringsNl {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -68552,6 +68699,18 @@ extension on _StringsNl {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -70960,14 +71119,8 @@ extension on _StringsPtBr {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -70988,6 +71141,18 @@ extension on _StringsPtBr {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -73396,14 +73561,8 @@ extension on _StringsRu {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -73424,6 +73583,18 @@ extension on _StringsRu {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -75824,14 +75995,8 @@ extension on _StringsTh {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -75852,6 +76017,18 @@ extension on _StringsTh {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -78255,14 +78432,8 @@ extension on _StringsTr {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -78283,6 +78454,18 @@ extension on _StringsTr {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -80683,14 +80866,8 @@ extension on _StringsVi {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -80711,6 +80888,18 @@ extension on _StringsVi {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
@@ -83095,14 +83284,8 @@ extension on _StringsZhCn {
         return '本地词典查不到时，查询已配置的 Hibiki 服务器';
       case 'remote_audio_source':
         return '远端音频';
-      case 'sync_pair_open_button':
-        return '开启配对';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => '配对开启中：剩 ${n} 秒';
       case 'sync_pair_success':
         return '配对成功，已自动填入 token';
-      case 'sync_pair_window_closed':
-        return '请先在对方设备上开启配对';
       case 'sync_pair_failed':
         return '配对失败';
       case 'audio_source_hibiki_interconnect':
@@ -83123,6 +83306,18 @@ extension on _StringsZhCn {
         return '来源顺序';
       case 'local_audio_no_sources':
         return '此数据库未发现可用来源';
+      case 'sync_pair_request_title':
+        return '配对请求';
+      case 'sync_pair_request_body':
+        return '有设备请求配对，允许它与本机同步吗？';
+      case 'sync_pair_allow':
+        return '允许';
+      case 'sync_pair_deny':
+        return '拒绝';
+      case 'sync_pair_denied':
+        return '对方拒绝了配对请求';
+      case 'sync_pair_unknown_device':
+        return '未知设备';
       default:
         return null;
     }
@@ -85510,14 +85705,8 @@ extension on _StringsZhHk {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
-      case 'sync_pair_open_button':
-        return 'Allow pairing';
-      case 'sync_pair_window_open':
-        return ({required Object n}) => 'Pairing open: ${n}s';
       case 'sync_pair_success':
         return 'Paired — token filled in';
-      case 'sync_pair_window_closed':
-        return 'Open pairing on the other device first';
       case 'sync_pair_failed':
         return 'Pairing failed';
       case 'audio_source_hibiki_interconnect':
@@ -85538,6 +85727,18 @@ extension on _StringsZhHk {
         return 'Source priority';
       case 'local_audio_no_sources':
         return 'No sources found in this database';
+      case 'sync_pair_request_title':
+        return 'Pairing request';
+      case 'sync_pair_request_body':
+        return 'A device is requesting to pair. Allow it to sync with this device?';
+      case 'sync_pair_allow':
+        return 'Allow';
+      case 'sync_pair_deny':
+        return 'Deny';
+      case 'sync_pair_denied':
+        return 'The other device declined pairing';
+      case 'sync_pair_unknown_device':
+        return 'Unknown device';
       default:
         return null;
     }
