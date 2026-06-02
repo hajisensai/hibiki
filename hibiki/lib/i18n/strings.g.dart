@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 20145 (1185 per locale)
 ///
-/// Built on 2026-06-02 at 10:59 UTC
+/// Built on 2026-06-02 at 12:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1580,7 +1580,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get on_screen_keyboard => 'On-screen keyboard';
   String get app_ui_scale => 'UI size';
   String get app_ui_scale_hint =>
-      'Scales app text and spacing from 30% to 300%. Increase it on large screens if controls feel too small.';
+      'Scales the whole interface — text, icons and controls together — from 30% to 300%. Increase it if the UI looks small on large screens.';
   String get sync_dictionary => 'Sync dictionaries';
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
@@ -41612,7 +41612,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get app_ui_scale => '界面大小';
   @override
-  String get app_ui_scale_hint => '缩放应用文字和间距，范围 30% 到 300%。大屏设备上如果控件偏小，可以调高。';
+  String get app_ui_scale_hint =>
+      '整体缩放应用界面（文字、图标、控件一起放大缩小），范围 30% 到 300%。大屏设备上界面偏小可调高。';
   @override
   String get sync_dictionary => '同步词典';
   @override
@@ -46617,7 +46618,7 @@ extension on _StringsEn {
       case 'app_ui_scale':
         return 'UI size';
       case 'app_ui_scale_hint':
-        return 'Scales app text and spacing from 30% to 300%. Increase it on large screens if controls feel too small.';
+        return 'Scales the whole interface — text, icons and controls together — from 30% to 300%. Increase it if the UI looks small on large screens.';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -83081,7 +83082,7 @@ extension on _StringsZhCn {
       case 'app_ui_scale':
         return '界面大小';
       case 'app_ui_scale_hint':
-        return '缩放应用文字和间距，范围 30% 到 300%。大屏设备上如果控件偏小，可以调高。';
+        return '整体缩放应用界面（文字、图标、控件一起放大缩小），范围 30% 到 300%。大屏设备上界面偏小可调高。';
       case 'sync_dictionary':
         return '同步词典';
       case 'sync_dictionary_warning':
