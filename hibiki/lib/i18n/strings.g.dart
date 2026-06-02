@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19924 (1172 per locale)
+/// Strings: 19907 (1171 per locale)
 ///
-/// Built on 2026-06-02 at 06:59 UTC
+/// Built on 2026-06-02 at 07:20 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1581,9 +1581,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get app_ui_scale => 'UI size';
   String get app_ui_scale_hint =>
       'Scales app text and spacing from 30% to 300%. Increase it on large screens if controls feel too small.';
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
   String get sync_dictionary => 'Sync dictionaries';
   String get sync_dictionary_warning =>
       'Dictionary packages can be large and include imported dictionary resources.';
@@ -1591,6 +1588,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get remote_dict_lookup => 'Remote dictionary lookup';
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -4195,11 +4193,6 @@ class _StringsAr extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -4211,6 +4204,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -6891,11 +6886,6 @@ class _StringsDe extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -6907,6 +6897,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -9596,11 +9588,6 @@ class _StringsEs extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -9612,6 +9599,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -12316,11 +12305,6 @@ class _StringsFr extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -12332,6 +12316,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -14976,11 +14962,6 @@ class _StringsId extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -14992,6 +14973,8 @@ class _StringsId extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -17669,11 +17652,6 @@ class _StringsIt extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -17685,6 +17663,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -20216,11 +20196,6 @@ class _StringsJa extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -20232,6 +20207,8 @@ class _StringsJa extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -22768,11 +22745,6 @@ class _StringsKo extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -22784,6 +22756,8 @@ class _StringsKo extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -25445,11 +25419,6 @@ class _StringsNl extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -25461,6 +25430,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -28137,11 +28108,6 @@ class _StringsPtBr extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -28153,6 +28119,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -30812,11 +30780,6 @@ class _StringsRu extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -30828,6 +30791,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -33435,11 +33400,6 @@ class _StringsTh extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -33451,6 +33411,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -36093,11 +36055,6 @@ class _StringsTr extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -36109,6 +36066,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -38731,11 +38690,6 @@ class _StringsVi extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -38747,6 +38701,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -41222,10 +41178,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get app_ui_scale_hint => '缩放应用文字和间距，范围 30% 到 300%。大屏设备上如果控件偏小，可以调高。';
   @override
-  String get remote_lookup_enabled => '使用远端 Hibiki 查询';
-  @override
-  String get remote_lookup_enabled_hint => '本地词典或本地音频未命中时，查询已配置的 Hibiki 服务器';
-  @override
   String get sync_dictionary => '同步词典';
   @override
   String get sync_dictionary_warning => '词典包可能很大，并包含已导入的词典资源。';
@@ -41235,6 +41187,8 @@ class _StringsZhCn extends _StringsEn {
   String get remote_dict_lookup => '远端词典查询';
   @override
   String get remote_dict_lookup_hint => '本地词典查不到时，查询已配置的 Hibiki 服务器';
+  @override
+  String get remote_audio_source => '远端音频';
 }
 
 // Path: retrying_in
@@ -43728,11 +43682,6 @@ class _StringsZhHk extends _StringsEn {
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get remote_lookup_enabled => 'Use remote Hibiki lookup';
-  @override
-  String get remote_lookup_enabled_hint =>
-      'When local dictionaries or Local Audio miss, query the configured Hibiki server';
-  @override
   String get sync_dictionary => 'Sync dictionaries';
   @override
   String get sync_dictionary_warning =>
@@ -43744,6 +43693,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
+  @override
+  String get remote_audio_source => 'Remote audio';
 }
 
 // Path: retrying_in
@@ -46173,10 +46124,6 @@ extension on _StringsEn {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing from 30% to 300%. Increase it on large screens if controls feel too small.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -46187,6 +46134,8 @@ extension on _StringsEn {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -48574,10 +48523,6 @@ extension on _StringsAr {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -48588,6 +48533,8 @@ extension on _StringsAr {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -50989,10 +50936,6 @@ extension on _StringsDe {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -51003,6 +50946,8 @@ extension on _StringsDe {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -53403,10 +53348,6 @@ extension on _StringsEs {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -53417,6 +53358,8 @@ extension on _StringsEs {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -55818,10 +55761,6 @@ extension on _StringsFr {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -55832,6 +55771,8 @@ extension on _StringsFr {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -58224,10 +58165,6 @@ extension on _StringsId {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -58238,6 +58175,8 @@ extension on _StringsId {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -60636,10 +60575,6 @@ extension on _StringsIt {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -60650,6 +60585,8 @@ extension on _StringsIt {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -63028,10 +62965,6 @@ extension on _StringsJa {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -63042,6 +62975,8 @@ extension on _StringsJa {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -65422,10 +65357,6 @@ extension on _StringsKo {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -65436,6 +65367,8 @@ extension on _StringsKo {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -67832,10 +67765,6 @@ extension on _StringsNl {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -67846,6 +67775,8 @@ extension on _StringsNl {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -70242,10 +70173,6 @@ extension on _StringsPtBr {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -70256,6 +70183,8 @@ extension on _StringsPtBr {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -72652,10 +72581,6 @@ extension on _StringsRu {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -72666,6 +72591,8 @@ extension on _StringsRu {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -75054,10 +74981,6 @@ extension on _StringsTh {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -75068,6 +74991,8 @@ extension on _StringsTh {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -77459,10 +77384,6 @@ extension on _StringsTr {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -77473,6 +77394,8 @@ extension on _StringsTr {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -79861,10 +79784,6 @@ extension on _StringsVi {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -79875,6 +79794,8 @@ extension on _StringsVi {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
@@ -82247,10 +82168,6 @@ extension on _StringsZhCn {
         return '界面大小';
       case 'app_ui_scale_hint':
         return '缩放应用文字和间距，范围 30% 到 300%。大屏设备上如果控件偏小，可以调高。';
-      case 'remote_lookup_enabled':
-        return '使用远端 Hibiki 查询';
-      case 'remote_lookup_enabled_hint':
-        return '本地词典或本地音频未命中时，查询已配置的 Hibiki 服务器';
       case 'sync_dictionary':
         return '同步词典';
       case 'sync_dictionary_warning':
@@ -82261,6 +82178,8 @@ extension on _StringsZhCn {
         return '远端词典查询';
       case 'remote_dict_lookup_hint':
         return '本地词典查不到时，查询已配置的 Hibiki 服务器';
+      case 'remote_audio_source':
+        return '远端音频';
       default:
         return null;
     }
@@ -84636,10 +84555,6 @@ extension on _StringsZhHk {
         return 'UI size';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
-      case 'remote_lookup_enabled':
-        return 'Use remote Hibiki lookup';
-      case 'remote_lookup_enabled_hint':
-        return 'When local dictionaries or Local Audio miss, query the configured Hibiki server';
       case 'sync_dictionary':
         return 'Sync dictionaries';
       case 'sync_dictionary_warning':
@@ -84650,6 +84565,8 @@ extension on _StringsZhHk {
         return 'Remote dictionary lookup';
       case 'remote_dict_lookup_hint':
         return 'When local dictionaries miss, query the configured Hibiki server';
+      case 'remote_audio_source':
+        return 'Remote audio';
       default:
         return null;
     }
