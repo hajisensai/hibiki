@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20213 (1189 per locale)
+/// Strings: 20264 (1192 per locale)
 ///
-/// Built on 2026-06-02 at 14:58 UTC
+/// Built on 2026-06-02 at 15:34 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1610,6 +1610,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_pair_unknown_device => 'Unknown device';
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -4266,6 +4271,14 @@ class _StringsAr extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -6998,6 +7011,14 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -9739,6 +9760,14 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -12495,6 +12524,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -15191,6 +15228,14 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -17920,6 +17965,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -20503,6 +20556,14 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -23091,6 +23152,14 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -25804,6 +25873,14 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -28532,6 +28609,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -31243,6 +31328,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -33902,6 +33995,14 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -36596,6 +36697,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -39270,6 +39379,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -41793,6 +41910,12 @@ class _StringsZhCn extends _StringsEn {
   String get sync_pair_unknown_device => '未知设备';
   @override
   String get sync_pair_unavailable => '对方设备未就绪或版本过旧，请确认对方已更新并开启同步后重试。';
+  @override
+  String get sync_role_locked_by_server => '本机正作为服务端，请先关闭服务端再连接其他设备。';
+  @override
+  String get sync_role_locked_by_client => '已连接其他设备，请先移除连接后才能作为服务端。';
+  @override
+  String get sync_compare_unavailable => '请先设置同步';
 }
 
 // Path: retrying_in
@@ -44338,6 +44461,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_pair_unavailable =>
       'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+  @override
+  String get sync_role_locked_by_server =>
+      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+  @override
+  String get sync_role_locked_by_client =>
+      'Already connected to another device. Remove the connection before hosting as a server.';
+  @override
+  String get sync_compare_unavailable => 'Set up sync first';
 }
 
 // Path: retrying_in
@@ -46815,6 +46946,12 @@ extension on _StringsEn {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -49250,6 +49387,12 @@ extension on _StringsAr {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -51699,6 +51842,12 @@ extension on _StringsDe {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -54147,6 +54296,12 @@ extension on _StringsEs {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -56596,6 +56751,12 @@ extension on _StringsFr {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -59036,6 +59197,12 @@ extension on _StringsId {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -61482,6 +61649,12 @@ extension on _StringsIt {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -63908,6 +64081,12 @@ extension on _StringsJa {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -66336,6 +66515,12 @@ extension on _StringsKo {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -68780,6 +68965,12 @@ extension on _StringsNl {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -71224,6 +71415,12 @@ extension on _StringsPtBr {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -73668,6 +73865,12 @@ extension on _StringsRu {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -76104,6 +76307,12 @@ extension on _StringsTh {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -78543,6 +78752,12 @@ extension on _StringsTr {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -80979,6 +81194,12 @@ extension on _StringsVi {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
@@ -83399,6 +83620,12 @@ extension on _StringsZhCn {
         return '未知设备';
       case 'sync_pair_unavailable':
         return '对方设备未就绪或版本过旧，请确认对方已更新并开启同步后重试。';
+      case 'sync_role_locked_by_server':
+        return '本机正作为服务端，请先关闭服务端再连接其他设备。';
+      case 'sync_role_locked_by_client':
+        return '已连接其他设备，请先移除连接后才能作为服务端。';
+      case 'sync_compare_unavailable':
+        return '请先设置同步';
       default:
         return null;
     }
@@ -85822,6 +86049,12 @@ extension on _StringsZhHk {
         return 'Unknown device';
       case 'sync_pair_unavailable':
         return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      case 'sync_role_locked_by_server':
+        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      case 'sync_role_locked_by_client':
+        return 'Already connected to another device. Remove the connection before hosting as a server.';
+      case 'sync_compare_unavailable':
+        return 'Set up sync first';
       default:
         return null;
     }
