@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 19907 (1171 per locale)
+/// Strings: 19992 (1176 per locale)
 ///
-/// Built on 2026-06-02 at 07:20 UTC
+/// Built on 2026-06-02 at 09:57 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1589,6 +1589,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get remote_dict_lookup_hint =>
       'When local dictionaries miss, query the configured Hibiki server';
   String get remote_audio_source => 'Remote audio';
+  String get sync_pair_open_button => 'Allow pairing';
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -4206,6 +4212,17 @@ class _StringsAr extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -6899,6 +6916,17 @@ class _StringsDe extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -9601,6 +9629,17 @@ class _StringsEs extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -12318,6 +12357,17 @@ class _StringsFr extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -14975,6 +15025,17 @@ class _StringsId extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -17665,6 +17726,17 @@ class _StringsIt extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -20209,6 +20281,17 @@ class _StringsJa extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -22758,6 +22841,17 @@ class _StringsKo extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -25432,6 +25526,17 @@ class _StringsNl extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -28121,6 +28226,17 @@ class _StringsPtBr extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -30793,6 +30909,17 @@ class _StringsRu extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -33413,6 +33540,17 @@ class _StringsTh extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -36068,6 +36206,17 @@ class _StringsTr extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -38703,6 +38852,17 @@ class _StringsVi extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -41189,6 +41349,16 @@ class _StringsZhCn extends _StringsEn {
   String get remote_dict_lookup_hint => '本地词典查不到时，查询已配置的 Hibiki 服务器';
   @override
   String get remote_audio_source => '远端音频';
+  @override
+  String get sync_pair_open_button => '开启配对';
+  @override
+  String sync_pair_window_open({required Object n}) => '配对开启中：剩 ${n} 秒';
+  @override
+  String get sync_pair_success => '配对成功，已自动填入 token';
+  @override
+  String get sync_pair_window_closed => '请先在对方设备上开启配对';
+  @override
+  String get sync_pair_failed => '配对失败';
 }
 
 // Path: retrying_in
@@ -43695,6 +43865,17 @@ class _StringsZhHk extends _StringsEn {
       'When local dictionaries miss, query the configured Hibiki server';
   @override
   String get remote_audio_source => 'Remote audio';
+  @override
+  String get sync_pair_open_button => 'Allow pairing';
+  @override
+  String sync_pair_window_open({required Object n}) => 'Pairing open: ${n}s';
+  @override
+  String get sync_pair_success => 'Paired — token filled in';
+  @override
+  String get sync_pair_window_closed =>
+      'Open pairing on the other device first';
+  @override
+  String get sync_pair_failed => 'Pairing failed';
 }
 
 // Path: retrying_in
@@ -46136,6 +46317,16 @@ extension on _StringsEn {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -48535,6 +48726,16 @@ extension on _StringsAr {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -50948,6 +51149,16 @@ extension on _StringsDe {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -53360,6 +53571,16 @@ extension on _StringsEs {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -55773,6 +55994,16 @@ extension on _StringsFr {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -58177,6 +58408,16 @@ extension on _StringsId {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -60587,6 +60828,16 @@ extension on _StringsIt {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -62977,6 +63228,16 @@ extension on _StringsJa {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -65369,6 +65630,16 @@ extension on _StringsKo {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -67777,6 +68048,16 @@ extension on _StringsNl {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -70185,6 +70466,16 @@ extension on _StringsPtBr {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -72593,6 +72884,16 @@ extension on _StringsRu {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -74993,6 +75294,16 @@ extension on _StringsTh {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -77396,6 +77707,16 @@ extension on _StringsTr {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -79796,6 +80117,16 @@ extension on _StringsVi {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
@@ -82180,6 +82511,16 @@ extension on _StringsZhCn {
         return '本地词典查不到时，查询已配置的 Hibiki 服务器';
       case 'remote_audio_source':
         return '远端音频';
+      case 'sync_pair_open_button':
+        return '开启配对';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => '配对开启中：剩 ${n} 秒';
+      case 'sync_pair_success':
+        return '配对成功，已自动填入 token';
+      case 'sync_pair_window_closed':
+        return '请先在对方设备上开启配对';
+      case 'sync_pair_failed':
+        return '配对失败';
       default:
         return null;
     }
@@ -84567,6 +84908,16 @@ extension on _StringsZhHk {
         return 'When local dictionaries miss, query the configured Hibiki server';
       case 'remote_audio_source':
         return 'Remote audio';
+      case 'sync_pair_open_button':
+        return 'Allow pairing';
+      case 'sync_pair_window_open':
+        return ({required Object n}) => 'Pairing open: ${n}s';
+      case 'sync_pair_success':
+        return 'Paired — token filled in';
+      case 'sync_pair_window_closed':
+        return 'Open pairing on the other device first';
+      case 'sync_pair_failed':
+        return 'Pairing failed';
       default:
         return null;
     }
