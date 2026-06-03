@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20264 (1192 per locale)
+/// Strings: 20298 (1194 per locale)
 ///
-/// Built on 2026-06-02 at 15:34 UTC
+/// Built on 2026-06-03 at 14:21 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1615,6 +1615,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_role_locked_by_client =>
       'Already connected to another device. Remove the connection before hosting as a server.';
   String get sync_compare_unavailable => 'Set up sync first';
+  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -4279,6 +4282,11 @@ class _StringsAr extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -7019,6 +7027,11 @@ class _StringsDe extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -9768,6 +9781,11 @@ class _StringsEs extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -12532,6 +12550,11 @@ class _StringsFr extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -15236,6 +15259,11 @@ class _StringsId extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -17973,6 +18001,11 @@ class _StringsIt extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -20564,6 +20597,11 @@ class _StringsJa extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -23160,6 +23198,11 @@ class _StringsKo extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -25881,6 +25924,11 @@ class _StringsNl extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -28617,6 +28665,11 @@ class _StringsPtBr extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -31336,6 +31389,11 @@ class _StringsRu extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -34003,6 +34061,11 @@ class _StringsTh extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -36705,6 +36768,11 @@ class _StringsTr extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -39387,6 +39455,11 @@ class _StringsVi extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -41916,6 +41989,10 @@ class _StringsZhCn extends _StringsEn {
   String get sync_role_locked_by_client => '已连接其他设备，请先移除连接后才能作为服务端。';
   @override
   String get sync_compare_unavailable => '请先设置同步';
+  @override
+  String get sync_audiobook_files => '同步有声书文件';
+  @override
+  String get sync_audiobook_files_warning => '音频和字幕可能很大。';
 }
 
 // Path: retrying_in
@@ -44469,6 +44546,11 @@ class _StringsZhHk extends _StringsEn {
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
+  @override
+  String get sync_audiobook_files => 'Sync audiobook files';
+  @override
+  String get sync_audiobook_files_warning =>
+      'Audio and subtitles can be large.';
 }
 
 // Path: retrying_in
@@ -46952,6 +47034,10 @@ extension on _StringsEn {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -49393,6 +49479,10 @@ extension on _StringsAr {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -51848,6 +51938,10 @@ extension on _StringsDe {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -54302,6 +54396,10 @@ extension on _StringsEs {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -56757,6 +56855,10 @@ extension on _StringsFr {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -59203,6 +59305,10 @@ extension on _StringsId {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -61655,6 +61761,10 @@ extension on _StringsIt {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -64087,6 +64197,10 @@ extension on _StringsJa {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -66521,6 +66635,10 @@ extension on _StringsKo {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -68971,6 +69089,10 @@ extension on _StringsNl {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -71421,6 +71543,10 @@ extension on _StringsPtBr {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -73871,6 +73997,10 @@ extension on _StringsRu {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -76313,6 +76443,10 @@ extension on _StringsTh {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -78758,6 +78892,10 @@ extension on _StringsTr {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -81200,6 +81338,10 @@ extension on _StringsVi {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
@@ -83626,6 +83768,10 @@ extension on _StringsZhCn {
         return '已连接其他设备，请先移除连接后才能作为服务端。';
       case 'sync_compare_unavailable':
         return '请先设置同步';
+      case 'sync_audiobook_files':
+        return '同步有声书文件';
+      case 'sync_audiobook_files_warning':
+        return '音频和字幕可能很大。';
       default:
         return null;
     }
@@ -86055,6 +86201,10 @@ extension on _StringsZhHk {
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
+      case 'sync_audiobook_files':
+        return 'Sync audiobook files';
+      case 'sync_audiobook_files_warning':
+        return 'Audio and subtitles can be large.';
       default:
         return null;
     }
