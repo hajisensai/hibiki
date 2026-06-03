@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20298 (1194 per locale)
+/// Strings: 20383 (1199 per locale)
 ///
-/// Built on 2026-06-03 at 14:21 UTC
+/// Built on 2026-06-03 at 16:40 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1618,6 +1618,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_audiobook_files => 'Sync audiobook files';
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -4287,6 +4293,17 @@ class _StringsAr extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -7032,6 +7049,17 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -9786,6 +9814,17 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -12555,6 +12594,17 @@ class _StringsFr extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -15264,6 +15314,17 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -18006,6 +18067,17 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -20602,6 +20674,17 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -23203,6 +23286,17 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -25929,6 +26023,17 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -28670,6 +28775,17 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -31394,6 +31510,17 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -34066,6 +34193,17 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -36773,6 +36911,17 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -39460,6 +39609,17 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -41993,6 +42153,17 @@ class _StringsZhCn extends _StringsEn {
   String get sync_audiobook_files => '同步有声书文件';
   @override
   String get sync_audiobook_files_warning => '音频和字幕可能很大。';
+  @override
+  String get book_import_duplicate_title => '同名书籍';
+  @override
+  String get book_import_duplicate_keep => '是，加后缀';
+  @override
+  String get book_import_duplicate_cancel => '否，取消';
+  @override
+  String get book_import_duplicate_cancelled => '已取消导入';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      '书库中已存在《${name}》。仍要导入吗？「是」会加序号后缀导入，「否」取消添加这本书。';
 }
 
 // Path: retrying_in
@@ -44551,6 +44722,17 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
+  @override
+  String get book_import_duplicate_title => 'Duplicate book';
+  @override
+  String get book_import_duplicate_keep => 'Yes, add suffix';
+  @override
+  String get book_import_duplicate_cancel => 'No, cancel';
+  @override
+  String get book_import_duplicate_cancelled => 'Import cancelled';
+  @override
+  String book_import_duplicate_message({required Object name}) =>
+      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
 }
 
 // Path: retrying_in
@@ -47038,6 +47220,17 @@ extension on _StringsEn {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -49483,6 +49676,17 @@ extension on _StringsAr {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -51942,6 +52146,17 @@ extension on _StringsDe {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -54400,6 +54615,17 @@ extension on _StringsEs {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -56859,6 +57085,17 @@ extension on _StringsFr {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -59309,6 +59546,17 @@ extension on _StringsId {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -61765,6 +62013,17 @@ extension on _StringsIt {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -64201,6 +64460,17 @@ extension on _StringsJa {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -66639,6 +66909,17 @@ extension on _StringsKo {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -69093,6 +69374,17 @@ extension on _StringsNl {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -71547,6 +71839,17 @@ extension on _StringsPtBr {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -74001,6 +74304,17 @@ extension on _StringsRu {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -76447,6 +76761,17 @@ extension on _StringsTh {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -78896,6 +79221,17 @@ extension on _StringsTr {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -81342,6 +81678,17 @@ extension on _StringsVi {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
@@ -83772,6 +84119,17 @@ extension on _StringsZhCn {
         return '同步有声书文件';
       case 'sync_audiobook_files_warning':
         return '音频和字幕可能很大。';
+      case 'book_import_duplicate_title':
+        return '同名书籍';
+      case 'book_import_duplicate_keep':
+        return '是，加后缀';
+      case 'book_import_duplicate_cancel':
+        return '否，取消';
+      case 'book_import_duplicate_cancelled':
+        return '已取消导入';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            '书库中已存在《${name}》。仍要导入吗？「是」会加序号后缀导入，「否」取消添加这本书。';
       default:
         return null;
     }
@@ -86205,6 +86563,17 @@ extension on _StringsZhHk {
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
         return 'Audio and subtitles can be large.';
+      case 'book_import_duplicate_title':
+        return 'Duplicate book';
+      case 'book_import_duplicate_keep':
+        return 'Yes, add suffix';
+      case 'book_import_duplicate_cancel':
+        return 'No, cancel';
+      case 'book_import_duplicate_cancelled':
+        return 'Import cancelled';
+      case 'book_import_duplicate_message':
+        return ({required Object name}) =>
+            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
       default:
         return null;
     }
