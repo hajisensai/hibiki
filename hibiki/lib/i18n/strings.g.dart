@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20383 (1199 per locale)
+/// Strings: 20400 (1200 per locale)
 ///
-/// Built on 2026-06-03 at 16:40 UTC
+/// Built on 2026-06-03 at 17:07 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1624,6 +1624,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get book_import_duplicate_cancelled => 'Import cancelled';
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -4304,6 +4305,8 @@ class _StringsAr extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -7060,6 +7063,8 @@ class _StringsDe extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -9825,6 +9830,8 @@ class _StringsEs extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -12605,6 +12612,8 @@ class _StringsFr extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -15325,6 +15334,8 @@ class _StringsId extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -18078,6 +18089,8 @@ class _StringsIt extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -20685,6 +20698,8 @@ class _StringsJa extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -23297,6 +23312,8 @@ class _StringsKo extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -26034,6 +26051,8 @@ class _StringsNl extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -28786,6 +28805,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -31521,6 +31542,8 @@ class _StringsRu extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -34204,6 +34227,8 @@ class _StringsTh extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -36922,6 +36947,8 @@ class _StringsTr extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -39620,6 +39647,8 @@ class _StringsVi extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -42164,6 +42193,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       '书库中已存在《${name}》。仍要导入吗？「是」会加序号后缀导入，「否」取消添加这本书。';
+  @override
+  String get reverse_reader_bottom_bar => '反转阅读器底栏';
 }
 
 // Path: retrying_in
@@ -44733,6 +44764,8 @@ class _StringsZhHk extends _StringsEn {
   @override
   String book_import_duplicate_message({required Object name}) =>
       'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+  @override
+  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
 }
 
 // Path: retrying_in
@@ -47231,6 +47264,8 @@ extension on _StringsEn {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -49687,6 +49722,8 @@ extension on _StringsAr {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -52157,6 +52194,8 @@ extension on _StringsDe {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -54626,6 +54665,8 @@ extension on _StringsEs {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -57096,6 +57137,8 @@ extension on _StringsFr {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -59557,6 +59600,8 @@ extension on _StringsId {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -62024,6 +62069,8 @@ extension on _StringsIt {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -64471,6 +64518,8 @@ extension on _StringsJa {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -66920,6 +66969,8 @@ extension on _StringsKo {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -69385,6 +69436,8 @@ extension on _StringsNl {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -71850,6 +71903,8 @@ extension on _StringsPtBr {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -74315,6 +74370,8 @@ extension on _StringsRu {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -76772,6 +76829,8 @@ extension on _StringsTh {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -79232,6 +79291,8 @@ extension on _StringsTr {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -81689,6 +81750,8 @@ extension on _StringsVi {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
@@ -84130,6 +84193,8 @@ extension on _StringsZhCn {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             '书库中已存在《${name}》。仍要导入吗？「是」会加序号后缀导入，「否」取消添加这本书。';
+      case 'reverse_reader_bottom_bar':
+        return '反转阅读器底栏';
       default:
         return null;
     }
@@ -86574,6 +86639,8 @@ extension on _StringsZhHk {
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
             'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      case 'reverse_reader_bottom_bar':
+        return 'Reverse reader bottom bar';
       default:
         return null;
     }
