@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 20672 (1216 per locale)
 ///
-/// Built on 2026-06-03 at 17:17 UTC
+/// Built on 2026-06-03 at 18:00 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1614,7 +1614,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'This device is hosting as a server. Turn off the server before connecting to other devices.';
   String get sync_role_locked_by_client =>
       'Already connected to another device. Remove the connection before hosting as a server.';
-  String get sync_compare_unavailable => 'Set up sync first';
+  String get sync_compare_unavailable => 'Set up a sync backend first';
   String get sync_audiobook_files => 'Sync audiobook files';
   String get sync_audiobook_files_warning =>
       'Audio and subtitles can be large.';
@@ -42731,7 +42731,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get sync_role_locked_by_client => '已连接其他设备，请先移除连接后才能作为服务端。';
   @override
-  String get sync_compare_unavailable => '请先设置同步';
+  String get sync_compare_unavailable => '请先设置同步后端';
   @override
   String get sync_audiobook_files => '同步有声书文件';
   @override
@@ -45337,7 +45337,7 @@ class _StringsZhHk extends _StringsEn {
   String get sync_role_locked_by_client =>
       'Already connected to another device. Remove the connection before hosting as a server.';
   @override
-  String get sync_compare_unavailable => 'Set up sync first';
+  String get sync_compare_unavailable => '請先設定同步後端';
   @override
   String get sync_audiobook_files => 'Sync audiobook files';
   @override
@@ -47876,7 +47876,7 @@ extension on _StringsEn {
       case 'sync_role_locked_by_client':
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
-        return 'Set up sync first';
+        return 'Set up a sync backend first';
       case 'sync_audiobook_files':
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
@@ -85345,7 +85345,7 @@ extension on _StringsZhCn {
       case 'sync_role_locked_by_client':
         return '已连接其他设备，请先移除连接后才能作为服务端。';
       case 'sync_compare_unavailable':
-        return '请先设置同步';
+        return '请先设置同步后端';
       case 'sync_audiobook_files':
         return '同步有声书文件';
       case 'sync_audiobook_files_warning':
@@ -87827,7 +87827,7 @@ extension on _StringsZhHk {
       case 'sync_role_locked_by_client':
         return 'Already connected to another device. Remove the connection before hosting as a server.';
       case 'sync_compare_unavailable':
-        return 'Set up sync first';
+        return '請先設定同步後端';
       case 'sync_audiobook_files':
         return 'Sync audiobook files';
       case 'sync_audiobook_files_warning':
