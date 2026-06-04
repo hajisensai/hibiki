@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20774 (1222 per locale)
+/// Strings: 20825 (1225 per locale)
 ///
-/// Built on 2026-06-04 at 10:49 UTC
+/// Built on 2026-06-04 at 14:30 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1654,6 +1654,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_compare_deleted => 'Deleted from remote';
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -4387,6 +4390,12 @@ class _StringsAr extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -7196,6 +7205,12 @@ class _StringsDe extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -10014,6 +10029,12 @@ class _StringsEs extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -12847,6 +12868,12 @@ class _StringsFr extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -15620,6 +15647,12 @@ class _StringsId extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -18426,6 +18459,12 @@ class _StringsIt extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -21086,6 +21125,12 @@ class _StringsJa extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -23751,6 +23796,12 @@ class _StringsKo extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -26541,6 +26592,12 @@ class _StringsNl extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -29346,6 +29403,12 @@ class _StringsPtBr extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -32134,6 +32197,12 @@ class _StringsRu extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -34870,6 +34939,12 @@ class _StringsTh extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -37641,6 +37716,12 @@ class _StringsTr extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -40392,6 +40473,12 @@ class _StringsVi extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -42987,6 +43074,12 @@ class _StringsZhCn extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       '确定从远端删除「${name}」吗？本地数据保留，此操作不可撤销。';
+  @override
+  String get dictionaries_delete_failed => '删除全部词典失败';
+  @override
+  String get dictionary_delete_failed => '删除词典失败';
+  @override
+  String get sync_webdav_missing_fields => '缺少字段';
 }
 
 // Path: retrying_in
@@ -45609,6 +45702,12 @@ class _StringsZhHk extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
 }
 
 // Path: retrying_in
@@ -48158,6 +48257,12 @@ extension on _StringsEn {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -50665,6 +50770,12 @@ extension on _StringsAr {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -53186,6 +53297,12 @@ extension on _StringsDe {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -55706,6 +55823,12 @@ extension on _StringsEs {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -58227,6 +58350,12 @@ extension on _StringsFr {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -60739,6 +60868,12 @@ extension on _StringsId {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -63257,6 +63392,12 @@ extension on _StringsIt {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -65755,6 +65896,12 @@ extension on _StringsJa {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -68255,6 +68402,12 @@ extension on _StringsKo {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -70771,6 +70924,12 @@ extension on _StringsNl {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -73287,6 +73446,12 @@ extension on _StringsPtBr {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -75803,6 +75968,12 @@ extension on _StringsRu {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -78311,6 +78482,12 @@ extension on _StringsTh {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -80822,6 +80999,12 @@ extension on _StringsTr {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -83330,6 +83513,12 @@ extension on _StringsVi {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
@@ -85821,6 +86010,12 @@ extension on _StringsZhCn {
         return '已从远端删除';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) => '确定从远端删除「${name}」吗？本地数据保留，此操作不可撤销。';
+      case 'dictionaries_delete_failed':
+        return '删除全部词典失败';
+      case 'dictionary_delete_failed':
+        return '删除词典失败';
+      case 'sync_webdav_missing_fields':
+        return '缺少字段';
       default:
         return null;
     }
@@ -88316,6 +88511,12 @@ extension on _StringsZhHk {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
       default:
         return null;
     }
