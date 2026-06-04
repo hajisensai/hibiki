@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20961 (1233 per locale)
+/// Strings: 20978 (1234 per locale)
 ///
-/// Built on 2026-06-04 at 15:31 UTC
+/// Built on 2026-06-04 at 16:06 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1669,6 +1669,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       '↓${count} audio sources';
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -4430,6 +4432,9 @@ class _StringsAr extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -7275,6 +7280,9 @@ class _StringsDe extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -10134,6 +10142,9 @@ class _StringsEs extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -13012,6 +13023,9 @@ class _StringsFr extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -15813,6 +15827,9 @@ class _StringsId extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -18656,6 +18673,9 @@ class _StringsIt extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -21326,6 +21346,9 @@ class _StringsJa extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -23997,6 +24020,9 @@ class _StringsKo extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -26822,6 +26848,9 @@ class _StringsNl extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -29660,6 +29689,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -32484,6 +32516,9 @@ class _StringsRu extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -35247,6 +35282,9 @@ class _StringsTh extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -38048,6 +38086,9 @@ class _StringsTr extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -40829,6 +40870,9 @@ class _StringsVi extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -43445,6 +43489,9 @@ class _StringsZhCn extends _StringsEn {
   String sync_now_local_audio_in({required Object count}) => '↓${count} 本地音频';
   @override
   String sync_now_local_audio_out({required Object count}) => '↑${count} 本地音频';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      '无法连接 ${host}（网络超时或不可达）。';
 }
 
 // Path: retrying_in
@@ -46091,6 +46138,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String sync_now_local_audio_out({required Object count}) =>
       '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
 }
 
 // Path: retrying_in
@@ -48662,6 +48712,9 @@ extension on _StringsEn {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -51191,6 +51244,9 @@ extension on _StringsAr {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -53736,6 +53792,9 @@ extension on _StringsDe {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -56279,6 +56338,9 @@ extension on _StringsEs {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -58824,6 +58886,9 @@ extension on _StringsFr {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -61358,6 +61423,9 @@ extension on _StringsId {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -63900,6 +63968,9 @@ extension on _StringsIt {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -66418,6 +66489,9 @@ extension on _StringsJa {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -68938,6 +69012,9 @@ extension on _StringsKo {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -71477,6 +71554,9 @@ extension on _StringsNl {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -74015,6 +74095,9 @@ extension on _StringsPtBr {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -76554,6 +76637,9 @@ extension on _StringsRu {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -79084,6 +79170,9 @@ extension on _StringsTh {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -81617,6 +81706,9 @@ extension on _StringsTr {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -84147,6 +84239,9 @@ extension on _StringsVi {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
@@ -86660,6 +86755,8 @@ extension on _StringsZhCn {
         return ({required Object count}) => '↓${count} 本地音频';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} 本地音频';
+      case 'update_network_unreachable':
+        return ({required Object host}) => '无法连接 ${host}（网络超时或不可达）。';
       default:
         return null;
     }
@@ -89177,6 +89274,9 @@ extension on _StringsZhHk {
         return ({required Object count}) => '↓${count} audio sources';
       case 'sync_now_local_audio_out':
         return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
       default:
         return null;
     }
