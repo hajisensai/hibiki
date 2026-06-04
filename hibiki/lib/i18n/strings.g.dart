@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 20842 (1226 per locale)
 ///
-/// Built on 2026-06-04 at 14:40 UTC
+/// Built on 2026-06-04 at 14:42 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1389,7 +1389,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get update_debug_channel_warning =>
       'Debug channel builds may be unstable. Use at your own risk.';
   String get sync_title => 'Sync';
-  String get sync_summary => 'Google Drive · ッツ/Hoshi Reader compatible';
+  String get sync_summary =>
+      'Cloud, LAN P2P & local backup · ッツ/Hoshi Reader compatible';
   String get sync_account => 'Account';
   String get sync_client_id => 'Google OAuth Client ID';
   String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
@@ -42679,7 +42680,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get sync_statistics => '同步统计';
   @override
-  String get sync_summary => 'Google Drive · 兼容 ッツ/Hoshi Reader';
+  String get sync_summary => '云端、局域网与本地备份 · 兼容 ッツ/Hoshi Reader';
   @override
   String get sync_title => '同步';
   @override
@@ -42687,42 +42688,41 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get anki_connect_port => 'Port';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => '对比数据';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => '本地 vs 远端';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => '本地';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => '远端';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => '无数据';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => '未找到书籍';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => '天';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => '冲突';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => '全部书籍';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => '全选';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => '全部 → 本地';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => '全部 → 远端';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => '全部 → 跳过';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => '本地';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => '远端';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => '跳过';
   @override
-  String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+  String sync_compare_applied({required Object count}) => '已应用 ${count} 项更改';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => '应用（${count}）';
   @override
   String get sync_auto_sync => '自动同步';
   @override
@@ -45273,7 +45273,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_statistics => '同步統計';
   @override
-  String get sync_summary => 'Google Drive · 相容 ッツ/Hoshi Reader';
+  String get sync_summary => '雲端、區域網與本機備份 · 相容 ッツ/Hoshi Reader';
   @override
   String get sync_title => '同步';
   @override
@@ -45287,42 +45287,41 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get anki_connect_port => 'Port';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => '比對資料';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => '本機 vs 遠端';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => '本機';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => '遠端';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => '無資料';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => '找不到書籍';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => '天';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => '衝突';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => '全部書籍';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => '全選';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => '全部 → 本機';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => '全部 → 遠端';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => '全部 → 略過';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => '本機';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => '遠端';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => '略過';
   @override
-  String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+  String sync_compare_applied({required Object count}) => '已套用 ${count} 項變更';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => '套用（${count}）';
   @override
   String get sync_auto_sync => 'Auto Sync';
   @override
@@ -45721,18 +45720,18 @@ class _StringsZhHk extends _StringsEn {
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => '詞典';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => '刪除遠端書籍';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook => '刪除遠端有聲書';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => '刪除遠端詞典';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => '已從遠端刪除';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      '確定要從遠端刪除「${name}」嗎？本機資料會保留，此操作無法復原。';
   @override
   String get dictionaries_delete_failed => 'Failed to delete dictionaries';
   @override
@@ -47841,7 +47840,7 @@ extension on _StringsEn {
       case 'sync_title':
         return 'Sync';
       case 'sync_summary':
-        return 'Google Drive · ッツ/Hoshi Reader compatible';
+        return 'Cloud, LAN P2P & local backup · ッツ/Hoshi Reader compatible';
       case 'sync_account':
         return 'Account';
       case 'sync_client_id':
@@ -85655,7 +85654,7 @@ extension on _StringsZhCn {
       case 'sync_statistics':
         return '同步统计';
       case 'sync_summary':
-        return 'Google Drive · 兼容 ッツ/Hoshi Reader';
+        return '云端、局域网与本地备份 · 兼容 ッツ/Hoshi Reader';
       case 'sync_title':
         return '同步';
       case 'anki_connect_host':
@@ -85663,41 +85662,41 @@ extension on _StringsZhCn {
       case 'anki_connect_port':
         return 'Port';
       case 'sync_compare':
-        return 'Compare Data';
+        return '对比数据';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return '本地 vs 远端';
       case 'sync_compare_local':
-        return 'Local';
+        return '本地';
       case 'sync_compare_remote':
-        return 'Remote';
+        return '远端';
       case 'sync_compare_no_data':
-        return 'No data';
+        return '无数据';
       case 'sync_compare_empty':
-        return 'No books found';
+        return '未找到书籍';
       case 'sync_compare_days':
-        return 'days';
+        return '天';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return '冲突';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return '全部书籍';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return '全选';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return '全部 → 本地';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return '全部 → 远端';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return '全部 → 跳过';
       case 'sync_compare_use_local':
-        return 'Local';
+        return '本地';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return '远端';
       case 'sync_compare_skip':
-        return 'Skip';
+        return '跳过';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => '已应用 ${count} 项更改';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => '应用（${count}）';
       case 'sync_auto_sync':
         return '自动同步';
       case 'sync_auto_complete':
@@ -88148,7 +88147,7 @@ extension on _StringsZhHk {
       case 'sync_statistics':
         return '同步統計';
       case 'sync_summary':
-        return 'Google Drive · 相容 ッツ/Hoshi Reader';
+        return '雲端、區域網與本機備份 · 相容 ッツ/Hoshi Reader';
       case 'sync_title':
         return '同步';
       case 'update_channel_beta':
@@ -88162,41 +88161,41 @@ extension on _StringsZhHk {
       case 'anki_connect_port':
         return 'Port';
       case 'sync_compare':
-        return 'Compare Data';
+        return '比對資料';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return '本機 vs 遠端';
       case 'sync_compare_local':
-        return 'Local';
+        return '本機';
       case 'sync_compare_remote':
-        return 'Remote';
+        return '遠端';
       case 'sync_compare_no_data':
-        return 'No data';
+        return '無資料';
       case 'sync_compare_empty':
-        return 'No books found';
+        return '找不到書籍';
       case 'sync_compare_days':
-        return 'days';
+        return '天';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return '衝突';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return '全部書籍';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return '全選';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return '全部 → 本機';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return '全部 → 遠端';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return '全部 → 略過';
       case 'sync_compare_use_local':
-        return 'Local';
+        return '本機';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return '遠端';
       case 'sync_compare_skip':
-        return 'Skip';
+        return '略過';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => '已套用 ${count} 項變更';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => '套用（${count}）';
       case 'sync_auto_sync':
         return 'Auto Sync';
       case 'sync_auto_complete':
@@ -88564,18 +88563,18 @@ extension on _StringsZhHk {
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return '詞典';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return '刪除遠端書籍';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return '刪除遠端有聲書';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return '刪除遠端詞典';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return '已從遠端刪除';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            '確定要從遠端刪除「${name}」嗎？本機資料會保留，此操作無法復原。';
       case 'dictionaries_delete_failed':
         return 'Failed to delete dictionaries';
       case 'dictionary_delete_failed':
