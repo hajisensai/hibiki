@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21063 (1239 per locale)
+/// Strings: 21080 (1240 per locale)
 ///
-/// Built on 2026-06-04 at 17:14 UTC
+/// Built on 2026-06-04 at 17:33 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1676,6 +1676,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_progress_dictionaries => 'Syncing dictionaries';
   String get sync_progress_local_audio => 'Syncing local audio';
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -4450,6 +4451,8 @@ class _StringsAr extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -7308,6 +7311,8 @@ class _StringsDe extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -10180,6 +10185,8 @@ class _StringsEs extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -13071,6 +13078,8 @@ class _StringsFr extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -15885,6 +15894,8 @@ class _StringsId extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -18741,6 +18752,8 @@ class _StringsIt extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -21424,6 +21437,8 @@ class _StringsJa extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -24108,6 +24123,8 @@ class _StringsKo extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -26946,6 +26963,8 @@ class _StringsNl extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -29797,6 +29816,8 @@ class _StringsPtBr extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -32634,6 +32655,8 @@ class _StringsRu extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -35410,6 +35433,8 @@ class _StringsTh extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -38224,6 +38249,8 @@ class _StringsTr extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -41018,6 +41045,8 @@ class _StringsVi extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -43647,6 +43676,8 @@ class _StringsZhCn extends _StringsEn {
   String get sync_progress_local_audio => '同步本地音频';
   @override
   String get sync_progress_audiobooks => '同步有声书';
+  @override
+  String get sync_compare_no_content => '仅云端数据，无可下载书籍';
 }
 
 // Path: retrying_in
@@ -46306,6 +46337,8 @@ class _StringsZhHk extends _StringsEn {
   String get sync_progress_local_audio => 'Syncing local audio';
   @override
   String get sync_progress_audiobooks => 'Syncing audiobooks';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
 }
 
 // Path: retrying_in
@@ -48890,6 +48923,8 @@ extension on _StringsEn {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -51432,6 +51467,8 @@ extension on _StringsAr {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -53990,6 +54027,8 @@ extension on _StringsDe {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -56546,6 +56585,8 @@ extension on _StringsEs {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -59104,6 +59145,8 @@ extension on _StringsFr {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -61651,6 +61694,8 @@ extension on _StringsId {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -64206,6 +64251,8 @@ extension on _StringsIt {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -66737,6 +66784,8 @@ extension on _StringsJa {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -69270,6 +69319,8 @@ extension on _StringsKo {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -71822,6 +71873,8 @@ extension on _StringsNl {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -74373,6 +74426,8 @@ extension on _StringsPtBr {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -76925,6 +76980,8 @@ extension on _StringsRu {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -79468,6 +79525,8 @@ extension on _StringsTh {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -82014,6 +82073,8 @@ extension on _StringsTr {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -84557,6 +84618,8 @@ extension on _StringsVi {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
@@ -87082,6 +87145,8 @@ extension on _StringsZhCn {
         return '同步本地音频';
       case 'sync_progress_audiobooks':
         return '同步有声书';
+      case 'sync_compare_no_content':
+        return '仅云端数据，无可下载书籍';
       default:
         return null;
     }
@@ -89612,6 +89677,8 @@ extension on _StringsZhHk {
         return 'Syncing local audio';
       case 'sync_progress_audiobooks':
         return 'Syncing audiobooks';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
       default:
         return null;
     }
