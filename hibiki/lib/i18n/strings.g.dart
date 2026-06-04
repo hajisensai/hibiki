@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20842 (1226 per locale)
+/// Strings: 20876 (1228 per locale)
 ///
-/// Built on 2026-06-04 at 14:23 UTC
+/// Built on 2026-06-04 at 14:52 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1658,6 +1658,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_import_pick_video => 'Pick video file';
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   String get video_import_confirm => 'Import';
+  String get shelf_video_section => 'Videos';
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -4399,6 +4401,10 @@ class _StringsAr extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -7216,6 +7222,10 @@ class _StringsDe extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -10042,6 +10052,10 @@ class _StringsEs extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -12883,6 +12897,10 @@ class _StringsFr extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -15664,6 +15682,10 @@ class _StringsId extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -18478,6 +18500,10 @@ class _StringsIt extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -21146,6 +21172,10 @@ class _StringsJa extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -23819,6 +23849,10 @@ class _StringsKo extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -26617,6 +26651,10 @@ class _StringsNl extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -29430,6 +29468,10 @@ class _StringsPtBr extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -32226,6 +32268,10 @@ class _StringsRu extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -34970,6 +35016,10 @@ class _StringsTh extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -37749,6 +37799,10 @@ class _StringsTr extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -40508,6 +40562,10 @@ class _StringsVi extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -43111,6 +43169,10 @@ class _StringsZhCn extends _StringsEn {
   String get video_import_pick_subtitle => '选择字幕(srt/vtt/ass)';
   @override
   String get video_import_confirm => '导入';
+  @override
+  String get shelf_video_section => '视频';
+  @override
+  String get video_import_action => '导入视频';
 }
 
 // Path: retrying_in
@@ -45741,6 +45803,10 @@ class _StringsZhHk extends _StringsEn {
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
   @override
   String get video_import_confirm => 'Import';
+  @override
+  String get shelf_video_section => 'Videos';
+  @override
+  String get video_import_action => 'Import video';
 }
 
 // Path: retrying_in
@@ -48298,6 +48364,10 @@ extension on _StringsEn {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -50813,6 +50883,10 @@ extension on _StringsAr {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -53342,6 +53416,10 @@ extension on _StringsDe {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -55870,6 +55948,10 @@ extension on _StringsEs {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -58399,6 +58481,10 @@ extension on _StringsFr {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -60919,6 +61005,10 @@ extension on _StringsId {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -63445,6 +63535,10 @@ extension on _StringsIt {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -65951,6 +66045,10 @@ extension on _StringsJa {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -68459,6 +68557,10 @@ extension on _StringsKo {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -70983,6 +71085,10 @@ extension on _StringsNl {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -73507,6 +73613,10 @@ extension on _StringsPtBr {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -76031,6 +76141,10 @@ extension on _StringsRu {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -78547,6 +78661,10 @@ extension on _StringsTh {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -81066,6 +81184,10 @@ extension on _StringsTr {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -83582,6 +83704,10 @@ extension on _StringsVi {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
@@ -86081,6 +86207,10 @@ extension on _StringsZhCn {
         return '选择字幕(srt/vtt/ass)';
       case 'video_import_confirm':
         return '导入';
+      case 'shelf_video_section':
+        return '视频';
+      case 'video_import_action':
+        return '导入视频';
       default:
         return null;
     }
@@ -88584,6 +88714,10 @@ extension on _StringsZhHk {
         return 'Pick subtitle (srt/vtt/ass)';
       case 'video_import_confirm':
         return 'Import';
+      case 'shelf_video_section':
+        return 'Videos';
+      case 'video_import_action':
+        return 'Import video';
       default:
         return null;
     }
