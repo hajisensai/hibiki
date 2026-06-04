@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20672 (1216 per locale)
+/// Strings: 20774 (1222 per locale)
 ///
-/// Built on 2026-06-03 at 18:00 UTC
+/// Built on 2026-06-04 at 04:39 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1647,6 +1647,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       '↑${count} dictionaries';
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_deleted => 'Deleted from remote';
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -4367,6 +4374,19 @@ class _StringsAr extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -7163,6 +7183,19 @@ class _StringsDe extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -9968,6 +10001,19 @@ class _StringsEs extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -12788,6 +12834,19 @@ class _StringsFr extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -15548,6 +15607,19 @@ class _StringsId extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -18341,6 +18413,19 @@ class _StringsIt extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -20988,6 +21073,19 @@ class _StringsJa extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -23640,6 +23738,19 @@ class _StringsKo extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -26417,6 +26528,19 @@ class _StringsNl extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -29209,6 +29333,19 @@ class _StringsPtBr extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -31984,6 +32121,19 @@ class _StringsRu extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -34707,6 +34857,19 @@ class _StringsTh extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -37465,6 +37628,19 @@ class _StringsTr extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -40203,6 +40379,19 @@ class _StringsVi extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -42785,6 +42974,19 @@ class _StringsZhCn extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} 有声书';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} 有声书';
+  @override
+  String get sync_compare_dictionaries => '词典';
+  @override
+  String get sync_compare_delete_book => '删除远端书籍';
+  @override
+  String get sync_compare_delete_audiobook => '删除远端有声书';
+  @override
+  String get sync_compare_delete_dict => '删除远端词典';
+  @override
+  String get sync_compare_deleted => '已从远端删除';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      '确定从远端删除「${name}」吗？本地数据保留，此操作不可撤销。';
 }
 
 // Path: retrying_in
@@ -45394,6 +45596,19 @@ class _StringsZhHk extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get sync_compare_dictionaries => 'Dictionaries';
+  @override
+  String get sync_compare_delete_book => 'Delete book on remote';
+  @override
+  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  @override
+  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  @override
+  String get sync_compare_deleted => 'Deleted from remote';
+  @override
+  String sync_compare_delete_confirm({required Object name}) =>
+      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -47930,6 +48145,19 @@ extension on _StringsEn {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -50424,6 +50652,19 @@ extension on _StringsAr {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -52932,6 +53173,19 @@ extension on _StringsDe {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -55439,6 +55693,19 @@ extension on _StringsEs {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -57947,6 +58214,19 @@ extension on _StringsFr {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -60446,6 +60726,19 @@ extension on _StringsId {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -62951,6 +63244,19 @@ extension on _StringsIt {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -65436,6 +65742,19 @@ extension on _StringsJa {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -67923,6 +68242,19 @@ extension on _StringsKo {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -70426,6 +70758,19 @@ extension on _StringsNl {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -72929,6 +73274,19 @@ extension on _StringsPtBr {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -75432,6 +75790,19 @@ extension on _StringsRu {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -77927,6 +78298,19 @@ extension on _StringsTh {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -80425,6 +80809,19 @@ extension on _StringsTr {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -82920,6 +83317,19 @@ extension on _StringsVi {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
@@ -85399,6 +85809,18 @@ extension on _StringsZhCn {
         return ({required Object count}) => '↓${count} 有声书';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} 有声书';
+      case 'sync_compare_dictionaries':
+        return '词典';
+      case 'sync_compare_delete_book':
+        return '删除远端书籍';
+      case 'sync_compare_delete_audiobook':
+        return '删除远端有声书';
+      case 'sync_compare_delete_dict':
+        return '删除远端词典';
+      case 'sync_compare_deleted':
+        return '已从远端删除';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) => '确定从远端删除「${name}」吗？本地数据保留，此操作不可撤销。';
       default:
         return null;
     }
@@ -87881,6 +88303,19 @@ extension on _StringsZhHk {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'sync_compare_dictionaries':
+        return 'Dictionaries';
+      case 'sync_compare_delete_book':
+        return 'Delete book on remote';
+      case 'sync_compare_delete_audiobook':
+        return 'Delete audiobook on remote';
+      case 'sync_compare_delete_dict':
+        return 'Delete dictionary on remote';
+      case 'sync_compare_deleted':
+        return 'Deleted from remote';
+      case 'sync_compare_delete_confirm':
+        return ({required Object name}) =>
+            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
       default:
         return null;
     }
