@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20842 (1226 per locale)
+/// Strings: 20893 (1229 per locale)
 ///
-/// Built on 2026-06-04 at 15:04 UTC
+/// Built on 2026-06-04 at 15:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1659,6 +1659,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   String get sync_webdav_missing_fields => 'Missing fields';
   String get sync_compare_download => 'Download';
+  String get log_export_file => 'Export to file';
+  String get log_export_saved => 'Log saved';
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -4403,6 +4406,12 @@ class _StringsAr extends _StringsEn {
   String get sync_webdav_missing_fields => 'حقول ناقصة';
   @override
   String get sync_compare_download => 'تنزيل';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -7231,6 +7240,12 @@ class _StringsDe extends _StringsEn {
   String get sync_webdav_missing_fields => 'Fehlende Felder';
   @override
   String get sync_compare_download => 'Herunterladen';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -10073,6 +10088,12 @@ class _StringsEs extends _StringsEn {
   String get sync_webdav_missing_fields => 'Faltan campos';
   @override
   String get sync_compare_download => 'Descargar';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -12934,6 +12955,12 @@ class _StringsFr extends _StringsEn {
   String get sync_webdav_missing_fields => 'Champs manquants';
   @override
   String get sync_compare_download => 'Télécharger';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -15718,6 +15745,12 @@ class _StringsId extends _StringsEn {
   String get sync_webdav_missing_fields => 'Ada kolom yang belum diisi';
   @override
   String get sync_compare_download => 'Unduh';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -18544,6 +18577,12 @@ class _StringsIt extends _StringsEn {
   String get sync_webdav_missing_fields => 'Campi mancanti';
   @override
   String get sync_compare_download => 'Scarica';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -21197,6 +21236,12 @@ class _StringsJa extends _StringsEn {
   String get sync_webdav_missing_fields => '未入力の項目があります';
   @override
   String get sync_compare_download => 'ダウンロード';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -23851,6 +23896,12 @@ class _StringsKo extends _StringsEn {
   String get sync_webdav_missing_fields => '입력하지 않은 항목이 있습니다';
   @override
   String get sync_compare_download => '다운로드';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -26659,6 +26710,12 @@ class _StringsNl extends _StringsEn {
   String get sync_webdav_missing_fields => 'Ontbrekende velden';
   @override
   String get sync_compare_download => 'Downloaden';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -29480,6 +29537,12 @@ class _StringsPtBr extends _StringsEn {
   String get sync_webdav_missing_fields => 'Campos faltando';
   @override
   String get sync_compare_download => 'Baixar';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -32287,6 +32350,12 @@ class _StringsRu extends _StringsEn {
   String get sync_webdav_missing_fields => 'Не заполнены поля';
   @override
   String get sync_compare_download => 'Скачать';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -35033,6 +35102,12 @@ class _StringsTh extends _StringsEn {
   String get sync_webdav_missing_fields => 'ข้อมูลไม่ครบ';
   @override
   String get sync_compare_download => 'ดาวน์โหลด';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -37817,6 +37892,12 @@ class _StringsTr extends _StringsEn {
   String get sync_webdav_missing_fields => 'Eksik alanlar';
   @override
   String get sync_compare_download => 'İndir';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -40581,6 +40662,12 @@ class _StringsVi extends _StringsEn {
   String get sync_webdav_missing_fields => 'Thiếu thông tin';
   @override
   String get sync_compare_download => 'Tải xuống';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -43183,6 +43270,12 @@ class _StringsZhCn extends _StringsEn {
   String get sync_webdav_missing_fields => '缺少字段';
   @override
   String get sync_compare_download => '下载';
+  @override
+  String get log_export_file => '导出到文件';
+  @override
+  String get log_export_saved => '日志已保存';
+  @override
+  String get log_export_failed => '导出失败';
 }
 
 // Path: retrying_in
@@ -45812,6 +45905,12 @@ class _StringsZhHk extends _StringsEn {
   String get sync_webdav_missing_fields => 'Missing fields';
   @override
   String get sync_compare_download => 'Download';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
 }
 
 // Path: retrying_in
@@ -48369,6 +48468,12 @@ extension on _StringsEn {
         return 'Missing fields';
       case 'sync_compare_download':
         return 'Download';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -50884,6 +50989,12 @@ extension on _StringsAr {
         return 'حقول ناقصة';
       case 'sync_compare_download':
         return 'تنزيل';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -53415,6 +53526,12 @@ extension on _StringsDe {
         return 'Fehlende Felder';
       case 'sync_compare_download':
         return 'Herunterladen';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -55944,6 +56061,12 @@ extension on _StringsEs {
         return 'Faltan campos';
       case 'sync_compare_download':
         return 'Descargar';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -58475,6 +58598,12 @@ extension on _StringsFr {
         return 'Champs manquants';
       case 'sync_compare_download':
         return 'Télécharger';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -60995,6 +61124,12 @@ extension on _StringsId {
         return 'Ada kolom yang belum diisi';
       case 'sync_compare_download':
         return 'Unduh';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -63523,6 +63658,12 @@ extension on _StringsIt {
         return 'Campi mancanti';
       case 'sync_compare_download':
         return 'Scarica';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -66027,6 +66168,12 @@ extension on _StringsJa {
         return '未入力の項目があります';
       case 'sync_compare_download':
         return 'ダウンロード';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -68533,6 +68680,12 @@ extension on _StringsKo {
         return '입력하지 않은 항목이 있습니다';
       case 'sync_compare_download':
         return '다운로드';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -71058,6 +71211,12 @@ extension on _StringsNl {
         return 'Ontbrekende velden';
       case 'sync_compare_download':
         return 'Downloaden';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -73582,6 +73741,12 @@ extension on _StringsPtBr {
         return 'Campos faltando';
       case 'sync_compare_download':
         return 'Baixar';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -76107,6 +76272,12 @@ extension on _StringsRu {
         return 'Не заполнены поля';
       case 'sync_compare_download':
         return 'Скачать';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -78623,6 +78794,12 @@ extension on _StringsTh {
         return 'ข้อมูลไม่ครบ';
       case 'sync_compare_download':
         return 'ดาวน์โหลด';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -81142,6 +81319,12 @@ extension on _StringsTr {
         return 'Eksik alanlar';
       case 'sync_compare_download':
         return 'İndir';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -83658,6 +83841,12 @@ extension on _StringsVi {
         return 'Thiếu thông tin';
       case 'sync_compare_download':
         return 'Tải xuống';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
@@ -86157,6 +86346,12 @@ extension on _StringsZhCn {
         return '缺少字段';
       case 'sync_compare_download':
         return '下载';
+      case 'log_export_file':
+        return '导出到文件';
+      case 'log_export_saved':
+        return '日志已保存';
+      case 'log_export_failed':
+        return '导出失败';
       default:
         return null;
     }
@@ -88660,6 +88855,12 @@ extension on _StringsZhHk {
         return 'Missing fields';
       case 'sync_compare_download':
         return 'Download';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
       default:
         return null;
     }
