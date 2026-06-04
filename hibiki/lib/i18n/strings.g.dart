@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20893 (1229 per locale)
+/// Strings: 20961 (1233 per locale)
 ///
-/// Built on 2026-06-04 at 15:05 UTC
+/// Built on 2026-06-04 at 15:31 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1662,6 +1662,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get log_export_file => 'Export to file';
   String get log_export_saved => 'Log saved';
   String get log_export_failed => 'Export failed';
+  String get sync_local_audio => 'Sync local audio';
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -4412,6 +4419,17 @@ class _StringsAr extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -7246,6 +7264,17 @@ class _StringsDe extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -10094,6 +10123,17 @@ class _StringsEs extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -12961,6 +13001,17 @@ class _StringsFr extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -15751,6 +15802,17 @@ class _StringsId extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -18583,6 +18645,17 @@ class _StringsIt extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -21242,6 +21315,17 @@ class _StringsJa extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -23902,6 +23986,17 @@ class _StringsKo extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -26716,6 +26811,17 @@ class _StringsNl extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -29543,6 +29649,17 @@ class _StringsPtBr extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -32356,6 +32473,17 @@ class _StringsRu extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -35108,6 +35236,17 @@ class _StringsTh extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -37898,6 +38037,17 @@ class _StringsTr extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -40668,6 +40818,17 @@ class _StringsVi extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -43276,6 +43437,14 @@ class _StringsZhCn extends _StringsEn {
   String get log_export_saved => '日志已保存';
   @override
   String get log_export_failed => '导出失败';
+  @override
+  String get sync_local_audio => '同步本地音频';
+  @override
+  String get sync_local_audio_warning => '同步本地音频来源数据库（可能较大）';
+  @override
+  String sync_now_local_audio_in({required Object count}) => '↓${count} 本地音频';
+  @override
+  String sync_now_local_audio_out({required Object count}) => '↑${count} 本地音频';
 }
 
 // Path: retrying_in
@@ -45911,6 +46080,17 @@ class _StringsZhHk extends _StringsEn {
   String get log_export_saved => 'Log saved';
   @override
   String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
 }
 
 // Path: retrying_in
@@ -48474,6 +48654,14 @@ extension on _StringsEn {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -50995,6 +51183,14 @@ extension on _StringsAr {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -53532,6 +53728,14 @@ extension on _StringsDe {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -56067,6 +56271,14 @@ extension on _StringsEs {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -58604,6 +58816,14 @@ extension on _StringsFr {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -61130,6 +61350,14 @@ extension on _StringsId {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -63664,6 +63892,14 @@ extension on _StringsIt {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -66174,6 +66410,14 @@ extension on _StringsJa {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -68686,6 +68930,14 @@ extension on _StringsKo {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -71217,6 +71469,14 @@ extension on _StringsNl {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -73747,6 +74007,14 @@ extension on _StringsPtBr {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -76278,6 +76546,14 @@ extension on _StringsRu {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -78800,6 +79076,14 @@ extension on _StringsTh {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -81325,6 +81609,14 @@ extension on _StringsTr {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -83847,6 +84139,14 @@ extension on _StringsVi {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
@@ -86352,6 +86652,14 @@ extension on _StringsZhCn {
         return '日志已保存';
       case 'log_export_failed':
         return '导出失败';
+      case 'sync_local_audio':
+        return '同步本地音频';
+      case 'sync_local_audio_warning':
+        return '同步本地音频来源数据库（可能较大）';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} 本地音频';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} 本地音频';
       default:
         return null;
     }
@@ -88861,6 +89169,14 @@ extension on _StringsZhHk {
         return 'Log saved';
       case 'log_export_failed':
         return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
       default:
         return null;
     }
