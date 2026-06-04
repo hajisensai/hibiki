@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20825 (1225 per locale)
+/// Strings: 20842 (1226 per locale)
 ///
-/// Built on 2026-06-04 at 14:30 UTC
+/// Built on 2026-06-04 at 14:40 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1657,6 +1657,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get dictionaries_delete_failed => 'Failed to delete dictionaries';
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   String get sync_webdav_missing_fields => 'Missing fields';
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -4396,6 +4397,8 @@ class _StringsAr extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -7211,6 +7214,8 @@ class _StringsDe extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -10035,6 +10040,8 @@ class _StringsEs extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -12874,6 +12881,8 @@ class _StringsFr extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -15653,6 +15662,8 @@ class _StringsId extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -18465,6 +18476,8 @@ class _StringsIt extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -21131,6 +21144,8 @@ class _StringsJa extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -23802,6 +23817,8 @@ class _StringsKo extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -26598,6 +26615,8 @@ class _StringsNl extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -29409,6 +29428,8 @@ class _StringsPtBr extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -32203,6 +32224,8 @@ class _StringsRu extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -34945,6 +34968,8 @@ class _StringsTh extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -37722,6 +37747,8 @@ class _StringsTr extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -40479,6 +40506,8 @@ class _StringsVi extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -43080,6 +43109,8 @@ class _StringsZhCn extends _StringsEn {
   String get dictionary_delete_failed => '删除词典失败';
   @override
   String get sync_webdav_missing_fields => '缺少字段';
+  @override
+  String get sync_compare_download => '下载';
 }
 
 // Path: retrying_in
@@ -45708,6 +45739,8 @@ class _StringsZhHk extends _StringsEn {
   String get dictionary_delete_failed => 'Failed to delete dictionary';
   @override
   String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
 }
 
 // Path: retrying_in
@@ -48263,6 +48296,8 @@ extension on _StringsEn {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -50776,6 +50811,8 @@ extension on _StringsAr {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -53303,6 +53340,8 @@ extension on _StringsDe {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -55829,6 +55868,8 @@ extension on _StringsEs {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -58356,6 +58397,8 @@ extension on _StringsFr {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -60874,6 +60917,8 @@ extension on _StringsId {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -63398,6 +63443,8 @@ extension on _StringsIt {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -65902,6 +65949,8 @@ extension on _StringsJa {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -68408,6 +68457,8 @@ extension on _StringsKo {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -70930,6 +70981,8 @@ extension on _StringsNl {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -73452,6 +73505,8 @@ extension on _StringsPtBr {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -75974,6 +76029,8 @@ extension on _StringsRu {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -78488,6 +78545,8 @@ extension on _StringsTh {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -81005,6 +81064,8 @@ extension on _StringsTr {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -83519,6 +83580,8 @@ extension on _StringsVi {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
@@ -86016,6 +86079,8 @@ extension on _StringsZhCn {
         return '删除词典失败';
       case 'sync_webdav_missing_fields':
         return '缺少字段';
+      case 'sync_compare_download':
+        return '下载';
       default:
         return null;
     }
@@ -88517,6 +88582,8 @@ extension on _StringsZhHk {
         return 'Failed to delete dictionary';
       case 'sync_webdav_missing_fields':
         return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
       default:
         return null;
     }
