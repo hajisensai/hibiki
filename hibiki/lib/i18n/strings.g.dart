@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20978 (1234 per locale)
+/// Strings: 21063 (1239 per locale)
 ///
-/// Built on 2026-06-04 at 16:06 UTC
+/// Built on 2026-06-04 at 17:14 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1671,6 +1671,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       '↑${count} audio sources';
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  String get sync_progress_books => 'Importing books';
+  String get sync_progress_reading => 'Syncing reading data';
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  String get sync_progress_local_audio => 'Syncing local audio';
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -4435,6 +4440,16 @@ class _StringsAr extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -7283,6 +7298,16 @@ class _StringsDe extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -10145,6 +10170,16 @@ class _StringsEs extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -13026,6 +13061,16 @@ class _StringsFr extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -15830,6 +15875,16 @@ class _StringsId extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -18676,6 +18731,16 @@ class _StringsIt extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -21349,6 +21414,16 @@ class _StringsJa extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -24023,6 +24098,16 @@ class _StringsKo extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -26851,6 +26936,16 @@ class _StringsNl extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -29692,6 +29787,16 @@ class _StringsPtBr extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -32519,6 +32624,16 @@ class _StringsRu extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -35285,6 +35400,16 @@ class _StringsTh extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -38089,6 +38214,16 @@ class _StringsTr extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -40873,6 +41008,16 @@ class _StringsVi extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -43492,6 +43637,16 @@ class _StringsZhCn extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       '无法连接 ${host}（网络超时或不可达）。';
+  @override
+  String get sync_progress_books => '导入书籍';
+  @override
+  String get sync_progress_reading => '同步阅读数据';
+  @override
+  String get sync_progress_dictionaries => '同步词典';
+  @override
+  String get sync_progress_local_audio => '同步本地音频';
+  @override
+  String get sync_progress_audiobooks => '同步有声书';
 }
 
 // Path: retrying_in
@@ -46141,6 +46296,16 @@ class _StringsZhHk extends _StringsEn {
   @override
   String update_network_unreachable({required Object host}) =>
       'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
 }
 
 // Path: retrying_in
@@ -48715,6 +48880,16 @@ extension on _StringsEn {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -51247,6 +51422,16 @@ extension on _StringsAr {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -53795,6 +53980,16 @@ extension on _StringsDe {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -56341,6 +56536,16 @@ extension on _StringsEs {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -58889,6 +59094,16 @@ extension on _StringsFr {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -61426,6 +61641,16 @@ extension on _StringsId {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -63971,6 +64196,16 @@ extension on _StringsIt {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -66492,6 +66727,16 @@ extension on _StringsJa {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -69015,6 +69260,16 @@ extension on _StringsKo {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -71557,6 +71812,16 @@ extension on _StringsNl {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -74098,6 +74363,16 @@ extension on _StringsPtBr {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -76640,6 +76915,16 @@ extension on _StringsRu {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -79173,6 +79458,16 @@ extension on _StringsTh {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -81709,6 +82004,16 @@ extension on _StringsTr {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -84242,6 +84547,16 @@ extension on _StringsVi {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
@@ -86757,6 +87072,16 @@ extension on _StringsZhCn {
         return ({required Object count}) => '↑${count} 本地音频';
       case 'update_network_unreachable':
         return ({required Object host}) => '无法连接 ${host}（网络超时或不可达）。';
+      case 'sync_progress_books':
+        return '导入书籍';
+      case 'sync_progress_reading':
+        return '同步阅读数据';
+      case 'sync_progress_dictionaries':
+        return '同步词典';
+      case 'sync_progress_local_audio':
+        return '同步本地音频';
+      case 'sync_progress_audiobooks':
+        return '同步有声书';
       default:
         return null;
     }
@@ -89277,6 +89602,16 @@ extension on _StringsZhHk {
       case 'update_network_unreachable':
         return ({required Object host}) =>
             'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       default:
         return null;
     }
