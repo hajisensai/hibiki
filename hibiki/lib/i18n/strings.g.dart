@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20893 (1229 per locale)
+/// Strings: 21182 (1246 per locale)
 ///
-/// Built on 2026-06-04 at 15:12 UTC
+/// Built on 2026-06-04 at 17:30 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1389,7 +1389,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get update_debug_channel_warning =>
       'Debug channel builds may be unstable. Use at your own risk.';
   String get sync_title => 'Sync';
-  String get sync_summary => 'Google Drive · ッツ/Hoshi Reader compatible';
+  String get sync_summary =>
+      'Cloud, LAN P2P & local backup · ッツ/Hoshi Reader compatible';
   String get sync_account => 'Account';
   String get sync_client_id => 'Google OAuth Client ID';
   String get sync_client_id_hint => 'xxx.apps.googleusercontent.com';
@@ -1654,6 +1655,27 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_compare_deleted => 'Deleted from remote';
   String sync_compare_delete_confirm({required Object name}) =>
       'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  String get sync_webdav_missing_fields => 'Missing fields';
+  String get sync_compare_download => 'Download';
+  String get log_export_file => 'Export to file';
+  String get log_export_saved => 'Log saved';
+  String get log_export_failed => 'Export failed';
+  String get sync_local_audio => 'Sync local audio';
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  String get sync_progress_books => 'Importing books';
+  String get sync_progress_reading => 'Syncing reading data';
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  String get sync_progress_local_audio => 'Syncing local audio';
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   String get video_import_title => 'Import Video';
   String get video_import_pick_video => 'Pick video file';
   String get video_import_pick_subtitle => 'Pick subtitle (srt/vtt/ass)';
@@ -3935,7 +3957,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get sync_statistics => 'مزامنة الإحصائيات';
   @override
-  String get sync_summary => 'Google Drive · متوافق مع ッツ/Hoshi Reader';
+  String get sync_summary =>
+      'سحابة، Hibiki P2P عبر الشبكة المحلية ونسخ احتياطي محلي · متوافق مع ッツ/Hoshi Reader';
   @override
   String get sync_title => 'المزامنة';
   @override
@@ -3945,138 +3968,139 @@ class _StringsAr extends _StringsEn {
   @override
   String get update_channel_stable => 'مستقر';
   @override
-  String get anki_connect_host => 'Host';
+  String get anki_connect_host => 'المضيف';
   @override
-  String get anki_connect_port => 'Port';
+  String get anki_connect_port => 'المنفذ';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => 'مقارنة البيانات';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => 'محلي مقابل بعيد';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => 'محلي';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => 'بعيد';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => 'لا توجد بيانات';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => 'لم يُعثر على كتب';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => 'أيام';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => 'التعارضات';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => 'كل الكتب';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => 'تحديد الكل';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => 'الكل → محلي';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => 'الكل → بعيد';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => 'الكل → تخطٍّ';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => 'محلي';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => 'بعيد';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => 'تخطٍّ';
   @override
   String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+      'تم تطبيق ${count} تغيير';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => 'تطبيق (${count})';
   @override
-  String get sync_auto_sync => 'Auto Sync';
+  String get sync_auto_sync => 'مزامنة تلقائية';
   @override
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
-      'Sync: ${direction} ${title}';
+      'المزامنة: ${direction} ${title}';
   @override
-  String get no_matching_audio_cue => 'No matching audio for this sentence';
+  String get no_matching_audio_cue => 'لا يوجد صوت مطابق لهذه الجملة';
   @override
-  String get sync_exit_warning_title => 'Sync In Progress';
+  String get sync_exit_warning_title => 'المزامنة قيد التنفيذ';
   @override
   String get sync_exit_warning =>
-      'Sync is still in progress. Exiting now may cause data loss.';
+      'المزامنة لا تزال قيد التنفيذ. قد يؤدي الخروج الآن إلى فقدان البيانات.';
   @override
-  String get sync_content => 'Sync book files';
+  String get sync_content => 'مزامنة ملفات الكتب';
   @override
   String get sync_content_warning =>
-      'Large files will use storage space and data';
+      'الملفات الكبيرة ستستهلك مساحة التخزين وحزمة البيانات';
   @override
-  String get sync_backend => 'Storage backend';
+  String get sync_backend => 'خادم التخزين';
   @override
   String get sync_backend_google_drive => 'Google Drive';
   @override
   String get sync_backend_webdav => 'WebDAV';
   @override
-  String get sync_webdav_url => 'Server URL';
+  String get sync_webdav_url => 'عنوان الخادم';
   @override
-  String get sync_webdav_username => 'Username';
+  String get sync_webdav_username => 'اسم المستخدم';
   @override
-  String get sync_webdav_password => 'Password';
+  String get sync_webdav_password => 'كلمة المرور';
   @override
-  String get sync_webdav_test => 'Test connection';
+  String get sync_webdav_test => 'اختبار الاتصال';
   @override
-  String get sync_webdav_test_success => 'Connection successful';
+  String get sync_webdav_test_success => 'نجح الاتصال';
   @override
   String sync_webdav_test_failed({required Object message}) =>
-      'Connection failed: ${message}';
+      'فشل الاتصال: ${message}';
   @override
-  String get book_file_not_found => 'Book file not found';
+  String get book_file_not_found => 'لم يُعثر على ملف الكتاب';
   @override
-  String get epub_parse_fallback => 'Book metadata repaired from database';
+  String get epub_parse_fallback => 'تم إصلاح بيانات الكتاب من قاعدة البيانات';
   @override
-  String get retry => 'Retry';
+  String get retry => 'إعادة المحاولة';
   @override
-  String get copy_error => 'Copy Error';
+  String get copy_error => 'نسخ الخطأ';
   @override
-  String get error_copied => 'Error copied to clipboard';
+  String get error_copied => 'تم نسخ الخطأ إلى الحافظة';
   @override
   String dict_import_failed_summary({required Object n}) =>
-      'Failed to import ${n} dictionary(s)';
+      'فشل استيراد ${n} قاموس';
   @override
   String get reader_content_timeout =>
-      'Content loading timed out. Reopen if display is abnormal';
+      'انتهت مهلة تحميل المحتوى. أعد الفتح إذا كان العرض غير طبيعي';
   @override
-  String get backup_local => 'Local Backup';
+  String get backup_local => 'نسخة احتياطية محلية';
   @override
-  String get backup_export => 'Export Backup';
+  String get backup_export => 'تصدير النسخة الاحتياطية';
   @override
   String get backup_export_hint =>
-      'Save all settings, reading progress, and statistics to a file';
+      'احفظ كل الإعدادات وتقدّم القراءة والإحصاءات في ملف';
   @override
-  String get backup_import => 'Import Backup';
+  String get backup_import => 'استيراد نسخة احتياطية';
   @override
   String get backup_import_hint =>
-      'Restore from a backup file. The app will restart.';
+      'استعادة من ملف نسخة احتياطية. سيُعاد تشغيل التطبيق.';
   @override
-  String get backup_export_success => 'Backup exported successfully';
+  String get backup_export_success => 'تم تصدير النسخة الاحتياطية بنجاح';
   @override
   String backup_export_failed({required Object message}) =>
-      'Backup export failed: ${message}';
+      'فشل تصدير النسخة الاحتياطية: ${message}';
   @override
-  String get backup_import_confirm_title => 'Restore Backup?';
+  String get backup_import_confirm_title => 'استعادة النسخة الاحتياطية؟';
   @override
   String backup_import_confirm(
           {required Object date,
           required Object bookCount,
           required Object statsCount}) =>
-      'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+      'سيؤدي هذا إلى استبدال كل البيانات الحالية بالنسخة الاحتياطية من ${date}.\n\n${bookCount} كتاب، ${statsCount} سجل إحصائي.\n\nسيُعاد تشغيل التطبيق بعد الاستعادة.';
   @override
-  String get backup_import_success => 'Backup restored. Restarting…';
+  String get backup_import_success =>
+      'تمت استعادة النسخة الاحتياطية. جارٍ إعادة التشغيل…';
   @override
   String backup_import_failed({required Object message}) =>
-      'Backup import failed: ${message}';
+      'فشل استيراد النسخة الاحتياطية: ${message}';
   @override
-  String get backup_import_invalid => 'Invalid backup file';
+  String get backup_import_invalid => 'ملف نسخة احتياطية غير صالح';
   @override
-  String get backup_exporting => 'Creating backup…';
+  String get backup_exporting => 'جارٍ إنشاء النسخة الاحتياطية…';
   @override
   String backup_schema_newer({required Object version}) =>
-      'This backup requires a newer version of the app (schema ${version}). Please update first.';
+      'تتطلب هذه النسخة الاحتياطية إصدارًا أحدث من التطبيق (المخطط ${version}). يرجى التحديث أولًا.';
   @override
-  String get reverse_navigation_bar => 'Reverse navigation bar';
+  String get reverse_navigation_bar => 'عكس شريط التنقّل';
   @override
   String get sync_backend_onedrive => 'OneDrive';
   @override
@@ -4088,313 +4112,352 @@ class _StringsAr extends _StringsEn {
   @override
   String get sync_backend_hibiki_server => 'Hibiki P2P';
   @override
-  String get sync_server_enable => 'Enable sync server';
+  String get sync_server_enable => 'تفعيل خادم المزامنة';
   @override
-  String get sync_server_port => 'Server port';
+  String get sync_server_port => 'منفذ الخادم';
   @override
-  String get sync_server_token => 'Access token';
+  String get sync_server_token => 'رمز الوصول';
   @override
-  String get sync_server_copy_token => 'Copy token';
+  String get sync_server_copy_token => 'نسخ الرمز';
   @override
-  String get sync_server_regenerate_token => 'Regenerate token';
+  String get sync_server_regenerate_token => 'إعادة توليد الرمز';
   @override
-  String get sync_server_running => 'Server running';
+  String get sync_server_running => 'الخادم قيد التشغيل';
   @override
-  String get sync_server_stopped => 'Server stopped';
+  String get sync_server_stopped => 'الخادم متوقف';
   @override
-  String get sync_lan_discovery => 'LAN devices';
+  String get sync_lan_discovery => 'أجهزة الشبكة المحلية';
   @override
-  String get sync_lan_scanning => 'Scanning...';
+  String get sync_lan_scanning => 'جارٍ الفحص...';
   @override
-  String get sync_lan_no_devices => 'No devices found';
+  String get sync_lan_no_devices => 'لم يُعثر على أجهزة';
   @override
-  String get sync_fallback_config => 'Fallback order';
+  String get sync_fallback_config => 'ترتيب الاحتياط';
   @override
-  String get sync_test_connection => 'Test connection';
+  String get sync_test_connection => 'اختبار الاتصال';
   @override
-  String get sync_connection_success => 'Connection successful';
+  String get sync_connection_success => 'نجح الاتصال';
   @override
-  String get sync_connection_failed => 'Connection failed';
+  String get sync_connection_failed => 'فشل الاتصال';
   @override
-  String get sync_host => 'Host';
+  String get sync_host => 'المضيف';
   @override
-  String get sync_port => 'Port';
+  String get sync_port => 'المنفذ';
   @override
-  String get sync_username => 'Username';
+  String get sync_username => 'اسم المستخدم';
   @override
-  String get sync_password => 'Password';
+  String get sync_password => 'كلمة المرور';
   @override
-  String get sync_use_tls => 'Use TLS';
+  String get sync_use_tls => 'استخدام TLS';
   @override
-  String get sync_private_key => 'Private key';
+  String get sync_private_key => 'المفتاح الخاص';
   @override
-  String get skip_action => 'Skip Action';
+  String get skip_action => 'تخطّي الإجراء';
   @override
-  String get skip_action_sentence => '1 sentence';
+  String get skip_action_sentence => 'جملة واحدة';
   @override
-  String skip_action_seconds({required Object n}) => '${n} seconds';
+  String skip_action_seconds({required Object n}) => '${n} ثانية';
   @override
-  String get shortcut_settings_title => 'Keyboard Shortcuts';
+  String get shortcut_settings_title => 'اختصارات لوحة المفاتيح';
   @override
-  String get shortcut_scope_reader => 'Reader';
+  String get shortcut_scope_reader => 'القارئ';
   @override
-  String get shortcut_scope_home => 'Home';
+  String get shortcut_scope_home => 'الرئيسية';
   @override
-  String get shortcut_scope_global => 'Global';
+  String get shortcut_scope_global => 'عام';
   @override
-  String get shortcut_scope_audiobook => 'Audiobook';
+  String get shortcut_scope_audiobook => 'الكتاب الصوتي';
   @override
-  String get shortcut_action_reader_page_forward => 'Next Page';
+  String get shortcut_action_reader_page_forward => 'الصفحة التالية';
   @override
-  String get shortcut_action_reader_page_backward => 'Previous Page';
+  String get shortcut_action_reader_page_backward => 'الصفحة السابقة';
   @override
-  String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+  String get shortcut_action_reader_toggle_chrome => 'إظهار/إخفاء الأدوات';
   @override
-  String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+  String get shortcut_action_reader_dismiss_dict => 'إغلاق القاموس';
   @override
-  String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+  String get shortcut_action_reader_toggle_bookmark => 'تبديل الإشارة المرجعية';
   @override
-  String get shortcut_action_home_tab_books => 'Books Tab';
+  String get shortcut_action_home_tab_books => 'تبويب الكتب';
   @override
-  String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+  String get shortcut_action_home_tab_dict => 'تبويب القاموس';
   @override
-  String get shortcut_action_home_tab_settings => 'Settings Tab';
+  String get shortcut_action_home_tab_settings => 'تبويب الإعدادات';
   @override
-  String get shortcut_action_home_focus_search => 'Focus Search';
+  String get shortcut_action_home_focus_search => 'التركيز على البحث';
   @override
-  String get shortcut_action_global_back => 'Go Back';
+  String get shortcut_action_global_back => 'رجوع';
   @override
-  String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+  String get shortcut_action_audiobook_play_pause => 'تشغيل / إيقاف مؤقت';
   @override
-  String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+  String get shortcut_action_audiobook_next_sentence => 'الجملة التالية';
   @override
-  String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+  String get shortcut_action_audiobook_prev_sentence => 'الجملة السابقة';
   @override
-  String get shortcut_press_key => 'Press a key combination...';
+  String get shortcut_press_key => 'اضغط مجموعة مفاتيح...';
   @override
-  String get shortcut_press_gamepad => 'Press a gamepad button...';
+  String get shortcut_press_gamepad => 'اضغط زر يد التحكّم...';
   @override
-  String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
+  String shortcut_conflict({required Object s}) => 'مستخدم بالفعل بواسطة: ${s}';
   @override
-  String get shortcut_reset_defaults => 'Reset to Defaults';
+  String get shortcut_reset_defaults => 'إعادة التعيين للافتراضي';
   @override
   String get shortcut_reset_confirm =>
-      'Reset all shortcuts in this section to defaults?';
+      'إعادة تعيين كل الاختصارات في هذا القسم إلى الافتراضي؟';
   @override
-  String get shortcut_keyboard => 'Keyboard';
+  String get shortcut_keyboard => 'لوحة المفاتيح';
   @override
-  String get shortcut_gamepad => 'Gamepad';
+  String get shortcut_gamepad => 'يد التحكّم';
   @override
-  String get shortcut_none => 'None';
+  String get shortcut_none => 'بلا';
   @override
-  String get shortcut_clear => 'Clear';
+  String get shortcut_clear => 'مسح';
   @override
-  String get shortcut_stop_capture => 'Stop';
+  String get shortcut_stop_capture => 'إيقاف';
   @override
-  String get section_advanced_typography => 'Advanced';
+  String get section_advanced_typography => 'متقدم';
   @override
   String get sync_err_network =>
-      'Cannot reach the server — check your network or proxy settings.';
+      'تعذّر الوصول إلى الخادم — تحقّق من شبكتك أو إعدادات الوكيل.';
   @override
   String get sync_err_timeout =>
-      'Connection timed out — the server did not respond in time.';
+      'انتهت مهلة الاتصال — لم يستجب الخادم في الوقت المحدد.';
   @override
-  String get sync_err_quota => 'Cloud storage is full (quota reached).';
+  String get sync_err_quota => 'التخزين السحابي ممتلئ (تم بلوغ الحصة).';
   @override
-  String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
+  String get sync_err_auth_expired =>
+      'انتهت صلاحية تسجيل الدخول — يرجى تسجيل الدخول مجددًا.';
   @override
   String sync_server_port_in_use({required Object port}) =>
-      'Port ${port} is already in use — pick a different port.';
+      'المنفذ ${port} مستخدم بالفعل — اختر منفذًا آخر.';
   @override
   String get sync_lan_scan_failed =>
-      'Scan failed — check network permissions or firewall.';
+      'فشل الفحص — تحقّق من أذونات الشبكة أو الجدار الناري.';
   @override
-  String get sync_section_method => 'Sync method';
+  String get sync_section_method => 'طريقة المزامنة';
   @override
-  String get sync_section_host_server => 'This device as a sync server';
+  String get sync_section_host_server => 'هذا الجهاز كخادم مزامنة';
   @override
   String get sync_section_host_server_footer =>
-      'Let other devices sync from this device. Independent of the sync backend above.';
+      'اسمح للأجهزة الأخرى بالمزامنة من هذا الجهاز. مستقل عن خادم التخزين أعلاه.';
   @override
-  String get sync_section_content => 'What to sync';
+  String get sync_section_content => 'ما الذي تتم مزامنته';
   @override
-  String get sync_section_actions => 'Sync actions';
+  String get sync_section_actions => 'إجراءات المزامنة';
   @override
-  String get sync_section_backup => 'Local backup';
+  String get sync_section_backup => 'نسخة احتياطية محلية';
   @override
   String get backup_import_preserve_sync_note =>
-      'Your sync settings on this device (account and credentials) will be kept.';
+      'ستُحفظ إعدادات المزامنة على هذا الجهاز (الحساب وبيانات الاعتماد).';
   @override
-  String get backup_import_settings_toggle => 'Import settings & profiles';
+  String get backup_import_settings_toggle =>
+      'استيراد الإعدادات والملفات الشخصية';
   @override
   String get backup_import_settings_on_hint =>
-      'Full restore: fonts, appearance and profiles come from the backup.';
+      'استعادة كاملة: الخطوط والمظهر والملفات الشخصية تأتي من النسخة الاحتياطية.';
   @override
   String get backup_import_settings_off_hint =>
-      'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+      'احتفظ بخطوط/مظهر/ملفات هذا الجهاز؛ استعد الكتب وبيانات القراءة فقط.';
   @override
   String get reader_unsupported_platform =>
-      'The reader is not yet available on this platform.';
+      'القارئ غير متوفر بعد على هذه المنصة.';
   @override
-  String get microphone_permission_denied =>
-      'Microphone permission is required to record.';
+  String get microphone_permission_denied => 'يلزم إذن الميكروفون للتسجيل.';
   @override
-  String get anki_connect_api_key => 'API Key';
+  String get anki_connect_api_key => 'مفتاح API';
   @override
   String get anki_connect_api_key_hint =>
-      'Leave empty unless AnkiConnect requires a key';
+      'اتركه فارغًا ما لم يطلب AnkiConnect مفتاحًا';
   @override
   String get shortcut_action_global_scroll_page_down =>
-      'Scroll down one screen';
+      'تمرير لأسفل بمقدار شاشة';
   @override
-  String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+  String get shortcut_action_global_scroll_page_up => 'تمرير لأعلى بمقدار شاشة';
   @override
-  String get shortcut_action_home_tab_prev => 'Previous tab';
+  String get shortcut_action_home_tab_prev => 'التبويب السابق';
   @override
-  String get shortcut_action_home_tab_next => 'Next tab';
+  String get shortcut_action_home_tab_next => 'التبويب التالي';
   @override
-  String get move_up => 'Move up';
+  String get move_up => 'تحريك لأعلى';
   @override
-  String get move_down => 'Move down';
+  String get move_down => 'تحريك لأسفل';
   @override
-  String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_toggle_furigana => 'تبديل الفوريغانا';
   @override
-  String get on_screen_keyboard => 'On-screen keyboard';
+  String get on_screen_keyboard => 'لوحة مفاتيح على الشاشة';
   @override
-  String get app_ui_scale => 'UI size';
+  String get app_ui_scale => 'حجم الواجهة';
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary => 'مزامنة القواميس';
   @override
   String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
+      'قد تكون حِزَم القواميس كبيرة وتتضمّن موارد قواميس مستوردة.';
   @override
-  String get settings_destination_reading => 'Reading';
+  String get settings_destination_reading => 'القراءة';
   @override
-  String get remote_dict_lookup => 'Remote dictionary lookup';
+  String get remote_dict_lookup => 'بحث في القاموس البعيد';
   @override
   String get remote_dict_lookup_hint =>
-      'When local dictionaries miss, query the configured Hibiki server';
+      'عند عدم وجود نتائج في القواميس المحلية، استعلم من خادم Hibiki المُهيّأ';
   @override
-  String get remote_audio_source => 'Remote audio';
+  String get remote_audio_source => 'صوت بعيد';
   @override
-  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_success => 'تم الاقتران — تم ملء الرمز';
   @override
-  String get sync_pair_failed => 'Pairing failed';
+  String get sync_pair_failed => 'فشل الاقتران';
   @override
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   @override
-  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_sources_remote_group => 'المصادر البعيدة';
   @override
   String get audio_source_url_invalid =>
-      'Link must be http(s) and contain a term or reading placeholder';
+      'يجب أن يكون الرابط http(s) ويحتوي على عنصر نائب للمصطلح أو القراءة';
   @override
-  String get audio_source_added => 'Audio source added';
+  String get audio_source_added => 'تمت إضافة مصدر الصوت';
   @override
-  String get local_audio_imported => 'Audio database added';
+  String get local_audio_imported => 'تمت إضافة قاعدة بيانات الصوت';
   @override
-  String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_import_failed => 'فشل استيراد قاعدة بيانات الصوت';
   @override
-  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_edit_sources => 'تعديل المصادر';
   @override
-  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_source_order_title => 'أولوية المصدر';
   @override
-  String get local_audio_no_sources => 'No sources found in this database';
+  String get local_audio_no_sources =>
+      'لم يُعثر على مصادر في قاعدة البيانات هذه';
   @override
-  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_title => 'طلب اقتران';
   @override
   String get sync_pair_request_body =>
-      'A device is requesting to pair. Allow it to sync with this device?';
+      'يطلب جهاز الاقتران. هل تسمح له بالمزامنة مع هذا الجهاز؟';
   @override
-  String get sync_pair_allow => 'Allow';
+  String get sync_pair_allow => 'سماح';
   @override
-  String get sync_pair_deny => 'Deny';
+  String get sync_pair_deny => 'رفض';
   @override
-  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_denied => 'رفض الجهاز الآخر الاقتران';
   @override
-  String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unknown_device => 'جهاز غير معروف';
   @override
   String get sync_pair_unavailable =>
-      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      'الجهاز الآخر غير جاهز أو يعمل بإصدار أقدم. حدّثه وفعّل المزامنة ثم حاول مجددًا.';
   @override
   String get sync_role_locked_by_server =>
-      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      'هذا الجهاز يعمل كخادم مضيف. أوقف الخادم قبل الاتصال بأجهزة أخرى.';
   @override
   String get sync_role_locked_by_client =>
-      'Already connected to another device. Remove the connection before hosting as a server.';
+      'متصل بالفعل بجهاز آخر. أزل الاتصال قبل التشغيل كخادم مضيف.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
   @override
-  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files => 'مزامنة ملفات الكتب الصوتية';
   @override
   String get sync_audiobook_files_warning =>
-      'Audio and subtitles can be large.';
+      'قد تكون ملفات الصوت والترجمات كبيرة.';
   @override
-  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_title => 'كتاب مكرر';
   @override
-  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_keep => 'نعم، أضف لاحقة';
   @override
-  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancel => 'لا، إلغاء';
   @override
-  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String get book_import_duplicate_cancelled => 'تم إلغاء الاستيراد';
   @override
   String book_import_duplicate_message({required Object name}) =>
-      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      'يوجد بالفعل كتاب باسم "${name}". استيراده على أي حال؟ "نعم" يستورده بلاحقة رقمية؛ "لا" يلغي.';
   @override
-  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
+  String get reverse_reader_bottom_bar => 'عكس الشريط السفلي للقارئ';
   @override
-  String get floating_dict_close => 'Close';
+  String get floating_dict_close => 'إغلاق';
   @override
-  String get debug_log_share_subject => 'hibiki Debug Log';
+  String get debug_log_share_subject => 'سجل تصحيح hibiki';
   @override
-  String get spread_direction_rtl => 'Right to Left';
+  String get spread_direction_rtl => 'من اليمين إلى اليسار';
   @override
-  String get spread_direction_ltr => 'Left to Right';
+  String get spread_direction_ltr => 'من اليسار إلى اليمين';
   @override
   String dict_download_partial(
           {required Object success,
           required Object total,
           required Object error}) =>
-      '${success} / ${total} OK. Failed: ${error}';
+      '${success} / ${total} ناجح. فشل: ${error}';
   @override
-  String get sync_now => 'Sync now';
+  String get sync_now => 'زامن الآن';
   @override
-  String get sync_now_hint => 'Run a full two-way sync with the cloud now';
+  String get sync_now_hint =>
+      'نفّذ مزامنة ثنائية الاتجاه كاملة مع السحابة الآن';
   @override
-  String get sync_now_busy => 'A sync is already running';
+  String get sync_now_busy => 'هناك مزامنة قيد التنفيذ بالفعل';
   @override
-  String get sync_now_no_changes => 'no changes';
+  String get sync_now_no_changes => 'لا تغييرات';
   @override
-  String sync_now_done({required Object detail}) => 'Synced · ${detail}';
+  String sync_now_done({required Object detail}) => 'تمت المزامنة · ${detail}';
   @override
-  String sync_now_failed_suffix({required Object count}) =>
-      ' · ${count} failed';
+  String sync_now_failed_suffix({required Object count}) => ' · ${count} فشل';
   @override
-  String sync_now_books_in({required Object count}) => '↓${count} books';
+  String sync_now_books_in({required Object count}) => '↓${count} كتاب';
   @override
-  String sync_now_dicts_in({required Object count}) => '↓${count} dictionaries';
+  String sync_now_dicts_in({required Object count}) => '↓${count} قاموس';
   @override
-  String sync_now_dicts_out({required Object count}) =>
-      '↑${count} dictionaries';
+  String sync_now_dicts_out({required Object count}) => '↑${count} قاموس';
   @override
-  String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
+  String sync_now_audio_in({required Object count}) => '↓${count} كتاب صوتي';
   @override
-  String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String sync_now_audio_out({required Object count}) => '↑${count} كتاب صوتي';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => 'القواميس';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => 'حذف الكتاب من البعيد';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook => 'حذف الكتاب الصوتي من البعيد';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => 'حذف القاموس من البعيد';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => 'تم الحذف من البعيد';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      'حذف "${name}" من البعيد؟ تُحفظ البيانات المحلية. لا يمكن التراجع عن هذا.';
+  @override
+  String get dictionaries_delete_failed => 'فشل حذف القواميس';
+  @override
+  String get dictionary_delete_failed => 'فشل حذف القاموس';
+  @override
+  String get sync_webdav_missing_fields => 'حقول ناقصة';
+  @override
+  String get sync_compare_download => 'تنزيل';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -4492,7 +4555,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get player_media_type => 'Player';
   @override
-  String get reader_media_type => 'Reader';
+  String get reader_media_type => 'Leser';
   @override
   String get viewer_media_type => 'Betrachter';
   @override
@@ -5234,7 +5297,7 @@ class _StringsDe extends _StringsEn {
   @override
   String get handlebar_audio => 'Audio';
   @override
-  String get handlebar_sasayaki_audio => 'Sasayaki Audio';
+  String get handlebar_sasayaki_audio => 'Sasayaki-Audio';
   @override
   String get handlebar_popup_selection_text => 'Popup-Auswahltext';
   @override
@@ -6759,7 +6822,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_statistics => 'Statistiken synchronisieren';
   @override
-  String get sync_summary => 'Google Drive · ッツ/Hoshi Reader-kompatibel';
+  String get sync_summary =>
+      'Cloud, LAN P2P & lokales Backup · ッツ/Hoshi Reader-kompatibel';
   @override
   String get sync_title => 'Synchronisierung';
   @override
@@ -6773,134 +6837,135 @@ class _StringsDe extends _StringsEn {
   @override
   String get anki_connect_port => 'Port';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => 'Daten vergleichen';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => 'Lokal vs. Remote';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => 'Lokal';
   @override
   String get sync_compare_remote => 'Remote';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => 'Keine Daten';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => 'Keine Bücher gefunden';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => 'Tage';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => 'Konflikte';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => 'Alle Bücher';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => 'Alle auswählen';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => 'Alle → Lokal';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => 'Alle → Remote';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => 'Alle → Überspringen';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => 'Lokal';
   @override
   String get sync_compare_use_remote => 'Remote';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => 'Überspringen';
   @override
   String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+      '${count} Änderungen angewendet';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => 'Anwenden (${count})';
   @override
-  String get sync_auto_sync => 'Auto Sync';
+  String get sync_auto_sync => 'Auto-Sync';
   @override
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
       'Sync: ${direction} ${title}';
   @override
-  String get no_matching_audio_cue => 'No matching audio for this sentence';
+  String get no_matching_audio_cue => 'Kein passendes Audio für diesen Satz';
   @override
-  String get sync_exit_warning_title => 'Sync In Progress';
+  String get sync_exit_warning_title => 'Sync läuft';
   @override
   String get sync_exit_warning =>
-      'Sync is still in progress. Exiting now may cause data loss.';
+      'Die Synchronisierung läuft noch. Wenn du jetzt beendest, können Daten verloren gehen.';
   @override
-  String get sync_content => 'Sync book files';
+  String get sync_content => 'Buchdateien synchronisieren';
   @override
   String get sync_content_warning =>
-      'Large files will use storage space and data';
+      'Große Dateien verbrauchen Speicherplatz und Datenvolumen';
   @override
-  String get sync_backend => 'Storage backend';
+  String get sync_backend => 'Speicher-Backend';
   @override
   String get sync_backend_google_drive => 'Google Drive';
   @override
   String get sync_backend_webdav => 'WebDAV';
   @override
-  String get sync_webdav_url => 'Server URL';
+  String get sync_webdav_url => 'Server-URL';
   @override
-  String get sync_webdav_username => 'Username';
+  String get sync_webdav_username => 'Benutzername';
   @override
-  String get sync_webdav_password => 'Password';
+  String get sync_webdav_password => 'Passwort';
   @override
-  String get sync_webdav_test => 'Test connection';
+  String get sync_webdav_test => 'Verbindung testen';
   @override
-  String get sync_webdav_test_success => 'Connection successful';
+  String get sync_webdav_test_success => 'Verbindung erfolgreich';
   @override
   String sync_webdav_test_failed({required Object message}) =>
-      'Connection failed: ${message}';
+      'Verbindung fehlgeschlagen: ${message}';
   @override
-  String get book_file_not_found => 'Book file not found';
+  String get book_file_not_found => 'Buchdatei nicht gefunden';
   @override
-  String get epub_parse_fallback => 'Book metadata repaired from database';
+  String get epub_parse_fallback =>
+      'Buch-Metadaten aus Datenbank wiederhergestellt';
   @override
-  String get retry => 'Retry';
+  String get retry => 'Wiederholen';
   @override
-  String get copy_error => 'Copy Error';
+  String get copy_error => 'Fehler kopieren';
   @override
-  String get error_copied => 'Error copied to clipboard';
+  String get error_copied => 'Fehler in die Zwischenablage kopiert';
   @override
   String dict_import_failed_summary({required Object n}) =>
-      'Failed to import ${n} dictionary(s)';
+      'Import von ${n} Wörterbuch/-büchern fehlgeschlagen';
   @override
   String get reader_content_timeout =>
-      'Content loading timed out. Reopen if display is abnormal';
+      'Zeitüberschreitung beim Laden des Inhalts. Bei fehlerhafter Anzeige erneut öffnen';
   @override
-  String get backup_local => 'Local Backup';
+  String get backup_local => 'Lokales Backup';
   @override
-  String get backup_export => 'Export Backup';
+  String get backup_export => 'Backup exportieren';
   @override
   String get backup_export_hint =>
-      'Save all settings, reading progress, and statistics to a file';
+      'Alle Einstellungen, Lesefortschritte und Statistiken in eine Datei speichern';
   @override
-  String get backup_import => 'Import Backup';
+  String get backup_import => 'Backup importieren';
   @override
   String get backup_import_hint =>
-      'Restore from a backup file. The app will restart.';
+      'Aus einer Backup-Datei wiederherstellen. Die App wird neu gestartet.';
   @override
-  String get backup_export_success => 'Backup exported successfully';
+  String get backup_export_success => 'Backup erfolgreich exportiert';
   @override
   String backup_export_failed({required Object message}) =>
-      'Backup export failed: ${message}';
+      'Backup-Export fehlgeschlagen: ${message}';
   @override
-  String get backup_import_confirm_title => 'Restore Backup?';
+  String get backup_import_confirm_title => 'Backup wiederherstellen?';
   @override
   String backup_import_confirm(
           {required Object date,
           required Object bookCount,
           required Object statsCount}) =>
-      'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+      'Dadurch werden alle aktuellen Daten durch das Backup vom ${date} ersetzt.\n\n${bookCount} Bücher, ${statsCount} Statistikeinträge.\n\nNach der Wiederherstellung wird die App neu gestartet.';
   @override
-  String get backup_import_success => 'Backup restored. Restarting…';
+  String get backup_import_success => 'Backup wiederhergestellt. Neustart…';
   @override
   String backup_import_failed({required Object message}) =>
-      'Backup import failed: ${message}';
+      'Backup-Import fehlgeschlagen: ${message}';
   @override
-  String get backup_import_invalid => 'Invalid backup file';
+  String get backup_import_invalid => 'Ungültige Backup-Datei';
   @override
-  String get backup_exporting => 'Creating backup…';
+  String get backup_exporting => 'Backup wird erstellt…';
   @override
   String backup_schema_newer({required Object version}) =>
-      'This backup requires a newer version of the app (schema ${version}). Please update first.';
+      'Dieses Backup erfordert eine neuere Version der App (Schema ${version}). Bitte zuerst aktualisieren.';
   @override
-  String get reverse_navigation_bar => 'Reverse navigation bar';
+  String get reverse_navigation_bar => 'Navigationsleiste umkehren';
   @override
   String get sync_backend_onedrive => 'OneDrive';
   @override
@@ -6912,313 +6977,360 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_backend_hibiki_server => 'Hibiki P2P';
   @override
-  String get sync_server_enable => 'Enable sync server';
+  String get sync_server_enable => 'Sync-Server aktivieren';
   @override
-  String get sync_server_port => 'Server port';
+  String get sync_server_port => 'Server-Port';
   @override
-  String get sync_server_token => 'Access token';
+  String get sync_server_token => 'Zugriffstoken';
   @override
-  String get sync_server_copy_token => 'Copy token';
+  String get sync_server_copy_token => 'Token kopieren';
   @override
-  String get sync_server_regenerate_token => 'Regenerate token';
+  String get sync_server_regenerate_token => 'Token neu erzeugen';
   @override
-  String get sync_server_running => 'Server running';
+  String get sync_server_running => 'Server läuft';
   @override
-  String get sync_server_stopped => 'Server stopped';
+  String get sync_server_stopped => 'Server gestoppt';
   @override
-  String get sync_lan_discovery => 'LAN devices';
+  String get sync_lan_discovery => 'LAN-Geräte';
   @override
-  String get sync_lan_scanning => 'Scanning...';
+  String get sync_lan_scanning => 'Suche läuft...';
   @override
-  String get sync_lan_no_devices => 'No devices found';
+  String get sync_lan_no_devices => 'Keine Geräte gefunden';
   @override
-  String get sync_fallback_config => 'Fallback order';
+  String get sync_fallback_config => 'Fallback-Reihenfolge';
   @override
-  String get sync_test_connection => 'Test connection';
+  String get sync_test_connection => 'Verbindung testen';
   @override
-  String get sync_connection_success => 'Connection successful';
+  String get sync_connection_success => 'Verbindung erfolgreich';
   @override
-  String get sync_connection_failed => 'Connection failed';
+  String get sync_connection_failed => 'Verbindung fehlgeschlagen';
   @override
   String get sync_host => 'Host';
   @override
   String get sync_port => 'Port';
   @override
-  String get sync_username => 'Username';
+  String get sync_username => 'Benutzername';
   @override
-  String get sync_password => 'Password';
+  String get sync_password => 'Passwort';
   @override
-  String get sync_use_tls => 'Use TLS';
+  String get sync_use_tls => 'TLS verwenden';
   @override
-  String get sync_private_key => 'Private key';
+  String get sync_private_key => 'Privater Schlüssel';
   @override
-  String get skip_action => 'Skip Action';
+  String get skip_action => 'Aktion überspringen';
   @override
-  String get skip_action_sentence => '1 sentence';
+  String get skip_action_sentence => '1 Satz';
   @override
-  String skip_action_seconds({required Object n}) => '${n} seconds';
+  String skip_action_seconds({required Object n}) => '${n} Sekunden';
   @override
-  String get shortcut_settings_title => 'Keyboard Shortcuts';
+  String get shortcut_settings_title => 'Tastenkürzel';
   @override
-  String get shortcut_scope_reader => 'Reader';
+  String get shortcut_scope_reader => 'Leser';
   @override
-  String get shortcut_scope_home => 'Home';
+  String get shortcut_scope_home => 'Start';
   @override
   String get shortcut_scope_global => 'Global';
   @override
-  String get shortcut_scope_audiobook => 'Audiobook';
+  String get shortcut_scope_audiobook => 'Hörbuch';
   @override
-  String get shortcut_action_reader_page_forward => 'Next Page';
+  String get shortcut_action_reader_page_forward => 'Nächste Seite';
   @override
-  String get shortcut_action_reader_page_backward => 'Previous Page';
+  String get shortcut_action_reader_page_backward => 'Vorherige Seite';
   @override
-  String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+  String get shortcut_action_reader_toggle_chrome => 'Steuerung umschalten';
   @override
-  String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+  String get shortcut_action_reader_dismiss_dict => 'Wörterbuch schließen';
   @override
-  String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+  String get shortcut_action_reader_toggle_bookmark => 'Lesezeichen umschalten';
   @override
-  String get shortcut_action_home_tab_books => 'Books Tab';
+  String get shortcut_action_home_tab_books => 'Tab „Bücher“';
   @override
-  String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+  String get shortcut_action_home_tab_dict => 'Tab „Wörterbuch“';
   @override
-  String get shortcut_action_home_tab_settings => 'Settings Tab';
+  String get shortcut_action_home_tab_settings => 'Tab „Einstellungen“';
   @override
-  String get shortcut_action_home_focus_search => 'Focus Search';
+  String get shortcut_action_home_focus_search => 'Suche fokussieren';
   @override
-  String get shortcut_action_global_back => 'Go Back';
+  String get shortcut_action_global_back => 'Zurück';
   @override
-  String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+  String get shortcut_action_audiobook_play_pause => 'Wiedergabe / Pause';
   @override
-  String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+  String get shortcut_action_audiobook_next_sentence => 'Nächster Satz';
   @override
-  String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+  String get shortcut_action_audiobook_prev_sentence => 'Vorheriger Satz';
   @override
-  String get shortcut_press_key => 'Press a key combination...';
+  String get shortcut_press_key => 'Tastenkombination drücken...';
   @override
-  String get shortcut_press_gamepad => 'Press a gamepad button...';
+  String get shortcut_press_gamepad => 'Gamepad-Taste drücken...';
   @override
-  String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
+  String shortcut_conflict({required Object s}) => 'Bereits belegt durch: ${s}';
   @override
-  String get shortcut_reset_defaults => 'Reset to Defaults';
+  String get shortcut_reset_defaults => 'Auf Standard zurücksetzen';
   @override
   String get shortcut_reset_confirm =>
-      'Reset all shortcuts in this section to defaults?';
+      'Alle Tastenkürzel in diesem Bereich auf Standard zurücksetzen?';
   @override
-  String get shortcut_keyboard => 'Keyboard';
+  String get shortcut_keyboard => 'Tastatur';
   @override
   String get shortcut_gamepad => 'Gamepad';
   @override
-  String get shortcut_none => 'None';
+  String get shortcut_none => 'Keine';
   @override
-  String get shortcut_clear => 'Clear';
+  String get shortcut_clear => 'Löschen';
   @override
-  String get shortcut_stop_capture => 'Stop';
+  String get shortcut_stop_capture => 'Stopp';
   @override
-  String get section_advanced_typography => 'Advanced';
+  String get section_advanced_typography => 'Erweitert';
   @override
   String get sync_err_network =>
-      'Cannot reach the server — check your network or proxy settings.';
+      'Server nicht erreichbar – prüfe dein Netzwerk oder die Proxy-Einstellungen.';
   @override
   String get sync_err_timeout =>
-      'Connection timed out — the server did not respond in time.';
+      'Zeitüberschreitung – der Server hat nicht rechtzeitig geantwortet.';
   @override
-  String get sync_err_quota => 'Cloud storage is full (quota reached).';
+  String get sync_err_quota => 'Cloud-Speicher ist voll (Kontingent erreicht).';
   @override
-  String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
+  String get sync_err_auth_expired =>
+      'Anmeldung abgelaufen – bitte erneut anmelden.';
   @override
   String sync_server_port_in_use({required Object port}) =>
-      'Port ${port} is already in use — pick a different port.';
+      'Port ${port} wird bereits verwendet – wähle einen anderen Port.';
   @override
   String get sync_lan_scan_failed =>
-      'Scan failed — check network permissions or firewall.';
+      'Suche fehlgeschlagen – prüfe Netzwerkberechtigungen oder Firewall.';
   @override
-  String get sync_section_method => 'Sync method';
+  String get sync_section_method => 'Sync-Methode';
   @override
-  String get sync_section_host_server => 'This device as a sync server';
+  String get sync_section_host_server => 'Dieses Gerät als Sync-Server';
   @override
   String get sync_section_host_server_footer =>
-      'Let other devices sync from this device. Independent of the sync backend above.';
+      'Lass andere Geräte von diesem Gerät synchronisieren. Unabhängig vom obigen Sync-Backend.';
   @override
-  String get sync_section_content => 'What to sync';
+  String get sync_section_content => 'Was synchronisiert wird';
   @override
-  String get sync_section_actions => 'Sync actions';
+  String get sync_section_actions => 'Sync-Aktionen';
   @override
-  String get sync_section_backup => 'Local backup';
+  String get sync_section_backup => 'Lokales Backup';
   @override
   String get backup_import_preserve_sync_note =>
-      'Your sync settings on this device (account and credentials) will be kept.';
+      'Deine Sync-Einstellungen auf diesem Gerät (Konto und Zugangsdaten) bleiben erhalten.';
   @override
-  String get backup_import_settings_toggle => 'Import settings & profiles';
+  String get backup_import_settings_toggle =>
+      'Einstellungen & Profile importieren';
   @override
   String get backup_import_settings_on_hint =>
-      'Full restore: fonts, appearance and profiles come from the backup.';
+      'Vollständige Wiederherstellung: Schriften, Darstellung und Profile stammen aus dem Backup.';
   @override
   String get backup_import_settings_off_hint =>
-      'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+      'Schriften/Darstellung/Profile dieses Geräts behalten; nur Bücher & Lesedaten wiederherstellen.';
   @override
   String get reader_unsupported_platform =>
-      'The reader is not yet available on this platform.';
+      'Der Leser ist auf dieser Plattform noch nicht verfügbar.';
   @override
   String get microphone_permission_denied =>
-      'Microphone permission is required to record.';
+      'Für die Aufnahme ist die Mikrofonberechtigung erforderlich.';
   @override
-  String get anki_connect_api_key => 'API Key';
+  String get anki_connect_api_key => 'API-Schlüssel';
   @override
   String get anki_connect_api_key_hint =>
-      'Leave empty unless AnkiConnect requires a key';
+      'Leer lassen, sofern AnkiConnect keinen Schlüssel erfordert';
   @override
   String get shortcut_action_global_scroll_page_down =>
-      'Scroll down one screen';
+      'Eine Bildschirmseite nach unten scrollen';
   @override
-  String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+  String get shortcut_action_global_scroll_page_up =>
+      'Eine Bildschirmseite nach oben scrollen';
   @override
-  String get shortcut_action_home_tab_prev => 'Previous tab';
+  String get shortcut_action_home_tab_prev => 'Vorheriger Tab';
   @override
-  String get shortcut_action_home_tab_next => 'Next tab';
+  String get shortcut_action_home_tab_next => 'Nächster Tab';
   @override
-  String get move_up => 'Move up';
+  String get move_up => 'Nach oben';
   @override
-  String get move_down => 'Move down';
+  String get move_down => 'Nach unten';
   @override
-  String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_toggle_furigana => 'Furigana umschalten';
   @override
-  String get on_screen_keyboard => 'On-screen keyboard';
+  String get on_screen_keyboard => 'Bildschirmtastatur';
   @override
-  String get app_ui_scale => 'UI size';
+  String get app_ui_scale => 'UI-Größe';
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary => 'Wörterbücher synchronisieren';
   @override
   String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
+      'Wörterbuchpakete können groß sein und importierte Wörterbuchressourcen enthalten.';
   @override
-  String get settings_destination_reading => 'Reading';
+  String get settings_destination_reading => 'Lesen';
   @override
-  String get remote_dict_lookup => 'Remote dictionary lookup';
+  String get remote_dict_lookup => 'Wörterbuchabfrage über Remote';
   @override
   String get remote_dict_lookup_hint =>
-      'When local dictionaries miss, query the configured Hibiki server';
+      'Wenn lokale Wörterbücher nichts finden, den konfigurierten Hibiki-Server abfragen';
   @override
-  String get remote_audio_source => 'Remote audio';
+  String get remote_audio_source => 'Remote-Audio';
   @override
-  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_success => 'Gekoppelt – Token eingetragen';
   @override
-  String get sync_pair_failed => 'Pairing failed';
+  String get sync_pair_failed => 'Kopplung fehlgeschlagen';
   @override
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   @override
-  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_sources_remote_group => 'Remote-Quellen';
   @override
   String get audio_source_url_invalid =>
-      'Link must be http(s) and contain a term or reading placeholder';
+      'Der Link muss http(s) sein und einen Platzhalter für Begriff oder Lesung enthalten';
   @override
-  String get audio_source_added => 'Audio source added';
+  String get audio_source_added => 'Audioquelle hinzugefügt';
   @override
-  String get local_audio_imported => 'Audio database added';
+  String get local_audio_imported => 'Audiodatenbank hinzugefügt';
   @override
-  String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_import_failed =>
+      'Import der Audiodatenbank fehlgeschlagen';
   @override
-  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_edit_sources => 'Quellen bearbeiten';
   @override
-  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_source_order_title => 'Quellenpriorität';
   @override
-  String get local_audio_no_sources => 'No sources found in this database';
+  String get local_audio_no_sources =>
+      'Keine Quellen in dieser Datenbank gefunden';
   @override
-  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_title => 'Kopplungsanfrage';
   @override
   String get sync_pair_request_body =>
-      'A device is requesting to pair. Allow it to sync with this device?';
+      'Ein Gerät möchte sich koppeln. Synchronisierung mit diesem Gerät erlauben?';
   @override
-  String get sync_pair_allow => 'Allow';
+  String get sync_pair_allow => 'Erlauben';
   @override
-  String get sync_pair_deny => 'Deny';
+  String get sync_pair_deny => 'Ablehnen';
   @override
-  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_denied => 'Das andere Gerät hat die Kopplung abgelehnt';
   @override
-  String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unknown_device => 'Unbekanntes Gerät';
   @override
   String get sync_pair_unavailable =>
-      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      'Das andere Gerät ist nicht bereit oder hat eine ältere Version. Aktualisiere es, aktiviere die Synchronisierung und versuche es erneut.';
   @override
   String get sync_role_locked_by_server =>
-      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      'Dieses Gerät fungiert als Server. Schalte den Server aus, bevor du dich mit anderen Geräten verbindest.';
   @override
   String get sync_role_locked_by_client =>
-      'Already connected to another device. Remove the connection before hosting as a server.';
+      'Bereits mit einem anderen Gerät verbunden. Entferne die Verbindung, bevor du als Server agierst.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
   @override
-  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files => 'Hörbuchdateien synchronisieren';
   @override
   String get sync_audiobook_files_warning =>
-      'Audio and subtitles can be large.';
+      'Audio und Untertitel können groß sein.';
   @override
-  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_title => 'Doppeltes Buch';
   @override
-  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_keep => 'Ja, Suffix hinzufügen';
   @override
-  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancel => 'Nein, abbrechen';
   @override
-  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String get book_import_duplicate_cancelled => 'Import abgebrochen';
   @override
   String book_import_duplicate_message({required Object name}) =>
-      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      'Ein Buch namens „${name}“ existiert bereits. Trotzdem importieren? „Ja“ importiert mit nummeriertem Suffix; „Nein“ bricht ab.';
   @override
-  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
+  String get reverse_reader_bottom_bar => 'Untere Leserleiste umkehren';
   @override
-  String get floating_dict_close => 'Close';
+  String get floating_dict_close => 'Schließen';
   @override
-  String get debug_log_share_subject => 'hibiki Debug Log';
+  String get debug_log_share_subject => 'hibiki Debug-Log';
   @override
-  String get spread_direction_rtl => 'Right to Left';
+  String get spread_direction_rtl => 'Rechts nach links';
   @override
-  String get spread_direction_ltr => 'Left to Right';
+  String get spread_direction_ltr => 'Links nach rechts';
   @override
   String dict_download_partial(
           {required Object success,
           required Object total,
           required Object error}) =>
-      '${success} / ${total} OK. Failed: ${error}';
+      '${success} / ${total} OK. Fehlgeschlagen: ${error}';
   @override
-  String get sync_now => 'Sync now';
+  String get sync_now => 'Jetzt synchronisieren';
   @override
-  String get sync_now_hint => 'Run a full two-way sync with the cloud now';
+  String get sync_now_hint =>
+      'Jetzt eine vollständige bidirektionale Synchronisierung mit der Cloud durchführen';
   @override
-  String get sync_now_busy => 'A sync is already running';
+  String get sync_now_busy => 'Eine Synchronisierung läuft bereits';
   @override
-  String get sync_now_no_changes => 'no changes';
+  String get sync_now_no_changes => 'keine Änderungen';
   @override
-  String sync_now_done({required Object detail}) => 'Synced · ${detail}';
+  String sync_now_done({required Object detail}) =>
+      'Synchronisiert · ${detail}';
   @override
   String sync_now_failed_suffix({required Object count}) =>
-      ' · ${count} failed';
+      ' · ${count} fehlgeschlagen';
   @override
-  String sync_now_books_in({required Object count}) => '↓${count} books';
+  String sync_now_books_in({required Object count}) => '↓${count} Bücher';
   @override
-  String sync_now_dicts_in({required Object count}) => '↓${count} dictionaries';
+  String sync_now_dicts_in({required Object count}) => '↓${count} Wörterbücher';
   @override
   String sync_now_dicts_out({required Object count}) =>
-      '↑${count} dictionaries';
+      '↑${count} Wörterbücher';
   @override
-  String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
+  String sync_now_audio_in({required Object count}) => '↓${count} Hörbücher';
   @override
-  String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String sync_now_audio_out({required Object count}) => '↑${count} Hörbücher';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => 'Wörterbücher';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => 'Buch auf Remote löschen';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook => 'Hörbuch auf Remote löschen';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => 'Wörterbuch auf Remote löschen';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => 'Von Remote gelöscht';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      '„${name}“ vom Remote löschen? Lokale Daten bleiben erhalten. Dies kann nicht rückgängig gemacht werden.';
+  @override
+  String get dictionaries_delete_failed =>
+      'Löschen der Wörterbücher fehlgeschlagen';
+  @override
+  String get dictionary_delete_failed =>
+      'Löschen des Wörterbuchs fehlgeschlagen';
+  @override
+  String get sync_webdav_missing_fields => 'Fehlende Felder';
+  @override
+  String get sync_compare_download => 'Herunterladen';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -8126,7 +8238,7 @@ class _StringsEs extends _StringsEn {
   String get storage_permissions =>
       'Por favor concede los siguientes permisos para exportar a AnkiDroid.';
   @override
-  String get stream => 'Stream';
+  String get stream => 'Transmisión';
   @override
   String get network_subtitles_warning =>
       'Los subtítulos integrados no son compatibles con streams de red.';
@@ -8254,7 +8366,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get design_system_hint => 'Controla el estilo visual de la app';
   @override
-  String get design_system_auto => 'Auto';
+  String get design_system_auto => 'Automático';
   @override
   String get cloze => 'Cloze';
   @override
@@ -9287,7 +9399,7 @@ class _StringsEs extends _StringsEn {
   @override
   String get no_debug_logs => 'Sin registros de depuración.';
   @override
-  String get dialog_ok => 'OK';
+  String get dialog_ok => 'Aceptar';
   @override
   String get dict_category_frequency => 'Frecuencia';
   @override
@@ -9592,7 +9704,8 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_statistics => 'Sincronizar estadísticas';
   @override
-  String get sync_summary => 'Google Drive · Compatible con ッツ/Hoshi Reader';
+  String get sync_summary =>
+      'Nube, P2P por red local y copia de seguridad local · compatible con ッツ/Hoshi Reader';
   @override
   String get sync_title => 'Sincronización';
   @override
@@ -9604,136 +9717,138 @@ class _StringsEs extends _StringsEn {
   @override
   String get anki_connect_host => 'Host';
   @override
-  String get anki_connect_port => 'Port';
+  String get anki_connect_port => 'Puerto';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => 'Comparar datos';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => 'Local vs. remoto';
   @override
   String get sync_compare_local => 'Local';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => 'Remoto';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => 'Sin datos';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => 'No se encontraron libros';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => 'días';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => 'Conflictos';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => 'Todos los libros';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => 'Seleccionar todo';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => 'Todo → Local';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => 'Todo → Remoto';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => 'Todo → Omitir';
   @override
   String get sync_compare_use_local => 'Local';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => 'Remoto';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => 'Omitir';
   @override
   String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+      'Se aplicaron ${count} cambios';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => 'Aplicar (${count})';
   @override
-  String get sync_auto_sync => 'Auto Sync';
+  String get sync_auto_sync => 'Sincronización automática';
   @override
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
-      'Sync: ${direction} ${title}';
+      'Sincronización: ${direction} ${title}';
   @override
-  String get no_matching_audio_cue => 'No matching audio for this sentence';
+  String get no_matching_audio_cue => 'No hay audio para esta frase';
   @override
-  String get sync_exit_warning_title => 'Sync In Progress';
+  String get sync_exit_warning_title => 'Sincronización en curso';
   @override
   String get sync_exit_warning =>
-      'Sync is still in progress. Exiting now may cause data loss.';
+      'La sincronización aún está en curso. Salir ahora puede provocar pérdida de datos.';
   @override
-  String get sync_content => 'Sync book files';
+  String get sync_content => 'Sincronizar archivos de libros';
   @override
   String get sync_content_warning =>
-      'Large files will use storage space and data';
+      'Los archivos grandes consumirán almacenamiento y datos';
   @override
-  String get sync_backend => 'Storage backend';
+  String get sync_backend => 'Backend de almacenamiento';
   @override
   String get sync_backend_google_drive => 'Google Drive';
   @override
   String get sync_backend_webdav => 'WebDAV';
   @override
-  String get sync_webdav_url => 'Server URL';
+  String get sync_webdav_url => 'URL del servidor';
   @override
-  String get sync_webdav_username => 'Username';
+  String get sync_webdav_username => 'Usuario';
   @override
-  String get sync_webdav_password => 'Password';
+  String get sync_webdav_password => 'Contraseña';
   @override
-  String get sync_webdav_test => 'Test connection';
+  String get sync_webdav_test => 'Probar conexión';
   @override
-  String get sync_webdav_test_success => 'Connection successful';
+  String get sync_webdav_test_success => 'Conexión correcta';
   @override
   String sync_webdav_test_failed({required Object message}) =>
-      'Connection failed: ${message}';
+      'Error de conexión: ${message}';
   @override
-  String get book_file_not_found => 'Book file not found';
+  String get book_file_not_found => 'Archivo del libro no encontrado';
   @override
-  String get epub_parse_fallback => 'Book metadata repaired from database';
+  String get epub_parse_fallback =>
+      'Metadatos del libro reparados desde la base de datos';
   @override
-  String get retry => 'Retry';
+  String get retry => 'Reintentar';
   @override
-  String get copy_error => 'Copy Error';
+  String get copy_error => 'Copiar error';
   @override
-  String get error_copied => 'Error copied to clipboard';
+  String get error_copied => 'Error copiado al portapapeles';
   @override
   String dict_import_failed_summary({required Object n}) =>
-      'Failed to import ${n} dictionary(s)';
+      'No se pudieron importar ${n} diccionario(s)';
   @override
   String get reader_content_timeout =>
-      'Content loading timed out. Reopen if display is abnormal';
+      'Se agotó el tiempo al cargar el contenido. Reabre si la visualización es anómala';
   @override
-  String get backup_local => 'Local Backup';
+  String get backup_local => 'Copia de seguridad local';
   @override
-  String get backup_export => 'Export Backup';
+  String get backup_export => 'Exportar copia de seguridad';
   @override
   String get backup_export_hint =>
-      'Save all settings, reading progress, and statistics to a file';
+      'Guarda todos los ajustes, el progreso de lectura y las estadísticas en un archivo';
   @override
-  String get backup_import => 'Import Backup';
+  String get backup_import => 'Importar copia de seguridad';
   @override
   String get backup_import_hint =>
-      'Restore from a backup file. The app will restart.';
+      'Restaura desde un archivo de copia de seguridad. La app se reiniciará.';
   @override
-  String get backup_export_success => 'Backup exported successfully';
+  String get backup_export_success =>
+      'Copia de seguridad exportada correctamente';
   @override
   String backup_export_failed({required Object message}) =>
-      'Backup export failed: ${message}';
+      'Error al exportar la copia de seguridad: ${message}';
   @override
-  String get backup_import_confirm_title => 'Restore Backup?';
+  String get backup_import_confirm_title => '¿Restaurar copia de seguridad?';
   @override
   String backup_import_confirm(
           {required Object date,
           required Object bookCount,
           required Object statsCount}) =>
-      'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+      'Esto reemplazará todos los datos actuales con la copia de seguridad del ${date}.\n\n${bookCount} libros, ${statsCount} registros de estadísticas.\n\nLa app se reiniciará tras la restauración.';
   @override
-  String get backup_import_success => 'Backup restored. Restarting…';
+  String get backup_import_success => 'Copia restaurada. Reiniciando…';
   @override
   String backup_import_failed({required Object message}) =>
-      'Backup import failed: ${message}';
+      'Error al importar la copia de seguridad: ${message}';
   @override
-  String get backup_import_invalid => 'Invalid backup file';
+  String get backup_import_invalid => 'Archivo de copia de seguridad no válido';
   @override
-  String get backup_exporting => 'Creating backup…';
+  String get backup_exporting => 'Creando copia de seguridad…';
   @override
   String backup_schema_newer({required Object version}) =>
-      'This backup requires a newer version of the app (schema ${version}). Please update first.';
+      'Esta copia de seguridad requiere una versión más reciente de la app (esquema ${version}). Actualiza primero.';
   @override
-  String get reverse_navigation_bar => 'Reverse navigation bar';
+  String get reverse_navigation_bar => 'Invertir barra de navegación';
   @override
   String get sync_backend_onedrive => 'OneDrive';
   @override
@@ -9745,313 +9860,364 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_backend_hibiki_server => 'Hibiki P2P';
   @override
-  String get sync_server_enable => 'Enable sync server';
+  String get sync_server_enable => 'Activar servidor de sincronización';
   @override
-  String get sync_server_port => 'Server port';
+  String get sync_server_port => 'Puerto del servidor';
   @override
-  String get sync_server_token => 'Access token';
+  String get sync_server_token => 'Token de acceso';
   @override
-  String get sync_server_copy_token => 'Copy token';
+  String get sync_server_copy_token => 'Copiar token';
   @override
-  String get sync_server_regenerate_token => 'Regenerate token';
+  String get sync_server_regenerate_token => 'Regenerar token';
   @override
-  String get sync_server_running => 'Server running';
+  String get sync_server_running => 'Servidor en ejecución';
   @override
-  String get sync_server_stopped => 'Server stopped';
+  String get sync_server_stopped => 'Servidor detenido';
   @override
-  String get sync_lan_discovery => 'LAN devices';
+  String get sync_lan_discovery => 'Dispositivos en la red local';
   @override
-  String get sync_lan_scanning => 'Scanning...';
+  String get sync_lan_scanning => 'Buscando...';
   @override
-  String get sync_lan_no_devices => 'No devices found';
+  String get sync_lan_no_devices => 'No se encontraron dispositivos';
   @override
-  String get sync_fallback_config => 'Fallback order';
+  String get sync_fallback_config => 'Orden de respaldo';
   @override
-  String get sync_test_connection => 'Test connection';
+  String get sync_test_connection => 'Probar conexión';
   @override
-  String get sync_connection_success => 'Connection successful';
+  String get sync_connection_success => 'Conexión correcta';
   @override
-  String get sync_connection_failed => 'Connection failed';
+  String get sync_connection_failed => 'Error de conexión';
   @override
   String get sync_host => 'Host';
   @override
-  String get sync_port => 'Port';
+  String get sync_port => 'Puerto';
   @override
-  String get sync_username => 'Username';
+  String get sync_username => 'Usuario';
   @override
-  String get sync_password => 'Password';
+  String get sync_password => 'Contraseña';
   @override
-  String get sync_use_tls => 'Use TLS';
+  String get sync_use_tls => 'Usar TLS';
   @override
-  String get sync_private_key => 'Private key';
+  String get sync_private_key => 'Clave privada';
   @override
-  String get skip_action => 'Skip Action';
+  String get skip_action => 'Acción de salto';
   @override
-  String get skip_action_sentence => '1 sentence';
+  String get skip_action_sentence => '1 frase';
   @override
-  String skip_action_seconds({required Object n}) => '${n} seconds';
+  String skip_action_seconds({required Object n}) => '${n} segundos';
   @override
-  String get shortcut_settings_title => 'Keyboard Shortcuts';
+  String get shortcut_settings_title => 'Atajos de teclado';
   @override
-  String get shortcut_scope_reader => 'Reader';
+  String get shortcut_scope_reader => 'Lector';
   @override
-  String get shortcut_scope_home => 'Home';
+  String get shortcut_scope_home => 'Inicio';
   @override
   String get shortcut_scope_global => 'Global';
   @override
-  String get shortcut_scope_audiobook => 'Audiobook';
+  String get shortcut_scope_audiobook => 'Audiolibro';
   @override
-  String get shortcut_action_reader_page_forward => 'Next Page';
+  String get shortcut_action_reader_page_forward => 'Página siguiente';
   @override
-  String get shortcut_action_reader_page_backward => 'Previous Page';
+  String get shortcut_action_reader_page_backward => 'Página anterior';
   @override
-  String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+  String get shortcut_action_reader_toggle_chrome =>
+      'Mostrar/ocultar controles';
   @override
-  String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+  String get shortcut_action_reader_dismiss_dict => 'Cerrar diccionario';
   @override
-  String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+  String get shortcut_action_reader_toggle_bookmark =>
+      'Marcar/desmarcar página';
   @override
-  String get shortcut_action_home_tab_books => 'Books Tab';
+  String get shortcut_action_home_tab_books => 'Pestaña de libros';
   @override
-  String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+  String get shortcut_action_home_tab_dict => 'Pestaña de diccionario';
   @override
-  String get shortcut_action_home_tab_settings => 'Settings Tab';
+  String get shortcut_action_home_tab_settings => 'Pestaña de ajustes';
   @override
-  String get shortcut_action_home_focus_search => 'Focus Search';
+  String get shortcut_action_home_focus_search => 'Enfocar búsqueda';
   @override
-  String get shortcut_action_global_back => 'Go Back';
+  String get shortcut_action_global_back => 'Volver';
   @override
-  String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+  String get shortcut_action_audiobook_play_pause => 'Reproducir / Pausar';
   @override
-  String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+  String get shortcut_action_audiobook_next_sentence => 'Frase siguiente';
   @override
-  String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+  String get shortcut_action_audiobook_prev_sentence => 'Frase anterior';
   @override
-  String get shortcut_press_key => 'Press a key combination...';
+  String get shortcut_press_key => 'Pulsa una combinación de teclas...';
   @override
-  String get shortcut_press_gamepad => 'Press a gamepad button...';
+  String get shortcut_press_gamepad => 'Pulsa un botón del mando...';
   @override
-  String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
+  String shortcut_conflict({required Object s}) => 'Ya usado por: ${s}';
   @override
-  String get shortcut_reset_defaults => 'Reset to Defaults';
+  String get shortcut_reset_defaults => 'Restablecer valores predeterminados';
   @override
   String get shortcut_reset_confirm =>
-      'Reset all shortcuts in this section to defaults?';
+      '¿Restablecer todos los atajos de esta sección a los valores predeterminados?';
   @override
-  String get shortcut_keyboard => 'Keyboard';
+  String get shortcut_keyboard => 'Teclado';
   @override
-  String get shortcut_gamepad => 'Gamepad';
+  String get shortcut_gamepad => 'Mando';
   @override
-  String get shortcut_none => 'None';
+  String get shortcut_none => 'Ninguno';
   @override
-  String get shortcut_clear => 'Clear';
+  String get shortcut_clear => 'Borrar';
   @override
-  String get shortcut_stop_capture => 'Stop';
+  String get shortcut_stop_capture => 'Detener';
   @override
-  String get section_advanced_typography => 'Advanced';
+  String get section_advanced_typography => 'Avanzado';
   @override
   String get sync_err_network =>
-      'Cannot reach the server — check your network or proxy settings.';
+      'No se puede conectar con el servidor: revisa tu red o los ajustes de proxy.';
   @override
   String get sync_err_timeout =>
-      'Connection timed out — the server did not respond in time.';
+      'Se agotó el tiempo de conexión: el servidor no respondió a tiempo.';
   @override
-  String get sync_err_quota => 'Cloud storage is full (quota reached).';
+  String get sync_err_quota =>
+      'El almacenamiento en la nube está lleno (cuota alcanzada).';
   @override
-  String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
+  String get sync_err_auth_expired =>
+      'La sesión ha caducado: inicia sesión de nuevo.';
   @override
   String sync_server_port_in_use({required Object port}) =>
-      'Port ${port} is already in use — pick a different port.';
+      'El puerto ${port} ya está en uso: elige otro puerto.';
   @override
   String get sync_lan_scan_failed =>
-      'Scan failed — check network permissions or firewall.';
+      'Error al buscar: revisa los permisos de red o el firewall.';
   @override
-  String get sync_section_method => 'Sync method';
+  String get sync_section_method => 'Método de sincronización';
   @override
-  String get sync_section_host_server => 'This device as a sync server';
+  String get sync_section_host_server =>
+      'Este dispositivo como servidor de sincronización';
   @override
   String get sync_section_host_server_footer =>
-      'Let other devices sync from this device. Independent of the sync backend above.';
+      'Permite que otros dispositivos sincronicen desde este dispositivo. Independiente del backend de sincronización anterior.';
   @override
-  String get sync_section_content => 'What to sync';
+  String get sync_section_content => 'Qué sincronizar';
   @override
-  String get sync_section_actions => 'Sync actions';
+  String get sync_section_actions => 'Acciones de sincronización';
   @override
-  String get sync_section_backup => 'Local backup';
+  String get sync_section_backup => 'Copia de seguridad local';
   @override
   String get backup_import_preserve_sync_note =>
-      'Your sync settings on this device (account and credentials) will be kept.';
+      'Se conservarán los ajustes de sincronización de este dispositivo (cuenta y credenciales).';
   @override
-  String get backup_import_settings_toggle => 'Import settings & profiles';
+  String get backup_import_settings_toggle => 'Importar ajustes y perfiles';
   @override
   String get backup_import_settings_on_hint =>
-      'Full restore: fonts, appearance and profiles come from the backup.';
+      'Restauración completa: las fuentes, la apariencia y los perfiles provienen de la copia de seguridad.';
   @override
   String get backup_import_settings_off_hint =>
-      'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+      'Conserva las fuentes/apariencia/perfiles de este dispositivo; restaura solo los libros y los datos de lectura.';
   @override
   String get reader_unsupported_platform =>
-      'The reader is not yet available on this platform.';
+      'El lector aún no está disponible en esta plataforma.';
   @override
   String get microphone_permission_denied =>
-      'Microphone permission is required to record.';
+      'Se requiere permiso de micrófono para grabar.';
   @override
-  String get anki_connect_api_key => 'API Key';
+  String get anki_connect_api_key => 'Clave de API';
   @override
   String get anki_connect_api_key_hint =>
-      'Leave empty unless AnkiConnect requires a key';
+      'Déjalo vacío salvo que AnkiConnect requiera una clave';
   @override
   String get shortcut_action_global_scroll_page_down =>
-      'Scroll down one screen';
+      'Desplazar una pantalla hacia abajo';
   @override
-  String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+  String get shortcut_action_global_scroll_page_up =>
+      'Desplazar una pantalla hacia arriba';
   @override
-  String get shortcut_action_home_tab_prev => 'Previous tab';
+  String get shortcut_action_home_tab_prev => 'Pestaña anterior';
   @override
-  String get shortcut_action_home_tab_next => 'Next tab';
+  String get shortcut_action_home_tab_next => 'Pestaña siguiente';
   @override
-  String get move_up => 'Move up';
+  String get move_up => 'Mover arriba';
   @override
-  String get move_down => 'Move down';
+  String get move_down => 'Mover abajo';
   @override
-  String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_toggle_furigana =>
+      'Mostrar/ocultar furigana';
   @override
-  String get on_screen_keyboard => 'On-screen keyboard';
+  String get on_screen_keyboard => 'Teclado en pantalla';
   @override
-  String get app_ui_scale => 'UI size';
+  String get app_ui_scale => 'Tamaño de la interfaz';
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary => 'Sincronizar diccionarios';
   @override
   String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
+      'Los paquetes de diccionario pueden ser grandes e incluir recursos de diccionario importados.';
   @override
-  String get settings_destination_reading => 'Reading';
+  String get settings_destination_reading => 'Lectura';
   @override
-  String get remote_dict_lookup => 'Remote dictionary lookup';
+  String get remote_dict_lookup => 'Búsqueda en diccionario remoto';
   @override
   String get remote_dict_lookup_hint =>
-      'When local dictionaries miss, query the configured Hibiki server';
+      'Cuando los diccionarios locales no encuentran resultados, consulta el servidor Hibiki configurado';
   @override
-  String get remote_audio_source => 'Remote audio';
+  String get remote_audio_source => 'Audio remoto';
   @override
-  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_success => 'Emparejado: token rellenado';
   @override
-  String get sync_pair_failed => 'Pairing failed';
+  String get sync_pair_failed => 'Error de emparejamiento';
   @override
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   @override
-  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_sources_remote_group => 'Fuentes remotas';
   @override
   String get audio_source_url_invalid =>
-      'Link must be http(s) and contain a term or reading placeholder';
+      'El enlace debe ser http(s) y contener un marcador de término o lectura';
   @override
-  String get audio_source_added => 'Audio source added';
+  String get audio_source_added => 'Fuente de audio añadida';
   @override
-  String get local_audio_imported => 'Audio database added';
+  String get local_audio_imported => 'Base de datos de audio añadida';
   @override
-  String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_import_failed =>
+      'No se pudo importar la base de datos de audio';
   @override
-  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_edit_sources => 'Editar fuentes';
   @override
-  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_source_order_title => 'Prioridad de las fuentes';
   @override
-  String get local_audio_no_sources => 'No sources found in this database';
+  String get local_audio_no_sources =>
+      'No se encontraron fuentes en esta base de datos';
   @override
-  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_title => 'Solicitud de emparejamiento';
   @override
   String get sync_pair_request_body =>
-      'A device is requesting to pair. Allow it to sync with this device?';
+      'Un dispositivo solicita emparejarse. ¿Permitir que se sincronice con este dispositivo?';
   @override
-  String get sync_pair_allow => 'Allow';
+  String get sync_pair_allow => 'Permitir';
   @override
-  String get sync_pair_deny => 'Deny';
+  String get sync_pair_deny => 'Denegar';
   @override
-  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_denied =>
+      'El otro dispositivo rechazó el emparejamiento';
   @override
-  String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unknown_device => 'Dispositivo desconocido';
   @override
   String get sync_pair_unavailable =>
-      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      'El otro dispositivo no está listo o tiene una versión anterior. Actualízalo y activa la sincronización, luego inténtalo de nuevo.';
   @override
   String get sync_role_locked_by_server =>
-      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      'Este dispositivo actúa como servidor. Apaga el servidor antes de conectarte a otros dispositivos.';
   @override
   String get sync_role_locked_by_client =>
-      'Already connected to another device. Remove the connection before hosting as a server.';
+      'Ya conectado a otro dispositivo. Quita la conexión antes de actuar como servidor.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
   @override
-  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files => 'Sincronizar archivos de audiolibros';
   @override
   String get sync_audiobook_files_warning =>
-      'Audio and subtitles can be large.';
+      'El audio y los subtítulos pueden ser grandes.';
   @override
-  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_title => 'Libro duplicado';
   @override
-  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_keep => 'Sí, añadir sufijo';
   @override
-  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancel => 'No, cancelar';
   @override
-  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String get book_import_duplicate_cancelled => 'Importación cancelada';
   @override
   String book_import_duplicate_message({required Object name}) =>
-      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      'Ya existe un libro llamado "${name}". ¿Importarlo igualmente? "Sí" lo importa con un sufijo numerado; "No" cancela.';
   @override
-  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
+  String get reverse_reader_bottom_bar => 'Invertir barra inferior del lector';
   @override
-  String get floating_dict_close => 'Close';
+  String get floating_dict_close => 'Cerrar';
   @override
-  String get debug_log_share_subject => 'hibiki Debug Log';
+  String get debug_log_share_subject => 'Registro de depuración de hibiki';
   @override
-  String get spread_direction_rtl => 'Right to Left';
+  String get spread_direction_rtl => 'De derecha a izquierda';
   @override
-  String get spread_direction_ltr => 'Left to Right';
+  String get spread_direction_ltr => 'De izquierda a derecha';
   @override
   String dict_download_partial(
           {required Object success,
           required Object total,
           required Object error}) =>
-      '${success} / ${total} OK. Failed: ${error}';
+      '${success} / ${total} correctos. Fallidos: ${error}';
   @override
-  String get sync_now => 'Sync now';
+  String get sync_now => 'Sincronizar ahora';
   @override
-  String get sync_now_hint => 'Run a full two-way sync with the cloud now';
+  String get sync_now_hint =>
+      'Ejecutar ahora una sincronización bidireccional completa con la nube';
   @override
-  String get sync_now_busy => 'A sync is already running';
+  String get sync_now_busy => 'Ya hay una sincronización en curso';
   @override
-  String get sync_now_no_changes => 'no changes';
+  String get sync_now_no_changes => 'sin cambios';
   @override
-  String sync_now_done({required Object detail}) => 'Synced · ${detail}';
+  String sync_now_done({required Object detail}) => 'Sincronizado · ${detail}';
   @override
   String sync_now_failed_suffix({required Object count}) =>
-      ' · ${count} failed';
+      ' · ${count} fallidos';
   @override
-  String sync_now_books_in({required Object count}) => '↓${count} books';
+  String sync_now_books_in({required Object count}) => '↓${count} libros';
   @override
-  String sync_now_dicts_in({required Object count}) => '↓${count} dictionaries';
+  String sync_now_dicts_in({required Object count}) => '↓${count} diccionarios';
   @override
   String sync_now_dicts_out({required Object count}) =>
-      '↑${count} dictionaries';
+      '↑${count} diccionarios';
   @override
-  String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
+  String sync_now_audio_in({required Object count}) => '↓${count} audiolibros';
   @override
-  String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String sync_now_audio_out({required Object count}) => '↑${count} audiolibros';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => 'Diccionarios';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => 'Eliminar libro en el remoto';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook =>
+      'Eliminar audiolibro en el remoto';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => 'Eliminar diccionario en el remoto';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => 'Eliminado del remoto';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      '¿Eliminar "${name}" del remoto? Los datos locales se conservan. Esto no se puede deshacer.';
+  @override
+  String get dictionaries_delete_failed =>
+      'No se pudieron eliminar los diccionarios';
+  @override
+  String get dictionary_delete_failed => 'No se pudo eliminar el diccionario';
+  @override
+  String get sync_webdav_missing_fields => 'Faltan campos';
+  @override
+  String get sync_compare_download => 'Descargar';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -12298,7 +12464,7 @@ class _StringsFr extends _StringsEn {
   @override
   String get tag_filter_title => 'Filtrer par tag';
   @override
-  String get tag_label => 'Tags';
+  String get tag_label => 'Étiquettes';
   @override
   String get tag_manage => 'Gérer les tags';
   @override
@@ -12440,7 +12606,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get sync_statistics => 'Synchroniser les statistiques';
   @override
-  String get sync_summary => 'Google Drive · Compatible avec ッツ/Hoshi Reader';
+  String get sync_summary =>
+      'Cloud, Hibiki P2P en réseau local et sauvegarde locale · compatible ッツ/Hoshi Reader';
   @override
   String get sync_title => 'Synchronisation';
   @override
@@ -12450,138 +12617,140 @@ class _StringsFr extends _StringsEn {
   @override
   String get update_channel_stable => 'Stable';
   @override
-  String get anki_connect_host => 'Host';
+  String get anki_connect_host => 'Hôte';
   @override
   String get anki_connect_port => 'Port';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => 'Comparer les données';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => 'Local vs distant';
   @override
   String get sync_compare_local => 'Local';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => 'Distant';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => 'Aucune donnée';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => 'Aucun livre trouvé';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => 'jours';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => 'Conflits';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => 'Tous les livres';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => 'Tout sélectionner';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => 'Tout → Local';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => 'Tout → Distant';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => 'Tout → Ignorer';
   @override
   String get sync_compare_use_local => 'Local';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => 'Distant';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => 'Ignorer';
   @override
   String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+      '${count} modifications appliquées';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => 'Appliquer (${count})';
   @override
-  String get sync_auto_sync => 'Auto Sync';
+  String get sync_auto_sync => 'Sync auto';
   @override
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
-      'Sync: ${direction} ${title}';
+      'Sync : ${direction} ${title}';
   @override
-  String get no_matching_audio_cue => 'No matching audio for this sentence';
+  String get no_matching_audio_cue =>
+      'Aucun audio correspondant à cette phrase';
   @override
-  String get sync_exit_warning_title => 'Sync In Progress';
+  String get sync_exit_warning_title => 'Sync en cours';
   @override
   String get sync_exit_warning =>
-      'Sync is still in progress. Exiting now may cause data loss.';
+      'La synchronisation est toujours en cours. Quitter maintenant peut entraîner une perte de données.';
   @override
-  String get sync_content => 'Sync book files';
+  String get sync_content => 'Synchroniser les fichiers de livres';
   @override
   String get sync_content_warning =>
-      'Large files will use storage space and data';
+      'Les fichiers volumineux utiliseront de l\'espace de stockage et des données';
   @override
-  String get sync_backend => 'Storage backend';
+  String get sync_backend => 'Backend de stockage';
   @override
   String get sync_backend_google_drive => 'Google Drive';
   @override
   String get sync_backend_webdav => 'WebDAV';
   @override
-  String get sync_webdav_url => 'Server URL';
+  String get sync_webdav_url => 'URL du serveur';
   @override
-  String get sync_webdav_username => 'Username';
+  String get sync_webdav_username => 'Nom d\'utilisateur';
   @override
-  String get sync_webdav_password => 'Password';
+  String get sync_webdav_password => 'Mot de passe';
   @override
-  String get sync_webdav_test => 'Test connection';
+  String get sync_webdav_test => 'Tester la connexion';
   @override
-  String get sync_webdav_test_success => 'Connection successful';
+  String get sync_webdav_test_success => 'Connexion réussie';
   @override
   String sync_webdav_test_failed({required Object message}) =>
-      'Connection failed: ${message}';
+      'Échec de la connexion : ${message}';
   @override
-  String get book_file_not_found => 'Book file not found';
+  String get book_file_not_found => 'Fichier du livre introuvable';
   @override
-  String get epub_parse_fallback => 'Book metadata repaired from database';
+  String get epub_parse_fallback =>
+      'Métadonnées du livre réparées depuis la base de données';
   @override
-  String get retry => 'Retry';
+  String get retry => 'Réessayer';
   @override
-  String get copy_error => 'Copy Error';
+  String get copy_error => 'Copier l\'erreur';
   @override
-  String get error_copied => 'Error copied to clipboard';
+  String get error_copied => 'Erreur copiée dans le presse-papiers';
   @override
   String dict_import_failed_summary({required Object n}) =>
-      'Failed to import ${n} dictionary(s)';
+      'Échec de l\'import de ${n} dictionnaire(s)';
   @override
   String get reader_content_timeout =>
-      'Content loading timed out. Reopen if display is abnormal';
+      'Délai de chargement du contenu dépassé. Rouvrez si l\'affichage est anormal';
   @override
-  String get backup_local => 'Local Backup';
+  String get backup_local => 'Sauvegarde locale';
   @override
-  String get backup_export => 'Export Backup';
+  String get backup_export => 'Exporter la sauvegarde';
   @override
   String get backup_export_hint =>
-      'Save all settings, reading progress, and statistics to a file';
+      'Enregistrer tous les réglages, la progression de lecture et les statistiques dans un fichier';
   @override
-  String get backup_import => 'Import Backup';
+  String get backup_import => 'Importer une sauvegarde';
   @override
   String get backup_import_hint =>
-      'Restore from a backup file. The app will restart.';
+      'Restaurer depuis un fichier de sauvegarde. L\'application redémarrera.';
   @override
-  String get backup_export_success => 'Backup exported successfully';
+  String get backup_export_success => 'Sauvegarde exportée avec succès';
   @override
   String backup_export_failed({required Object message}) =>
-      'Backup export failed: ${message}';
+      'Échec de l\'export de la sauvegarde : ${message}';
   @override
-  String get backup_import_confirm_title => 'Restore Backup?';
+  String get backup_import_confirm_title => 'Restaurer la sauvegarde ?';
   @override
   String backup_import_confirm(
           {required Object date,
           required Object bookCount,
           required Object statsCount}) =>
-      'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+      'Cela remplacera toutes les données actuelles par la sauvegarde du ${date}.\n\n${bookCount} livres, ${statsCount} enregistrements de statistiques.\n\nL\'application redémarrera après la restauration.';
   @override
-  String get backup_import_success => 'Backup restored. Restarting…';
+  String get backup_import_success => 'Sauvegarde restaurée. Redémarrage…';
   @override
   String backup_import_failed({required Object message}) =>
-      'Backup import failed: ${message}';
+      'Échec de l\'import de la sauvegarde : ${message}';
   @override
-  String get backup_import_invalid => 'Invalid backup file';
+  String get backup_import_invalid => 'Fichier de sauvegarde invalide';
   @override
-  String get backup_exporting => 'Creating backup…';
+  String get backup_exporting => 'Création de la sauvegarde…';
   @override
   String backup_schema_newer({required Object version}) =>
-      'This backup requires a newer version of the app (schema ${version}). Please update first.';
+      'Cette sauvegarde nécessite une version plus récente de l\'application (schéma ${version}). Veuillez d\'abord mettre à jour.';
   @override
-  String get reverse_navigation_bar => 'Reverse navigation bar';
+  String get reverse_navigation_bar => 'Inverser la barre de navigation';
   @override
   String get sync_backend_onedrive => 'OneDrive';
   @override
@@ -12593,313 +12762,368 @@ class _StringsFr extends _StringsEn {
   @override
   String get sync_backend_hibiki_server => 'Hibiki P2P';
   @override
-  String get sync_server_enable => 'Enable sync server';
+  String get sync_server_enable => 'Activer le serveur de sync';
   @override
-  String get sync_server_port => 'Server port';
+  String get sync_server_port => 'Port du serveur';
   @override
-  String get sync_server_token => 'Access token';
+  String get sync_server_token => 'Jeton d\'accès';
   @override
-  String get sync_server_copy_token => 'Copy token';
+  String get sync_server_copy_token => 'Copier le jeton';
   @override
-  String get sync_server_regenerate_token => 'Regenerate token';
+  String get sync_server_regenerate_token => 'Régénérer le jeton';
   @override
-  String get sync_server_running => 'Server running';
+  String get sync_server_running => 'Serveur en marche';
   @override
-  String get sync_server_stopped => 'Server stopped';
+  String get sync_server_stopped => 'Serveur arrêté';
   @override
-  String get sync_lan_discovery => 'LAN devices';
+  String get sync_lan_discovery => 'Appareils du réseau local';
   @override
-  String get sync_lan_scanning => 'Scanning...';
+  String get sync_lan_scanning => 'Analyse en cours...';
   @override
-  String get sync_lan_no_devices => 'No devices found';
+  String get sync_lan_no_devices => 'Aucun appareil trouvé';
   @override
-  String get sync_fallback_config => 'Fallback order';
+  String get sync_fallback_config => 'Ordre de repli';
   @override
-  String get sync_test_connection => 'Test connection';
+  String get sync_test_connection => 'Tester la connexion';
   @override
-  String get sync_connection_success => 'Connection successful';
+  String get sync_connection_success => 'Connexion réussie';
   @override
-  String get sync_connection_failed => 'Connection failed';
+  String get sync_connection_failed => 'Échec de la connexion';
   @override
-  String get sync_host => 'Host';
+  String get sync_host => 'Hôte';
   @override
   String get sync_port => 'Port';
   @override
-  String get sync_username => 'Username';
+  String get sync_username => 'Nom d\'utilisateur';
   @override
-  String get sync_password => 'Password';
+  String get sync_password => 'Mot de passe';
   @override
-  String get sync_use_tls => 'Use TLS';
+  String get sync_use_tls => 'Utiliser TLS';
   @override
-  String get sync_private_key => 'Private key';
+  String get sync_private_key => 'Clé privée';
   @override
-  String get skip_action => 'Skip Action';
+  String get skip_action => 'Action de saut';
   @override
-  String get skip_action_sentence => '1 sentence';
+  String get skip_action_sentence => '1 phrase';
   @override
-  String skip_action_seconds({required Object n}) => '${n} seconds';
+  String skip_action_seconds({required Object n}) => '${n} secondes';
   @override
-  String get shortcut_settings_title => 'Keyboard Shortcuts';
+  String get shortcut_settings_title => 'Raccourcis clavier';
   @override
-  String get shortcut_scope_reader => 'Reader';
+  String get shortcut_scope_reader => 'Lecteur';
   @override
-  String get shortcut_scope_home => 'Home';
+  String get shortcut_scope_home => 'Accueil';
   @override
   String get shortcut_scope_global => 'Global';
   @override
-  String get shortcut_scope_audiobook => 'Audiobook';
+  String get shortcut_scope_audiobook => 'Livre audio';
   @override
-  String get shortcut_action_reader_page_forward => 'Next Page';
+  String get shortcut_action_reader_page_forward => 'Page suivante';
   @override
-  String get shortcut_action_reader_page_backward => 'Previous Page';
+  String get shortcut_action_reader_page_backward => 'Page précédente';
   @override
-  String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+  String get shortcut_action_reader_toggle_chrome =>
+      'Afficher/masquer les commandes';
   @override
-  String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+  String get shortcut_action_reader_dismiss_dict => 'Fermer le dictionnaire';
   @override
-  String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+  String get shortcut_action_reader_toggle_bookmark =>
+      'Activer/désactiver le signet';
   @override
-  String get shortcut_action_home_tab_books => 'Books Tab';
+  String get shortcut_action_home_tab_books => 'Onglet Livres';
   @override
-  String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+  String get shortcut_action_home_tab_dict => 'Onglet Dictionnaire';
   @override
-  String get shortcut_action_home_tab_settings => 'Settings Tab';
+  String get shortcut_action_home_tab_settings => 'Onglet Réglages';
   @override
-  String get shortcut_action_home_focus_search => 'Focus Search';
+  String get shortcut_action_home_focus_search => 'Focus sur la recherche';
   @override
-  String get shortcut_action_global_back => 'Go Back';
+  String get shortcut_action_global_back => 'Retour';
   @override
-  String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+  String get shortcut_action_audiobook_play_pause => 'Lecture / Pause';
   @override
-  String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+  String get shortcut_action_audiobook_next_sentence => 'Phrase suivante';
   @override
-  String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+  String get shortcut_action_audiobook_prev_sentence => 'Phrase précédente';
   @override
-  String get shortcut_press_key => 'Press a key combination...';
+  String get shortcut_press_key => 'Appuyez sur une combinaison de touches...';
   @override
-  String get shortcut_press_gamepad => 'Press a gamepad button...';
+  String get shortcut_press_gamepad => 'Appuyez sur un bouton de manette...';
   @override
-  String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
+  String shortcut_conflict({required Object s}) => 'Déjà utilisé par : ${s}';
   @override
-  String get shortcut_reset_defaults => 'Reset to Defaults';
+  String get shortcut_reset_defaults => 'Réinitialiser par défaut';
   @override
   String get shortcut_reset_confirm =>
-      'Reset all shortcuts in this section to defaults?';
+      'Réinitialiser tous les raccourcis de cette section aux valeurs par défaut ?';
   @override
-  String get shortcut_keyboard => 'Keyboard';
+  String get shortcut_keyboard => 'Clavier';
   @override
-  String get shortcut_gamepad => 'Gamepad';
+  String get shortcut_gamepad => 'Manette';
   @override
-  String get shortcut_none => 'None';
+  String get shortcut_none => 'Aucun';
   @override
-  String get shortcut_clear => 'Clear';
+  String get shortcut_clear => 'Effacer';
   @override
-  String get shortcut_stop_capture => 'Stop';
+  String get shortcut_stop_capture => 'Arrêter';
   @override
-  String get section_advanced_typography => 'Advanced';
+  String get section_advanced_typography => 'Avancé';
   @override
   String get sync_err_network =>
-      'Cannot reach the server — check your network or proxy settings.';
+      'Impossible de joindre le serveur — vérifiez votre réseau ou vos réglages de proxy.';
   @override
   String get sync_err_timeout =>
-      'Connection timed out — the server did not respond in time.';
+      'Délai de connexion dépassé — le serveur n\'a pas répondu à temps.';
   @override
-  String get sync_err_quota => 'Cloud storage is full (quota reached).';
+  String get sync_err_quota => 'Le stockage cloud est plein (quota atteint).';
   @override
-  String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
+  String get sync_err_auth_expired =>
+      'Connexion expirée — veuillez vous reconnecter.';
   @override
   String sync_server_port_in_use({required Object port}) =>
-      'Port ${port} is already in use — pick a different port.';
+      'Le port ${port} est déjà utilisé — choisissez un autre port.';
   @override
   String get sync_lan_scan_failed =>
-      'Scan failed — check network permissions or firewall.';
+      'Échec de l\'analyse — vérifiez les autorisations réseau ou le pare-feu.';
   @override
-  String get sync_section_method => 'Sync method';
+  String get sync_section_method => 'Méthode de sync';
   @override
-  String get sync_section_host_server => 'This device as a sync server';
+  String get sync_section_host_server => 'Cet appareil comme serveur de sync';
   @override
   String get sync_section_host_server_footer =>
-      'Let other devices sync from this device. Independent of the sync backend above.';
+      'Permet aux autres appareils de se synchroniser depuis cet appareil. Indépendant du backend de sync ci-dessus.';
   @override
-  String get sync_section_content => 'What to sync';
+  String get sync_section_content => 'Quoi synchroniser';
   @override
-  String get sync_section_actions => 'Sync actions';
+  String get sync_section_actions => 'Actions de sync';
   @override
-  String get sync_section_backup => 'Local backup';
+  String get sync_section_backup => 'Sauvegarde locale';
   @override
   String get backup_import_preserve_sync_note =>
-      'Your sync settings on this device (account and credentials) will be kept.';
+      'Vos réglages de sync sur cet appareil (compte et identifiants) seront conservés.';
   @override
-  String get backup_import_settings_toggle => 'Import settings & profiles';
+  String get backup_import_settings_toggle =>
+      'Importer les réglages et profils';
   @override
   String get backup_import_settings_on_hint =>
-      'Full restore: fonts, appearance and profiles come from the backup.';
+      'Restauration complète : polices, apparence et profils proviennent de la sauvegarde.';
   @override
   String get backup_import_settings_off_hint =>
-      'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+      'Conserver les polices/apparence/profils de cet appareil ; ne restaurer que les livres et données de lecture.';
   @override
   String get reader_unsupported_platform =>
-      'The reader is not yet available on this platform.';
+      'Le lecteur n\'est pas encore disponible sur cette plateforme.';
   @override
   String get microphone_permission_denied =>
-      'Microphone permission is required to record.';
+      'L\'autorisation du microphone est requise pour enregistrer.';
   @override
-  String get anki_connect_api_key => 'API Key';
+  String get anki_connect_api_key => 'Clé API';
   @override
   String get anki_connect_api_key_hint =>
-      'Leave empty unless AnkiConnect requires a key';
+      'Laisser vide sauf si AnkiConnect requiert une clé';
   @override
   String get shortcut_action_global_scroll_page_down =>
-      'Scroll down one screen';
+      'Défiler d\'un écran vers le bas';
   @override
-  String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+  String get shortcut_action_global_scroll_page_up =>
+      'Défiler d\'un écran vers le haut';
   @override
-  String get shortcut_action_home_tab_prev => 'Previous tab';
+  String get shortcut_action_home_tab_prev => 'Onglet précédent';
   @override
-  String get shortcut_action_home_tab_next => 'Next tab';
+  String get shortcut_action_home_tab_next => 'Onglet suivant';
   @override
-  String get move_up => 'Move up';
+  String get move_up => 'Monter';
   @override
-  String get move_down => 'Move down';
+  String get move_down => 'Descendre';
   @override
-  String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_toggle_furigana =>
+      'Afficher/masquer les furigana';
   @override
-  String get on_screen_keyboard => 'On-screen keyboard';
+  String get on_screen_keyboard => 'Clavier à l\'écran';
   @override
-  String get app_ui_scale => 'UI size';
+  String get app_ui_scale => 'Taille de l\'interface';
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary => 'Synchroniser les dictionnaires';
   @override
   String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
+      'Les paquets de dictionnaires peuvent être volumineux et inclure des ressources de dictionnaire importées.';
   @override
-  String get settings_destination_reading => 'Reading';
+  String get settings_destination_reading => 'Lecture';
   @override
-  String get remote_dict_lookup => 'Remote dictionary lookup';
+  String get remote_dict_lookup => 'Recherche dans dictionnaire distant';
   @override
   String get remote_dict_lookup_hint =>
-      'When local dictionaries miss, query the configured Hibiki server';
+      'Quand les dictionnaires locaux échouent, interroger le serveur Hibiki configuré';
   @override
-  String get remote_audio_source => 'Remote audio';
+  String get remote_audio_source => 'Audio distant';
   @override
-  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_success => 'Appairé — jeton renseigné';
   @override
-  String get sync_pair_failed => 'Pairing failed';
+  String get sync_pair_failed => 'Échec de l\'appairage';
   @override
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   @override
-  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_sources_remote_group => 'Sources distantes';
   @override
   String get audio_source_url_invalid =>
-      'Link must be http(s) and contain a term or reading placeholder';
+      'Le lien doit être en http(s) et contenir un emplacement pour le terme ou la lecture';
   @override
-  String get audio_source_added => 'Audio source added';
+  String get audio_source_added => 'Source audio ajoutée';
   @override
-  String get local_audio_imported => 'Audio database added';
+  String get local_audio_imported => 'Base de données audio ajoutée';
   @override
-  String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_import_failed =>
+      'Échec de l\'import de la base de données audio';
   @override
-  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_edit_sources => 'Modifier les sources';
   @override
-  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_source_order_title => 'Priorité des sources';
   @override
-  String get local_audio_no_sources => 'No sources found in this database';
+  String get local_audio_no_sources =>
+      'Aucune source trouvée dans cette base de données';
   @override
-  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_title => 'Demande d\'appairage';
   @override
   String get sync_pair_request_body =>
-      'A device is requesting to pair. Allow it to sync with this device?';
+      'Un appareil demande à s\'appairer. L\'autoriser à se synchroniser avec cet appareil ?';
   @override
-  String get sync_pair_allow => 'Allow';
+  String get sync_pair_allow => 'Autoriser';
   @override
-  String get sync_pair_deny => 'Deny';
+  String get sync_pair_deny => 'Refuser';
   @override
-  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_denied => 'L\'autre appareil a refusé l\'appairage';
   @override
-  String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unknown_device => 'Appareil inconnu';
   @override
   String get sync_pair_unavailable =>
-      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      'L\'autre appareil n\'est pas prêt ou utilise une version plus ancienne. Mettez-le à jour et activez la sync, puis réessayez.';
   @override
   String get sync_role_locked_by_server =>
-      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      'Cet appareil héberge un serveur. Désactivez le serveur avant de vous connecter à d\'autres appareils.';
   @override
   String get sync_role_locked_by_client =>
-      'Already connected to another device. Remove the connection before hosting as a server.';
+      'Déjà connecté à un autre appareil. Supprimez la connexion avant d\'héberger un serveur.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
   @override
-  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files =>
+      'Synchroniser les fichiers de livres audio';
   @override
   String get sync_audiobook_files_warning =>
-      'Audio and subtitles can be large.';
+      'L\'audio et les sous-titres peuvent être volumineux.';
   @override
-  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_title => 'Livre en double';
   @override
-  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_keep => 'Oui, ajouter un suffixe';
   @override
-  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancel => 'Non, annuler';
   @override
-  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String get book_import_duplicate_cancelled => 'Import annulé';
   @override
   String book_import_duplicate_message({required Object name}) =>
-      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      'Un livre nommé « ${name} » existe déjà. L\'importer quand même ? « Oui » importe avec un suffixe numéroté ; « Non » annule.';
   @override
-  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
+  String get reverse_reader_bottom_bar =>
+      'Inverser la barre inférieure du lecteur';
   @override
-  String get floating_dict_close => 'Close';
+  String get floating_dict_close => 'Fermer';
   @override
-  String get debug_log_share_subject => 'hibiki Debug Log';
+  String get debug_log_share_subject => 'Journal de débogage hibiki';
   @override
-  String get spread_direction_rtl => 'Right to Left';
+  String get spread_direction_rtl => 'De droite à gauche';
   @override
-  String get spread_direction_ltr => 'Left to Right';
+  String get spread_direction_ltr => 'De gauche à droite';
   @override
   String dict_download_partial(
           {required Object success,
           required Object total,
           required Object error}) =>
-      '${success} / ${total} OK. Failed: ${error}';
+      '${success} / ${total} OK. Échecs : ${error}';
   @override
-  String get sync_now => 'Sync now';
+  String get sync_now => 'Synchroniser maintenant';
   @override
-  String get sync_now_hint => 'Run a full two-way sync with the cloud now';
+  String get sync_now_hint =>
+      'Lancer une synchronisation bidirectionnelle complète avec le cloud maintenant';
   @override
-  String get sync_now_busy => 'A sync is already running';
+  String get sync_now_busy => 'Une synchronisation est déjà en cours';
   @override
-  String get sync_now_no_changes => 'no changes';
+  String get sync_now_no_changes => 'aucune modification';
   @override
-  String sync_now_done({required Object detail}) => 'Synced · ${detail}';
+  String sync_now_done({required Object detail}) => 'Synchronisé · ${detail}';
   @override
   String sync_now_failed_suffix({required Object count}) =>
-      ' · ${count} failed';
+      ' · ${count} échec(s)';
   @override
-  String sync_now_books_in({required Object count}) => '↓${count} books';
+  String sync_now_books_in({required Object count}) => '↓${count} livres';
   @override
-  String sync_now_dicts_in({required Object count}) => '↓${count} dictionaries';
+  String sync_now_dicts_in({required Object count}) =>
+      '↓${count} dictionnaires';
   @override
   String sync_now_dicts_out({required Object count}) =>
-      '↑${count} dictionaries';
+      '↑${count} dictionnaires';
   @override
-  String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
+  String sync_now_audio_in({required Object count}) => '↓${count} livres audio';
   @override
-  String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String sync_now_audio_out({required Object count}) =>
+      '↑${count} livres audio';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => 'Dictionnaires';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => 'Supprimer le livre sur le distant';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook =>
+      'Supprimer le livre audio sur le distant';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict =>
+      'Supprimer le dictionnaire sur le distant';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => 'Supprimé du distant';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      'Supprimer « ${name} » du distant ? Les données locales sont conservées. Action irréversible.';
+  @override
+  String get dictionaries_delete_failed =>
+      'Échec de la suppression des dictionnaires';
+  @override
+  String get dictionary_delete_failed =>
+      'Échec de la suppression du dictionnaire';
+  @override
+  String get sync_webdav_missing_fields => 'Champs manquants';
+  @override
+  String get sync_compare_download => 'Télécharger';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -13137,7 +13361,7 @@ class _StringsId extends _StringsEn {
   @override
   String get dialog_add => 'TAMBAH';
   @override
-  String get reset => 'Reset';
+  String get reset => 'Atur Ulang';
   @override
   String get dialog_launch_ankidroid => 'BUKA ANKIDROID';
   @override
@@ -13577,7 +13801,7 @@ class _StringsId extends _StringsEn {
   @override
   String get no_lyrics_found => 'Tidak ada lirik ditemukan';
   @override
-  String get trending => 'Trending';
+  String get trending => 'Tren';
   @override
   String get caption_filter => 'Filter Closed Caption';
   @override
@@ -13589,7 +13813,7 @@ class _StringsId extends _StringsEn {
   @override
   String get captions_other => 'Bahasa lain';
   @override
-  String get captions_closed => 'Closed captioning';
+  String get captions_closed => 'Teks tertutup';
   @override
   String get captions_auto => 'Captioning otomatis';
   @override
@@ -13675,7 +13899,7 @@ class _StringsId extends _StringsEn {
   @override
   String get dismiss_swipe_sensitivity => 'Sensitivitas swipe untuk menutup';
   @override
-  String get tweaks => 'Tweaks';
+  String get tweaks => 'Penyesuaian';
   @override
   String get increase => 'Tambah';
   @override
@@ -13887,7 +14111,7 @@ class _StringsId extends _StringsEn {
   String get chatgpt_error =>
       'Terjadi error saat mendapatkan respons dari ChatGPT.';
   @override
-  String get api_key => 'API Key';
+  String get api_key => 'Kunci API';
   @override
   String subtitle_delay_set({required Object ms}) =>
       'Delay subtitle diatur ke ${ms} md.';
@@ -13948,7 +14172,7 @@ class _StringsId extends _StringsEn {
   @override
   String get browse => 'Jelajahi';
   @override
-  String get bookmark => 'Bookmark';
+  String get bookmark => 'Penanda';
   @override
   String get add_bookmark => 'Tambah Bookmark';
   @override
@@ -14276,7 +14500,7 @@ class _StringsId extends _StringsEn {
   @override
   String get av_sync => 'Sinkronisasi A/V';
   @override
-  String get av_sync_reset => 'Reset';
+  String get av_sync_reset => 'Atur Ulang';
   @override
   String get av_sync_hint =>
       'Positif = audio mendahului teks, geser cue mundur; Negatif = audio tertinggal.';
@@ -14319,7 +14543,7 @@ class _StringsId extends _StringsEn {
   @override
   String get section_update => 'Pengaturan Pembaruan';
   @override
-  String get action_bookmark => 'Bookmark';
+  String get action_bookmark => 'Penanda';
   @override
   String get action_fullscreen_toggle => 'Alihkan Layar Penuh';
   @override
@@ -14527,7 +14751,7 @@ class _StringsId extends _StringsEn {
   @override
   String get recommended_template_created => 'Profil rekomendasi telah dibuat.';
   @override
-  String get stat_refresh => 'Refresh';
+  String get stat_refresh => 'Segarkan';
   @override
   String get stat_no_data => 'Belum ada data membaca';
   @override
@@ -14673,7 +14897,7 @@ class _StringsId extends _StringsEn {
   @override
   String get no_collections => 'Tidak ada bookmark atau kalimat tersimpan';
   @override
-  String get collection_bookmark => 'Bookmark';
+  String get collection_bookmark => 'Penanda';
   @override
   String get collection_sentence => 'Kalimat';
   @override
@@ -14968,7 +15192,7 @@ class _StringsId extends _StringsEn {
   String get floating_lyric_permission_hint =>
       'Izin overlay diperlukan untuk menampilkan lirik mengambang.';
   @override
-  String get font_source_file => 'File';
+  String get font_source_file => 'Berkas';
   @override
   String get font_source_system => 'Sistem';
   @override
@@ -15228,7 +15452,8 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_statistics => 'Sinkronkan Statistik';
   @override
-  String get sync_summary => 'Google Drive · Kompatibel dengan ッツ/Hoshi Reader';
+  String get sync_summary =>
+      'Cloud, LAN P2P & cadangan lokal · kompatibel dengan ッツ/Hoshi Reader';
   @override
   String get sync_title => 'Sinkronisasi';
   @override
@@ -15242,134 +15467,135 @@ class _StringsId extends _StringsEn {
   @override
   String get anki_connect_port => 'Port';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => 'Bandingkan Data';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => 'Lokal vs Jarak Jauh';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => 'Lokal';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => 'Jarak Jauh';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => 'Tidak ada data';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => 'Tidak ada buku';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => 'hari';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => 'Konflik';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => 'Semua Buku';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => 'Pilih Semua';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => 'Semua → Lokal';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => 'Semua → Jarak Jauh';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => 'Semua → Lewati';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => 'Lokal';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => 'Jarak Jauh';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => 'Lewati';
   @override
   String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+      '${count} perubahan diterapkan';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => 'Terapkan (${count})';
   @override
-  String get sync_auto_sync => 'Auto Sync';
+  String get sync_auto_sync => 'Sinkronisasi Otomatis';
   @override
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
-      'Sync: ${direction} ${title}';
+      'Sinkronisasi: ${direction} ${title}';
   @override
-  String get no_matching_audio_cue => 'No matching audio for this sentence';
+  String get no_matching_audio_cue =>
+      'Tidak ada audio yang cocok untuk kalimat ini';
   @override
-  String get sync_exit_warning_title => 'Sync In Progress';
+  String get sync_exit_warning_title => 'Sinkronisasi Berlangsung';
   @override
   String get sync_exit_warning =>
-      'Sync is still in progress. Exiting now may cause data loss.';
+      'Sinkronisasi masih berlangsung. Keluar sekarang dapat menyebabkan kehilangan data.';
   @override
-  String get sync_content => 'Sync book files';
+  String get sync_content => 'Sinkronkan berkas buku';
   @override
   String get sync_content_warning =>
-      'Large files will use storage space and data';
+      'Berkas besar akan memakai ruang penyimpanan dan kuota data';
   @override
-  String get sync_backend => 'Storage backend';
+  String get sync_backend => 'Backend penyimpanan';
   @override
   String get sync_backend_google_drive => 'Google Drive';
   @override
   String get sync_backend_webdav => 'WebDAV';
   @override
-  String get sync_webdav_url => 'Server URL';
+  String get sync_webdav_url => 'URL server';
   @override
-  String get sync_webdav_username => 'Username';
+  String get sync_webdav_username => 'Nama pengguna';
   @override
-  String get sync_webdav_password => 'Password';
+  String get sync_webdav_password => 'Kata sandi';
   @override
-  String get sync_webdav_test => 'Test connection';
+  String get sync_webdav_test => 'Uji koneksi';
   @override
-  String get sync_webdav_test_success => 'Connection successful';
+  String get sync_webdav_test_success => 'Koneksi berhasil';
   @override
   String sync_webdav_test_failed({required Object message}) =>
-      'Connection failed: ${message}';
+      'Koneksi gagal: ${message}';
   @override
-  String get book_file_not_found => 'Book file not found';
+  String get book_file_not_found => 'Berkas buku tidak ditemukan';
   @override
-  String get epub_parse_fallback => 'Book metadata repaired from database';
+  String get epub_parse_fallback => 'Metadata buku dipulihkan dari basis data';
   @override
-  String get retry => 'Retry';
+  String get retry => 'Coba Lagi';
   @override
-  String get copy_error => 'Copy Error';
+  String get copy_error => 'Salin Galat';
   @override
-  String get error_copied => 'Error copied to clipboard';
+  String get error_copied => 'Galat disalin ke papan klip';
   @override
   String dict_import_failed_summary({required Object n}) =>
-      'Failed to import ${n} dictionary(s)';
+      'Gagal mengimpor ${n} kamus';
   @override
   String get reader_content_timeout =>
-      'Content loading timed out. Reopen if display is abnormal';
+      'Pemuatan konten habis waktu. Buka ulang jika tampilan tidak normal';
   @override
-  String get backup_local => 'Local Backup';
+  String get backup_local => 'Cadangan Lokal';
   @override
-  String get backup_export => 'Export Backup';
+  String get backup_export => 'Ekspor Cadangan';
   @override
   String get backup_export_hint =>
-      'Save all settings, reading progress, and statistics to a file';
+      'Simpan semua pengaturan, progres membaca, dan statistik ke berkas';
   @override
-  String get backup_import => 'Import Backup';
+  String get backup_import => 'Impor Cadangan';
   @override
   String get backup_import_hint =>
-      'Restore from a backup file. The app will restart.';
+      'Pulihkan dari berkas cadangan. Aplikasi akan dimulai ulang.';
   @override
-  String get backup_export_success => 'Backup exported successfully';
+  String get backup_export_success => 'Cadangan berhasil diekspor';
   @override
   String backup_export_failed({required Object message}) =>
-      'Backup export failed: ${message}';
+      'Ekspor cadangan gagal: ${message}';
   @override
-  String get backup_import_confirm_title => 'Restore Backup?';
+  String get backup_import_confirm_title => 'Pulihkan Cadangan?';
   @override
   String backup_import_confirm(
           {required Object date,
           required Object bookCount,
           required Object statsCount}) =>
-      'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+      'Ini akan menggantikan semua data saat ini dengan cadangan dari ${date}.\n\n${bookCount} buku, ${statsCount} catatan statistik.\n\nAplikasi akan dimulai ulang setelah pemulihan.';
   @override
-  String get backup_import_success => 'Backup restored. Restarting…';
+  String get backup_import_success => 'Cadangan dipulihkan. Memulai ulang…';
   @override
   String backup_import_failed({required Object message}) =>
-      'Backup import failed: ${message}';
+      'Impor cadangan gagal: ${message}';
   @override
-  String get backup_import_invalid => 'Invalid backup file';
+  String get backup_import_invalid => 'Berkas cadangan tidak valid';
   @override
-  String get backup_exporting => 'Creating backup…';
+  String get backup_exporting => 'Membuat cadangan…';
   @override
   String backup_schema_newer({required Object version}) =>
-      'This backup requires a newer version of the app (schema ${version}). Please update first.';
+      'Cadangan ini memerlukan versi aplikasi yang lebih baru (skema ${version}). Mohon perbarui terlebih dahulu.';
   @override
-  String get reverse_navigation_bar => 'Reverse navigation bar';
+  String get reverse_navigation_bar => 'Balik bilah navigasi';
   @override
   String get sync_backend_onedrive => 'OneDrive';
   @override
@@ -15381,313 +15607,352 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_backend_hibiki_server => 'Hibiki P2P';
   @override
-  String get sync_server_enable => 'Enable sync server';
+  String get sync_server_enable => 'Aktifkan server sinkronisasi';
   @override
-  String get sync_server_port => 'Server port';
+  String get sync_server_port => 'Port server';
   @override
-  String get sync_server_token => 'Access token';
+  String get sync_server_token => 'Token akses';
   @override
-  String get sync_server_copy_token => 'Copy token';
+  String get sync_server_copy_token => 'Salin token';
   @override
-  String get sync_server_regenerate_token => 'Regenerate token';
+  String get sync_server_regenerate_token => 'Buat ulang token';
   @override
-  String get sync_server_running => 'Server running';
+  String get sync_server_running => 'Server berjalan';
   @override
-  String get sync_server_stopped => 'Server stopped';
+  String get sync_server_stopped => 'Server berhenti';
   @override
-  String get sync_lan_discovery => 'LAN devices';
+  String get sync_lan_discovery => 'Perangkat LAN';
   @override
-  String get sync_lan_scanning => 'Scanning...';
+  String get sync_lan_scanning => 'Memindai...';
   @override
-  String get sync_lan_no_devices => 'No devices found';
+  String get sync_lan_no_devices => 'Tidak ada perangkat ditemukan';
   @override
-  String get sync_fallback_config => 'Fallback order';
+  String get sync_fallback_config => 'Urutan cadangan';
   @override
-  String get sync_test_connection => 'Test connection';
+  String get sync_test_connection => 'Uji koneksi';
   @override
-  String get sync_connection_success => 'Connection successful';
+  String get sync_connection_success => 'Koneksi berhasil';
   @override
-  String get sync_connection_failed => 'Connection failed';
+  String get sync_connection_failed => 'Koneksi gagal';
   @override
   String get sync_host => 'Host';
   @override
   String get sync_port => 'Port';
   @override
-  String get sync_username => 'Username';
+  String get sync_username => 'Nama pengguna';
   @override
-  String get sync_password => 'Password';
+  String get sync_password => 'Kata sandi';
   @override
-  String get sync_use_tls => 'Use TLS';
+  String get sync_use_tls => 'Gunakan TLS';
   @override
-  String get sync_private_key => 'Private key';
+  String get sync_private_key => 'Kunci privat';
   @override
-  String get skip_action => 'Skip Action';
+  String get skip_action => 'Lewati Aksi';
   @override
-  String get skip_action_sentence => '1 sentence';
+  String get skip_action_sentence => '1 kalimat';
   @override
-  String skip_action_seconds({required Object n}) => '${n} seconds';
+  String skip_action_seconds({required Object n}) => '${n} detik';
   @override
-  String get shortcut_settings_title => 'Keyboard Shortcuts';
+  String get shortcut_settings_title => 'Pintasan Keyboard';
   @override
-  String get shortcut_scope_reader => 'Reader';
+  String get shortcut_scope_reader => 'Pembaca';
   @override
-  String get shortcut_scope_home => 'Home';
+  String get shortcut_scope_home => 'Beranda';
   @override
   String get shortcut_scope_global => 'Global';
   @override
-  String get shortcut_scope_audiobook => 'Audiobook';
+  String get shortcut_scope_audiobook => 'Buku Audio';
   @override
-  String get shortcut_action_reader_page_forward => 'Next Page';
+  String get shortcut_action_reader_page_forward => 'Halaman Berikutnya';
   @override
-  String get shortcut_action_reader_page_backward => 'Previous Page';
+  String get shortcut_action_reader_page_backward => 'Halaman Sebelumnya';
   @override
-  String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+  String get shortcut_action_reader_toggle_chrome => 'Alihkan Kontrol';
   @override
-  String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+  String get shortcut_action_reader_dismiss_dict => 'Tutup Kamus';
   @override
-  String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+  String get shortcut_action_reader_toggle_bookmark => 'Alihkan Penanda';
   @override
-  String get shortcut_action_home_tab_books => 'Books Tab';
+  String get shortcut_action_home_tab_books => 'Tab Buku';
   @override
-  String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+  String get shortcut_action_home_tab_dict => 'Tab Kamus';
   @override
-  String get shortcut_action_home_tab_settings => 'Settings Tab';
+  String get shortcut_action_home_tab_settings => 'Tab Pengaturan';
   @override
-  String get shortcut_action_home_focus_search => 'Focus Search';
+  String get shortcut_action_home_focus_search => 'Fokus Pencarian';
   @override
-  String get shortcut_action_global_back => 'Go Back';
+  String get shortcut_action_global_back => 'Kembali';
   @override
-  String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+  String get shortcut_action_audiobook_play_pause => 'Putar / Jeda';
   @override
-  String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+  String get shortcut_action_audiobook_next_sentence => 'Kalimat Berikutnya';
   @override
-  String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+  String get shortcut_action_audiobook_prev_sentence => 'Kalimat Sebelumnya';
   @override
-  String get shortcut_press_key => 'Press a key combination...';
+  String get shortcut_press_key => 'Tekan kombinasi tombol...';
   @override
-  String get shortcut_press_gamepad => 'Press a gamepad button...';
+  String get shortcut_press_gamepad => 'Tekan tombol gamepad...';
   @override
-  String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
+  String shortcut_conflict({required Object s}) => 'Sudah dipakai oleh: ${s}';
   @override
-  String get shortcut_reset_defaults => 'Reset to Defaults';
+  String get shortcut_reset_defaults => 'Kembalikan ke Default';
   @override
   String get shortcut_reset_confirm =>
-      'Reset all shortcuts in this section to defaults?';
+      'Kembalikan semua pintasan di bagian ini ke default?';
   @override
   String get shortcut_keyboard => 'Keyboard';
   @override
   String get shortcut_gamepad => 'Gamepad';
   @override
-  String get shortcut_none => 'None';
+  String get shortcut_none => 'Tidak Ada';
   @override
-  String get shortcut_clear => 'Clear';
+  String get shortcut_clear => 'Hapus';
   @override
-  String get shortcut_stop_capture => 'Stop';
+  String get shortcut_stop_capture => 'Berhenti';
   @override
-  String get section_advanced_typography => 'Advanced';
+  String get section_advanced_typography => 'Lanjutan';
   @override
   String get sync_err_network =>
-      'Cannot reach the server — check your network or proxy settings.';
+      'Tidak dapat menjangkau server — periksa jaringan atau pengaturan proksi Anda.';
   @override
   String get sync_err_timeout =>
-      'Connection timed out — the server did not respond in time.';
+      'Koneksi habis waktu — server tidak merespons tepat waktu.';
   @override
-  String get sync_err_quota => 'Cloud storage is full (quota reached).';
+  String get sync_err_quota => 'Penyimpanan cloud penuh (kuota tercapai).';
   @override
-  String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
+  String get sync_err_auth_expired =>
+      'Sesi masuk kedaluwarsa — mohon masuk kembali.';
   @override
   String sync_server_port_in_use({required Object port}) =>
-      'Port ${port} is already in use — pick a different port.';
+      'Port ${port} sudah digunakan — pilih port lain.';
   @override
   String get sync_lan_scan_failed =>
-      'Scan failed — check network permissions or firewall.';
+      'Pemindaian gagal — periksa izin jaringan atau firewall.';
   @override
-  String get sync_section_method => 'Sync method';
+  String get sync_section_method => 'Metode sinkronisasi';
   @override
-  String get sync_section_host_server => 'This device as a sync server';
+  String get sync_section_host_server =>
+      'Perangkat ini sebagai server sinkronisasi';
   @override
   String get sync_section_host_server_footer =>
-      'Let other devices sync from this device. Independent of the sync backend above.';
+      'Biarkan perangkat lain menyinkronkan dari perangkat ini. Terpisah dari backend sinkronisasi di atas.';
   @override
-  String get sync_section_content => 'What to sync';
+  String get sync_section_content => 'Apa yang disinkronkan';
   @override
-  String get sync_section_actions => 'Sync actions';
+  String get sync_section_actions => 'Aksi sinkronisasi';
   @override
-  String get sync_section_backup => 'Local backup';
+  String get sync_section_backup => 'Cadangan lokal';
   @override
   String get backup_import_preserve_sync_note =>
-      'Your sync settings on this device (account and credentials) will be kept.';
+      'Pengaturan sinkronisasi di perangkat ini (akun dan kredensial) akan dipertahankan.';
   @override
-  String get backup_import_settings_toggle => 'Import settings & profiles';
+  String get backup_import_settings_toggle => 'Impor pengaturan & profil';
   @override
   String get backup_import_settings_on_hint =>
-      'Full restore: fonts, appearance and profiles come from the backup.';
+      'Pemulihan penuh: font, tampilan, dan profil diambil dari cadangan.';
   @override
   String get backup_import_settings_off_hint =>
-      'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+      'Pertahankan font/tampilan/profil perangkat ini; pulihkan hanya buku & data membaca.';
   @override
   String get reader_unsupported_platform =>
-      'The reader is not yet available on this platform.';
+      'Pembaca belum tersedia di platform ini.';
   @override
   String get microphone_permission_denied =>
-      'Microphone permission is required to record.';
+      'Izin mikrofon diperlukan untuk merekam.';
   @override
-  String get anki_connect_api_key => 'API Key';
+  String get anki_connect_api_key => 'Kunci API';
   @override
   String get anki_connect_api_key_hint =>
-      'Leave empty unless AnkiConnect requires a key';
+      'Biarkan kosong kecuali AnkiConnect memerlukan kunci';
   @override
   String get shortcut_action_global_scroll_page_down =>
-      'Scroll down one screen';
+      'Gulir bawah satu layar';
   @override
-  String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+  String get shortcut_action_global_scroll_page_up => 'Gulir atas satu layar';
   @override
-  String get shortcut_action_home_tab_prev => 'Previous tab';
+  String get shortcut_action_home_tab_prev => 'Tab sebelumnya';
   @override
-  String get shortcut_action_home_tab_next => 'Next tab';
+  String get shortcut_action_home_tab_next => 'Tab berikutnya';
   @override
-  String get move_up => 'Move up';
+  String get move_up => 'Naikkan';
   @override
-  String get move_down => 'Move down';
+  String get move_down => 'Turunkan';
   @override
-  String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_toggle_furigana => 'Alihkan furigana';
   @override
-  String get on_screen_keyboard => 'On-screen keyboard';
+  String get on_screen_keyboard => 'Keyboard di layar';
   @override
-  String get app_ui_scale => 'UI size';
+  String get app_ui_scale => 'Ukuran UI';
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary => 'Sinkronkan kamus';
   @override
   String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
+      'Paket kamus bisa berukuran besar dan menyertakan sumber daya kamus yang diimpor.';
   @override
-  String get settings_destination_reading => 'Reading';
+  String get settings_destination_reading => 'Membaca';
   @override
-  String get remote_dict_lookup => 'Remote dictionary lookup';
+  String get remote_dict_lookup => 'Pencarian kamus jarak jauh';
   @override
   String get remote_dict_lookup_hint =>
-      'When local dictionaries miss, query the configured Hibiki server';
+      'Ketika kamus lokal tidak menemukan hasil, kueri ke server Hibiki yang dikonfigurasi';
   @override
-  String get remote_audio_source => 'Remote audio';
+  String get remote_audio_source => 'Audio jarak jauh';
   @override
-  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_success => 'Terpasang — token telah diisi';
   @override
-  String get sync_pair_failed => 'Pairing failed';
+  String get sync_pair_failed => 'Pemasangan gagal';
   @override
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   @override
-  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_sources_remote_group => 'Sumber jarak jauh';
   @override
   String get audio_source_url_invalid =>
-      'Link must be http(s) and contain a term or reading placeholder';
+      'Tautan harus http(s) dan memuat placeholder term atau reading';
   @override
-  String get audio_source_added => 'Audio source added';
+  String get audio_source_added => 'Sumber audio ditambahkan';
   @override
-  String get local_audio_imported => 'Audio database added';
+  String get local_audio_imported => 'Basis data audio ditambahkan';
   @override
-  String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_import_failed => 'Gagal mengimpor basis data audio';
   @override
-  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_edit_sources => 'Edit sumber';
   @override
-  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_source_order_title => 'Prioritas sumber';
   @override
-  String get local_audio_no_sources => 'No sources found in this database';
+  String get local_audio_no_sources => 'Tidak ada sumber di basis data ini';
   @override
-  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_title => 'Permintaan pemasangan';
   @override
   String get sync_pair_request_body =>
-      'A device is requesting to pair. Allow it to sync with this device?';
+      'Sebuah perangkat meminta untuk dipasangkan. Izinkan untuk menyinkronkan dengan perangkat ini?';
   @override
-  String get sync_pair_allow => 'Allow';
+  String get sync_pair_allow => 'Izinkan';
   @override
-  String get sync_pair_deny => 'Deny';
+  String get sync_pair_deny => 'Tolak';
   @override
-  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_denied => 'Perangkat lain menolak pemasangan';
   @override
-  String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unknown_device => 'Perangkat tidak dikenal';
   @override
   String get sync_pair_unavailable =>
-      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      'Perangkat lain belum siap atau menggunakan versi lama. Perbarui dan aktifkan sinkronisasi, lalu coba lagi.';
   @override
   String get sync_role_locked_by_server =>
-      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      'Perangkat ini menjadi host sebagai server. Matikan server sebelum terhubung ke perangkat lain.';
   @override
   String get sync_role_locked_by_client =>
-      'Already connected to another device. Remove the connection before hosting as a server.';
+      'Sudah terhubung ke perangkat lain. Hapus koneksi sebelum menjadi host sebagai server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
   @override
-  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files => 'Sinkronkan berkas buku audio';
   @override
   String get sync_audiobook_files_warning =>
-      'Audio and subtitles can be large.';
+      'Audio dan subtitle bisa berukuran besar.';
   @override
-  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_title => 'Buku duplikat';
   @override
-  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_keep => 'Ya, tambahkan akhiran';
   @override
-  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancel => 'Tidak, batalkan';
   @override
-  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String get book_import_duplicate_cancelled => 'Impor dibatalkan';
   @override
   String book_import_duplicate_message({required Object name}) =>
-      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      'Buku bernama "${name}" sudah ada. Tetap impor? "Ya" mengimpor dengan akhiran bernomor; "Tidak" membatalkan.';
   @override
-  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
+  String get reverse_reader_bottom_bar => 'Balik bilah bawah pembaca';
   @override
-  String get floating_dict_close => 'Close';
+  String get floating_dict_close => 'Tutup';
   @override
-  String get debug_log_share_subject => 'hibiki Debug Log';
+  String get debug_log_share_subject => 'Log Debug hibiki';
   @override
-  String get spread_direction_rtl => 'Right to Left';
+  String get spread_direction_rtl => 'Kanan ke Kiri';
   @override
-  String get spread_direction_ltr => 'Left to Right';
+  String get spread_direction_ltr => 'Kiri ke Kanan';
   @override
   String dict_download_partial(
           {required Object success,
           required Object total,
           required Object error}) =>
-      '${success} / ${total} OK. Failed: ${error}';
+      '${success} / ${total} OK. Gagal: ${error}';
   @override
-  String get sync_now => 'Sync now';
+  String get sync_now => 'Sinkronkan sekarang';
   @override
-  String get sync_now_hint => 'Run a full two-way sync with the cloud now';
+  String get sync_now_hint =>
+      'Jalankan sinkronisasi dua arah penuh dengan cloud sekarang';
   @override
-  String get sync_now_busy => 'A sync is already running';
+  String get sync_now_busy => 'Sinkronisasi sedang berjalan';
   @override
-  String get sync_now_no_changes => 'no changes';
+  String get sync_now_no_changes => 'tidak ada perubahan';
   @override
-  String sync_now_done({required Object detail}) => 'Synced · ${detail}';
+  String sync_now_done({required Object detail}) => 'Tersinkron · ${detail}';
   @override
-  String sync_now_failed_suffix({required Object count}) =>
-      ' · ${count} failed';
+  String sync_now_failed_suffix({required Object count}) => ' · ${count} gagal';
   @override
-  String sync_now_books_in({required Object count}) => '↓${count} books';
+  String sync_now_books_in({required Object count}) => '↓${count} buku';
   @override
-  String sync_now_dicts_in({required Object count}) => '↓${count} dictionaries';
+  String sync_now_dicts_in({required Object count}) => '↓${count} kamus';
   @override
-  String sync_now_dicts_out({required Object count}) =>
-      '↑${count} dictionaries';
+  String sync_now_dicts_out({required Object count}) => '↑${count} kamus';
   @override
-  String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
+  String sync_now_audio_in({required Object count}) => '↓${count} buku audio';
   @override
-  String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String sync_now_audio_out({required Object count}) => '↑${count} buku audio';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => 'Kamus';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => 'Hapus buku di jarak jauh';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook => 'Hapus buku audio di jarak jauh';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => 'Hapus kamus di jarak jauh';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => 'Dihapus dari jarak jauh';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      'Hapus "${name}" dari jarak jauh? Data lokal dipertahankan. Ini tidak dapat dibatalkan.';
+  @override
+  String get dictionaries_delete_failed => 'Gagal menghapus kamus';
+  @override
+  String get dictionary_delete_failed => 'Gagal menghapus kamus';
+  @override
+  String get sync_webdav_missing_fields => 'Ada kolom yang belum diisi';
+  @override
+  String get sync_compare_download => 'Unduh';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -18049,7 +18314,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_statistics => 'Sincronizza statistiche';
   @override
-  String get sync_summary => 'Google Drive · Compatibile con ッツ/Hoshi Reader';
+  String get sync_summary =>
+      'Cloud, LAN P2P e backup locale · compatibile con ッツ/Hoshi Reader';
   @override
   String get sync_title => 'Sincronizzazione';
   @override
@@ -18061,136 +18327,138 @@ class _StringsIt extends _StringsEn {
   @override
   String get anki_connect_host => 'Host';
   @override
-  String get anki_connect_port => 'Port';
+  String get anki_connect_port => 'Porta';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => 'Confronta dati';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => 'Locale vs Remoto';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => 'Locale';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => 'Remoto';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => 'Nessun dato';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => 'Nessun libro trovato';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => 'giorni';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => 'Conflitti';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => 'Tutti i libri';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => 'Seleziona tutto';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => 'Tutti → Locale';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => 'Tutti → Remoto';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => 'Tutti → Ignora';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => 'Locale';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => 'Remoto';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => 'Ignora';
   @override
   String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+      'Applicate ${count} modifiche';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => 'Applica (${count})';
   @override
-  String get sync_auto_sync => 'Auto Sync';
+  String get sync_auto_sync => 'Sincronizzazione automatica';
   @override
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
-      'Sync: ${direction} ${title}';
+      'Sincronizzazione: ${direction} ${title}';
   @override
-  String get no_matching_audio_cue => 'No matching audio for this sentence';
+  String get no_matching_audio_cue =>
+      'Nessun audio corrispondente per questa frase';
   @override
-  String get sync_exit_warning_title => 'Sync In Progress';
+  String get sync_exit_warning_title => 'Sincronizzazione in corso';
   @override
   String get sync_exit_warning =>
-      'Sync is still in progress. Exiting now may cause data loss.';
+      'La sincronizzazione è ancora in corso. Uscire ora potrebbe causare la perdita di dati.';
   @override
-  String get sync_content => 'Sync book files';
+  String get sync_content => 'Sincronizza file dei libri';
   @override
   String get sync_content_warning =>
-      'Large files will use storage space and data';
+      'I file di grandi dimensioni occuperanno spazio e consumeranno dati';
   @override
-  String get sync_backend => 'Storage backend';
+  String get sync_backend => 'Backend di archiviazione';
   @override
   String get sync_backend_google_drive => 'Google Drive';
   @override
   String get sync_backend_webdav => 'WebDAV';
   @override
-  String get sync_webdav_url => 'Server URL';
+  String get sync_webdav_url => 'URL del server';
   @override
-  String get sync_webdav_username => 'Username';
+  String get sync_webdav_username => 'Nome utente';
   @override
   String get sync_webdav_password => 'Password';
   @override
-  String get sync_webdav_test => 'Test connection';
+  String get sync_webdav_test => 'Prova connessione';
   @override
-  String get sync_webdav_test_success => 'Connection successful';
+  String get sync_webdav_test_success => 'Connessione riuscita';
   @override
   String sync_webdav_test_failed({required Object message}) =>
-      'Connection failed: ${message}';
+      'Connessione non riuscita: ${message}';
   @override
-  String get book_file_not_found => 'Book file not found';
+  String get book_file_not_found => 'File del libro non trovato';
   @override
-  String get epub_parse_fallback => 'Book metadata repaired from database';
+  String get epub_parse_fallback =>
+      'Metadati del libro ripristinati dal database';
   @override
-  String get retry => 'Retry';
+  String get retry => 'Riprova';
   @override
-  String get copy_error => 'Copy Error';
+  String get copy_error => 'Copia errore';
   @override
-  String get error_copied => 'Error copied to clipboard';
+  String get error_copied => 'Errore copiato negli appunti';
   @override
   String dict_import_failed_summary({required Object n}) =>
-      'Failed to import ${n} dictionary(s)';
+      'Impossibile importare ${n} dizionario/i';
   @override
   String get reader_content_timeout =>
-      'Content loading timed out. Reopen if display is abnormal';
+      'Timeout nel caricamento del contenuto. Riapri se la visualizzazione è anomala';
   @override
-  String get backup_local => 'Local Backup';
+  String get backup_local => 'Backup locale';
   @override
-  String get backup_export => 'Export Backup';
+  String get backup_export => 'Esporta backup';
   @override
   String get backup_export_hint =>
-      'Save all settings, reading progress, and statistics to a file';
+      'Salva tutte le impostazioni, i progressi di lettura e le statistiche in un file';
   @override
-  String get backup_import => 'Import Backup';
+  String get backup_import => 'Importa backup';
   @override
   String get backup_import_hint =>
-      'Restore from a backup file. The app will restart.';
+      'Ripristina da un file di backup. L\'app verrà riavviata.';
   @override
-  String get backup_export_success => 'Backup exported successfully';
+  String get backup_export_success => 'Backup esportato correttamente';
   @override
   String backup_export_failed({required Object message}) =>
-      'Backup export failed: ${message}';
+      'Esportazione del backup non riuscita: ${message}';
   @override
-  String get backup_import_confirm_title => 'Restore Backup?';
+  String get backup_import_confirm_title => 'Ripristinare il backup?';
   @override
   String backup_import_confirm(
           {required Object date,
           required Object bookCount,
           required Object statsCount}) =>
-      'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+      'Questa operazione sostituirà tutti i dati attuali con il backup del ${date}.\n\n${bookCount} libri, ${statsCount} record di statistiche.\n\nL\'app verrà riavviata dopo il ripristino.';
   @override
-  String get backup_import_success => 'Backup restored. Restarting…';
+  String get backup_import_success => 'Backup ripristinato. Riavvio in corso…';
   @override
   String backup_import_failed({required Object message}) =>
-      'Backup import failed: ${message}';
+      'Importazione del backup non riuscita: ${message}';
   @override
-  String get backup_import_invalid => 'Invalid backup file';
+  String get backup_import_invalid => 'File di backup non valido';
   @override
-  String get backup_exporting => 'Creating backup…';
+  String get backup_exporting => 'Creazione del backup…';
   @override
   String backup_schema_newer({required Object version}) =>
-      'This backup requires a newer version of the app (schema ${version}). Please update first.';
+      'Questo backup richiede una versione più recente dell\'app (schema ${version}). Aggiorna prima l\'app.';
   @override
-  String get reverse_navigation_bar => 'Reverse navigation bar';
+  String get reverse_navigation_bar => 'Inverti barra di navigazione';
   @override
   String get sync_backend_onedrive => 'OneDrive';
   @override
@@ -18202,313 +18470,360 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_backend_hibiki_server => 'Hibiki P2P';
   @override
-  String get sync_server_enable => 'Enable sync server';
+  String get sync_server_enable => 'Abilita server di sincronizzazione';
   @override
-  String get sync_server_port => 'Server port';
+  String get sync_server_port => 'Porta del server';
   @override
-  String get sync_server_token => 'Access token';
+  String get sync_server_token => 'Token di accesso';
   @override
-  String get sync_server_copy_token => 'Copy token';
+  String get sync_server_copy_token => 'Copia token';
   @override
-  String get sync_server_regenerate_token => 'Regenerate token';
+  String get sync_server_regenerate_token => 'Rigenera token';
   @override
-  String get sync_server_running => 'Server running';
+  String get sync_server_running => 'Server in esecuzione';
   @override
-  String get sync_server_stopped => 'Server stopped';
+  String get sync_server_stopped => 'Server arrestato';
   @override
-  String get sync_lan_discovery => 'LAN devices';
+  String get sync_lan_discovery => 'Dispositivi LAN';
   @override
-  String get sync_lan_scanning => 'Scanning...';
+  String get sync_lan_scanning => 'Scansione in corso...';
   @override
-  String get sync_lan_no_devices => 'No devices found';
+  String get sync_lan_no_devices => 'Nessun dispositivo trovato';
   @override
-  String get sync_fallback_config => 'Fallback order';
+  String get sync_fallback_config => 'Ordine di fallback';
   @override
-  String get sync_test_connection => 'Test connection';
+  String get sync_test_connection => 'Prova connessione';
   @override
-  String get sync_connection_success => 'Connection successful';
+  String get sync_connection_success => 'Connessione riuscita';
   @override
-  String get sync_connection_failed => 'Connection failed';
+  String get sync_connection_failed => 'Connessione non riuscita';
   @override
   String get sync_host => 'Host';
   @override
-  String get sync_port => 'Port';
+  String get sync_port => 'Porta';
   @override
-  String get sync_username => 'Username';
+  String get sync_username => 'Nome utente';
   @override
   String get sync_password => 'Password';
   @override
-  String get sync_use_tls => 'Use TLS';
+  String get sync_use_tls => 'Usa TLS';
   @override
-  String get sync_private_key => 'Private key';
+  String get sync_private_key => 'Chiave privata';
   @override
-  String get skip_action => 'Skip Action';
+  String get skip_action => 'Azione di salto';
   @override
-  String get skip_action_sentence => '1 sentence';
+  String get skip_action_sentence => '1 frase';
   @override
-  String skip_action_seconds({required Object n}) => '${n} seconds';
+  String skip_action_seconds({required Object n}) => '${n} secondi';
   @override
-  String get shortcut_settings_title => 'Keyboard Shortcuts';
+  String get shortcut_settings_title => 'Scorciatoie da tastiera';
   @override
-  String get shortcut_scope_reader => 'Reader';
+  String get shortcut_scope_reader => 'Lettore';
   @override
   String get shortcut_scope_home => 'Home';
   @override
-  String get shortcut_scope_global => 'Global';
+  String get shortcut_scope_global => 'Globale';
   @override
-  String get shortcut_scope_audiobook => 'Audiobook';
+  String get shortcut_scope_audiobook => 'Audiolibro';
   @override
-  String get shortcut_action_reader_page_forward => 'Next Page';
+  String get shortcut_action_reader_page_forward => 'Pagina successiva';
   @override
-  String get shortcut_action_reader_page_backward => 'Previous Page';
+  String get shortcut_action_reader_page_backward => 'Pagina precedente';
   @override
-  String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+  String get shortcut_action_reader_toggle_chrome =>
+      'Mostra/nascondi controlli';
   @override
-  String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+  String get shortcut_action_reader_dismiss_dict => 'Chiudi dizionario';
   @override
-  String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+  String get shortcut_action_reader_toggle_bookmark =>
+      'Attiva/disattiva segnalibro';
   @override
-  String get shortcut_action_home_tab_books => 'Books Tab';
+  String get shortcut_action_home_tab_books => 'Scheda Libri';
   @override
-  String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+  String get shortcut_action_home_tab_dict => 'Scheda Dizionario';
   @override
-  String get shortcut_action_home_tab_settings => 'Settings Tab';
+  String get shortcut_action_home_tab_settings => 'Scheda Impostazioni';
   @override
-  String get shortcut_action_home_focus_search => 'Focus Search';
+  String get shortcut_action_home_focus_search => 'Vai alla ricerca';
   @override
-  String get shortcut_action_global_back => 'Go Back';
+  String get shortcut_action_global_back => 'Indietro';
   @override
-  String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+  String get shortcut_action_audiobook_play_pause => 'Riproduci / Pausa';
   @override
-  String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+  String get shortcut_action_audiobook_next_sentence => 'Frase successiva';
   @override
-  String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+  String get shortcut_action_audiobook_prev_sentence => 'Frase precedente';
   @override
-  String get shortcut_press_key => 'Press a key combination...';
+  String get shortcut_press_key => 'Premi una combinazione di tasti...';
   @override
-  String get shortcut_press_gamepad => 'Press a gamepad button...';
+  String get shortcut_press_gamepad => 'Premi un pulsante del gamepad...';
   @override
-  String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
+  String shortcut_conflict({required Object s}) => 'Già usata da: ${s}';
   @override
-  String get shortcut_reset_defaults => 'Reset to Defaults';
+  String get shortcut_reset_defaults => 'Ripristina predefinite';
   @override
   String get shortcut_reset_confirm =>
-      'Reset all shortcuts in this section to defaults?';
+      'Ripristinare tutte le scorciatoie di questa sezione ai valori predefiniti?';
   @override
-  String get shortcut_keyboard => 'Keyboard';
+  String get shortcut_keyboard => 'Tastiera';
   @override
   String get shortcut_gamepad => 'Gamepad';
   @override
-  String get shortcut_none => 'None';
+  String get shortcut_none => 'Nessuna';
   @override
-  String get shortcut_clear => 'Clear';
+  String get shortcut_clear => 'Cancella';
   @override
-  String get shortcut_stop_capture => 'Stop';
+  String get shortcut_stop_capture => 'Arresta';
   @override
-  String get section_advanced_typography => 'Advanced';
+  String get section_advanced_typography => 'Avanzate';
   @override
   String get sync_err_network =>
-      'Cannot reach the server — check your network or proxy settings.';
+      'Impossibile raggiungere il server — controlla la rete o le impostazioni del proxy.';
   @override
   String get sync_err_timeout =>
-      'Connection timed out — the server did not respond in time.';
+      'Connessione scaduta — il server non ha risposto in tempo.';
   @override
-  String get sync_err_quota => 'Cloud storage is full (quota reached).';
+  String get sync_err_quota =>
+      'Lo spazio di archiviazione cloud è pieno (quota raggiunta).';
   @override
-  String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
+  String get sync_err_auth_expired => 'Accesso scaduto — accedi di nuovo.';
   @override
   String sync_server_port_in_use({required Object port}) =>
-      'Port ${port} is already in use — pick a different port.';
+      'La porta ${port} è già in uso — scegli una porta diversa.';
   @override
   String get sync_lan_scan_failed =>
-      'Scan failed — check network permissions or firewall.';
+      'Scansione non riuscita — controlla i permessi di rete o il firewall.';
   @override
-  String get sync_section_method => 'Sync method';
+  String get sync_section_method => 'Metodo di sincronizzazione';
   @override
-  String get sync_section_host_server => 'This device as a sync server';
+  String get sync_section_host_server =>
+      'Questo dispositivo come server di sincronizzazione';
   @override
   String get sync_section_host_server_footer =>
-      'Let other devices sync from this device. Independent of the sync backend above.';
+      'Consenti ad altri dispositivi di sincronizzare da questo dispositivo. Indipendente dal backend di sincronizzazione sopra.';
   @override
-  String get sync_section_content => 'What to sync';
+  String get sync_section_content => 'Cosa sincronizzare';
   @override
-  String get sync_section_actions => 'Sync actions';
+  String get sync_section_actions => 'Azioni di sincronizzazione';
   @override
-  String get sync_section_backup => 'Local backup';
+  String get sync_section_backup => 'Backup locale';
   @override
   String get backup_import_preserve_sync_note =>
-      'Your sync settings on this device (account and credentials) will be kept.';
+      'Le impostazioni di sincronizzazione su questo dispositivo (account e credenziali) verranno mantenute.';
   @override
-  String get backup_import_settings_toggle => 'Import settings & profiles';
+  String get backup_import_settings_toggle => 'Importa impostazioni e profili';
   @override
   String get backup_import_settings_on_hint =>
-      'Full restore: fonts, appearance and profiles come from the backup.';
+      'Ripristino completo: font, aspetto e profili provengono dal backup.';
   @override
   String get backup_import_settings_off_hint =>
-      'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+      'Mantieni font/aspetto/profili di questo dispositivo; ripristina solo libri e dati di lettura.';
   @override
   String get reader_unsupported_platform =>
-      'The reader is not yet available on this platform.';
+      'Il lettore non è ancora disponibile su questa piattaforma.';
   @override
   String get microphone_permission_denied =>
-      'Microphone permission is required to record.';
+      'È necessaria l\'autorizzazione del microfono per registrare.';
   @override
-  String get anki_connect_api_key => 'API Key';
+  String get anki_connect_api_key => 'Chiave API';
   @override
   String get anki_connect_api_key_hint =>
-      'Leave empty unless AnkiConnect requires a key';
+      'Lascia vuoto a meno che AnkiConnect non richieda una chiave';
   @override
   String get shortcut_action_global_scroll_page_down =>
-      'Scroll down one screen';
+      'Scorri giù di una schermata';
   @override
-  String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+  String get shortcut_action_global_scroll_page_up =>
+      'Scorri su di una schermata';
   @override
-  String get shortcut_action_home_tab_prev => 'Previous tab';
+  String get shortcut_action_home_tab_prev => 'Scheda precedente';
   @override
-  String get shortcut_action_home_tab_next => 'Next tab';
+  String get shortcut_action_home_tab_next => 'Scheda successiva';
   @override
-  String get move_up => 'Move up';
+  String get move_up => 'Sposta su';
   @override
-  String get move_down => 'Move down';
+  String get move_down => 'Sposta giù';
   @override
-  String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_toggle_furigana =>
+      'Attiva/disattiva furigana';
   @override
-  String get on_screen_keyboard => 'On-screen keyboard';
+  String get on_screen_keyboard => 'Tastiera su schermo';
   @override
-  String get app_ui_scale => 'UI size';
+  String get app_ui_scale => 'Dimensione interfaccia';
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary => 'Sincronizza dizionari';
   @override
   String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
+      'I pacchetti di dizionari possono essere grandi e includere risorse di dizionari importate.';
   @override
-  String get settings_destination_reading => 'Reading';
+  String get settings_destination_reading => 'Lettura';
   @override
-  String get remote_dict_lookup => 'Remote dictionary lookup';
+  String get remote_dict_lookup => 'Ricerca dizionario remoto';
   @override
   String get remote_dict_lookup_hint =>
-      'When local dictionaries miss, query the configured Hibiki server';
+      'Quando i dizionari locali non trovano risultati, interroga il server Hibiki configurato';
   @override
-  String get remote_audio_source => 'Remote audio';
+  String get remote_audio_source => 'Audio remoto';
   @override
-  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_success => 'Associato — token inserito';
   @override
-  String get sync_pair_failed => 'Pairing failed';
+  String get sync_pair_failed => 'Associazione non riuscita';
   @override
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   @override
-  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_sources_remote_group => 'Sorgenti remote';
   @override
   String get audio_source_url_invalid =>
-      'Link must be http(s) and contain a term or reading placeholder';
+      'Il link deve essere http(s) e contenere un segnaposto per il termine o la lettura';
   @override
-  String get audio_source_added => 'Audio source added';
+  String get audio_source_added => 'Sorgente audio aggiunta';
   @override
-  String get local_audio_imported => 'Audio database added';
+  String get local_audio_imported => 'Database audio aggiunto';
   @override
-  String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_import_failed =>
+      'Impossibile importare il database audio';
   @override
-  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_edit_sources => 'Modifica sorgenti';
   @override
-  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_source_order_title => 'Priorità delle sorgenti';
   @override
-  String get local_audio_no_sources => 'No sources found in this database';
+  String get local_audio_no_sources =>
+      'Nessuna sorgente trovata in questo database';
   @override
-  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_title => 'Richiesta di associazione';
   @override
   String get sync_pair_request_body =>
-      'A device is requesting to pair. Allow it to sync with this device?';
+      'Un dispositivo sta richiedendo l\'associazione. Consentirgli di sincronizzarsi con questo dispositivo?';
   @override
-  String get sync_pair_allow => 'Allow';
+  String get sync_pair_allow => 'Consenti';
   @override
-  String get sync_pair_deny => 'Deny';
+  String get sync_pair_deny => 'Rifiuta';
   @override
-  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_denied =>
+      'L\'altro dispositivo ha rifiutato l\'associazione';
   @override
-  String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unknown_device => 'Dispositivo sconosciuto';
   @override
   String get sync_pair_unavailable =>
-      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      'L\'altro dispositivo non è pronto o ha una versione precedente. Aggiornalo e abilita la sincronizzazione, poi riprova.';
   @override
   String get sync_role_locked_by_server =>
-      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      'Questo dispositivo è in funzione come server. Disattiva il server prima di connetterti ad altri dispositivi.';
   @override
   String get sync_role_locked_by_client =>
-      'Already connected to another device. Remove the connection before hosting as a server.';
+      'Già connesso a un altro dispositivo. Rimuovi la connessione prima di avviare come server.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
   @override
-  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files => 'Sincronizza file degli audiolibri';
   @override
   String get sync_audiobook_files_warning =>
-      'Audio and subtitles can be large.';
+      'Audio e sottotitoli possono essere di grandi dimensioni.';
   @override
-  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_title => 'Libro duplicato';
   @override
-  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_keep => 'Sì, aggiungi suffisso';
   @override
-  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancel => 'No, annulla';
   @override
-  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String get book_import_duplicate_cancelled => 'Importazione annullata';
   @override
   String book_import_duplicate_message({required Object name}) =>
-      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      'Esiste già un libro chiamato "${name}". Importarlo comunque? "Sì" lo importa con un suffisso numerato; "No" annulla.';
   @override
-  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
+  String get reverse_reader_bottom_bar => 'Inverti barra inferiore del lettore';
   @override
-  String get floating_dict_close => 'Close';
+  String get floating_dict_close => 'Chiudi';
   @override
-  String get debug_log_share_subject => 'hibiki Debug Log';
+  String get debug_log_share_subject => 'Log di debug di hibiki';
   @override
-  String get spread_direction_rtl => 'Right to Left';
+  String get spread_direction_rtl => 'Da destra a sinistra';
   @override
-  String get spread_direction_ltr => 'Left to Right';
+  String get spread_direction_ltr => 'Da sinistra a destra';
   @override
   String dict_download_partial(
           {required Object success,
           required Object total,
           required Object error}) =>
-      '${success} / ${total} OK. Failed: ${error}';
+      '${success} / ${total} OK. Falliti: ${error}';
   @override
-  String get sync_now => 'Sync now';
+  String get sync_now => 'Sincronizza ora';
   @override
-  String get sync_now_hint => 'Run a full two-way sync with the cloud now';
+  String get sync_now_hint =>
+      'Esegui ora una sincronizzazione bidirezionale completa con il cloud';
   @override
-  String get sync_now_busy => 'A sync is already running';
+  String get sync_now_busy => 'Una sincronizzazione è già in corso';
   @override
-  String get sync_now_no_changes => 'no changes';
+  String get sync_now_no_changes => 'nessuna modifica';
   @override
-  String sync_now_done({required Object detail}) => 'Synced · ${detail}';
+  String sync_now_done({required Object detail}) => 'Sincronizzato · ${detail}';
   @override
   String sync_now_failed_suffix({required Object count}) =>
-      ' · ${count} failed';
+      ' · ${count} falliti';
   @override
-  String sync_now_books_in({required Object count}) => '↓${count} books';
+  String sync_now_books_in({required Object count}) => '↓${count} libri';
   @override
-  String sync_now_dicts_in({required Object count}) => '↓${count} dictionaries';
+  String sync_now_dicts_in({required Object count}) => '↓${count} dizionari';
   @override
-  String sync_now_dicts_out({required Object count}) =>
-      '↑${count} dictionaries';
+  String sync_now_dicts_out({required Object count}) => '↑${count} dizionari';
   @override
-  String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
+  String sync_now_audio_in({required Object count}) => '↓${count} audiolibri';
   @override
-  String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String sync_now_audio_out({required Object count}) => '↑${count} audiolibri';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => 'Dizionari';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => 'Elimina libro sul remoto';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook => 'Elimina audiolibro sul remoto';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => 'Elimina dizionario sul remoto';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => 'Eliminato dal remoto';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      'Eliminare "${name}" dal remoto? I dati locali vengono mantenuti. Questa operazione non può essere annullata.';
+  @override
+  String get dictionaries_delete_failed => 'Impossibile eliminare i dizionari';
+  @override
+  String get dictionary_delete_failed => 'Impossibile eliminare il dizionario';
+  @override
+  String get sync_webdav_missing_fields => 'Campi mancanti';
+  @override
+  String get sync_compare_download => 'Scarica';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -19716,7 +20031,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get ttu_scroll => 'スクロール';
   @override
-  String get ttu_furigana_mode => 'Furigana';
+  String get ttu_furigana_mode => 'ふりがな';
   @override
   String get ttu_furigana_show => '表示';
   @override
@@ -20724,7 +21039,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_statistics => '統計を同期';
   @override
-  String get sync_summary => 'Google Drive · ッツ/Hoshi Reader互換';
+  String get sync_summary => 'クラウド・LAN P2P・ローカルバックアップ · ッツ/Hoshi Reader 互換';
   @override
   String get sync_title => '同期';
   @override
@@ -20734,138 +21049,133 @@ class _StringsJa extends _StringsEn {
   @override
   String get update_channel_stable => '安定版';
   @override
-  String get anki_connect_host => 'Host';
+  String get anki_connect_host => 'ホスト';
   @override
-  String get anki_connect_port => 'Port';
+  String get anki_connect_port => 'ポート';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => 'データを比較';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => 'ローカルとリモート';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => 'ローカル';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => 'リモート';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => 'データなし';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => '書籍が見つかりません';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => '日';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => '競合';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => 'すべての書籍';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => 'すべて選択';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => 'すべて → ローカル';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => 'すべて → リモート';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => 'すべて → スキップ';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => 'ローカル';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => 'リモート';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => 'スキップ';
   @override
-  String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+  String sync_compare_applied({required Object count}) => '${count}件の変更を適用しました';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => '適用 (${count})';
   @override
-  String get sync_auto_sync => 'Auto Sync';
+  String get sync_auto_sync => '自動同期';
   @override
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
-      'Sync: ${direction} ${title}';
+      '同期: ${direction} ${title}';
   @override
-  String get no_matching_audio_cue => 'No matching audio for this sentence';
+  String get no_matching_audio_cue => 'この文に対応する音声がありません';
   @override
-  String get sync_exit_warning_title => 'Sync In Progress';
+  String get sync_exit_warning_title => '同期中';
   @override
-  String get sync_exit_warning =>
-      'Sync is still in progress. Exiting now may cause data loss.';
+  String get sync_exit_warning => '同期がまだ進行中です。今終了するとデータが失われる可能性があります。';
   @override
-  String get sync_content => 'Sync book files';
+  String get sync_content => '書籍ファイルを同期';
   @override
-  String get sync_content_warning =>
-      'Large files will use storage space and data';
+  String get sync_content_warning => '大きなファイルはストレージと通信量を消費します';
   @override
-  String get sync_backend => 'Storage backend';
+  String get sync_backend => 'ストレージバックエンド';
   @override
   String get sync_backend_google_drive => 'Google Drive';
   @override
   String get sync_backend_webdav => 'WebDAV';
   @override
-  String get sync_webdav_url => 'Server URL';
+  String get sync_webdav_url => 'サーバーURL';
   @override
-  String get sync_webdav_username => 'Username';
+  String get sync_webdav_username => 'ユーザー名';
   @override
-  String get sync_webdav_password => 'Password';
+  String get sync_webdav_password => 'パスワード';
   @override
-  String get sync_webdav_test => 'Test connection';
+  String get sync_webdav_test => '接続テスト';
   @override
-  String get sync_webdav_test_success => 'Connection successful';
+  String get sync_webdav_test_success => '接続に成功しました';
   @override
   String sync_webdav_test_failed({required Object message}) =>
-      'Connection failed: ${message}';
+      '接続に失敗しました: ${message}';
   @override
-  String get book_file_not_found => 'Book file not found';
+  String get book_file_not_found => '書籍ファイルが見つかりません';
   @override
-  String get epub_parse_fallback => 'Book metadata repaired from database';
+  String get epub_parse_fallback => 'データベースから書籍情報を復元しました';
   @override
-  String get retry => 'Retry';
+  String get retry => '再試行';
   @override
-  String get copy_error => 'Copy Error';
+  String get copy_error => 'エラーをコピー';
   @override
-  String get error_copied => 'Error copied to clipboard';
+  String get error_copied => 'エラーをクリップボードにコピーしました';
   @override
   String dict_import_failed_summary({required Object n}) =>
-      'Failed to import ${n} dictionary(s)';
+      '${n}件の辞書のインポートに失敗しました';
   @override
   String get reader_content_timeout =>
-      'Content loading timed out. Reopen if display is abnormal';
+      'コンテンツの読み込みがタイムアウトしました。表示が異常な場合は開き直してください';
   @override
-  String get backup_local => 'Local Backup';
+  String get backup_local => 'ローカルバックアップ';
   @override
-  String get backup_export => 'Export Backup';
+  String get backup_export => 'バックアップを書き出す';
   @override
-  String get backup_export_hint =>
-      'Save all settings, reading progress, and statistics to a file';
+  String get backup_export_hint => 'すべての設定・読書進捗・統計をファイルに保存します';
   @override
-  String get backup_import => 'Import Backup';
+  String get backup_import => 'バックアップを読み込む';
   @override
-  String get backup_import_hint =>
-      'Restore from a backup file. The app will restart.';
+  String get backup_import_hint => 'バックアップファイルから復元します。アプリが再起動します。';
   @override
-  String get backup_export_success => 'Backup exported successfully';
+  String get backup_export_success => 'バックアップを書き出しました';
   @override
   String backup_export_failed({required Object message}) =>
-      'Backup export failed: ${message}';
+      'バックアップの書き出しに失敗しました: ${message}';
   @override
-  String get backup_import_confirm_title => 'Restore Backup?';
+  String get backup_import_confirm_title => 'バックアップを復元しますか？';
   @override
   String backup_import_confirm(
           {required Object date,
           required Object bookCount,
           required Object statsCount}) =>
-      'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+      '現在のすべてのデータが${date}のバックアップで置き換えられます。\n\n書籍${bookCount}冊、統計${statsCount}件。\n\n復元後にアプリが再起動します。';
   @override
-  String get backup_import_success => 'Backup restored. Restarting…';
+  String get backup_import_success => 'バックアップを復元しました。再起動中…';
   @override
   String backup_import_failed({required Object message}) =>
-      'Backup import failed: ${message}';
+      'バックアップの読み込みに失敗しました: ${message}';
   @override
-  String get backup_import_invalid => 'Invalid backup file';
+  String get backup_import_invalid => '無効なバックアップファイルです';
   @override
-  String get backup_exporting => 'Creating backup…';
+  String get backup_exporting => 'バックアップを作成中…';
   @override
   String backup_schema_newer({required Object version}) =>
-      'This backup requires a newer version of the app (schema ${version}). Please update first.';
+      'このバックアップには新しいバージョンのアプリが必要です（スキーマ ${version}）。先にアップデートしてください。';
   @override
-  String get reverse_navigation_bar => 'Reverse navigation bar';
+  String get reverse_navigation_bar => 'ナビゲーションバーを反転';
   @override
   String get sync_backend_onedrive => 'OneDrive';
   @override
@@ -20877,313 +21187,341 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_backend_hibiki_server => 'Hibiki P2P';
   @override
-  String get sync_server_enable => 'Enable sync server';
+  String get sync_server_enable => '同期サーバーを有効化';
   @override
-  String get sync_server_port => 'Server port';
+  String get sync_server_port => 'サーバーポート';
   @override
-  String get sync_server_token => 'Access token';
+  String get sync_server_token => 'アクセストークン';
   @override
-  String get sync_server_copy_token => 'Copy token';
+  String get sync_server_copy_token => 'トークンをコピー';
   @override
-  String get sync_server_regenerate_token => 'Regenerate token';
+  String get sync_server_regenerate_token => 'トークンを再生成';
   @override
-  String get sync_server_running => 'Server running';
+  String get sync_server_running => 'サーバー稼働中';
   @override
-  String get sync_server_stopped => 'Server stopped';
+  String get sync_server_stopped => 'サーバー停止中';
   @override
-  String get sync_lan_discovery => 'LAN devices';
+  String get sync_lan_discovery => 'LAN内のデバイス';
   @override
-  String get sync_lan_scanning => 'Scanning...';
+  String get sync_lan_scanning => 'スキャン中...';
   @override
-  String get sync_lan_no_devices => 'No devices found';
+  String get sync_lan_no_devices => 'デバイスが見つかりません';
   @override
-  String get sync_fallback_config => 'Fallback order';
+  String get sync_fallback_config => 'フォールバック順序';
   @override
-  String get sync_test_connection => 'Test connection';
+  String get sync_test_connection => '接続テスト';
   @override
-  String get sync_connection_success => 'Connection successful';
+  String get sync_connection_success => '接続に成功しました';
   @override
-  String get sync_connection_failed => 'Connection failed';
+  String get sync_connection_failed => '接続に失敗しました';
   @override
-  String get sync_host => 'Host';
+  String get sync_host => 'ホスト';
   @override
-  String get sync_port => 'Port';
+  String get sync_port => 'ポート';
   @override
-  String get sync_username => 'Username';
+  String get sync_username => 'ユーザー名';
   @override
-  String get sync_password => 'Password';
+  String get sync_password => 'パスワード';
   @override
-  String get sync_use_tls => 'Use TLS';
+  String get sync_use_tls => 'TLSを使用';
   @override
-  String get sync_private_key => 'Private key';
+  String get sync_private_key => '秘密鍵';
   @override
-  String get skip_action => 'Skip Action';
+  String get skip_action => 'アクションをスキップ';
   @override
-  String get skip_action_sentence => '1 sentence';
+  String get skip_action_sentence => '1文';
   @override
   String skip_action_seconds({required Object n}) => '${n} 秒';
   @override
-  String get shortcut_settings_title => 'Keyboard Shortcuts';
+  String get shortcut_settings_title => 'キーボードショートカット';
   @override
-  String get shortcut_scope_reader => 'Reader';
+  String get shortcut_scope_reader => 'リーダー';
   @override
-  String get shortcut_scope_home => 'Home';
+  String get shortcut_scope_home => 'ホーム';
   @override
-  String get shortcut_scope_global => 'Global';
+  String get shortcut_scope_global => 'グローバル';
   @override
-  String get shortcut_scope_audiobook => 'Audiobook';
+  String get shortcut_scope_audiobook => 'オーディオブック';
   @override
-  String get shortcut_action_reader_page_forward => 'Next Page';
+  String get shortcut_action_reader_page_forward => '次のページ';
   @override
-  String get shortcut_action_reader_page_backward => 'Previous Page';
+  String get shortcut_action_reader_page_backward => '前のページ';
   @override
-  String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+  String get shortcut_action_reader_toggle_chrome => 'コントロールの表示切替';
   @override
-  String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+  String get shortcut_action_reader_dismiss_dict => '辞書を閉じる';
   @override
-  String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+  String get shortcut_action_reader_toggle_bookmark => 'ブックマークの切替';
   @override
-  String get shortcut_action_home_tab_books => 'Books Tab';
+  String get shortcut_action_home_tab_books => '書籍タブ';
   @override
-  String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+  String get shortcut_action_home_tab_dict => '辞書タブ';
   @override
-  String get shortcut_action_home_tab_settings => 'Settings Tab';
+  String get shortcut_action_home_tab_settings => '設定タブ';
   @override
-  String get shortcut_action_home_focus_search => 'Focus Search';
+  String get shortcut_action_home_focus_search => '検索にフォーカス';
   @override
-  String get shortcut_action_global_back => 'Go Back';
+  String get shortcut_action_global_back => '戻る';
   @override
-  String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+  String get shortcut_action_audiobook_play_pause => '再生 / 一時停止';
   @override
-  String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+  String get shortcut_action_audiobook_next_sentence => '次の文';
   @override
-  String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+  String get shortcut_action_audiobook_prev_sentence => '前の文';
   @override
-  String get shortcut_press_key => 'Press a key combination...';
+  String get shortcut_press_key => 'キーの組み合わせを押してください...';
   @override
-  String get shortcut_press_gamepad => 'Press a gamepad button...';
+  String get shortcut_press_gamepad => 'ゲームパッドのボタンを押してください...';
   @override
-  String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
+  String shortcut_conflict({required Object s}) => '既に使用中: ${s}';
   @override
-  String get shortcut_reset_defaults => 'Reset to Defaults';
+  String get shortcut_reset_defaults => 'デフォルトに戻す';
   @override
-  String get shortcut_reset_confirm =>
-      'Reset all shortcuts in this section to defaults?';
+  String get shortcut_reset_confirm => 'このセクションのすべてのショートカットをデフォルトに戻しますか？';
   @override
-  String get shortcut_keyboard => 'Keyboard';
+  String get shortcut_keyboard => 'キーボード';
   @override
-  String get shortcut_gamepad => 'Gamepad';
+  String get shortcut_gamepad => 'ゲームパッド';
   @override
-  String get shortcut_none => 'None';
+  String get shortcut_none => 'なし';
   @override
-  String get shortcut_clear => 'Clear';
+  String get shortcut_clear => 'クリア';
   @override
-  String get shortcut_stop_capture => 'Stop';
+  String get shortcut_stop_capture => '停止';
   @override
-  String get section_advanced_typography => 'Advanced';
+  String get section_advanced_typography => '詳細設定';
   @override
-  String get sync_err_network =>
-      'Cannot reach the server — check your network or proxy settings.';
+  String get sync_err_network => 'サーバーに接続できません — ネットワークやプロキシ設定を確認してください。';
   @override
-  String get sync_err_timeout =>
-      'Connection timed out — the server did not respond in time.';
+  String get sync_err_timeout => '接続がタイムアウトしました — サーバーが時間内に応答しませんでした。';
   @override
-  String get sync_err_quota => 'Cloud storage is full (quota reached).';
+  String get sync_err_quota => 'クラウドストレージの容量がいっぱいです（上限に達しました）。';
   @override
-  String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
+  String get sync_err_auth_expired => 'サインインの有効期限が切れました — もう一度サインインしてください。';
   @override
   String sync_server_port_in_use({required Object port}) =>
-      'Port ${port} is already in use — pick a different port.';
+      'ポート ${port} は既に使用中です — 別のポートを選んでください。';
   @override
   String get sync_lan_scan_failed =>
-      'Scan failed — check network permissions or firewall.';
+      'スキャンに失敗しました — ネットワーク権限やファイアウォールを確認してください。';
   @override
-  String get sync_section_method => 'Sync method';
+  String get sync_section_method => '同期方法';
   @override
-  String get sync_section_host_server => 'This device as a sync server';
+  String get sync_section_host_server => 'このデバイスを同期サーバーにする';
   @override
   String get sync_section_host_server_footer =>
-      'Let other devices sync from this device. Independent of the sync backend above.';
+      '他のデバイスがこのデバイスから同期できるようにします。上記の同期バックエンドとは独立しています。';
   @override
-  String get sync_section_content => 'What to sync';
+  String get sync_section_content => '同期する内容';
   @override
-  String get sync_section_actions => 'Sync actions';
+  String get sync_section_actions => '同期操作';
   @override
-  String get sync_section_backup => 'Local backup';
+  String get sync_section_backup => 'ローカルバックアップ';
   @override
   String get backup_import_preserve_sync_note =>
-      'Your sync settings on this device (account and credentials) will be kept.';
+      'このデバイスの同期設定（アカウントと認証情報）は保持されます。';
   @override
-  String get backup_import_settings_toggle => 'Import settings & profiles';
+  String get backup_import_settings_toggle => '設定とプロファイルをインポート';
   @override
   String get backup_import_settings_on_hint =>
-      'Full restore: fonts, appearance and profiles come from the backup.';
+      '完全復元: フォント・外観・プロファイルをバックアップから復元します。';
   @override
   String get backup_import_settings_off_hint =>
-      'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+      'このデバイスのフォント・外観・プロファイルを保持し、書籍と読書データのみ復元します。';
   @override
-  String get reader_unsupported_platform =>
-      'The reader is not yet available on this platform.';
+  String get reader_unsupported_platform => 'リーダーはこのプラットフォームではまだ利用できません。';
   @override
-  String get microphone_permission_denied =>
-      'Microphone permission is required to record.';
+  String get microphone_permission_denied => '録音にはマイクの権限が必要です。';
   @override
-  String get anki_connect_api_key => 'API Key';
+  String get anki_connect_api_key => 'APIキー';
   @override
   String get anki_connect_api_key_hint =>
-      'Leave empty unless AnkiConnect requires a key';
+      'AnkiConnectがキーを必要とする場合以外は空欄のままにしてください';
   @override
-  String get shortcut_action_global_scroll_page_down =>
-      'Scroll down one screen';
+  String get shortcut_action_global_scroll_page_down => '1画面分下にスクロール';
   @override
-  String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+  String get shortcut_action_global_scroll_page_up => '1画面分上にスクロール';
   @override
-  String get shortcut_action_home_tab_prev => 'Previous tab';
+  String get shortcut_action_home_tab_prev => '前のタブ';
   @override
-  String get shortcut_action_home_tab_next => 'Next tab';
+  String get shortcut_action_home_tab_next => '次のタブ';
   @override
-  String get move_up => 'Move up';
+  String get move_up => '上に移動';
   @override
-  String get move_down => 'Move down';
+  String get move_down => '下に移動';
   @override
-  String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_toggle_furigana => 'ふりがなの切替';
   @override
-  String get on_screen_keyboard => 'On-screen keyboard';
+  String get on_screen_keyboard => 'オンスクリーンキーボード';
   @override
-  String get app_ui_scale => 'UI size';
+  String get app_ui_scale => 'UIサイズ';
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary => '辞書を同期';
   @override
   String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
+      '辞書パッケージは大きくなることがあり、インポートした辞書リソースを含みます。';
   @override
-  String get settings_destination_reading => 'Reading';
+  String get settings_destination_reading => '読書';
   @override
-  String get remote_dict_lookup => 'Remote dictionary lookup';
+  String get remote_dict_lookup => 'リモート辞書検索';
   @override
   String get remote_dict_lookup_hint =>
-      'When local dictionaries miss, query the configured Hibiki server';
+      'ローカル辞書でヒットしない場合、設定したHibikiサーバーに問い合わせます';
   @override
-  String get remote_audio_source => 'Remote audio';
+  String get remote_audio_source => 'リモート音声';
   @override
-  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_success => 'ペアリング完了 — トークンを入力しました';
   @override
-  String get sync_pair_failed => 'Pairing failed';
+  String get sync_pair_failed => 'ペアリングに失敗しました';
   @override
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   @override
-  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_sources_remote_group => 'リモートソース';
   @override
   String get audio_source_url_invalid =>
-      'Link must be http(s) and contain a term or reading placeholder';
+      'リンクはhttp(s)で、見出し語または読みのプレースホルダーを含む必要があります';
   @override
-  String get audio_source_added => 'Audio source added';
+  String get audio_source_added => '音声ソースを追加しました';
   @override
-  String get local_audio_imported => 'Audio database added';
+  String get local_audio_imported => '音声データベースを追加しました';
   @override
-  String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_import_failed => '音声データベースのインポートに失敗しました';
   @override
-  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_edit_sources => 'ソースを編集';
   @override
-  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_source_order_title => 'ソースの優先順位';
   @override
-  String get local_audio_no_sources => 'No sources found in this database';
+  String get local_audio_no_sources => 'このデータベースにソースが見つかりません';
   @override
-  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_title => 'ペアリング要求';
   @override
-  String get sync_pair_request_body =>
-      'A device is requesting to pair. Allow it to sync with this device?';
+  String get sync_pair_request_body => 'デバイスがペアリングを要求しています。このデバイスとの同期を許可しますか？';
   @override
-  String get sync_pair_allow => 'Allow';
+  String get sync_pair_allow => '許可';
   @override
-  String get sync_pair_deny => 'Deny';
+  String get sync_pair_deny => '拒否';
   @override
-  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_denied => '相手のデバイスがペアリングを拒否しました';
   @override
-  String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unknown_device => '不明なデバイス';
   @override
   String get sync_pair_unavailable =>
-      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      '相手のデバイスが準備できていないか、古いバージョンです。アップデートして同期を有効にしてから、もう一度お試しください。';
   @override
   String get sync_role_locked_by_server =>
-      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      'このデバイスはサーバーとして動作中です。他のデバイスに接続する前にサーバーをオフにしてください。';
   @override
   String get sync_role_locked_by_client =>
-      'Already connected to another device. Remove the connection before hosting as a server.';
+      '既に別のデバイスに接続しています。サーバーとして動作する前に接続を解除してください。';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
   @override
-  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files => 'オーディオブックファイルを同期';
   @override
-  String get sync_audiobook_files_warning =>
-      'Audio and subtitles can be large.';
+  String get sync_audiobook_files_warning => '音声と字幕は大きくなることがあります。';
   @override
-  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_title => '重複した書籍';
   @override
-  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_keep => 'はい、接尾辞を付ける';
   @override
-  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancel => 'いいえ、キャンセル';
   @override
-  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String get book_import_duplicate_cancelled => 'インポートをキャンセルしました';
   @override
   String book_import_duplicate_message({required Object name}) =>
-      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      '「${name}」という書籍は既に存在します。それでもインポートしますか？「はい」で連番の接尾辞を付けてインポート、「いいえ」でキャンセルします。';
   @override
-  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
+  String get reverse_reader_bottom_bar => 'リーダーの下部バーを反転';
   @override
-  String get floating_dict_close => 'Close';
+  String get floating_dict_close => '閉じる';
   @override
-  String get debug_log_share_subject => 'hibiki Debug Log';
+  String get debug_log_share_subject => 'hibiki デバッグログ';
   @override
-  String get spread_direction_rtl => 'Right to Left';
+  String get spread_direction_rtl => '右から左';
   @override
-  String get spread_direction_ltr => 'Left to Right';
+  String get spread_direction_ltr => '左から右';
   @override
   String dict_download_partial(
           {required Object success,
           required Object total,
           required Object error}) =>
-      '${success} / ${total} OK. Failed: ${error}';
+      '${success} / ${total} 成功。失敗: ${error}';
   @override
-  String get sync_now => 'Sync now';
+  String get sync_now => '今すぐ同期';
   @override
-  String get sync_now_hint => 'Run a full two-way sync with the cloud now';
+  String get sync_now_hint => '今すぐクラウドと双方向の完全同期を実行します';
   @override
-  String get sync_now_busy => 'A sync is already running';
+  String get sync_now_busy => '既に同期が実行中です';
   @override
-  String get sync_now_no_changes => 'no changes';
+  String get sync_now_no_changes => '変更なし';
   @override
-  String sync_now_done({required Object detail}) => 'Synced · ${detail}';
+  String sync_now_done({required Object detail}) => '同期完了 · ${detail}';
   @override
-  String sync_now_failed_suffix({required Object count}) =>
-      ' · ${count} failed';
+  String sync_now_failed_suffix({required Object count}) => ' · ${count}件失敗';
   @override
-  String sync_now_books_in({required Object count}) => '↓${count} books';
+  String sync_now_books_in({required Object count}) => '↓${count}冊の書籍';
   @override
-  String sync_now_dicts_in({required Object count}) => '↓${count} dictionaries';
+  String sync_now_dicts_in({required Object count}) => '↓${count}件の辞書';
   @override
-  String sync_now_dicts_out({required Object count}) =>
-      '↑${count} dictionaries';
+  String sync_now_dicts_out({required Object count}) => '↑${count}件の辞書';
   @override
-  String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
+  String sync_now_audio_in({required Object count}) => '↓${count}件のオーディオブック';
   @override
-  String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String sync_now_audio_out({required Object count}) => '↑${count}件のオーディオブック';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => '辞書';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => 'リモートの書籍を削除';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook => 'リモートのオーディオブックを削除';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => 'リモートの辞書を削除';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => 'リモートから削除しました';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      '「${name}」をリモートから削除しますか？ローカルのデータは保持されます。この操作は取り消せません。';
+  @override
+  String get dictionaries_delete_failed => '辞書の削除に失敗しました';
+  @override
+  String get dictionary_delete_failed => '辞書の削除に失敗しました';
+  @override
+  String get sync_webdav_missing_fields => '未入力の項目があります';
+  @override
+  String get sync_compare_download => 'ダウンロード';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -22393,7 +22731,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get ttu_scroll => '스크롤';
   @override
-  String get ttu_furigana_mode => 'Furigana';
+  String get ttu_furigana_mode => '후리가나';
   @override
   String get ttu_furigana_show => '표시';
   @override
@@ -23404,7 +23742,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_statistics => '통계 동기화';
   @override
-  String get sync_summary => 'Google Drive · ッツ/Hoshi Reader 호환';
+  String get sync_summary => '클라우드, LAN P2P 및 로컬 백업 · ッツ/Hoshi Reader 호환';
   @override
   String get sync_title => '동기화';
   @override
@@ -23414,138 +23752,132 @@ class _StringsKo extends _StringsEn {
   @override
   String get update_channel_stable => '안정';
   @override
-  String get anki_connect_host => 'Host';
+  String get anki_connect_host => '호스트';
   @override
-  String get anki_connect_port => 'Port';
+  String get anki_connect_port => '포트';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => '데이터 비교';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => '로컬 vs 원격';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => '로컬';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => '원격';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => '데이터 없음';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => '책을 찾을 수 없음';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => '일';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => '충돌';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => '모든 책';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => '모두 선택';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => '모두 → 로컬';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => '모두 → 원격';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => '모두 → 건너뛰기';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => '로컬';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => '원격';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => '건너뛰기';
   @override
-  String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+  String sync_compare_applied({required Object count}) => '변경 사항 ${count}개 적용됨';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => '적용 (${count})';
   @override
-  String get sync_auto_sync => 'Auto Sync';
+  String get sync_auto_sync => '자동 동기화';
   @override
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
-      'Sync: ${direction} ${title}';
+      '동기화: ${direction} ${title}';
   @override
-  String get no_matching_audio_cue => 'No matching audio for this sentence';
+  String get no_matching_audio_cue => '이 문장에 일치하는 오디오 없음';
   @override
-  String get sync_exit_warning_title => 'Sync In Progress';
+  String get sync_exit_warning_title => '동기화 진행 중';
   @override
-  String get sync_exit_warning =>
-      'Sync is still in progress. Exiting now may cause data loss.';
+  String get sync_exit_warning => '동기화가 아직 진행 중입니다. 지금 종료하면 데이터가 손실될 수 있습니다.';
   @override
-  String get sync_content => 'Sync book files';
+  String get sync_content => '책 파일 동기화';
   @override
-  String get sync_content_warning =>
-      'Large files will use storage space and data';
+  String get sync_content_warning => '큰 파일은 저장 공간과 데이터를 사용합니다';
   @override
-  String get sync_backend => 'Storage backend';
+  String get sync_backend => '저장소 백엔드';
   @override
   String get sync_backend_google_drive => 'Google Drive';
   @override
   String get sync_backend_webdav => 'WebDAV';
   @override
-  String get sync_webdav_url => 'Server URL';
+  String get sync_webdav_url => '서버 URL';
   @override
-  String get sync_webdav_username => 'Username';
+  String get sync_webdav_username => '사용자 이름';
   @override
-  String get sync_webdav_password => 'Password';
+  String get sync_webdav_password => '비밀번호';
   @override
-  String get sync_webdav_test => 'Test connection';
+  String get sync_webdav_test => '연결 테스트';
   @override
-  String get sync_webdav_test_success => 'Connection successful';
+  String get sync_webdav_test_success => '연결 성공';
   @override
   String sync_webdav_test_failed({required Object message}) =>
-      'Connection failed: ${message}';
+      '연결 실패: ${message}';
   @override
-  String get book_file_not_found => 'Book file not found';
+  String get book_file_not_found => '책 파일을 찾을 수 없음';
   @override
-  String get epub_parse_fallback => 'Book metadata repaired from database';
+  String get epub_parse_fallback => '데이터베이스에서 책 메타데이터를 복구했습니다';
   @override
-  String get retry => 'Retry';
+  String get retry => '다시 시도';
   @override
-  String get copy_error => 'Copy Error';
+  String get copy_error => '오류 복사';
   @override
-  String get error_copied => 'Error copied to clipboard';
+  String get error_copied => '오류가 클립보드에 복사됨';
   @override
-  String dict_import_failed_summary({required Object n}) =>
-      'Failed to import ${n} dictionary(s)';
+  String dict_import_failed_summary({required Object n}) => '사전 ${n}개 가져오기 실패';
   @override
   String get reader_content_timeout =>
-      'Content loading timed out. Reopen if display is abnormal';
+      '콘텐츠 로딩 시간이 초과되었습니다. 표시가 비정상이면 다시 열어 주세요';
   @override
-  String get backup_local => 'Local Backup';
+  String get backup_local => '로컬 백업';
   @override
-  String get backup_export => 'Export Backup';
+  String get backup_export => '백업 내보내기';
   @override
-  String get backup_export_hint =>
-      'Save all settings, reading progress, and statistics to a file';
+  String get backup_export_hint => '모든 설정, 읽기 진행 상황, 통계를 파일로 저장합니다';
   @override
-  String get backup_import => 'Import Backup';
+  String get backup_import => '백업 가져오기';
   @override
-  String get backup_import_hint =>
-      'Restore from a backup file. The app will restart.';
+  String get backup_import_hint => '백업 파일에서 복원합니다. 앱이 다시 시작됩니다.';
   @override
-  String get backup_export_success => 'Backup exported successfully';
+  String get backup_export_success => '백업을 내보냈습니다';
   @override
   String backup_export_failed({required Object message}) =>
-      'Backup export failed: ${message}';
+      '백업 내보내기 실패: ${message}';
   @override
-  String get backup_import_confirm_title => 'Restore Backup?';
+  String get backup_import_confirm_title => '백업을 복원할까요?';
   @override
   String backup_import_confirm(
           {required Object date,
           required Object bookCount,
           required Object statsCount}) =>
-      'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+      '현재 모든 데이터가 ${date} 백업으로 대체됩니다.\n\n책 ${bookCount}권, 통계 기록 ${statsCount}개.\n\n복원 후 앱이 다시 시작됩니다.';
   @override
-  String get backup_import_success => 'Backup restored. Restarting…';
+  String get backup_import_success => '백업을 복원했습니다. 다시 시작 중…';
   @override
   String backup_import_failed({required Object message}) =>
-      'Backup import failed: ${message}';
+      '백업 가져오기 실패: ${message}';
   @override
-  String get backup_import_invalid => 'Invalid backup file';
+  String get backup_import_invalid => '잘못된 백업 파일';
   @override
-  String get backup_exporting => 'Creating backup…';
+  String get backup_exporting => '백업 생성 중…';
   @override
   String backup_schema_newer({required Object version}) =>
-      'This backup requires a newer version of the app (schema ${version}). Please update first.';
+      '이 백업에는 더 새로운 버전의 앱이 필요합니다 (스키마 ${version}). 먼저 업데이트해 주세요.';
   @override
-  String get reverse_navigation_bar => 'Reverse navigation bar';
+  String get reverse_navigation_bar => '내비게이션 바 반전';
   @override
   String get sync_backend_onedrive => 'OneDrive';
   @override
@@ -23557,313 +23889,338 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_backend_hibiki_server => 'Hibiki P2P';
   @override
-  String get sync_server_enable => 'Enable sync server';
+  String get sync_server_enable => '동기화 서버 사용';
   @override
-  String get sync_server_port => 'Server port';
+  String get sync_server_port => '서버 포트';
   @override
-  String get sync_server_token => 'Access token';
+  String get sync_server_token => '액세스 토큰';
   @override
-  String get sync_server_copy_token => 'Copy token';
+  String get sync_server_copy_token => '토큰 복사';
   @override
-  String get sync_server_regenerate_token => 'Regenerate token';
+  String get sync_server_regenerate_token => '토큰 재생성';
   @override
-  String get sync_server_running => 'Server running';
+  String get sync_server_running => '서버 실행 중';
   @override
-  String get sync_server_stopped => 'Server stopped';
+  String get sync_server_stopped => '서버 중지됨';
   @override
-  String get sync_lan_discovery => 'LAN devices';
+  String get sync_lan_discovery => 'LAN 기기';
   @override
-  String get sync_lan_scanning => 'Scanning...';
+  String get sync_lan_scanning => '검색 중...';
   @override
-  String get sync_lan_no_devices => 'No devices found';
+  String get sync_lan_no_devices => '기기를 찾을 수 없음';
   @override
-  String get sync_fallback_config => 'Fallback order';
+  String get sync_fallback_config => '대체 순서';
   @override
-  String get sync_test_connection => 'Test connection';
+  String get sync_test_connection => '연결 테스트';
   @override
-  String get sync_connection_success => 'Connection successful';
+  String get sync_connection_success => '연결 성공';
   @override
-  String get sync_connection_failed => 'Connection failed';
+  String get sync_connection_failed => '연결 실패';
   @override
-  String get sync_host => 'Host';
+  String get sync_host => '호스트';
   @override
-  String get sync_port => 'Port';
+  String get sync_port => '포트';
   @override
-  String get sync_username => 'Username';
+  String get sync_username => '사용자 이름';
   @override
-  String get sync_password => 'Password';
+  String get sync_password => '비밀번호';
   @override
-  String get sync_use_tls => 'Use TLS';
+  String get sync_use_tls => 'TLS 사용';
   @override
-  String get sync_private_key => 'Private key';
+  String get sync_private_key => '개인 키';
   @override
-  String get skip_action => 'Skip Action';
+  String get skip_action => '동작 건너뛰기';
   @override
-  String get skip_action_sentence => '1 sentence';
+  String get skip_action_sentence => '1문장';
   @override
   String skip_action_seconds({required Object n}) => '${n} 秒';
   @override
-  String get shortcut_settings_title => 'Keyboard Shortcuts';
+  String get shortcut_settings_title => '키보드 단축키';
   @override
-  String get shortcut_scope_reader => 'Reader';
+  String get shortcut_scope_reader => '리더';
   @override
-  String get shortcut_scope_home => 'Home';
+  String get shortcut_scope_home => '홈';
   @override
-  String get shortcut_scope_global => 'Global';
+  String get shortcut_scope_global => '전역';
   @override
-  String get shortcut_scope_audiobook => 'Audiobook';
+  String get shortcut_scope_audiobook => '오디오북';
   @override
-  String get shortcut_action_reader_page_forward => 'Next Page';
+  String get shortcut_action_reader_page_forward => '다음 페이지';
   @override
-  String get shortcut_action_reader_page_backward => 'Previous Page';
+  String get shortcut_action_reader_page_backward => '이전 페이지';
   @override
-  String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+  String get shortcut_action_reader_toggle_chrome => '컨트롤 전환';
   @override
-  String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+  String get shortcut_action_reader_dismiss_dict => '사전 닫기';
   @override
-  String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+  String get shortcut_action_reader_toggle_bookmark => '북마크 전환';
   @override
-  String get shortcut_action_home_tab_books => 'Books Tab';
+  String get shortcut_action_home_tab_books => '책 탭';
   @override
-  String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+  String get shortcut_action_home_tab_dict => '사전 탭';
   @override
-  String get shortcut_action_home_tab_settings => 'Settings Tab';
+  String get shortcut_action_home_tab_settings => '설정 탭';
   @override
-  String get shortcut_action_home_focus_search => 'Focus Search';
+  String get shortcut_action_home_focus_search => '검색 포커스';
   @override
-  String get shortcut_action_global_back => 'Go Back';
+  String get shortcut_action_global_back => '뒤로 가기';
   @override
-  String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+  String get shortcut_action_audiobook_play_pause => '재생 / 일시정지';
   @override
-  String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+  String get shortcut_action_audiobook_next_sentence => '다음 문장';
   @override
-  String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+  String get shortcut_action_audiobook_prev_sentence => '이전 문장';
   @override
-  String get shortcut_press_key => 'Press a key combination...';
+  String get shortcut_press_key => '키 조합을 누르세요...';
   @override
-  String get shortcut_press_gamepad => 'Press a gamepad button...';
+  String get shortcut_press_gamepad => '게임패드 버튼을 누르세요...';
   @override
-  String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
+  String shortcut_conflict({required Object s}) => '이미 사용 중: ${s}';
   @override
-  String get shortcut_reset_defaults => 'Reset to Defaults';
+  String get shortcut_reset_defaults => '기본값으로 초기화';
   @override
-  String get shortcut_reset_confirm =>
-      'Reset all shortcuts in this section to defaults?';
+  String get shortcut_reset_confirm => '이 섹션의 모든 단축키를 기본값으로 초기화할까요?';
   @override
-  String get shortcut_keyboard => 'Keyboard';
+  String get shortcut_keyboard => '키보드';
   @override
-  String get shortcut_gamepad => 'Gamepad';
+  String get shortcut_gamepad => '게임패드';
   @override
-  String get shortcut_none => 'None';
+  String get shortcut_none => '없음';
   @override
-  String get shortcut_clear => 'Clear';
+  String get shortcut_clear => '지우기';
   @override
-  String get shortcut_stop_capture => 'Stop';
+  String get shortcut_stop_capture => '중지';
   @override
-  String get section_advanced_typography => 'Advanced';
+  String get section_advanced_typography => '고급';
   @override
-  String get sync_err_network =>
-      'Cannot reach the server — check your network or proxy settings.';
+  String get sync_err_network => '서버에 연결할 수 없습니다 — 네트워크 또는 프록시 설정을 확인하세요.';
   @override
-  String get sync_err_timeout =>
-      'Connection timed out — the server did not respond in time.';
+  String get sync_err_timeout => '연결 시간 초과 — 서버가 제때 응답하지 않았습니다.';
   @override
-  String get sync_err_quota => 'Cloud storage is full (quota reached).';
+  String get sync_err_quota => '클라우드 저장소가 가득 찼습니다 (할당량 초과).';
   @override
-  String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
+  String get sync_err_auth_expired => '로그인이 만료되었습니다 — 다시 로그인해 주세요.';
   @override
   String sync_server_port_in_use({required Object port}) =>
-      'Port ${port} is already in use — pick a different port.';
+      '포트 ${port}가 이미 사용 중입니다 — 다른 포트를 선택하세요.';
   @override
-  String get sync_lan_scan_failed =>
-      'Scan failed — check network permissions or firewall.';
+  String get sync_lan_scan_failed => '검색 실패 — 네트워크 권한 또는 방화벽을 확인하세요.';
   @override
-  String get sync_section_method => 'Sync method';
+  String get sync_section_method => '동기화 방식';
   @override
-  String get sync_section_host_server => 'This device as a sync server';
+  String get sync_section_host_server => '이 기기를 동기화 서버로 사용';
   @override
   String get sync_section_host_server_footer =>
-      'Let other devices sync from this device. Independent of the sync backend above.';
+      '다른 기기가 이 기기에서 동기화하도록 허용합니다. 위의 동기화 백엔드와 무관합니다.';
   @override
-  String get sync_section_content => 'What to sync';
+  String get sync_section_content => '동기화 항목';
   @override
-  String get sync_section_actions => 'Sync actions';
+  String get sync_section_actions => '동기화 작업';
   @override
-  String get sync_section_backup => 'Local backup';
+  String get sync_section_backup => '로컬 백업';
   @override
   String get backup_import_preserve_sync_note =>
-      'Your sync settings on this device (account and credentials) will be kept.';
+      '이 기기의 동기화 설정(계정 및 자격 증명)은 유지됩니다.';
   @override
-  String get backup_import_settings_toggle => 'Import settings & profiles';
+  String get backup_import_settings_toggle => '설정 및 프로필 가져오기';
   @override
   String get backup_import_settings_on_hint =>
-      'Full restore: fonts, appearance and profiles come from the backup.';
+      '전체 복원: 글꼴, 외관, 프로필을 백업에서 가져옵니다.';
   @override
   String get backup_import_settings_off_hint =>
-      'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+      '이 기기의 글꼴/외관/프로필을 유지하고 책 및 읽기 데이터만 복원합니다.';
   @override
-  String get reader_unsupported_platform =>
-      'The reader is not yet available on this platform.';
+  String get reader_unsupported_platform => '이 플랫폼에서는 아직 리더를 사용할 수 없습니다.';
   @override
-  String get microphone_permission_denied =>
-      'Microphone permission is required to record.';
+  String get microphone_permission_denied => '녹음하려면 마이크 권한이 필요합니다.';
   @override
-  String get anki_connect_api_key => 'API Key';
+  String get anki_connect_api_key => 'API 키';
   @override
-  String get anki_connect_api_key_hint =>
-      'Leave empty unless AnkiConnect requires a key';
+  String get anki_connect_api_key_hint => 'AnkiConnect에 키가 필요하지 않으면 비워 두세요';
   @override
-  String get shortcut_action_global_scroll_page_down =>
-      'Scroll down one screen';
+  String get shortcut_action_global_scroll_page_down => '한 화면 아래로 스크롤';
   @override
-  String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+  String get shortcut_action_global_scroll_page_up => '한 화면 위로 스크롤';
   @override
-  String get shortcut_action_home_tab_prev => 'Previous tab';
+  String get shortcut_action_home_tab_prev => '이전 탭';
   @override
-  String get shortcut_action_home_tab_next => 'Next tab';
+  String get shortcut_action_home_tab_next => '다음 탭';
   @override
-  String get move_up => 'Move up';
+  String get move_up => '위로 이동';
   @override
-  String get move_down => 'Move down';
+  String get move_down => '아래로 이동';
   @override
-  String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_toggle_furigana => '후리가나 전환';
   @override
-  String get on_screen_keyboard => 'On-screen keyboard';
+  String get on_screen_keyboard => '화면 키보드';
   @override
-  String get app_ui_scale => 'UI size';
+  String get app_ui_scale => 'UI 크기';
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary => '사전 동기화';
   @override
   String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
+      '사전 패키지는 용량이 클 수 있으며 가져온 사전 리소스를 포함합니다.';
   @override
-  String get settings_destination_reading => 'Reading';
+  String get settings_destination_reading => '읽기';
   @override
-  String get remote_dict_lookup => 'Remote dictionary lookup';
+  String get remote_dict_lookup => '원격 사전 검색';
   @override
-  String get remote_dict_lookup_hint =>
-      'When local dictionaries miss, query the configured Hibiki server';
+  String get remote_dict_lookup_hint => '로컬 사전에 없을 때 설정된 Hibiki 서버에 질의합니다';
   @override
-  String get remote_audio_source => 'Remote audio';
+  String get remote_audio_source => '원격 오디오';
   @override
-  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_success => '페어링 완료 — 토큰이 입력되었습니다';
   @override
-  String get sync_pair_failed => 'Pairing failed';
+  String get sync_pair_failed => '페어링 실패';
   @override
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   @override
-  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_sources_remote_group => '원격 소스';
   @override
   String get audio_source_url_invalid =>
-      'Link must be http(s) and contain a term or reading placeholder';
+      '링크는 http(s)여야 하며 단어 또는 읽기 자리표시자를 포함해야 합니다';
   @override
-  String get audio_source_added => 'Audio source added';
+  String get audio_source_added => '오디오 소스가 추가됨';
   @override
-  String get local_audio_imported => 'Audio database added';
+  String get local_audio_imported => '오디오 데이터베이스가 추가됨';
   @override
-  String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_import_failed => '오디오 데이터베이스 가져오기 실패';
   @override
-  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_edit_sources => '소스 편집';
   @override
-  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_source_order_title => '소스 우선순위';
   @override
-  String get local_audio_no_sources => 'No sources found in this database';
+  String get local_audio_no_sources => '이 데이터베이스에서 소스를 찾을 수 없음';
   @override
-  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_title => '페어링 요청';
   @override
-  String get sync_pair_request_body =>
-      'A device is requesting to pair. Allow it to sync with this device?';
+  String get sync_pair_request_body => '한 기기가 페어링을 요청합니다. 이 기기와 동기화하도록 허용할까요?';
   @override
-  String get sync_pair_allow => 'Allow';
+  String get sync_pair_allow => '허용';
   @override
-  String get sync_pair_deny => 'Deny';
+  String get sync_pair_deny => '거부';
   @override
-  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_denied => '상대 기기가 페어링을 거부했습니다';
   @override
-  String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unknown_device => '알 수 없는 기기';
   @override
   String get sync_pair_unavailable =>
-      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      '상대 기기가 준비되지 않았거나 이전 버전입니다. 업데이트하고 동기화를 켠 후 다시 시도하세요.';
   @override
   String get sync_role_locked_by_server =>
-      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      '이 기기는 서버로 호스팅 중입니다. 다른 기기에 연결하려면 먼저 서버를 끄세요.';
   @override
   String get sync_role_locked_by_client =>
-      'Already connected to another device. Remove the connection before hosting as a server.';
+      '이미 다른 기기에 연결되어 있습니다. 서버로 호스팅하려면 먼저 연결을 해제하세요.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
   @override
-  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files => '오디오북 파일 동기화';
   @override
-  String get sync_audiobook_files_warning =>
-      'Audio and subtitles can be large.';
+  String get sync_audiobook_files_warning => '오디오와 자막은 용량이 클 수 있습니다.';
   @override
-  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_title => '중복된 책';
   @override
-  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_keep => '예, 접미사 추가';
   @override
-  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancel => '아니요, 취소';
   @override
-  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String get book_import_duplicate_cancelled => '가져오기 취소됨';
   @override
   String book_import_duplicate_message({required Object name}) =>
-      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      '"${name}"(이)라는 책이 이미 있습니다. 그래도 가져올까요? "예"는 번호 접미사를 붙여 가져오고, "아니요"는 취소합니다.';
   @override
-  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
+  String get reverse_reader_bottom_bar => '리더 하단 바 반전';
   @override
-  String get floating_dict_close => 'Close';
+  String get floating_dict_close => '닫기';
   @override
-  String get debug_log_share_subject => 'hibiki Debug Log';
+  String get debug_log_share_subject => 'hibiki 디버그 로그';
   @override
-  String get spread_direction_rtl => 'Right to Left';
+  String get spread_direction_rtl => '오른쪽에서 왼쪽';
   @override
-  String get spread_direction_ltr => 'Left to Right';
+  String get spread_direction_ltr => '왼쪽에서 오른쪽';
   @override
   String dict_download_partial(
           {required Object success,
           required Object total,
           required Object error}) =>
-      '${success} / ${total} OK. Failed: ${error}';
+      '${success} / ${total} 성공. 실패: ${error}';
   @override
-  String get sync_now => 'Sync now';
+  String get sync_now => '지금 동기화';
   @override
-  String get sync_now_hint => 'Run a full two-way sync with the cloud now';
+  String get sync_now_hint => '지금 클라우드와 양방향 전체 동기화를 실행합니다';
   @override
-  String get sync_now_busy => 'A sync is already running';
+  String get sync_now_busy => '동기화가 이미 실행 중입니다';
   @override
-  String get sync_now_no_changes => 'no changes';
+  String get sync_now_no_changes => '변경 없음';
   @override
-  String sync_now_done({required Object detail}) => 'Synced · ${detail}';
+  String sync_now_done({required Object detail}) => '동기화됨 · ${detail}';
   @override
-  String sync_now_failed_suffix({required Object count}) =>
-      ' · ${count} failed';
+  String sync_now_failed_suffix({required Object count}) => ' · ${count}개 실패';
   @override
-  String sync_now_books_in({required Object count}) => '↓${count} books';
+  String sync_now_books_in({required Object count}) => '↓책 ${count}권';
   @override
-  String sync_now_dicts_in({required Object count}) => '↓${count} dictionaries';
+  String sync_now_dicts_in({required Object count}) => '↓사전 ${count}개';
   @override
-  String sync_now_dicts_out({required Object count}) =>
-      '↑${count} dictionaries';
+  String sync_now_dicts_out({required Object count}) => '↑사전 ${count}개';
   @override
-  String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
+  String sync_now_audio_in({required Object count}) => '↓오디오북 ${count}개';
   @override
-  String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String sync_now_audio_out({required Object count}) => '↑오디오북 ${count}개';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => '사전';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => '원격에서 책 삭제';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook => '원격에서 오디오북 삭제';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => '원격에서 사전 삭제';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => '원격에서 삭제됨';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      '원격에서 "${name}"(을)를 삭제할까요? 로컬 데이터는 유지됩니다. 되돌릴 수 없습니다.';
+  @override
+  String get dictionaries_delete_failed => '사전 삭제 실패';
+  @override
+  String get dictionary_delete_failed => '사전 삭제 실패';
+  @override
+  String get sync_webdav_missing_fields => '입력하지 않은 항목이 있습니다';
+  @override
+  String get sync_compare_download => '다운로드';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -23963,7 +24320,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get reader_media_type => 'Lezer';
   @override
-  String get viewer_media_type => 'Viewer';
+  String get viewer_media_type => 'Weergave';
   @override
   String get back => 'Terug';
   @override
@@ -24542,7 +24899,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get no_lyrics_found => 'Geen songteksten gevonden';
   @override
-  String get trending => 'Trending';
+  String get trending => 'Populair';
   @override
   String get caption_filter => 'Ondertitels filteren';
   @override
@@ -24693,7 +25050,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get handlebar_audio => 'Audio';
   @override
-  String get handlebar_sasayaki_audio => 'Sasayaki Audio';
+  String get handlebar_sasayaki_audio => 'Sasayaki-audio';
   @override
   String get handlebar_popup_selection_text => 'Popup-selectietekst';
   @override
@@ -24885,7 +25242,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get design_system_hint => 'Bepaalt de visuele stijl van de app';
   @override
-  String get design_system_auto => 'Auto';
+  String get design_system_auto => 'Automatisch';
   @override
   String get cloze => 'Cloze';
   @override
@@ -24909,7 +25266,7 @@ class _StringsNl extends _StringsEn {
   @override
   String get player_hardware_acceleration => 'Hardwareversnelling';
   @override
-  String get player_use_opensles => 'OpenSL ES audio';
+  String get player_use_opensles => 'OpenSL ES-audio';
   @override
   String get go_forward => 'Vooruit';
   @override
@@ -26209,7 +26566,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_statistics => 'Statistieken synchroniseren';
   @override
-  String get sync_summary => 'Google Drive · ッツ/Hoshi Reader-compatibel';
+  String get sync_summary =>
+      'Cloud, LAN P2P en lokale back-up · compatibel met ッツ/Hoshi Reader';
   @override
   String get sync_title => 'Synchronisatie';
   @override
@@ -26221,136 +26579,136 @@ class _StringsNl extends _StringsEn {
   @override
   String get anki_connect_host => 'Host';
   @override
-  String get anki_connect_port => 'Port';
+  String get anki_connect_port => 'Poort';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => 'Gegevens vergelijken';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => 'Lokaal vs. extern';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => 'Lokaal';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => 'Extern';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => 'Geen gegevens';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => 'Geen boeken gevonden';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => 'dagen';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => 'Conflicten';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => 'Alle boeken';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => 'Alles selecteren';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => 'Alles → lokaal';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => 'Alles → extern';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => 'Alles → overslaan';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => 'Lokaal';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => 'Extern';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => 'Overslaan';
   @override
   String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+      '${count} wijzigingen toegepast';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => 'Toepassen (${count})';
   @override
-  String get sync_auto_sync => 'Auto Sync';
+  String get sync_auto_sync => 'Automatisch synchroniseren';
   @override
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
       'Sync: ${direction} ${title}';
   @override
-  String get no_matching_audio_cue => 'No matching audio for this sentence';
+  String get no_matching_audio_cue => 'Geen passende audio voor deze zin';
   @override
-  String get sync_exit_warning_title => 'Sync In Progress';
+  String get sync_exit_warning_title => 'Synchronisatie bezig';
   @override
   String get sync_exit_warning =>
-      'Sync is still in progress. Exiting now may cause data loss.';
+      'De synchronisatie is nog bezig. Nu afsluiten kan tot gegevensverlies leiden.';
   @override
-  String get sync_content => 'Sync book files';
+  String get sync_content => 'Boekbestanden synchroniseren';
   @override
   String get sync_content_warning =>
-      'Large files will use storage space and data';
+      'Grote bestanden gebruiken opslagruimte en data';
   @override
-  String get sync_backend => 'Storage backend';
+  String get sync_backend => 'Opslagbackend';
   @override
   String get sync_backend_google_drive => 'Google Drive';
   @override
   String get sync_backend_webdav => 'WebDAV';
   @override
-  String get sync_webdav_url => 'Server URL';
+  String get sync_webdav_url => 'Server-URL';
   @override
-  String get sync_webdav_username => 'Username';
+  String get sync_webdav_username => 'Gebruikersnaam';
   @override
-  String get sync_webdav_password => 'Password';
+  String get sync_webdav_password => 'Wachtwoord';
   @override
-  String get sync_webdav_test => 'Test connection';
+  String get sync_webdav_test => 'Verbinding testen';
   @override
-  String get sync_webdav_test_success => 'Connection successful';
+  String get sync_webdav_test_success => 'Verbinding geslaagd';
   @override
   String sync_webdav_test_failed({required Object message}) =>
-      'Connection failed: ${message}';
+      'Verbinding mislukt: ${message}';
   @override
-  String get book_file_not_found => 'Book file not found';
+  String get book_file_not_found => 'Boekbestand niet gevonden';
   @override
-  String get epub_parse_fallback => 'Book metadata repaired from database';
+  String get epub_parse_fallback => 'Boekmetadata hersteld uit database';
   @override
-  String get retry => 'Retry';
+  String get retry => 'Opnieuw';
   @override
-  String get copy_error => 'Copy Error';
+  String get copy_error => 'Fout kopiëren';
   @override
-  String get error_copied => 'Error copied to clipboard';
+  String get error_copied => 'Fout gekopieerd naar klembord';
   @override
   String dict_import_failed_summary({required Object n}) =>
-      'Failed to import ${n} dictionary(s)';
+      'Importeren van ${n} woordenboek(en) mislukt';
   @override
   String get reader_content_timeout =>
-      'Content loading timed out. Reopen if display is abnormal';
+      'Time-out bij laden van inhoud. Open opnieuw als de weergave afwijkt';
   @override
-  String get backup_local => 'Local Backup';
+  String get backup_local => 'Lokale back-up';
   @override
-  String get backup_export => 'Export Backup';
+  String get backup_export => 'Back-up exporteren';
   @override
   String get backup_export_hint =>
-      'Save all settings, reading progress, and statistics to a file';
+      'Sla alle instellingen, leesvoortgang en statistieken op in een bestand';
   @override
-  String get backup_import => 'Import Backup';
+  String get backup_import => 'Back-up importeren';
   @override
   String get backup_import_hint =>
-      'Restore from a backup file. The app will restart.';
+      'Herstel vanuit een back-upbestand. De app wordt opnieuw gestart.';
   @override
-  String get backup_export_success => 'Backup exported successfully';
+  String get backup_export_success => 'Back-up geëxporteerd';
   @override
   String backup_export_failed({required Object message}) =>
-      'Backup export failed: ${message}';
+      'Back-up exporteren mislukt: ${message}';
   @override
-  String get backup_import_confirm_title => 'Restore Backup?';
+  String get backup_import_confirm_title => 'Back-up herstellen?';
   @override
   String backup_import_confirm(
           {required Object date,
           required Object bookCount,
           required Object statsCount}) =>
-      'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+      'Dit vervangt alle huidige gegevens door de back-up van ${date}.\n\n${bookCount} boeken, ${statsCount} statistiekrecords.\n\nDe app wordt na het herstellen opnieuw gestart.';
   @override
-  String get backup_import_success => 'Backup restored. Restarting…';
+  String get backup_import_success => 'Back-up hersteld. Opnieuw starten…';
   @override
   String backup_import_failed({required Object message}) =>
-      'Backup import failed: ${message}';
+      'Back-up importeren mislukt: ${message}';
   @override
-  String get backup_import_invalid => 'Invalid backup file';
+  String get backup_import_invalid => 'Ongeldig back-upbestand';
   @override
-  String get backup_exporting => 'Creating backup…';
+  String get backup_exporting => 'Back-up maken…';
   @override
   String backup_schema_newer({required Object version}) =>
-      'This backup requires a newer version of the app (schema ${version}). Please update first.';
+      'Deze back-up vereist een nieuwere versie van de app (schema ${version}). Werk eerst bij.';
   @override
-  String get reverse_navigation_bar => 'Reverse navigation bar';
+  String get reverse_navigation_bar => 'Navigatiebalk omkeren';
   @override
   String get sync_backend_onedrive => 'OneDrive';
   @override
@@ -26362,313 +26720,360 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_backend_hibiki_server => 'Hibiki P2P';
   @override
-  String get sync_server_enable => 'Enable sync server';
+  String get sync_server_enable => 'Syncserver inschakelen';
   @override
-  String get sync_server_port => 'Server port';
+  String get sync_server_port => 'Serverpoort';
   @override
-  String get sync_server_token => 'Access token';
+  String get sync_server_token => 'Toegangstoken';
   @override
-  String get sync_server_copy_token => 'Copy token';
+  String get sync_server_copy_token => 'Token kopiëren';
   @override
-  String get sync_server_regenerate_token => 'Regenerate token';
+  String get sync_server_regenerate_token => 'Token opnieuw genereren';
   @override
-  String get sync_server_running => 'Server running';
+  String get sync_server_running => 'Server actief';
   @override
-  String get sync_server_stopped => 'Server stopped';
+  String get sync_server_stopped => 'Server gestopt';
   @override
-  String get sync_lan_discovery => 'LAN devices';
+  String get sync_lan_discovery => 'LAN-apparaten';
   @override
-  String get sync_lan_scanning => 'Scanning...';
+  String get sync_lan_scanning => 'Scannen...';
   @override
-  String get sync_lan_no_devices => 'No devices found';
+  String get sync_lan_no_devices => 'Geen apparaten gevonden';
   @override
-  String get sync_fallback_config => 'Fallback order';
+  String get sync_fallback_config => 'Terugvalvolgorde';
   @override
-  String get sync_test_connection => 'Test connection';
+  String get sync_test_connection => 'Verbinding testen';
   @override
-  String get sync_connection_success => 'Connection successful';
+  String get sync_connection_success => 'Verbinding geslaagd';
   @override
-  String get sync_connection_failed => 'Connection failed';
+  String get sync_connection_failed => 'Verbinding mislukt';
   @override
   String get sync_host => 'Host';
   @override
-  String get sync_port => 'Port';
+  String get sync_port => 'Poort';
   @override
-  String get sync_username => 'Username';
+  String get sync_username => 'Gebruikersnaam';
   @override
-  String get sync_password => 'Password';
+  String get sync_password => 'Wachtwoord';
   @override
-  String get sync_use_tls => 'Use TLS';
+  String get sync_use_tls => 'TLS gebruiken';
   @override
-  String get sync_private_key => 'Private key';
+  String get sync_private_key => 'Privésleutel';
   @override
-  String get skip_action => 'Skip Action';
+  String get skip_action => 'Overslaan';
   @override
-  String get skip_action_sentence => '1 sentence';
+  String get skip_action_sentence => '1 zin';
   @override
-  String skip_action_seconds({required Object n}) => '${n} seconds';
+  String skip_action_seconds({required Object n}) => '${n} seconden';
   @override
-  String get shortcut_settings_title => 'Keyboard Shortcuts';
+  String get shortcut_settings_title => 'Sneltoetsen';
   @override
-  String get shortcut_scope_reader => 'Reader';
+  String get shortcut_scope_reader => 'Lezer';
   @override
-  String get shortcut_scope_home => 'Home';
+  String get shortcut_scope_home => 'Start';
   @override
-  String get shortcut_scope_global => 'Global';
+  String get shortcut_scope_global => 'Globaal';
   @override
-  String get shortcut_scope_audiobook => 'Audiobook';
+  String get shortcut_scope_audiobook => 'Audioboek';
   @override
-  String get shortcut_action_reader_page_forward => 'Next Page';
+  String get shortcut_action_reader_page_forward => 'Volgende pagina';
   @override
-  String get shortcut_action_reader_page_backward => 'Previous Page';
+  String get shortcut_action_reader_page_backward => 'Vorige pagina';
   @override
-  String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+  String get shortcut_action_reader_toggle_chrome => 'Bediening aan/uit';
   @override
-  String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+  String get shortcut_action_reader_dismiss_dict => 'Woordenboek sluiten';
   @override
-  String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+  String get shortcut_action_reader_toggle_bookmark => 'Bladwijzer aan/uit';
   @override
-  String get shortcut_action_home_tab_books => 'Books Tab';
+  String get shortcut_action_home_tab_books => 'Tabblad Boeken';
   @override
-  String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+  String get shortcut_action_home_tab_dict => 'Tabblad Woordenboek';
   @override
-  String get shortcut_action_home_tab_settings => 'Settings Tab';
+  String get shortcut_action_home_tab_settings => 'Tabblad Instellingen';
   @override
-  String get shortcut_action_home_focus_search => 'Focus Search';
+  String get shortcut_action_home_focus_search => 'Zoeken focussen';
   @override
-  String get shortcut_action_global_back => 'Go Back';
+  String get shortcut_action_global_back => 'Terug';
   @override
-  String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+  String get shortcut_action_audiobook_play_pause => 'Afspelen / pauzeren';
   @override
-  String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+  String get shortcut_action_audiobook_next_sentence => 'Volgende zin';
   @override
-  String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+  String get shortcut_action_audiobook_prev_sentence => 'Vorige zin';
   @override
-  String get shortcut_press_key => 'Press a key combination...';
+  String get shortcut_press_key => 'Druk op een toetscombinatie...';
   @override
-  String get shortcut_press_gamepad => 'Press a gamepad button...';
+  String get shortcut_press_gamepad => 'Druk op een gamepadknop...';
   @override
-  String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
+  String shortcut_conflict({required Object s}) => 'Al gebruikt door: ${s}';
   @override
-  String get shortcut_reset_defaults => 'Reset to Defaults';
+  String get shortcut_reset_defaults => 'Terug naar standaard';
   @override
   String get shortcut_reset_confirm =>
-      'Reset all shortcuts in this section to defaults?';
+      'Alle sneltoetsen in dit gedeelte terugzetten naar standaard?';
   @override
-  String get shortcut_keyboard => 'Keyboard';
+  String get shortcut_keyboard => 'Toetsenbord';
   @override
   String get shortcut_gamepad => 'Gamepad';
   @override
-  String get shortcut_none => 'None';
+  String get shortcut_none => 'Geen';
   @override
-  String get shortcut_clear => 'Clear';
+  String get shortcut_clear => 'Wissen';
   @override
-  String get shortcut_stop_capture => 'Stop';
+  String get shortcut_stop_capture => 'Stoppen';
   @override
-  String get section_advanced_typography => 'Advanced';
+  String get section_advanced_typography => 'Geavanceerd';
   @override
   String get sync_err_network =>
-      'Cannot reach the server — check your network or proxy settings.';
+      'Kan de server niet bereiken — controleer je netwerk- of proxyinstellingen.';
   @override
   String get sync_err_timeout =>
-      'Connection timed out — the server did not respond in time.';
+      'Time-out bij verbinden — de server reageerde niet op tijd.';
   @override
-  String get sync_err_quota => 'Cloud storage is full (quota reached).';
+  String get sync_err_quota => 'Cloudopslag is vol (quotum bereikt).';
   @override
-  String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
+  String get sync_err_auth_expired =>
+      'Aanmelding verlopen — meld je opnieuw aan.';
   @override
   String sync_server_port_in_use({required Object port}) =>
-      'Port ${port} is already in use — pick a different port.';
+      'Poort ${port} is al in gebruik — kies een andere poort.';
   @override
   String get sync_lan_scan_failed =>
-      'Scan failed — check network permissions or firewall.';
+      'Scannen mislukt — controleer netwerkrechten of firewall.';
   @override
-  String get sync_section_method => 'Sync method';
+  String get sync_section_method => 'Synchronisatiemethode';
   @override
-  String get sync_section_host_server => 'This device as a sync server';
+  String get sync_section_host_server => 'Dit apparaat als syncserver';
   @override
   String get sync_section_host_server_footer =>
-      'Let other devices sync from this device. Independent of the sync backend above.';
+      'Laat andere apparaten vanaf dit apparaat synchroniseren. Onafhankelijk van het syncbackend hierboven.';
   @override
-  String get sync_section_content => 'What to sync';
+  String get sync_section_content => 'Wat te synchroniseren';
   @override
-  String get sync_section_actions => 'Sync actions';
+  String get sync_section_actions => 'Synchronisatieacties';
   @override
-  String get sync_section_backup => 'Local backup';
+  String get sync_section_backup => 'Lokale back-up';
   @override
   String get backup_import_preserve_sync_note =>
-      'Your sync settings on this device (account and credentials) will be kept.';
+      'Je syncinstellingen op dit apparaat (account en inloggegevens) blijven behouden.';
   @override
-  String get backup_import_settings_toggle => 'Import settings & profiles';
+  String get backup_import_settings_toggle =>
+      'Instellingen en profielen importeren';
   @override
   String get backup_import_settings_on_hint =>
-      'Full restore: fonts, appearance and profiles come from the backup.';
+      'Volledig herstel: lettertypen, weergave en profielen komen uit de back-up.';
   @override
   String get backup_import_settings_off_hint =>
-      'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+      'Behoud de lettertypen/weergave/profielen van dit apparaat; herstel alleen boeken en leesgegevens.';
   @override
   String get reader_unsupported_platform =>
-      'The reader is not yet available on this platform.';
+      'De lezer is nog niet beschikbaar op dit platform.';
   @override
   String get microphone_permission_denied =>
-      'Microphone permission is required to record.';
+      'Microfoontoestemming is vereist om op te nemen.';
   @override
-  String get anki_connect_api_key => 'API Key';
+  String get anki_connect_api_key => 'API-sleutel';
   @override
   String get anki_connect_api_key_hint =>
-      'Leave empty unless AnkiConnect requires a key';
+      'Laat leeg tenzij AnkiConnect een sleutel vereist';
   @override
   String get shortcut_action_global_scroll_page_down =>
-      'Scroll down one screen';
+      'Eén scherm omlaag scrollen';
   @override
-  String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+  String get shortcut_action_global_scroll_page_up =>
+      'Eén scherm omhoog scrollen';
   @override
-  String get shortcut_action_home_tab_prev => 'Previous tab';
+  String get shortcut_action_home_tab_prev => 'Vorig tabblad';
   @override
-  String get shortcut_action_home_tab_next => 'Next tab';
+  String get shortcut_action_home_tab_next => 'Volgend tabblad';
   @override
-  String get move_up => 'Move up';
+  String get move_up => 'Omhoog';
   @override
-  String get move_down => 'Move down';
+  String get move_down => 'Omlaag';
   @override
-  String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_toggle_furigana => 'Furigana aan/uit';
   @override
-  String get on_screen_keyboard => 'On-screen keyboard';
+  String get on_screen_keyboard => 'Schermtoetsenbord';
   @override
-  String get app_ui_scale => 'UI size';
+  String get app_ui_scale => 'UI-grootte';
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary => 'Woordenboeken synchroniseren';
   @override
   String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
+      'Woordenboekpakketten kunnen groot zijn en geïmporteerde woordenboekbronnen bevatten.';
   @override
-  String get settings_destination_reading => 'Reading';
+  String get settings_destination_reading => 'Lezen';
   @override
-  String get remote_dict_lookup => 'Remote dictionary lookup';
+  String get remote_dict_lookup => 'Extern woordenboek opzoeken';
   @override
   String get remote_dict_lookup_hint =>
-      'When local dictionaries miss, query the configured Hibiki server';
+      'Wanneer lokale woordenboeken niets vinden, de geconfigureerde Hibiki-server bevragen';
   @override
-  String get remote_audio_source => 'Remote audio';
+  String get remote_audio_source => 'Externe audio';
   @override
-  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_success => 'Gekoppeld — token ingevuld';
   @override
-  String get sync_pair_failed => 'Pairing failed';
+  String get sync_pair_failed => 'Koppelen mislukt';
   @override
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   @override
-  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_sources_remote_group => 'Externe bronnen';
   @override
   String get audio_source_url_invalid =>
-      'Link must be http(s) and contain a term or reading placeholder';
+      'Link moet http(s) zijn en een term- of leeswijze-plaatshouder bevatten';
   @override
-  String get audio_source_added => 'Audio source added';
+  String get audio_source_added => 'Audiobron toegevoegd';
   @override
-  String get local_audio_imported => 'Audio database added';
+  String get local_audio_imported => 'Audiodatabase toegevoegd';
   @override
-  String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_import_failed =>
+      'Importeren van audiodatabase mislukt';
   @override
-  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_edit_sources => 'Bronnen bewerken';
   @override
-  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_source_order_title => 'Bronprioriteit';
   @override
-  String get local_audio_no_sources => 'No sources found in this database';
+  String get local_audio_no_sources => 'Geen bronnen gevonden in deze database';
   @override
-  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_title => 'Koppelverzoek';
   @override
   String get sync_pair_request_body =>
-      'A device is requesting to pair. Allow it to sync with this device?';
+      'Een apparaat vraagt om te koppelen. Toestaan dat het met dit apparaat synchroniseert?';
   @override
-  String get sync_pair_allow => 'Allow';
+  String get sync_pair_allow => 'Toestaan';
   @override
-  String get sync_pair_deny => 'Deny';
+  String get sync_pair_deny => 'Weigeren';
   @override
-  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_denied =>
+      'Het andere apparaat heeft het koppelen geweigerd';
   @override
-  String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unknown_device => 'Onbekend apparaat';
   @override
   String get sync_pair_unavailable =>
-      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      'Het andere apparaat is niet klaar of heeft een oudere versie. Werk het bij en schakel synchronisatie in, probeer het dan opnieuw.';
   @override
   String get sync_role_locked_by_server =>
-      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      'Dit apparaat fungeert als server. Schakel de server uit voordat je verbinding maakt met andere apparaten.';
   @override
   String get sync_role_locked_by_client =>
-      'Already connected to another device. Remove the connection before hosting as a server.';
+      'Al verbonden met een ander apparaat. Verwijder de verbinding voordat je als server fungeert.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
   @override
-  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files => 'Audioboekbestanden synchroniseren';
   @override
   String get sync_audiobook_files_warning =>
-      'Audio and subtitles can be large.';
+      'Audio en ondertitels kunnen groot zijn.';
   @override
-  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_title => 'Dubbel boek';
   @override
-  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_keep => 'Ja, achtervoegsel toevoegen';
   @override
-  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancel => 'Nee, annuleren';
   @override
-  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String get book_import_duplicate_cancelled => 'Import geannuleerd';
   @override
   String book_import_duplicate_message({required Object name}) =>
-      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      'Er bestaat al een boek met de naam "${name}". Toch importeren? "Ja" importeert met een genummerd achtervoegsel; "Nee" annuleert.';
   @override
-  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
+  String get reverse_reader_bottom_bar => 'Onderbalk van lezer omkeren';
   @override
-  String get floating_dict_close => 'Close';
+  String get floating_dict_close => 'Sluiten';
   @override
-  String get debug_log_share_subject => 'hibiki Debug Log';
+  String get debug_log_share_subject => 'hibiki-debuglog';
   @override
-  String get spread_direction_rtl => 'Right to Left';
+  String get spread_direction_rtl => 'Rechts naar links';
   @override
-  String get spread_direction_ltr => 'Left to Right';
+  String get spread_direction_ltr => 'Links naar rechts';
   @override
   String dict_download_partial(
           {required Object success,
           required Object total,
           required Object error}) =>
-      '${success} / ${total} OK. Failed: ${error}';
+      '${success} / ${total} OK. Mislukt: ${error}';
   @override
-  String get sync_now => 'Sync now';
+  String get sync_now => 'Nu synchroniseren';
   @override
-  String get sync_now_hint => 'Run a full two-way sync with the cloud now';
+  String get sync_now_hint =>
+      'Voer nu een volledige tweerichtingssync met de cloud uit';
   @override
-  String get sync_now_busy => 'A sync is already running';
+  String get sync_now_busy => 'Er loopt al een synchronisatie';
   @override
-  String get sync_now_no_changes => 'no changes';
+  String get sync_now_no_changes => 'geen wijzigingen';
   @override
-  String sync_now_done({required Object detail}) => 'Synced · ${detail}';
+  String sync_now_done({required Object detail}) =>
+      'Gesynchroniseerd · ${detail}';
   @override
   String sync_now_failed_suffix({required Object count}) =>
-      ' · ${count} failed';
+      ' · ${count} mislukt';
   @override
-  String sync_now_books_in({required Object count}) => '↓${count} books';
+  String sync_now_books_in({required Object count}) => '↓${count} boeken';
   @override
-  String sync_now_dicts_in({required Object count}) => '↓${count} dictionaries';
+  String sync_now_dicts_in({required Object count}) =>
+      '↓${count} woordenboeken';
   @override
   String sync_now_dicts_out({required Object count}) =>
-      '↑${count} dictionaries';
+      '↑${count} woordenboeken';
   @override
-  String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
+  String sync_now_audio_in({required Object count}) => '↓${count} audioboeken';
   @override
-  String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String sync_now_audio_out({required Object count}) => '↑${count} audioboeken';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => 'Woordenboeken';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => 'Boek op extern verwijderen';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook => 'Audioboek op extern verwijderen';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => 'Woordenboek op extern verwijderen';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => 'Verwijderd van extern';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      '"${name}" van het externe verwijderen? Lokale gegevens blijven behouden. Dit kan niet ongedaan worden gemaakt.';
+  @override
+  String get dictionaries_delete_failed =>
+      'Verwijderen van woordenboeken mislukt';
+  @override
+  String get dictionary_delete_failed => 'Verwijderen van woordenboek mislukt';
+  @override
+  String get sync_webdav_missing_fields => 'Ontbrekende velden';
+  @override
+  String get sync_compare_download => 'Downloaden';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -27528,7 +27933,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get handlebar_audio_sentence => 'Áudio (Frase)';
   @override
-  String get handlebar_tags => 'Tags';
+  String get handlebar_tags => 'Etiquetas';
   @override
   String get silent_export => 'Exportação Rápida';
   @override
@@ -27574,7 +27979,7 @@ class _StringsPtBr extends _StringsEn {
   String get storage_permissions =>
       'Por favor, conceda as seguintes permissões para exportar para o AnkiDroid.';
   @override
-  String get stream => 'Stream';
+  String get stream => 'Transmissão';
   @override
   String get network_subtitles_warning =>
       'Legendas embutidas não são compatíveis com streams de rede.';
@@ -27699,7 +28104,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get design_system_hint => 'Controla o estilo visual do app';
   @override
-  String get design_system_auto => 'Auto';
+  String get design_system_auto => 'Automático';
   @override
   String get cloze => 'Cloze';
   @override
@@ -28392,7 +28797,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get anki_field_mappings => 'Mapeamento de campos';
   @override
-  String get anki_tags => 'Tags';
+  String get anki_tags => 'Etiquetas';
   @override
   String get anki_tags_hint =>
       'Tags separadas por espaços adicionadas a cada cartão';
@@ -28590,7 +28995,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get creator_field_context => 'Contexto';
   @override
-  String get creator_field_tags => 'Tags';
+  String get creator_field_tags => 'Etiquetas';
   @override
   String get creator_field_hidden_meaning => 'Significado oculto';
   @override
@@ -28888,7 +29293,7 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get tag_filter_title => 'Filtrar por Tag';
   @override
-  String get tag_label => 'Tags';
+  String get tag_label => 'Etiquetas';
   @override
   String get tag_manage => 'Gerenciar Tags';
   @override
@@ -29029,7 +29434,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_statistics => 'Sincronizar estatísticas';
   @override
-  String get sync_summary => 'Google Drive · Compatível com ッツ/Hoshi Reader';
+  String get sync_summary =>
+      'Nuvem, P2P na rede local e backup local · compatível com ッツ/Hoshi Reader';
   @override
   String get sync_title => 'Sincronização';
   @override
@@ -29041,136 +29447,138 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get anki_connect_host => 'Host';
   @override
-  String get anki_connect_port => 'Port';
+  String get anki_connect_port => 'Porta';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => 'Comparar dados';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => 'Local vs. Remoto';
   @override
   String get sync_compare_local => 'Local';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => 'Remoto';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => 'Sem dados';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => 'Nenhum livro encontrado';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => 'dias';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => 'Conflitos';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => 'Todos os livros';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => 'Selecionar tudo';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => 'Tudo → Local';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => 'Tudo → Remoto';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => 'Tudo → Ignorar';
   @override
   String get sync_compare_use_local => 'Local';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => 'Remoto';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => 'Ignorar';
   @override
   String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+      '${count} alterações aplicadas';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => 'Aplicar (${count})';
   @override
-  String get sync_auto_sync => 'Auto Sync';
+  String get sync_auto_sync => 'Sincronização automática';
   @override
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
-      'Sync: ${direction} ${title}';
+      'Sinc.: ${direction} ${title}';
   @override
-  String get no_matching_audio_cue => 'No matching audio for this sentence';
+  String get no_matching_audio_cue =>
+      'Nenhum áudio correspondente a esta frase';
   @override
-  String get sync_exit_warning_title => 'Sync In Progress';
+  String get sync_exit_warning_title => 'Sincronização em andamento';
   @override
   String get sync_exit_warning =>
-      'Sync is still in progress. Exiting now may cause data loss.';
+      'A sincronização ainda está em andamento. Sair agora pode causar perda de dados.';
   @override
-  String get sync_content => 'Sync book files';
+  String get sync_content => 'Sincronizar arquivos de livros';
   @override
   String get sync_content_warning =>
-      'Large files will use storage space and data';
+      'Arquivos grandes usam espaço de armazenamento e dados';
   @override
-  String get sync_backend => 'Storage backend';
+  String get sync_backend => 'Backend de armazenamento';
   @override
   String get sync_backend_google_drive => 'Google Drive';
   @override
   String get sync_backend_webdav => 'WebDAV';
   @override
-  String get sync_webdav_url => 'Server URL';
+  String get sync_webdav_url => 'URL do servidor';
   @override
-  String get sync_webdav_username => 'Username';
+  String get sync_webdav_username => 'Nome de usuário';
   @override
-  String get sync_webdav_password => 'Password';
+  String get sync_webdav_password => 'Senha';
   @override
-  String get sync_webdav_test => 'Test connection';
+  String get sync_webdav_test => 'Testar conexão';
   @override
-  String get sync_webdav_test_success => 'Connection successful';
+  String get sync_webdav_test_success => 'Conexão bem-sucedida';
   @override
   String sync_webdav_test_failed({required Object message}) =>
-      'Connection failed: ${message}';
+      'Falha na conexão: ${message}';
   @override
-  String get book_file_not_found => 'Book file not found';
+  String get book_file_not_found => 'Arquivo do livro não encontrado';
   @override
-  String get epub_parse_fallback => 'Book metadata repaired from database';
+  String get epub_parse_fallback =>
+      'Metadados do livro recuperados do banco de dados';
   @override
-  String get retry => 'Retry';
+  String get retry => 'Tentar novamente';
   @override
-  String get copy_error => 'Copy Error';
+  String get copy_error => 'Copiar erro';
   @override
-  String get error_copied => 'Error copied to clipboard';
+  String get error_copied => 'Erro copiado para a área de transferência';
   @override
   String dict_import_failed_summary({required Object n}) =>
-      'Failed to import ${n} dictionary(s)';
+      'Falha ao importar ${n} dicionário(s)';
   @override
   String get reader_content_timeout =>
-      'Content loading timed out. Reopen if display is abnormal';
+      'O carregamento do conteúdo expirou. Reabra se a exibição estiver anormal';
   @override
-  String get backup_local => 'Local Backup';
+  String get backup_local => 'Backup local';
   @override
-  String get backup_export => 'Export Backup';
+  String get backup_export => 'Exportar backup';
   @override
   String get backup_export_hint =>
-      'Save all settings, reading progress, and statistics to a file';
+      'Salvar todas as configurações, progresso de leitura e estatísticas em um arquivo';
   @override
-  String get backup_import => 'Import Backup';
+  String get backup_import => 'Importar backup';
   @override
   String get backup_import_hint =>
-      'Restore from a backup file. The app will restart.';
+      'Restaurar a partir de um arquivo de backup. O app será reiniciado.';
   @override
-  String get backup_export_success => 'Backup exported successfully';
+  String get backup_export_success => 'Backup exportado com sucesso';
   @override
   String backup_export_failed({required Object message}) =>
-      'Backup export failed: ${message}';
+      'Falha ao exportar backup: ${message}';
   @override
-  String get backup_import_confirm_title => 'Restore Backup?';
+  String get backup_import_confirm_title => 'Restaurar backup?';
   @override
   String backup_import_confirm(
           {required Object date,
           required Object bookCount,
           required Object statsCount}) =>
-      'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+      'Isto substituirá todos os dados atuais pelo backup de ${date}.\n\n${bookCount} livros, ${statsCount} registros de estatísticas.\n\nO app será reiniciado após a restauração.';
   @override
-  String get backup_import_success => 'Backup restored. Restarting…';
+  String get backup_import_success => 'Backup restaurado. Reiniciando…';
   @override
   String backup_import_failed({required Object message}) =>
-      'Backup import failed: ${message}';
+      'Falha ao importar backup: ${message}';
   @override
-  String get backup_import_invalid => 'Invalid backup file';
+  String get backup_import_invalid => 'Arquivo de backup inválido';
   @override
-  String get backup_exporting => 'Creating backup…';
+  String get backup_exporting => 'Criando backup…';
   @override
   String backup_schema_newer({required Object version}) =>
-      'This backup requires a newer version of the app (schema ${version}). Please update first.';
+      'Este backup requer uma versão mais recente do app (esquema ${version}). Atualize primeiro.';
   @override
-  String get reverse_navigation_bar => 'Reverse navigation bar';
+  String get reverse_navigation_bar => 'Inverter barra de navegação';
   @override
   String get sync_backend_onedrive => 'OneDrive';
   @override
@@ -29182,313 +29590,356 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_backend_hibiki_server => 'Hibiki P2P';
   @override
-  String get sync_server_enable => 'Enable sync server';
+  String get sync_server_enable => 'Ativar servidor de sincronização';
   @override
-  String get sync_server_port => 'Server port';
+  String get sync_server_port => 'Porta do servidor';
   @override
-  String get sync_server_token => 'Access token';
+  String get sync_server_token => 'Token de acesso';
   @override
-  String get sync_server_copy_token => 'Copy token';
+  String get sync_server_copy_token => 'Copiar token';
   @override
-  String get sync_server_regenerate_token => 'Regenerate token';
+  String get sync_server_regenerate_token => 'Gerar novo token';
   @override
-  String get sync_server_running => 'Server running';
+  String get sync_server_running => 'Servidor em execução';
   @override
-  String get sync_server_stopped => 'Server stopped';
+  String get sync_server_stopped => 'Servidor parado';
   @override
-  String get sync_lan_discovery => 'LAN devices';
+  String get sync_lan_discovery => 'Dispositivos na rede local';
   @override
-  String get sync_lan_scanning => 'Scanning...';
+  String get sync_lan_scanning => 'Procurando...';
   @override
-  String get sync_lan_no_devices => 'No devices found';
+  String get sync_lan_no_devices => 'Nenhum dispositivo encontrado';
   @override
-  String get sync_fallback_config => 'Fallback order';
+  String get sync_fallback_config => 'Ordem de fallback';
   @override
-  String get sync_test_connection => 'Test connection';
+  String get sync_test_connection => 'Testar conexão';
   @override
-  String get sync_connection_success => 'Connection successful';
+  String get sync_connection_success => 'Conexão bem-sucedida';
   @override
-  String get sync_connection_failed => 'Connection failed';
+  String get sync_connection_failed => 'Falha na conexão';
   @override
   String get sync_host => 'Host';
   @override
-  String get sync_port => 'Port';
+  String get sync_port => 'Porta';
   @override
-  String get sync_username => 'Username';
+  String get sync_username => 'Nome de usuário';
   @override
-  String get sync_password => 'Password';
+  String get sync_password => 'Senha';
   @override
-  String get sync_use_tls => 'Use TLS';
+  String get sync_use_tls => 'Usar TLS';
   @override
-  String get sync_private_key => 'Private key';
+  String get sync_private_key => 'Chave privada';
   @override
-  String get skip_action => 'Skip Action';
+  String get skip_action => 'Ação de pular';
   @override
-  String get skip_action_sentence => '1 sentence';
+  String get skip_action_sentence => '1 frase';
   @override
-  String skip_action_seconds({required Object n}) => '${n} seconds';
+  String skip_action_seconds({required Object n}) => '${n} segundos';
   @override
-  String get shortcut_settings_title => 'Keyboard Shortcuts';
+  String get shortcut_settings_title => 'Atalhos de teclado';
   @override
-  String get shortcut_scope_reader => 'Reader';
+  String get shortcut_scope_reader => 'Leitor';
   @override
-  String get shortcut_scope_home => 'Home';
+  String get shortcut_scope_home => 'Início';
   @override
   String get shortcut_scope_global => 'Global';
   @override
-  String get shortcut_scope_audiobook => 'Audiobook';
+  String get shortcut_scope_audiobook => 'Audiolivro';
   @override
-  String get shortcut_action_reader_page_forward => 'Next Page';
+  String get shortcut_action_reader_page_forward => 'Próxima página';
   @override
-  String get shortcut_action_reader_page_backward => 'Previous Page';
+  String get shortcut_action_reader_page_backward => 'Página anterior';
   @override
-  String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+  String get shortcut_action_reader_toggle_chrome => 'Alternar controles';
   @override
-  String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+  String get shortcut_action_reader_dismiss_dict => 'Fechar dicionário';
   @override
-  String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+  String get shortcut_action_reader_toggle_bookmark => 'Alternar marcador';
   @override
-  String get shortcut_action_home_tab_books => 'Books Tab';
+  String get shortcut_action_home_tab_books => 'Aba Livros';
   @override
-  String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+  String get shortcut_action_home_tab_dict => 'Aba Dicionário';
   @override
-  String get shortcut_action_home_tab_settings => 'Settings Tab';
+  String get shortcut_action_home_tab_settings => 'Aba Configurações';
   @override
-  String get shortcut_action_home_focus_search => 'Focus Search';
+  String get shortcut_action_home_focus_search => 'Focar na busca';
   @override
-  String get shortcut_action_global_back => 'Go Back';
+  String get shortcut_action_global_back => 'Voltar';
   @override
-  String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+  String get shortcut_action_audiobook_play_pause => 'Reproduzir / Pausar';
   @override
-  String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+  String get shortcut_action_audiobook_next_sentence => 'Próxima frase';
   @override
-  String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+  String get shortcut_action_audiobook_prev_sentence => 'Frase anterior';
   @override
-  String get shortcut_press_key => 'Press a key combination...';
+  String get shortcut_press_key => 'Pressione uma combinação de teclas...';
   @override
-  String get shortcut_press_gamepad => 'Press a gamepad button...';
+  String get shortcut_press_gamepad => 'Pressione um botão do controle...';
   @override
-  String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
+  String shortcut_conflict({required Object s}) => 'Já usado por: ${s}';
   @override
-  String get shortcut_reset_defaults => 'Reset to Defaults';
+  String get shortcut_reset_defaults => 'Restaurar padrões';
   @override
   String get shortcut_reset_confirm =>
-      'Reset all shortcuts in this section to defaults?';
+      'Restaurar todos os atalhos desta seção para os padrões?';
   @override
-  String get shortcut_keyboard => 'Keyboard';
+  String get shortcut_keyboard => 'Teclado';
   @override
-  String get shortcut_gamepad => 'Gamepad';
+  String get shortcut_gamepad => 'Controle';
   @override
-  String get shortcut_none => 'None';
+  String get shortcut_none => 'Nenhum';
   @override
-  String get shortcut_clear => 'Clear';
+  String get shortcut_clear => 'Limpar';
   @override
-  String get shortcut_stop_capture => 'Stop';
+  String get shortcut_stop_capture => 'Parar';
   @override
-  String get section_advanced_typography => 'Advanced';
+  String get section_advanced_typography => 'Avançado';
   @override
   String get sync_err_network =>
-      'Cannot reach the server — check your network or proxy settings.';
+      'Não foi possível alcançar o servidor — verifique sua rede ou as configurações de proxy.';
   @override
   String get sync_err_timeout =>
-      'Connection timed out — the server did not respond in time.';
+      'A conexão expirou — o servidor não respondeu a tempo.';
   @override
-  String get sync_err_quota => 'Cloud storage is full (quota reached).';
+  String get sync_err_quota =>
+      'O armazenamento na nuvem está cheio (cota atingida).';
   @override
-  String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
+  String get sync_err_auth_expired => 'Sessão expirada — faça login novamente.';
   @override
   String sync_server_port_in_use({required Object port}) =>
-      'Port ${port} is already in use — pick a different port.';
+      'A porta ${port} já está em uso — escolha outra porta.';
   @override
   String get sync_lan_scan_failed =>
-      'Scan failed — check network permissions or firewall.';
+      'Falha na busca — verifique as permissões de rede ou o firewall.';
   @override
-  String get sync_section_method => 'Sync method';
+  String get sync_section_method => 'Método de sincronização';
   @override
-  String get sync_section_host_server => 'This device as a sync server';
+  String get sync_section_host_server =>
+      'Este dispositivo como servidor de sincronização';
   @override
   String get sync_section_host_server_footer =>
-      'Let other devices sync from this device. Independent of the sync backend above.';
+      'Permite que outros dispositivos sincronizem com este. Independente do backend de sincronização acima.';
   @override
-  String get sync_section_content => 'What to sync';
+  String get sync_section_content => 'O que sincronizar';
   @override
-  String get sync_section_actions => 'Sync actions';
+  String get sync_section_actions => 'Ações de sincronização';
   @override
-  String get sync_section_backup => 'Local backup';
+  String get sync_section_backup => 'Backup local';
   @override
   String get backup_import_preserve_sync_note =>
-      'Your sync settings on this device (account and credentials) will be kept.';
+      'Suas configurações de sincronização neste dispositivo (conta e credenciais) serão mantidas.';
   @override
-  String get backup_import_settings_toggle => 'Import settings & profiles';
+  String get backup_import_settings_toggle => 'Importar configurações e perfis';
   @override
   String get backup_import_settings_on_hint =>
-      'Full restore: fonts, appearance and profiles come from the backup.';
+      'Restauração completa: fontes, aparência e perfis vêm do backup.';
   @override
   String get backup_import_settings_off_hint =>
-      'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+      'Manter fontes/aparência/perfis deste dispositivo; restaurar apenas livros e dados de leitura.';
   @override
   String get reader_unsupported_platform =>
-      'The reader is not yet available on this platform.';
+      'O leitor ainda não está disponível nesta plataforma.';
   @override
   String get microphone_permission_denied =>
-      'Microphone permission is required to record.';
+      'É necessária permissão de microfone para gravar.';
   @override
-  String get anki_connect_api_key => 'API Key';
+  String get anki_connect_api_key => 'Chave de API';
   @override
   String get anki_connect_api_key_hint =>
-      'Leave empty unless AnkiConnect requires a key';
+      'Deixe em branco, a menos que o AnkiConnect exija uma chave';
   @override
   String get shortcut_action_global_scroll_page_down =>
-      'Scroll down one screen';
+      'Rolar uma tela para baixo';
   @override
-  String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+  String get shortcut_action_global_scroll_page_up =>
+      'Rolar uma tela para cima';
   @override
-  String get shortcut_action_home_tab_prev => 'Previous tab';
+  String get shortcut_action_home_tab_prev => 'Aba anterior';
   @override
-  String get shortcut_action_home_tab_next => 'Next tab';
+  String get shortcut_action_home_tab_next => 'Próxima aba';
   @override
-  String get move_up => 'Move up';
+  String get move_up => 'Mover para cima';
   @override
-  String get move_down => 'Move down';
+  String get move_down => 'Mover para baixo';
   @override
-  String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_toggle_furigana => 'Alternar furigana';
   @override
-  String get on_screen_keyboard => 'On-screen keyboard';
+  String get on_screen_keyboard => 'Teclado virtual';
   @override
-  String get app_ui_scale => 'UI size';
+  String get app_ui_scale => 'Tamanho da interface';
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary => 'Sincronizar dicionários';
   @override
   String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
+      'Os pacotes de dicionário podem ser grandes e incluir recursos de dicionários importados.';
   @override
-  String get settings_destination_reading => 'Reading';
+  String get settings_destination_reading => 'Leitura';
   @override
-  String get remote_dict_lookup => 'Remote dictionary lookup';
+  String get remote_dict_lookup => 'Consulta de dicionário remoto';
   @override
   String get remote_dict_lookup_hint =>
-      'When local dictionaries miss, query the configured Hibiki server';
+      'Quando os dicionários locais falham, consulta o servidor Hibiki configurado';
   @override
-  String get remote_audio_source => 'Remote audio';
+  String get remote_audio_source => 'Áudio remoto';
   @override
-  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_success => 'Pareado — token preenchido';
   @override
-  String get sync_pair_failed => 'Pairing failed';
+  String get sync_pair_failed => 'Falha no pareamento';
   @override
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   @override
-  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_sources_remote_group => 'Fontes remotas';
   @override
   String get audio_source_url_invalid =>
-      'Link must be http(s) and contain a term or reading placeholder';
+      'O link deve ser http(s) e conter um marcador de termo ou leitura';
   @override
-  String get audio_source_added => 'Audio source added';
+  String get audio_source_added => 'Fonte de áudio adicionada';
   @override
-  String get local_audio_imported => 'Audio database added';
+  String get local_audio_imported => 'Banco de dados de áudio adicionado';
   @override
-  String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_import_failed =>
+      'Falha ao importar banco de dados de áudio';
   @override
-  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_edit_sources => 'Editar fontes';
   @override
-  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_source_order_title => 'Prioridade das fontes';
   @override
-  String get local_audio_no_sources => 'No sources found in this database';
+  String get local_audio_no_sources =>
+      'Nenhuma fonte encontrada neste banco de dados';
   @override
-  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_title => 'Solicitação de pareamento';
   @override
   String get sync_pair_request_body =>
-      'A device is requesting to pair. Allow it to sync with this device?';
+      'Um dispositivo está solicitando o pareamento. Permitir que ele sincronize com este dispositivo?';
   @override
-  String get sync_pair_allow => 'Allow';
+  String get sync_pair_allow => 'Permitir';
   @override
-  String get sync_pair_deny => 'Deny';
+  String get sync_pair_deny => 'Recusar';
   @override
-  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_denied => 'O outro dispositivo recusou o pareamento';
   @override
-  String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unknown_device => 'Dispositivo desconhecido';
   @override
   String get sync_pair_unavailable =>
-      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      'O outro dispositivo não está pronto ou está em uma versão mais antiga. Atualize-o e ative a sincronização, depois tente novamente.';
   @override
   String get sync_role_locked_by_server =>
-      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      'Este dispositivo está atuando como servidor. Desative o servidor antes de conectar a outros dispositivos.';
   @override
   String get sync_role_locked_by_client =>
-      'Already connected to another device. Remove the connection before hosting as a server.';
+      'Já conectado a outro dispositivo. Remova a conexão antes de atuar como servidor.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
   @override
-  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files => 'Sincronizar arquivos de audiolivros';
   @override
   String get sync_audiobook_files_warning =>
-      'Audio and subtitles can be large.';
+      'Áudio e legendas podem ser grandes.';
   @override
-  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_title => 'Livro duplicado';
   @override
-  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_keep => 'Sim, adicionar sufixo';
   @override
-  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancel => 'Não, cancelar';
   @override
-  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String get book_import_duplicate_cancelled => 'Importação cancelada';
   @override
   String book_import_duplicate_message({required Object name}) =>
-      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      'Já existe um livro chamado "${name}". Importar mesmo assim? "Sim" importa com um sufixo numerado; "Não" cancela.';
   @override
-  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
+  String get reverse_reader_bottom_bar => 'Inverter barra inferior do leitor';
   @override
-  String get floating_dict_close => 'Close';
+  String get floating_dict_close => 'Fechar';
   @override
-  String get debug_log_share_subject => 'hibiki Debug Log';
+  String get debug_log_share_subject => 'Log de depuração do hibiki';
   @override
-  String get spread_direction_rtl => 'Right to Left';
+  String get spread_direction_rtl => 'Da direita para a esquerda';
   @override
-  String get spread_direction_ltr => 'Left to Right';
+  String get spread_direction_ltr => 'Da esquerda para a direita';
   @override
   String dict_download_partial(
           {required Object success,
           required Object total,
           required Object error}) =>
-      '${success} / ${total} OK. Failed: ${error}';
+      '${success} / ${total} OK. Falharam: ${error}';
   @override
-  String get sync_now => 'Sync now';
+  String get sync_now => 'Sincronizar agora';
   @override
-  String get sync_now_hint => 'Run a full two-way sync with the cloud now';
+  String get sync_now_hint =>
+      'Executar uma sincronização bidirecional completa com a nuvem agora';
   @override
-  String get sync_now_busy => 'A sync is already running';
+  String get sync_now_busy => 'Uma sincronização já está em execução';
   @override
-  String get sync_now_no_changes => 'no changes';
+  String get sync_now_no_changes => 'nenhuma alteração';
   @override
-  String sync_now_done({required Object detail}) => 'Synced · ${detail}';
+  String sync_now_done({required Object detail}) => 'Sincronizado · ${detail}';
   @override
   String sync_now_failed_suffix({required Object count}) =>
-      ' · ${count} failed';
+      ' · ${count} falharam';
   @override
-  String sync_now_books_in({required Object count}) => '↓${count} books';
+  String sync_now_books_in({required Object count}) => '↓${count} livros';
   @override
-  String sync_now_dicts_in({required Object count}) => '↓${count} dictionaries';
+  String sync_now_dicts_in({required Object count}) => '↓${count} dicionários';
   @override
-  String sync_now_dicts_out({required Object count}) =>
-      '↑${count} dictionaries';
+  String sync_now_dicts_out({required Object count}) => '↑${count} dicionários';
   @override
-  String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
+  String sync_now_audio_in({required Object count}) => '↓${count} audiolivros';
   @override
-  String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String sync_now_audio_out({required Object count}) => '↑${count} audiolivros';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => 'Dicionários';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => 'Excluir livro no remoto';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook => 'Excluir audiolivro no remoto';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => 'Excluir dicionário no remoto';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => 'Excluído do remoto';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      'Excluir "${name}" do remoto? Os dados locais são mantidos. Isto não pode ser desfeito.';
+  @override
+  String get dictionaries_delete_failed => 'Falha ao excluir dicionários';
+  @override
+  String get dictionary_delete_failed => 'Falha ao excluir dicionário';
+  @override
+  String get sync_webdav_missing_fields => 'Campos faltando';
+  @override
+  String get sync_compare_download => 'Baixar';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -30756,7 +31207,7 @@ class _StringsRu extends _StringsEn {
   @override
   String get ttu_scroll => 'Прокрутка';
   @override
-  String get ttu_furigana_mode => 'Furigana';
+  String get ttu_furigana_mode => 'Фуригана';
   @override
   String get ttu_furigana_show => 'Показать';
   @override
@@ -31832,7 +32283,8 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_statistics => 'Синхронизировать статистику';
   @override
-  String get sync_summary => 'Google Drive · Совместимо с ッツ/Hoshi Reader';
+  String get sync_summary =>
+      'Облако, Hibiki P2P и локальная копия · совместимо с ッツ/Hoshi Reader';
   @override
   String get sync_title => 'Синхронизация';
   @override
@@ -31842,138 +32294,139 @@ class _StringsRu extends _StringsEn {
   @override
   String get update_channel_stable => 'Стабильная';
   @override
-  String get anki_connect_host => 'Host';
+  String get anki_connect_host => 'Хост';
   @override
-  String get anki_connect_port => 'Port';
+  String get anki_connect_port => 'Порт';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => 'Сравнить данные';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => 'Локально и удалённо';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => 'Локально';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => 'Удалённо';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => 'Нет данных';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => 'Книги не найдены';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => 'дн.';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => 'Конфликты';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => 'Все книги';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => 'Выбрать все';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => 'Все → Локально';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => 'Все → Удалённо';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => 'Все → Пропустить';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => 'Локально';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => 'Удалённо';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => 'Пропустить';
   @override
   String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+      'Применено изменений: ${count}';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => 'Применить (${count})';
   @override
-  String get sync_auto_sync => 'Auto Sync';
+  String get sync_auto_sync => 'Автосинхронизация';
   @override
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
-      'Sync: ${direction} ${title}';
+      'Синхронизация: ${direction} ${title}';
   @override
-  String get no_matching_audio_cue => 'No matching audio for this sentence';
+  String get no_matching_audio_cue => 'Нет аудио для этого предложения';
   @override
-  String get sync_exit_warning_title => 'Sync In Progress';
+  String get sync_exit_warning_title => 'Идёт синхронизация';
   @override
   String get sync_exit_warning =>
-      'Sync is still in progress. Exiting now may cause data loss.';
+      'Синхронизация ещё не завершена. Выход сейчас может привести к потере данных.';
   @override
-  String get sync_content => 'Sync book files';
+  String get sync_content => 'Синхронизировать файлы книг';
   @override
   String get sync_content_warning =>
-      'Large files will use storage space and data';
+      'Большие файлы займут место в хранилище и трафик';
   @override
-  String get sync_backend => 'Storage backend';
+  String get sync_backend => 'Хранилище';
   @override
   String get sync_backend_google_drive => 'Google Drive';
   @override
   String get sync_backend_webdav => 'WebDAV';
   @override
-  String get sync_webdav_url => 'Server URL';
+  String get sync_webdav_url => 'URL сервера';
   @override
-  String get sync_webdav_username => 'Username';
+  String get sync_webdav_username => 'Имя пользователя';
   @override
-  String get sync_webdav_password => 'Password';
+  String get sync_webdav_password => 'Пароль';
   @override
-  String get sync_webdav_test => 'Test connection';
+  String get sync_webdav_test => 'Проверить соединение';
   @override
-  String get sync_webdav_test_success => 'Connection successful';
+  String get sync_webdav_test_success => 'Соединение установлено';
   @override
   String sync_webdav_test_failed({required Object message}) =>
-      'Connection failed: ${message}';
+      'Ошибка соединения: ${message}';
   @override
-  String get book_file_not_found => 'Book file not found';
+  String get book_file_not_found => 'Файл книги не найден';
   @override
-  String get epub_parse_fallback => 'Book metadata repaired from database';
+  String get epub_parse_fallback =>
+      'Метаданные книги восстановлены из базы данных';
   @override
-  String get retry => 'Retry';
+  String get retry => 'Повторить';
   @override
-  String get copy_error => 'Copy Error';
+  String get copy_error => 'Копировать ошибку';
   @override
-  String get error_copied => 'Error copied to clipboard';
+  String get error_copied => 'Ошибка скопирована в буфер обмена';
   @override
   String dict_import_failed_summary({required Object n}) =>
-      'Failed to import ${n} dictionary(s)';
+      'Не удалось импортировать словарей: ${n}';
   @override
   String get reader_content_timeout =>
-      'Content loading timed out. Reopen if display is abnormal';
+      'Время загрузки контента истекло. Откройте заново, если отображение некорректно';
   @override
-  String get backup_local => 'Local Backup';
+  String get backup_local => 'Локальная резервная копия';
   @override
-  String get backup_export => 'Export Backup';
+  String get backup_export => 'Экспорт копии';
   @override
   String get backup_export_hint =>
-      'Save all settings, reading progress, and statistics to a file';
+      'Сохранить все настройки, прогресс чтения и статистику в файл';
   @override
-  String get backup_import => 'Import Backup';
+  String get backup_import => 'Импорт копии';
   @override
   String get backup_import_hint =>
-      'Restore from a backup file. The app will restart.';
+      'Восстановить из файла резервной копии. Приложение перезапустится.';
   @override
-  String get backup_export_success => 'Backup exported successfully';
+  String get backup_export_success => 'Резервная копия успешно экспортирована';
   @override
   String backup_export_failed({required Object message}) =>
-      'Backup export failed: ${message}';
+      'Не удалось экспортировать копию: ${message}';
   @override
-  String get backup_import_confirm_title => 'Restore Backup?';
+  String get backup_import_confirm_title => 'Восстановить копию?';
   @override
   String backup_import_confirm(
           {required Object date,
           required Object bookCount,
           required Object statsCount}) =>
-      'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+      'Это заменит все текущие данные копией от ${date}.\n\nКниг: ${bookCount}, записей статистики: ${statsCount}.\n\nПосле восстановления приложение перезапустится.';
   @override
-  String get backup_import_success => 'Backup restored. Restarting…';
+  String get backup_import_success => 'Копия восстановлена. Перезапуск…';
   @override
   String backup_import_failed({required Object message}) =>
-      'Backup import failed: ${message}';
+      'Не удалось импортировать копию: ${message}';
   @override
-  String get backup_import_invalid => 'Invalid backup file';
+  String get backup_import_invalid => 'Недопустимый файл резервной копии';
   @override
-  String get backup_exporting => 'Creating backup…';
+  String get backup_exporting => 'Создание копии…';
   @override
   String backup_schema_newer({required Object version}) =>
-      'This backup requires a newer version of the app (schema ${version}). Please update first.';
+      'Эта копия требует более новой версии приложения (схема ${version}). Сначала обновите приложение.';
   @override
-  String get reverse_navigation_bar => 'Reverse navigation bar';
+  String get reverse_navigation_bar => 'Обратить панель навигации';
   @override
   String get sync_backend_onedrive => 'OneDrive';
   @override
@@ -31985,313 +32438,360 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_backend_hibiki_server => 'Hibiki P2P';
   @override
-  String get sync_server_enable => 'Enable sync server';
+  String get sync_server_enable => 'Включить сервер синхронизации';
   @override
-  String get sync_server_port => 'Server port';
+  String get sync_server_port => 'Порт сервера';
   @override
-  String get sync_server_token => 'Access token';
+  String get sync_server_token => 'Токен доступа';
   @override
-  String get sync_server_copy_token => 'Copy token';
+  String get sync_server_copy_token => 'Копировать токен';
   @override
-  String get sync_server_regenerate_token => 'Regenerate token';
+  String get sync_server_regenerate_token => 'Создать токен заново';
   @override
-  String get sync_server_running => 'Server running';
+  String get sync_server_running => 'Сервер работает';
   @override
-  String get sync_server_stopped => 'Server stopped';
+  String get sync_server_stopped => 'Сервер остановлен';
   @override
-  String get sync_lan_discovery => 'LAN devices';
+  String get sync_lan_discovery => 'Устройства в сети';
   @override
-  String get sync_lan_scanning => 'Scanning...';
+  String get sync_lan_scanning => 'Сканирование...';
   @override
-  String get sync_lan_no_devices => 'No devices found';
+  String get sync_lan_no_devices => 'Устройства не найдены';
   @override
-  String get sync_fallback_config => 'Fallback order';
+  String get sync_fallback_config => 'Порядок резерва';
   @override
-  String get sync_test_connection => 'Test connection';
+  String get sync_test_connection => 'Проверить соединение';
   @override
-  String get sync_connection_success => 'Connection successful';
+  String get sync_connection_success => 'Соединение установлено';
   @override
-  String get sync_connection_failed => 'Connection failed';
+  String get sync_connection_failed => 'Ошибка соединения';
   @override
-  String get sync_host => 'Host';
+  String get sync_host => 'Хост';
   @override
-  String get sync_port => 'Port';
+  String get sync_port => 'Порт';
   @override
-  String get sync_username => 'Username';
+  String get sync_username => 'Имя пользователя';
   @override
-  String get sync_password => 'Password';
+  String get sync_password => 'Пароль';
   @override
-  String get sync_use_tls => 'Use TLS';
+  String get sync_use_tls => 'Использовать TLS';
   @override
-  String get sync_private_key => 'Private key';
+  String get sync_private_key => 'Закрытый ключ';
   @override
-  String get skip_action => 'Skip Action';
+  String get skip_action => 'Действие пропуска';
   @override
-  String get skip_action_sentence => '1 sentence';
+  String get skip_action_sentence => '1 предложение';
   @override
-  String skip_action_seconds({required Object n}) => '${n} seconds';
+  String skip_action_seconds({required Object n}) => '${n} сек.';
   @override
-  String get shortcut_settings_title => 'Keyboard Shortcuts';
+  String get shortcut_settings_title => 'Сочетания клавиш';
   @override
-  String get shortcut_scope_reader => 'Reader';
+  String get shortcut_scope_reader => 'Читалка';
   @override
-  String get shortcut_scope_home => 'Home';
+  String get shortcut_scope_home => 'Главная';
   @override
-  String get shortcut_scope_global => 'Global';
+  String get shortcut_scope_global => 'Глобальные';
   @override
-  String get shortcut_scope_audiobook => 'Audiobook';
+  String get shortcut_scope_audiobook => 'Аудиокнига';
   @override
-  String get shortcut_action_reader_page_forward => 'Next Page';
+  String get shortcut_action_reader_page_forward => 'Следующая страница';
   @override
-  String get shortcut_action_reader_page_backward => 'Previous Page';
+  String get shortcut_action_reader_page_backward => 'Предыдущая страница';
   @override
-  String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+  String get shortcut_action_reader_toggle_chrome =>
+      'Показать/скрыть элементы управления';
   @override
-  String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+  String get shortcut_action_reader_dismiss_dict => 'Закрыть словарь';
   @override
-  String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+  String get shortcut_action_reader_toggle_bookmark => 'Закладка вкл./выкл.';
   @override
-  String get shortcut_action_home_tab_books => 'Books Tab';
+  String get shortcut_action_home_tab_books => 'Вкладка «Книги»';
   @override
-  String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+  String get shortcut_action_home_tab_dict => 'Вкладка «Словарь»';
   @override
-  String get shortcut_action_home_tab_settings => 'Settings Tab';
+  String get shortcut_action_home_tab_settings => 'Вкладка «Настройки»';
   @override
-  String get shortcut_action_home_focus_search => 'Focus Search';
+  String get shortcut_action_home_focus_search => 'Фокус на поиск';
   @override
-  String get shortcut_action_global_back => 'Go Back';
+  String get shortcut_action_global_back => 'Назад';
   @override
-  String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+  String get shortcut_action_audiobook_play_pause => 'Воспроизведение / пауза';
   @override
-  String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+  String get shortcut_action_audiobook_next_sentence => 'Следующее предложение';
   @override
-  String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+  String get shortcut_action_audiobook_prev_sentence =>
+      'Предыдущее предложение';
   @override
-  String get shortcut_press_key => 'Press a key combination...';
+  String get shortcut_press_key => 'Нажмите комбинацию клавиш...';
   @override
-  String get shortcut_press_gamepad => 'Press a gamepad button...';
+  String get shortcut_press_gamepad => 'Нажмите кнопку геймпада...';
   @override
-  String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
+  String shortcut_conflict({required Object s}) => 'Уже используется: ${s}';
   @override
-  String get shortcut_reset_defaults => 'Reset to Defaults';
+  String get shortcut_reset_defaults => 'Сбросить по умолчанию';
   @override
   String get shortcut_reset_confirm =>
-      'Reset all shortcuts in this section to defaults?';
+      'Сбросить все сочетания в этом разделе к значениям по умолчанию?';
   @override
-  String get shortcut_keyboard => 'Keyboard';
+  String get shortcut_keyboard => 'Клавиатура';
   @override
-  String get shortcut_gamepad => 'Gamepad';
+  String get shortcut_gamepad => 'Геймпад';
   @override
-  String get shortcut_none => 'None';
+  String get shortcut_none => 'Нет';
   @override
-  String get shortcut_clear => 'Clear';
+  String get shortcut_clear => 'Очистить';
   @override
-  String get shortcut_stop_capture => 'Stop';
+  String get shortcut_stop_capture => 'Стоп';
   @override
-  String get section_advanced_typography => 'Advanced';
+  String get section_advanced_typography => 'Дополнительно';
   @override
   String get sync_err_network =>
-      'Cannot reach the server — check your network or proxy settings.';
+      'Не удаётся подключиться к серверу — проверьте сеть или настройки прокси.';
   @override
   String get sync_err_timeout =>
-      'Connection timed out — the server did not respond in time.';
+      'Истекло время ожидания — сервер не ответил вовремя.';
   @override
-  String get sync_err_quota => 'Cloud storage is full (quota reached).';
+  String get sync_err_quota =>
+      'Облачное хранилище заполнено (достигнут лимит).';
   @override
-  String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
+  String get sync_err_auth_expired => 'Сессия истекла — войдите снова.';
   @override
   String sync_server_port_in_use({required Object port}) =>
-      'Port ${port} is already in use — pick a different port.';
+      'Порт ${port} уже занят — выберите другой порт.';
   @override
   String get sync_lan_scan_failed =>
-      'Scan failed — check network permissions or firewall.';
+      'Сканирование не удалось — проверьте разрешения сети или брандмауэр.';
   @override
-  String get sync_section_method => 'Sync method';
+  String get sync_section_method => 'Способ синхронизации';
   @override
-  String get sync_section_host_server => 'This device as a sync server';
+  String get sync_section_host_server =>
+      'Это устройство как сервер синхронизации';
   @override
   String get sync_section_host_server_footer =>
-      'Let other devices sync from this device. Independent of the sync backend above.';
+      'Позволяет другим устройствам синхронизироваться с этого устройства. Не зависит от хранилища выше.';
   @override
-  String get sync_section_content => 'What to sync';
+  String get sync_section_content => 'Что синхронизировать';
   @override
-  String get sync_section_actions => 'Sync actions';
+  String get sync_section_actions => 'Действия синхронизации';
   @override
-  String get sync_section_backup => 'Local backup';
+  String get sync_section_backup => 'Локальная резервная копия';
   @override
   String get backup_import_preserve_sync_note =>
-      'Your sync settings on this device (account and credentials) will be kept.';
+      'Настройки синхронизации на этом устройстве (аккаунт и учётные данные) будут сохранены.';
   @override
-  String get backup_import_settings_toggle => 'Import settings & profiles';
+  String get backup_import_settings_toggle =>
+      'Импортировать настройки и профили';
   @override
   String get backup_import_settings_on_hint =>
-      'Full restore: fonts, appearance and profiles come from the backup.';
+      'Полное восстановление: шрифты, оформление и профили берутся из копии.';
   @override
   String get backup_import_settings_off_hint =>
-      'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+      'Сохранить шрифты/оформление/профили этого устройства; восстановить только книги и данные чтения.';
   @override
   String get reader_unsupported_platform =>
-      'The reader is not yet available on this platform.';
+      'Читалка пока недоступна на этой платформе.';
   @override
   String get microphone_permission_denied =>
-      'Microphone permission is required to record.';
+      'Для записи требуется доступ к микрофону.';
   @override
-  String get anki_connect_api_key => 'API Key';
+  String get anki_connect_api_key => 'Ключ API';
   @override
   String get anki_connect_api_key_hint =>
-      'Leave empty unless AnkiConnect requires a key';
+      'Оставьте пустым, если AnkiConnect не требует ключ';
   @override
   String get shortcut_action_global_scroll_page_down =>
-      'Scroll down one screen';
+      'Прокрутить вниз на экран';
   @override
-  String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+  String get shortcut_action_global_scroll_page_up =>
+      'Прокрутить вверх на экран';
   @override
-  String get shortcut_action_home_tab_prev => 'Previous tab';
+  String get shortcut_action_home_tab_prev => 'Предыдущая вкладка';
   @override
-  String get shortcut_action_home_tab_next => 'Next tab';
+  String get shortcut_action_home_tab_next => 'Следующая вкладка';
   @override
-  String get move_up => 'Move up';
+  String get move_up => 'Вверх';
   @override
-  String get move_down => 'Move down';
+  String get move_down => 'Вниз';
   @override
-  String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_toggle_furigana => 'Фуригана вкл./выкл.';
   @override
-  String get on_screen_keyboard => 'On-screen keyboard';
+  String get on_screen_keyboard => 'Экранная клавиатура';
   @override
-  String get app_ui_scale => 'UI size';
+  String get app_ui_scale => 'Размер интерфейса';
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary => 'Синхронизировать словари';
   @override
   String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
+      'Пакеты словарей могут быть большими и включать импортированные ресурсы словарей.';
   @override
-  String get settings_destination_reading => 'Reading';
+  String get settings_destination_reading => 'Чтение';
   @override
-  String get remote_dict_lookup => 'Remote dictionary lookup';
+  String get remote_dict_lookup => 'Удалённый поиск в словаре';
   @override
   String get remote_dict_lookup_hint =>
-      'When local dictionaries miss, query the configured Hibiki server';
+      'Если в локальных словарях ничего нет, запросить настроенный сервер Hibiki';
   @override
-  String get remote_audio_source => 'Remote audio';
+  String get remote_audio_source => 'Удалённое аудио';
   @override
-  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_success => 'Сопряжено — токен заполнен';
   @override
-  String get sync_pair_failed => 'Pairing failed';
+  String get sync_pair_failed => 'Сопряжение не удалось';
   @override
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   @override
-  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_sources_remote_group => 'Удалённые источники';
   @override
   String get audio_source_url_invalid =>
-      'Link must be http(s) and contain a term or reading placeholder';
+      'Ссылка должна быть http(s) и содержать плейсхолдер слова или чтения';
   @override
-  String get audio_source_added => 'Audio source added';
+  String get audio_source_added => 'Источник аудио добавлен';
   @override
-  String get local_audio_imported => 'Audio database added';
+  String get local_audio_imported => 'База данных аудио добавлена';
   @override
-  String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_import_failed =>
+      'Не удалось импортировать базу данных аудио';
   @override
-  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_edit_sources => 'Изменить источники';
   @override
-  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_source_order_title => 'Приоритет источников';
   @override
-  String get local_audio_no_sources => 'No sources found in this database';
+  String get local_audio_no_sources =>
+      'В этой базе данных источники не найдены';
   @override
-  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_title => 'Запрос на сопряжение';
   @override
   String get sync_pair_request_body =>
-      'A device is requesting to pair. Allow it to sync with this device?';
+      'Устройство запрашивает сопряжение. Разрешить синхронизацию с этим устройством?';
   @override
-  String get sync_pair_allow => 'Allow';
+  String get sync_pair_allow => 'Разрешить';
   @override
-  String get sync_pair_deny => 'Deny';
+  String get sync_pair_deny => 'Отклонить';
   @override
-  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_denied => 'Другое устройство отклонило сопряжение';
   @override
-  String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unknown_device => 'Неизвестное устройство';
   @override
   String get sync_pair_unavailable =>
-      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      'Другое устройство не готово или на нём старая версия. Обновите его, включите синхронизацию и попробуйте снова.';
   @override
   String get sync_role_locked_by_server =>
-      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      'Это устройство работает как сервер. Отключите сервер перед подключением к другим устройствам.';
   @override
   String get sync_role_locked_by_client =>
-      'Already connected to another device. Remove the connection before hosting as a server.';
+      'Уже подключено к другому устройству. Удалите подключение перед запуском сервера.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
   @override
-  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files => 'Синхронизировать файлы аудиокниг';
   @override
   String get sync_audiobook_files_warning =>
-      'Audio and subtitles can be large.';
+      'Аудио и субтитры могут быть большими.';
   @override
-  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_title => 'Дубликат книги';
   @override
-  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_keep => 'Да, добавить суффикс';
   @override
-  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancel => 'Нет, отменить';
   @override
-  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String get book_import_duplicate_cancelled => 'Импорт отменён';
   @override
   String book_import_duplicate_message({required Object name}) =>
-      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      'Книга с названием «${name}» уже существует. Всё равно импортировать? «Да» — импорт с числовым суффиксом; «Нет» — отмена.';
   @override
-  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
+  String get reverse_reader_bottom_bar => 'Обратить нижнюю панель читалки';
   @override
-  String get floating_dict_close => 'Close';
+  String get floating_dict_close => 'Закрыть';
   @override
-  String get debug_log_share_subject => 'hibiki Debug Log';
+  String get debug_log_share_subject => 'Журнал отладки hibiki';
   @override
-  String get spread_direction_rtl => 'Right to Left';
+  String get spread_direction_rtl => 'Справа налево';
   @override
-  String get spread_direction_ltr => 'Left to Right';
+  String get spread_direction_ltr => 'Слева направо';
   @override
   String dict_download_partial(
           {required Object success,
           required Object total,
           required Object error}) =>
-      '${success} / ${total} OK. Failed: ${error}';
+      '${success} / ${total} успешно. Ошибок: ${error}';
   @override
-  String get sync_now => 'Sync now';
+  String get sync_now => 'Синхронизировать сейчас';
   @override
-  String get sync_now_hint => 'Run a full two-way sync with the cloud now';
+  String get sync_now_hint =>
+      'Запустить полную двустороннюю синхронизацию с облаком сейчас';
   @override
-  String get sync_now_busy => 'A sync is already running';
+  String get sync_now_busy => 'Синхронизация уже выполняется';
   @override
-  String get sync_now_no_changes => 'no changes';
+  String get sync_now_no_changes => 'без изменений';
   @override
-  String sync_now_done({required Object detail}) => 'Synced · ${detail}';
+  String sync_now_done({required Object detail}) =>
+      'Синхронизировано · ${detail}';
   @override
   String sync_now_failed_suffix({required Object count}) =>
-      ' · ${count} failed';
+      ' · ошибок: ${count}';
   @override
-  String sync_now_books_in({required Object count}) => '↓${count} books';
+  String sync_now_books_in({required Object count}) => '↓${count} книг';
   @override
-  String sync_now_dicts_in({required Object count}) => '↓${count} dictionaries';
+  String sync_now_dicts_in({required Object count}) => '↓${count} словарей';
   @override
-  String sync_now_dicts_out({required Object count}) =>
-      '↑${count} dictionaries';
+  String sync_now_dicts_out({required Object count}) => '↑${count} словарей';
   @override
-  String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
+  String sync_now_audio_in({required Object count}) => '↓${count} аудиокниг';
   @override
-  String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String sync_now_audio_out({required Object count}) => '↑${count} аудиокниг';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => 'Словари';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => 'Удалить книгу на удалённом';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook => 'Удалить аудиокнигу на удалённом';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => 'Удалить словарь на удалённом';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => 'Удалено с удалённого';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      'Удалить «${name}» с удалённого? Локальные данные сохранятся. Это нельзя отменить.';
+  @override
+  String get dictionaries_delete_failed => 'Не удалось удалить словари';
+  @override
+  String get dictionary_delete_failed => 'Не удалось удалить словарь';
+  @override
+  String get sync_webdav_missing_fields => 'Не заполнены поля';
+  @override
+  String get sync_compare_download => 'Скачать';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -33533,7 +34033,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get ttu_scroll => 'เลื่อน';
   @override
-  String get ttu_furigana_mode => 'Furigana';
+  String get ttu_furigana_mode => 'ฟุริงานะ';
   @override
   String get ttu_furigana_show => 'แสดง';
   @override
@@ -34583,7 +35083,8 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_statistics => 'ซิงค์สถิติ';
   @override
-  String get sync_summary => 'Google Drive · รองรับ ッツ/Hoshi Reader';
+  String get sync_summary =>
+      'คลาวด์, LAN P2P และสำรองข้อมูลในเครื่อง · รองรับ ッツ/Hoshi Reader';
   @override
   String get sync_title => 'ซิงค์';
   @override
@@ -34593,138 +35094,137 @@ class _StringsTh extends _StringsEn {
   @override
   String get update_channel_stable => 'เสถียร';
   @override
-  String get anki_connect_host => 'Host';
+  String get anki_connect_host => 'โฮสต์';
   @override
-  String get anki_connect_port => 'Port';
+  String get anki_connect_port => 'พอร์ต';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => 'เปรียบเทียบข้อมูล';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => 'ในเครื่อง กับ ระยะไกล';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => 'ในเครื่อง';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => 'ระยะไกล';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => 'ไม่มีข้อมูล';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => 'ไม่พบหนังสือ';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => 'วัน';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => 'ข้อขัดแย้ง';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => 'หนังสือทั้งหมด';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => 'เลือกทั้งหมด';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => 'ทั้งหมด → ในเครื่อง';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => 'ทั้งหมด → ระยะไกล';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => 'ทั้งหมด → ข้าม';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => 'ในเครื่อง';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => 'ระยะไกล';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => 'ข้าม';
   @override
   String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+      'ปรับใช้ ${count} รายการแล้ว';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => 'ปรับใช้ (${count})';
   @override
-  String get sync_auto_sync => 'Auto Sync';
+  String get sync_auto_sync => 'ซิงค์อัตโนมัติ';
   @override
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
-      'Sync: ${direction} ${title}';
+      'ซิงค์: ${direction} ${title}';
   @override
-  String get no_matching_audio_cue => 'No matching audio for this sentence';
+  String get no_matching_audio_cue => 'ไม่มีเสียงที่ตรงกับประโยคนี้';
   @override
-  String get sync_exit_warning_title => 'Sync In Progress';
+  String get sync_exit_warning_title => 'กำลังซิงค์';
   @override
   String get sync_exit_warning =>
-      'Sync is still in progress. Exiting now may cause data loss.';
+      'ยังซิงค์ไม่เสร็จ การออกตอนนี้อาจทำให้ข้อมูลสูญหาย';
   @override
-  String get sync_content => 'Sync book files';
+  String get sync_content => 'ซิงค์ไฟล์หนังสือ';
   @override
   String get sync_content_warning =>
-      'Large files will use storage space and data';
+      'ไฟล์ขนาดใหญ่จะใช้พื้นที่จัดเก็บและปริมาณข้อมูล';
   @override
-  String get sync_backend => 'Storage backend';
+  String get sync_backend => 'แบ็กเอนด์จัดเก็บข้อมูล';
   @override
   String get sync_backend_google_drive => 'Google Drive';
   @override
   String get sync_backend_webdav => 'WebDAV';
   @override
-  String get sync_webdav_url => 'Server URL';
+  String get sync_webdav_url => 'URL เซิร์ฟเวอร์';
   @override
-  String get sync_webdav_username => 'Username';
+  String get sync_webdav_username => 'ชื่อผู้ใช้';
   @override
-  String get sync_webdav_password => 'Password';
+  String get sync_webdav_password => 'รหัสผ่าน';
   @override
-  String get sync_webdav_test => 'Test connection';
+  String get sync_webdav_test => 'ทดสอบการเชื่อมต่อ';
   @override
-  String get sync_webdav_test_success => 'Connection successful';
+  String get sync_webdav_test_success => 'เชื่อมต่อสำเร็จ';
   @override
   String sync_webdav_test_failed({required Object message}) =>
-      'Connection failed: ${message}';
+      'เชื่อมต่อไม่สำเร็จ: ${message}';
   @override
-  String get book_file_not_found => 'Book file not found';
+  String get book_file_not_found => 'ไม่พบไฟล์หนังสือ';
   @override
-  String get epub_parse_fallback => 'Book metadata repaired from database';
+  String get epub_parse_fallback => 'ซ่อมข้อมูลหนังสือจากฐานข้อมูลแล้ว';
   @override
-  String get retry => 'Retry';
+  String get retry => 'ลองใหม่';
   @override
-  String get copy_error => 'Copy Error';
+  String get copy_error => 'คัดลอกข้อผิดพลาด';
   @override
-  String get error_copied => 'Error copied to clipboard';
+  String get error_copied => 'คัดลอกข้อผิดพลาดไปยังคลิปบอร์ดแล้ว';
   @override
   String dict_import_failed_summary({required Object n}) =>
-      'Failed to import ${n} dictionary(s)';
+      'นำเข้าพจนานุกรมไม่สำเร็จ ${n} รายการ';
   @override
   String get reader_content_timeout =>
-      'Content loading timed out. Reopen if display is abnormal';
+      'โหลดเนื้อหาหมดเวลา หากแสดงผลผิดปกติให้เปิดใหม่';
   @override
-  String get backup_local => 'Local Backup';
+  String get backup_local => 'สำรองข้อมูลในเครื่อง';
   @override
-  String get backup_export => 'Export Backup';
+  String get backup_export => 'ส่งออกข้อมูลสำรอง';
   @override
   String get backup_export_hint =>
-      'Save all settings, reading progress, and statistics to a file';
+      'บันทึกการตั้งค่า ความคืบหน้าการอ่าน และสถิติทั้งหมดลงไฟล์';
   @override
-  String get backup_import => 'Import Backup';
+  String get backup_import => 'นำเข้าข้อมูลสำรอง';
   @override
-  String get backup_import_hint =>
-      'Restore from a backup file. The app will restart.';
+  String get backup_import_hint => 'กู้คืนจากไฟล์สำรอง แอปจะรีสตาร์ท';
   @override
-  String get backup_export_success => 'Backup exported successfully';
+  String get backup_export_success => 'ส่งออกข้อมูลสำรองสำเร็จ';
   @override
   String backup_export_failed({required Object message}) =>
-      'Backup export failed: ${message}';
+      'ส่งออกข้อมูลสำรองไม่สำเร็จ: ${message}';
   @override
-  String get backup_import_confirm_title => 'Restore Backup?';
+  String get backup_import_confirm_title => 'กู้คืนข้อมูลสำรอง?';
   @override
   String backup_import_confirm(
           {required Object date,
           required Object bookCount,
           required Object statsCount}) =>
-      'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+      'การดำเนินการนี้จะแทนที่ข้อมูลปัจจุบันทั้งหมดด้วยข้อมูลสำรองจาก ${date}\n\nหนังสือ ${bookCount} เล่ม, บันทึกสถิติ ${statsCount} รายการ\n\nแอปจะรีสตาร์ทหลังกู้คืน';
   @override
-  String get backup_import_success => 'Backup restored. Restarting…';
+  String get backup_import_success => 'กู้คืนข้อมูลสำรองแล้ว กำลังรีสตาร์ท…';
   @override
   String backup_import_failed({required Object message}) =>
-      'Backup import failed: ${message}';
+      'นำเข้าข้อมูลสำรองไม่สำเร็จ: ${message}';
   @override
-  String get backup_import_invalid => 'Invalid backup file';
+  String get backup_import_invalid => 'ไฟล์สำรองไม่ถูกต้อง';
   @override
-  String get backup_exporting => 'Creating backup…';
+  String get backup_exporting => 'กำลังสร้างข้อมูลสำรอง…';
   @override
   String backup_schema_newer({required Object version}) =>
-      'This backup requires a newer version of the app (schema ${version}). Please update first.';
+      'ข้อมูลสำรองนี้ต้องใช้แอปเวอร์ชันใหม่กว่า (schema ${version}) โปรดอัปเดตก่อน';
   @override
-  String get reverse_navigation_bar => 'Reverse navigation bar';
+  String get reverse_navigation_bar => 'สลับด้านแถบนำทาง';
   @override
   String get sync_backend_onedrive => 'OneDrive';
   @override
@@ -34736,313 +35236,353 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_backend_hibiki_server => 'Hibiki P2P';
   @override
-  String get sync_server_enable => 'Enable sync server';
+  String get sync_server_enable => 'เปิดใช้เซิร์ฟเวอร์ซิงค์';
   @override
-  String get sync_server_port => 'Server port';
+  String get sync_server_port => 'พอร์ตเซิร์ฟเวอร์';
   @override
-  String get sync_server_token => 'Access token';
+  String get sync_server_token => 'โทเค็นการเข้าถึง';
   @override
-  String get sync_server_copy_token => 'Copy token';
+  String get sync_server_copy_token => 'คัดลอกโทเค็น';
   @override
-  String get sync_server_regenerate_token => 'Regenerate token';
+  String get sync_server_regenerate_token => 'สร้างโทเค็นใหม่';
   @override
-  String get sync_server_running => 'Server running';
+  String get sync_server_running => 'เซิร์ฟเวอร์ทำงานอยู่';
   @override
-  String get sync_server_stopped => 'Server stopped';
+  String get sync_server_stopped => 'เซิร์ฟเวอร์หยุดทำงาน';
   @override
-  String get sync_lan_discovery => 'LAN devices';
+  String get sync_lan_discovery => 'อุปกรณ์ในเครือข่าย LAN';
   @override
-  String get sync_lan_scanning => 'Scanning...';
+  String get sync_lan_scanning => 'กำลังสแกน...';
   @override
-  String get sync_lan_no_devices => 'No devices found';
+  String get sync_lan_no_devices => 'ไม่พบอุปกรณ์';
   @override
-  String get sync_fallback_config => 'Fallback order';
+  String get sync_fallback_config => 'ลำดับสำรอง';
   @override
-  String get sync_test_connection => 'Test connection';
+  String get sync_test_connection => 'ทดสอบการเชื่อมต่อ';
   @override
-  String get sync_connection_success => 'Connection successful';
+  String get sync_connection_success => 'เชื่อมต่อสำเร็จ';
   @override
-  String get sync_connection_failed => 'Connection failed';
+  String get sync_connection_failed => 'เชื่อมต่อไม่สำเร็จ';
   @override
-  String get sync_host => 'Host';
+  String get sync_host => 'โฮสต์';
   @override
-  String get sync_port => 'Port';
+  String get sync_port => 'พอร์ต';
   @override
-  String get sync_username => 'Username';
+  String get sync_username => 'ชื่อผู้ใช้';
   @override
-  String get sync_password => 'Password';
+  String get sync_password => 'รหัสผ่าน';
   @override
-  String get sync_use_tls => 'Use TLS';
+  String get sync_use_tls => 'ใช้ TLS';
   @override
-  String get sync_private_key => 'Private key';
+  String get sync_private_key => 'คีย์ส่วนตัว';
   @override
-  String get skip_action => 'Skip Action';
+  String get skip_action => 'การกระทำเมื่อข้าม';
   @override
-  String get skip_action_sentence => '1 sentence';
+  String get skip_action_sentence => '1 ประโยค';
   @override
-  String skip_action_seconds({required Object n}) => '${n} seconds';
+  String skip_action_seconds({required Object n}) => '${n} วินาที';
   @override
-  String get shortcut_settings_title => 'Keyboard Shortcuts';
+  String get shortcut_settings_title => 'แป้นพิมพ์ลัด';
   @override
-  String get shortcut_scope_reader => 'Reader';
+  String get shortcut_scope_reader => 'โปรแกรมอ่าน';
   @override
-  String get shortcut_scope_home => 'Home';
+  String get shortcut_scope_home => 'หน้าหลัก';
   @override
-  String get shortcut_scope_global => 'Global';
+  String get shortcut_scope_global => 'ทั่วไป';
   @override
-  String get shortcut_scope_audiobook => 'Audiobook';
+  String get shortcut_scope_audiobook => 'หนังสือเสียง';
   @override
-  String get shortcut_action_reader_page_forward => 'Next Page';
+  String get shortcut_action_reader_page_forward => 'หน้าถัดไป';
   @override
-  String get shortcut_action_reader_page_backward => 'Previous Page';
+  String get shortcut_action_reader_page_backward => 'หน้าก่อนหน้า';
   @override
-  String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+  String get shortcut_action_reader_toggle_chrome => 'สลับแถบควบคุม';
   @override
-  String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+  String get shortcut_action_reader_dismiss_dict => 'ปิดพจนานุกรม';
   @override
-  String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+  String get shortcut_action_reader_toggle_bookmark => 'สลับบุ๊กมาร์ก';
   @override
-  String get shortcut_action_home_tab_books => 'Books Tab';
+  String get shortcut_action_home_tab_books => 'แท็บหนังสือ';
   @override
-  String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+  String get shortcut_action_home_tab_dict => 'แท็บพจนานุกรม';
   @override
-  String get shortcut_action_home_tab_settings => 'Settings Tab';
+  String get shortcut_action_home_tab_settings => 'แท็บตั้งค่า';
   @override
-  String get shortcut_action_home_focus_search => 'Focus Search';
+  String get shortcut_action_home_focus_search => 'โฟกัสช่องค้นหา';
   @override
-  String get shortcut_action_global_back => 'Go Back';
+  String get shortcut_action_global_back => 'ย้อนกลับ';
   @override
-  String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+  String get shortcut_action_audiobook_play_pause => 'เล่น / หยุดชั่วคราว';
   @override
-  String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+  String get shortcut_action_audiobook_next_sentence => 'ประโยคถัดไป';
   @override
-  String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+  String get shortcut_action_audiobook_prev_sentence => 'ประโยคก่อนหน้า';
   @override
-  String get shortcut_press_key => 'Press a key combination...';
+  String get shortcut_press_key => 'กดชุดปุ่ม...';
   @override
-  String get shortcut_press_gamepad => 'Press a gamepad button...';
+  String get shortcut_press_gamepad => 'กดปุ่มเกมแพด...';
   @override
-  String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
+  String shortcut_conflict({required Object s}) => 'ใช้อยู่แล้วโดย: ${s}';
   @override
-  String get shortcut_reset_defaults => 'Reset to Defaults';
+  String get shortcut_reset_defaults => 'รีเซ็ตเป็นค่าเริ่มต้น';
   @override
   String get shortcut_reset_confirm =>
-      'Reset all shortcuts in this section to defaults?';
+      'รีเซ็ตแป้นพิมพ์ลัดทั้งหมดในส่วนนี้เป็นค่าเริ่มต้น?';
   @override
-  String get shortcut_keyboard => 'Keyboard';
+  String get shortcut_keyboard => 'แป้นพิมพ์';
   @override
-  String get shortcut_gamepad => 'Gamepad';
+  String get shortcut_gamepad => 'เกมแพด';
   @override
-  String get shortcut_none => 'None';
+  String get shortcut_none => 'ไม่มี';
   @override
-  String get shortcut_clear => 'Clear';
+  String get shortcut_clear => 'ล้าง';
   @override
-  String get shortcut_stop_capture => 'Stop';
+  String get shortcut_stop_capture => 'หยุด';
   @override
-  String get section_advanced_typography => 'Advanced';
+  String get section_advanced_typography => 'ขั้นสูง';
   @override
   String get sync_err_network =>
-      'Cannot reach the server — check your network or proxy settings.';
+      'เข้าถึงเซิร์ฟเวอร์ไม่ได้ — ตรวจสอบเครือข่ายหรือการตั้งค่าพร็อกซี';
   @override
   String get sync_err_timeout =>
-      'Connection timed out — the server did not respond in time.';
+      'การเชื่อมต่อหมดเวลา — เซิร์ฟเวอร์ไม่ตอบสนองทันเวลา';
   @override
-  String get sync_err_quota => 'Cloud storage is full (quota reached).';
+  String get sync_err_quota => 'พื้นที่จัดเก็บบนคลาวด์เต็ม (ถึงโควตาแล้ว)';
   @override
-  String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
+  String get sync_err_auth_expired =>
+      'การลงชื่อเข้าใช้หมดอายุ — โปรดลงชื่อเข้าใช้อีกครั้ง';
   @override
   String sync_server_port_in_use({required Object port}) =>
-      'Port ${port} is already in use — pick a different port.';
+      'พอร์ต ${port} ถูกใช้งานอยู่ — เลือกพอร์ตอื่น';
   @override
   String get sync_lan_scan_failed =>
-      'Scan failed — check network permissions or firewall.';
+      'สแกนไม่สำเร็จ — ตรวจสอบสิทธิ์เครือข่ายหรือไฟร์วอลล์';
   @override
-  String get sync_section_method => 'Sync method';
+  String get sync_section_method => 'วิธีการซิงค์';
   @override
-  String get sync_section_host_server => 'This device as a sync server';
+  String get sync_section_host_server => 'ใช้อุปกรณ์นี้เป็นเซิร์ฟเวอร์ซิงค์';
   @override
   String get sync_section_host_server_footer =>
-      'Let other devices sync from this device. Independent of the sync backend above.';
+      'ให้อุปกรณ์อื่นซิงค์จากอุปกรณ์นี้ ทำงานแยกจากแบ็กเอนด์ซิงค์ด้านบน';
   @override
-  String get sync_section_content => 'What to sync';
+  String get sync_section_content => 'สิ่งที่จะซิงค์';
   @override
-  String get sync_section_actions => 'Sync actions';
+  String get sync_section_actions => 'การกระทำการซิงค์';
   @override
-  String get sync_section_backup => 'Local backup';
+  String get sync_section_backup => 'สำรองข้อมูลในเครื่อง';
   @override
   String get backup_import_preserve_sync_note =>
-      'Your sync settings on this device (account and credentials) will be kept.';
+      'การตั้งค่าซิงค์บนอุปกรณ์นี้ (บัญชีและข้อมูลรับรอง) จะถูกเก็บไว้';
   @override
-  String get backup_import_settings_toggle => 'Import settings & profiles';
+  String get backup_import_settings_toggle => 'นำเข้าการตั้งค่าและโปรไฟล์';
   @override
   String get backup_import_settings_on_hint =>
-      'Full restore: fonts, appearance and profiles come from the backup.';
+      'กู้คืนเต็มรูปแบบ: ฟอนต์ รูปลักษณ์ และโปรไฟล์มาจากข้อมูลสำรอง';
   @override
   String get backup_import_settings_off_hint =>
-      'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+      'เก็บฟอนต์/รูปลักษณ์/โปรไฟล์ของอุปกรณ์นี้ กู้คืนเฉพาะหนังสือและข้อมูลการอ่าน';
   @override
   String get reader_unsupported_platform =>
-      'The reader is not yet available on this platform.';
+      'ยังไม่รองรับโปรแกรมอ่านบนแพลตฟอร์มนี้';
   @override
   String get microphone_permission_denied =>
-      'Microphone permission is required to record.';
+      'ต้องมีสิทธิ์เข้าถึงไมโครโฟนเพื่อบันทึกเสียง';
   @override
   String get anki_connect_api_key => 'API Key';
   @override
   String get anki_connect_api_key_hint =>
-      'Leave empty unless AnkiConnect requires a key';
+      'ปล่อยว่างไว้ เว้นแต่ AnkiConnect ต้องใช้คีย์';
   @override
-  String get shortcut_action_global_scroll_page_down =>
-      'Scroll down one screen';
+  String get shortcut_action_global_scroll_page_down => 'เลื่อนลงหนึ่งหน้าจอ';
   @override
-  String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+  String get shortcut_action_global_scroll_page_up => 'เลื่อนขึ้นหนึ่งหน้าจอ';
   @override
-  String get shortcut_action_home_tab_prev => 'Previous tab';
+  String get shortcut_action_home_tab_prev => 'แท็บก่อนหน้า';
   @override
-  String get shortcut_action_home_tab_next => 'Next tab';
+  String get shortcut_action_home_tab_next => 'แท็บถัดไป';
   @override
-  String get move_up => 'Move up';
+  String get move_up => 'เลื่อนขึ้น';
   @override
-  String get move_down => 'Move down';
+  String get move_down => 'เลื่อนลง';
   @override
-  String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_toggle_furigana => 'สลับฟุริงานะ';
   @override
-  String get on_screen_keyboard => 'On-screen keyboard';
+  String get on_screen_keyboard => 'แป้นพิมพ์บนหน้าจอ';
   @override
-  String get app_ui_scale => 'UI size';
+  String get app_ui_scale => 'ขนาด UI';
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary => 'ซิงค์พจนานุกรม';
   @override
   String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
+      'แพ็กเกจพจนานุกรมอาจมีขนาดใหญ่และรวมทรัพยากรพจนานุกรมที่นำเข้ามา';
   @override
-  String get settings_destination_reading => 'Reading';
+  String get settings_destination_reading => 'การอ่าน';
   @override
-  String get remote_dict_lookup => 'Remote dictionary lookup';
+  String get remote_dict_lookup => 'ค้นหาพจนานุกรมระยะไกล';
   @override
   String get remote_dict_lookup_hint =>
-      'When local dictionaries miss, query the configured Hibiki server';
+      'เมื่อไม่พบในพจนานุกรมในเครื่อง ให้สอบถามจากเซิร์ฟเวอร์ Hibiki ที่ตั้งค่าไว้';
   @override
-  String get remote_audio_source => 'Remote audio';
+  String get remote_audio_source => 'เสียงระยะไกล';
   @override
-  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_success => 'จับคู่แล้ว — กรอกโทเค็นให้อัตโนมัติ';
   @override
-  String get sync_pair_failed => 'Pairing failed';
+  String get sync_pair_failed => 'จับคู่ไม่สำเร็จ';
   @override
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   @override
-  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_sources_remote_group => 'แหล่งระยะไกล';
   @override
   String get audio_source_url_invalid =>
-      'Link must be http(s) and contain a term or reading placeholder';
+      'ลิงก์ต้องเป็น http(s) และมีตัวยึดสำหรับคำศัพท์หรือคำอ่าน';
   @override
-  String get audio_source_added => 'Audio source added';
+  String get audio_source_added => 'เพิ่มแหล่งเสียงแล้ว';
   @override
-  String get local_audio_imported => 'Audio database added';
+  String get local_audio_imported => 'เพิ่มฐานข้อมูลเสียงแล้ว';
   @override
-  String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_import_failed => 'นำเข้าฐานข้อมูลเสียงไม่สำเร็จ';
   @override
-  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_edit_sources => 'แก้ไขแหล่ง';
   @override
-  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_source_order_title => 'ลำดับความสำคัญของแหล่ง';
   @override
-  String get local_audio_no_sources => 'No sources found in this database';
+  String get local_audio_no_sources => 'ไม่พบแหล่งในฐานข้อมูลนี้';
   @override
-  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_title => 'คำขอจับคู่';
   @override
   String get sync_pair_request_body =>
-      'A device is requesting to pair. Allow it to sync with this device?';
+      'มีอุปกรณ์ขอจับคู่ อนุญาตให้ซิงค์กับอุปกรณ์นี้หรือไม่?';
   @override
-  String get sync_pair_allow => 'Allow';
+  String get sync_pair_allow => 'อนุญาต';
   @override
-  String get sync_pair_deny => 'Deny';
+  String get sync_pair_deny => 'ปฏิเสธ';
   @override
-  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_denied => 'อีกอุปกรณ์ปฏิเสธการจับคู่';
   @override
-  String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unknown_device => 'อุปกรณ์ที่ไม่รู้จัก';
   @override
   String get sync_pair_unavailable =>
-      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      'อีกอุปกรณ์ยังไม่พร้อมหรือใช้เวอร์ชันเก่ากว่า อัปเดตและเปิดการซิงค์ แล้วลองอีกครั้ง';
   @override
   String get sync_role_locked_by_server =>
-      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      'อุปกรณ์นี้กำลังทำหน้าที่เป็นเซิร์ฟเวอร์ ปิดเซิร์ฟเวอร์ก่อนเชื่อมต่อกับอุปกรณ์อื่น';
   @override
   String get sync_role_locked_by_client =>
-      'Already connected to another device. Remove the connection before hosting as a server.';
+      'เชื่อมต่อกับอุปกรณ์อื่นอยู่แล้ว ลบการเชื่อมต่อก่อนทำหน้าที่เป็นเซิร์ฟเวอร์';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
   @override
-  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files => 'ซิงค์ไฟล์หนังสือเสียง';
   @override
-  String get sync_audiobook_files_warning =>
-      'Audio and subtitles can be large.';
+  String get sync_audiobook_files_warning => 'เสียงและคำบรรยายอาจมีขนาดใหญ่';
   @override
-  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_title => 'หนังสือซ้ำ';
   @override
-  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_keep => 'ใช่ เพิ่มคำต่อท้าย';
   @override
-  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancel => 'ไม่ ยกเลิก';
   @override
-  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String get book_import_duplicate_cancelled => 'ยกเลิกการนำเข้าแล้ว';
   @override
   String book_import_duplicate_message({required Object name}) =>
-      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      'มีหนังสือชื่อ "${name}" อยู่แล้ว นำเข้าต่อหรือไม่? "ใช่" จะนำเข้าพร้อมหมายเลขต่อท้าย; "ไม่" จะยกเลิก';
   @override
-  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
+  String get reverse_reader_bottom_bar => 'สลับด้านแถบล่างของโปรแกรมอ่าน';
   @override
-  String get floating_dict_close => 'Close';
+  String get floating_dict_close => 'ปิด';
   @override
-  String get debug_log_share_subject => 'hibiki Debug Log';
+  String get debug_log_share_subject => 'บันทึกดีบักของ hibiki';
   @override
-  String get spread_direction_rtl => 'Right to Left';
+  String get spread_direction_rtl => 'ขวาไปซ้าย';
   @override
-  String get spread_direction_ltr => 'Left to Right';
+  String get spread_direction_ltr => 'ซ้ายไปขวา';
   @override
   String dict_download_partial(
           {required Object success,
           required Object total,
           required Object error}) =>
-      '${success} / ${total} OK. Failed: ${error}';
+      '${success} / ${total} สำเร็จ ล้มเหลว: ${error}';
   @override
-  String get sync_now => 'Sync now';
+  String get sync_now => 'ซิงค์ทันที';
   @override
-  String get sync_now_hint => 'Run a full two-way sync with the cloud now';
+  String get sync_now_hint => 'ทำการซิงค์สองทางแบบเต็มกับคลาวด์ทันที';
   @override
-  String get sync_now_busy => 'A sync is already running';
+  String get sync_now_busy => 'กำลังซิงค์อยู่แล้ว';
   @override
-  String get sync_now_no_changes => 'no changes';
+  String get sync_now_no_changes => 'ไม่มีการเปลี่ยนแปลง';
   @override
-  String sync_now_done({required Object detail}) => 'Synced · ${detail}';
+  String sync_now_done({required Object detail}) => 'ซิงค์แล้ว · ${detail}';
   @override
   String sync_now_failed_suffix({required Object count}) =>
-      ' · ${count} failed';
+      ' · ล้มเหลว ${count} รายการ';
   @override
-  String sync_now_books_in({required Object count}) => '↓${count} books';
+  String sync_now_books_in({required Object count}) => '↓หนังสือ ${count} เล่ม';
   @override
-  String sync_now_dicts_in({required Object count}) => '↓${count} dictionaries';
+  String sync_now_dicts_in({required Object count}) =>
+      '↓พจนานุกรม ${count} รายการ';
   @override
   String sync_now_dicts_out({required Object count}) =>
-      '↑${count} dictionaries';
+      '↑พจนานุกรม ${count} รายการ';
   @override
-  String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
+  String sync_now_audio_in({required Object count}) =>
+      '↓หนังสือเสียง ${count} เล่ม';
   @override
-  String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String sync_now_audio_out({required Object count}) =>
+      '↑หนังสือเสียง ${count} เล่ม';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => 'พจนานุกรม';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => 'ลบหนังสือบนเครื่องระยะไกล';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook => 'ลบหนังสือเสียงบนเครื่องระยะไกล';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => 'ลบพจนานุกรมบนเครื่องระยะไกล';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => 'ลบจากเครื่องระยะไกลแล้ว';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      'ลบ "${name}" จากเครื่องระยะไกล? ข้อมูลในเครื่องจะถูกเก็บไว้ การกระทำนี้ไม่สามารถยกเลิกได้';
+  @override
+  String get dictionaries_delete_failed => 'ลบพจนานุกรมไม่สำเร็จ';
+  @override
+  String get dictionary_delete_failed => 'ลบพจนานุกรมไม่สำเร็จ';
+  @override
+  String get sync_webdav_missing_fields => 'ข้อมูลไม่ครบ';
+  @override
+  String get sync_compare_download => 'ดาวน์โหลด';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -37369,7 +37909,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_statistics => 'İstatistikleri Senkronize Et';
   @override
-  String get sync_summary => 'Google Drive · ッツ/Hoshi Reader uyumlu';
+  String get sync_summary =>
+      'Bulut, LAN P2P ve yerel yedek · ッツ/Hoshi Reader uyumlu';
   @override
   String get sync_title => 'Senkronizasyon';
   @override
@@ -37379,138 +37920,140 @@ class _StringsTr extends _StringsEn {
   @override
   String get update_channel_stable => 'Kararlı';
   @override
-  String get anki_connect_host => 'Host';
+  String get anki_connect_host => 'Sunucu';
   @override
-  String get anki_connect_port => 'Port';
+  String get anki_connect_port => 'Bağlantı noktası';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => 'Verileri Karşılaştır';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => 'Yerel ile Uzak';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => 'Yerel';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => 'Uzak';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => 'Veri yok';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => 'Kitap bulunamadı';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => 'gün';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => 'Çakışmalar';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => 'Tüm Kitaplar';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => 'Tümünü Seç';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => 'Tümü → Yerel';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => 'Tümü → Uzak';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => 'Tümü → Atla';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => 'Yerel';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => 'Uzak';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => 'Atla';
   @override
   String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+      '${count} değişiklik uygulandı';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => 'Uygula (${count})';
   @override
-  String get sync_auto_sync => 'Auto Sync';
+  String get sync_auto_sync => 'Otomatik Eşitleme';
   @override
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
-      'Sync: ${direction} ${title}';
+      'Eşitleme: ${direction} ${title}';
   @override
-  String get no_matching_audio_cue => 'No matching audio for this sentence';
+  String get no_matching_audio_cue => 'Bu cümle için eşleşen ses yok';
   @override
-  String get sync_exit_warning_title => 'Sync In Progress';
+  String get sync_exit_warning_title => 'Eşitleme Sürüyor';
   @override
   String get sync_exit_warning =>
-      'Sync is still in progress. Exiting now may cause data loss.';
+      'Eşitleme hâlâ sürüyor. Şimdi çıkmak veri kaybına yol açabilir.';
   @override
-  String get sync_content => 'Sync book files';
+  String get sync_content => 'Kitap dosyalarını eşitle';
   @override
   String get sync_content_warning =>
-      'Large files will use storage space and data';
+      'Büyük dosyalar depolama alanı ve veri kullanır';
   @override
-  String get sync_backend => 'Storage backend';
+  String get sync_backend => 'Depolama arka ucu';
   @override
   String get sync_backend_google_drive => 'Google Drive';
   @override
   String get sync_backend_webdav => 'WebDAV';
   @override
-  String get sync_webdav_url => 'Server URL';
+  String get sync_webdav_url => 'Sunucu URL\'si';
   @override
-  String get sync_webdav_username => 'Username';
+  String get sync_webdav_username => 'Kullanıcı adı';
   @override
-  String get sync_webdav_password => 'Password';
+  String get sync_webdav_password => 'Parola';
   @override
-  String get sync_webdav_test => 'Test connection';
+  String get sync_webdav_test => 'Bağlantıyı test et';
   @override
-  String get sync_webdav_test_success => 'Connection successful';
+  String get sync_webdav_test_success => 'Bağlantı başarılı';
   @override
   String sync_webdav_test_failed({required Object message}) =>
-      'Connection failed: ${message}';
+      'Bağlantı başarısız: ${message}';
   @override
-  String get book_file_not_found => 'Book file not found';
+  String get book_file_not_found => 'Kitap dosyası bulunamadı';
   @override
-  String get epub_parse_fallback => 'Book metadata repaired from database';
+  String get epub_parse_fallback =>
+      'Kitap meta verileri veritabanından onarıldı';
   @override
-  String get retry => 'Retry';
+  String get retry => 'Yeniden dene';
   @override
-  String get copy_error => 'Copy Error';
+  String get copy_error => 'Hatayı Kopyala';
   @override
-  String get error_copied => 'Error copied to clipboard';
+  String get error_copied => 'Hata panoya kopyalandı';
   @override
   String dict_import_failed_summary({required Object n}) =>
-      'Failed to import ${n} dictionary(s)';
+      '${n} sözlük içe aktarılamadı';
   @override
   String get reader_content_timeout =>
-      'Content loading timed out. Reopen if display is abnormal';
+      'İçerik yüklemesi zaman aşımına uğradı. Görüntü anormalse yeniden açın';
   @override
-  String get backup_local => 'Local Backup';
+  String get backup_local => 'Yerel Yedek';
   @override
-  String get backup_export => 'Export Backup';
+  String get backup_export => 'Yedeği Dışa Aktar';
   @override
   String get backup_export_hint =>
-      'Save all settings, reading progress, and statistics to a file';
+      'Tüm ayarları, okuma ilerlemesini ve istatistikleri bir dosyaya kaydet';
   @override
-  String get backup_import => 'Import Backup';
+  String get backup_import => 'Yedeği İçe Aktar';
   @override
   String get backup_import_hint =>
-      'Restore from a backup file. The app will restart.';
+      'Bir yedek dosyasından geri yükle. Uygulama yeniden başlatılacak.';
   @override
-  String get backup_export_success => 'Backup exported successfully';
+  String get backup_export_success => 'Yedek başarıyla dışa aktarıldı';
   @override
   String backup_export_failed({required Object message}) =>
-      'Backup export failed: ${message}';
+      'Yedek dışa aktarılamadı: ${message}';
   @override
-  String get backup_import_confirm_title => 'Restore Backup?';
+  String get backup_import_confirm_title => 'Yedek Geri Yüklensin mi?';
   @override
   String backup_import_confirm(
           {required Object date,
           required Object bookCount,
           required Object statsCount}) =>
-      'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+      'Bu işlem tüm mevcut verileri ${date} tarihli yedekle değiştirir.\n\n${bookCount} kitap, ${statsCount} istatistik kaydı.\n\nGeri yüklemeden sonra uygulama yeniden başlatılacak.';
   @override
-  String get backup_import_success => 'Backup restored. Restarting…';
+  String get backup_import_success =>
+      'Yedek geri yüklendi. Yeniden başlatılıyor…';
   @override
   String backup_import_failed({required Object message}) =>
-      'Backup import failed: ${message}';
+      'Yedek içe aktarılamadı: ${message}';
   @override
-  String get backup_import_invalid => 'Invalid backup file';
+  String get backup_import_invalid => 'Geçersiz yedek dosyası';
   @override
-  String get backup_exporting => 'Creating backup…';
+  String get backup_exporting => 'Yedek oluşturuluyor…';
   @override
   String backup_schema_newer({required Object version}) =>
-      'This backup requires a newer version of the app (schema ${version}). Please update first.';
+      'Bu yedek uygulamanın daha yeni bir sürümünü gerektiriyor (şema ${version}). Lütfen önce güncelleyin.';
   @override
-  String get reverse_navigation_bar => 'Reverse navigation bar';
+  String get reverse_navigation_bar => 'Gezinme çubuğunu ters çevir';
   @override
   String get sync_backend_onedrive => 'OneDrive';
   @override
@@ -37522,313 +38065,353 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_backend_hibiki_server => 'Hibiki P2P';
   @override
-  String get sync_server_enable => 'Enable sync server';
+  String get sync_server_enable => 'Eşitleme sunucusunu etkinleştir';
   @override
-  String get sync_server_port => 'Server port';
+  String get sync_server_port => 'Sunucu bağlantı noktası';
   @override
-  String get sync_server_token => 'Access token';
+  String get sync_server_token => 'Erişim belirteci';
   @override
-  String get sync_server_copy_token => 'Copy token';
+  String get sync_server_copy_token => 'Belirteci kopyala';
   @override
-  String get sync_server_regenerate_token => 'Regenerate token';
+  String get sync_server_regenerate_token => 'Belirteci yeniden oluştur';
   @override
-  String get sync_server_running => 'Server running';
+  String get sync_server_running => 'Sunucu çalışıyor';
   @override
-  String get sync_server_stopped => 'Server stopped';
+  String get sync_server_stopped => 'Sunucu durduruldu';
   @override
-  String get sync_lan_discovery => 'LAN devices';
+  String get sync_lan_discovery => 'LAN cihazları';
   @override
-  String get sync_lan_scanning => 'Scanning...';
+  String get sync_lan_scanning => 'Taranıyor...';
   @override
-  String get sync_lan_no_devices => 'No devices found';
+  String get sync_lan_no_devices => 'Cihaz bulunamadı';
   @override
-  String get sync_fallback_config => 'Fallback order';
+  String get sync_fallback_config => 'Yedek sırası';
   @override
-  String get sync_test_connection => 'Test connection';
+  String get sync_test_connection => 'Bağlantıyı test et';
   @override
-  String get sync_connection_success => 'Connection successful';
+  String get sync_connection_success => 'Bağlantı başarılı';
   @override
-  String get sync_connection_failed => 'Connection failed';
+  String get sync_connection_failed => 'Bağlantı başarısız';
   @override
-  String get sync_host => 'Host';
+  String get sync_host => 'Sunucu';
   @override
-  String get sync_port => 'Port';
+  String get sync_port => 'Bağlantı noktası';
   @override
-  String get sync_username => 'Username';
+  String get sync_username => 'Kullanıcı adı';
   @override
-  String get sync_password => 'Password';
+  String get sync_password => 'Parola';
   @override
-  String get sync_use_tls => 'Use TLS';
+  String get sync_use_tls => 'TLS kullan';
   @override
-  String get sync_private_key => 'Private key';
+  String get sync_private_key => 'Özel anahtar';
   @override
-  String get skip_action => 'Skip Action';
+  String get skip_action => 'Atlama Eylemi';
   @override
-  String get skip_action_sentence => '1 sentence';
+  String get skip_action_sentence => '1 cümle';
   @override
-  String skip_action_seconds({required Object n}) => '${n} seconds';
+  String skip_action_seconds({required Object n}) => '${n} saniye';
   @override
-  String get shortcut_settings_title => 'Keyboard Shortcuts';
+  String get shortcut_settings_title => 'Klavye Kısayolları';
   @override
-  String get shortcut_scope_reader => 'Reader';
+  String get shortcut_scope_reader => 'Okuyucu';
   @override
-  String get shortcut_scope_home => 'Home';
+  String get shortcut_scope_home => 'Ana Sayfa';
   @override
-  String get shortcut_scope_global => 'Global';
+  String get shortcut_scope_global => 'Genel';
   @override
-  String get shortcut_scope_audiobook => 'Audiobook';
+  String get shortcut_scope_audiobook => 'Sesli Kitap';
   @override
-  String get shortcut_action_reader_page_forward => 'Next Page';
+  String get shortcut_action_reader_page_forward => 'Sonraki Sayfa';
   @override
-  String get shortcut_action_reader_page_backward => 'Previous Page';
+  String get shortcut_action_reader_page_backward => 'Önceki Sayfa';
   @override
-  String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+  String get shortcut_action_reader_toggle_chrome => 'Denetimleri Aç/Kapat';
   @override
-  String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+  String get shortcut_action_reader_dismiss_dict => 'Sözlüğü Kapat';
   @override
-  String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+  String get shortcut_action_reader_toggle_bookmark => 'Yer İmini Aç/Kapat';
   @override
-  String get shortcut_action_home_tab_books => 'Books Tab';
+  String get shortcut_action_home_tab_books => 'Kitaplar Sekmesi';
   @override
-  String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+  String get shortcut_action_home_tab_dict => 'Sözlük Sekmesi';
   @override
-  String get shortcut_action_home_tab_settings => 'Settings Tab';
+  String get shortcut_action_home_tab_settings => 'Ayarlar Sekmesi';
   @override
-  String get shortcut_action_home_focus_search => 'Focus Search';
+  String get shortcut_action_home_focus_search => 'Aramaya Odaklan';
   @override
-  String get shortcut_action_global_back => 'Go Back';
+  String get shortcut_action_global_back => 'Geri Git';
   @override
-  String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+  String get shortcut_action_audiobook_play_pause => 'Oynat / Duraklat';
   @override
-  String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+  String get shortcut_action_audiobook_next_sentence => 'Sonraki Cümle';
   @override
-  String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+  String get shortcut_action_audiobook_prev_sentence => 'Önceki Cümle';
   @override
-  String get shortcut_press_key => 'Press a key combination...';
+  String get shortcut_press_key => 'Bir tuş bileşimine basın...';
   @override
-  String get shortcut_press_gamepad => 'Press a gamepad button...';
+  String get shortcut_press_gamepad => 'Bir oyun kumandası düğmesine basın...';
   @override
-  String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
+  String shortcut_conflict({required Object s}) =>
+      'Şu tarafından kullanılıyor: ${s}';
   @override
-  String get shortcut_reset_defaults => 'Reset to Defaults';
+  String get shortcut_reset_defaults => 'Varsayılanlara Sıfırla';
   @override
   String get shortcut_reset_confirm =>
-      'Reset all shortcuts in this section to defaults?';
+      'Bu bölümdeki tüm kısayollar varsayılanlara sıfırlansın mı?';
   @override
-  String get shortcut_keyboard => 'Keyboard';
+  String get shortcut_keyboard => 'Klavye';
   @override
-  String get shortcut_gamepad => 'Gamepad';
+  String get shortcut_gamepad => 'Oyun kumandası';
   @override
-  String get shortcut_none => 'None';
+  String get shortcut_none => 'Yok';
   @override
-  String get shortcut_clear => 'Clear';
+  String get shortcut_clear => 'Temizle';
   @override
-  String get shortcut_stop_capture => 'Stop';
+  String get shortcut_stop_capture => 'Durdur';
   @override
-  String get section_advanced_typography => 'Advanced';
+  String get section_advanced_typography => 'Gelişmiş';
   @override
   String get sync_err_network =>
-      'Cannot reach the server — check your network or proxy settings.';
+      'Sunucuya ulaşılamıyor — ağ veya proxy ayarlarınızı kontrol edin.';
   @override
   String get sync_err_timeout =>
-      'Connection timed out — the server did not respond in time.';
+      'Bağlantı zaman aşımına uğradı — sunucu zamanında yanıt vermedi.';
   @override
-  String get sync_err_quota => 'Cloud storage is full (quota reached).';
+  String get sync_err_quota => 'Bulut depolama dolu (kota doldu).';
   @override
-  String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
+  String get sync_err_auth_expired =>
+      'Oturum süresi doldu — lütfen tekrar oturum açın.';
   @override
   String sync_server_port_in_use({required Object port}) =>
-      'Port ${port} is already in use — pick a different port.';
+      '${port} bağlantı noktası zaten kullanımda — farklı bir bağlantı noktası seçin.';
   @override
   String get sync_lan_scan_failed =>
-      'Scan failed — check network permissions or firewall.';
+      'Tarama başarısız — ağ izinlerini veya güvenlik duvarını kontrol edin.';
   @override
-  String get sync_section_method => 'Sync method';
+  String get sync_section_method => 'Eşitleme yöntemi';
   @override
-  String get sync_section_host_server => 'This device as a sync server';
+  String get sync_section_host_server => 'Bu cihaz eşitleme sunucusu olarak';
   @override
   String get sync_section_host_server_footer =>
-      'Let other devices sync from this device. Independent of the sync backend above.';
+      'Diğer cihazların bu cihazdan eşitlemesine izin verin. Yukarıdaki eşitleme arka ucundan bağımsızdır.';
   @override
-  String get sync_section_content => 'What to sync';
+  String get sync_section_content => 'Neler eşitlenecek';
   @override
-  String get sync_section_actions => 'Sync actions';
+  String get sync_section_actions => 'Eşitleme eylemleri';
   @override
-  String get sync_section_backup => 'Local backup';
+  String get sync_section_backup => 'Yerel yedek';
   @override
   String get backup_import_preserve_sync_note =>
-      'Your sync settings on this device (account and credentials) will be kept.';
+      'Bu cihazdaki eşitleme ayarlarınız (hesap ve kimlik bilgileri) korunacak.';
   @override
-  String get backup_import_settings_toggle => 'Import settings & profiles';
+  String get backup_import_settings_toggle =>
+      'Ayarları ve profilleri içe aktar';
   @override
   String get backup_import_settings_on_hint =>
-      'Full restore: fonts, appearance and profiles come from the backup.';
+      'Tam geri yükleme: yazı tipleri, görünüm ve profiller yedekten gelir.';
   @override
   String get backup_import_settings_off_hint =>
-      'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+      'Bu cihazın yazı tipleri/görünümü/profilleri korunur; yalnızca kitaplar ve okuma verileri geri yüklenir.';
   @override
   String get reader_unsupported_platform =>
-      'The reader is not yet available on this platform.';
+      'Okuyucu henüz bu platformda kullanılamıyor.';
   @override
   String get microphone_permission_denied =>
-      'Microphone permission is required to record.';
+      'Kayıt için mikrofon izni gereklidir.';
   @override
-  String get anki_connect_api_key => 'API Key';
+  String get anki_connect_api_key => 'API Anahtarı';
   @override
   String get anki_connect_api_key_hint =>
-      'Leave empty unless AnkiConnect requires a key';
+      'AnkiConnect bir anahtar gerektirmediği sürece boş bırakın';
   @override
   String get shortcut_action_global_scroll_page_down =>
-      'Scroll down one screen';
+      'Bir ekran aşağı kaydır';
   @override
-  String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+  String get shortcut_action_global_scroll_page_up => 'Bir ekran yukarı kaydır';
   @override
-  String get shortcut_action_home_tab_prev => 'Previous tab';
+  String get shortcut_action_home_tab_prev => 'Önceki sekme';
   @override
-  String get shortcut_action_home_tab_next => 'Next tab';
+  String get shortcut_action_home_tab_next => 'Sonraki sekme';
   @override
-  String get move_up => 'Move up';
+  String get move_up => 'Yukarı taşı';
   @override
-  String get move_down => 'Move down';
+  String get move_down => 'Aşağı taşı';
   @override
-  String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_toggle_furigana => 'Furigana\'yı aç/kapat';
   @override
-  String get on_screen_keyboard => 'On-screen keyboard';
+  String get on_screen_keyboard => 'Ekran klavyesi';
   @override
-  String get app_ui_scale => 'UI size';
+  String get app_ui_scale => 'Arayüz boyutu';
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary => 'Sözlükleri eşitle';
   @override
   String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
+      'Sözlük paketleri büyük olabilir ve içe aktarılan sözlük kaynaklarını içerebilir.';
   @override
-  String get settings_destination_reading => 'Reading';
+  String get settings_destination_reading => 'Okuma';
   @override
-  String get remote_dict_lookup => 'Remote dictionary lookup';
+  String get remote_dict_lookup => 'Uzak sözlük araması';
   @override
   String get remote_dict_lookup_hint =>
-      'When local dictionaries miss, query the configured Hibiki server';
+      'Yerel sözlükler bulamadığında, yapılandırılmış Hibiki sunucusunu sorgula';
   @override
-  String get remote_audio_source => 'Remote audio';
+  String get remote_audio_source => 'Uzak ses';
   @override
-  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_success => 'Eşleştirildi — belirteç dolduruldu';
   @override
-  String get sync_pair_failed => 'Pairing failed';
+  String get sync_pair_failed => 'Eşleştirme başarısız';
   @override
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   @override
-  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_sources_remote_group => 'Uzak kaynaklar';
   @override
   String get audio_source_url_invalid =>
-      'Link must be http(s) and contain a term or reading placeholder';
+      'Bağlantı http(s) olmalı ve bir terim ya da okuma yer tutucusu içermelidir';
   @override
-  String get audio_source_added => 'Audio source added';
+  String get audio_source_added => 'Ses kaynağı eklendi';
   @override
-  String get local_audio_imported => 'Audio database added';
+  String get local_audio_imported => 'Ses veritabanı eklendi';
   @override
-  String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_import_failed => 'Ses veritabanı içe aktarılamadı';
   @override
-  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_edit_sources => 'Kaynakları düzenle';
   @override
-  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_source_order_title => 'Kaynak önceliği';
   @override
-  String get local_audio_no_sources => 'No sources found in this database';
+  String get local_audio_no_sources => 'Bu veritabanında kaynak bulunamadı';
   @override
-  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_title => 'Eşleştirme isteği';
   @override
   String get sync_pair_request_body =>
-      'A device is requesting to pair. Allow it to sync with this device?';
+      'Bir cihaz eşleştirme talep ediyor. Bu cihazla eşitlemesine izin verilsin mi?';
   @override
-  String get sync_pair_allow => 'Allow';
+  String get sync_pair_allow => 'İzin ver';
   @override
-  String get sync_pair_deny => 'Deny';
+  String get sync_pair_deny => 'Reddet';
   @override
-  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_denied => 'Diğer cihaz eşleştirmeyi reddetti';
   @override
-  String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unknown_device => 'Bilinmeyen cihaz';
   @override
   String get sync_pair_unavailable =>
-      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      'Diğer cihaz hazır değil veya eski bir sürümde. Güncelleyin ve eşitlemeyi etkinleştirin, ardından tekrar deneyin.';
   @override
   String get sync_role_locked_by_server =>
-      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      'Bu cihaz sunucu olarak barındırıyor. Diğer cihazlara bağlanmadan önce sunucuyu kapatın.';
   @override
   String get sync_role_locked_by_client =>
-      'Already connected to another device. Remove the connection before hosting as a server.';
+      'Zaten başka bir cihaza bağlı. Sunucu olarak barındırmadan önce bağlantıyı kaldırın.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
   @override
-  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files => 'Sesli kitap dosyalarını eşitle';
   @override
   String get sync_audiobook_files_warning =>
-      'Audio and subtitles can be large.';
+      'Ses ve altyazılar büyük olabilir.';
   @override
-  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_title => 'Yinelenen kitap';
   @override
-  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_keep => 'Evet, sonek ekle';
   @override
-  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancel => 'Hayır, iptal et';
   @override
-  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String get book_import_duplicate_cancelled => 'İçe aktarma iptal edildi';
   @override
   String book_import_duplicate_message({required Object name}) =>
-      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      '"${name}" adlı bir kitap zaten var. Yine de içe aktarılsın mı? "Evet" numaralı bir sonekle içe aktarır; "Hayır" iptal eder.';
   @override
-  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
+  String get reverse_reader_bottom_bar => 'Okuyucu alt çubuğunu ters çevir';
   @override
-  String get floating_dict_close => 'Close';
+  String get floating_dict_close => 'Kapat';
   @override
-  String get debug_log_share_subject => 'hibiki Debug Log';
+  String get debug_log_share_subject => 'hibiki Hata Ayıklama Günlüğü';
   @override
-  String get spread_direction_rtl => 'Right to Left';
+  String get spread_direction_rtl => 'Sağdan Sola';
   @override
-  String get spread_direction_ltr => 'Left to Right';
+  String get spread_direction_ltr => 'Soldan Sağa';
   @override
   String dict_download_partial(
           {required Object success,
           required Object total,
           required Object error}) =>
-      '${success} / ${total} OK. Failed: ${error}';
+      '${success} / ${total} tamam. Başarısız: ${error}';
   @override
-  String get sync_now => 'Sync now';
+  String get sync_now => 'Şimdi eşitle';
   @override
-  String get sync_now_hint => 'Run a full two-way sync with the cloud now';
+  String get sync_now_hint => 'Bulutla tam iki yönlü eşitlemeyi şimdi çalıştır';
   @override
-  String get sync_now_busy => 'A sync is already running';
+  String get sync_now_busy => 'Bir eşitleme zaten çalışıyor';
   @override
-  String get sync_now_no_changes => 'no changes';
+  String get sync_now_no_changes => 'değişiklik yok';
   @override
-  String sync_now_done({required Object detail}) => 'Synced · ${detail}';
+  String sync_now_done({required Object detail}) => 'Eşitlendi · ${detail}';
   @override
   String sync_now_failed_suffix({required Object count}) =>
-      ' · ${count} failed';
+      ' · ${count} başarısız';
   @override
-  String sync_now_books_in({required Object count}) => '↓${count} books';
+  String sync_now_books_in({required Object count}) => '↓${count} kitap';
   @override
-  String sync_now_dicts_in({required Object count}) => '↓${count} dictionaries';
+  String sync_now_dicts_in({required Object count}) => '↓${count} sözlük';
   @override
-  String sync_now_dicts_out({required Object count}) =>
-      '↑${count} dictionaries';
+  String sync_now_dicts_out({required Object count}) => '↑${count} sözlük';
   @override
-  String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
+  String sync_now_audio_in({required Object count}) => '↓${count} sesli kitap';
   @override
-  String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String sync_now_audio_out({required Object count}) => '↑${count} sesli kitap';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => 'Sözlükler';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => 'Kitabı uzakta sil';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook => 'Sesli kitabı uzakta sil';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => 'Sözlüğü uzakta sil';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => 'Uzaktan silindi';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      '"${name}" uzaktan silinsin mi? Yerel veriler korunur. Bu geri alınamaz.';
+  @override
+  String get dictionaries_delete_failed => 'Sözlükler silinemedi';
+  @override
+  String get dictionary_delete_failed => 'Sözlük silinemedi';
+  @override
+  String get sync_webdav_missing_fields => 'Eksik alanlar';
+  @override
+  String get sync_compare_download => 'İndir';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -40135,7 +40718,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_statistics => 'Đồng bộ thống kê';
   @override
-  String get sync_summary => 'Google Drive · Tương thích ッツ/Hoshi Reader';
+  String get sync_summary =>
+      'Đám mây, LAN P2P & sao lưu cục bộ · tương thích ッツ/Hoshi Reader';
   @override
   String get sync_title => 'Đồng bộ';
   @override
@@ -40145,138 +40729,140 @@ class _StringsVi extends _StringsEn {
   @override
   String get update_channel_stable => 'Ổn định';
   @override
-  String get anki_connect_host => 'Host';
+  String get anki_connect_host => 'Máy chủ';
   @override
-  String get anki_connect_port => 'Port';
+  String get anki_connect_port => 'Cổng';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => 'So sánh dữ liệu';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => 'Cục bộ và từ xa';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => 'Cục bộ';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => 'Từ xa';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => 'Không có dữ liệu';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => 'Không tìm thấy sách';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => 'ngày';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => 'Xung đột';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => 'Tất cả sách';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => 'Chọn tất cả';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => 'Tất cả → Cục bộ';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => 'Tất cả → Từ xa';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => 'Tất cả → Bỏ qua';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => 'Cục bộ';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => 'Từ xa';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => 'Bỏ qua';
   @override
   String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+      'Đã áp dụng ${count} thay đổi';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => 'Áp dụng (${count})';
   @override
-  String get sync_auto_sync => 'Auto Sync';
+  String get sync_auto_sync => 'Tự động đồng bộ';
   @override
   String sync_auto_complete(
           {required Object direction, required Object title}) =>
-      'Sync: ${direction} ${title}';
+      'Đồng bộ: ${direction} ${title}';
   @override
-  String get no_matching_audio_cue => 'No matching audio for this sentence';
+  String get no_matching_audio_cue => 'Không có âm thanh khớp với câu này';
   @override
-  String get sync_exit_warning_title => 'Sync In Progress';
+  String get sync_exit_warning_title => 'Đang đồng bộ';
   @override
   String get sync_exit_warning =>
-      'Sync is still in progress. Exiting now may cause data loss.';
+      'Quá trình đồng bộ vẫn đang diễn ra. Thoát ngay bây giờ có thể gây mất dữ liệu.';
   @override
-  String get sync_content => 'Sync book files';
+  String get sync_content => 'Đồng bộ tệp sách';
   @override
   String get sync_content_warning =>
-      'Large files will use storage space and data';
+      'Tệp lớn sẽ tốn dung lượng lưu trữ và dữ liệu mạng';
   @override
-  String get sync_backend => 'Storage backend';
+  String get sync_backend => 'Phương thức lưu trữ';
   @override
   String get sync_backend_google_drive => 'Google Drive';
   @override
   String get sync_backend_webdav => 'WebDAV';
   @override
-  String get sync_webdav_url => 'Server URL';
+  String get sync_webdav_url => 'URL máy chủ';
   @override
-  String get sync_webdav_username => 'Username';
+  String get sync_webdav_username => 'Tên đăng nhập';
   @override
-  String get sync_webdav_password => 'Password';
+  String get sync_webdav_password => 'Mật khẩu';
   @override
-  String get sync_webdav_test => 'Test connection';
+  String get sync_webdav_test => 'Kiểm tra kết nối';
   @override
-  String get sync_webdav_test_success => 'Connection successful';
+  String get sync_webdav_test_success => 'Kết nối thành công';
   @override
   String sync_webdav_test_failed({required Object message}) =>
-      'Connection failed: ${message}';
+      'Kết nối thất bại: ${message}';
   @override
-  String get book_file_not_found => 'Book file not found';
+  String get book_file_not_found => 'Không tìm thấy tệp sách';
   @override
-  String get epub_parse_fallback => 'Book metadata repaired from database';
+  String get epub_parse_fallback =>
+      'Đã khôi phục thông tin sách từ cơ sở dữ liệu';
   @override
-  String get retry => 'Retry';
+  String get retry => 'Thử lại';
   @override
-  String get copy_error => 'Copy Error';
+  String get copy_error => 'Sao chép lỗi';
   @override
-  String get error_copied => 'Error copied to clipboard';
+  String get error_copied => 'Đã sao chép lỗi vào bộ nhớ tạm';
   @override
   String dict_import_failed_summary({required Object n}) =>
-      'Failed to import ${n} dictionary(s)';
+      'Không thể nhập ${n} từ điển';
   @override
   String get reader_content_timeout =>
-      'Content loading timed out. Reopen if display is abnormal';
+      'Tải nội dung quá thời gian. Mở lại nếu hiển thị bất thường';
   @override
-  String get backup_local => 'Local Backup';
+  String get backup_local => 'Sao lưu cục bộ';
   @override
-  String get backup_export => 'Export Backup';
+  String get backup_export => 'Xuất bản sao lưu';
   @override
   String get backup_export_hint =>
-      'Save all settings, reading progress, and statistics to a file';
+      'Lưu toàn bộ cài đặt, tiến độ đọc và thống kê vào một tệp';
   @override
-  String get backup_import => 'Import Backup';
+  String get backup_import => 'Nhập bản sao lưu';
   @override
   String get backup_import_hint =>
-      'Restore from a backup file. The app will restart.';
+      'Khôi phục từ tệp sao lưu. Ứng dụng sẽ khởi động lại.';
   @override
-  String get backup_export_success => 'Backup exported successfully';
+  String get backup_export_success => 'Đã xuất bản sao lưu thành công';
   @override
   String backup_export_failed({required Object message}) =>
-      'Backup export failed: ${message}';
+      'Xuất bản sao lưu thất bại: ${message}';
   @override
-  String get backup_import_confirm_title => 'Restore Backup?';
+  String get backup_import_confirm_title => 'Khôi phục bản sao lưu?';
   @override
   String backup_import_confirm(
           {required Object date,
           required Object bookCount,
           required Object statsCount}) =>
-      'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+      'Thao tác này sẽ thay thế toàn bộ dữ liệu hiện tại bằng bản sao lưu từ ${date}.\n\n${bookCount} sách, ${statsCount} bản ghi thống kê.\n\nỨng dụng sẽ khởi động lại sau khi khôi phục.';
   @override
-  String get backup_import_success => 'Backup restored. Restarting…';
+  String get backup_import_success =>
+      'Đã khôi phục bản sao lưu. Đang khởi động lại…';
   @override
   String backup_import_failed({required Object message}) =>
-      'Backup import failed: ${message}';
+      'Nhập bản sao lưu thất bại: ${message}';
   @override
-  String get backup_import_invalid => 'Invalid backup file';
+  String get backup_import_invalid => 'Tệp sao lưu không hợp lệ';
   @override
-  String get backup_exporting => 'Creating backup…';
+  String get backup_exporting => 'Đang tạo bản sao lưu…';
   @override
   String backup_schema_newer({required Object version}) =>
-      'This backup requires a newer version of the app (schema ${version}). Please update first.';
+      'Bản sao lưu này cần phiên bản ứng dụng mới hơn (schema ${version}). Vui lòng cập nhật trước.';
   @override
-  String get reverse_navigation_bar => 'Reverse navigation bar';
+  String get reverse_navigation_bar => 'Đảo ngược thanh điều hướng';
   @override
   String get sync_backend_onedrive => 'OneDrive';
   @override
@@ -40288,313 +40874,353 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_backend_hibiki_server => 'Hibiki P2P';
   @override
-  String get sync_server_enable => 'Enable sync server';
+  String get sync_server_enable => 'Bật máy chủ đồng bộ';
   @override
-  String get sync_server_port => 'Server port';
+  String get sync_server_port => 'Cổng máy chủ';
   @override
-  String get sync_server_token => 'Access token';
+  String get sync_server_token => 'Mã truy cập';
   @override
-  String get sync_server_copy_token => 'Copy token';
+  String get sync_server_copy_token => 'Sao chép mã';
   @override
-  String get sync_server_regenerate_token => 'Regenerate token';
+  String get sync_server_regenerate_token => 'Tạo lại mã';
   @override
-  String get sync_server_running => 'Server running';
+  String get sync_server_running => 'Máy chủ đang chạy';
   @override
-  String get sync_server_stopped => 'Server stopped';
+  String get sync_server_stopped => 'Máy chủ đã dừng';
   @override
-  String get sync_lan_discovery => 'LAN devices';
+  String get sync_lan_discovery => 'Thiết bị trong mạng LAN';
   @override
-  String get sync_lan_scanning => 'Scanning...';
+  String get sync_lan_scanning => 'Đang quét...';
   @override
-  String get sync_lan_no_devices => 'No devices found';
+  String get sync_lan_no_devices => 'Không tìm thấy thiết bị';
   @override
-  String get sync_fallback_config => 'Fallback order';
+  String get sync_fallback_config => 'Thứ tự dự phòng';
   @override
-  String get sync_test_connection => 'Test connection';
+  String get sync_test_connection => 'Kiểm tra kết nối';
   @override
-  String get sync_connection_success => 'Connection successful';
+  String get sync_connection_success => 'Kết nối thành công';
   @override
-  String get sync_connection_failed => 'Connection failed';
+  String get sync_connection_failed => 'Kết nối thất bại';
   @override
-  String get sync_host => 'Host';
+  String get sync_host => 'Máy chủ';
   @override
-  String get sync_port => 'Port';
+  String get sync_port => 'Cổng';
   @override
-  String get sync_username => 'Username';
+  String get sync_username => 'Tên đăng nhập';
   @override
-  String get sync_password => 'Password';
+  String get sync_password => 'Mật khẩu';
   @override
-  String get sync_use_tls => 'Use TLS';
+  String get sync_use_tls => 'Dùng TLS';
   @override
-  String get sync_private_key => 'Private key';
+  String get sync_private_key => 'Khóa riêng tư';
   @override
-  String get skip_action => 'Skip Action';
+  String get skip_action => 'Bỏ qua';
   @override
-  String get skip_action_sentence => '1 sentence';
+  String get skip_action_sentence => '1 câu';
   @override
-  String skip_action_seconds({required Object n}) => '${n} seconds';
+  String skip_action_seconds({required Object n}) => '${n} giây';
   @override
-  String get shortcut_settings_title => 'Keyboard Shortcuts';
+  String get shortcut_settings_title => 'Phím tắt bàn phím';
   @override
-  String get shortcut_scope_reader => 'Reader';
+  String get shortcut_scope_reader => 'Trình đọc';
   @override
-  String get shortcut_scope_home => 'Home';
+  String get shortcut_scope_home => 'Trang chủ';
   @override
-  String get shortcut_scope_global => 'Global';
+  String get shortcut_scope_global => 'Toàn cục';
   @override
-  String get shortcut_scope_audiobook => 'Audiobook';
+  String get shortcut_scope_audiobook => 'Sách nói';
   @override
-  String get shortcut_action_reader_page_forward => 'Next Page';
+  String get shortcut_action_reader_page_forward => 'Trang sau';
   @override
-  String get shortcut_action_reader_page_backward => 'Previous Page';
+  String get shortcut_action_reader_page_backward => 'Trang trước';
   @override
-  String get shortcut_action_reader_toggle_chrome => 'Toggle Controls';
+  String get shortcut_action_reader_toggle_chrome => 'Bật/tắt điều khiển';
   @override
-  String get shortcut_action_reader_dismiss_dict => 'Dismiss Dictionary';
+  String get shortcut_action_reader_dismiss_dict => 'Đóng từ điển';
   @override
-  String get shortcut_action_reader_toggle_bookmark => 'Toggle Bookmark';
+  String get shortcut_action_reader_toggle_bookmark => 'Bật/tắt dấu trang';
   @override
-  String get shortcut_action_home_tab_books => 'Books Tab';
+  String get shortcut_action_home_tab_books => 'Tab Sách';
   @override
-  String get shortcut_action_home_tab_dict => 'Dictionary Tab';
+  String get shortcut_action_home_tab_dict => 'Tab Từ điển';
   @override
-  String get shortcut_action_home_tab_settings => 'Settings Tab';
+  String get shortcut_action_home_tab_settings => 'Tab Cài đặt';
   @override
-  String get shortcut_action_home_focus_search => 'Focus Search';
+  String get shortcut_action_home_focus_search => 'Tập trung tìm kiếm';
   @override
-  String get shortcut_action_global_back => 'Go Back';
+  String get shortcut_action_global_back => 'Quay lại';
   @override
-  String get shortcut_action_audiobook_play_pause => 'Play / Pause';
+  String get shortcut_action_audiobook_play_pause => 'Phát / Tạm dừng';
   @override
-  String get shortcut_action_audiobook_next_sentence => 'Next Sentence';
+  String get shortcut_action_audiobook_next_sentence => 'Câu kế tiếp';
   @override
-  String get shortcut_action_audiobook_prev_sentence => 'Previous Sentence';
+  String get shortcut_action_audiobook_prev_sentence => 'Câu trước';
   @override
-  String get shortcut_press_key => 'Press a key combination...';
+  String get shortcut_press_key => 'Nhấn tổ hợp phím...';
   @override
-  String get shortcut_press_gamepad => 'Press a gamepad button...';
+  String get shortcut_press_gamepad => 'Nhấn nút tay cầm...';
   @override
-  String shortcut_conflict({required Object s}) => 'Already used by: ${s}';
+  String shortcut_conflict({required Object s}) => 'Đã được dùng bởi: ${s}';
   @override
-  String get shortcut_reset_defaults => 'Reset to Defaults';
+  String get shortcut_reset_defaults => 'Khôi phục mặc định';
   @override
   String get shortcut_reset_confirm =>
-      'Reset all shortcuts in this section to defaults?';
+      'Khôi phục mọi phím tắt trong mục này về mặc định?';
   @override
-  String get shortcut_keyboard => 'Keyboard';
+  String get shortcut_keyboard => 'Bàn phím';
   @override
-  String get shortcut_gamepad => 'Gamepad';
+  String get shortcut_gamepad => 'Tay cầm';
   @override
-  String get shortcut_none => 'None';
+  String get shortcut_none => 'Không có';
   @override
-  String get shortcut_clear => 'Clear';
+  String get shortcut_clear => 'Xóa';
   @override
-  String get shortcut_stop_capture => 'Stop';
+  String get shortcut_stop_capture => 'Dừng';
   @override
-  String get section_advanced_typography => 'Advanced';
+  String get section_advanced_typography => 'Nâng cao';
   @override
   String get sync_err_network =>
-      'Cannot reach the server — check your network or proxy settings.';
+      'Không thể kết nối máy chủ — kiểm tra mạng hoặc cài đặt proxy.';
   @override
   String get sync_err_timeout =>
-      'Connection timed out — the server did not respond in time.';
+      'Kết nối quá thời gian — máy chủ không phản hồi kịp.';
   @override
-  String get sync_err_quota => 'Cloud storage is full (quota reached).';
+  String get sync_err_quota => 'Bộ nhớ đám mây đã đầy (đã đạt giới hạn).';
   @override
-  String get sync_err_auth_expired => 'Sign-in expired — please sign in again.';
+  String get sync_err_auth_expired =>
+      'Phiên đăng nhập đã hết hạn — vui lòng đăng nhập lại.';
   @override
   String sync_server_port_in_use({required Object port}) =>
-      'Port ${port} is already in use — pick a different port.';
+      'Cổng ${port} đang được sử dụng — chọn cổng khác.';
   @override
   String get sync_lan_scan_failed =>
-      'Scan failed — check network permissions or firewall.';
+      'Quét thất bại — kiểm tra quyền mạng hoặc tường lửa.';
   @override
-  String get sync_section_method => 'Sync method';
+  String get sync_section_method => 'Phương thức đồng bộ';
   @override
-  String get sync_section_host_server => 'This device as a sync server';
+  String get sync_section_host_server => 'Thiết bị này làm máy chủ đồng bộ';
   @override
   String get sync_section_host_server_footer =>
-      'Let other devices sync from this device. Independent of the sync backend above.';
+      'Cho phép thiết bị khác đồng bộ từ thiết bị này. Độc lập với phương thức lưu trữ ở trên.';
   @override
-  String get sync_section_content => 'What to sync';
+  String get sync_section_content => 'Nội dung đồng bộ';
   @override
-  String get sync_section_actions => 'Sync actions';
+  String get sync_section_actions => 'Tác vụ đồng bộ';
   @override
-  String get sync_section_backup => 'Local backup';
+  String get sync_section_backup => 'Sao lưu cục bộ';
   @override
   String get backup_import_preserve_sync_note =>
-      'Your sync settings on this device (account and credentials) will be kept.';
+      'Cài đặt đồng bộ trên thiết bị này (tài khoản và thông tin đăng nhập) sẽ được giữ lại.';
   @override
-  String get backup_import_settings_toggle => 'Import settings & profiles';
+  String get backup_import_settings_toggle => 'Nhập cài đặt & hồ sơ';
   @override
   String get backup_import_settings_on_hint =>
-      'Full restore: fonts, appearance and profiles come from the backup.';
+      'Khôi phục đầy đủ: phông chữ, giao diện và hồ sơ lấy từ bản sao lưu.';
   @override
   String get backup_import_settings_off_hint =>
-      'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+      'Giữ phông chữ/giao diện/hồ sơ của thiết bị này; chỉ khôi phục sách & dữ liệu đọc.';
   @override
   String get reader_unsupported_platform =>
-      'The reader is not yet available on this platform.';
+      'Trình đọc chưa khả dụng trên nền tảng này.';
   @override
-  String get microphone_permission_denied =>
-      'Microphone permission is required to record.';
+  String get microphone_permission_denied => 'Cần quyền micro để ghi âm.';
   @override
   String get anki_connect_api_key => 'API Key';
   @override
   String get anki_connect_api_key_hint =>
-      'Leave empty unless AnkiConnect requires a key';
+      'Để trống trừ khi AnkiConnect yêu cầu khóa';
   @override
   String get shortcut_action_global_scroll_page_down =>
-      'Scroll down one screen';
+      'Cuộn xuống một màn hình';
   @override
-  String get shortcut_action_global_scroll_page_up => 'Scroll up one screen';
+  String get shortcut_action_global_scroll_page_up => 'Cuộn lên một màn hình';
   @override
-  String get shortcut_action_home_tab_prev => 'Previous tab';
+  String get shortcut_action_home_tab_prev => 'Tab trước';
   @override
-  String get shortcut_action_home_tab_next => 'Next tab';
+  String get shortcut_action_home_tab_next => 'Tab kế tiếp';
   @override
-  String get move_up => 'Move up';
+  String get move_up => 'Di chuyển lên';
   @override
-  String get move_down => 'Move down';
+  String get move_down => 'Di chuyển xuống';
   @override
-  String get shortcut_action_reader_toggle_furigana => 'Toggle furigana';
+  String get shortcut_action_reader_toggle_furigana => 'Bật/tắt furigana';
   @override
-  String get on_screen_keyboard => 'On-screen keyboard';
+  String get on_screen_keyboard => 'Bàn phím ảo';
   @override
-  String get app_ui_scale => 'UI size';
+  String get app_ui_scale => 'Cỡ giao diện';
   @override
   String get app_ui_scale_hint =>
       'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
   @override
-  String get sync_dictionary => 'Sync dictionaries';
+  String get sync_dictionary => 'Đồng bộ từ điển';
   @override
   String get sync_dictionary_warning =>
-      'Dictionary packages can be large and include imported dictionary resources.';
+      'Gói từ điển có thể lớn và bao gồm các tài nguyên từ điển đã nhập.';
   @override
-  String get settings_destination_reading => 'Reading';
+  String get settings_destination_reading => 'Đọc sách';
   @override
-  String get remote_dict_lookup => 'Remote dictionary lookup';
+  String get remote_dict_lookup => 'Tra từ điển từ xa';
   @override
   String get remote_dict_lookup_hint =>
-      'When local dictionaries miss, query the configured Hibiki server';
+      'Khi từ điển cục bộ không có, truy vấn máy chủ Hibiki đã cấu hình';
   @override
-  String get remote_audio_source => 'Remote audio';
+  String get remote_audio_source => 'Âm thanh từ xa';
   @override
-  String get sync_pair_success => 'Paired — token filled in';
+  String get sync_pair_success => 'Đã ghép nối — đã điền mã';
   @override
-  String get sync_pair_failed => 'Pairing failed';
+  String get sync_pair_failed => 'Ghép nối thất bại';
   @override
   String get audio_source_hibiki_interconnect => 'Hibiki P2P';
   @override
-  String get audio_sources_remote_group => 'Remote sources';
+  String get audio_sources_remote_group => 'Nguồn từ xa';
   @override
   String get audio_source_url_invalid =>
-      'Link must be http(s) and contain a term or reading placeholder';
+      'Liên kết phải là http(s) và chứa placeholder cho từ hoặc cách đọc';
   @override
-  String get audio_source_added => 'Audio source added';
+  String get audio_source_added => 'Đã thêm nguồn âm thanh';
   @override
-  String get local_audio_imported => 'Audio database added';
+  String get local_audio_imported => 'Đã thêm cơ sở dữ liệu âm thanh';
   @override
-  String get local_audio_import_failed => 'Failed to import audio database';
+  String get local_audio_import_failed =>
+      'Không thể nhập cơ sở dữ liệu âm thanh';
   @override
-  String get local_audio_edit_sources => 'Edit sources';
+  String get local_audio_edit_sources => 'Chỉnh sửa nguồn';
   @override
-  String get local_audio_source_order_title => 'Source priority';
+  String get local_audio_source_order_title => 'Ưu tiên nguồn';
   @override
-  String get local_audio_no_sources => 'No sources found in this database';
+  String get local_audio_no_sources =>
+      'Không tìm thấy nguồn trong cơ sở dữ liệu này';
   @override
-  String get sync_pair_request_title => 'Pairing request';
+  String get sync_pair_request_title => 'Yêu cầu ghép nối';
   @override
   String get sync_pair_request_body =>
-      'A device is requesting to pair. Allow it to sync with this device?';
+      'Một thiết bị đang yêu cầu ghép nối. Cho phép nó đồng bộ với thiết bị này?';
   @override
-  String get sync_pair_allow => 'Allow';
+  String get sync_pair_allow => 'Cho phép';
   @override
-  String get sync_pair_deny => 'Deny';
+  String get sync_pair_deny => 'Từ chối';
   @override
-  String get sync_pair_denied => 'The other device declined pairing';
+  String get sync_pair_denied => 'Thiết bị kia đã từ chối ghép nối';
   @override
-  String get sync_pair_unknown_device => 'Unknown device';
+  String get sync_pair_unknown_device => 'Thiết bị không xác định';
   @override
   String get sync_pair_unavailable =>
-      'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+      'Thiết bị kia chưa sẵn sàng hoặc đang dùng phiên bản cũ. Hãy cập nhật và bật đồng bộ, rồi thử lại.';
   @override
   String get sync_role_locked_by_server =>
-      'This device is hosting as a server. Turn off the server before connecting to other devices.';
+      'Thiết bị này đang chạy như máy chủ. Tắt máy chủ trước khi kết nối tới thiết bị khác.';
   @override
   String get sync_role_locked_by_client =>
-      'Already connected to another device. Remove the connection before hosting as a server.';
+      'Đã kết nối tới thiết bị khác. Gỡ kết nối trước khi chạy như máy chủ.';
   @override
   String get sync_compare_unavailable => 'Set up sync first';
   @override
-  String get sync_audiobook_files => 'Sync audiobook files';
+  String get sync_audiobook_files => 'Đồng bộ tệp sách nói';
   @override
   String get sync_audiobook_files_warning =>
-      'Audio and subtitles can be large.';
+      'Âm thanh và phụ đề có thể rất lớn.';
   @override
-  String get book_import_duplicate_title => 'Duplicate book';
+  String get book_import_duplicate_title => 'Sách trùng lặp';
   @override
-  String get book_import_duplicate_keep => 'Yes, add suffix';
+  String get book_import_duplicate_keep => 'Có, thêm hậu tố';
   @override
-  String get book_import_duplicate_cancel => 'No, cancel';
+  String get book_import_duplicate_cancel => 'Không, hủy';
   @override
-  String get book_import_duplicate_cancelled => 'Import cancelled';
+  String get book_import_duplicate_cancelled => 'Đã hủy nhập';
   @override
   String book_import_duplicate_message({required Object name}) =>
-      'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+      'Đã có sách tên "${name}". Vẫn nhập? "Có" sẽ nhập với hậu tố đánh số; "Không" sẽ hủy.';
   @override
-  String get reverse_reader_bottom_bar => 'Reverse reader bottom bar';
+  String get reverse_reader_bottom_bar => 'Đảo ngược thanh dưới trình đọc';
   @override
-  String get floating_dict_close => 'Close';
+  String get floating_dict_close => 'Đóng';
   @override
-  String get debug_log_share_subject => 'hibiki Debug Log';
+  String get debug_log_share_subject => 'Nhật ký gỡ lỗi hibiki';
   @override
-  String get spread_direction_rtl => 'Right to Left';
+  String get spread_direction_rtl => 'Phải sang trái';
   @override
-  String get spread_direction_ltr => 'Left to Right';
+  String get spread_direction_ltr => 'Trái sang phải';
   @override
   String dict_download_partial(
           {required Object success,
           required Object total,
           required Object error}) =>
-      '${success} / ${total} OK. Failed: ${error}';
+      '${success} / ${total} thành công. Thất bại: ${error}';
   @override
-  String get sync_now => 'Sync now';
+  String get sync_now => 'Đồng bộ ngay';
   @override
-  String get sync_now_hint => 'Run a full two-way sync with the cloud now';
+  String get sync_now_hint =>
+      'Chạy đồng bộ hai chiều đầy đủ với đám mây ngay bây giờ';
   @override
-  String get sync_now_busy => 'A sync is already running';
+  String get sync_now_busy => 'Đã có một tác vụ đồng bộ đang chạy';
   @override
-  String get sync_now_no_changes => 'no changes';
+  String get sync_now_no_changes => 'không có thay đổi';
   @override
-  String sync_now_done({required Object detail}) => 'Synced · ${detail}';
+  String sync_now_done({required Object detail}) => 'Đã đồng bộ · ${detail}';
   @override
   String sync_now_failed_suffix({required Object count}) =>
-      ' · ${count} failed';
+      ' · ${count} thất bại';
   @override
-  String sync_now_books_in({required Object count}) => '↓${count} books';
+  String sync_now_books_in({required Object count}) => '↓${count} sách';
   @override
-  String sync_now_dicts_in({required Object count}) => '↓${count} dictionaries';
+  String sync_now_dicts_in({required Object count}) => '↓${count} từ điển';
   @override
-  String sync_now_dicts_out({required Object count}) =>
-      '↑${count} dictionaries';
+  String sync_now_dicts_out({required Object count}) => '↑${count} từ điển';
   @override
-  String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
+  String sync_now_audio_in({required Object count}) => '↓${count} sách nói';
   @override
-  String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String sync_now_audio_out({required Object count}) => '↑${count} sách nói';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => 'Từ điển';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => 'Xóa sách trên máy từ xa';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook => 'Xóa sách nói trên máy từ xa';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => 'Xóa từ điển trên máy từ xa';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => 'Đã xóa khỏi máy từ xa';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      'Xóa "${name}" khỏi máy từ xa? Dữ liệu cục bộ được giữ lại. Không thể hoàn tác.';
+  @override
+  String get dictionaries_delete_failed => 'Không thể xóa từ điển';
+  @override
+  String get dictionary_delete_failed => 'Không thể xóa từ điển';
+  @override
+  String get sync_webdav_missing_fields => 'Thiếu thông tin';
+  @override
+  String get sync_compare_download => 'Tải xuống';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -42781,7 +43407,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get sync_statistics => '同步统计';
   @override
-  String get sync_summary => 'Google Drive · 兼容 ッツ/Hoshi Reader';
+  String get sync_summary => '云端、局域网与本地备份 · 兼容 ッツ/Hoshi Reader';
   @override
   String get sync_title => '同步';
   @override
@@ -42789,42 +43415,41 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get anki_connect_port => 'Port';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => '对比数据';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => '本地 vs 远端';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => '本地';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => '远端';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => '无数据';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => '未找到书籍';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => '天';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => '冲突';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => '全部书籍';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => '全选';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => '全部 → 本地';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => '全部 → 远端';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => '全部 → 跳过';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => '本地';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => '远端';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => '跳过';
   @override
-  String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+  String sync_compare_applied({required Object count}) => '已应用 ${count} 项更改';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => '应用（${count}）';
   @override
   String get sync_auto_sync => '自动同步';
   @override
@@ -43205,6 +43830,41 @@ class _StringsZhCn extends _StringsEn {
   @override
   String sync_compare_delete_confirm({required Object name}) =>
       '确定从远端删除「${name}」吗？本地数据保留，此操作不可撤销。';
+  @override
+  String get dictionaries_delete_failed => '删除全部词典失败';
+  @override
+  String get dictionary_delete_failed => '删除词典失败';
+  @override
+  String get sync_webdav_missing_fields => '缺少字段';
+  @override
+  String get sync_compare_download => '下载';
+  @override
+  String get log_export_file => '导出到文件';
+  @override
+  String get log_export_saved => '日志已保存';
+  @override
+  String get log_export_failed => '导出失败';
+  @override
+  String get sync_local_audio => '同步本地音频';
+  @override
+  String get sync_local_audio_warning => '同步本地音频来源数据库（可能较大）';
+  @override
+  String sync_now_local_audio_in({required Object count}) => '↓${count} 本地音频';
+  @override
+  String sync_now_local_audio_out({required Object count}) => '↑${count} 本地音频';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      '无法连接 ${host}（网络超时或不可达）。';
+  @override
+  String get sync_progress_books => '导入书籍';
+  @override
+  String get sync_progress_reading => '同步阅读数据';
+  @override
+  String get sync_progress_dictionaries => '同步词典';
+  @override
+  String get sync_progress_local_audio => '同步本地音频';
+  @override
+  String get sync_progress_audiobooks => '同步有声书';
   @override
   String get video_import_title => '导入视频';
   @override
@@ -45381,7 +46041,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_statistics => '同步統計';
   @override
-  String get sync_summary => 'Google Drive · 相容 ッツ/Hoshi Reader';
+  String get sync_summary => '雲端、區域網與本機備份 · 相容 ッツ/Hoshi Reader';
   @override
   String get sync_title => '同步';
   @override
@@ -45395,42 +46055,41 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get anki_connect_port => 'Port';
   @override
-  String get sync_compare => 'Compare Data';
+  String get sync_compare => '比對資料';
   @override
-  String get sync_compare_title => 'Local vs Remote';
+  String get sync_compare_title => '本機 vs 遠端';
   @override
-  String get sync_compare_local => 'Local';
+  String get sync_compare_local => '本機';
   @override
-  String get sync_compare_remote => 'Remote';
+  String get sync_compare_remote => '遠端';
   @override
-  String get sync_compare_no_data => 'No data';
+  String get sync_compare_no_data => '無資料';
   @override
-  String get sync_compare_empty => 'No books found';
+  String get sync_compare_empty => '找不到書籍';
   @override
-  String get sync_compare_days => 'days';
+  String get sync_compare_days => '天';
   @override
-  String get sync_compare_conflicts => 'Conflicts';
+  String get sync_compare_conflicts => '衝突';
   @override
-  String get sync_compare_all_books => 'All Books';
+  String get sync_compare_all_books => '全部書籍';
   @override
-  String get sync_compare_select_all => 'Select All';
+  String get sync_compare_select_all => '全選';
   @override
-  String get sync_compare_all_local => 'All → Local';
+  String get sync_compare_all_local => '全部 → 本機';
   @override
-  String get sync_compare_all_remote => 'All → Remote';
+  String get sync_compare_all_remote => '全部 → 遠端';
   @override
-  String get sync_compare_all_skip => 'All → Skip';
+  String get sync_compare_all_skip => '全部 → 略過';
   @override
-  String get sync_compare_use_local => 'Local';
+  String get sync_compare_use_local => '本機';
   @override
-  String get sync_compare_use_remote => 'Remote';
+  String get sync_compare_use_remote => '遠端';
   @override
-  String get sync_compare_skip => 'Skip';
+  String get sync_compare_skip => '略過';
   @override
-  String sync_compare_applied({required Object count}) =>
-      'Applied ${count} changes';
+  String sync_compare_applied({required Object count}) => '已套用 ${count} 項變更';
   @override
-  String sync_compare_apply({required Object count}) => 'Apply (${count})';
+  String sync_compare_apply({required Object count}) => '套用（${count}）';
   @override
   String get sync_auto_sync => 'Auto Sync';
   @override
@@ -45829,18 +46488,56 @@ class _StringsZhHk extends _StringsEn {
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
   @override
-  String get sync_compare_dictionaries => 'Dictionaries';
+  String get sync_compare_dictionaries => '詞典';
   @override
-  String get sync_compare_delete_book => 'Delete book on remote';
+  String get sync_compare_delete_book => '刪除遠端書籍';
   @override
-  String get sync_compare_delete_audiobook => 'Delete audiobook on remote';
+  String get sync_compare_delete_audiobook => '刪除遠端有聲書';
   @override
-  String get sync_compare_delete_dict => 'Delete dictionary on remote';
+  String get sync_compare_delete_dict => '刪除遠端詞典';
   @override
-  String get sync_compare_deleted => 'Deleted from remote';
+  String get sync_compare_deleted => '已從遠端刪除';
   @override
   String sync_compare_delete_confirm({required Object name}) =>
-      'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      '確定要從遠端刪除「${name}」嗎？本機資料會保留，此操作無法復原。';
+  @override
+  String get dictionaries_delete_failed => 'Failed to delete dictionaries';
+  @override
+  String get dictionary_delete_failed => 'Failed to delete dictionary';
+  @override
+  String get sync_webdav_missing_fields => 'Missing fields';
+  @override
+  String get sync_compare_download => 'Download';
+  @override
+  String get log_export_file => 'Export to file';
+  @override
+  String get log_export_saved => 'Log saved';
+  @override
+  String get log_export_failed => 'Export failed';
+  @override
+  String get sync_local_audio => 'Sync local audio';
+  @override
+  String get sync_local_audio_warning =>
+      'Syncs local audio source databases (may be large)';
+  @override
+  String sync_now_local_audio_in({required Object count}) =>
+      '↓${count} audio sources';
+  @override
+  String sync_now_local_audio_out({required Object count}) =>
+      '↑${count} audio sources';
+  @override
+  String update_network_unreachable({required Object host}) =>
+      'Could not reach ${host} (network timeout or unreachable).';
+  @override
+  String get sync_progress_books => 'Importing books';
+  @override
+  String get sync_progress_reading => 'Syncing reading data';
+  @override
+  String get sync_progress_dictionaries => 'Syncing dictionaries';
+  @override
+  String get sync_progress_local_audio => 'Syncing local audio';
+  @override
+  String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get video_import_title => 'Import Video';
   @override
@@ -47956,7 +48653,7 @@ extension on _StringsEn {
       case 'sync_title':
         return 'Sync';
       case 'sync_summary':
-        return 'Google Drive · ッツ/Hoshi Reader compatible';
+        return 'Cloud, LAN P2P & local backup · ッツ/Hoshi Reader compatible';
       case 'sync_account':
         return 'Account';
       case 'sync_client_id':
@@ -48405,6 +49102,41 @@ extension on _StringsEn {
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
             'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -50498,7 +51230,7 @@ extension on _StringsAr {
       case 'sync_statistics':
         return 'مزامنة الإحصائيات';
       case 'sync_summary':
-        return 'Google Drive · متوافق مع ッツ/Hoshi Reader';
+        return 'سحابة، Hibiki P2P عبر الشبكة المحلية ونسخ احتياطي محلي · متوافق مع ッツ/Hoshi Reader';
       case 'sync_title':
         return 'المزامنة';
       case 'update_channel_beta':
@@ -50508,129 +51240,129 @@ extension on _StringsAr {
       case 'update_channel_stable':
         return 'مستقر';
       case 'anki_connect_host':
-        return 'Host';
+        return 'المضيف';
       case 'anki_connect_port':
-        return 'Port';
+        return 'المنفذ';
       case 'sync_compare':
-        return 'Compare Data';
+        return 'مقارنة البيانات';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return 'محلي مقابل بعيد';
       case 'sync_compare_local':
-        return 'Local';
+        return 'محلي';
       case 'sync_compare_remote':
-        return 'Remote';
+        return 'بعيد';
       case 'sync_compare_no_data':
-        return 'No data';
+        return 'لا توجد بيانات';
       case 'sync_compare_empty':
-        return 'No books found';
+        return 'لم يُعثر على كتب';
       case 'sync_compare_days':
-        return 'days';
+        return 'أيام';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return 'التعارضات';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return 'كل الكتب';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return 'تحديد الكل';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return 'الكل → محلي';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return 'الكل → بعيد';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return 'الكل → تخطٍّ';
       case 'sync_compare_use_local':
-        return 'Local';
+        return 'محلي';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return 'بعيد';
       case 'sync_compare_skip':
-        return 'Skip';
+        return 'تخطٍّ';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => 'تم تطبيق ${count} تغيير';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => 'تطبيق (${count})';
       case 'sync_auto_sync':
-        return 'Auto Sync';
+        return 'مزامنة تلقائية';
       case 'sync_auto_complete':
         return ({required Object direction, required Object title}) =>
-            'Sync: ${direction} ${title}';
+            'المزامنة: ${direction} ${title}';
       case 'no_matching_audio_cue':
-        return 'No matching audio for this sentence';
+        return 'لا يوجد صوت مطابق لهذه الجملة';
       case 'sync_exit_warning_title':
-        return 'Sync In Progress';
+        return 'المزامنة قيد التنفيذ';
       case 'sync_exit_warning':
-        return 'Sync is still in progress. Exiting now may cause data loss.';
+        return 'المزامنة لا تزال قيد التنفيذ. قد يؤدي الخروج الآن إلى فقدان البيانات.';
       case 'sync_content':
-        return 'Sync book files';
+        return 'مزامنة ملفات الكتب';
       case 'sync_content_warning':
-        return 'Large files will use storage space and data';
+        return 'الملفات الكبيرة ستستهلك مساحة التخزين وحزمة البيانات';
       case 'sync_backend':
-        return 'Storage backend';
+        return 'خادم التخزين';
       case 'sync_backend_google_drive':
         return 'Google Drive';
       case 'sync_backend_webdav':
         return 'WebDAV';
       case 'sync_webdav_url':
-        return 'Server URL';
+        return 'عنوان الخادم';
       case 'sync_webdav_username':
-        return 'Username';
+        return 'اسم المستخدم';
       case 'sync_webdav_password':
-        return 'Password';
+        return 'كلمة المرور';
       case 'sync_webdav_test':
-        return 'Test connection';
+        return 'اختبار الاتصال';
       case 'sync_webdav_test_success':
-        return 'Connection successful';
+        return 'نجح الاتصال';
       case 'sync_webdav_test_failed':
-        return ({required Object message}) => 'Connection failed: ${message}';
+        return ({required Object message}) => 'فشل الاتصال: ${message}';
       case 'book_file_not_found':
-        return 'Book file not found';
+        return 'لم يُعثر على ملف الكتاب';
       case 'epub_parse_fallback':
-        return 'Book metadata repaired from database';
+        return 'تم إصلاح بيانات الكتاب من قاعدة البيانات';
       case 'retry':
-        return 'Retry';
+        return 'إعادة المحاولة';
       case 'copy_error':
-        return 'Copy Error';
+        return 'نسخ الخطأ';
       case 'error_copied':
-        return 'Error copied to clipboard';
+        return 'تم نسخ الخطأ إلى الحافظة';
       case 'dict_import_failed_summary':
-        return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+        return ({required Object n}) => 'فشل استيراد ${n} قاموس';
       case 'reader_content_timeout':
-        return 'Content loading timed out. Reopen if display is abnormal';
+        return 'انتهت مهلة تحميل المحتوى. أعد الفتح إذا كان العرض غير طبيعي';
       case 'backup_local':
-        return 'Local Backup';
+        return 'نسخة احتياطية محلية';
       case 'backup_export':
-        return 'Export Backup';
+        return 'تصدير النسخة الاحتياطية';
       case 'backup_export_hint':
-        return 'Save all settings, reading progress, and statistics to a file';
+        return 'احفظ كل الإعدادات وتقدّم القراءة والإحصاءات في ملف';
       case 'backup_import':
-        return 'Import Backup';
+        return 'استيراد نسخة احتياطية';
       case 'backup_import_hint':
-        return 'Restore from a backup file. The app will restart.';
+        return 'استعادة من ملف نسخة احتياطية. سيُعاد تشغيل التطبيق.';
       case 'backup_export_success':
-        return 'Backup exported successfully';
+        return 'تم تصدير النسخة الاحتياطية بنجاح';
       case 'backup_export_failed':
         return ({required Object message}) =>
-            'Backup export failed: ${message}';
+            'فشل تصدير النسخة الاحتياطية: ${message}';
       case 'backup_import_confirm_title':
-        return 'Restore Backup?';
+        return 'استعادة النسخة الاحتياطية؟';
       case 'backup_import_confirm':
         return (
                 {required Object date,
                 required Object bookCount,
                 required Object statsCount}) =>
-            'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+            'سيؤدي هذا إلى استبدال كل البيانات الحالية بالنسخة الاحتياطية من ${date}.\n\n${bookCount} كتاب، ${statsCount} سجل إحصائي.\n\nسيُعاد تشغيل التطبيق بعد الاستعادة.';
       case 'backup_import_success':
-        return 'Backup restored. Restarting…';
+        return 'تمت استعادة النسخة الاحتياطية. جارٍ إعادة التشغيل…';
       case 'backup_import_failed':
         return ({required Object message}) =>
-            'Backup import failed: ${message}';
+            'فشل استيراد النسخة الاحتياطية: ${message}';
       case 'backup_import_invalid':
-        return 'Invalid backup file';
+        return 'ملف نسخة احتياطية غير صالح';
       case 'backup_exporting':
-        return 'Creating backup…';
+        return 'جارٍ إنشاء النسخة الاحتياطية…';
       case 'backup_schema_newer':
         return ({required Object version}) =>
-            'This backup requires a newer version of the app (schema ${version}). Please update first.';
+            'تتطلب هذه النسخة الاحتياطية إصدارًا أحدث من التطبيق (المخطط ${version}). يرجى التحديث أولًا.';
       case 'reverse_navigation_bar':
-        return 'Reverse navigation bar';
+        return 'عكس شريط التنقّل';
       case 'sync_backend_onedrive':
         return 'OneDrive';
       case 'sync_backend_dropbox':
@@ -50642,290 +51374,325 @@ extension on _StringsAr {
       case 'sync_backend_hibiki_server':
         return 'Hibiki P2P';
       case 'sync_server_enable':
-        return 'Enable sync server';
+        return 'تفعيل خادم المزامنة';
       case 'sync_server_port':
-        return 'Server port';
+        return 'منفذ الخادم';
       case 'sync_server_token':
-        return 'Access token';
+        return 'رمز الوصول';
       case 'sync_server_copy_token':
-        return 'Copy token';
+        return 'نسخ الرمز';
       case 'sync_server_regenerate_token':
-        return 'Regenerate token';
+        return 'إعادة توليد الرمز';
       case 'sync_server_running':
-        return 'Server running';
+        return 'الخادم قيد التشغيل';
       case 'sync_server_stopped':
-        return 'Server stopped';
+        return 'الخادم متوقف';
       case 'sync_lan_discovery':
-        return 'LAN devices';
+        return 'أجهزة الشبكة المحلية';
       case 'sync_lan_scanning':
-        return 'Scanning...';
+        return 'جارٍ الفحص...';
       case 'sync_lan_no_devices':
-        return 'No devices found';
+        return 'لم يُعثر على أجهزة';
       case 'sync_fallback_config':
-        return 'Fallback order';
+        return 'ترتيب الاحتياط';
       case 'sync_test_connection':
-        return 'Test connection';
+        return 'اختبار الاتصال';
       case 'sync_connection_success':
-        return 'Connection successful';
+        return 'نجح الاتصال';
       case 'sync_connection_failed':
-        return 'Connection failed';
+        return 'فشل الاتصال';
       case 'sync_host':
-        return 'Host';
+        return 'المضيف';
       case 'sync_port':
-        return 'Port';
+        return 'المنفذ';
       case 'sync_username':
-        return 'Username';
+        return 'اسم المستخدم';
       case 'sync_password':
-        return 'Password';
+        return 'كلمة المرور';
       case 'sync_use_tls':
-        return 'Use TLS';
+        return 'استخدام TLS';
       case 'sync_private_key':
-        return 'Private key';
+        return 'المفتاح الخاص';
       case 'skip_action':
-        return 'Skip Action';
+        return 'تخطّي الإجراء';
       case 'skip_action_sentence':
-        return '1 sentence';
+        return 'جملة واحدة';
       case 'skip_action_seconds':
-        return ({required Object n}) => '${n} seconds';
+        return ({required Object n}) => '${n} ثانية';
       case 'shortcut_settings_title':
-        return 'Keyboard Shortcuts';
+        return 'اختصارات لوحة المفاتيح';
       case 'shortcut_scope_reader':
-        return 'Reader';
+        return 'القارئ';
       case 'shortcut_scope_home':
-        return 'Home';
+        return 'الرئيسية';
       case 'shortcut_scope_global':
-        return 'Global';
+        return 'عام';
       case 'shortcut_scope_audiobook':
-        return 'Audiobook';
+        return 'الكتاب الصوتي';
       case 'shortcut_action_reader_page_forward':
-        return 'Next Page';
+        return 'الصفحة التالية';
       case 'shortcut_action_reader_page_backward':
-        return 'Previous Page';
+        return 'الصفحة السابقة';
       case 'shortcut_action_reader_toggle_chrome':
-        return 'Toggle Controls';
+        return 'إظهار/إخفاء الأدوات';
       case 'shortcut_action_reader_dismiss_dict':
-        return 'Dismiss Dictionary';
+        return 'إغلاق القاموس';
       case 'shortcut_action_reader_toggle_bookmark':
-        return 'Toggle Bookmark';
+        return 'تبديل الإشارة المرجعية';
       case 'shortcut_action_home_tab_books':
-        return 'Books Tab';
+        return 'تبويب الكتب';
       case 'shortcut_action_home_tab_dict':
-        return 'Dictionary Tab';
+        return 'تبويب القاموس';
       case 'shortcut_action_home_tab_settings':
-        return 'Settings Tab';
+        return 'تبويب الإعدادات';
       case 'shortcut_action_home_focus_search':
-        return 'Focus Search';
+        return 'التركيز على البحث';
       case 'shortcut_action_global_back':
-        return 'Go Back';
+        return 'رجوع';
       case 'shortcut_action_audiobook_play_pause':
-        return 'Play / Pause';
+        return 'تشغيل / إيقاف مؤقت';
       case 'shortcut_action_audiobook_next_sentence':
-        return 'Next Sentence';
+        return 'الجملة التالية';
       case 'shortcut_action_audiobook_prev_sentence':
-        return 'Previous Sentence';
+        return 'الجملة السابقة';
       case 'shortcut_press_key':
-        return 'Press a key combination...';
+        return 'اضغط مجموعة مفاتيح...';
       case 'shortcut_press_gamepad':
-        return 'Press a gamepad button...';
+        return 'اضغط زر يد التحكّم...';
       case 'shortcut_conflict':
-        return ({required Object s}) => 'Already used by: ${s}';
+        return ({required Object s}) => 'مستخدم بالفعل بواسطة: ${s}';
       case 'shortcut_reset_defaults':
-        return 'Reset to Defaults';
+        return 'إعادة التعيين للافتراضي';
       case 'shortcut_reset_confirm':
-        return 'Reset all shortcuts in this section to defaults?';
+        return 'إعادة تعيين كل الاختصارات في هذا القسم إلى الافتراضي؟';
       case 'shortcut_keyboard':
-        return 'Keyboard';
+        return 'لوحة المفاتيح';
       case 'shortcut_gamepad':
-        return 'Gamepad';
+        return 'يد التحكّم';
       case 'shortcut_none':
-        return 'None';
+        return 'بلا';
       case 'shortcut_clear':
-        return 'Clear';
+        return 'مسح';
       case 'shortcut_stop_capture':
-        return 'Stop';
+        return 'إيقاف';
       case 'section_advanced_typography':
-        return 'Advanced';
+        return 'متقدم';
       case 'sync_err_network':
-        return 'Cannot reach the server — check your network or proxy settings.';
+        return 'تعذّر الوصول إلى الخادم — تحقّق من شبكتك أو إعدادات الوكيل.';
       case 'sync_err_timeout':
-        return 'Connection timed out — the server did not respond in time.';
+        return 'انتهت مهلة الاتصال — لم يستجب الخادم في الوقت المحدد.';
       case 'sync_err_quota':
-        return 'Cloud storage is full (quota reached).';
+        return 'التخزين السحابي ممتلئ (تم بلوغ الحصة).';
       case 'sync_err_auth_expired':
-        return 'Sign-in expired — please sign in again.';
+        return 'انتهت صلاحية تسجيل الدخول — يرجى تسجيل الدخول مجددًا.';
       case 'sync_server_port_in_use':
         return ({required Object port}) =>
-            'Port ${port} is already in use — pick a different port.';
+            'المنفذ ${port} مستخدم بالفعل — اختر منفذًا آخر.';
       case 'sync_lan_scan_failed':
-        return 'Scan failed — check network permissions or firewall.';
+        return 'فشل الفحص — تحقّق من أذونات الشبكة أو الجدار الناري.';
       case 'sync_section_method':
-        return 'Sync method';
+        return 'طريقة المزامنة';
       case 'sync_section_host_server':
-        return 'This device as a sync server';
+        return 'هذا الجهاز كخادم مزامنة';
       case 'sync_section_host_server_footer':
-        return 'Let other devices sync from this device. Independent of the sync backend above.';
+        return 'اسمح للأجهزة الأخرى بالمزامنة من هذا الجهاز. مستقل عن خادم التخزين أعلاه.';
       case 'sync_section_content':
-        return 'What to sync';
+        return 'ما الذي تتم مزامنته';
       case 'sync_section_actions':
-        return 'Sync actions';
+        return 'إجراءات المزامنة';
       case 'sync_section_backup':
-        return 'Local backup';
+        return 'نسخة احتياطية محلية';
       case 'backup_import_preserve_sync_note':
-        return 'Your sync settings on this device (account and credentials) will be kept.';
+        return 'ستُحفظ إعدادات المزامنة على هذا الجهاز (الحساب وبيانات الاعتماد).';
       case 'backup_import_settings_toggle':
-        return 'Import settings & profiles';
+        return 'استيراد الإعدادات والملفات الشخصية';
       case 'backup_import_settings_on_hint':
-        return 'Full restore: fonts, appearance and profiles come from the backup.';
+        return 'استعادة كاملة: الخطوط والمظهر والملفات الشخصية تأتي من النسخة الاحتياطية.';
       case 'backup_import_settings_off_hint':
-        return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+        return 'احتفظ بخطوط/مظهر/ملفات هذا الجهاز؛ استعد الكتب وبيانات القراءة فقط.';
       case 'reader_unsupported_platform':
-        return 'The reader is not yet available on this platform.';
+        return 'القارئ غير متوفر بعد على هذه المنصة.';
       case 'microphone_permission_denied':
-        return 'Microphone permission is required to record.';
+        return 'يلزم إذن الميكروفون للتسجيل.';
       case 'anki_connect_api_key':
-        return 'API Key';
+        return 'مفتاح API';
       case 'anki_connect_api_key_hint':
-        return 'Leave empty unless AnkiConnect requires a key';
+        return 'اتركه فارغًا ما لم يطلب AnkiConnect مفتاحًا';
       case 'shortcut_action_global_scroll_page_down':
-        return 'Scroll down one screen';
+        return 'تمرير لأسفل بمقدار شاشة';
       case 'shortcut_action_global_scroll_page_up':
-        return 'Scroll up one screen';
+        return 'تمرير لأعلى بمقدار شاشة';
       case 'shortcut_action_home_tab_prev':
-        return 'Previous tab';
+        return 'التبويب السابق';
       case 'shortcut_action_home_tab_next':
-        return 'Next tab';
+        return 'التبويب التالي';
       case 'move_up':
-        return 'Move up';
+        return 'تحريك لأعلى';
       case 'move_down':
-        return 'Move down';
+        return 'تحريك لأسفل';
       case 'shortcut_action_reader_toggle_furigana':
-        return 'Toggle furigana';
+        return 'تبديل الفوريغانا';
       case 'on_screen_keyboard':
-        return 'On-screen keyboard';
+        return 'لوحة مفاتيح على الشاشة';
       case 'app_ui_scale':
-        return 'UI size';
+        return 'حجم الواجهة';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
       case 'sync_dictionary':
-        return 'Sync dictionaries';
+        return 'مزامنة القواميس';
       case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
+        return 'قد تكون حِزَم القواميس كبيرة وتتضمّن موارد قواميس مستوردة.';
       case 'settings_destination_reading':
-        return 'Reading';
+        return 'القراءة';
       case 'remote_dict_lookup':
-        return 'Remote dictionary lookup';
+        return 'بحث في القاموس البعيد';
       case 'remote_dict_lookup_hint':
-        return 'When local dictionaries miss, query the configured Hibiki server';
+        return 'عند عدم وجود نتائج في القواميس المحلية، استعلم من خادم Hibiki المُهيّأ';
       case 'remote_audio_source':
-        return 'Remote audio';
+        return 'صوت بعيد';
       case 'sync_pair_success':
-        return 'Paired — token filled in';
+        return 'تم الاقتران — تم ملء الرمز';
       case 'sync_pair_failed':
-        return 'Pairing failed';
+        return 'فشل الاقتران';
       case 'audio_source_hibiki_interconnect':
         return 'Hibiki P2P';
       case 'audio_sources_remote_group':
-        return 'Remote sources';
+        return 'المصادر البعيدة';
       case 'audio_source_url_invalid':
-        return 'Link must be http(s) and contain a term or reading placeholder';
+        return 'يجب أن يكون الرابط http(s) ويحتوي على عنصر نائب للمصطلح أو القراءة';
       case 'audio_source_added':
-        return 'Audio source added';
+        return 'تمت إضافة مصدر الصوت';
       case 'local_audio_imported':
-        return 'Audio database added';
+        return 'تمت إضافة قاعدة بيانات الصوت';
       case 'local_audio_import_failed':
-        return 'Failed to import audio database';
+        return 'فشل استيراد قاعدة بيانات الصوت';
       case 'local_audio_edit_sources':
-        return 'Edit sources';
+        return 'تعديل المصادر';
       case 'local_audio_source_order_title':
-        return 'Source priority';
+        return 'أولوية المصدر';
       case 'local_audio_no_sources':
-        return 'No sources found in this database';
+        return 'لم يُعثر على مصادر في قاعدة البيانات هذه';
       case 'sync_pair_request_title':
-        return 'Pairing request';
+        return 'طلب اقتران';
       case 'sync_pair_request_body':
-        return 'A device is requesting to pair. Allow it to sync with this device?';
+        return 'يطلب جهاز الاقتران. هل تسمح له بالمزامنة مع هذا الجهاز؟';
       case 'sync_pair_allow':
-        return 'Allow';
+        return 'سماح';
       case 'sync_pair_deny':
-        return 'Deny';
+        return 'رفض';
       case 'sync_pair_denied':
-        return 'The other device declined pairing';
+        return 'رفض الجهاز الآخر الاقتران';
       case 'sync_pair_unknown_device':
-        return 'Unknown device';
+        return 'جهاز غير معروف';
       case 'sync_pair_unavailable':
-        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+        return 'الجهاز الآخر غير جاهز أو يعمل بإصدار أقدم. حدّثه وفعّل المزامنة ثم حاول مجددًا.';
       case 'sync_role_locked_by_server':
-        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+        return 'هذا الجهاز يعمل كخادم مضيف. أوقف الخادم قبل الاتصال بأجهزة أخرى.';
       case 'sync_role_locked_by_client':
-        return 'Already connected to another device. Remove the connection before hosting as a server.';
+        return 'متصل بالفعل بجهاز آخر. أزل الاتصال قبل التشغيل كخادم مضيف.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
       case 'sync_audiobook_files':
-        return 'Sync audiobook files';
+        return 'مزامنة ملفات الكتب الصوتية';
       case 'sync_audiobook_files_warning':
-        return 'Audio and subtitles can be large.';
+        return 'قد تكون ملفات الصوت والترجمات كبيرة.';
       case 'book_import_duplicate_title':
-        return 'Duplicate book';
+        return 'كتاب مكرر';
       case 'book_import_duplicate_keep':
-        return 'Yes, add suffix';
+        return 'نعم، أضف لاحقة';
       case 'book_import_duplicate_cancel':
-        return 'No, cancel';
+        return 'لا، إلغاء';
       case 'book_import_duplicate_cancelled':
-        return 'Import cancelled';
+        return 'تم إلغاء الاستيراد';
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
-            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+            'يوجد بالفعل كتاب باسم "${name}". استيراده على أي حال؟ "نعم" يستورده بلاحقة رقمية؛ "لا" يلغي.';
       case 'reverse_reader_bottom_bar':
-        return 'Reverse reader bottom bar';
+        return 'عكس الشريط السفلي للقارئ';
       case 'floating_dict_close':
-        return 'Close';
+        return 'إغلاق';
       case 'debug_log_share_subject':
-        return 'hibiki Debug Log';
+        return 'سجل تصحيح hibiki';
       case 'spread_direction_rtl':
-        return 'Right to Left';
+        return 'من اليمين إلى اليسار';
       case 'spread_direction_ltr':
-        return 'Left to Right';
+        return 'من اليسار إلى اليمين';
       case 'dict_download_partial':
         return (
                 {required Object success,
                 required Object total,
                 required Object error}) =>
-            '${success} / ${total} OK. Failed: ${error}';
+            '${success} / ${total} ناجح. فشل: ${error}';
       case 'sync_now':
-        return 'Sync now';
+        return 'زامن الآن';
       case 'sync_now_hint':
-        return 'Run a full two-way sync with the cloud now';
+        return 'نفّذ مزامنة ثنائية الاتجاه كاملة مع السحابة الآن';
       case 'sync_now_busy':
-        return 'A sync is already running';
+        return 'هناك مزامنة قيد التنفيذ بالفعل';
       case 'sync_now_no_changes':
-        return 'no changes';
+        return 'لا تغييرات';
       case 'sync_now_done':
-        return ({required Object detail}) => 'Synced · ${detail}';
+        return ({required Object detail}) => 'تمت المزامنة · ${detail}';
       case 'sync_now_failed_suffix':
-        return ({required Object count}) => ' · ${count} failed';
+        return ({required Object count}) => ' · ${count} فشل';
       case 'sync_now_books_in':
-        return ({required Object count}) => '↓${count} books';
+        return ({required Object count}) => '↓${count} كتاب';
       case 'sync_now_dicts_in':
-        return ({required Object count}) => '↓${count} dictionaries';
+        return ({required Object count}) => '↓${count} قاموس';
       case 'sync_now_dicts_out':
-        return ({required Object count}) => '↑${count} dictionaries';
+        return ({required Object count}) => '↑${count} قاموس';
       case 'sync_now_audio_in':
-        return ({required Object count}) => '↓${count} audiobooks';
+        return ({required Object count}) => '↓${count} كتاب صوتي';
       case 'sync_now_audio_out':
-        return ({required Object count}) => '↑${count} audiobooks';
+        return ({required Object count}) => '↑${count} كتاب صوتي';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return 'القواميس';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return 'حذف الكتاب من البعيد';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return 'حذف الكتاب الصوتي من البعيد';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return 'حذف القاموس من البعيد';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return 'تم الحذف من البعيد';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            'حذف "${name}" من البعيد؟ تُحفظ البيانات المحلية. لا يمكن التراجع عن هذا.';
+      case 'dictionaries_delete_failed':
+        return 'فشل حذف القواميس';
+      case 'dictionary_delete_failed':
+        return 'فشل حذف القاموس';
+      case 'sync_webdav_missing_fields':
+        return 'حقول ناقصة';
+      case 'sync_compare_download':
+        return 'تنزيل';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -50954,7 +51721,7 @@ extension on _StringsDe {
       case 'player_media_type':
         return 'Player';
       case 'reader_media_type':
-        return 'Reader';
+        return 'Leser';
       case 'viewer_media_type':
         return 'Betrachter';
       case 'back':
@@ -51629,7 +52396,7 @@ extension on _StringsDe {
       case 'handlebar_audio':
         return 'Audio';
       case 'handlebar_sasayaki_audio':
-        return 'Sasayaki Audio';
+        return 'Sasayaki-Audio';
       case 'handlebar_popup_selection_text':
         return 'Popup-Auswahltext';
       case 'handlebar_cloze_before':
@@ -53033,7 +53800,7 @@ extension on _StringsDe {
       case 'sync_statistics':
         return 'Statistiken synchronisieren';
       case 'sync_summary':
-        return 'Google Drive · ッツ/Hoshi Reader-kompatibel';
+        return 'Cloud, LAN P2P & lokales Backup · ッツ/Hoshi Reader-kompatibel';
       case 'sync_title':
         return 'Synchronisierung';
       case 'update_channel_beta':
@@ -53047,125 +53814,127 @@ extension on _StringsDe {
       case 'anki_connect_port':
         return 'Port';
       case 'sync_compare':
-        return 'Compare Data';
+        return 'Daten vergleichen';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return 'Lokal vs. Remote';
       case 'sync_compare_local':
-        return 'Local';
+        return 'Lokal';
       case 'sync_compare_remote':
         return 'Remote';
       case 'sync_compare_no_data':
-        return 'No data';
+        return 'Keine Daten';
       case 'sync_compare_empty':
-        return 'No books found';
+        return 'Keine Bücher gefunden';
       case 'sync_compare_days':
-        return 'days';
+        return 'Tage';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return 'Konflikte';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return 'Alle Bücher';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return 'Alle auswählen';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return 'Alle → Lokal';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return 'Alle → Remote';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return 'Alle → Überspringen';
       case 'sync_compare_use_local':
-        return 'Local';
+        return 'Lokal';
       case 'sync_compare_use_remote':
         return 'Remote';
       case 'sync_compare_skip':
-        return 'Skip';
+        return 'Überspringen';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => '${count} Änderungen angewendet';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => 'Anwenden (${count})';
       case 'sync_auto_sync':
-        return 'Auto Sync';
+        return 'Auto-Sync';
       case 'sync_auto_complete':
         return ({required Object direction, required Object title}) =>
             'Sync: ${direction} ${title}';
       case 'no_matching_audio_cue':
-        return 'No matching audio for this sentence';
+        return 'Kein passendes Audio für diesen Satz';
       case 'sync_exit_warning_title':
-        return 'Sync In Progress';
+        return 'Sync läuft';
       case 'sync_exit_warning':
-        return 'Sync is still in progress. Exiting now may cause data loss.';
+        return 'Die Synchronisierung läuft noch. Wenn du jetzt beendest, können Daten verloren gehen.';
       case 'sync_content':
-        return 'Sync book files';
+        return 'Buchdateien synchronisieren';
       case 'sync_content_warning':
-        return 'Large files will use storage space and data';
+        return 'Große Dateien verbrauchen Speicherplatz und Datenvolumen';
       case 'sync_backend':
-        return 'Storage backend';
+        return 'Speicher-Backend';
       case 'sync_backend_google_drive':
         return 'Google Drive';
       case 'sync_backend_webdav':
         return 'WebDAV';
       case 'sync_webdav_url':
-        return 'Server URL';
+        return 'Server-URL';
       case 'sync_webdav_username':
-        return 'Username';
+        return 'Benutzername';
       case 'sync_webdav_password':
-        return 'Password';
+        return 'Passwort';
       case 'sync_webdav_test':
-        return 'Test connection';
+        return 'Verbindung testen';
       case 'sync_webdav_test_success':
-        return 'Connection successful';
+        return 'Verbindung erfolgreich';
       case 'sync_webdav_test_failed':
-        return ({required Object message}) => 'Connection failed: ${message}';
+        return ({required Object message}) =>
+            'Verbindung fehlgeschlagen: ${message}';
       case 'book_file_not_found':
-        return 'Book file not found';
+        return 'Buchdatei nicht gefunden';
       case 'epub_parse_fallback':
-        return 'Book metadata repaired from database';
+        return 'Buch-Metadaten aus Datenbank wiederhergestellt';
       case 'retry':
-        return 'Retry';
+        return 'Wiederholen';
       case 'copy_error':
-        return 'Copy Error';
+        return 'Fehler kopieren';
       case 'error_copied':
-        return 'Error copied to clipboard';
+        return 'Fehler in die Zwischenablage kopiert';
       case 'dict_import_failed_summary':
-        return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+        return ({required Object n}) =>
+            'Import von ${n} Wörterbuch/-büchern fehlgeschlagen';
       case 'reader_content_timeout':
-        return 'Content loading timed out. Reopen if display is abnormal';
+        return 'Zeitüberschreitung beim Laden des Inhalts. Bei fehlerhafter Anzeige erneut öffnen';
       case 'backup_local':
-        return 'Local Backup';
+        return 'Lokales Backup';
       case 'backup_export':
-        return 'Export Backup';
+        return 'Backup exportieren';
       case 'backup_export_hint':
-        return 'Save all settings, reading progress, and statistics to a file';
+        return 'Alle Einstellungen, Lesefortschritte und Statistiken in eine Datei speichern';
       case 'backup_import':
-        return 'Import Backup';
+        return 'Backup importieren';
       case 'backup_import_hint':
-        return 'Restore from a backup file. The app will restart.';
+        return 'Aus einer Backup-Datei wiederherstellen. Die App wird neu gestartet.';
       case 'backup_export_success':
-        return 'Backup exported successfully';
+        return 'Backup erfolgreich exportiert';
       case 'backup_export_failed':
         return ({required Object message}) =>
-            'Backup export failed: ${message}';
+            'Backup-Export fehlgeschlagen: ${message}';
       case 'backup_import_confirm_title':
-        return 'Restore Backup?';
+        return 'Backup wiederherstellen?';
       case 'backup_import_confirm':
         return (
                 {required Object date,
                 required Object bookCount,
                 required Object statsCount}) =>
-            'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+            'Dadurch werden alle aktuellen Daten durch das Backup vom ${date} ersetzt.\n\n${bookCount} Bücher, ${statsCount} Statistikeinträge.\n\nNach der Wiederherstellung wird die App neu gestartet.';
       case 'backup_import_success':
-        return 'Backup restored. Restarting…';
+        return 'Backup wiederhergestellt. Neustart…';
       case 'backup_import_failed':
         return ({required Object message}) =>
-            'Backup import failed: ${message}';
+            'Backup-Import fehlgeschlagen: ${message}';
       case 'backup_import_invalid':
-        return 'Invalid backup file';
+        return 'Ungültige Backup-Datei';
       case 'backup_exporting':
-        return 'Creating backup…';
+        return 'Backup wird erstellt…';
       case 'backup_schema_newer':
         return ({required Object version}) =>
-            'This backup requires a newer version of the app (schema ${version}). Please update first.';
+            'Dieses Backup erfordert eine neuere Version der App (Schema ${version}). Bitte zuerst aktualisieren.';
       case 'reverse_navigation_bar':
-        return 'Reverse navigation bar';
+        return 'Navigationsleiste umkehren';
       case 'sync_backend_onedrive':
         return 'OneDrive';
       case 'sync_backend_dropbox':
@@ -53177,290 +53946,325 @@ extension on _StringsDe {
       case 'sync_backend_hibiki_server':
         return 'Hibiki P2P';
       case 'sync_server_enable':
-        return 'Enable sync server';
+        return 'Sync-Server aktivieren';
       case 'sync_server_port':
-        return 'Server port';
+        return 'Server-Port';
       case 'sync_server_token':
-        return 'Access token';
+        return 'Zugriffstoken';
       case 'sync_server_copy_token':
-        return 'Copy token';
+        return 'Token kopieren';
       case 'sync_server_regenerate_token':
-        return 'Regenerate token';
+        return 'Token neu erzeugen';
       case 'sync_server_running':
-        return 'Server running';
+        return 'Server läuft';
       case 'sync_server_stopped':
-        return 'Server stopped';
+        return 'Server gestoppt';
       case 'sync_lan_discovery':
-        return 'LAN devices';
+        return 'LAN-Geräte';
       case 'sync_lan_scanning':
-        return 'Scanning...';
+        return 'Suche läuft...';
       case 'sync_lan_no_devices':
-        return 'No devices found';
+        return 'Keine Geräte gefunden';
       case 'sync_fallback_config':
-        return 'Fallback order';
+        return 'Fallback-Reihenfolge';
       case 'sync_test_connection':
-        return 'Test connection';
+        return 'Verbindung testen';
       case 'sync_connection_success':
-        return 'Connection successful';
+        return 'Verbindung erfolgreich';
       case 'sync_connection_failed':
-        return 'Connection failed';
+        return 'Verbindung fehlgeschlagen';
       case 'sync_host':
         return 'Host';
       case 'sync_port':
         return 'Port';
       case 'sync_username':
-        return 'Username';
+        return 'Benutzername';
       case 'sync_password':
-        return 'Password';
+        return 'Passwort';
       case 'sync_use_tls':
-        return 'Use TLS';
+        return 'TLS verwenden';
       case 'sync_private_key':
-        return 'Private key';
+        return 'Privater Schlüssel';
       case 'skip_action':
-        return 'Skip Action';
+        return 'Aktion überspringen';
       case 'skip_action_sentence':
-        return '1 sentence';
+        return '1 Satz';
       case 'skip_action_seconds':
-        return ({required Object n}) => '${n} seconds';
+        return ({required Object n}) => '${n} Sekunden';
       case 'shortcut_settings_title':
-        return 'Keyboard Shortcuts';
+        return 'Tastenkürzel';
       case 'shortcut_scope_reader':
-        return 'Reader';
+        return 'Leser';
       case 'shortcut_scope_home':
-        return 'Home';
+        return 'Start';
       case 'shortcut_scope_global':
         return 'Global';
       case 'shortcut_scope_audiobook':
-        return 'Audiobook';
+        return 'Hörbuch';
       case 'shortcut_action_reader_page_forward':
-        return 'Next Page';
+        return 'Nächste Seite';
       case 'shortcut_action_reader_page_backward':
-        return 'Previous Page';
+        return 'Vorherige Seite';
       case 'shortcut_action_reader_toggle_chrome':
-        return 'Toggle Controls';
+        return 'Steuerung umschalten';
       case 'shortcut_action_reader_dismiss_dict':
-        return 'Dismiss Dictionary';
+        return 'Wörterbuch schließen';
       case 'shortcut_action_reader_toggle_bookmark':
-        return 'Toggle Bookmark';
+        return 'Lesezeichen umschalten';
       case 'shortcut_action_home_tab_books':
-        return 'Books Tab';
+        return 'Tab „Bücher“';
       case 'shortcut_action_home_tab_dict':
-        return 'Dictionary Tab';
+        return 'Tab „Wörterbuch“';
       case 'shortcut_action_home_tab_settings':
-        return 'Settings Tab';
+        return 'Tab „Einstellungen“';
       case 'shortcut_action_home_focus_search':
-        return 'Focus Search';
+        return 'Suche fokussieren';
       case 'shortcut_action_global_back':
-        return 'Go Back';
+        return 'Zurück';
       case 'shortcut_action_audiobook_play_pause':
-        return 'Play / Pause';
+        return 'Wiedergabe / Pause';
       case 'shortcut_action_audiobook_next_sentence':
-        return 'Next Sentence';
+        return 'Nächster Satz';
       case 'shortcut_action_audiobook_prev_sentence':
-        return 'Previous Sentence';
+        return 'Vorheriger Satz';
       case 'shortcut_press_key':
-        return 'Press a key combination...';
+        return 'Tastenkombination drücken...';
       case 'shortcut_press_gamepad':
-        return 'Press a gamepad button...';
+        return 'Gamepad-Taste drücken...';
       case 'shortcut_conflict':
-        return ({required Object s}) => 'Already used by: ${s}';
+        return ({required Object s}) => 'Bereits belegt durch: ${s}';
       case 'shortcut_reset_defaults':
-        return 'Reset to Defaults';
+        return 'Auf Standard zurücksetzen';
       case 'shortcut_reset_confirm':
-        return 'Reset all shortcuts in this section to defaults?';
+        return 'Alle Tastenkürzel in diesem Bereich auf Standard zurücksetzen?';
       case 'shortcut_keyboard':
-        return 'Keyboard';
+        return 'Tastatur';
       case 'shortcut_gamepad':
         return 'Gamepad';
       case 'shortcut_none':
-        return 'None';
+        return 'Keine';
       case 'shortcut_clear':
-        return 'Clear';
+        return 'Löschen';
       case 'shortcut_stop_capture':
-        return 'Stop';
+        return 'Stopp';
       case 'section_advanced_typography':
-        return 'Advanced';
+        return 'Erweitert';
       case 'sync_err_network':
-        return 'Cannot reach the server — check your network or proxy settings.';
+        return 'Server nicht erreichbar – prüfe dein Netzwerk oder die Proxy-Einstellungen.';
       case 'sync_err_timeout':
-        return 'Connection timed out — the server did not respond in time.';
+        return 'Zeitüberschreitung – der Server hat nicht rechtzeitig geantwortet.';
       case 'sync_err_quota':
-        return 'Cloud storage is full (quota reached).';
+        return 'Cloud-Speicher ist voll (Kontingent erreicht).';
       case 'sync_err_auth_expired':
-        return 'Sign-in expired — please sign in again.';
+        return 'Anmeldung abgelaufen – bitte erneut anmelden.';
       case 'sync_server_port_in_use':
         return ({required Object port}) =>
-            'Port ${port} is already in use — pick a different port.';
+            'Port ${port} wird bereits verwendet – wähle einen anderen Port.';
       case 'sync_lan_scan_failed':
-        return 'Scan failed — check network permissions or firewall.';
+        return 'Suche fehlgeschlagen – prüfe Netzwerkberechtigungen oder Firewall.';
       case 'sync_section_method':
-        return 'Sync method';
+        return 'Sync-Methode';
       case 'sync_section_host_server':
-        return 'This device as a sync server';
+        return 'Dieses Gerät als Sync-Server';
       case 'sync_section_host_server_footer':
-        return 'Let other devices sync from this device. Independent of the sync backend above.';
+        return 'Lass andere Geräte von diesem Gerät synchronisieren. Unabhängig vom obigen Sync-Backend.';
       case 'sync_section_content':
-        return 'What to sync';
+        return 'Was synchronisiert wird';
       case 'sync_section_actions':
-        return 'Sync actions';
+        return 'Sync-Aktionen';
       case 'sync_section_backup':
-        return 'Local backup';
+        return 'Lokales Backup';
       case 'backup_import_preserve_sync_note':
-        return 'Your sync settings on this device (account and credentials) will be kept.';
+        return 'Deine Sync-Einstellungen auf diesem Gerät (Konto und Zugangsdaten) bleiben erhalten.';
       case 'backup_import_settings_toggle':
-        return 'Import settings & profiles';
+        return 'Einstellungen & Profile importieren';
       case 'backup_import_settings_on_hint':
-        return 'Full restore: fonts, appearance and profiles come from the backup.';
+        return 'Vollständige Wiederherstellung: Schriften, Darstellung und Profile stammen aus dem Backup.';
       case 'backup_import_settings_off_hint':
-        return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+        return 'Schriften/Darstellung/Profile dieses Geräts behalten; nur Bücher & Lesedaten wiederherstellen.';
       case 'reader_unsupported_platform':
-        return 'The reader is not yet available on this platform.';
+        return 'Der Leser ist auf dieser Plattform noch nicht verfügbar.';
       case 'microphone_permission_denied':
-        return 'Microphone permission is required to record.';
+        return 'Für die Aufnahme ist die Mikrofonberechtigung erforderlich.';
       case 'anki_connect_api_key':
-        return 'API Key';
+        return 'API-Schlüssel';
       case 'anki_connect_api_key_hint':
-        return 'Leave empty unless AnkiConnect requires a key';
+        return 'Leer lassen, sofern AnkiConnect keinen Schlüssel erfordert';
       case 'shortcut_action_global_scroll_page_down':
-        return 'Scroll down one screen';
+        return 'Eine Bildschirmseite nach unten scrollen';
       case 'shortcut_action_global_scroll_page_up':
-        return 'Scroll up one screen';
+        return 'Eine Bildschirmseite nach oben scrollen';
       case 'shortcut_action_home_tab_prev':
-        return 'Previous tab';
+        return 'Vorheriger Tab';
       case 'shortcut_action_home_tab_next':
-        return 'Next tab';
+        return 'Nächster Tab';
       case 'move_up':
-        return 'Move up';
+        return 'Nach oben';
       case 'move_down':
-        return 'Move down';
+        return 'Nach unten';
       case 'shortcut_action_reader_toggle_furigana':
-        return 'Toggle furigana';
+        return 'Furigana umschalten';
       case 'on_screen_keyboard':
-        return 'On-screen keyboard';
+        return 'Bildschirmtastatur';
       case 'app_ui_scale':
-        return 'UI size';
+        return 'UI-Größe';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
       case 'sync_dictionary':
-        return 'Sync dictionaries';
+        return 'Wörterbücher synchronisieren';
       case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
+        return 'Wörterbuchpakete können groß sein und importierte Wörterbuchressourcen enthalten.';
       case 'settings_destination_reading':
-        return 'Reading';
+        return 'Lesen';
       case 'remote_dict_lookup':
-        return 'Remote dictionary lookup';
+        return 'Wörterbuchabfrage über Remote';
       case 'remote_dict_lookup_hint':
-        return 'When local dictionaries miss, query the configured Hibiki server';
+        return 'Wenn lokale Wörterbücher nichts finden, den konfigurierten Hibiki-Server abfragen';
       case 'remote_audio_source':
-        return 'Remote audio';
+        return 'Remote-Audio';
       case 'sync_pair_success':
-        return 'Paired — token filled in';
+        return 'Gekoppelt – Token eingetragen';
       case 'sync_pair_failed':
-        return 'Pairing failed';
+        return 'Kopplung fehlgeschlagen';
       case 'audio_source_hibiki_interconnect':
         return 'Hibiki P2P';
       case 'audio_sources_remote_group':
-        return 'Remote sources';
+        return 'Remote-Quellen';
       case 'audio_source_url_invalid':
-        return 'Link must be http(s) and contain a term or reading placeholder';
+        return 'Der Link muss http(s) sein und einen Platzhalter für Begriff oder Lesung enthalten';
       case 'audio_source_added':
-        return 'Audio source added';
+        return 'Audioquelle hinzugefügt';
       case 'local_audio_imported':
-        return 'Audio database added';
+        return 'Audiodatenbank hinzugefügt';
       case 'local_audio_import_failed':
-        return 'Failed to import audio database';
+        return 'Import der Audiodatenbank fehlgeschlagen';
       case 'local_audio_edit_sources':
-        return 'Edit sources';
+        return 'Quellen bearbeiten';
       case 'local_audio_source_order_title':
-        return 'Source priority';
+        return 'Quellenpriorität';
       case 'local_audio_no_sources':
-        return 'No sources found in this database';
+        return 'Keine Quellen in dieser Datenbank gefunden';
       case 'sync_pair_request_title':
-        return 'Pairing request';
+        return 'Kopplungsanfrage';
       case 'sync_pair_request_body':
-        return 'A device is requesting to pair. Allow it to sync with this device?';
+        return 'Ein Gerät möchte sich koppeln. Synchronisierung mit diesem Gerät erlauben?';
       case 'sync_pair_allow':
-        return 'Allow';
+        return 'Erlauben';
       case 'sync_pair_deny':
-        return 'Deny';
+        return 'Ablehnen';
       case 'sync_pair_denied':
-        return 'The other device declined pairing';
+        return 'Das andere Gerät hat die Kopplung abgelehnt';
       case 'sync_pair_unknown_device':
-        return 'Unknown device';
+        return 'Unbekanntes Gerät';
       case 'sync_pair_unavailable':
-        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+        return 'Das andere Gerät ist nicht bereit oder hat eine ältere Version. Aktualisiere es, aktiviere die Synchronisierung und versuche es erneut.';
       case 'sync_role_locked_by_server':
-        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+        return 'Dieses Gerät fungiert als Server. Schalte den Server aus, bevor du dich mit anderen Geräten verbindest.';
       case 'sync_role_locked_by_client':
-        return 'Already connected to another device. Remove the connection before hosting as a server.';
+        return 'Bereits mit einem anderen Gerät verbunden. Entferne die Verbindung, bevor du als Server agierst.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
       case 'sync_audiobook_files':
-        return 'Sync audiobook files';
+        return 'Hörbuchdateien synchronisieren';
       case 'sync_audiobook_files_warning':
-        return 'Audio and subtitles can be large.';
+        return 'Audio und Untertitel können groß sein.';
       case 'book_import_duplicate_title':
-        return 'Duplicate book';
+        return 'Doppeltes Buch';
       case 'book_import_duplicate_keep':
-        return 'Yes, add suffix';
+        return 'Ja, Suffix hinzufügen';
       case 'book_import_duplicate_cancel':
-        return 'No, cancel';
+        return 'Nein, abbrechen';
       case 'book_import_duplicate_cancelled':
-        return 'Import cancelled';
+        return 'Import abgebrochen';
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
-            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+            'Ein Buch namens „${name}“ existiert bereits. Trotzdem importieren? „Ja“ importiert mit nummeriertem Suffix; „Nein“ bricht ab.';
       case 'reverse_reader_bottom_bar':
-        return 'Reverse reader bottom bar';
+        return 'Untere Leserleiste umkehren';
       case 'floating_dict_close':
-        return 'Close';
+        return 'Schließen';
       case 'debug_log_share_subject':
-        return 'hibiki Debug Log';
+        return 'hibiki Debug-Log';
       case 'spread_direction_rtl':
-        return 'Right to Left';
+        return 'Rechts nach links';
       case 'spread_direction_ltr':
-        return 'Left to Right';
+        return 'Links nach rechts';
       case 'dict_download_partial':
         return (
                 {required Object success,
                 required Object total,
                 required Object error}) =>
-            '${success} / ${total} OK. Failed: ${error}';
+            '${success} / ${total} OK. Fehlgeschlagen: ${error}';
       case 'sync_now':
-        return 'Sync now';
+        return 'Jetzt synchronisieren';
       case 'sync_now_hint':
-        return 'Run a full two-way sync with the cloud now';
+        return 'Jetzt eine vollständige bidirektionale Synchronisierung mit der Cloud durchführen';
       case 'sync_now_busy':
-        return 'A sync is already running';
+        return 'Eine Synchronisierung läuft bereits';
       case 'sync_now_no_changes':
-        return 'no changes';
+        return 'keine Änderungen';
       case 'sync_now_done':
-        return ({required Object detail}) => 'Synced · ${detail}';
+        return ({required Object detail}) => 'Synchronisiert · ${detail}';
       case 'sync_now_failed_suffix':
-        return ({required Object count}) => ' · ${count} failed';
+        return ({required Object count}) => ' · ${count} fehlgeschlagen';
       case 'sync_now_books_in':
-        return ({required Object count}) => '↓${count} books';
+        return ({required Object count}) => '↓${count} Bücher';
       case 'sync_now_dicts_in':
-        return ({required Object count}) => '↓${count} dictionaries';
+        return ({required Object count}) => '↓${count} Wörterbücher';
       case 'sync_now_dicts_out':
-        return ({required Object count}) => '↑${count} dictionaries';
+        return ({required Object count}) => '↑${count} Wörterbücher';
       case 'sync_now_audio_in':
-        return ({required Object count}) => '↓${count} audiobooks';
+        return ({required Object count}) => '↓${count} Hörbücher';
       case 'sync_now_audio_out':
-        return ({required Object count}) => '↑${count} audiobooks';
+        return ({required Object count}) => '↑${count} Hörbücher';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return 'Wörterbücher';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return 'Buch auf Remote löschen';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return 'Hörbuch auf Remote löschen';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return 'Wörterbuch auf Remote löschen';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return 'Von Remote gelöscht';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            '„${name}“ vom Remote löschen? Lokale Daten bleiben erhalten. Dies kann nicht rückgängig gemacht werden.';
+      case 'dictionaries_delete_failed':
+        return 'Löschen der Wörterbücher fehlgeschlagen';
+      case 'dictionary_delete_failed':
+        return 'Löschen des Wörterbuchs fehlgeschlagen';
+      case 'sync_webdav_missing_fields':
+        return 'Fehlende Felder';
+      case 'sync_compare_download':
+        return 'Herunterladen';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -54220,7 +55024,7 @@ extension on _StringsEs {
       case 'storage_permissions':
         return 'Por favor concede los siguientes permisos para exportar a AnkiDroid.';
       case 'stream':
-        return 'Stream';
+        return 'Transmisión';
       case 'network_subtitles_warning':
         return 'Los subtítulos integrados no son compatibles con streams de red.';
       case 'accessibility':
@@ -54338,7 +55142,7 @@ extension on _StringsEs {
       case 'design_system_hint':
         return 'Controla el estilo visual de la app';
       case 'design_system_auto':
-        return 'Auto';
+        return 'Automático';
       case 'cloze':
         return 'Cloze';
       case 'info_standard_update':
@@ -55280,7 +56084,7 @@ extension on _StringsEs {
       case 'no_debug_logs':
         return 'Sin registros de depuración.';
       case 'dialog_ok':
-        return 'OK';
+        return 'Aceptar';
       case 'dict_category_frequency':
         return 'Frecuencia';
       case 'dict_category_grammar':
@@ -55567,7 +56371,7 @@ extension on _StringsEs {
       case 'sync_statistics':
         return 'Sincronizar estadísticas';
       case 'sync_summary':
-        return 'Google Drive · Compatible con ッツ/Hoshi Reader';
+        return 'Nube, P2P por red local y copia de seguridad local · compatible con ッツ/Hoshi Reader';
       case 'sync_title':
         return 'Sincronización';
       case 'update_channel_beta':
@@ -55579,127 +56383,128 @@ extension on _StringsEs {
       case 'anki_connect_host':
         return 'Host';
       case 'anki_connect_port':
-        return 'Port';
+        return 'Puerto';
       case 'sync_compare':
-        return 'Compare Data';
+        return 'Comparar datos';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return 'Local vs. remoto';
       case 'sync_compare_local':
         return 'Local';
       case 'sync_compare_remote':
-        return 'Remote';
+        return 'Remoto';
       case 'sync_compare_no_data':
-        return 'No data';
+        return 'Sin datos';
       case 'sync_compare_empty':
-        return 'No books found';
+        return 'No se encontraron libros';
       case 'sync_compare_days':
-        return 'days';
+        return 'días';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return 'Conflictos';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return 'Todos los libros';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return 'Seleccionar todo';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return 'Todo → Local';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return 'Todo → Remoto';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return 'Todo → Omitir';
       case 'sync_compare_use_local':
         return 'Local';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return 'Remoto';
       case 'sync_compare_skip':
-        return 'Skip';
+        return 'Omitir';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => 'Se aplicaron ${count} cambios';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => 'Aplicar (${count})';
       case 'sync_auto_sync':
-        return 'Auto Sync';
+        return 'Sincronización automática';
       case 'sync_auto_complete':
         return ({required Object direction, required Object title}) =>
-            'Sync: ${direction} ${title}';
+            'Sincronización: ${direction} ${title}';
       case 'no_matching_audio_cue':
-        return 'No matching audio for this sentence';
+        return 'No hay audio para esta frase';
       case 'sync_exit_warning_title':
-        return 'Sync In Progress';
+        return 'Sincronización en curso';
       case 'sync_exit_warning':
-        return 'Sync is still in progress. Exiting now may cause data loss.';
+        return 'La sincronización aún está en curso. Salir ahora puede provocar pérdida de datos.';
       case 'sync_content':
-        return 'Sync book files';
+        return 'Sincronizar archivos de libros';
       case 'sync_content_warning':
-        return 'Large files will use storage space and data';
+        return 'Los archivos grandes consumirán almacenamiento y datos';
       case 'sync_backend':
-        return 'Storage backend';
+        return 'Backend de almacenamiento';
       case 'sync_backend_google_drive':
         return 'Google Drive';
       case 'sync_backend_webdav':
         return 'WebDAV';
       case 'sync_webdav_url':
-        return 'Server URL';
+        return 'URL del servidor';
       case 'sync_webdav_username':
-        return 'Username';
+        return 'Usuario';
       case 'sync_webdav_password':
-        return 'Password';
+        return 'Contraseña';
       case 'sync_webdav_test':
-        return 'Test connection';
+        return 'Probar conexión';
       case 'sync_webdav_test_success':
-        return 'Connection successful';
+        return 'Conexión correcta';
       case 'sync_webdav_test_failed':
-        return ({required Object message}) => 'Connection failed: ${message}';
+        return ({required Object message}) => 'Error de conexión: ${message}';
       case 'book_file_not_found':
-        return 'Book file not found';
+        return 'Archivo del libro no encontrado';
       case 'epub_parse_fallback':
-        return 'Book metadata repaired from database';
+        return 'Metadatos del libro reparados desde la base de datos';
       case 'retry':
-        return 'Retry';
+        return 'Reintentar';
       case 'copy_error':
-        return 'Copy Error';
+        return 'Copiar error';
       case 'error_copied':
-        return 'Error copied to clipboard';
+        return 'Error copiado al portapapeles';
       case 'dict_import_failed_summary':
-        return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+        return ({required Object n}) =>
+            'No se pudieron importar ${n} diccionario(s)';
       case 'reader_content_timeout':
-        return 'Content loading timed out. Reopen if display is abnormal';
+        return 'Se agotó el tiempo al cargar el contenido. Reabre si la visualización es anómala';
       case 'backup_local':
-        return 'Local Backup';
+        return 'Copia de seguridad local';
       case 'backup_export':
-        return 'Export Backup';
+        return 'Exportar copia de seguridad';
       case 'backup_export_hint':
-        return 'Save all settings, reading progress, and statistics to a file';
+        return 'Guarda todos los ajustes, el progreso de lectura y las estadísticas en un archivo';
       case 'backup_import':
-        return 'Import Backup';
+        return 'Importar copia de seguridad';
       case 'backup_import_hint':
-        return 'Restore from a backup file. The app will restart.';
+        return 'Restaura desde un archivo de copia de seguridad. La app se reiniciará.';
       case 'backup_export_success':
-        return 'Backup exported successfully';
+        return 'Copia de seguridad exportada correctamente';
       case 'backup_export_failed':
         return ({required Object message}) =>
-            'Backup export failed: ${message}';
+            'Error al exportar la copia de seguridad: ${message}';
       case 'backup_import_confirm_title':
-        return 'Restore Backup?';
+        return '¿Restaurar copia de seguridad?';
       case 'backup_import_confirm':
         return (
                 {required Object date,
                 required Object bookCount,
                 required Object statsCount}) =>
-            'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+            'Esto reemplazará todos los datos actuales con la copia de seguridad del ${date}.\n\n${bookCount} libros, ${statsCount} registros de estadísticas.\n\nLa app se reiniciará tras la restauración.';
       case 'backup_import_success':
-        return 'Backup restored. Restarting…';
+        return 'Copia restaurada. Reiniciando…';
       case 'backup_import_failed':
         return ({required Object message}) =>
-            'Backup import failed: ${message}';
+            'Error al importar la copia de seguridad: ${message}';
       case 'backup_import_invalid':
-        return 'Invalid backup file';
+        return 'Archivo de copia de seguridad no válido';
       case 'backup_exporting':
-        return 'Creating backup…';
+        return 'Creando copia de seguridad…';
       case 'backup_schema_newer':
         return ({required Object version}) =>
-            'This backup requires a newer version of the app (schema ${version}). Please update first.';
+            'Esta copia de seguridad requiere una versión más reciente de la app (esquema ${version}). Actualiza primero.';
       case 'reverse_navigation_bar':
-        return 'Reverse navigation bar';
+        return 'Invertir barra de navegación';
       case 'sync_backend_onedrive':
         return 'OneDrive';
       case 'sync_backend_dropbox':
@@ -55711,290 +56516,325 @@ extension on _StringsEs {
       case 'sync_backend_hibiki_server':
         return 'Hibiki P2P';
       case 'sync_server_enable':
-        return 'Enable sync server';
+        return 'Activar servidor de sincronización';
       case 'sync_server_port':
-        return 'Server port';
+        return 'Puerto del servidor';
       case 'sync_server_token':
-        return 'Access token';
+        return 'Token de acceso';
       case 'sync_server_copy_token':
-        return 'Copy token';
+        return 'Copiar token';
       case 'sync_server_regenerate_token':
-        return 'Regenerate token';
+        return 'Regenerar token';
       case 'sync_server_running':
-        return 'Server running';
+        return 'Servidor en ejecución';
       case 'sync_server_stopped':
-        return 'Server stopped';
+        return 'Servidor detenido';
       case 'sync_lan_discovery':
-        return 'LAN devices';
+        return 'Dispositivos en la red local';
       case 'sync_lan_scanning':
-        return 'Scanning...';
+        return 'Buscando...';
       case 'sync_lan_no_devices':
-        return 'No devices found';
+        return 'No se encontraron dispositivos';
       case 'sync_fallback_config':
-        return 'Fallback order';
+        return 'Orden de respaldo';
       case 'sync_test_connection':
-        return 'Test connection';
+        return 'Probar conexión';
       case 'sync_connection_success':
-        return 'Connection successful';
+        return 'Conexión correcta';
       case 'sync_connection_failed':
-        return 'Connection failed';
+        return 'Error de conexión';
       case 'sync_host':
         return 'Host';
       case 'sync_port':
-        return 'Port';
+        return 'Puerto';
       case 'sync_username':
-        return 'Username';
+        return 'Usuario';
       case 'sync_password':
-        return 'Password';
+        return 'Contraseña';
       case 'sync_use_tls':
-        return 'Use TLS';
+        return 'Usar TLS';
       case 'sync_private_key':
-        return 'Private key';
+        return 'Clave privada';
       case 'skip_action':
-        return 'Skip Action';
+        return 'Acción de salto';
       case 'skip_action_sentence':
-        return '1 sentence';
+        return '1 frase';
       case 'skip_action_seconds':
-        return ({required Object n}) => '${n} seconds';
+        return ({required Object n}) => '${n} segundos';
       case 'shortcut_settings_title':
-        return 'Keyboard Shortcuts';
+        return 'Atajos de teclado';
       case 'shortcut_scope_reader':
-        return 'Reader';
+        return 'Lector';
       case 'shortcut_scope_home':
-        return 'Home';
+        return 'Inicio';
       case 'shortcut_scope_global':
         return 'Global';
       case 'shortcut_scope_audiobook':
-        return 'Audiobook';
+        return 'Audiolibro';
       case 'shortcut_action_reader_page_forward':
-        return 'Next Page';
+        return 'Página siguiente';
       case 'shortcut_action_reader_page_backward':
-        return 'Previous Page';
+        return 'Página anterior';
       case 'shortcut_action_reader_toggle_chrome':
-        return 'Toggle Controls';
+        return 'Mostrar/ocultar controles';
       case 'shortcut_action_reader_dismiss_dict':
-        return 'Dismiss Dictionary';
+        return 'Cerrar diccionario';
       case 'shortcut_action_reader_toggle_bookmark':
-        return 'Toggle Bookmark';
+        return 'Marcar/desmarcar página';
       case 'shortcut_action_home_tab_books':
-        return 'Books Tab';
+        return 'Pestaña de libros';
       case 'shortcut_action_home_tab_dict':
-        return 'Dictionary Tab';
+        return 'Pestaña de diccionario';
       case 'shortcut_action_home_tab_settings':
-        return 'Settings Tab';
+        return 'Pestaña de ajustes';
       case 'shortcut_action_home_focus_search':
-        return 'Focus Search';
+        return 'Enfocar búsqueda';
       case 'shortcut_action_global_back':
-        return 'Go Back';
+        return 'Volver';
       case 'shortcut_action_audiobook_play_pause':
-        return 'Play / Pause';
+        return 'Reproducir / Pausar';
       case 'shortcut_action_audiobook_next_sentence':
-        return 'Next Sentence';
+        return 'Frase siguiente';
       case 'shortcut_action_audiobook_prev_sentence':
-        return 'Previous Sentence';
+        return 'Frase anterior';
       case 'shortcut_press_key':
-        return 'Press a key combination...';
+        return 'Pulsa una combinación de teclas...';
       case 'shortcut_press_gamepad':
-        return 'Press a gamepad button...';
+        return 'Pulsa un botón del mando...';
       case 'shortcut_conflict':
-        return ({required Object s}) => 'Already used by: ${s}';
+        return ({required Object s}) => 'Ya usado por: ${s}';
       case 'shortcut_reset_defaults':
-        return 'Reset to Defaults';
+        return 'Restablecer valores predeterminados';
       case 'shortcut_reset_confirm':
-        return 'Reset all shortcuts in this section to defaults?';
+        return '¿Restablecer todos los atajos de esta sección a los valores predeterminados?';
       case 'shortcut_keyboard':
-        return 'Keyboard';
+        return 'Teclado';
       case 'shortcut_gamepad':
-        return 'Gamepad';
+        return 'Mando';
       case 'shortcut_none':
-        return 'None';
+        return 'Ninguno';
       case 'shortcut_clear':
-        return 'Clear';
+        return 'Borrar';
       case 'shortcut_stop_capture':
-        return 'Stop';
+        return 'Detener';
       case 'section_advanced_typography':
-        return 'Advanced';
+        return 'Avanzado';
       case 'sync_err_network':
-        return 'Cannot reach the server — check your network or proxy settings.';
+        return 'No se puede conectar con el servidor: revisa tu red o los ajustes de proxy.';
       case 'sync_err_timeout':
-        return 'Connection timed out — the server did not respond in time.';
+        return 'Se agotó el tiempo de conexión: el servidor no respondió a tiempo.';
       case 'sync_err_quota':
-        return 'Cloud storage is full (quota reached).';
+        return 'El almacenamiento en la nube está lleno (cuota alcanzada).';
       case 'sync_err_auth_expired':
-        return 'Sign-in expired — please sign in again.';
+        return 'La sesión ha caducado: inicia sesión de nuevo.';
       case 'sync_server_port_in_use':
         return ({required Object port}) =>
-            'Port ${port} is already in use — pick a different port.';
+            'El puerto ${port} ya está en uso: elige otro puerto.';
       case 'sync_lan_scan_failed':
-        return 'Scan failed — check network permissions or firewall.';
+        return 'Error al buscar: revisa los permisos de red o el firewall.';
       case 'sync_section_method':
-        return 'Sync method';
+        return 'Método de sincronización';
       case 'sync_section_host_server':
-        return 'This device as a sync server';
+        return 'Este dispositivo como servidor de sincronización';
       case 'sync_section_host_server_footer':
-        return 'Let other devices sync from this device. Independent of the sync backend above.';
+        return 'Permite que otros dispositivos sincronicen desde este dispositivo. Independiente del backend de sincronización anterior.';
       case 'sync_section_content':
-        return 'What to sync';
+        return 'Qué sincronizar';
       case 'sync_section_actions':
-        return 'Sync actions';
+        return 'Acciones de sincronización';
       case 'sync_section_backup':
-        return 'Local backup';
+        return 'Copia de seguridad local';
       case 'backup_import_preserve_sync_note':
-        return 'Your sync settings on this device (account and credentials) will be kept.';
+        return 'Se conservarán los ajustes de sincronización de este dispositivo (cuenta y credenciales).';
       case 'backup_import_settings_toggle':
-        return 'Import settings & profiles';
+        return 'Importar ajustes y perfiles';
       case 'backup_import_settings_on_hint':
-        return 'Full restore: fonts, appearance and profiles come from the backup.';
+        return 'Restauración completa: las fuentes, la apariencia y los perfiles provienen de la copia de seguridad.';
       case 'backup_import_settings_off_hint':
-        return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+        return 'Conserva las fuentes/apariencia/perfiles de este dispositivo; restaura solo los libros y los datos de lectura.';
       case 'reader_unsupported_platform':
-        return 'The reader is not yet available on this platform.';
+        return 'El lector aún no está disponible en esta plataforma.';
       case 'microphone_permission_denied':
-        return 'Microphone permission is required to record.';
+        return 'Se requiere permiso de micrófono para grabar.';
       case 'anki_connect_api_key':
-        return 'API Key';
+        return 'Clave de API';
       case 'anki_connect_api_key_hint':
-        return 'Leave empty unless AnkiConnect requires a key';
+        return 'Déjalo vacío salvo que AnkiConnect requiera una clave';
       case 'shortcut_action_global_scroll_page_down':
-        return 'Scroll down one screen';
+        return 'Desplazar una pantalla hacia abajo';
       case 'shortcut_action_global_scroll_page_up':
-        return 'Scroll up one screen';
+        return 'Desplazar una pantalla hacia arriba';
       case 'shortcut_action_home_tab_prev':
-        return 'Previous tab';
+        return 'Pestaña anterior';
       case 'shortcut_action_home_tab_next':
-        return 'Next tab';
+        return 'Pestaña siguiente';
       case 'move_up':
-        return 'Move up';
+        return 'Mover arriba';
       case 'move_down':
-        return 'Move down';
+        return 'Mover abajo';
       case 'shortcut_action_reader_toggle_furigana':
-        return 'Toggle furigana';
+        return 'Mostrar/ocultar furigana';
       case 'on_screen_keyboard':
-        return 'On-screen keyboard';
+        return 'Teclado en pantalla';
       case 'app_ui_scale':
-        return 'UI size';
+        return 'Tamaño de la interfaz';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
       case 'sync_dictionary':
-        return 'Sync dictionaries';
+        return 'Sincronizar diccionarios';
       case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
+        return 'Los paquetes de diccionario pueden ser grandes e incluir recursos de diccionario importados.';
       case 'settings_destination_reading':
-        return 'Reading';
+        return 'Lectura';
       case 'remote_dict_lookup':
-        return 'Remote dictionary lookup';
+        return 'Búsqueda en diccionario remoto';
       case 'remote_dict_lookup_hint':
-        return 'When local dictionaries miss, query the configured Hibiki server';
+        return 'Cuando los diccionarios locales no encuentran resultados, consulta el servidor Hibiki configurado';
       case 'remote_audio_source':
-        return 'Remote audio';
+        return 'Audio remoto';
       case 'sync_pair_success':
-        return 'Paired — token filled in';
+        return 'Emparejado: token rellenado';
       case 'sync_pair_failed':
-        return 'Pairing failed';
+        return 'Error de emparejamiento';
       case 'audio_source_hibiki_interconnect':
         return 'Hibiki P2P';
       case 'audio_sources_remote_group':
-        return 'Remote sources';
+        return 'Fuentes remotas';
       case 'audio_source_url_invalid':
-        return 'Link must be http(s) and contain a term or reading placeholder';
+        return 'El enlace debe ser http(s) y contener un marcador de término o lectura';
       case 'audio_source_added':
-        return 'Audio source added';
+        return 'Fuente de audio añadida';
       case 'local_audio_imported':
-        return 'Audio database added';
+        return 'Base de datos de audio añadida';
       case 'local_audio_import_failed':
-        return 'Failed to import audio database';
+        return 'No se pudo importar la base de datos de audio';
       case 'local_audio_edit_sources':
-        return 'Edit sources';
+        return 'Editar fuentes';
       case 'local_audio_source_order_title':
-        return 'Source priority';
+        return 'Prioridad de las fuentes';
       case 'local_audio_no_sources':
-        return 'No sources found in this database';
+        return 'No se encontraron fuentes en esta base de datos';
       case 'sync_pair_request_title':
-        return 'Pairing request';
+        return 'Solicitud de emparejamiento';
       case 'sync_pair_request_body':
-        return 'A device is requesting to pair. Allow it to sync with this device?';
+        return 'Un dispositivo solicita emparejarse. ¿Permitir que se sincronice con este dispositivo?';
       case 'sync_pair_allow':
-        return 'Allow';
+        return 'Permitir';
       case 'sync_pair_deny':
-        return 'Deny';
+        return 'Denegar';
       case 'sync_pair_denied':
-        return 'The other device declined pairing';
+        return 'El otro dispositivo rechazó el emparejamiento';
       case 'sync_pair_unknown_device':
-        return 'Unknown device';
+        return 'Dispositivo desconocido';
       case 'sync_pair_unavailable':
-        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+        return 'El otro dispositivo no está listo o tiene una versión anterior. Actualízalo y activa la sincronización, luego inténtalo de nuevo.';
       case 'sync_role_locked_by_server':
-        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+        return 'Este dispositivo actúa como servidor. Apaga el servidor antes de conectarte a otros dispositivos.';
       case 'sync_role_locked_by_client':
-        return 'Already connected to another device. Remove the connection before hosting as a server.';
+        return 'Ya conectado a otro dispositivo. Quita la conexión antes de actuar como servidor.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
       case 'sync_audiobook_files':
-        return 'Sync audiobook files';
+        return 'Sincronizar archivos de audiolibros';
       case 'sync_audiobook_files_warning':
-        return 'Audio and subtitles can be large.';
+        return 'El audio y los subtítulos pueden ser grandes.';
       case 'book_import_duplicate_title':
-        return 'Duplicate book';
+        return 'Libro duplicado';
       case 'book_import_duplicate_keep':
-        return 'Yes, add suffix';
+        return 'Sí, añadir sufijo';
       case 'book_import_duplicate_cancel':
-        return 'No, cancel';
+        return 'No, cancelar';
       case 'book_import_duplicate_cancelled':
-        return 'Import cancelled';
+        return 'Importación cancelada';
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
-            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+            'Ya existe un libro llamado "${name}". ¿Importarlo igualmente? "Sí" lo importa con un sufijo numerado; "No" cancela.';
       case 'reverse_reader_bottom_bar':
-        return 'Reverse reader bottom bar';
+        return 'Invertir barra inferior del lector';
       case 'floating_dict_close':
-        return 'Close';
+        return 'Cerrar';
       case 'debug_log_share_subject':
-        return 'hibiki Debug Log';
+        return 'Registro de depuración de hibiki';
       case 'spread_direction_rtl':
-        return 'Right to Left';
+        return 'De derecha a izquierda';
       case 'spread_direction_ltr':
-        return 'Left to Right';
+        return 'De izquierda a derecha';
       case 'dict_download_partial':
         return (
                 {required Object success,
                 required Object total,
                 required Object error}) =>
-            '${success} / ${total} OK. Failed: ${error}';
+            '${success} / ${total} correctos. Fallidos: ${error}';
       case 'sync_now':
-        return 'Sync now';
+        return 'Sincronizar ahora';
       case 'sync_now_hint':
-        return 'Run a full two-way sync with the cloud now';
+        return 'Ejecutar ahora una sincronización bidireccional completa con la nube';
       case 'sync_now_busy':
-        return 'A sync is already running';
+        return 'Ya hay una sincronización en curso';
       case 'sync_now_no_changes':
-        return 'no changes';
+        return 'sin cambios';
       case 'sync_now_done':
-        return ({required Object detail}) => 'Synced · ${detail}';
+        return ({required Object detail}) => 'Sincronizado · ${detail}';
       case 'sync_now_failed_suffix':
-        return ({required Object count}) => ' · ${count} failed';
+        return ({required Object count}) => ' · ${count} fallidos';
       case 'sync_now_books_in':
-        return ({required Object count}) => '↓${count} books';
+        return ({required Object count}) => '↓${count} libros';
       case 'sync_now_dicts_in':
-        return ({required Object count}) => '↓${count} dictionaries';
+        return ({required Object count}) => '↓${count} diccionarios';
       case 'sync_now_dicts_out':
-        return ({required Object count}) => '↑${count} dictionaries';
+        return ({required Object count}) => '↑${count} diccionarios';
       case 'sync_now_audio_in':
-        return ({required Object count}) => '↓${count} audiobooks';
+        return ({required Object count}) => '↓${count} audiolibros';
       case 'sync_now_audio_out':
-        return ({required Object count}) => '↑${count} audiobooks';
+        return ({required Object count}) => '↑${count} audiolibros';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return 'Diccionarios';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return 'Eliminar libro en el remoto';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return 'Eliminar audiolibro en el remoto';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return 'Eliminar diccionario en el remoto';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return 'Eliminado del remoto';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            '¿Eliminar "${name}" del remoto? Los datos locales se conservan. Esto no se puede deshacer.';
+      case 'dictionaries_delete_failed':
+        return 'No se pudieron eliminar los diccionarios';
+      case 'dictionary_delete_failed':
+        return 'No se pudo eliminar el diccionario';
+      case 'sync_webdav_missing_fields':
+        return 'Faltan campos';
+      case 'sync_compare_download':
+        return 'Descargar';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -57965,7 +58805,7 @@ extension on _StringsFr {
       case 'tag_filter_title':
         return 'Filtrer par tag';
       case 'tag_label':
-        return 'Tags';
+        return 'Étiquettes';
       case 'tag_manage':
         return 'Gérer les tags';
       case 'tag_manage_title':
@@ -58102,7 +58942,7 @@ extension on _StringsFr {
       case 'sync_statistics':
         return 'Synchroniser les statistiques';
       case 'sync_summary':
-        return 'Google Drive · Compatible avec ッツ/Hoshi Reader';
+        return 'Cloud, Hibiki P2P en réseau local et sauvegarde locale · compatible ッツ/Hoshi Reader';
       case 'sync_title':
         return 'Synchronisation';
       case 'update_channel_beta':
@@ -58112,129 +58952,131 @@ extension on _StringsFr {
       case 'update_channel_stable':
         return 'Stable';
       case 'anki_connect_host':
-        return 'Host';
+        return 'Hôte';
       case 'anki_connect_port':
         return 'Port';
       case 'sync_compare':
-        return 'Compare Data';
+        return 'Comparer les données';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return 'Local vs distant';
       case 'sync_compare_local':
         return 'Local';
       case 'sync_compare_remote':
-        return 'Remote';
+        return 'Distant';
       case 'sync_compare_no_data':
-        return 'No data';
+        return 'Aucune donnée';
       case 'sync_compare_empty':
-        return 'No books found';
+        return 'Aucun livre trouvé';
       case 'sync_compare_days':
-        return 'days';
+        return 'jours';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return 'Conflits';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return 'Tous les livres';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return 'Tout sélectionner';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return 'Tout → Local';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return 'Tout → Distant';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return 'Tout → Ignorer';
       case 'sync_compare_use_local':
         return 'Local';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return 'Distant';
       case 'sync_compare_skip':
-        return 'Skip';
+        return 'Ignorer';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => '${count} modifications appliquées';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => 'Appliquer (${count})';
       case 'sync_auto_sync':
-        return 'Auto Sync';
+        return 'Sync auto';
       case 'sync_auto_complete':
         return ({required Object direction, required Object title}) =>
-            'Sync: ${direction} ${title}';
+            'Sync : ${direction} ${title}';
       case 'no_matching_audio_cue':
-        return 'No matching audio for this sentence';
+        return 'Aucun audio correspondant à cette phrase';
       case 'sync_exit_warning_title':
-        return 'Sync In Progress';
+        return 'Sync en cours';
       case 'sync_exit_warning':
-        return 'Sync is still in progress. Exiting now may cause data loss.';
+        return 'La synchronisation est toujours en cours. Quitter maintenant peut entraîner une perte de données.';
       case 'sync_content':
-        return 'Sync book files';
+        return 'Synchroniser les fichiers de livres';
       case 'sync_content_warning':
-        return 'Large files will use storage space and data';
+        return 'Les fichiers volumineux utiliseront de l\'espace de stockage et des données';
       case 'sync_backend':
-        return 'Storage backend';
+        return 'Backend de stockage';
       case 'sync_backend_google_drive':
         return 'Google Drive';
       case 'sync_backend_webdav':
         return 'WebDAV';
       case 'sync_webdav_url':
-        return 'Server URL';
+        return 'URL du serveur';
       case 'sync_webdav_username':
-        return 'Username';
+        return 'Nom d\'utilisateur';
       case 'sync_webdav_password':
-        return 'Password';
+        return 'Mot de passe';
       case 'sync_webdav_test':
-        return 'Test connection';
+        return 'Tester la connexion';
       case 'sync_webdav_test_success':
-        return 'Connection successful';
+        return 'Connexion réussie';
       case 'sync_webdav_test_failed':
-        return ({required Object message}) => 'Connection failed: ${message}';
+        return ({required Object message}) =>
+            'Échec de la connexion : ${message}';
       case 'book_file_not_found':
-        return 'Book file not found';
+        return 'Fichier du livre introuvable';
       case 'epub_parse_fallback':
-        return 'Book metadata repaired from database';
+        return 'Métadonnées du livre réparées depuis la base de données';
       case 'retry':
-        return 'Retry';
+        return 'Réessayer';
       case 'copy_error':
-        return 'Copy Error';
+        return 'Copier l\'erreur';
       case 'error_copied':
-        return 'Error copied to clipboard';
+        return 'Erreur copiée dans le presse-papiers';
       case 'dict_import_failed_summary':
-        return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+        return ({required Object n}) =>
+            'Échec de l\'import de ${n} dictionnaire(s)';
       case 'reader_content_timeout':
-        return 'Content loading timed out. Reopen if display is abnormal';
+        return 'Délai de chargement du contenu dépassé. Rouvrez si l\'affichage est anormal';
       case 'backup_local':
-        return 'Local Backup';
+        return 'Sauvegarde locale';
       case 'backup_export':
-        return 'Export Backup';
+        return 'Exporter la sauvegarde';
       case 'backup_export_hint':
-        return 'Save all settings, reading progress, and statistics to a file';
+        return 'Enregistrer tous les réglages, la progression de lecture et les statistiques dans un fichier';
       case 'backup_import':
-        return 'Import Backup';
+        return 'Importer une sauvegarde';
       case 'backup_import_hint':
-        return 'Restore from a backup file. The app will restart.';
+        return 'Restaurer depuis un fichier de sauvegarde. L\'application redémarrera.';
       case 'backup_export_success':
-        return 'Backup exported successfully';
+        return 'Sauvegarde exportée avec succès';
       case 'backup_export_failed':
         return ({required Object message}) =>
-            'Backup export failed: ${message}';
+            'Échec de l\'export de la sauvegarde : ${message}';
       case 'backup_import_confirm_title':
-        return 'Restore Backup?';
+        return 'Restaurer la sauvegarde ?';
       case 'backup_import_confirm':
         return (
                 {required Object date,
                 required Object bookCount,
                 required Object statsCount}) =>
-            'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+            'Cela remplacera toutes les données actuelles par la sauvegarde du ${date}.\n\n${bookCount} livres, ${statsCount} enregistrements de statistiques.\n\nL\'application redémarrera après la restauration.';
       case 'backup_import_success':
-        return 'Backup restored. Restarting…';
+        return 'Sauvegarde restaurée. Redémarrage…';
       case 'backup_import_failed':
         return ({required Object message}) =>
-            'Backup import failed: ${message}';
+            'Échec de l\'import de la sauvegarde : ${message}';
       case 'backup_import_invalid':
-        return 'Invalid backup file';
+        return 'Fichier de sauvegarde invalide';
       case 'backup_exporting':
-        return 'Creating backup…';
+        return 'Création de la sauvegarde…';
       case 'backup_schema_newer':
         return ({required Object version}) =>
-            'This backup requires a newer version of the app (schema ${version}). Please update first.';
+            'Cette sauvegarde nécessite une version plus récente de l\'application (schéma ${version}). Veuillez d\'abord mettre à jour.';
       case 'reverse_navigation_bar':
-        return 'Reverse navigation bar';
+        return 'Inverser la barre de navigation';
       case 'sync_backend_onedrive':
         return 'OneDrive';
       case 'sync_backend_dropbox':
@@ -58246,290 +59088,325 @@ extension on _StringsFr {
       case 'sync_backend_hibiki_server':
         return 'Hibiki P2P';
       case 'sync_server_enable':
-        return 'Enable sync server';
+        return 'Activer le serveur de sync';
       case 'sync_server_port':
-        return 'Server port';
+        return 'Port du serveur';
       case 'sync_server_token':
-        return 'Access token';
+        return 'Jeton d\'accès';
       case 'sync_server_copy_token':
-        return 'Copy token';
+        return 'Copier le jeton';
       case 'sync_server_regenerate_token':
-        return 'Regenerate token';
+        return 'Régénérer le jeton';
       case 'sync_server_running':
-        return 'Server running';
+        return 'Serveur en marche';
       case 'sync_server_stopped':
-        return 'Server stopped';
+        return 'Serveur arrêté';
       case 'sync_lan_discovery':
-        return 'LAN devices';
+        return 'Appareils du réseau local';
       case 'sync_lan_scanning':
-        return 'Scanning...';
+        return 'Analyse en cours...';
       case 'sync_lan_no_devices':
-        return 'No devices found';
+        return 'Aucun appareil trouvé';
       case 'sync_fallback_config':
-        return 'Fallback order';
+        return 'Ordre de repli';
       case 'sync_test_connection':
-        return 'Test connection';
+        return 'Tester la connexion';
       case 'sync_connection_success':
-        return 'Connection successful';
+        return 'Connexion réussie';
       case 'sync_connection_failed':
-        return 'Connection failed';
+        return 'Échec de la connexion';
       case 'sync_host':
-        return 'Host';
+        return 'Hôte';
       case 'sync_port':
         return 'Port';
       case 'sync_username':
-        return 'Username';
+        return 'Nom d\'utilisateur';
       case 'sync_password':
-        return 'Password';
+        return 'Mot de passe';
       case 'sync_use_tls':
-        return 'Use TLS';
+        return 'Utiliser TLS';
       case 'sync_private_key':
-        return 'Private key';
+        return 'Clé privée';
       case 'skip_action':
-        return 'Skip Action';
+        return 'Action de saut';
       case 'skip_action_sentence':
-        return '1 sentence';
+        return '1 phrase';
       case 'skip_action_seconds':
-        return ({required Object n}) => '${n} seconds';
+        return ({required Object n}) => '${n} secondes';
       case 'shortcut_settings_title':
-        return 'Keyboard Shortcuts';
+        return 'Raccourcis clavier';
       case 'shortcut_scope_reader':
-        return 'Reader';
+        return 'Lecteur';
       case 'shortcut_scope_home':
-        return 'Home';
+        return 'Accueil';
       case 'shortcut_scope_global':
         return 'Global';
       case 'shortcut_scope_audiobook':
-        return 'Audiobook';
+        return 'Livre audio';
       case 'shortcut_action_reader_page_forward':
-        return 'Next Page';
+        return 'Page suivante';
       case 'shortcut_action_reader_page_backward':
-        return 'Previous Page';
+        return 'Page précédente';
       case 'shortcut_action_reader_toggle_chrome':
-        return 'Toggle Controls';
+        return 'Afficher/masquer les commandes';
       case 'shortcut_action_reader_dismiss_dict':
-        return 'Dismiss Dictionary';
+        return 'Fermer le dictionnaire';
       case 'shortcut_action_reader_toggle_bookmark':
-        return 'Toggle Bookmark';
+        return 'Activer/désactiver le signet';
       case 'shortcut_action_home_tab_books':
-        return 'Books Tab';
+        return 'Onglet Livres';
       case 'shortcut_action_home_tab_dict':
-        return 'Dictionary Tab';
+        return 'Onglet Dictionnaire';
       case 'shortcut_action_home_tab_settings':
-        return 'Settings Tab';
+        return 'Onglet Réglages';
       case 'shortcut_action_home_focus_search':
-        return 'Focus Search';
+        return 'Focus sur la recherche';
       case 'shortcut_action_global_back':
-        return 'Go Back';
+        return 'Retour';
       case 'shortcut_action_audiobook_play_pause':
-        return 'Play / Pause';
+        return 'Lecture / Pause';
       case 'shortcut_action_audiobook_next_sentence':
-        return 'Next Sentence';
+        return 'Phrase suivante';
       case 'shortcut_action_audiobook_prev_sentence':
-        return 'Previous Sentence';
+        return 'Phrase précédente';
       case 'shortcut_press_key':
-        return 'Press a key combination...';
+        return 'Appuyez sur une combinaison de touches...';
       case 'shortcut_press_gamepad':
-        return 'Press a gamepad button...';
+        return 'Appuyez sur un bouton de manette...';
       case 'shortcut_conflict':
-        return ({required Object s}) => 'Already used by: ${s}';
+        return ({required Object s}) => 'Déjà utilisé par : ${s}';
       case 'shortcut_reset_defaults':
-        return 'Reset to Defaults';
+        return 'Réinitialiser par défaut';
       case 'shortcut_reset_confirm':
-        return 'Reset all shortcuts in this section to defaults?';
+        return 'Réinitialiser tous les raccourcis de cette section aux valeurs par défaut ?';
       case 'shortcut_keyboard':
-        return 'Keyboard';
+        return 'Clavier';
       case 'shortcut_gamepad':
-        return 'Gamepad';
+        return 'Manette';
       case 'shortcut_none':
-        return 'None';
+        return 'Aucun';
       case 'shortcut_clear':
-        return 'Clear';
+        return 'Effacer';
       case 'shortcut_stop_capture':
-        return 'Stop';
+        return 'Arrêter';
       case 'section_advanced_typography':
-        return 'Advanced';
+        return 'Avancé';
       case 'sync_err_network':
-        return 'Cannot reach the server — check your network or proxy settings.';
+        return 'Impossible de joindre le serveur — vérifiez votre réseau ou vos réglages de proxy.';
       case 'sync_err_timeout':
-        return 'Connection timed out — the server did not respond in time.';
+        return 'Délai de connexion dépassé — le serveur n\'a pas répondu à temps.';
       case 'sync_err_quota':
-        return 'Cloud storage is full (quota reached).';
+        return 'Le stockage cloud est plein (quota atteint).';
       case 'sync_err_auth_expired':
-        return 'Sign-in expired — please sign in again.';
+        return 'Connexion expirée — veuillez vous reconnecter.';
       case 'sync_server_port_in_use':
         return ({required Object port}) =>
-            'Port ${port} is already in use — pick a different port.';
+            'Le port ${port} est déjà utilisé — choisissez un autre port.';
       case 'sync_lan_scan_failed':
-        return 'Scan failed — check network permissions or firewall.';
+        return 'Échec de l\'analyse — vérifiez les autorisations réseau ou le pare-feu.';
       case 'sync_section_method':
-        return 'Sync method';
+        return 'Méthode de sync';
       case 'sync_section_host_server':
-        return 'This device as a sync server';
+        return 'Cet appareil comme serveur de sync';
       case 'sync_section_host_server_footer':
-        return 'Let other devices sync from this device. Independent of the sync backend above.';
+        return 'Permet aux autres appareils de se synchroniser depuis cet appareil. Indépendant du backend de sync ci-dessus.';
       case 'sync_section_content':
-        return 'What to sync';
+        return 'Quoi synchroniser';
       case 'sync_section_actions':
-        return 'Sync actions';
+        return 'Actions de sync';
       case 'sync_section_backup':
-        return 'Local backup';
+        return 'Sauvegarde locale';
       case 'backup_import_preserve_sync_note':
-        return 'Your sync settings on this device (account and credentials) will be kept.';
+        return 'Vos réglages de sync sur cet appareil (compte et identifiants) seront conservés.';
       case 'backup_import_settings_toggle':
-        return 'Import settings & profiles';
+        return 'Importer les réglages et profils';
       case 'backup_import_settings_on_hint':
-        return 'Full restore: fonts, appearance and profiles come from the backup.';
+        return 'Restauration complète : polices, apparence et profils proviennent de la sauvegarde.';
       case 'backup_import_settings_off_hint':
-        return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+        return 'Conserver les polices/apparence/profils de cet appareil ; ne restaurer que les livres et données de lecture.';
       case 'reader_unsupported_platform':
-        return 'The reader is not yet available on this platform.';
+        return 'Le lecteur n\'est pas encore disponible sur cette plateforme.';
       case 'microphone_permission_denied':
-        return 'Microphone permission is required to record.';
+        return 'L\'autorisation du microphone est requise pour enregistrer.';
       case 'anki_connect_api_key':
-        return 'API Key';
+        return 'Clé API';
       case 'anki_connect_api_key_hint':
-        return 'Leave empty unless AnkiConnect requires a key';
+        return 'Laisser vide sauf si AnkiConnect requiert une clé';
       case 'shortcut_action_global_scroll_page_down':
-        return 'Scroll down one screen';
+        return 'Défiler d\'un écran vers le bas';
       case 'shortcut_action_global_scroll_page_up':
-        return 'Scroll up one screen';
+        return 'Défiler d\'un écran vers le haut';
       case 'shortcut_action_home_tab_prev':
-        return 'Previous tab';
+        return 'Onglet précédent';
       case 'shortcut_action_home_tab_next':
-        return 'Next tab';
+        return 'Onglet suivant';
       case 'move_up':
-        return 'Move up';
+        return 'Monter';
       case 'move_down':
-        return 'Move down';
+        return 'Descendre';
       case 'shortcut_action_reader_toggle_furigana':
-        return 'Toggle furigana';
+        return 'Afficher/masquer les furigana';
       case 'on_screen_keyboard':
-        return 'On-screen keyboard';
+        return 'Clavier à l\'écran';
       case 'app_ui_scale':
-        return 'UI size';
+        return 'Taille de l\'interface';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
       case 'sync_dictionary':
-        return 'Sync dictionaries';
+        return 'Synchroniser les dictionnaires';
       case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
+        return 'Les paquets de dictionnaires peuvent être volumineux et inclure des ressources de dictionnaire importées.';
       case 'settings_destination_reading':
-        return 'Reading';
+        return 'Lecture';
       case 'remote_dict_lookup':
-        return 'Remote dictionary lookup';
+        return 'Recherche dans dictionnaire distant';
       case 'remote_dict_lookup_hint':
-        return 'When local dictionaries miss, query the configured Hibiki server';
+        return 'Quand les dictionnaires locaux échouent, interroger le serveur Hibiki configuré';
       case 'remote_audio_source':
-        return 'Remote audio';
+        return 'Audio distant';
       case 'sync_pair_success':
-        return 'Paired — token filled in';
+        return 'Appairé — jeton renseigné';
       case 'sync_pair_failed':
-        return 'Pairing failed';
+        return 'Échec de l\'appairage';
       case 'audio_source_hibiki_interconnect':
         return 'Hibiki P2P';
       case 'audio_sources_remote_group':
-        return 'Remote sources';
+        return 'Sources distantes';
       case 'audio_source_url_invalid':
-        return 'Link must be http(s) and contain a term or reading placeholder';
+        return 'Le lien doit être en http(s) et contenir un emplacement pour le terme ou la lecture';
       case 'audio_source_added':
-        return 'Audio source added';
+        return 'Source audio ajoutée';
       case 'local_audio_imported':
-        return 'Audio database added';
+        return 'Base de données audio ajoutée';
       case 'local_audio_import_failed':
-        return 'Failed to import audio database';
+        return 'Échec de l\'import de la base de données audio';
       case 'local_audio_edit_sources':
-        return 'Edit sources';
+        return 'Modifier les sources';
       case 'local_audio_source_order_title':
-        return 'Source priority';
+        return 'Priorité des sources';
       case 'local_audio_no_sources':
-        return 'No sources found in this database';
+        return 'Aucune source trouvée dans cette base de données';
       case 'sync_pair_request_title':
-        return 'Pairing request';
+        return 'Demande d\'appairage';
       case 'sync_pair_request_body':
-        return 'A device is requesting to pair. Allow it to sync with this device?';
+        return 'Un appareil demande à s\'appairer. L\'autoriser à se synchroniser avec cet appareil ?';
       case 'sync_pair_allow':
-        return 'Allow';
+        return 'Autoriser';
       case 'sync_pair_deny':
-        return 'Deny';
+        return 'Refuser';
       case 'sync_pair_denied':
-        return 'The other device declined pairing';
+        return 'L\'autre appareil a refusé l\'appairage';
       case 'sync_pair_unknown_device':
-        return 'Unknown device';
+        return 'Appareil inconnu';
       case 'sync_pair_unavailable':
-        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+        return 'L\'autre appareil n\'est pas prêt ou utilise une version plus ancienne. Mettez-le à jour et activez la sync, puis réessayez.';
       case 'sync_role_locked_by_server':
-        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+        return 'Cet appareil héberge un serveur. Désactivez le serveur avant de vous connecter à d\'autres appareils.';
       case 'sync_role_locked_by_client':
-        return 'Already connected to another device. Remove the connection before hosting as a server.';
+        return 'Déjà connecté à un autre appareil. Supprimez la connexion avant d\'héberger un serveur.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
       case 'sync_audiobook_files':
-        return 'Sync audiobook files';
+        return 'Synchroniser les fichiers de livres audio';
       case 'sync_audiobook_files_warning':
-        return 'Audio and subtitles can be large.';
+        return 'L\'audio et les sous-titres peuvent être volumineux.';
       case 'book_import_duplicate_title':
-        return 'Duplicate book';
+        return 'Livre en double';
       case 'book_import_duplicate_keep':
-        return 'Yes, add suffix';
+        return 'Oui, ajouter un suffixe';
       case 'book_import_duplicate_cancel':
-        return 'No, cancel';
+        return 'Non, annuler';
       case 'book_import_duplicate_cancelled':
-        return 'Import cancelled';
+        return 'Import annulé';
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
-            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+            'Un livre nommé « ${name} » existe déjà. L\'importer quand même ? « Oui » importe avec un suffixe numéroté ; « Non » annule.';
       case 'reverse_reader_bottom_bar':
-        return 'Reverse reader bottom bar';
+        return 'Inverser la barre inférieure du lecteur';
       case 'floating_dict_close':
-        return 'Close';
+        return 'Fermer';
       case 'debug_log_share_subject':
-        return 'hibiki Debug Log';
+        return 'Journal de débogage hibiki';
       case 'spread_direction_rtl':
-        return 'Right to Left';
+        return 'De droite à gauche';
       case 'spread_direction_ltr':
-        return 'Left to Right';
+        return 'De gauche à droite';
       case 'dict_download_partial':
         return (
                 {required Object success,
                 required Object total,
                 required Object error}) =>
-            '${success} / ${total} OK. Failed: ${error}';
+            '${success} / ${total} OK. Échecs : ${error}';
       case 'sync_now':
-        return 'Sync now';
+        return 'Synchroniser maintenant';
       case 'sync_now_hint':
-        return 'Run a full two-way sync with the cloud now';
+        return 'Lancer une synchronisation bidirectionnelle complète avec le cloud maintenant';
       case 'sync_now_busy':
-        return 'A sync is already running';
+        return 'Une synchronisation est déjà en cours';
       case 'sync_now_no_changes':
-        return 'no changes';
+        return 'aucune modification';
       case 'sync_now_done':
-        return ({required Object detail}) => 'Synced · ${detail}';
+        return ({required Object detail}) => 'Synchronisé · ${detail}';
       case 'sync_now_failed_suffix':
-        return ({required Object count}) => ' · ${count} failed';
+        return ({required Object count}) => ' · ${count} échec(s)';
       case 'sync_now_books_in':
-        return ({required Object count}) => '↓${count} books';
+        return ({required Object count}) => '↓${count} livres';
       case 'sync_now_dicts_in':
-        return ({required Object count}) => '↓${count} dictionaries';
+        return ({required Object count}) => '↓${count} dictionnaires';
       case 'sync_now_dicts_out':
-        return ({required Object count}) => '↑${count} dictionaries';
+        return ({required Object count}) => '↑${count} dictionnaires';
       case 'sync_now_audio_in':
-        return ({required Object count}) => '↓${count} audiobooks';
+        return ({required Object count}) => '↓${count} livres audio';
       case 'sync_now_audio_out':
-        return ({required Object count}) => '↑${count} audiobooks';
+        return ({required Object count}) => '↑${count} livres audio';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return 'Dictionnaires';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return 'Supprimer le livre sur le distant';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return 'Supprimer le livre audio sur le distant';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return 'Supprimer le dictionnaire sur le distant';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return 'Supprimé du distant';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            'Supprimer « ${name} » du distant ? Les données locales sont conservées. Action irréversible.';
+      case 'dictionaries_delete_failed':
+        return 'Échec de la suppression des dictionnaires';
+      case 'dictionary_delete_failed':
+        return 'Échec de la suppression du dictionnaire';
+      case 'sync_webdav_missing_fields':
+        return 'Champs manquants';
+      case 'sync_compare_download':
+        return 'Télécharger';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -58698,7 +59575,7 @@ extension on _StringsId {
       case 'dialog_add':
         return 'TAMBAH';
       case 'reset':
-        return 'Reset';
+        return 'Atur Ulang';
       case 'dialog_launch_ankidroid':
         return 'BUKA ANKIDROID';
       case 'media_item_delete_confirmation':
@@ -59087,7 +59964,7 @@ extension on _StringsId {
       case 'no_lyrics_found':
         return 'Tidak ada lirik ditemukan';
       case 'trending':
-        return 'Trending';
+        return 'Tren';
       case 'caption_filter':
         return 'Filter Closed Caption';
       case 'captions_query':
@@ -59099,7 +59976,7 @@ extension on _StringsId {
       case 'captions_other':
         return 'Bahasa lain';
       case 'captions_closed':
-        return 'Closed captioning';
+        return 'Teks tertutup';
       case 'captions_auto':
         return 'Captioning otomatis';
       case 'captions_unavailable':
@@ -59181,7 +60058,7 @@ extension on _StringsId {
       case 'dismiss_swipe_sensitivity':
         return 'Sensitivitas swipe untuk menutup';
       case 'tweaks':
-        return 'Tweaks';
+        return 'Penyesuaian';
       case 'increase':
         return 'Tambah';
       case 'decrease':
@@ -59376,7 +60253,7 @@ extension on _StringsId {
       case 'chatgpt_error':
         return 'Terjadi error saat mendapatkan respons dari ChatGPT.';
       case 'api_key':
-        return 'API Key';
+        return 'Kunci API';
       case 'subtitle_delay_set':
         return ({required Object ms}) => 'Delay subtitle diatur ke ${ms} md.';
       case 'cancel':
@@ -59444,7 +60321,7 @@ extension on _StringsId {
       case 'browse':
         return 'Jelajahi';
       case 'bookmark':
-        return 'Bookmark';
+        return 'Penanda';
       case 'add_bookmark':
         return 'Tambah Bookmark';
       case 'add_to_reading_list':
@@ -59758,7 +60635,7 @@ extension on _StringsId {
       case 'av_sync':
         return 'Sinkronisasi A/V';
       case 'av_sync_reset':
-        return 'Reset';
+        return 'Atur Ulang';
       case 'av_sync_hint':
         return 'Positif = audio mendahului teks, geser cue mundur; Negatif = audio tertinggal.';
       case 'tap_seek':
@@ -59794,7 +60671,7 @@ extension on _StringsId {
       case 'section_update':
         return 'Pengaturan Pembaruan';
       case 'action_bookmark':
-        return 'Bookmark';
+        return 'Penanda';
       case 'action_fullscreen_toggle':
         return 'Alihkan Layar Penuh';
       case 'action_exit':
@@ -59988,7 +60865,7 @@ extension on _StringsId {
       case 'recommended_template_created':
         return 'Profil rekomendasi telah dibuat.';
       case 'stat_refresh':
-        return 'Refresh';
+        return 'Segarkan';
       case 'stat_no_data':
         return 'Belum ada data membaca';
       case 'stat_by_book':
@@ -60114,7 +60991,7 @@ extension on _StringsId {
       case 'no_collections':
         return 'Tidak ada bookmark atau kalimat tersimpan';
       case 'collection_bookmark':
-        return 'Bookmark';
+        return 'Penanda';
       case 'collection_sentence':
         return 'Kalimat';
       case 'floating_lyric_previous':
@@ -60382,7 +61259,7 @@ extension on _StringsId {
       case 'floating_lyric_permission_hint':
         return 'Izin overlay diperlukan untuk menampilkan lirik mengambang.';
       case 'font_source_file':
-        return 'File';
+        return 'Berkas';
       case 'font_source_system':
         return 'Sistem';
       case 'image_page_counter':
@@ -60628,7 +61505,7 @@ extension on _StringsId {
       case 'sync_statistics':
         return 'Sinkronkan Statistik';
       case 'sync_summary':
-        return 'Google Drive · Kompatibel dengan ッツ/Hoshi Reader';
+        return 'Cloud, LAN P2P & cadangan lokal · kompatibel dengan ッツ/Hoshi Reader';
       case 'sync_title':
         return 'Sinkronisasi';
       case 'update_channel_beta':
@@ -60642,125 +61519,125 @@ extension on _StringsId {
       case 'anki_connect_port':
         return 'Port';
       case 'sync_compare':
-        return 'Compare Data';
+        return 'Bandingkan Data';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return 'Lokal vs Jarak Jauh';
       case 'sync_compare_local':
-        return 'Local';
+        return 'Lokal';
       case 'sync_compare_remote':
-        return 'Remote';
+        return 'Jarak Jauh';
       case 'sync_compare_no_data':
-        return 'No data';
+        return 'Tidak ada data';
       case 'sync_compare_empty':
-        return 'No books found';
+        return 'Tidak ada buku';
       case 'sync_compare_days':
-        return 'days';
+        return 'hari';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return 'Konflik';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return 'Semua Buku';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return 'Pilih Semua';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return 'Semua → Lokal';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return 'Semua → Jarak Jauh';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return 'Semua → Lewati';
       case 'sync_compare_use_local':
-        return 'Local';
+        return 'Lokal';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return 'Jarak Jauh';
       case 'sync_compare_skip':
-        return 'Skip';
+        return 'Lewati';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => '${count} perubahan diterapkan';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => 'Terapkan (${count})';
       case 'sync_auto_sync':
-        return 'Auto Sync';
+        return 'Sinkronisasi Otomatis';
       case 'sync_auto_complete':
         return ({required Object direction, required Object title}) =>
-            'Sync: ${direction} ${title}';
+            'Sinkronisasi: ${direction} ${title}';
       case 'no_matching_audio_cue':
-        return 'No matching audio for this sentence';
+        return 'Tidak ada audio yang cocok untuk kalimat ini';
       case 'sync_exit_warning_title':
-        return 'Sync In Progress';
+        return 'Sinkronisasi Berlangsung';
       case 'sync_exit_warning':
-        return 'Sync is still in progress. Exiting now may cause data loss.';
+        return 'Sinkronisasi masih berlangsung. Keluar sekarang dapat menyebabkan kehilangan data.';
       case 'sync_content':
-        return 'Sync book files';
+        return 'Sinkronkan berkas buku';
       case 'sync_content_warning':
-        return 'Large files will use storage space and data';
+        return 'Berkas besar akan memakai ruang penyimpanan dan kuota data';
       case 'sync_backend':
-        return 'Storage backend';
+        return 'Backend penyimpanan';
       case 'sync_backend_google_drive':
         return 'Google Drive';
       case 'sync_backend_webdav':
         return 'WebDAV';
       case 'sync_webdav_url':
-        return 'Server URL';
+        return 'URL server';
       case 'sync_webdav_username':
-        return 'Username';
+        return 'Nama pengguna';
       case 'sync_webdav_password':
-        return 'Password';
+        return 'Kata sandi';
       case 'sync_webdav_test':
-        return 'Test connection';
+        return 'Uji koneksi';
       case 'sync_webdav_test_success':
-        return 'Connection successful';
+        return 'Koneksi berhasil';
       case 'sync_webdav_test_failed':
-        return ({required Object message}) => 'Connection failed: ${message}';
+        return ({required Object message}) => 'Koneksi gagal: ${message}';
       case 'book_file_not_found':
-        return 'Book file not found';
+        return 'Berkas buku tidak ditemukan';
       case 'epub_parse_fallback':
-        return 'Book metadata repaired from database';
+        return 'Metadata buku dipulihkan dari basis data';
       case 'retry':
-        return 'Retry';
+        return 'Coba Lagi';
       case 'copy_error':
-        return 'Copy Error';
+        return 'Salin Galat';
       case 'error_copied':
-        return 'Error copied to clipboard';
+        return 'Galat disalin ke papan klip';
       case 'dict_import_failed_summary':
-        return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+        return ({required Object n}) => 'Gagal mengimpor ${n} kamus';
       case 'reader_content_timeout':
-        return 'Content loading timed out. Reopen if display is abnormal';
+        return 'Pemuatan konten habis waktu. Buka ulang jika tampilan tidak normal';
       case 'backup_local':
-        return 'Local Backup';
+        return 'Cadangan Lokal';
       case 'backup_export':
-        return 'Export Backup';
+        return 'Ekspor Cadangan';
       case 'backup_export_hint':
-        return 'Save all settings, reading progress, and statistics to a file';
+        return 'Simpan semua pengaturan, progres membaca, dan statistik ke berkas';
       case 'backup_import':
-        return 'Import Backup';
+        return 'Impor Cadangan';
       case 'backup_import_hint':
-        return 'Restore from a backup file. The app will restart.';
+        return 'Pulihkan dari berkas cadangan. Aplikasi akan dimulai ulang.';
       case 'backup_export_success':
-        return 'Backup exported successfully';
+        return 'Cadangan berhasil diekspor';
       case 'backup_export_failed':
         return ({required Object message}) =>
-            'Backup export failed: ${message}';
+            'Ekspor cadangan gagal: ${message}';
       case 'backup_import_confirm_title':
-        return 'Restore Backup?';
+        return 'Pulihkan Cadangan?';
       case 'backup_import_confirm':
         return (
                 {required Object date,
                 required Object bookCount,
                 required Object statsCount}) =>
-            'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+            'Ini akan menggantikan semua data saat ini dengan cadangan dari ${date}.\n\n${bookCount} buku, ${statsCount} catatan statistik.\n\nAplikasi akan dimulai ulang setelah pemulihan.';
       case 'backup_import_success':
-        return 'Backup restored. Restarting…';
+        return 'Cadangan dipulihkan. Memulai ulang…';
       case 'backup_import_failed':
         return ({required Object message}) =>
-            'Backup import failed: ${message}';
+            'Impor cadangan gagal: ${message}';
       case 'backup_import_invalid':
-        return 'Invalid backup file';
+        return 'Berkas cadangan tidak valid';
       case 'backup_exporting':
-        return 'Creating backup…';
+        return 'Membuat cadangan…';
       case 'backup_schema_newer':
         return ({required Object version}) =>
-            'This backup requires a newer version of the app (schema ${version}). Please update first.';
+            'Cadangan ini memerlukan versi aplikasi yang lebih baru (skema ${version}). Mohon perbarui terlebih dahulu.';
       case 'reverse_navigation_bar':
-        return 'Reverse navigation bar';
+        return 'Balik bilah navigasi';
       case 'sync_backend_onedrive':
         return 'OneDrive';
       case 'sync_backend_dropbox':
@@ -60772,290 +61649,325 @@ extension on _StringsId {
       case 'sync_backend_hibiki_server':
         return 'Hibiki P2P';
       case 'sync_server_enable':
-        return 'Enable sync server';
+        return 'Aktifkan server sinkronisasi';
       case 'sync_server_port':
-        return 'Server port';
+        return 'Port server';
       case 'sync_server_token':
-        return 'Access token';
+        return 'Token akses';
       case 'sync_server_copy_token':
-        return 'Copy token';
+        return 'Salin token';
       case 'sync_server_regenerate_token':
-        return 'Regenerate token';
+        return 'Buat ulang token';
       case 'sync_server_running':
-        return 'Server running';
+        return 'Server berjalan';
       case 'sync_server_stopped':
-        return 'Server stopped';
+        return 'Server berhenti';
       case 'sync_lan_discovery':
-        return 'LAN devices';
+        return 'Perangkat LAN';
       case 'sync_lan_scanning':
-        return 'Scanning...';
+        return 'Memindai...';
       case 'sync_lan_no_devices':
-        return 'No devices found';
+        return 'Tidak ada perangkat ditemukan';
       case 'sync_fallback_config':
-        return 'Fallback order';
+        return 'Urutan cadangan';
       case 'sync_test_connection':
-        return 'Test connection';
+        return 'Uji koneksi';
       case 'sync_connection_success':
-        return 'Connection successful';
+        return 'Koneksi berhasil';
       case 'sync_connection_failed':
-        return 'Connection failed';
+        return 'Koneksi gagal';
       case 'sync_host':
         return 'Host';
       case 'sync_port':
         return 'Port';
       case 'sync_username':
-        return 'Username';
+        return 'Nama pengguna';
       case 'sync_password':
-        return 'Password';
+        return 'Kata sandi';
       case 'sync_use_tls':
-        return 'Use TLS';
+        return 'Gunakan TLS';
       case 'sync_private_key':
-        return 'Private key';
+        return 'Kunci privat';
       case 'skip_action':
-        return 'Skip Action';
+        return 'Lewati Aksi';
       case 'skip_action_sentence':
-        return '1 sentence';
+        return '1 kalimat';
       case 'skip_action_seconds':
-        return ({required Object n}) => '${n} seconds';
+        return ({required Object n}) => '${n} detik';
       case 'shortcut_settings_title':
-        return 'Keyboard Shortcuts';
+        return 'Pintasan Keyboard';
       case 'shortcut_scope_reader':
-        return 'Reader';
+        return 'Pembaca';
       case 'shortcut_scope_home':
-        return 'Home';
+        return 'Beranda';
       case 'shortcut_scope_global':
         return 'Global';
       case 'shortcut_scope_audiobook':
-        return 'Audiobook';
+        return 'Buku Audio';
       case 'shortcut_action_reader_page_forward':
-        return 'Next Page';
+        return 'Halaman Berikutnya';
       case 'shortcut_action_reader_page_backward':
-        return 'Previous Page';
+        return 'Halaman Sebelumnya';
       case 'shortcut_action_reader_toggle_chrome':
-        return 'Toggle Controls';
+        return 'Alihkan Kontrol';
       case 'shortcut_action_reader_dismiss_dict':
-        return 'Dismiss Dictionary';
+        return 'Tutup Kamus';
       case 'shortcut_action_reader_toggle_bookmark':
-        return 'Toggle Bookmark';
+        return 'Alihkan Penanda';
       case 'shortcut_action_home_tab_books':
-        return 'Books Tab';
+        return 'Tab Buku';
       case 'shortcut_action_home_tab_dict':
-        return 'Dictionary Tab';
+        return 'Tab Kamus';
       case 'shortcut_action_home_tab_settings':
-        return 'Settings Tab';
+        return 'Tab Pengaturan';
       case 'shortcut_action_home_focus_search':
-        return 'Focus Search';
+        return 'Fokus Pencarian';
       case 'shortcut_action_global_back':
-        return 'Go Back';
+        return 'Kembali';
       case 'shortcut_action_audiobook_play_pause':
-        return 'Play / Pause';
+        return 'Putar / Jeda';
       case 'shortcut_action_audiobook_next_sentence':
-        return 'Next Sentence';
+        return 'Kalimat Berikutnya';
       case 'shortcut_action_audiobook_prev_sentence':
-        return 'Previous Sentence';
+        return 'Kalimat Sebelumnya';
       case 'shortcut_press_key':
-        return 'Press a key combination...';
+        return 'Tekan kombinasi tombol...';
       case 'shortcut_press_gamepad':
-        return 'Press a gamepad button...';
+        return 'Tekan tombol gamepad...';
       case 'shortcut_conflict':
-        return ({required Object s}) => 'Already used by: ${s}';
+        return ({required Object s}) => 'Sudah dipakai oleh: ${s}';
       case 'shortcut_reset_defaults':
-        return 'Reset to Defaults';
+        return 'Kembalikan ke Default';
       case 'shortcut_reset_confirm':
-        return 'Reset all shortcuts in this section to defaults?';
+        return 'Kembalikan semua pintasan di bagian ini ke default?';
       case 'shortcut_keyboard':
         return 'Keyboard';
       case 'shortcut_gamepad':
         return 'Gamepad';
       case 'shortcut_none':
-        return 'None';
+        return 'Tidak Ada';
       case 'shortcut_clear':
-        return 'Clear';
+        return 'Hapus';
       case 'shortcut_stop_capture':
-        return 'Stop';
+        return 'Berhenti';
       case 'section_advanced_typography':
-        return 'Advanced';
+        return 'Lanjutan';
       case 'sync_err_network':
-        return 'Cannot reach the server — check your network or proxy settings.';
+        return 'Tidak dapat menjangkau server — periksa jaringan atau pengaturan proksi Anda.';
       case 'sync_err_timeout':
-        return 'Connection timed out — the server did not respond in time.';
+        return 'Koneksi habis waktu — server tidak merespons tepat waktu.';
       case 'sync_err_quota':
-        return 'Cloud storage is full (quota reached).';
+        return 'Penyimpanan cloud penuh (kuota tercapai).';
       case 'sync_err_auth_expired':
-        return 'Sign-in expired — please sign in again.';
+        return 'Sesi masuk kedaluwarsa — mohon masuk kembali.';
       case 'sync_server_port_in_use':
         return ({required Object port}) =>
-            'Port ${port} is already in use — pick a different port.';
+            'Port ${port} sudah digunakan — pilih port lain.';
       case 'sync_lan_scan_failed':
-        return 'Scan failed — check network permissions or firewall.';
+        return 'Pemindaian gagal — periksa izin jaringan atau firewall.';
       case 'sync_section_method':
-        return 'Sync method';
+        return 'Metode sinkronisasi';
       case 'sync_section_host_server':
-        return 'This device as a sync server';
+        return 'Perangkat ini sebagai server sinkronisasi';
       case 'sync_section_host_server_footer':
-        return 'Let other devices sync from this device. Independent of the sync backend above.';
+        return 'Biarkan perangkat lain menyinkronkan dari perangkat ini. Terpisah dari backend sinkronisasi di atas.';
       case 'sync_section_content':
-        return 'What to sync';
+        return 'Apa yang disinkronkan';
       case 'sync_section_actions':
-        return 'Sync actions';
+        return 'Aksi sinkronisasi';
       case 'sync_section_backup':
-        return 'Local backup';
+        return 'Cadangan lokal';
       case 'backup_import_preserve_sync_note':
-        return 'Your sync settings on this device (account and credentials) will be kept.';
+        return 'Pengaturan sinkronisasi di perangkat ini (akun dan kredensial) akan dipertahankan.';
       case 'backup_import_settings_toggle':
-        return 'Import settings & profiles';
+        return 'Impor pengaturan & profil';
       case 'backup_import_settings_on_hint':
-        return 'Full restore: fonts, appearance and profiles come from the backup.';
+        return 'Pemulihan penuh: font, tampilan, dan profil diambil dari cadangan.';
       case 'backup_import_settings_off_hint':
-        return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+        return 'Pertahankan font/tampilan/profil perangkat ini; pulihkan hanya buku & data membaca.';
       case 'reader_unsupported_platform':
-        return 'The reader is not yet available on this platform.';
+        return 'Pembaca belum tersedia di platform ini.';
       case 'microphone_permission_denied':
-        return 'Microphone permission is required to record.';
+        return 'Izin mikrofon diperlukan untuk merekam.';
       case 'anki_connect_api_key':
-        return 'API Key';
+        return 'Kunci API';
       case 'anki_connect_api_key_hint':
-        return 'Leave empty unless AnkiConnect requires a key';
+        return 'Biarkan kosong kecuali AnkiConnect memerlukan kunci';
       case 'shortcut_action_global_scroll_page_down':
-        return 'Scroll down one screen';
+        return 'Gulir bawah satu layar';
       case 'shortcut_action_global_scroll_page_up':
-        return 'Scroll up one screen';
+        return 'Gulir atas satu layar';
       case 'shortcut_action_home_tab_prev':
-        return 'Previous tab';
+        return 'Tab sebelumnya';
       case 'shortcut_action_home_tab_next':
-        return 'Next tab';
+        return 'Tab berikutnya';
       case 'move_up':
-        return 'Move up';
+        return 'Naikkan';
       case 'move_down':
-        return 'Move down';
+        return 'Turunkan';
       case 'shortcut_action_reader_toggle_furigana':
-        return 'Toggle furigana';
+        return 'Alihkan furigana';
       case 'on_screen_keyboard':
-        return 'On-screen keyboard';
+        return 'Keyboard di layar';
       case 'app_ui_scale':
-        return 'UI size';
+        return 'Ukuran UI';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
       case 'sync_dictionary':
-        return 'Sync dictionaries';
+        return 'Sinkronkan kamus';
       case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
+        return 'Paket kamus bisa berukuran besar dan menyertakan sumber daya kamus yang diimpor.';
       case 'settings_destination_reading':
-        return 'Reading';
+        return 'Membaca';
       case 'remote_dict_lookup':
-        return 'Remote dictionary lookup';
+        return 'Pencarian kamus jarak jauh';
       case 'remote_dict_lookup_hint':
-        return 'When local dictionaries miss, query the configured Hibiki server';
+        return 'Ketika kamus lokal tidak menemukan hasil, kueri ke server Hibiki yang dikonfigurasi';
       case 'remote_audio_source':
-        return 'Remote audio';
+        return 'Audio jarak jauh';
       case 'sync_pair_success':
-        return 'Paired — token filled in';
+        return 'Terpasang — token telah diisi';
       case 'sync_pair_failed':
-        return 'Pairing failed';
+        return 'Pemasangan gagal';
       case 'audio_source_hibiki_interconnect':
         return 'Hibiki P2P';
       case 'audio_sources_remote_group':
-        return 'Remote sources';
+        return 'Sumber jarak jauh';
       case 'audio_source_url_invalid':
-        return 'Link must be http(s) and contain a term or reading placeholder';
+        return 'Tautan harus http(s) dan memuat placeholder term atau reading';
       case 'audio_source_added':
-        return 'Audio source added';
+        return 'Sumber audio ditambahkan';
       case 'local_audio_imported':
-        return 'Audio database added';
+        return 'Basis data audio ditambahkan';
       case 'local_audio_import_failed':
-        return 'Failed to import audio database';
+        return 'Gagal mengimpor basis data audio';
       case 'local_audio_edit_sources':
-        return 'Edit sources';
+        return 'Edit sumber';
       case 'local_audio_source_order_title':
-        return 'Source priority';
+        return 'Prioritas sumber';
       case 'local_audio_no_sources':
-        return 'No sources found in this database';
+        return 'Tidak ada sumber di basis data ini';
       case 'sync_pair_request_title':
-        return 'Pairing request';
+        return 'Permintaan pemasangan';
       case 'sync_pair_request_body':
-        return 'A device is requesting to pair. Allow it to sync with this device?';
+        return 'Sebuah perangkat meminta untuk dipasangkan. Izinkan untuk menyinkronkan dengan perangkat ini?';
       case 'sync_pair_allow':
-        return 'Allow';
+        return 'Izinkan';
       case 'sync_pair_deny':
-        return 'Deny';
+        return 'Tolak';
       case 'sync_pair_denied':
-        return 'The other device declined pairing';
+        return 'Perangkat lain menolak pemasangan';
       case 'sync_pair_unknown_device':
-        return 'Unknown device';
+        return 'Perangkat tidak dikenal';
       case 'sync_pair_unavailable':
-        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+        return 'Perangkat lain belum siap atau menggunakan versi lama. Perbarui dan aktifkan sinkronisasi, lalu coba lagi.';
       case 'sync_role_locked_by_server':
-        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+        return 'Perangkat ini menjadi host sebagai server. Matikan server sebelum terhubung ke perangkat lain.';
       case 'sync_role_locked_by_client':
-        return 'Already connected to another device. Remove the connection before hosting as a server.';
+        return 'Sudah terhubung ke perangkat lain. Hapus koneksi sebelum menjadi host sebagai server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
       case 'sync_audiobook_files':
-        return 'Sync audiobook files';
+        return 'Sinkronkan berkas buku audio';
       case 'sync_audiobook_files_warning':
-        return 'Audio and subtitles can be large.';
+        return 'Audio dan subtitle bisa berukuran besar.';
       case 'book_import_duplicate_title':
-        return 'Duplicate book';
+        return 'Buku duplikat';
       case 'book_import_duplicate_keep':
-        return 'Yes, add suffix';
+        return 'Ya, tambahkan akhiran';
       case 'book_import_duplicate_cancel':
-        return 'No, cancel';
+        return 'Tidak, batalkan';
       case 'book_import_duplicate_cancelled':
-        return 'Import cancelled';
+        return 'Impor dibatalkan';
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
-            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+            'Buku bernama "${name}" sudah ada. Tetap impor? "Ya" mengimpor dengan akhiran bernomor; "Tidak" membatalkan.';
       case 'reverse_reader_bottom_bar':
-        return 'Reverse reader bottom bar';
+        return 'Balik bilah bawah pembaca';
       case 'floating_dict_close':
-        return 'Close';
+        return 'Tutup';
       case 'debug_log_share_subject':
-        return 'hibiki Debug Log';
+        return 'Log Debug hibiki';
       case 'spread_direction_rtl':
-        return 'Right to Left';
+        return 'Kanan ke Kiri';
       case 'spread_direction_ltr':
-        return 'Left to Right';
+        return 'Kiri ke Kanan';
       case 'dict_download_partial':
         return (
                 {required Object success,
                 required Object total,
                 required Object error}) =>
-            '${success} / ${total} OK. Failed: ${error}';
+            '${success} / ${total} OK. Gagal: ${error}';
       case 'sync_now':
-        return 'Sync now';
+        return 'Sinkronkan sekarang';
       case 'sync_now_hint':
-        return 'Run a full two-way sync with the cloud now';
+        return 'Jalankan sinkronisasi dua arah penuh dengan cloud sekarang';
       case 'sync_now_busy':
-        return 'A sync is already running';
+        return 'Sinkronisasi sedang berjalan';
       case 'sync_now_no_changes':
-        return 'no changes';
+        return 'tidak ada perubahan';
       case 'sync_now_done':
-        return ({required Object detail}) => 'Synced · ${detail}';
+        return ({required Object detail}) => 'Tersinkron · ${detail}';
       case 'sync_now_failed_suffix':
-        return ({required Object count}) => ' · ${count} failed';
+        return ({required Object count}) => ' · ${count} gagal';
       case 'sync_now_books_in':
-        return ({required Object count}) => '↓${count} books';
+        return ({required Object count}) => '↓${count} buku';
       case 'sync_now_dicts_in':
-        return ({required Object count}) => '↓${count} dictionaries';
+        return ({required Object count}) => '↓${count} kamus';
       case 'sync_now_dicts_out':
-        return ({required Object count}) => '↑${count} dictionaries';
+        return ({required Object count}) => '↑${count} kamus';
       case 'sync_now_audio_in':
-        return ({required Object count}) => '↓${count} audiobooks';
+        return ({required Object count}) => '↓${count} buku audio';
       case 'sync_now_audio_out':
-        return ({required Object count}) => '↑${count} audiobooks';
+        return ({required Object count}) => '↑${count} buku audio';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return 'Kamus';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return 'Hapus buku di jarak jauh';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return 'Hapus buku audio di jarak jauh';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return 'Hapus kamus di jarak jauh';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return 'Dihapus dari jarak jauh';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            'Hapus "${name}" dari jarak jauh? Data lokal dipertahankan. Ini tidak dapat dibatalkan.';
+      case 'dictionaries_delete_failed':
+        return 'Gagal menghapus kamus';
+      case 'dictionary_delete_failed':
+        return 'Gagal menghapus kamus';
+      case 'sync_webdav_missing_fields':
+        return 'Ada kolom yang belum diisi';
+      case 'sync_compare_download':
+        return 'Unduh';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -63160,7 +64072,7 @@ extension on _StringsIt {
       case 'sync_statistics':
         return 'Sincronizza statistiche';
       case 'sync_summary':
-        return 'Google Drive · Compatibile con ッツ/Hoshi Reader';
+        return 'Cloud, LAN P2P e backup locale · compatibile con ッツ/Hoshi Reader';
       case 'sync_title':
         return 'Sincronizzazione';
       case 'update_channel_beta':
@@ -63172,127 +64084,129 @@ extension on _StringsIt {
       case 'anki_connect_host':
         return 'Host';
       case 'anki_connect_port':
-        return 'Port';
+        return 'Porta';
       case 'sync_compare':
-        return 'Compare Data';
+        return 'Confronta dati';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return 'Locale vs Remoto';
       case 'sync_compare_local':
-        return 'Local';
+        return 'Locale';
       case 'sync_compare_remote':
-        return 'Remote';
+        return 'Remoto';
       case 'sync_compare_no_data':
-        return 'No data';
+        return 'Nessun dato';
       case 'sync_compare_empty':
-        return 'No books found';
+        return 'Nessun libro trovato';
       case 'sync_compare_days':
-        return 'days';
+        return 'giorni';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return 'Conflitti';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return 'Tutti i libri';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return 'Seleziona tutto';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return 'Tutti → Locale';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return 'Tutti → Remoto';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return 'Tutti → Ignora';
       case 'sync_compare_use_local':
-        return 'Local';
+        return 'Locale';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return 'Remoto';
       case 'sync_compare_skip':
-        return 'Skip';
+        return 'Ignora';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => 'Applicate ${count} modifiche';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => 'Applica (${count})';
       case 'sync_auto_sync':
-        return 'Auto Sync';
+        return 'Sincronizzazione automatica';
       case 'sync_auto_complete':
         return ({required Object direction, required Object title}) =>
-            'Sync: ${direction} ${title}';
+            'Sincronizzazione: ${direction} ${title}';
       case 'no_matching_audio_cue':
-        return 'No matching audio for this sentence';
+        return 'Nessun audio corrispondente per questa frase';
       case 'sync_exit_warning_title':
-        return 'Sync In Progress';
+        return 'Sincronizzazione in corso';
       case 'sync_exit_warning':
-        return 'Sync is still in progress. Exiting now may cause data loss.';
+        return 'La sincronizzazione è ancora in corso. Uscire ora potrebbe causare la perdita di dati.';
       case 'sync_content':
-        return 'Sync book files';
+        return 'Sincronizza file dei libri';
       case 'sync_content_warning':
-        return 'Large files will use storage space and data';
+        return 'I file di grandi dimensioni occuperanno spazio e consumeranno dati';
       case 'sync_backend':
-        return 'Storage backend';
+        return 'Backend di archiviazione';
       case 'sync_backend_google_drive':
         return 'Google Drive';
       case 'sync_backend_webdav':
         return 'WebDAV';
       case 'sync_webdav_url':
-        return 'Server URL';
+        return 'URL del server';
       case 'sync_webdav_username':
-        return 'Username';
+        return 'Nome utente';
       case 'sync_webdav_password':
         return 'Password';
       case 'sync_webdav_test':
-        return 'Test connection';
+        return 'Prova connessione';
       case 'sync_webdav_test_success':
-        return 'Connection successful';
+        return 'Connessione riuscita';
       case 'sync_webdav_test_failed':
-        return ({required Object message}) => 'Connection failed: ${message}';
+        return ({required Object message}) =>
+            'Connessione non riuscita: ${message}';
       case 'book_file_not_found':
-        return 'Book file not found';
+        return 'File del libro non trovato';
       case 'epub_parse_fallback':
-        return 'Book metadata repaired from database';
+        return 'Metadati del libro ripristinati dal database';
       case 'retry':
-        return 'Retry';
+        return 'Riprova';
       case 'copy_error':
-        return 'Copy Error';
+        return 'Copia errore';
       case 'error_copied':
-        return 'Error copied to clipboard';
+        return 'Errore copiato negli appunti';
       case 'dict_import_failed_summary':
-        return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+        return ({required Object n}) =>
+            'Impossibile importare ${n} dizionario/i';
       case 'reader_content_timeout':
-        return 'Content loading timed out. Reopen if display is abnormal';
+        return 'Timeout nel caricamento del contenuto. Riapri se la visualizzazione è anomala';
       case 'backup_local':
-        return 'Local Backup';
+        return 'Backup locale';
       case 'backup_export':
-        return 'Export Backup';
+        return 'Esporta backup';
       case 'backup_export_hint':
-        return 'Save all settings, reading progress, and statistics to a file';
+        return 'Salva tutte le impostazioni, i progressi di lettura e le statistiche in un file';
       case 'backup_import':
-        return 'Import Backup';
+        return 'Importa backup';
       case 'backup_import_hint':
-        return 'Restore from a backup file. The app will restart.';
+        return 'Ripristina da un file di backup. L\'app verrà riavviata.';
       case 'backup_export_success':
-        return 'Backup exported successfully';
+        return 'Backup esportato correttamente';
       case 'backup_export_failed':
         return ({required Object message}) =>
-            'Backup export failed: ${message}';
+            'Esportazione del backup non riuscita: ${message}';
       case 'backup_import_confirm_title':
-        return 'Restore Backup?';
+        return 'Ripristinare il backup?';
       case 'backup_import_confirm':
         return (
                 {required Object date,
                 required Object bookCount,
                 required Object statsCount}) =>
-            'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+            'Questa operazione sostituirà tutti i dati attuali con il backup del ${date}.\n\n${bookCount} libri, ${statsCount} record di statistiche.\n\nL\'app verrà riavviata dopo il ripristino.';
       case 'backup_import_success':
-        return 'Backup restored. Restarting…';
+        return 'Backup ripristinato. Riavvio in corso…';
       case 'backup_import_failed':
         return ({required Object message}) =>
-            'Backup import failed: ${message}';
+            'Importazione del backup non riuscita: ${message}';
       case 'backup_import_invalid':
-        return 'Invalid backup file';
+        return 'File di backup non valido';
       case 'backup_exporting':
-        return 'Creating backup…';
+        return 'Creazione del backup…';
       case 'backup_schema_newer':
         return ({required Object version}) =>
-            'This backup requires a newer version of the app (schema ${version}). Please update first.';
+            'Questo backup richiede una versione più recente dell\'app (schema ${version}). Aggiorna prima l\'app.';
       case 'reverse_navigation_bar':
-        return 'Reverse navigation bar';
+        return 'Inverti barra di navigazione';
       case 'sync_backend_onedrive':
         return 'OneDrive';
       case 'sync_backend_dropbox':
@@ -63304,290 +64218,325 @@ extension on _StringsIt {
       case 'sync_backend_hibiki_server':
         return 'Hibiki P2P';
       case 'sync_server_enable':
-        return 'Enable sync server';
+        return 'Abilita server di sincronizzazione';
       case 'sync_server_port':
-        return 'Server port';
+        return 'Porta del server';
       case 'sync_server_token':
-        return 'Access token';
+        return 'Token di accesso';
       case 'sync_server_copy_token':
-        return 'Copy token';
+        return 'Copia token';
       case 'sync_server_regenerate_token':
-        return 'Regenerate token';
+        return 'Rigenera token';
       case 'sync_server_running':
-        return 'Server running';
+        return 'Server in esecuzione';
       case 'sync_server_stopped':
-        return 'Server stopped';
+        return 'Server arrestato';
       case 'sync_lan_discovery':
-        return 'LAN devices';
+        return 'Dispositivi LAN';
       case 'sync_lan_scanning':
-        return 'Scanning...';
+        return 'Scansione in corso...';
       case 'sync_lan_no_devices':
-        return 'No devices found';
+        return 'Nessun dispositivo trovato';
       case 'sync_fallback_config':
-        return 'Fallback order';
+        return 'Ordine di fallback';
       case 'sync_test_connection':
-        return 'Test connection';
+        return 'Prova connessione';
       case 'sync_connection_success':
-        return 'Connection successful';
+        return 'Connessione riuscita';
       case 'sync_connection_failed':
-        return 'Connection failed';
+        return 'Connessione non riuscita';
       case 'sync_host':
         return 'Host';
       case 'sync_port':
-        return 'Port';
+        return 'Porta';
       case 'sync_username':
-        return 'Username';
+        return 'Nome utente';
       case 'sync_password':
         return 'Password';
       case 'sync_use_tls':
-        return 'Use TLS';
+        return 'Usa TLS';
       case 'sync_private_key':
-        return 'Private key';
+        return 'Chiave privata';
       case 'skip_action':
-        return 'Skip Action';
+        return 'Azione di salto';
       case 'skip_action_sentence':
-        return '1 sentence';
+        return '1 frase';
       case 'skip_action_seconds':
-        return ({required Object n}) => '${n} seconds';
+        return ({required Object n}) => '${n} secondi';
       case 'shortcut_settings_title':
-        return 'Keyboard Shortcuts';
+        return 'Scorciatoie da tastiera';
       case 'shortcut_scope_reader':
-        return 'Reader';
+        return 'Lettore';
       case 'shortcut_scope_home':
         return 'Home';
       case 'shortcut_scope_global':
-        return 'Global';
+        return 'Globale';
       case 'shortcut_scope_audiobook':
-        return 'Audiobook';
+        return 'Audiolibro';
       case 'shortcut_action_reader_page_forward':
-        return 'Next Page';
+        return 'Pagina successiva';
       case 'shortcut_action_reader_page_backward':
-        return 'Previous Page';
+        return 'Pagina precedente';
       case 'shortcut_action_reader_toggle_chrome':
-        return 'Toggle Controls';
+        return 'Mostra/nascondi controlli';
       case 'shortcut_action_reader_dismiss_dict':
-        return 'Dismiss Dictionary';
+        return 'Chiudi dizionario';
       case 'shortcut_action_reader_toggle_bookmark':
-        return 'Toggle Bookmark';
+        return 'Attiva/disattiva segnalibro';
       case 'shortcut_action_home_tab_books':
-        return 'Books Tab';
+        return 'Scheda Libri';
       case 'shortcut_action_home_tab_dict':
-        return 'Dictionary Tab';
+        return 'Scheda Dizionario';
       case 'shortcut_action_home_tab_settings':
-        return 'Settings Tab';
+        return 'Scheda Impostazioni';
       case 'shortcut_action_home_focus_search':
-        return 'Focus Search';
+        return 'Vai alla ricerca';
       case 'shortcut_action_global_back':
-        return 'Go Back';
+        return 'Indietro';
       case 'shortcut_action_audiobook_play_pause':
-        return 'Play / Pause';
+        return 'Riproduci / Pausa';
       case 'shortcut_action_audiobook_next_sentence':
-        return 'Next Sentence';
+        return 'Frase successiva';
       case 'shortcut_action_audiobook_prev_sentence':
-        return 'Previous Sentence';
+        return 'Frase precedente';
       case 'shortcut_press_key':
-        return 'Press a key combination...';
+        return 'Premi una combinazione di tasti...';
       case 'shortcut_press_gamepad':
-        return 'Press a gamepad button...';
+        return 'Premi un pulsante del gamepad...';
       case 'shortcut_conflict':
-        return ({required Object s}) => 'Already used by: ${s}';
+        return ({required Object s}) => 'Già usata da: ${s}';
       case 'shortcut_reset_defaults':
-        return 'Reset to Defaults';
+        return 'Ripristina predefinite';
       case 'shortcut_reset_confirm':
-        return 'Reset all shortcuts in this section to defaults?';
+        return 'Ripristinare tutte le scorciatoie di questa sezione ai valori predefiniti?';
       case 'shortcut_keyboard':
-        return 'Keyboard';
+        return 'Tastiera';
       case 'shortcut_gamepad':
         return 'Gamepad';
       case 'shortcut_none':
-        return 'None';
+        return 'Nessuna';
       case 'shortcut_clear':
-        return 'Clear';
+        return 'Cancella';
       case 'shortcut_stop_capture':
-        return 'Stop';
+        return 'Arresta';
       case 'section_advanced_typography':
-        return 'Advanced';
+        return 'Avanzate';
       case 'sync_err_network':
-        return 'Cannot reach the server — check your network or proxy settings.';
+        return 'Impossibile raggiungere il server — controlla la rete o le impostazioni del proxy.';
       case 'sync_err_timeout':
-        return 'Connection timed out — the server did not respond in time.';
+        return 'Connessione scaduta — il server non ha risposto in tempo.';
       case 'sync_err_quota':
-        return 'Cloud storage is full (quota reached).';
+        return 'Lo spazio di archiviazione cloud è pieno (quota raggiunta).';
       case 'sync_err_auth_expired':
-        return 'Sign-in expired — please sign in again.';
+        return 'Accesso scaduto — accedi di nuovo.';
       case 'sync_server_port_in_use':
         return ({required Object port}) =>
-            'Port ${port} is already in use — pick a different port.';
+            'La porta ${port} è già in uso — scegli una porta diversa.';
       case 'sync_lan_scan_failed':
-        return 'Scan failed — check network permissions or firewall.';
+        return 'Scansione non riuscita — controlla i permessi di rete o il firewall.';
       case 'sync_section_method':
-        return 'Sync method';
+        return 'Metodo di sincronizzazione';
       case 'sync_section_host_server':
-        return 'This device as a sync server';
+        return 'Questo dispositivo come server di sincronizzazione';
       case 'sync_section_host_server_footer':
-        return 'Let other devices sync from this device. Independent of the sync backend above.';
+        return 'Consenti ad altri dispositivi di sincronizzare da questo dispositivo. Indipendente dal backend di sincronizzazione sopra.';
       case 'sync_section_content':
-        return 'What to sync';
+        return 'Cosa sincronizzare';
       case 'sync_section_actions':
-        return 'Sync actions';
+        return 'Azioni di sincronizzazione';
       case 'sync_section_backup':
-        return 'Local backup';
+        return 'Backup locale';
       case 'backup_import_preserve_sync_note':
-        return 'Your sync settings on this device (account and credentials) will be kept.';
+        return 'Le impostazioni di sincronizzazione su questo dispositivo (account e credenziali) verranno mantenute.';
       case 'backup_import_settings_toggle':
-        return 'Import settings & profiles';
+        return 'Importa impostazioni e profili';
       case 'backup_import_settings_on_hint':
-        return 'Full restore: fonts, appearance and profiles come from the backup.';
+        return 'Ripristino completo: font, aspetto e profili provengono dal backup.';
       case 'backup_import_settings_off_hint':
-        return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+        return 'Mantieni font/aspetto/profili di questo dispositivo; ripristina solo libri e dati di lettura.';
       case 'reader_unsupported_platform':
-        return 'The reader is not yet available on this platform.';
+        return 'Il lettore non è ancora disponibile su questa piattaforma.';
       case 'microphone_permission_denied':
-        return 'Microphone permission is required to record.';
+        return 'È necessaria l\'autorizzazione del microfono per registrare.';
       case 'anki_connect_api_key':
-        return 'API Key';
+        return 'Chiave API';
       case 'anki_connect_api_key_hint':
-        return 'Leave empty unless AnkiConnect requires a key';
+        return 'Lascia vuoto a meno che AnkiConnect non richieda una chiave';
       case 'shortcut_action_global_scroll_page_down':
-        return 'Scroll down one screen';
+        return 'Scorri giù di una schermata';
       case 'shortcut_action_global_scroll_page_up':
-        return 'Scroll up one screen';
+        return 'Scorri su di una schermata';
       case 'shortcut_action_home_tab_prev':
-        return 'Previous tab';
+        return 'Scheda precedente';
       case 'shortcut_action_home_tab_next':
-        return 'Next tab';
+        return 'Scheda successiva';
       case 'move_up':
-        return 'Move up';
+        return 'Sposta su';
       case 'move_down':
-        return 'Move down';
+        return 'Sposta giù';
       case 'shortcut_action_reader_toggle_furigana':
-        return 'Toggle furigana';
+        return 'Attiva/disattiva furigana';
       case 'on_screen_keyboard':
-        return 'On-screen keyboard';
+        return 'Tastiera su schermo';
       case 'app_ui_scale':
-        return 'UI size';
+        return 'Dimensione interfaccia';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
       case 'sync_dictionary':
-        return 'Sync dictionaries';
+        return 'Sincronizza dizionari';
       case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
+        return 'I pacchetti di dizionari possono essere grandi e includere risorse di dizionari importate.';
       case 'settings_destination_reading':
-        return 'Reading';
+        return 'Lettura';
       case 'remote_dict_lookup':
-        return 'Remote dictionary lookup';
+        return 'Ricerca dizionario remoto';
       case 'remote_dict_lookup_hint':
-        return 'When local dictionaries miss, query the configured Hibiki server';
+        return 'Quando i dizionari locali non trovano risultati, interroga il server Hibiki configurato';
       case 'remote_audio_source':
-        return 'Remote audio';
+        return 'Audio remoto';
       case 'sync_pair_success':
-        return 'Paired — token filled in';
+        return 'Associato — token inserito';
       case 'sync_pair_failed':
-        return 'Pairing failed';
+        return 'Associazione non riuscita';
       case 'audio_source_hibiki_interconnect':
         return 'Hibiki P2P';
       case 'audio_sources_remote_group':
-        return 'Remote sources';
+        return 'Sorgenti remote';
       case 'audio_source_url_invalid':
-        return 'Link must be http(s) and contain a term or reading placeholder';
+        return 'Il link deve essere http(s) e contenere un segnaposto per il termine o la lettura';
       case 'audio_source_added':
-        return 'Audio source added';
+        return 'Sorgente audio aggiunta';
       case 'local_audio_imported':
-        return 'Audio database added';
+        return 'Database audio aggiunto';
       case 'local_audio_import_failed':
-        return 'Failed to import audio database';
+        return 'Impossibile importare il database audio';
       case 'local_audio_edit_sources':
-        return 'Edit sources';
+        return 'Modifica sorgenti';
       case 'local_audio_source_order_title':
-        return 'Source priority';
+        return 'Priorità delle sorgenti';
       case 'local_audio_no_sources':
-        return 'No sources found in this database';
+        return 'Nessuna sorgente trovata in questo database';
       case 'sync_pair_request_title':
-        return 'Pairing request';
+        return 'Richiesta di associazione';
       case 'sync_pair_request_body':
-        return 'A device is requesting to pair. Allow it to sync with this device?';
+        return 'Un dispositivo sta richiedendo l\'associazione. Consentirgli di sincronizzarsi con questo dispositivo?';
       case 'sync_pair_allow':
-        return 'Allow';
+        return 'Consenti';
       case 'sync_pair_deny':
-        return 'Deny';
+        return 'Rifiuta';
       case 'sync_pair_denied':
-        return 'The other device declined pairing';
+        return 'L\'altro dispositivo ha rifiutato l\'associazione';
       case 'sync_pair_unknown_device':
-        return 'Unknown device';
+        return 'Dispositivo sconosciuto';
       case 'sync_pair_unavailable':
-        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+        return 'L\'altro dispositivo non è pronto o ha una versione precedente. Aggiornalo e abilita la sincronizzazione, poi riprova.';
       case 'sync_role_locked_by_server':
-        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+        return 'Questo dispositivo è in funzione come server. Disattiva il server prima di connetterti ad altri dispositivi.';
       case 'sync_role_locked_by_client':
-        return 'Already connected to another device. Remove the connection before hosting as a server.';
+        return 'Già connesso a un altro dispositivo. Rimuovi la connessione prima di avviare come server.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
       case 'sync_audiobook_files':
-        return 'Sync audiobook files';
+        return 'Sincronizza file degli audiolibri';
       case 'sync_audiobook_files_warning':
-        return 'Audio and subtitles can be large.';
+        return 'Audio e sottotitoli possono essere di grandi dimensioni.';
       case 'book_import_duplicate_title':
-        return 'Duplicate book';
+        return 'Libro duplicato';
       case 'book_import_duplicate_keep':
-        return 'Yes, add suffix';
+        return 'Sì, aggiungi suffisso';
       case 'book_import_duplicate_cancel':
-        return 'No, cancel';
+        return 'No, annulla';
       case 'book_import_duplicate_cancelled':
-        return 'Import cancelled';
+        return 'Importazione annullata';
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
-            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+            'Esiste già un libro chiamato "${name}". Importarlo comunque? "Sì" lo importa con un suffisso numerato; "No" annulla.';
       case 'reverse_reader_bottom_bar':
-        return 'Reverse reader bottom bar';
+        return 'Inverti barra inferiore del lettore';
       case 'floating_dict_close':
-        return 'Close';
+        return 'Chiudi';
       case 'debug_log_share_subject':
-        return 'hibiki Debug Log';
+        return 'Log di debug di hibiki';
       case 'spread_direction_rtl':
-        return 'Right to Left';
+        return 'Da destra a sinistra';
       case 'spread_direction_ltr':
-        return 'Left to Right';
+        return 'Da sinistra a destra';
       case 'dict_download_partial':
         return (
                 {required Object success,
                 required Object total,
                 required Object error}) =>
-            '${success} / ${total} OK. Failed: ${error}';
+            '${success} / ${total} OK. Falliti: ${error}';
       case 'sync_now':
-        return 'Sync now';
+        return 'Sincronizza ora';
       case 'sync_now_hint':
-        return 'Run a full two-way sync with the cloud now';
+        return 'Esegui ora una sincronizzazione bidirezionale completa con il cloud';
       case 'sync_now_busy':
-        return 'A sync is already running';
+        return 'Una sincronizzazione è già in corso';
       case 'sync_now_no_changes':
-        return 'no changes';
+        return 'nessuna modifica';
       case 'sync_now_done':
-        return ({required Object detail}) => 'Synced · ${detail}';
+        return ({required Object detail}) => 'Sincronizzato · ${detail}';
       case 'sync_now_failed_suffix':
-        return ({required Object count}) => ' · ${count} failed';
+        return ({required Object count}) => ' · ${count} falliti';
       case 'sync_now_books_in':
-        return ({required Object count}) => '↓${count} books';
+        return ({required Object count}) => '↓${count} libri';
       case 'sync_now_dicts_in':
-        return ({required Object count}) => '↓${count} dictionaries';
+        return ({required Object count}) => '↓${count} dizionari';
       case 'sync_now_dicts_out':
-        return ({required Object count}) => '↑${count} dictionaries';
+        return ({required Object count}) => '↑${count} dizionari';
       case 'sync_now_audio_in':
-        return ({required Object count}) => '↓${count} audiobooks';
+        return ({required Object count}) => '↓${count} audiolibri';
       case 'sync_now_audio_out':
-        return ({required Object count}) => '↑${count} audiobooks';
+        return ({required Object count}) => '↑${count} audiolibri';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return 'Dizionari';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return 'Elimina libro sul remoto';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return 'Elimina audiolibro sul remoto';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return 'Elimina dizionario sul remoto';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return 'Eliminato dal remoto';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            'Eliminare "${name}" dal remoto? I dati locali vengono mantenuti. Questa operazione non può essere annullata.';
+      case 'dictionaries_delete_failed':
+        return 'Impossibile eliminare i dizionari';
+      case 'dictionary_delete_failed':
+        return 'Impossibile eliminare il dizionario';
+      case 'sync_webdav_missing_fields':
+        return 'Campi mancanti';
+      case 'sync_compare_download':
+        return 'Scarica';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -64700,7 +65649,7 @@ extension on _StringsJa {
       case 'ttu_scroll':
         return 'スクロール';
       case 'ttu_furigana_mode':
-        return 'Furigana';
+        return 'ふりがな';
       case 'ttu_furigana_show':
         return '表示';
       case 'ttu_furigana_hide':
@@ -65672,7 +66621,7 @@ extension on _StringsJa {
       case 'sync_statistics':
         return '統計を同期';
       case 'sync_summary':
-        return 'Google Drive · ッツ/Hoshi Reader互換';
+        return 'クラウド・LAN P2P・ローカルバックアップ · ッツ/Hoshi Reader 互換';
       case 'sync_title':
         return '同期';
       case 'update_channel_beta':
@@ -65682,129 +66631,127 @@ extension on _StringsJa {
       case 'update_channel_stable':
         return '安定版';
       case 'anki_connect_host':
-        return 'Host';
+        return 'ホスト';
       case 'anki_connect_port':
-        return 'Port';
+        return 'ポート';
       case 'sync_compare':
-        return 'Compare Data';
+        return 'データを比較';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return 'ローカルとリモート';
       case 'sync_compare_local':
-        return 'Local';
+        return 'ローカル';
       case 'sync_compare_remote':
-        return 'Remote';
+        return 'リモート';
       case 'sync_compare_no_data':
-        return 'No data';
+        return 'データなし';
       case 'sync_compare_empty':
-        return 'No books found';
+        return '書籍が見つかりません';
       case 'sync_compare_days':
-        return 'days';
+        return '日';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return '競合';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return 'すべての書籍';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return 'すべて選択';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return 'すべて → ローカル';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return 'すべて → リモート';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return 'すべて → スキップ';
       case 'sync_compare_use_local':
-        return 'Local';
+        return 'ローカル';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return 'リモート';
       case 'sync_compare_skip':
-        return 'Skip';
+        return 'スキップ';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => '${count}件の変更を適用しました';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => '適用 (${count})';
       case 'sync_auto_sync':
-        return 'Auto Sync';
+        return '自動同期';
       case 'sync_auto_complete':
         return ({required Object direction, required Object title}) =>
-            'Sync: ${direction} ${title}';
+            '同期: ${direction} ${title}';
       case 'no_matching_audio_cue':
-        return 'No matching audio for this sentence';
+        return 'この文に対応する音声がありません';
       case 'sync_exit_warning_title':
-        return 'Sync In Progress';
+        return '同期中';
       case 'sync_exit_warning':
-        return 'Sync is still in progress. Exiting now may cause data loss.';
+        return '同期がまだ進行中です。今終了するとデータが失われる可能性があります。';
       case 'sync_content':
-        return 'Sync book files';
+        return '書籍ファイルを同期';
       case 'sync_content_warning':
-        return 'Large files will use storage space and data';
+        return '大きなファイルはストレージと通信量を消費します';
       case 'sync_backend':
-        return 'Storage backend';
+        return 'ストレージバックエンド';
       case 'sync_backend_google_drive':
         return 'Google Drive';
       case 'sync_backend_webdav':
         return 'WebDAV';
       case 'sync_webdav_url':
-        return 'Server URL';
+        return 'サーバーURL';
       case 'sync_webdav_username':
-        return 'Username';
+        return 'ユーザー名';
       case 'sync_webdav_password':
-        return 'Password';
+        return 'パスワード';
       case 'sync_webdav_test':
-        return 'Test connection';
+        return '接続テスト';
       case 'sync_webdav_test_success':
-        return 'Connection successful';
+        return '接続に成功しました';
       case 'sync_webdav_test_failed':
-        return ({required Object message}) => 'Connection failed: ${message}';
+        return ({required Object message}) => '接続に失敗しました: ${message}';
       case 'book_file_not_found':
-        return 'Book file not found';
+        return '書籍ファイルが見つかりません';
       case 'epub_parse_fallback':
-        return 'Book metadata repaired from database';
+        return 'データベースから書籍情報を復元しました';
       case 'retry':
-        return 'Retry';
+        return '再試行';
       case 'copy_error':
-        return 'Copy Error';
+        return 'エラーをコピー';
       case 'error_copied':
-        return 'Error copied to clipboard';
+        return 'エラーをクリップボードにコピーしました';
       case 'dict_import_failed_summary':
-        return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+        return ({required Object n}) => '${n}件の辞書のインポートに失敗しました';
       case 'reader_content_timeout':
-        return 'Content loading timed out. Reopen if display is abnormal';
+        return 'コンテンツの読み込みがタイムアウトしました。表示が異常な場合は開き直してください';
       case 'backup_local':
-        return 'Local Backup';
+        return 'ローカルバックアップ';
       case 'backup_export':
-        return 'Export Backup';
+        return 'バックアップを書き出す';
       case 'backup_export_hint':
-        return 'Save all settings, reading progress, and statistics to a file';
+        return 'すべての設定・読書進捗・統計をファイルに保存します';
       case 'backup_import':
-        return 'Import Backup';
+        return 'バックアップを読み込む';
       case 'backup_import_hint':
-        return 'Restore from a backup file. The app will restart.';
+        return 'バックアップファイルから復元します。アプリが再起動します。';
       case 'backup_export_success':
-        return 'Backup exported successfully';
+        return 'バックアップを書き出しました';
       case 'backup_export_failed':
-        return ({required Object message}) =>
-            'Backup export failed: ${message}';
+        return ({required Object message}) => 'バックアップの書き出しに失敗しました: ${message}';
       case 'backup_import_confirm_title':
-        return 'Restore Backup?';
+        return 'バックアップを復元しますか？';
       case 'backup_import_confirm':
         return (
                 {required Object date,
                 required Object bookCount,
                 required Object statsCount}) =>
-            'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+            '現在のすべてのデータが${date}のバックアップで置き換えられます。\n\n書籍${bookCount}冊、統計${statsCount}件。\n\n復元後にアプリが再起動します。';
       case 'backup_import_success':
-        return 'Backup restored. Restarting…';
+        return 'バックアップを復元しました。再起動中…';
       case 'backup_import_failed':
-        return ({required Object message}) =>
-            'Backup import failed: ${message}';
+        return ({required Object message}) => 'バックアップの読み込みに失敗しました: ${message}';
       case 'backup_import_invalid':
-        return 'Invalid backup file';
+        return '無効なバックアップファイルです';
       case 'backup_exporting':
-        return 'Creating backup…';
+        return 'バックアップを作成中…';
       case 'backup_schema_newer':
         return ({required Object version}) =>
-            'This backup requires a newer version of the app (schema ${version}). Please update first.';
+            'このバックアップには新しいバージョンのアプリが必要です（スキーマ ${version}）。先にアップデートしてください。';
       case 'reverse_navigation_bar':
-        return 'Reverse navigation bar';
+        return 'ナビゲーションバーを反転';
       case 'sync_backend_onedrive':
         return 'OneDrive';
       case 'sync_backend_dropbox':
@@ -65816,290 +66763,325 @@ extension on _StringsJa {
       case 'sync_backend_hibiki_server':
         return 'Hibiki P2P';
       case 'sync_server_enable':
-        return 'Enable sync server';
+        return '同期サーバーを有効化';
       case 'sync_server_port':
-        return 'Server port';
+        return 'サーバーポート';
       case 'sync_server_token':
-        return 'Access token';
+        return 'アクセストークン';
       case 'sync_server_copy_token':
-        return 'Copy token';
+        return 'トークンをコピー';
       case 'sync_server_regenerate_token':
-        return 'Regenerate token';
+        return 'トークンを再生成';
       case 'sync_server_running':
-        return 'Server running';
+        return 'サーバー稼働中';
       case 'sync_server_stopped':
-        return 'Server stopped';
+        return 'サーバー停止中';
       case 'sync_lan_discovery':
-        return 'LAN devices';
+        return 'LAN内のデバイス';
       case 'sync_lan_scanning':
-        return 'Scanning...';
+        return 'スキャン中...';
       case 'sync_lan_no_devices':
-        return 'No devices found';
+        return 'デバイスが見つかりません';
       case 'sync_fallback_config':
-        return 'Fallback order';
+        return 'フォールバック順序';
       case 'sync_test_connection':
-        return 'Test connection';
+        return '接続テスト';
       case 'sync_connection_success':
-        return 'Connection successful';
+        return '接続に成功しました';
       case 'sync_connection_failed':
-        return 'Connection failed';
+        return '接続に失敗しました';
       case 'sync_host':
-        return 'Host';
+        return 'ホスト';
       case 'sync_port':
-        return 'Port';
+        return 'ポート';
       case 'sync_username':
-        return 'Username';
+        return 'ユーザー名';
       case 'sync_password':
-        return 'Password';
+        return 'パスワード';
       case 'sync_use_tls':
-        return 'Use TLS';
+        return 'TLSを使用';
       case 'sync_private_key':
-        return 'Private key';
+        return '秘密鍵';
       case 'skip_action':
-        return 'Skip Action';
+        return 'アクションをスキップ';
       case 'skip_action_sentence':
-        return '1 sentence';
+        return '1文';
       case 'skip_action_seconds':
         return ({required Object n}) => '${n} 秒';
       case 'shortcut_settings_title':
-        return 'Keyboard Shortcuts';
+        return 'キーボードショートカット';
       case 'shortcut_scope_reader':
-        return 'Reader';
+        return 'リーダー';
       case 'shortcut_scope_home':
-        return 'Home';
+        return 'ホーム';
       case 'shortcut_scope_global':
-        return 'Global';
+        return 'グローバル';
       case 'shortcut_scope_audiobook':
-        return 'Audiobook';
+        return 'オーディオブック';
       case 'shortcut_action_reader_page_forward':
-        return 'Next Page';
+        return '次のページ';
       case 'shortcut_action_reader_page_backward':
-        return 'Previous Page';
+        return '前のページ';
       case 'shortcut_action_reader_toggle_chrome':
-        return 'Toggle Controls';
+        return 'コントロールの表示切替';
       case 'shortcut_action_reader_dismiss_dict':
-        return 'Dismiss Dictionary';
+        return '辞書を閉じる';
       case 'shortcut_action_reader_toggle_bookmark':
-        return 'Toggle Bookmark';
+        return 'ブックマークの切替';
       case 'shortcut_action_home_tab_books':
-        return 'Books Tab';
+        return '書籍タブ';
       case 'shortcut_action_home_tab_dict':
-        return 'Dictionary Tab';
+        return '辞書タブ';
       case 'shortcut_action_home_tab_settings':
-        return 'Settings Tab';
+        return '設定タブ';
       case 'shortcut_action_home_focus_search':
-        return 'Focus Search';
+        return '検索にフォーカス';
       case 'shortcut_action_global_back':
-        return 'Go Back';
+        return '戻る';
       case 'shortcut_action_audiobook_play_pause':
-        return 'Play / Pause';
+        return '再生 / 一時停止';
       case 'shortcut_action_audiobook_next_sentence':
-        return 'Next Sentence';
+        return '次の文';
       case 'shortcut_action_audiobook_prev_sentence':
-        return 'Previous Sentence';
+        return '前の文';
       case 'shortcut_press_key':
-        return 'Press a key combination...';
+        return 'キーの組み合わせを押してください...';
       case 'shortcut_press_gamepad':
-        return 'Press a gamepad button...';
+        return 'ゲームパッドのボタンを押してください...';
       case 'shortcut_conflict':
-        return ({required Object s}) => 'Already used by: ${s}';
+        return ({required Object s}) => '既に使用中: ${s}';
       case 'shortcut_reset_defaults':
-        return 'Reset to Defaults';
+        return 'デフォルトに戻す';
       case 'shortcut_reset_confirm':
-        return 'Reset all shortcuts in this section to defaults?';
+        return 'このセクションのすべてのショートカットをデフォルトに戻しますか？';
       case 'shortcut_keyboard':
-        return 'Keyboard';
+        return 'キーボード';
       case 'shortcut_gamepad':
-        return 'Gamepad';
+        return 'ゲームパッド';
       case 'shortcut_none':
-        return 'None';
+        return 'なし';
       case 'shortcut_clear':
-        return 'Clear';
+        return 'クリア';
       case 'shortcut_stop_capture':
-        return 'Stop';
+        return '停止';
       case 'section_advanced_typography':
-        return 'Advanced';
+        return '詳細設定';
       case 'sync_err_network':
-        return 'Cannot reach the server — check your network or proxy settings.';
+        return 'サーバーに接続できません — ネットワークやプロキシ設定を確認してください。';
       case 'sync_err_timeout':
-        return 'Connection timed out — the server did not respond in time.';
+        return '接続がタイムアウトしました — サーバーが時間内に応答しませんでした。';
       case 'sync_err_quota':
-        return 'Cloud storage is full (quota reached).';
+        return 'クラウドストレージの容量がいっぱいです（上限に達しました）。';
       case 'sync_err_auth_expired':
-        return 'Sign-in expired — please sign in again.';
+        return 'サインインの有効期限が切れました — もう一度サインインしてください。';
       case 'sync_server_port_in_use':
         return ({required Object port}) =>
-            'Port ${port} is already in use — pick a different port.';
+            'ポート ${port} は既に使用中です — 別のポートを選んでください。';
       case 'sync_lan_scan_failed':
-        return 'Scan failed — check network permissions or firewall.';
+        return 'スキャンに失敗しました — ネットワーク権限やファイアウォールを確認してください。';
       case 'sync_section_method':
-        return 'Sync method';
+        return '同期方法';
       case 'sync_section_host_server':
-        return 'This device as a sync server';
+        return 'このデバイスを同期サーバーにする';
       case 'sync_section_host_server_footer':
-        return 'Let other devices sync from this device. Independent of the sync backend above.';
+        return '他のデバイスがこのデバイスから同期できるようにします。上記の同期バックエンドとは独立しています。';
       case 'sync_section_content':
-        return 'What to sync';
+        return '同期する内容';
       case 'sync_section_actions':
-        return 'Sync actions';
+        return '同期操作';
       case 'sync_section_backup':
-        return 'Local backup';
+        return 'ローカルバックアップ';
       case 'backup_import_preserve_sync_note':
-        return 'Your sync settings on this device (account and credentials) will be kept.';
+        return 'このデバイスの同期設定（アカウントと認証情報）は保持されます。';
       case 'backup_import_settings_toggle':
-        return 'Import settings & profiles';
+        return '設定とプロファイルをインポート';
       case 'backup_import_settings_on_hint':
-        return 'Full restore: fonts, appearance and profiles come from the backup.';
+        return '完全復元: フォント・外観・プロファイルをバックアップから復元します。';
       case 'backup_import_settings_off_hint':
-        return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+        return 'このデバイスのフォント・外観・プロファイルを保持し、書籍と読書データのみ復元します。';
       case 'reader_unsupported_platform':
-        return 'The reader is not yet available on this platform.';
+        return 'リーダーはこのプラットフォームではまだ利用できません。';
       case 'microphone_permission_denied':
-        return 'Microphone permission is required to record.';
+        return '録音にはマイクの権限が必要です。';
       case 'anki_connect_api_key':
-        return 'API Key';
+        return 'APIキー';
       case 'anki_connect_api_key_hint':
-        return 'Leave empty unless AnkiConnect requires a key';
+        return 'AnkiConnectがキーを必要とする場合以外は空欄のままにしてください';
       case 'shortcut_action_global_scroll_page_down':
-        return 'Scroll down one screen';
+        return '1画面分下にスクロール';
       case 'shortcut_action_global_scroll_page_up':
-        return 'Scroll up one screen';
+        return '1画面分上にスクロール';
       case 'shortcut_action_home_tab_prev':
-        return 'Previous tab';
+        return '前のタブ';
       case 'shortcut_action_home_tab_next':
-        return 'Next tab';
+        return '次のタブ';
       case 'move_up':
-        return 'Move up';
+        return '上に移動';
       case 'move_down':
-        return 'Move down';
+        return '下に移動';
       case 'shortcut_action_reader_toggle_furigana':
-        return 'Toggle furigana';
+        return 'ふりがなの切替';
       case 'on_screen_keyboard':
-        return 'On-screen keyboard';
+        return 'オンスクリーンキーボード';
       case 'app_ui_scale':
-        return 'UI size';
+        return 'UIサイズ';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
       case 'sync_dictionary':
-        return 'Sync dictionaries';
+        return '辞書を同期';
       case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
+        return '辞書パッケージは大きくなることがあり、インポートした辞書リソースを含みます。';
       case 'settings_destination_reading':
-        return 'Reading';
+        return '読書';
       case 'remote_dict_lookup':
-        return 'Remote dictionary lookup';
+        return 'リモート辞書検索';
       case 'remote_dict_lookup_hint':
-        return 'When local dictionaries miss, query the configured Hibiki server';
+        return 'ローカル辞書でヒットしない場合、設定したHibikiサーバーに問い合わせます';
       case 'remote_audio_source':
-        return 'Remote audio';
+        return 'リモート音声';
       case 'sync_pair_success':
-        return 'Paired — token filled in';
+        return 'ペアリング完了 — トークンを入力しました';
       case 'sync_pair_failed':
-        return 'Pairing failed';
+        return 'ペアリングに失敗しました';
       case 'audio_source_hibiki_interconnect':
         return 'Hibiki P2P';
       case 'audio_sources_remote_group':
-        return 'Remote sources';
+        return 'リモートソース';
       case 'audio_source_url_invalid':
-        return 'Link must be http(s) and contain a term or reading placeholder';
+        return 'リンクはhttp(s)で、見出し語または読みのプレースホルダーを含む必要があります';
       case 'audio_source_added':
-        return 'Audio source added';
+        return '音声ソースを追加しました';
       case 'local_audio_imported':
-        return 'Audio database added';
+        return '音声データベースを追加しました';
       case 'local_audio_import_failed':
-        return 'Failed to import audio database';
+        return '音声データベースのインポートに失敗しました';
       case 'local_audio_edit_sources':
-        return 'Edit sources';
+        return 'ソースを編集';
       case 'local_audio_source_order_title':
-        return 'Source priority';
+        return 'ソースの優先順位';
       case 'local_audio_no_sources':
-        return 'No sources found in this database';
+        return 'このデータベースにソースが見つかりません';
       case 'sync_pair_request_title':
-        return 'Pairing request';
+        return 'ペアリング要求';
       case 'sync_pair_request_body':
-        return 'A device is requesting to pair. Allow it to sync with this device?';
+        return 'デバイスがペアリングを要求しています。このデバイスとの同期を許可しますか？';
       case 'sync_pair_allow':
-        return 'Allow';
+        return '許可';
       case 'sync_pair_deny':
-        return 'Deny';
+        return '拒否';
       case 'sync_pair_denied':
-        return 'The other device declined pairing';
+        return '相手のデバイスがペアリングを拒否しました';
       case 'sync_pair_unknown_device':
-        return 'Unknown device';
+        return '不明なデバイス';
       case 'sync_pair_unavailable':
-        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+        return '相手のデバイスが準備できていないか、古いバージョンです。アップデートして同期を有効にしてから、もう一度お試しください。';
       case 'sync_role_locked_by_server':
-        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+        return 'このデバイスはサーバーとして動作中です。他のデバイスに接続する前にサーバーをオフにしてください。';
       case 'sync_role_locked_by_client':
-        return 'Already connected to another device. Remove the connection before hosting as a server.';
+        return '既に別のデバイスに接続しています。サーバーとして動作する前に接続を解除してください。';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
       case 'sync_audiobook_files':
-        return 'Sync audiobook files';
+        return 'オーディオブックファイルを同期';
       case 'sync_audiobook_files_warning':
-        return 'Audio and subtitles can be large.';
+        return '音声と字幕は大きくなることがあります。';
       case 'book_import_duplicate_title':
-        return 'Duplicate book';
+        return '重複した書籍';
       case 'book_import_duplicate_keep':
-        return 'Yes, add suffix';
+        return 'はい、接尾辞を付ける';
       case 'book_import_duplicate_cancel':
-        return 'No, cancel';
+        return 'いいえ、キャンセル';
       case 'book_import_duplicate_cancelled':
-        return 'Import cancelled';
+        return 'インポートをキャンセルしました';
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
-            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+            '「${name}」という書籍は既に存在します。それでもインポートしますか？「はい」で連番の接尾辞を付けてインポート、「いいえ」でキャンセルします。';
       case 'reverse_reader_bottom_bar':
-        return 'Reverse reader bottom bar';
+        return 'リーダーの下部バーを反転';
       case 'floating_dict_close':
-        return 'Close';
+        return '閉じる';
       case 'debug_log_share_subject':
-        return 'hibiki Debug Log';
+        return 'hibiki デバッグログ';
       case 'spread_direction_rtl':
-        return 'Right to Left';
+        return '右から左';
       case 'spread_direction_ltr':
-        return 'Left to Right';
+        return '左から右';
       case 'dict_download_partial':
         return (
                 {required Object success,
                 required Object total,
                 required Object error}) =>
-            '${success} / ${total} OK. Failed: ${error}';
+            '${success} / ${total} 成功。失敗: ${error}';
       case 'sync_now':
-        return 'Sync now';
+        return '今すぐ同期';
       case 'sync_now_hint':
-        return 'Run a full two-way sync with the cloud now';
+        return '今すぐクラウドと双方向の完全同期を実行します';
       case 'sync_now_busy':
-        return 'A sync is already running';
+        return '既に同期が実行中です';
       case 'sync_now_no_changes':
-        return 'no changes';
+        return '変更なし';
       case 'sync_now_done':
-        return ({required Object detail}) => 'Synced · ${detail}';
+        return ({required Object detail}) => '同期完了 · ${detail}';
       case 'sync_now_failed_suffix':
-        return ({required Object count}) => ' · ${count} failed';
+        return ({required Object count}) => ' · ${count}件失敗';
       case 'sync_now_books_in':
-        return ({required Object count}) => '↓${count} books';
+        return ({required Object count}) => '↓${count}冊の書籍';
       case 'sync_now_dicts_in':
-        return ({required Object count}) => '↓${count} dictionaries';
+        return ({required Object count}) => '↓${count}件の辞書';
       case 'sync_now_dicts_out':
-        return ({required Object count}) => '↑${count} dictionaries';
+        return ({required Object count}) => '↑${count}件の辞書';
       case 'sync_now_audio_in':
-        return ({required Object count}) => '↓${count} audiobooks';
+        return ({required Object count}) => '↓${count}件のオーディオブック';
       case 'sync_now_audio_out':
-        return ({required Object count}) => '↑${count} audiobooks';
+        return ({required Object count}) => '↑${count}件のオーディオブック';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return '辞書';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return 'リモートの書籍を削除';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return 'リモートのオーディオブックを削除';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return 'リモートの辞書を削除';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return 'リモートから削除しました';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            '「${name}」をリモートから削除しますか？ローカルのデータは保持されます。この操作は取り消せません。';
+      case 'dictionaries_delete_failed':
+        return '辞書の削除に失敗しました';
+      case 'dictionary_delete_failed':
+        return '辞書の削除に失敗しました';
+      case 'sync_webdav_missing_fields':
+        return '未入力の項目があります';
+      case 'sync_compare_download':
+        return 'ダウンロード';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -67214,7 +68196,7 @@ extension on _StringsKo {
       case 'ttu_scroll':
         return '스크롤';
       case 'ttu_furigana_mode':
-        return 'Furigana';
+        return '후리가나';
       case 'ttu_furigana_show':
         return '표시';
       case 'ttu_furigana_hide':
@@ -68186,7 +69168,7 @@ extension on _StringsKo {
       case 'sync_statistics':
         return '통계 동기화';
       case 'sync_summary':
-        return 'Google Drive · ッツ/Hoshi Reader 호환';
+        return '클라우드, LAN P2P 및 로컬 백업 · ッツ/Hoshi Reader 호환';
       case 'sync_title':
         return '동기화';
       case 'update_channel_beta':
@@ -68196,129 +69178,127 @@ extension on _StringsKo {
       case 'update_channel_stable':
         return '안정';
       case 'anki_connect_host':
-        return 'Host';
+        return '호스트';
       case 'anki_connect_port':
-        return 'Port';
+        return '포트';
       case 'sync_compare':
-        return 'Compare Data';
+        return '데이터 비교';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return '로컬 vs 원격';
       case 'sync_compare_local':
-        return 'Local';
+        return '로컬';
       case 'sync_compare_remote':
-        return 'Remote';
+        return '원격';
       case 'sync_compare_no_data':
-        return 'No data';
+        return '데이터 없음';
       case 'sync_compare_empty':
-        return 'No books found';
+        return '책을 찾을 수 없음';
       case 'sync_compare_days':
-        return 'days';
+        return '일';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return '충돌';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return '모든 책';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return '모두 선택';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return '모두 → 로컬';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return '모두 → 원격';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return '모두 → 건너뛰기';
       case 'sync_compare_use_local':
-        return 'Local';
+        return '로컬';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return '원격';
       case 'sync_compare_skip':
-        return 'Skip';
+        return '건너뛰기';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => '변경 사항 ${count}개 적용됨';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => '적용 (${count})';
       case 'sync_auto_sync':
-        return 'Auto Sync';
+        return '자동 동기화';
       case 'sync_auto_complete':
         return ({required Object direction, required Object title}) =>
-            'Sync: ${direction} ${title}';
+            '동기화: ${direction} ${title}';
       case 'no_matching_audio_cue':
-        return 'No matching audio for this sentence';
+        return '이 문장에 일치하는 오디오 없음';
       case 'sync_exit_warning_title':
-        return 'Sync In Progress';
+        return '동기화 진행 중';
       case 'sync_exit_warning':
-        return 'Sync is still in progress. Exiting now may cause data loss.';
+        return '동기화가 아직 진행 중입니다. 지금 종료하면 데이터가 손실될 수 있습니다.';
       case 'sync_content':
-        return 'Sync book files';
+        return '책 파일 동기화';
       case 'sync_content_warning':
-        return 'Large files will use storage space and data';
+        return '큰 파일은 저장 공간과 데이터를 사용합니다';
       case 'sync_backend':
-        return 'Storage backend';
+        return '저장소 백엔드';
       case 'sync_backend_google_drive':
         return 'Google Drive';
       case 'sync_backend_webdav':
         return 'WebDAV';
       case 'sync_webdav_url':
-        return 'Server URL';
+        return '서버 URL';
       case 'sync_webdav_username':
-        return 'Username';
+        return '사용자 이름';
       case 'sync_webdav_password':
-        return 'Password';
+        return '비밀번호';
       case 'sync_webdav_test':
-        return 'Test connection';
+        return '연결 테스트';
       case 'sync_webdav_test_success':
-        return 'Connection successful';
+        return '연결 성공';
       case 'sync_webdav_test_failed':
-        return ({required Object message}) => 'Connection failed: ${message}';
+        return ({required Object message}) => '연결 실패: ${message}';
       case 'book_file_not_found':
-        return 'Book file not found';
+        return '책 파일을 찾을 수 없음';
       case 'epub_parse_fallback':
-        return 'Book metadata repaired from database';
+        return '데이터베이스에서 책 메타데이터를 복구했습니다';
       case 'retry':
-        return 'Retry';
+        return '다시 시도';
       case 'copy_error':
-        return 'Copy Error';
+        return '오류 복사';
       case 'error_copied':
-        return 'Error copied to clipboard';
+        return '오류가 클립보드에 복사됨';
       case 'dict_import_failed_summary':
-        return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+        return ({required Object n}) => '사전 ${n}개 가져오기 실패';
       case 'reader_content_timeout':
-        return 'Content loading timed out. Reopen if display is abnormal';
+        return '콘텐츠 로딩 시간이 초과되었습니다. 표시가 비정상이면 다시 열어 주세요';
       case 'backup_local':
-        return 'Local Backup';
+        return '로컬 백업';
       case 'backup_export':
-        return 'Export Backup';
+        return '백업 내보내기';
       case 'backup_export_hint':
-        return 'Save all settings, reading progress, and statistics to a file';
+        return '모든 설정, 읽기 진행 상황, 통계를 파일로 저장합니다';
       case 'backup_import':
-        return 'Import Backup';
+        return '백업 가져오기';
       case 'backup_import_hint':
-        return 'Restore from a backup file. The app will restart.';
+        return '백업 파일에서 복원합니다. 앱이 다시 시작됩니다.';
       case 'backup_export_success':
-        return 'Backup exported successfully';
+        return '백업을 내보냈습니다';
       case 'backup_export_failed':
-        return ({required Object message}) =>
-            'Backup export failed: ${message}';
+        return ({required Object message}) => '백업 내보내기 실패: ${message}';
       case 'backup_import_confirm_title':
-        return 'Restore Backup?';
+        return '백업을 복원할까요?';
       case 'backup_import_confirm':
         return (
                 {required Object date,
                 required Object bookCount,
                 required Object statsCount}) =>
-            'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+            '현재 모든 데이터가 ${date} 백업으로 대체됩니다.\n\n책 ${bookCount}권, 통계 기록 ${statsCount}개.\n\n복원 후 앱이 다시 시작됩니다.';
       case 'backup_import_success':
-        return 'Backup restored. Restarting…';
+        return '백업을 복원했습니다. 다시 시작 중…';
       case 'backup_import_failed':
-        return ({required Object message}) =>
-            'Backup import failed: ${message}';
+        return ({required Object message}) => '백업 가져오기 실패: ${message}';
       case 'backup_import_invalid':
-        return 'Invalid backup file';
+        return '잘못된 백업 파일';
       case 'backup_exporting':
-        return 'Creating backup…';
+        return '백업 생성 중…';
       case 'backup_schema_newer':
         return ({required Object version}) =>
-            'This backup requires a newer version of the app (schema ${version}). Please update first.';
+            '이 백업에는 더 새로운 버전의 앱이 필요합니다 (스키마 ${version}). 먼저 업데이트해 주세요.';
       case 'reverse_navigation_bar':
-        return 'Reverse navigation bar';
+        return '내비게이션 바 반전';
       case 'sync_backend_onedrive':
         return 'OneDrive';
       case 'sync_backend_dropbox':
@@ -68330,290 +69310,325 @@ extension on _StringsKo {
       case 'sync_backend_hibiki_server':
         return 'Hibiki P2P';
       case 'sync_server_enable':
-        return 'Enable sync server';
+        return '동기화 서버 사용';
       case 'sync_server_port':
-        return 'Server port';
+        return '서버 포트';
       case 'sync_server_token':
-        return 'Access token';
+        return '액세스 토큰';
       case 'sync_server_copy_token':
-        return 'Copy token';
+        return '토큰 복사';
       case 'sync_server_regenerate_token':
-        return 'Regenerate token';
+        return '토큰 재생성';
       case 'sync_server_running':
-        return 'Server running';
+        return '서버 실행 중';
       case 'sync_server_stopped':
-        return 'Server stopped';
+        return '서버 중지됨';
       case 'sync_lan_discovery':
-        return 'LAN devices';
+        return 'LAN 기기';
       case 'sync_lan_scanning':
-        return 'Scanning...';
+        return '검색 중...';
       case 'sync_lan_no_devices':
-        return 'No devices found';
+        return '기기를 찾을 수 없음';
       case 'sync_fallback_config':
-        return 'Fallback order';
+        return '대체 순서';
       case 'sync_test_connection':
-        return 'Test connection';
+        return '연결 테스트';
       case 'sync_connection_success':
-        return 'Connection successful';
+        return '연결 성공';
       case 'sync_connection_failed':
-        return 'Connection failed';
+        return '연결 실패';
       case 'sync_host':
-        return 'Host';
+        return '호스트';
       case 'sync_port':
-        return 'Port';
+        return '포트';
       case 'sync_username':
-        return 'Username';
+        return '사용자 이름';
       case 'sync_password':
-        return 'Password';
+        return '비밀번호';
       case 'sync_use_tls':
-        return 'Use TLS';
+        return 'TLS 사용';
       case 'sync_private_key':
-        return 'Private key';
+        return '개인 키';
       case 'skip_action':
-        return 'Skip Action';
+        return '동작 건너뛰기';
       case 'skip_action_sentence':
-        return '1 sentence';
+        return '1문장';
       case 'skip_action_seconds':
         return ({required Object n}) => '${n} 秒';
       case 'shortcut_settings_title':
-        return 'Keyboard Shortcuts';
+        return '키보드 단축키';
       case 'shortcut_scope_reader':
-        return 'Reader';
+        return '리더';
       case 'shortcut_scope_home':
-        return 'Home';
+        return '홈';
       case 'shortcut_scope_global':
-        return 'Global';
+        return '전역';
       case 'shortcut_scope_audiobook':
-        return 'Audiobook';
+        return '오디오북';
       case 'shortcut_action_reader_page_forward':
-        return 'Next Page';
+        return '다음 페이지';
       case 'shortcut_action_reader_page_backward':
-        return 'Previous Page';
+        return '이전 페이지';
       case 'shortcut_action_reader_toggle_chrome':
-        return 'Toggle Controls';
+        return '컨트롤 전환';
       case 'shortcut_action_reader_dismiss_dict':
-        return 'Dismiss Dictionary';
+        return '사전 닫기';
       case 'shortcut_action_reader_toggle_bookmark':
-        return 'Toggle Bookmark';
+        return '북마크 전환';
       case 'shortcut_action_home_tab_books':
-        return 'Books Tab';
+        return '책 탭';
       case 'shortcut_action_home_tab_dict':
-        return 'Dictionary Tab';
+        return '사전 탭';
       case 'shortcut_action_home_tab_settings':
-        return 'Settings Tab';
+        return '설정 탭';
       case 'shortcut_action_home_focus_search':
-        return 'Focus Search';
+        return '검색 포커스';
       case 'shortcut_action_global_back':
-        return 'Go Back';
+        return '뒤로 가기';
       case 'shortcut_action_audiobook_play_pause':
-        return 'Play / Pause';
+        return '재생 / 일시정지';
       case 'shortcut_action_audiobook_next_sentence':
-        return 'Next Sentence';
+        return '다음 문장';
       case 'shortcut_action_audiobook_prev_sentence':
-        return 'Previous Sentence';
+        return '이전 문장';
       case 'shortcut_press_key':
-        return 'Press a key combination...';
+        return '키 조합을 누르세요...';
       case 'shortcut_press_gamepad':
-        return 'Press a gamepad button...';
+        return '게임패드 버튼을 누르세요...';
       case 'shortcut_conflict':
-        return ({required Object s}) => 'Already used by: ${s}';
+        return ({required Object s}) => '이미 사용 중: ${s}';
       case 'shortcut_reset_defaults':
-        return 'Reset to Defaults';
+        return '기본값으로 초기화';
       case 'shortcut_reset_confirm':
-        return 'Reset all shortcuts in this section to defaults?';
+        return '이 섹션의 모든 단축키를 기본값으로 초기화할까요?';
       case 'shortcut_keyboard':
-        return 'Keyboard';
+        return '키보드';
       case 'shortcut_gamepad':
-        return 'Gamepad';
+        return '게임패드';
       case 'shortcut_none':
-        return 'None';
+        return '없음';
       case 'shortcut_clear':
-        return 'Clear';
+        return '지우기';
       case 'shortcut_stop_capture':
-        return 'Stop';
+        return '중지';
       case 'section_advanced_typography':
-        return 'Advanced';
+        return '고급';
       case 'sync_err_network':
-        return 'Cannot reach the server — check your network or proxy settings.';
+        return '서버에 연결할 수 없습니다 — 네트워크 또는 프록시 설정을 확인하세요.';
       case 'sync_err_timeout':
-        return 'Connection timed out — the server did not respond in time.';
+        return '연결 시간 초과 — 서버가 제때 응답하지 않았습니다.';
       case 'sync_err_quota':
-        return 'Cloud storage is full (quota reached).';
+        return '클라우드 저장소가 가득 찼습니다 (할당량 초과).';
       case 'sync_err_auth_expired':
-        return 'Sign-in expired — please sign in again.';
+        return '로그인이 만료되었습니다 — 다시 로그인해 주세요.';
       case 'sync_server_port_in_use':
         return ({required Object port}) =>
-            'Port ${port} is already in use — pick a different port.';
+            '포트 ${port}가 이미 사용 중입니다 — 다른 포트를 선택하세요.';
       case 'sync_lan_scan_failed':
-        return 'Scan failed — check network permissions or firewall.';
+        return '검색 실패 — 네트워크 권한 또는 방화벽을 확인하세요.';
       case 'sync_section_method':
-        return 'Sync method';
+        return '동기화 방식';
       case 'sync_section_host_server':
-        return 'This device as a sync server';
+        return '이 기기를 동기화 서버로 사용';
       case 'sync_section_host_server_footer':
-        return 'Let other devices sync from this device. Independent of the sync backend above.';
+        return '다른 기기가 이 기기에서 동기화하도록 허용합니다. 위의 동기화 백엔드와 무관합니다.';
       case 'sync_section_content':
-        return 'What to sync';
+        return '동기화 항목';
       case 'sync_section_actions':
-        return 'Sync actions';
+        return '동기화 작업';
       case 'sync_section_backup':
-        return 'Local backup';
+        return '로컬 백업';
       case 'backup_import_preserve_sync_note':
-        return 'Your sync settings on this device (account and credentials) will be kept.';
+        return '이 기기의 동기화 설정(계정 및 자격 증명)은 유지됩니다.';
       case 'backup_import_settings_toggle':
-        return 'Import settings & profiles';
+        return '설정 및 프로필 가져오기';
       case 'backup_import_settings_on_hint':
-        return 'Full restore: fonts, appearance and profiles come from the backup.';
+        return '전체 복원: 글꼴, 외관, 프로필을 백업에서 가져옵니다.';
       case 'backup_import_settings_off_hint':
-        return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+        return '이 기기의 글꼴/외관/프로필을 유지하고 책 및 읽기 데이터만 복원합니다.';
       case 'reader_unsupported_platform':
-        return 'The reader is not yet available on this platform.';
+        return '이 플랫폼에서는 아직 리더를 사용할 수 없습니다.';
       case 'microphone_permission_denied':
-        return 'Microphone permission is required to record.';
+        return '녹음하려면 마이크 권한이 필요합니다.';
       case 'anki_connect_api_key':
-        return 'API Key';
+        return 'API 키';
       case 'anki_connect_api_key_hint':
-        return 'Leave empty unless AnkiConnect requires a key';
+        return 'AnkiConnect에 키가 필요하지 않으면 비워 두세요';
       case 'shortcut_action_global_scroll_page_down':
-        return 'Scroll down one screen';
+        return '한 화면 아래로 스크롤';
       case 'shortcut_action_global_scroll_page_up':
-        return 'Scroll up one screen';
+        return '한 화면 위로 스크롤';
       case 'shortcut_action_home_tab_prev':
-        return 'Previous tab';
+        return '이전 탭';
       case 'shortcut_action_home_tab_next':
-        return 'Next tab';
+        return '다음 탭';
       case 'move_up':
-        return 'Move up';
+        return '위로 이동';
       case 'move_down':
-        return 'Move down';
+        return '아래로 이동';
       case 'shortcut_action_reader_toggle_furigana':
-        return 'Toggle furigana';
+        return '후리가나 전환';
       case 'on_screen_keyboard':
-        return 'On-screen keyboard';
+        return '화면 키보드';
       case 'app_ui_scale':
-        return 'UI size';
+        return 'UI 크기';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
       case 'sync_dictionary':
-        return 'Sync dictionaries';
+        return '사전 동기화';
       case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
+        return '사전 패키지는 용량이 클 수 있으며 가져온 사전 리소스를 포함합니다.';
       case 'settings_destination_reading':
-        return 'Reading';
+        return '읽기';
       case 'remote_dict_lookup':
-        return 'Remote dictionary lookup';
+        return '원격 사전 검색';
       case 'remote_dict_lookup_hint':
-        return 'When local dictionaries miss, query the configured Hibiki server';
+        return '로컬 사전에 없을 때 설정된 Hibiki 서버에 질의합니다';
       case 'remote_audio_source':
-        return 'Remote audio';
+        return '원격 오디오';
       case 'sync_pair_success':
-        return 'Paired — token filled in';
+        return '페어링 완료 — 토큰이 입력되었습니다';
       case 'sync_pair_failed':
-        return 'Pairing failed';
+        return '페어링 실패';
       case 'audio_source_hibiki_interconnect':
         return 'Hibiki P2P';
       case 'audio_sources_remote_group':
-        return 'Remote sources';
+        return '원격 소스';
       case 'audio_source_url_invalid':
-        return 'Link must be http(s) and contain a term or reading placeholder';
+        return '링크는 http(s)여야 하며 단어 또는 읽기 자리표시자를 포함해야 합니다';
       case 'audio_source_added':
-        return 'Audio source added';
+        return '오디오 소스가 추가됨';
       case 'local_audio_imported':
-        return 'Audio database added';
+        return '오디오 데이터베이스가 추가됨';
       case 'local_audio_import_failed':
-        return 'Failed to import audio database';
+        return '오디오 데이터베이스 가져오기 실패';
       case 'local_audio_edit_sources':
-        return 'Edit sources';
+        return '소스 편집';
       case 'local_audio_source_order_title':
-        return 'Source priority';
+        return '소스 우선순위';
       case 'local_audio_no_sources':
-        return 'No sources found in this database';
+        return '이 데이터베이스에서 소스를 찾을 수 없음';
       case 'sync_pair_request_title':
-        return 'Pairing request';
+        return '페어링 요청';
       case 'sync_pair_request_body':
-        return 'A device is requesting to pair. Allow it to sync with this device?';
+        return '한 기기가 페어링을 요청합니다. 이 기기와 동기화하도록 허용할까요?';
       case 'sync_pair_allow':
-        return 'Allow';
+        return '허용';
       case 'sync_pair_deny':
-        return 'Deny';
+        return '거부';
       case 'sync_pair_denied':
-        return 'The other device declined pairing';
+        return '상대 기기가 페어링을 거부했습니다';
       case 'sync_pair_unknown_device':
-        return 'Unknown device';
+        return '알 수 없는 기기';
       case 'sync_pair_unavailable':
-        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+        return '상대 기기가 준비되지 않았거나 이전 버전입니다. 업데이트하고 동기화를 켠 후 다시 시도하세요.';
       case 'sync_role_locked_by_server':
-        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+        return '이 기기는 서버로 호스팅 중입니다. 다른 기기에 연결하려면 먼저 서버를 끄세요.';
       case 'sync_role_locked_by_client':
-        return 'Already connected to another device. Remove the connection before hosting as a server.';
+        return '이미 다른 기기에 연결되어 있습니다. 서버로 호스팅하려면 먼저 연결을 해제하세요.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
       case 'sync_audiobook_files':
-        return 'Sync audiobook files';
+        return '오디오북 파일 동기화';
       case 'sync_audiobook_files_warning':
-        return 'Audio and subtitles can be large.';
+        return '오디오와 자막은 용량이 클 수 있습니다.';
       case 'book_import_duplicate_title':
-        return 'Duplicate book';
+        return '중복된 책';
       case 'book_import_duplicate_keep':
-        return 'Yes, add suffix';
+        return '예, 접미사 추가';
       case 'book_import_duplicate_cancel':
-        return 'No, cancel';
+        return '아니요, 취소';
       case 'book_import_duplicate_cancelled':
-        return 'Import cancelled';
+        return '가져오기 취소됨';
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
-            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+            '"${name}"(이)라는 책이 이미 있습니다. 그래도 가져올까요? "예"는 번호 접미사를 붙여 가져오고, "아니요"는 취소합니다.';
       case 'reverse_reader_bottom_bar':
-        return 'Reverse reader bottom bar';
+        return '리더 하단 바 반전';
       case 'floating_dict_close':
-        return 'Close';
+        return '닫기';
       case 'debug_log_share_subject':
-        return 'hibiki Debug Log';
+        return 'hibiki 디버그 로그';
       case 'spread_direction_rtl':
-        return 'Right to Left';
+        return '오른쪽에서 왼쪽';
       case 'spread_direction_ltr':
-        return 'Left to Right';
+        return '왼쪽에서 오른쪽';
       case 'dict_download_partial':
         return (
                 {required Object success,
                 required Object total,
                 required Object error}) =>
-            '${success} / ${total} OK. Failed: ${error}';
+            '${success} / ${total} 성공. 실패: ${error}';
       case 'sync_now':
-        return 'Sync now';
+        return '지금 동기화';
       case 'sync_now_hint':
-        return 'Run a full two-way sync with the cloud now';
+        return '지금 클라우드와 양방향 전체 동기화를 실행합니다';
       case 'sync_now_busy':
-        return 'A sync is already running';
+        return '동기화가 이미 실행 중입니다';
       case 'sync_now_no_changes':
-        return 'no changes';
+        return '변경 없음';
       case 'sync_now_done':
-        return ({required Object detail}) => 'Synced · ${detail}';
+        return ({required Object detail}) => '동기화됨 · ${detail}';
       case 'sync_now_failed_suffix':
-        return ({required Object count}) => ' · ${count} failed';
+        return ({required Object count}) => ' · ${count}개 실패';
       case 'sync_now_books_in':
-        return ({required Object count}) => '↓${count} books';
+        return ({required Object count}) => '↓책 ${count}권';
       case 'sync_now_dicts_in':
-        return ({required Object count}) => '↓${count} dictionaries';
+        return ({required Object count}) => '↓사전 ${count}개';
       case 'sync_now_dicts_out':
-        return ({required Object count}) => '↑${count} dictionaries';
+        return ({required Object count}) => '↑사전 ${count}개';
       case 'sync_now_audio_in':
-        return ({required Object count}) => '↓${count} audiobooks';
+        return ({required Object count}) => '↓오디오북 ${count}개';
       case 'sync_now_audio_out':
-        return ({required Object count}) => '↑${count} audiobooks';
+        return ({required Object count}) => '↑오디오북 ${count}개';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return '사전';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return '원격에서 책 삭제';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return '원격에서 오디오북 삭제';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return '원격에서 사전 삭제';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return '원격에서 삭제됨';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            '원격에서 "${name}"(을)를 삭제할까요? 로컬 데이터는 유지됩니다. 되돌릴 수 없습니다.';
+      case 'dictionaries_delete_failed':
+        return '사전 삭제 실패';
+      case 'dictionary_delete_failed':
+        return '사전 삭제 실패';
+      case 'sync_webdav_missing_fields':
+        return '입력하지 않은 항목이 있습니다';
+      case 'sync_compare_download':
+        return '다운로드';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -68644,7 +69659,7 @@ extension on _StringsNl {
       case 'reader_media_type':
         return 'Lezer';
       case 'viewer_media_type':
-        return 'Viewer';
+        return 'Weergave';
       case 'back':
         return 'Terug';
       case 'search':
@@ -69172,7 +70187,7 @@ extension on _StringsNl {
       case 'no_lyrics_found':
         return 'Geen songteksten gevonden';
       case 'trending':
-        return 'Trending';
+        return 'Populair';
       case 'caption_filter':
         return 'Ondertitels filteren';
       case 'captions_query':
@@ -69318,7 +70333,7 @@ extension on _StringsNl {
       case 'handlebar_audio':
         return 'Audio';
       case 'handlebar_sasayaki_audio':
-        return 'Sasayaki Audio';
+        return 'Sasayaki-audio';
       case 'handlebar_popup_selection_text':
         return 'Popup-selectietekst';
       case 'handlebar_cloze_before':
@@ -69492,7 +70507,7 @@ extension on _StringsNl {
       case 'design_system_hint':
         return 'Bepaalt de visuele stijl van de app';
       case 'design_system_auto':
-        return 'Auto';
+        return 'Automatisch';
       case 'cloze':
         return 'Cloze';
       case 'info_standard_update':
@@ -69524,7 +70539,7 @@ extension on _StringsNl {
       case 'player_hardware_acceleration':
         return 'Hardwareversnelling';
       case 'player_use_opensles':
-        return 'OpenSL ES audio';
+        return 'OpenSL ES-audio';
       case 'go_forward':
         return 'Vooruit';
       case 'browse':
@@ -70716,7 +71731,7 @@ extension on _StringsNl {
       case 'sync_statistics':
         return 'Statistieken synchroniseren';
       case 'sync_summary':
-        return 'Google Drive · ッツ/Hoshi Reader-compatibel';
+        return 'Cloud, LAN P2P en lokale back-up · compatibel met ッツ/Hoshi Reader';
       case 'sync_title':
         return 'Synchronisatie';
       case 'update_channel_beta':
@@ -70728,127 +71743,128 @@ extension on _StringsNl {
       case 'anki_connect_host':
         return 'Host';
       case 'anki_connect_port':
-        return 'Port';
+        return 'Poort';
       case 'sync_compare':
-        return 'Compare Data';
+        return 'Gegevens vergelijken';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return 'Lokaal vs. extern';
       case 'sync_compare_local':
-        return 'Local';
+        return 'Lokaal';
       case 'sync_compare_remote':
-        return 'Remote';
+        return 'Extern';
       case 'sync_compare_no_data':
-        return 'No data';
+        return 'Geen gegevens';
       case 'sync_compare_empty':
-        return 'No books found';
+        return 'Geen boeken gevonden';
       case 'sync_compare_days':
-        return 'days';
+        return 'dagen';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return 'Conflicten';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return 'Alle boeken';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return 'Alles selecteren';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return 'Alles → lokaal';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return 'Alles → extern';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return 'Alles → overslaan';
       case 'sync_compare_use_local':
-        return 'Local';
+        return 'Lokaal';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return 'Extern';
       case 'sync_compare_skip':
-        return 'Skip';
+        return 'Overslaan';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => '${count} wijzigingen toegepast';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => 'Toepassen (${count})';
       case 'sync_auto_sync':
-        return 'Auto Sync';
+        return 'Automatisch synchroniseren';
       case 'sync_auto_complete':
         return ({required Object direction, required Object title}) =>
             'Sync: ${direction} ${title}';
       case 'no_matching_audio_cue':
-        return 'No matching audio for this sentence';
+        return 'Geen passende audio voor deze zin';
       case 'sync_exit_warning_title':
-        return 'Sync In Progress';
+        return 'Synchronisatie bezig';
       case 'sync_exit_warning':
-        return 'Sync is still in progress. Exiting now may cause data loss.';
+        return 'De synchronisatie is nog bezig. Nu afsluiten kan tot gegevensverlies leiden.';
       case 'sync_content':
-        return 'Sync book files';
+        return 'Boekbestanden synchroniseren';
       case 'sync_content_warning':
-        return 'Large files will use storage space and data';
+        return 'Grote bestanden gebruiken opslagruimte en data';
       case 'sync_backend':
-        return 'Storage backend';
+        return 'Opslagbackend';
       case 'sync_backend_google_drive':
         return 'Google Drive';
       case 'sync_backend_webdav':
         return 'WebDAV';
       case 'sync_webdav_url':
-        return 'Server URL';
+        return 'Server-URL';
       case 'sync_webdav_username':
-        return 'Username';
+        return 'Gebruikersnaam';
       case 'sync_webdav_password':
-        return 'Password';
+        return 'Wachtwoord';
       case 'sync_webdav_test':
-        return 'Test connection';
+        return 'Verbinding testen';
       case 'sync_webdav_test_success':
-        return 'Connection successful';
+        return 'Verbinding geslaagd';
       case 'sync_webdav_test_failed':
-        return ({required Object message}) => 'Connection failed: ${message}';
+        return ({required Object message}) => 'Verbinding mislukt: ${message}';
       case 'book_file_not_found':
-        return 'Book file not found';
+        return 'Boekbestand niet gevonden';
       case 'epub_parse_fallback':
-        return 'Book metadata repaired from database';
+        return 'Boekmetadata hersteld uit database';
       case 'retry':
-        return 'Retry';
+        return 'Opnieuw';
       case 'copy_error':
-        return 'Copy Error';
+        return 'Fout kopiëren';
       case 'error_copied':
-        return 'Error copied to clipboard';
+        return 'Fout gekopieerd naar klembord';
       case 'dict_import_failed_summary':
-        return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+        return ({required Object n}) =>
+            'Importeren van ${n} woordenboek(en) mislukt';
       case 'reader_content_timeout':
-        return 'Content loading timed out. Reopen if display is abnormal';
+        return 'Time-out bij laden van inhoud. Open opnieuw als de weergave afwijkt';
       case 'backup_local':
-        return 'Local Backup';
+        return 'Lokale back-up';
       case 'backup_export':
-        return 'Export Backup';
+        return 'Back-up exporteren';
       case 'backup_export_hint':
-        return 'Save all settings, reading progress, and statistics to a file';
+        return 'Sla alle instellingen, leesvoortgang en statistieken op in een bestand';
       case 'backup_import':
-        return 'Import Backup';
+        return 'Back-up importeren';
       case 'backup_import_hint':
-        return 'Restore from a backup file. The app will restart.';
+        return 'Herstel vanuit een back-upbestand. De app wordt opnieuw gestart.';
       case 'backup_export_success':
-        return 'Backup exported successfully';
+        return 'Back-up geëxporteerd';
       case 'backup_export_failed':
         return ({required Object message}) =>
-            'Backup export failed: ${message}';
+            'Back-up exporteren mislukt: ${message}';
       case 'backup_import_confirm_title':
-        return 'Restore Backup?';
+        return 'Back-up herstellen?';
       case 'backup_import_confirm':
         return (
                 {required Object date,
                 required Object bookCount,
                 required Object statsCount}) =>
-            'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+            'Dit vervangt alle huidige gegevens door de back-up van ${date}.\n\n${bookCount} boeken, ${statsCount} statistiekrecords.\n\nDe app wordt na het herstellen opnieuw gestart.';
       case 'backup_import_success':
-        return 'Backup restored. Restarting…';
+        return 'Back-up hersteld. Opnieuw starten…';
       case 'backup_import_failed':
         return ({required Object message}) =>
-            'Backup import failed: ${message}';
+            'Back-up importeren mislukt: ${message}';
       case 'backup_import_invalid':
-        return 'Invalid backup file';
+        return 'Ongeldig back-upbestand';
       case 'backup_exporting':
-        return 'Creating backup…';
+        return 'Back-up maken…';
       case 'backup_schema_newer':
         return ({required Object version}) =>
-            'This backup requires a newer version of the app (schema ${version}). Please update first.';
+            'Deze back-up vereist een nieuwere versie van de app (schema ${version}). Werk eerst bij.';
       case 'reverse_navigation_bar':
-        return 'Reverse navigation bar';
+        return 'Navigatiebalk omkeren';
       case 'sync_backend_onedrive':
         return 'OneDrive';
       case 'sync_backend_dropbox':
@@ -70860,290 +71876,325 @@ extension on _StringsNl {
       case 'sync_backend_hibiki_server':
         return 'Hibiki P2P';
       case 'sync_server_enable':
-        return 'Enable sync server';
+        return 'Syncserver inschakelen';
       case 'sync_server_port':
-        return 'Server port';
+        return 'Serverpoort';
       case 'sync_server_token':
-        return 'Access token';
+        return 'Toegangstoken';
       case 'sync_server_copy_token':
-        return 'Copy token';
+        return 'Token kopiëren';
       case 'sync_server_regenerate_token':
-        return 'Regenerate token';
+        return 'Token opnieuw genereren';
       case 'sync_server_running':
-        return 'Server running';
+        return 'Server actief';
       case 'sync_server_stopped':
-        return 'Server stopped';
+        return 'Server gestopt';
       case 'sync_lan_discovery':
-        return 'LAN devices';
+        return 'LAN-apparaten';
       case 'sync_lan_scanning':
-        return 'Scanning...';
+        return 'Scannen...';
       case 'sync_lan_no_devices':
-        return 'No devices found';
+        return 'Geen apparaten gevonden';
       case 'sync_fallback_config':
-        return 'Fallback order';
+        return 'Terugvalvolgorde';
       case 'sync_test_connection':
-        return 'Test connection';
+        return 'Verbinding testen';
       case 'sync_connection_success':
-        return 'Connection successful';
+        return 'Verbinding geslaagd';
       case 'sync_connection_failed':
-        return 'Connection failed';
+        return 'Verbinding mislukt';
       case 'sync_host':
         return 'Host';
       case 'sync_port':
-        return 'Port';
+        return 'Poort';
       case 'sync_username':
-        return 'Username';
+        return 'Gebruikersnaam';
       case 'sync_password':
-        return 'Password';
+        return 'Wachtwoord';
       case 'sync_use_tls':
-        return 'Use TLS';
+        return 'TLS gebruiken';
       case 'sync_private_key':
-        return 'Private key';
+        return 'Privésleutel';
       case 'skip_action':
-        return 'Skip Action';
+        return 'Overslaan';
       case 'skip_action_sentence':
-        return '1 sentence';
+        return '1 zin';
       case 'skip_action_seconds':
-        return ({required Object n}) => '${n} seconds';
+        return ({required Object n}) => '${n} seconden';
       case 'shortcut_settings_title':
-        return 'Keyboard Shortcuts';
+        return 'Sneltoetsen';
       case 'shortcut_scope_reader':
-        return 'Reader';
+        return 'Lezer';
       case 'shortcut_scope_home':
-        return 'Home';
+        return 'Start';
       case 'shortcut_scope_global':
-        return 'Global';
+        return 'Globaal';
       case 'shortcut_scope_audiobook':
-        return 'Audiobook';
+        return 'Audioboek';
       case 'shortcut_action_reader_page_forward':
-        return 'Next Page';
+        return 'Volgende pagina';
       case 'shortcut_action_reader_page_backward':
-        return 'Previous Page';
+        return 'Vorige pagina';
       case 'shortcut_action_reader_toggle_chrome':
-        return 'Toggle Controls';
+        return 'Bediening aan/uit';
       case 'shortcut_action_reader_dismiss_dict':
-        return 'Dismiss Dictionary';
+        return 'Woordenboek sluiten';
       case 'shortcut_action_reader_toggle_bookmark':
-        return 'Toggle Bookmark';
+        return 'Bladwijzer aan/uit';
       case 'shortcut_action_home_tab_books':
-        return 'Books Tab';
+        return 'Tabblad Boeken';
       case 'shortcut_action_home_tab_dict':
-        return 'Dictionary Tab';
+        return 'Tabblad Woordenboek';
       case 'shortcut_action_home_tab_settings':
-        return 'Settings Tab';
+        return 'Tabblad Instellingen';
       case 'shortcut_action_home_focus_search':
-        return 'Focus Search';
+        return 'Zoeken focussen';
       case 'shortcut_action_global_back':
-        return 'Go Back';
+        return 'Terug';
       case 'shortcut_action_audiobook_play_pause':
-        return 'Play / Pause';
+        return 'Afspelen / pauzeren';
       case 'shortcut_action_audiobook_next_sentence':
-        return 'Next Sentence';
+        return 'Volgende zin';
       case 'shortcut_action_audiobook_prev_sentence':
-        return 'Previous Sentence';
+        return 'Vorige zin';
       case 'shortcut_press_key':
-        return 'Press a key combination...';
+        return 'Druk op een toetscombinatie...';
       case 'shortcut_press_gamepad':
-        return 'Press a gamepad button...';
+        return 'Druk op een gamepadknop...';
       case 'shortcut_conflict':
-        return ({required Object s}) => 'Already used by: ${s}';
+        return ({required Object s}) => 'Al gebruikt door: ${s}';
       case 'shortcut_reset_defaults':
-        return 'Reset to Defaults';
+        return 'Terug naar standaard';
       case 'shortcut_reset_confirm':
-        return 'Reset all shortcuts in this section to defaults?';
+        return 'Alle sneltoetsen in dit gedeelte terugzetten naar standaard?';
       case 'shortcut_keyboard':
-        return 'Keyboard';
+        return 'Toetsenbord';
       case 'shortcut_gamepad':
         return 'Gamepad';
       case 'shortcut_none':
-        return 'None';
+        return 'Geen';
       case 'shortcut_clear':
-        return 'Clear';
+        return 'Wissen';
       case 'shortcut_stop_capture':
-        return 'Stop';
+        return 'Stoppen';
       case 'section_advanced_typography':
-        return 'Advanced';
+        return 'Geavanceerd';
       case 'sync_err_network':
-        return 'Cannot reach the server — check your network or proxy settings.';
+        return 'Kan de server niet bereiken — controleer je netwerk- of proxyinstellingen.';
       case 'sync_err_timeout':
-        return 'Connection timed out — the server did not respond in time.';
+        return 'Time-out bij verbinden — de server reageerde niet op tijd.';
       case 'sync_err_quota':
-        return 'Cloud storage is full (quota reached).';
+        return 'Cloudopslag is vol (quotum bereikt).';
       case 'sync_err_auth_expired':
-        return 'Sign-in expired — please sign in again.';
+        return 'Aanmelding verlopen — meld je opnieuw aan.';
       case 'sync_server_port_in_use':
         return ({required Object port}) =>
-            'Port ${port} is already in use — pick a different port.';
+            'Poort ${port} is al in gebruik — kies een andere poort.';
       case 'sync_lan_scan_failed':
-        return 'Scan failed — check network permissions or firewall.';
+        return 'Scannen mislukt — controleer netwerkrechten of firewall.';
       case 'sync_section_method':
-        return 'Sync method';
+        return 'Synchronisatiemethode';
       case 'sync_section_host_server':
-        return 'This device as a sync server';
+        return 'Dit apparaat als syncserver';
       case 'sync_section_host_server_footer':
-        return 'Let other devices sync from this device. Independent of the sync backend above.';
+        return 'Laat andere apparaten vanaf dit apparaat synchroniseren. Onafhankelijk van het syncbackend hierboven.';
       case 'sync_section_content':
-        return 'What to sync';
+        return 'Wat te synchroniseren';
       case 'sync_section_actions':
-        return 'Sync actions';
+        return 'Synchronisatieacties';
       case 'sync_section_backup':
-        return 'Local backup';
+        return 'Lokale back-up';
       case 'backup_import_preserve_sync_note':
-        return 'Your sync settings on this device (account and credentials) will be kept.';
+        return 'Je syncinstellingen op dit apparaat (account en inloggegevens) blijven behouden.';
       case 'backup_import_settings_toggle':
-        return 'Import settings & profiles';
+        return 'Instellingen en profielen importeren';
       case 'backup_import_settings_on_hint':
-        return 'Full restore: fonts, appearance and profiles come from the backup.';
+        return 'Volledig herstel: lettertypen, weergave en profielen komen uit de back-up.';
       case 'backup_import_settings_off_hint':
-        return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+        return 'Behoud de lettertypen/weergave/profielen van dit apparaat; herstel alleen boeken en leesgegevens.';
       case 'reader_unsupported_platform':
-        return 'The reader is not yet available on this platform.';
+        return 'De lezer is nog niet beschikbaar op dit platform.';
       case 'microphone_permission_denied':
-        return 'Microphone permission is required to record.';
+        return 'Microfoontoestemming is vereist om op te nemen.';
       case 'anki_connect_api_key':
-        return 'API Key';
+        return 'API-sleutel';
       case 'anki_connect_api_key_hint':
-        return 'Leave empty unless AnkiConnect requires a key';
+        return 'Laat leeg tenzij AnkiConnect een sleutel vereist';
       case 'shortcut_action_global_scroll_page_down':
-        return 'Scroll down one screen';
+        return 'Eén scherm omlaag scrollen';
       case 'shortcut_action_global_scroll_page_up':
-        return 'Scroll up one screen';
+        return 'Eén scherm omhoog scrollen';
       case 'shortcut_action_home_tab_prev':
-        return 'Previous tab';
+        return 'Vorig tabblad';
       case 'shortcut_action_home_tab_next':
-        return 'Next tab';
+        return 'Volgend tabblad';
       case 'move_up':
-        return 'Move up';
+        return 'Omhoog';
       case 'move_down':
-        return 'Move down';
+        return 'Omlaag';
       case 'shortcut_action_reader_toggle_furigana':
-        return 'Toggle furigana';
+        return 'Furigana aan/uit';
       case 'on_screen_keyboard':
-        return 'On-screen keyboard';
+        return 'Schermtoetsenbord';
       case 'app_ui_scale':
-        return 'UI size';
+        return 'UI-grootte';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
       case 'sync_dictionary':
-        return 'Sync dictionaries';
+        return 'Woordenboeken synchroniseren';
       case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
+        return 'Woordenboekpakketten kunnen groot zijn en geïmporteerde woordenboekbronnen bevatten.';
       case 'settings_destination_reading':
-        return 'Reading';
+        return 'Lezen';
       case 'remote_dict_lookup':
-        return 'Remote dictionary lookup';
+        return 'Extern woordenboek opzoeken';
       case 'remote_dict_lookup_hint':
-        return 'When local dictionaries miss, query the configured Hibiki server';
+        return 'Wanneer lokale woordenboeken niets vinden, de geconfigureerde Hibiki-server bevragen';
       case 'remote_audio_source':
-        return 'Remote audio';
+        return 'Externe audio';
       case 'sync_pair_success':
-        return 'Paired — token filled in';
+        return 'Gekoppeld — token ingevuld';
       case 'sync_pair_failed':
-        return 'Pairing failed';
+        return 'Koppelen mislukt';
       case 'audio_source_hibiki_interconnect':
         return 'Hibiki P2P';
       case 'audio_sources_remote_group':
-        return 'Remote sources';
+        return 'Externe bronnen';
       case 'audio_source_url_invalid':
-        return 'Link must be http(s) and contain a term or reading placeholder';
+        return 'Link moet http(s) zijn en een term- of leeswijze-plaatshouder bevatten';
       case 'audio_source_added':
-        return 'Audio source added';
+        return 'Audiobron toegevoegd';
       case 'local_audio_imported':
-        return 'Audio database added';
+        return 'Audiodatabase toegevoegd';
       case 'local_audio_import_failed':
-        return 'Failed to import audio database';
+        return 'Importeren van audiodatabase mislukt';
       case 'local_audio_edit_sources':
-        return 'Edit sources';
+        return 'Bronnen bewerken';
       case 'local_audio_source_order_title':
-        return 'Source priority';
+        return 'Bronprioriteit';
       case 'local_audio_no_sources':
-        return 'No sources found in this database';
+        return 'Geen bronnen gevonden in deze database';
       case 'sync_pair_request_title':
-        return 'Pairing request';
+        return 'Koppelverzoek';
       case 'sync_pair_request_body':
-        return 'A device is requesting to pair. Allow it to sync with this device?';
+        return 'Een apparaat vraagt om te koppelen. Toestaan dat het met dit apparaat synchroniseert?';
       case 'sync_pair_allow':
-        return 'Allow';
+        return 'Toestaan';
       case 'sync_pair_deny':
-        return 'Deny';
+        return 'Weigeren';
       case 'sync_pair_denied':
-        return 'The other device declined pairing';
+        return 'Het andere apparaat heeft het koppelen geweigerd';
       case 'sync_pair_unknown_device':
-        return 'Unknown device';
+        return 'Onbekend apparaat';
       case 'sync_pair_unavailable':
-        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+        return 'Het andere apparaat is niet klaar of heeft een oudere versie. Werk het bij en schakel synchronisatie in, probeer het dan opnieuw.';
       case 'sync_role_locked_by_server':
-        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+        return 'Dit apparaat fungeert als server. Schakel de server uit voordat je verbinding maakt met andere apparaten.';
       case 'sync_role_locked_by_client':
-        return 'Already connected to another device. Remove the connection before hosting as a server.';
+        return 'Al verbonden met een ander apparaat. Verwijder de verbinding voordat je als server fungeert.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
       case 'sync_audiobook_files':
-        return 'Sync audiobook files';
+        return 'Audioboekbestanden synchroniseren';
       case 'sync_audiobook_files_warning':
-        return 'Audio and subtitles can be large.';
+        return 'Audio en ondertitels kunnen groot zijn.';
       case 'book_import_duplicate_title':
-        return 'Duplicate book';
+        return 'Dubbel boek';
       case 'book_import_duplicate_keep':
-        return 'Yes, add suffix';
+        return 'Ja, achtervoegsel toevoegen';
       case 'book_import_duplicate_cancel':
-        return 'No, cancel';
+        return 'Nee, annuleren';
       case 'book_import_duplicate_cancelled':
-        return 'Import cancelled';
+        return 'Import geannuleerd';
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
-            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+            'Er bestaat al een boek met de naam "${name}". Toch importeren? "Ja" importeert met een genummerd achtervoegsel; "Nee" annuleert.';
       case 'reverse_reader_bottom_bar':
-        return 'Reverse reader bottom bar';
+        return 'Onderbalk van lezer omkeren';
       case 'floating_dict_close':
-        return 'Close';
+        return 'Sluiten';
       case 'debug_log_share_subject':
-        return 'hibiki Debug Log';
+        return 'hibiki-debuglog';
       case 'spread_direction_rtl':
-        return 'Right to Left';
+        return 'Rechts naar links';
       case 'spread_direction_ltr':
-        return 'Left to Right';
+        return 'Links naar rechts';
       case 'dict_download_partial':
         return (
                 {required Object success,
                 required Object total,
                 required Object error}) =>
-            '${success} / ${total} OK. Failed: ${error}';
+            '${success} / ${total} OK. Mislukt: ${error}';
       case 'sync_now':
-        return 'Sync now';
+        return 'Nu synchroniseren';
       case 'sync_now_hint':
-        return 'Run a full two-way sync with the cloud now';
+        return 'Voer nu een volledige tweerichtingssync met de cloud uit';
       case 'sync_now_busy':
-        return 'A sync is already running';
+        return 'Er loopt al een synchronisatie';
       case 'sync_now_no_changes':
-        return 'no changes';
+        return 'geen wijzigingen';
       case 'sync_now_done':
-        return ({required Object detail}) => 'Synced · ${detail}';
+        return ({required Object detail}) => 'Gesynchroniseerd · ${detail}';
       case 'sync_now_failed_suffix':
-        return ({required Object count}) => ' · ${count} failed';
+        return ({required Object count}) => ' · ${count} mislukt';
       case 'sync_now_books_in':
-        return ({required Object count}) => '↓${count} books';
+        return ({required Object count}) => '↓${count} boeken';
       case 'sync_now_dicts_in':
-        return ({required Object count}) => '↓${count} dictionaries';
+        return ({required Object count}) => '↓${count} woordenboeken';
       case 'sync_now_dicts_out':
-        return ({required Object count}) => '↑${count} dictionaries';
+        return ({required Object count}) => '↑${count} woordenboeken';
       case 'sync_now_audio_in':
-        return ({required Object count}) => '↓${count} audiobooks';
+        return ({required Object count}) => '↓${count} audioboeken';
       case 'sync_now_audio_out':
-        return ({required Object count}) => '↑${count} audiobooks';
+        return ({required Object count}) => '↑${count} audioboeken';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return 'Woordenboeken';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return 'Boek op extern verwijderen';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return 'Audioboek op extern verwijderen';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return 'Woordenboek op extern verwijderen';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return 'Verwijderd van extern';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            '"${name}" van het externe verwijderen? Lokale gegevens blijven behouden. Dit kan niet ongedaan worden gemaakt.';
+      case 'dictionaries_delete_failed':
+        return 'Verwijderen van woordenboeken mislukt';
+      case 'dictionary_delete_failed':
+        return 'Verwijderen van woordenboek mislukt';
+      case 'sync_webdav_missing_fields':
+        return 'Ontbrekende velden';
+      case 'sync_compare_download':
+        return 'Downloaden';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -71868,7 +72919,7 @@ extension on _StringsPtBr {
       case 'handlebar_audio_sentence':
         return 'Áudio (Frase)';
       case 'handlebar_tags':
-        return 'Tags';
+        return 'Etiquetas';
       case 'silent_export':
         return 'Exportação Rápida';
       case 'silent_export_on':
@@ -71902,7 +72953,7 @@ extension on _StringsPtBr {
       case 'storage_permissions':
         return 'Por favor, conceda as seguintes permissões para exportar para o AnkiDroid.';
       case 'stream':
-        return 'Stream';
+        return 'Transmissão';
       case 'network_subtitles_warning':
         return 'Legendas embutidas não são compatíveis com streams de rede.';
       case 'accessibility':
@@ -72020,7 +73071,7 @@ extension on _StringsPtBr {
       case 'design_system_hint':
         return 'Controla o estilo visual do app';
       case 'design_system_auto':
-        return 'Auto';
+        return 'Automático';
       case 'cloze':
         return 'Cloze';
       case 'info_standard_update':
@@ -72672,7 +73723,7 @@ extension on _StringsPtBr {
       case 'anki_field_mappings':
         return 'Mapeamento de campos';
       case 'anki_tags':
-        return 'Tags';
+        return 'Etiquetas';
       case 'anki_tags_hint':
         return 'Tags separadas por espaços adicionadas a cada cartão';
       case 'anki_allow_duplicates':
@@ -72838,7 +73889,7 @@ extension on _StringsPtBr {
       case 'creator_field_context':
         return 'Contexto';
       case 'creator_field_tags':
-        return 'Tags';
+        return 'Etiquetas';
       case 'creator_field_hidden_meaning':
         return 'Significado oculto';
       case 'creator_field_expanded_meaning':
@@ -73109,7 +74160,7 @@ extension on _StringsPtBr {
       case 'tag_filter_title':
         return 'Filtrar por Tag';
       case 'tag_label':
-        return 'Tags';
+        return 'Etiquetas';
       case 'tag_manage':
         return 'Gerenciar Tags';
       case 'tag_manage_title':
@@ -73246,7 +74297,7 @@ extension on _StringsPtBr {
       case 'sync_statistics':
         return 'Sincronizar estatísticas';
       case 'sync_summary':
-        return 'Google Drive · Compatível com ッツ/Hoshi Reader';
+        return 'Nuvem, P2P na rede local e backup local · compatível com ッツ/Hoshi Reader';
       case 'sync_title':
         return 'Sincronização';
       case 'update_channel_beta':
@@ -73258,127 +74309,127 @@ extension on _StringsPtBr {
       case 'anki_connect_host':
         return 'Host';
       case 'anki_connect_port':
-        return 'Port';
+        return 'Porta';
       case 'sync_compare':
-        return 'Compare Data';
+        return 'Comparar dados';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return 'Local vs. Remoto';
       case 'sync_compare_local':
         return 'Local';
       case 'sync_compare_remote':
-        return 'Remote';
+        return 'Remoto';
       case 'sync_compare_no_data':
-        return 'No data';
+        return 'Sem dados';
       case 'sync_compare_empty':
-        return 'No books found';
+        return 'Nenhum livro encontrado';
       case 'sync_compare_days':
-        return 'days';
+        return 'dias';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return 'Conflitos';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return 'Todos os livros';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return 'Selecionar tudo';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return 'Tudo → Local';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return 'Tudo → Remoto';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return 'Tudo → Ignorar';
       case 'sync_compare_use_local':
         return 'Local';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return 'Remoto';
       case 'sync_compare_skip':
-        return 'Skip';
+        return 'Ignorar';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => '${count} alterações aplicadas';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => 'Aplicar (${count})';
       case 'sync_auto_sync':
-        return 'Auto Sync';
+        return 'Sincronização automática';
       case 'sync_auto_complete':
         return ({required Object direction, required Object title}) =>
-            'Sync: ${direction} ${title}';
+            'Sinc.: ${direction} ${title}';
       case 'no_matching_audio_cue':
-        return 'No matching audio for this sentence';
+        return 'Nenhum áudio correspondente a esta frase';
       case 'sync_exit_warning_title':
-        return 'Sync In Progress';
+        return 'Sincronização em andamento';
       case 'sync_exit_warning':
-        return 'Sync is still in progress. Exiting now may cause data loss.';
+        return 'A sincronização ainda está em andamento. Sair agora pode causar perda de dados.';
       case 'sync_content':
-        return 'Sync book files';
+        return 'Sincronizar arquivos de livros';
       case 'sync_content_warning':
-        return 'Large files will use storage space and data';
+        return 'Arquivos grandes usam espaço de armazenamento e dados';
       case 'sync_backend':
-        return 'Storage backend';
+        return 'Backend de armazenamento';
       case 'sync_backend_google_drive':
         return 'Google Drive';
       case 'sync_backend_webdav':
         return 'WebDAV';
       case 'sync_webdav_url':
-        return 'Server URL';
+        return 'URL do servidor';
       case 'sync_webdav_username':
-        return 'Username';
+        return 'Nome de usuário';
       case 'sync_webdav_password':
-        return 'Password';
+        return 'Senha';
       case 'sync_webdav_test':
-        return 'Test connection';
+        return 'Testar conexão';
       case 'sync_webdav_test_success':
-        return 'Connection successful';
+        return 'Conexão bem-sucedida';
       case 'sync_webdav_test_failed':
-        return ({required Object message}) => 'Connection failed: ${message}';
+        return ({required Object message}) => 'Falha na conexão: ${message}';
       case 'book_file_not_found':
-        return 'Book file not found';
+        return 'Arquivo do livro não encontrado';
       case 'epub_parse_fallback':
-        return 'Book metadata repaired from database';
+        return 'Metadados do livro recuperados do banco de dados';
       case 'retry':
-        return 'Retry';
+        return 'Tentar novamente';
       case 'copy_error':
-        return 'Copy Error';
+        return 'Copiar erro';
       case 'error_copied':
-        return 'Error copied to clipboard';
+        return 'Erro copiado para a área de transferência';
       case 'dict_import_failed_summary':
-        return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+        return ({required Object n}) => 'Falha ao importar ${n} dicionário(s)';
       case 'reader_content_timeout':
-        return 'Content loading timed out. Reopen if display is abnormal';
+        return 'O carregamento do conteúdo expirou. Reabra se a exibição estiver anormal';
       case 'backup_local':
-        return 'Local Backup';
+        return 'Backup local';
       case 'backup_export':
-        return 'Export Backup';
+        return 'Exportar backup';
       case 'backup_export_hint':
-        return 'Save all settings, reading progress, and statistics to a file';
+        return 'Salvar todas as configurações, progresso de leitura e estatísticas em um arquivo';
       case 'backup_import':
-        return 'Import Backup';
+        return 'Importar backup';
       case 'backup_import_hint':
-        return 'Restore from a backup file. The app will restart.';
+        return 'Restaurar a partir de um arquivo de backup. O app será reiniciado.';
       case 'backup_export_success':
-        return 'Backup exported successfully';
+        return 'Backup exportado com sucesso';
       case 'backup_export_failed':
         return ({required Object message}) =>
-            'Backup export failed: ${message}';
+            'Falha ao exportar backup: ${message}';
       case 'backup_import_confirm_title':
-        return 'Restore Backup?';
+        return 'Restaurar backup?';
       case 'backup_import_confirm':
         return (
                 {required Object date,
                 required Object bookCount,
                 required Object statsCount}) =>
-            'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+            'Isto substituirá todos os dados atuais pelo backup de ${date}.\n\n${bookCount} livros, ${statsCount} registros de estatísticas.\n\nO app será reiniciado após a restauração.';
       case 'backup_import_success':
-        return 'Backup restored. Restarting…';
+        return 'Backup restaurado. Reiniciando…';
       case 'backup_import_failed':
         return ({required Object message}) =>
-            'Backup import failed: ${message}';
+            'Falha ao importar backup: ${message}';
       case 'backup_import_invalid':
-        return 'Invalid backup file';
+        return 'Arquivo de backup inválido';
       case 'backup_exporting':
-        return 'Creating backup…';
+        return 'Criando backup…';
       case 'backup_schema_newer':
         return ({required Object version}) =>
-            'This backup requires a newer version of the app (schema ${version}). Please update first.';
+            'Este backup requer uma versão mais recente do app (esquema ${version}). Atualize primeiro.';
       case 'reverse_navigation_bar':
-        return 'Reverse navigation bar';
+        return 'Inverter barra de navegação';
       case 'sync_backend_onedrive':
         return 'OneDrive';
       case 'sync_backend_dropbox':
@@ -73390,290 +74441,325 @@ extension on _StringsPtBr {
       case 'sync_backend_hibiki_server':
         return 'Hibiki P2P';
       case 'sync_server_enable':
-        return 'Enable sync server';
+        return 'Ativar servidor de sincronização';
       case 'sync_server_port':
-        return 'Server port';
+        return 'Porta do servidor';
       case 'sync_server_token':
-        return 'Access token';
+        return 'Token de acesso';
       case 'sync_server_copy_token':
-        return 'Copy token';
+        return 'Copiar token';
       case 'sync_server_regenerate_token':
-        return 'Regenerate token';
+        return 'Gerar novo token';
       case 'sync_server_running':
-        return 'Server running';
+        return 'Servidor em execução';
       case 'sync_server_stopped':
-        return 'Server stopped';
+        return 'Servidor parado';
       case 'sync_lan_discovery':
-        return 'LAN devices';
+        return 'Dispositivos na rede local';
       case 'sync_lan_scanning':
-        return 'Scanning...';
+        return 'Procurando...';
       case 'sync_lan_no_devices':
-        return 'No devices found';
+        return 'Nenhum dispositivo encontrado';
       case 'sync_fallback_config':
-        return 'Fallback order';
+        return 'Ordem de fallback';
       case 'sync_test_connection':
-        return 'Test connection';
+        return 'Testar conexão';
       case 'sync_connection_success':
-        return 'Connection successful';
+        return 'Conexão bem-sucedida';
       case 'sync_connection_failed':
-        return 'Connection failed';
+        return 'Falha na conexão';
       case 'sync_host':
         return 'Host';
       case 'sync_port':
-        return 'Port';
+        return 'Porta';
       case 'sync_username':
-        return 'Username';
+        return 'Nome de usuário';
       case 'sync_password':
-        return 'Password';
+        return 'Senha';
       case 'sync_use_tls':
-        return 'Use TLS';
+        return 'Usar TLS';
       case 'sync_private_key':
-        return 'Private key';
+        return 'Chave privada';
       case 'skip_action':
-        return 'Skip Action';
+        return 'Ação de pular';
       case 'skip_action_sentence':
-        return '1 sentence';
+        return '1 frase';
       case 'skip_action_seconds':
-        return ({required Object n}) => '${n} seconds';
+        return ({required Object n}) => '${n} segundos';
       case 'shortcut_settings_title':
-        return 'Keyboard Shortcuts';
+        return 'Atalhos de teclado';
       case 'shortcut_scope_reader':
-        return 'Reader';
+        return 'Leitor';
       case 'shortcut_scope_home':
-        return 'Home';
+        return 'Início';
       case 'shortcut_scope_global':
         return 'Global';
       case 'shortcut_scope_audiobook':
-        return 'Audiobook';
+        return 'Audiolivro';
       case 'shortcut_action_reader_page_forward':
-        return 'Next Page';
+        return 'Próxima página';
       case 'shortcut_action_reader_page_backward':
-        return 'Previous Page';
+        return 'Página anterior';
       case 'shortcut_action_reader_toggle_chrome':
-        return 'Toggle Controls';
+        return 'Alternar controles';
       case 'shortcut_action_reader_dismiss_dict':
-        return 'Dismiss Dictionary';
+        return 'Fechar dicionário';
       case 'shortcut_action_reader_toggle_bookmark':
-        return 'Toggle Bookmark';
+        return 'Alternar marcador';
       case 'shortcut_action_home_tab_books':
-        return 'Books Tab';
+        return 'Aba Livros';
       case 'shortcut_action_home_tab_dict':
-        return 'Dictionary Tab';
+        return 'Aba Dicionário';
       case 'shortcut_action_home_tab_settings':
-        return 'Settings Tab';
+        return 'Aba Configurações';
       case 'shortcut_action_home_focus_search':
-        return 'Focus Search';
+        return 'Focar na busca';
       case 'shortcut_action_global_back':
-        return 'Go Back';
+        return 'Voltar';
       case 'shortcut_action_audiobook_play_pause':
-        return 'Play / Pause';
+        return 'Reproduzir / Pausar';
       case 'shortcut_action_audiobook_next_sentence':
-        return 'Next Sentence';
+        return 'Próxima frase';
       case 'shortcut_action_audiobook_prev_sentence':
-        return 'Previous Sentence';
+        return 'Frase anterior';
       case 'shortcut_press_key':
-        return 'Press a key combination...';
+        return 'Pressione uma combinação de teclas...';
       case 'shortcut_press_gamepad':
-        return 'Press a gamepad button...';
+        return 'Pressione um botão do controle...';
       case 'shortcut_conflict':
-        return ({required Object s}) => 'Already used by: ${s}';
+        return ({required Object s}) => 'Já usado por: ${s}';
       case 'shortcut_reset_defaults':
-        return 'Reset to Defaults';
+        return 'Restaurar padrões';
       case 'shortcut_reset_confirm':
-        return 'Reset all shortcuts in this section to defaults?';
+        return 'Restaurar todos os atalhos desta seção para os padrões?';
       case 'shortcut_keyboard':
-        return 'Keyboard';
+        return 'Teclado';
       case 'shortcut_gamepad':
-        return 'Gamepad';
+        return 'Controle';
       case 'shortcut_none':
-        return 'None';
+        return 'Nenhum';
       case 'shortcut_clear':
-        return 'Clear';
+        return 'Limpar';
       case 'shortcut_stop_capture':
-        return 'Stop';
+        return 'Parar';
       case 'section_advanced_typography':
-        return 'Advanced';
+        return 'Avançado';
       case 'sync_err_network':
-        return 'Cannot reach the server — check your network or proxy settings.';
+        return 'Não foi possível alcançar o servidor — verifique sua rede ou as configurações de proxy.';
       case 'sync_err_timeout':
-        return 'Connection timed out — the server did not respond in time.';
+        return 'A conexão expirou — o servidor não respondeu a tempo.';
       case 'sync_err_quota':
-        return 'Cloud storage is full (quota reached).';
+        return 'O armazenamento na nuvem está cheio (cota atingida).';
       case 'sync_err_auth_expired':
-        return 'Sign-in expired — please sign in again.';
+        return 'Sessão expirada — faça login novamente.';
       case 'sync_server_port_in_use':
         return ({required Object port}) =>
-            'Port ${port} is already in use — pick a different port.';
+            'A porta ${port} já está em uso — escolha outra porta.';
       case 'sync_lan_scan_failed':
-        return 'Scan failed — check network permissions or firewall.';
+        return 'Falha na busca — verifique as permissões de rede ou o firewall.';
       case 'sync_section_method':
-        return 'Sync method';
+        return 'Método de sincronização';
       case 'sync_section_host_server':
-        return 'This device as a sync server';
+        return 'Este dispositivo como servidor de sincronização';
       case 'sync_section_host_server_footer':
-        return 'Let other devices sync from this device. Independent of the sync backend above.';
+        return 'Permite que outros dispositivos sincronizem com este. Independente do backend de sincronização acima.';
       case 'sync_section_content':
-        return 'What to sync';
+        return 'O que sincronizar';
       case 'sync_section_actions':
-        return 'Sync actions';
+        return 'Ações de sincronização';
       case 'sync_section_backup':
-        return 'Local backup';
+        return 'Backup local';
       case 'backup_import_preserve_sync_note':
-        return 'Your sync settings on this device (account and credentials) will be kept.';
+        return 'Suas configurações de sincronização neste dispositivo (conta e credenciais) serão mantidas.';
       case 'backup_import_settings_toggle':
-        return 'Import settings & profiles';
+        return 'Importar configurações e perfis';
       case 'backup_import_settings_on_hint':
-        return 'Full restore: fonts, appearance and profiles come from the backup.';
+        return 'Restauração completa: fontes, aparência e perfis vêm do backup.';
       case 'backup_import_settings_off_hint':
-        return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+        return 'Manter fontes/aparência/perfis deste dispositivo; restaurar apenas livros e dados de leitura.';
       case 'reader_unsupported_platform':
-        return 'The reader is not yet available on this platform.';
+        return 'O leitor ainda não está disponível nesta plataforma.';
       case 'microphone_permission_denied':
-        return 'Microphone permission is required to record.';
+        return 'É necessária permissão de microfone para gravar.';
       case 'anki_connect_api_key':
-        return 'API Key';
+        return 'Chave de API';
       case 'anki_connect_api_key_hint':
-        return 'Leave empty unless AnkiConnect requires a key';
+        return 'Deixe em branco, a menos que o AnkiConnect exija uma chave';
       case 'shortcut_action_global_scroll_page_down':
-        return 'Scroll down one screen';
+        return 'Rolar uma tela para baixo';
       case 'shortcut_action_global_scroll_page_up':
-        return 'Scroll up one screen';
+        return 'Rolar uma tela para cima';
       case 'shortcut_action_home_tab_prev':
-        return 'Previous tab';
+        return 'Aba anterior';
       case 'shortcut_action_home_tab_next':
-        return 'Next tab';
+        return 'Próxima aba';
       case 'move_up':
-        return 'Move up';
+        return 'Mover para cima';
       case 'move_down':
-        return 'Move down';
+        return 'Mover para baixo';
       case 'shortcut_action_reader_toggle_furigana':
-        return 'Toggle furigana';
+        return 'Alternar furigana';
       case 'on_screen_keyboard':
-        return 'On-screen keyboard';
+        return 'Teclado virtual';
       case 'app_ui_scale':
-        return 'UI size';
+        return 'Tamanho da interface';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
       case 'sync_dictionary':
-        return 'Sync dictionaries';
+        return 'Sincronizar dicionários';
       case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
+        return 'Os pacotes de dicionário podem ser grandes e incluir recursos de dicionários importados.';
       case 'settings_destination_reading':
-        return 'Reading';
+        return 'Leitura';
       case 'remote_dict_lookup':
-        return 'Remote dictionary lookup';
+        return 'Consulta de dicionário remoto';
       case 'remote_dict_lookup_hint':
-        return 'When local dictionaries miss, query the configured Hibiki server';
+        return 'Quando os dicionários locais falham, consulta o servidor Hibiki configurado';
       case 'remote_audio_source':
-        return 'Remote audio';
+        return 'Áudio remoto';
       case 'sync_pair_success':
-        return 'Paired — token filled in';
+        return 'Pareado — token preenchido';
       case 'sync_pair_failed':
-        return 'Pairing failed';
+        return 'Falha no pareamento';
       case 'audio_source_hibiki_interconnect':
         return 'Hibiki P2P';
       case 'audio_sources_remote_group':
-        return 'Remote sources';
+        return 'Fontes remotas';
       case 'audio_source_url_invalid':
-        return 'Link must be http(s) and contain a term or reading placeholder';
+        return 'O link deve ser http(s) e conter um marcador de termo ou leitura';
       case 'audio_source_added':
-        return 'Audio source added';
+        return 'Fonte de áudio adicionada';
       case 'local_audio_imported':
-        return 'Audio database added';
+        return 'Banco de dados de áudio adicionado';
       case 'local_audio_import_failed':
-        return 'Failed to import audio database';
+        return 'Falha ao importar banco de dados de áudio';
       case 'local_audio_edit_sources':
-        return 'Edit sources';
+        return 'Editar fontes';
       case 'local_audio_source_order_title':
-        return 'Source priority';
+        return 'Prioridade das fontes';
       case 'local_audio_no_sources':
-        return 'No sources found in this database';
+        return 'Nenhuma fonte encontrada neste banco de dados';
       case 'sync_pair_request_title':
-        return 'Pairing request';
+        return 'Solicitação de pareamento';
       case 'sync_pair_request_body':
-        return 'A device is requesting to pair. Allow it to sync with this device?';
+        return 'Um dispositivo está solicitando o pareamento. Permitir que ele sincronize com este dispositivo?';
       case 'sync_pair_allow':
-        return 'Allow';
+        return 'Permitir';
       case 'sync_pair_deny':
-        return 'Deny';
+        return 'Recusar';
       case 'sync_pair_denied':
-        return 'The other device declined pairing';
+        return 'O outro dispositivo recusou o pareamento';
       case 'sync_pair_unknown_device':
-        return 'Unknown device';
+        return 'Dispositivo desconhecido';
       case 'sync_pair_unavailable':
-        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+        return 'O outro dispositivo não está pronto ou está em uma versão mais antiga. Atualize-o e ative a sincronização, depois tente novamente.';
       case 'sync_role_locked_by_server':
-        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+        return 'Este dispositivo está atuando como servidor. Desative o servidor antes de conectar a outros dispositivos.';
       case 'sync_role_locked_by_client':
-        return 'Already connected to another device. Remove the connection before hosting as a server.';
+        return 'Já conectado a outro dispositivo. Remova a conexão antes de atuar como servidor.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
       case 'sync_audiobook_files':
-        return 'Sync audiobook files';
+        return 'Sincronizar arquivos de audiolivros';
       case 'sync_audiobook_files_warning':
-        return 'Audio and subtitles can be large.';
+        return 'Áudio e legendas podem ser grandes.';
       case 'book_import_duplicate_title':
-        return 'Duplicate book';
+        return 'Livro duplicado';
       case 'book_import_duplicate_keep':
-        return 'Yes, add suffix';
+        return 'Sim, adicionar sufixo';
       case 'book_import_duplicate_cancel':
-        return 'No, cancel';
+        return 'Não, cancelar';
       case 'book_import_duplicate_cancelled':
-        return 'Import cancelled';
+        return 'Importação cancelada';
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
-            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+            'Já existe um livro chamado "${name}". Importar mesmo assim? "Sim" importa com um sufixo numerado; "Não" cancela.';
       case 'reverse_reader_bottom_bar':
-        return 'Reverse reader bottom bar';
+        return 'Inverter barra inferior do leitor';
       case 'floating_dict_close':
-        return 'Close';
+        return 'Fechar';
       case 'debug_log_share_subject':
-        return 'hibiki Debug Log';
+        return 'Log de depuração do hibiki';
       case 'spread_direction_rtl':
-        return 'Right to Left';
+        return 'Da direita para a esquerda';
       case 'spread_direction_ltr':
-        return 'Left to Right';
+        return 'Da esquerda para a direita';
       case 'dict_download_partial':
         return (
                 {required Object success,
                 required Object total,
                 required Object error}) =>
-            '${success} / ${total} OK. Failed: ${error}';
+            '${success} / ${total} OK. Falharam: ${error}';
       case 'sync_now':
-        return 'Sync now';
+        return 'Sincronizar agora';
       case 'sync_now_hint':
-        return 'Run a full two-way sync with the cloud now';
+        return 'Executar uma sincronização bidirecional completa com a nuvem agora';
       case 'sync_now_busy':
-        return 'A sync is already running';
+        return 'Uma sincronização já está em execução';
       case 'sync_now_no_changes':
-        return 'no changes';
+        return 'nenhuma alteração';
       case 'sync_now_done':
-        return ({required Object detail}) => 'Synced · ${detail}';
+        return ({required Object detail}) => 'Sincronizado · ${detail}';
       case 'sync_now_failed_suffix':
-        return ({required Object count}) => ' · ${count} failed';
+        return ({required Object count}) => ' · ${count} falharam';
       case 'sync_now_books_in':
-        return ({required Object count}) => '↓${count} books';
+        return ({required Object count}) => '↓${count} livros';
       case 'sync_now_dicts_in':
-        return ({required Object count}) => '↓${count} dictionaries';
+        return ({required Object count}) => '↓${count} dicionários';
       case 'sync_now_dicts_out':
-        return ({required Object count}) => '↑${count} dictionaries';
+        return ({required Object count}) => '↑${count} dicionários';
       case 'sync_now_audio_in':
-        return ({required Object count}) => '↓${count} audiobooks';
+        return ({required Object count}) => '↓${count} audiolivros';
       case 'sync_now_audio_out':
-        return ({required Object count}) => '↑${count} audiobooks';
+        return ({required Object count}) => '↑${count} audiolivros';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return 'Dicionários';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return 'Excluir livro no remoto';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return 'Excluir audiolivro no remoto';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return 'Excluir dicionário no remoto';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return 'Excluído do remoto';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            'Excluir "${name}" do remoto? Os dados locais são mantidos. Isto não pode ser desfeito.';
+      case 'dictionaries_delete_failed':
+        return 'Falha ao excluir dicionários';
+      case 'dictionary_delete_failed':
+        return 'Falha ao excluir dicionário';
+      case 'sync_webdav_missing_fields':
+        return 'Campos faltando';
+      case 'sync_compare_download':
+        return 'Baixar';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -74793,7 +75879,7 @@ extension on _StringsRu {
       case 'ttu_scroll':
         return 'Прокрутка';
       case 'ttu_furigana_mode':
-        return 'Furigana';
+        return 'Фуригана';
       case 'ttu_furigana_show':
         return 'Показать';
       case 'ttu_furigana_hide':
@@ -75776,7 +76862,7 @@ extension on _StringsRu {
       case 'sync_statistics':
         return 'Синхронизировать статистику';
       case 'sync_summary':
-        return 'Google Drive · Совместимо с ッツ/Hoshi Reader';
+        return 'Облако, Hibiki P2P и локальная копия · совместимо с ッツ/Hoshi Reader';
       case 'sync_title':
         return 'Синхронизация';
       case 'update_channel_beta':
@@ -75786,129 +76872,130 @@ extension on _StringsRu {
       case 'update_channel_stable':
         return 'Стабильная';
       case 'anki_connect_host':
-        return 'Host';
+        return 'Хост';
       case 'anki_connect_port':
-        return 'Port';
+        return 'Порт';
       case 'sync_compare':
-        return 'Compare Data';
+        return 'Сравнить данные';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return 'Локально и удалённо';
       case 'sync_compare_local':
-        return 'Local';
+        return 'Локально';
       case 'sync_compare_remote':
-        return 'Remote';
+        return 'Удалённо';
       case 'sync_compare_no_data':
-        return 'No data';
+        return 'Нет данных';
       case 'sync_compare_empty':
-        return 'No books found';
+        return 'Книги не найдены';
       case 'sync_compare_days':
-        return 'days';
+        return 'дн.';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return 'Конфликты';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return 'Все книги';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return 'Выбрать все';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return 'Все → Локально';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return 'Все → Удалённо';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return 'Все → Пропустить';
       case 'sync_compare_use_local':
-        return 'Local';
+        return 'Локально';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return 'Удалённо';
       case 'sync_compare_skip':
-        return 'Skip';
+        return 'Пропустить';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => 'Применено изменений: ${count}';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => 'Применить (${count})';
       case 'sync_auto_sync':
-        return 'Auto Sync';
+        return 'Автосинхронизация';
       case 'sync_auto_complete':
         return ({required Object direction, required Object title}) =>
-            'Sync: ${direction} ${title}';
+            'Синхронизация: ${direction} ${title}';
       case 'no_matching_audio_cue':
-        return 'No matching audio for this sentence';
+        return 'Нет аудио для этого предложения';
       case 'sync_exit_warning_title':
-        return 'Sync In Progress';
+        return 'Идёт синхронизация';
       case 'sync_exit_warning':
-        return 'Sync is still in progress. Exiting now may cause data loss.';
+        return 'Синхронизация ещё не завершена. Выход сейчас может привести к потере данных.';
       case 'sync_content':
-        return 'Sync book files';
+        return 'Синхронизировать файлы книг';
       case 'sync_content_warning':
-        return 'Large files will use storage space and data';
+        return 'Большие файлы займут место в хранилище и трафик';
       case 'sync_backend':
-        return 'Storage backend';
+        return 'Хранилище';
       case 'sync_backend_google_drive':
         return 'Google Drive';
       case 'sync_backend_webdav':
         return 'WebDAV';
       case 'sync_webdav_url':
-        return 'Server URL';
+        return 'URL сервера';
       case 'sync_webdav_username':
-        return 'Username';
+        return 'Имя пользователя';
       case 'sync_webdav_password':
-        return 'Password';
+        return 'Пароль';
       case 'sync_webdav_test':
-        return 'Test connection';
+        return 'Проверить соединение';
       case 'sync_webdav_test_success':
-        return 'Connection successful';
+        return 'Соединение установлено';
       case 'sync_webdav_test_failed':
-        return ({required Object message}) => 'Connection failed: ${message}';
+        return ({required Object message}) => 'Ошибка соединения: ${message}';
       case 'book_file_not_found':
-        return 'Book file not found';
+        return 'Файл книги не найден';
       case 'epub_parse_fallback':
-        return 'Book metadata repaired from database';
+        return 'Метаданные книги восстановлены из базы данных';
       case 'retry':
-        return 'Retry';
+        return 'Повторить';
       case 'copy_error':
-        return 'Copy Error';
+        return 'Копировать ошибку';
       case 'error_copied':
-        return 'Error copied to clipboard';
+        return 'Ошибка скопирована в буфер обмена';
       case 'dict_import_failed_summary':
-        return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+        return ({required Object n}) =>
+            'Не удалось импортировать словарей: ${n}';
       case 'reader_content_timeout':
-        return 'Content loading timed out. Reopen if display is abnormal';
+        return 'Время загрузки контента истекло. Откройте заново, если отображение некорректно';
       case 'backup_local':
-        return 'Local Backup';
+        return 'Локальная резервная копия';
       case 'backup_export':
-        return 'Export Backup';
+        return 'Экспорт копии';
       case 'backup_export_hint':
-        return 'Save all settings, reading progress, and statistics to a file';
+        return 'Сохранить все настройки, прогресс чтения и статистику в файл';
       case 'backup_import':
-        return 'Import Backup';
+        return 'Импорт копии';
       case 'backup_import_hint':
-        return 'Restore from a backup file. The app will restart.';
+        return 'Восстановить из файла резервной копии. Приложение перезапустится.';
       case 'backup_export_success':
-        return 'Backup exported successfully';
+        return 'Резервная копия успешно экспортирована';
       case 'backup_export_failed':
         return ({required Object message}) =>
-            'Backup export failed: ${message}';
+            'Не удалось экспортировать копию: ${message}';
       case 'backup_import_confirm_title':
-        return 'Restore Backup?';
+        return 'Восстановить копию?';
       case 'backup_import_confirm':
         return (
                 {required Object date,
                 required Object bookCount,
                 required Object statsCount}) =>
-            'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+            'Это заменит все текущие данные копией от ${date}.\n\nКниг: ${bookCount}, записей статистики: ${statsCount}.\n\nПосле восстановления приложение перезапустится.';
       case 'backup_import_success':
-        return 'Backup restored. Restarting…';
+        return 'Копия восстановлена. Перезапуск…';
       case 'backup_import_failed':
         return ({required Object message}) =>
-            'Backup import failed: ${message}';
+            'Не удалось импортировать копию: ${message}';
       case 'backup_import_invalid':
-        return 'Invalid backup file';
+        return 'Недопустимый файл резервной копии';
       case 'backup_exporting':
-        return 'Creating backup…';
+        return 'Создание копии…';
       case 'backup_schema_newer':
         return ({required Object version}) =>
-            'This backup requires a newer version of the app (schema ${version}). Please update first.';
+            'Эта копия требует более новой версии приложения (схема ${version}). Сначала обновите приложение.';
       case 'reverse_navigation_bar':
-        return 'Reverse navigation bar';
+        return 'Обратить панель навигации';
       case 'sync_backend_onedrive':
         return 'OneDrive';
       case 'sync_backend_dropbox':
@@ -75920,290 +77007,325 @@ extension on _StringsRu {
       case 'sync_backend_hibiki_server':
         return 'Hibiki P2P';
       case 'sync_server_enable':
-        return 'Enable sync server';
+        return 'Включить сервер синхронизации';
       case 'sync_server_port':
-        return 'Server port';
+        return 'Порт сервера';
       case 'sync_server_token':
-        return 'Access token';
+        return 'Токен доступа';
       case 'sync_server_copy_token':
-        return 'Copy token';
+        return 'Копировать токен';
       case 'sync_server_regenerate_token':
-        return 'Regenerate token';
+        return 'Создать токен заново';
       case 'sync_server_running':
-        return 'Server running';
+        return 'Сервер работает';
       case 'sync_server_stopped':
-        return 'Server stopped';
+        return 'Сервер остановлен';
       case 'sync_lan_discovery':
-        return 'LAN devices';
+        return 'Устройства в сети';
       case 'sync_lan_scanning':
-        return 'Scanning...';
+        return 'Сканирование...';
       case 'sync_lan_no_devices':
-        return 'No devices found';
+        return 'Устройства не найдены';
       case 'sync_fallback_config':
-        return 'Fallback order';
+        return 'Порядок резерва';
       case 'sync_test_connection':
-        return 'Test connection';
+        return 'Проверить соединение';
       case 'sync_connection_success':
-        return 'Connection successful';
+        return 'Соединение установлено';
       case 'sync_connection_failed':
-        return 'Connection failed';
+        return 'Ошибка соединения';
       case 'sync_host':
-        return 'Host';
+        return 'Хост';
       case 'sync_port':
-        return 'Port';
+        return 'Порт';
       case 'sync_username':
-        return 'Username';
+        return 'Имя пользователя';
       case 'sync_password':
-        return 'Password';
+        return 'Пароль';
       case 'sync_use_tls':
-        return 'Use TLS';
+        return 'Использовать TLS';
       case 'sync_private_key':
-        return 'Private key';
+        return 'Закрытый ключ';
       case 'skip_action':
-        return 'Skip Action';
+        return 'Действие пропуска';
       case 'skip_action_sentence':
-        return '1 sentence';
+        return '1 предложение';
       case 'skip_action_seconds':
-        return ({required Object n}) => '${n} seconds';
+        return ({required Object n}) => '${n} сек.';
       case 'shortcut_settings_title':
-        return 'Keyboard Shortcuts';
+        return 'Сочетания клавиш';
       case 'shortcut_scope_reader':
-        return 'Reader';
+        return 'Читалка';
       case 'shortcut_scope_home':
-        return 'Home';
+        return 'Главная';
       case 'shortcut_scope_global':
-        return 'Global';
+        return 'Глобальные';
       case 'shortcut_scope_audiobook':
-        return 'Audiobook';
+        return 'Аудиокнига';
       case 'shortcut_action_reader_page_forward':
-        return 'Next Page';
+        return 'Следующая страница';
       case 'shortcut_action_reader_page_backward':
-        return 'Previous Page';
+        return 'Предыдущая страница';
       case 'shortcut_action_reader_toggle_chrome':
-        return 'Toggle Controls';
+        return 'Показать/скрыть элементы управления';
       case 'shortcut_action_reader_dismiss_dict':
-        return 'Dismiss Dictionary';
+        return 'Закрыть словарь';
       case 'shortcut_action_reader_toggle_bookmark':
-        return 'Toggle Bookmark';
+        return 'Закладка вкл./выкл.';
       case 'shortcut_action_home_tab_books':
-        return 'Books Tab';
+        return 'Вкладка «Книги»';
       case 'shortcut_action_home_tab_dict':
-        return 'Dictionary Tab';
+        return 'Вкладка «Словарь»';
       case 'shortcut_action_home_tab_settings':
-        return 'Settings Tab';
+        return 'Вкладка «Настройки»';
       case 'shortcut_action_home_focus_search':
-        return 'Focus Search';
+        return 'Фокус на поиск';
       case 'shortcut_action_global_back':
-        return 'Go Back';
+        return 'Назад';
       case 'shortcut_action_audiobook_play_pause':
-        return 'Play / Pause';
+        return 'Воспроизведение / пауза';
       case 'shortcut_action_audiobook_next_sentence':
-        return 'Next Sentence';
+        return 'Следующее предложение';
       case 'shortcut_action_audiobook_prev_sentence':
-        return 'Previous Sentence';
+        return 'Предыдущее предложение';
       case 'shortcut_press_key':
-        return 'Press a key combination...';
+        return 'Нажмите комбинацию клавиш...';
       case 'shortcut_press_gamepad':
-        return 'Press a gamepad button...';
+        return 'Нажмите кнопку геймпада...';
       case 'shortcut_conflict':
-        return ({required Object s}) => 'Already used by: ${s}';
+        return ({required Object s}) => 'Уже используется: ${s}';
       case 'shortcut_reset_defaults':
-        return 'Reset to Defaults';
+        return 'Сбросить по умолчанию';
       case 'shortcut_reset_confirm':
-        return 'Reset all shortcuts in this section to defaults?';
+        return 'Сбросить все сочетания в этом разделе к значениям по умолчанию?';
       case 'shortcut_keyboard':
-        return 'Keyboard';
+        return 'Клавиатура';
       case 'shortcut_gamepad':
-        return 'Gamepad';
+        return 'Геймпад';
       case 'shortcut_none':
-        return 'None';
+        return 'Нет';
       case 'shortcut_clear':
-        return 'Clear';
+        return 'Очистить';
       case 'shortcut_stop_capture':
-        return 'Stop';
+        return 'Стоп';
       case 'section_advanced_typography':
-        return 'Advanced';
+        return 'Дополнительно';
       case 'sync_err_network':
-        return 'Cannot reach the server — check your network or proxy settings.';
+        return 'Не удаётся подключиться к серверу — проверьте сеть или настройки прокси.';
       case 'sync_err_timeout':
-        return 'Connection timed out — the server did not respond in time.';
+        return 'Истекло время ожидания — сервер не ответил вовремя.';
       case 'sync_err_quota':
-        return 'Cloud storage is full (quota reached).';
+        return 'Облачное хранилище заполнено (достигнут лимит).';
       case 'sync_err_auth_expired':
-        return 'Sign-in expired — please sign in again.';
+        return 'Сессия истекла — войдите снова.';
       case 'sync_server_port_in_use':
         return ({required Object port}) =>
-            'Port ${port} is already in use — pick a different port.';
+            'Порт ${port} уже занят — выберите другой порт.';
       case 'sync_lan_scan_failed':
-        return 'Scan failed — check network permissions or firewall.';
+        return 'Сканирование не удалось — проверьте разрешения сети или брандмауэр.';
       case 'sync_section_method':
-        return 'Sync method';
+        return 'Способ синхронизации';
       case 'sync_section_host_server':
-        return 'This device as a sync server';
+        return 'Это устройство как сервер синхронизации';
       case 'sync_section_host_server_footer':
-        return 'Let other devices sync from this device. Independent of the sync backend above.';
+        return 'Позволяет другим устройствам синхронизироваться с этого устройства. Не зависит от хранилища выше.';
       case 'sync_section_content':
-        return 'What to sync';
+        return 'Что синхронизировать';
       case 'sync_section_actions':
-        return 'Sync actions';
+        return 'Действия синхронизации';
       case 'sync_section_backup':
-        return 'Local backup';
+        return 'Локальная резервная копия';
       case 'backup_import_preserve_sync_note':
-        return 'Your sync settings on this device (account and credentials) will be kept.';
+        return 'Настройки синхронизации на этом устройстве (аккаунт и учётные данные) будут сохранены.';
       case 'backup_import_settings_toggle':
-        return 'Import settings & profiles';
+        return 'Импортировать настройки и профили';
       case 'backup_import_settings_on_hint':
-        return 'Full restore: fonts, appearance and profiles come from the backup.';
+        return 'Полное восстановление: шрифты, оформление и профили берутся из копии.';
       case 'backup_import_settings_off_hint':
-        return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+        return 'Сохранить шрифты/оформление/профили этого устройства; восстановить только книги и данные чтения.';
       case 'reader_unsupported_platform':
-        return 'The reader is not yet available on this platform.';
+        return 'Читалка пока недоступна на этой платформе.';
       case 'microphone_permission_denied':
-        return 'Microphone permission is required to record.';
+        return 'Для записи требуется доступ к микрофону.';
       case 'anki_connect_api_key':
-        return 'API Key';
+        return 'Ключ API';
       case 'anki_connect_api_key_hint':
-        return 'Leave empty unless AnkiConnect requires a key';
+        return 'Оставьте пустым, если AnkiConnect не требует ключ';
       case 'shortcut_action_global_scroll_page_down':
-        return 'Scroll down one screen';
+        return 'Прокрутить вниз на экран';
       case 'shortcut_action_global_scroll_page_up':
-        return 'Scroll up one screen';
+        return 'Прокрутить вверх на экран';
       case 'shortcut_action_home_tab_prev':
-        return 'Previous tab';
+        return 'Предыдущая вкладка';
       case 'shortcut_action_home_tab_next':
-        return 'Next tab';
+        return 'Следующая вкладка';
       case 'move_up':
-        return 'Move up';
+        return 'Вверх';
       case 'move_down':
-        return 'Move down';
+        return 'Вниз';
       case 'shortcut_action_reader_toggle_furigana':
-        return 'Toggle furigana';
+        return 'Фуригана вкл./выкл.';
       case 'on_screen_keyboard':
-        return 'On-screen keyboard';
+        return 'Экранная клавиатура';
       case 'app_ui_scale':
-        return 'UI size';
+        return 'Размер интерфейса';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
       case 'sync_dictionary':
-        return 'Sync dictionaries';
+        return 'Синхронизировать словари';
       case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
+        return 'Пакеты словарей могут быть большими и включать импортированные ресурсы словарей.';
       case 'settings_destination_reading':
-        return 'Reading';
+        return 'Чтение';
       case 'remote_dict_lookup':
-        return 'Remote dictionary lookup';
+        return 'Удалённый поиск в словаре';
       case 'remote_dict_lookup_hint':
-        return 'When local dictionaries miss, query the configured Hibiki server';
+        return 'Если в локальных словарях ничего нет, запросить настроенный сервер Hibiki';
       case 'remote_audio_source':
-        return 'Remote audio';
+        return 'Удалённое аудио';
       case 'sync_pair_success':
-        return 'Paired — token filled in';
+        return 'Сопряжено — токен заполнен';
       case 'sync_pair_failed':
-        return 'Pairing failed';
+        return 'Сопряжение не удалось';
       case 'audio_source_hibiki_interconnect':
         return 'Hibiki P2P';
       case 'audio_sources_remote_group':
-        return 'Remote sources';
+        return 'Удалённые источники';
       case 'audio_source_url_invalid':
-        return 'Link must be http(s) and contain a term or reading placeholder';
+        return 'Ссылка должна быть http(s) и содержать плейсхолдер слова или чтения';
       case 'audio_source_added':
-        return 'Audio source added';
+        return 'Источник аудио добавлен';
       case 'local_audio_imported':
-        return 'Audio database added';
+        return 'База данных аудио добавлена';
       case 'local_audio_import_failed':
-        return 'Failed to import audio database';
+        return 'Не удалось импортировать базу данных аудио';
       case 'local_audio_edit_sources':
-        return 'Edit sources';
+        return 'Изменить источники';
       case 'local_audio_source_order_title':
-        return 'Source priority';
+        return 'Приоритет источников';
       case 'local_audio_no_sources':
-        return 'No sources found in this database';
+        return 'В этой базе данных источники не найдены';
       case 'sync_pair_request_title':
-        return 'Pairing request';
+        return 'Запрос на сопряжение';
       case 'sync_pair_request_body':
-        return 'A device is requesting to pair. Allow it to sync with this device?';
+        return 'Устройство запрашивает сопряжение. Разрешить синхронизацию с этим устройством?';
       case 'sync_pair_allow':
-        return 'Allow';
+        return 'Разрешить';
       case 'sync_pair_deny':
-        return 'Deny';
+        return 'Отклонить';
       case 'sync_pair_denied':
-        return 'The other device declined pairing';
+        return 'Другое устройство отклонило сопряжение';
       case 'sync_pair_unknown_device':
-        return 'Unknown device';
+        return 'Неизвестное устройство';
       case 'sync_pair_unavailable':
-        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+        return 'Другое устройство не готово или на нём старая версия. Обновите его, включите синхронизацию и попробуйте снова.';
       case 'sync_role_locked_by_server':
-        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+        return 'Это устройство работает как сервер. Отключите сервер перед подключением к другим устройствам.';
       case 'sync_role_locked_by_client':
-        return 'Already connected to another device. Remove the connection before hosting as a server.';
+        return 'Уже подключено к другому устройству. Удалите подключение перед запуском сервера.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
       case 'sync_audiobook_files':
-        return 'Sync audiobook files';
+        return 'Синхронизировать файлы аудиокниг';
       case 'sync_audiobook_files_warning':
-        return 'Audio and subtitles can be large.';
+        return 'Аудио и субтитры могут быть большими.';
       case 'book_import_duplicate_title':
-        return 'Duplicate book';
+        return 'Дубликат книги';
       case 'book_import_duplicate_keep':
-        return 'Yes, add suffix';
+        return 'Да, добавить суффикс';
       case 'book_import_duplicate_cancel':
-        return 'No, cancel';
+        return 'Нет, отменить';
       case 'book_import_duplicate_cancelled':
-        return 'Import cancelled';
+        return 'Импорт отменён';
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
-            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+            'Книга с названием «${name}» уже существует. Всё равно импортировать? «Да» — импорт с числовым суффиксом; «Нет» — отмена.';
       case 'reverse_reader_bottom_bar':
-        return 'Reverse reader bottom bar';
+        return 'Обратить нижнюю панель читалки';
       case 'floating_dict_close':
-        return 'Close';
+        return 'Закрыть';
       case 'debug_log_share_subject':
-        return 'hibiki Debug Log';
+        return 'Журнал отладки hibiki';
       case 'spread_direction_rtl':
-        return 'Right to Left';
+        return 'Справа налево';
       case 'spread_direction_ltr':
-        return 'Left to Right';
+        return 'Слева направо';
       case 'dict_download_partial':
         return (
                 {required Object success,
                 required Object total,
                 required Object error}) =>
-            '${success} / ${total} OK. Failed: ${error}';
+            '${success} / ${total} успешно. Ошибок: ${error}';
       case 'sync_now':
-        return 'Sync now';
+        return 'Синхронизировать сейчас';
       case 'sync_now_hint':
-        return 'Run a full two-way sync with the cloud now';
+        return 'Запустить полную двустороннюю синхронизацию с облаком сейчас';
       case 'sync_now_busy':
-        return 'A sync is already running';
+        return 'Синхронизация уже выполняется';
       case 'sync_now_no_changes':
-        return 'no changes';
+        return 'без изменений';
       case 'sync_now_done':
-        return ({required Object detail}) => 'Synced · ${detail}';
+        return ({required Object detail}) => 'Синхронизировано · ${detail}';
       case 'sync_now_failed_suffix':
-        return ({required Object count}) => ' · ${count} failed';
+        return ({required Object count}) => ' · ошибок: ${count}';
       case 'sync_now_books_in':
-        return ({required Object count}) => '↓${count} books';
+        return ({required Object count}) => '↓${count} книг';
       case 'sync_now_dicts_in':
-        return ({required Object count}) => '↓${count} dictionaries';
+        return ({required Object count}) => '↓${count} словарей';
       case 'sync_now_dicts_out':
-        return ({required Object count}) => '↑${count} dictionaries';
+        return ({required Object count}) => '↑${count} словарей';
       case 'sync_now_audio_in':
-        return ({required Object count}) => '↓${count} audiobooks';
+        return ({required Object count}) => '↓${count} аудиокниг';
       case 'sync_now_audio_out':
-        return ({required Object count}) => '↑${count} audiobooks';
+        return ({required Object count}) => '↑${count} аудиокниг';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return 'Словари';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return 'Удалить книгу на удалённом';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return 'Удалить аудиокнигу на удалённом';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return 'Удалить словарь на удалённом';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return 'Удалено с удалённого';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            'Удалить «${name}» с удалённого? Локальные данные сохранятся. Это нельзя отменить.';
+      case 'dictionaries_delete_failed':
+        return 'Не удалось удалить словари';
+      case 'dictionary_delete_failed':
+        return 'Не удалось удалить словарь';
+      case 'sync_webdav_missing_fields':
+        return 'Не заполнены поля';
+      case 'sync_compare_download':
+        return 'Скачать';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -77321,7 +78443,7 @@ extension on _StringsTh {
       case 'ttu_scroll':
         return 'เลื่อน';
       case 'ttu_furigana_mode':
-        return 'Furigana';
+        return 'ฟุริงานะ';
       case 'ttu_furigana_show':
         return 'แสดง';
       case 'ttu_furigana_hide':
@@ -78298,7 +79420,7 @@ extension on _StringsTh {
       case 'sync_statistics':
         return 'ซิงค์สถิติ';
       case 'sync_summary':
-        return 'Google Drive · รองรับ ッツ/Hoshi Reader';
+        return 'คลาวด์, LAN P2P และสำรองข้อมูลในเครื่อง · รองรับ ッツ/Hoshi Reader';
       case 'sync_title':
         return 'ซิงค์';
       case 'update_channel_beta':
@@ -78308,129 +79430,129 @@ extension on _StringsTh {
       case 'update_channel_stable':
         return 'เสถียร';
       case 'anki_connect_host':
-        return 'Host';
+        return 'โฮสต์';
       case 'anki_connect_port':
-        return 'Port';
+        return 'พอร์ต';
       case 'sync_compare':
-        return 'Compare Data';
+        return 'เปรียบเทียบข้อมูล';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return 'ในเครื่อง กับ ระยะไกล';
       case 'sync_compare_local':
-        return 'Local';
+        return 'ในเครื่อง';
       case 'sync_compare_remote':
-        return 'Remote';
+        return 'ระยะไกล';
       case 'sync_compare_no_data':
-        return 'No data';
+        return 'ไม่มีข้อมูล';
       case 'sync_compare_empty':
-        return 'No books found';
+        return 'ไม่พบหนังสือ';
       case 'sync_compare_days':
-        return 'days';
+        return 'วัน';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return 'ข้อขัดแย้ง';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return 'หนังสือทั้งหมด';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return 'เลือกทั้งหมด';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return 'ทั้งหมด → ในเครื่อง';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return 'ทั้งหมด → ระยะไกล';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return 'ทั้งหมด → ข้าม';
       case 'sync_compare_use_local':
-        return 'Local';
+        return 'ในเครื่อง';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return 'ระยะไกล';
       case 'sync_compare_skip':
-        return 'Skip';
+        return 'ข้าม';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => 'ปรับใช้ ${count} รายการแล้ว';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => 'ปรับใช้ (${count})';
       case 'sync_auto_sync':
-        return 'Auto Sync';
+        return 'ซิงค์อัตโนมัติ';
       case 'sync_auto_complete':
         return ({required Object direction, required Object title}) =>
-            'Sync: ${direction} ${title}';
+            'ซิงค์: ${direction} ${title}';
       case 'no_matching_audio_cue':
-        return 'No matching audio for this sentence';
+        return 'ไม่มีเสียงที่ตรงกับประโยคนี้';
       case 'sync_exit_warning_title':
-        return 'Sync In Progress';
+        return 'กำลังซิงค์';
       case 'sync_exit_warning':
-        return 'Sync is still in progress. Exiting now may cause data loss.';
+        return 'ยังซิงค์ไม่เสร็จ การออกตอนนี้อาจทำให้ข้อมูลสูญหาย';
       case 'sync_content':
-        return 'Sync book files';
+        return 'ซิงค์ไฟล์หนังสือ';
       case 'sync_content_warning':
-        return 'Large files will use storage space and data';
+        return 'ไฟล์ขนาดใหญ่จะใช้พื้นที่จัดเก็บและปริมาณข้อมูล';
       case 'sync_backend':
-        return 'Storage backend';
+        return 'แบ็กเอนด์จัดเก็บข้อมูล';
       case 'sync_backend_google_drive':
         return 'Google Drive';
       case 'sync_backend_webdav':
         return 'WebDAV';
       case 'sync_webdav_url':
-        return 'Server URL';
+        return 'URL เซิร์ฟเวอร์';
       case 'sync_webdav_username':
-        return 'Username';
+        return 'ชื่อผู้ใช้';
       case 'sync_webdav_password':
-        return 'Password';
+        return 'รหัสผ่าน';
       case 'sync_webdav_test':
-        return 'Test connection';
+        return 'ทดสอบการเชื่อมต่อ';
       case 'sync_webdav_test_success':
-        return 'Connection successful';
+        return 'เชื่อมต่อสำเร็จ';
       case 'sync_webdav_test_failed':
-        return ({required Object message}) => 'Connection failed: ${message}';
+        return ({required Object message}) => 'เชื่อมต่อไม่สำเร็จ: ${message}';
       case 'book_file_not_found':
-        return 'Book file not found';
+        return 'ไม่พบไฟล์หนังสือ';
       case 'epub_parse_fallback':
-        return 'Book metadata repaired from database';
+        return 'ซ่อมข้อมูลหนังสือจากฐานข้อมูลแล้ว';
       case 'retry':
-        return 'Retry';
+        return 'ลองใหม่';
       case 'copy_error':
-        return 'Copy Error';
+        return 'คัดลอกข้อผิดพลาด';
       case 'error_copied':
-        return 'Error copied to clipboard';
+        return 'คัดลอกข้อผิดพลาดไปยังคลิปบอร์ดแล้ว';
       case 'dict_import_failed_summary':
-        return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+        return ({required Object n}) => 'นำเข้าพจนานุกรมไม่สำเร็จ ${n} รายการ';
       case 'reader_content_timeout':
-        return 'Content loading timed out. Reopen if display is abnormal';
+        return 'โหลดเนื้อหาหมดเวลา หากแสดงผลผิดปกติให้เปิดใหม่';
       case 'backup_local':
-        return 'Local Backup';
+        return 'สำรองข้อมูลในเครื่อง';
       case 'backup_export':
-        return 'Export Backup';
+        return 'ส่งออกข้อมูลสำรอง';
       case 'backup_export_hint':
-        return 'Save all settings, reading progress, and statistics to a file';
+        return 'บันทึกการตั้งค่า ความคืบหน้าการอ่าน และสถิติทั้งหมดลงไฟล์';
       case 'backup_import':
-        return 'Import Backup';
+        return 'นำเข้าข้อมูลสำรอง';
       case 'backup_import_hint':
-        return 'Restore from a backup file. The app will restart.';
+        return 'กู้คืนจากไฟล์สำรอง แอปจะรีสตาร์ท';
       case 'backup_export_success':
-        return 'Backup exported successfully';
+        return 'ส่งออกข้อมูลสำรองสำเร็จ';
       case 'backup_export_failed':
         return ({required Object message}) =>
-            'Backup export failed: ${message}';
+            'ส่งออกข้อมูลสำรองไม่สำเร็จ: ${message}';
       case 'backup_import_confirm_title':
-        return 'Restore Backup?';
+        return 'กู้คืนข้อมูลสำรอง?';
       case 'backup_import_confirm':
         return (
                 {required Object date,
                 required Object bookCount,
                 required Object statsCount}) =>
-            'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+            'การดำเนินการนี้จะแทนที่ข้อมูลปัจจุบันทั้งหมดด้วยข้อมูลสำรองจาก ${date}\n\nหนังสือ ${bookCount} เล่ม, บันทึกสถิติ ${statsCount} รายการ\n\nแอปจะรีสตาร์ทหลังกู้คืน';
       case 'backup_import_success':
-        return 'Backup restored. Restarting…';
+        return 'กู้คืนข้อมูลสำรองแล้ว กำลังรีสตาร์ท…';
       case 'backup_import_failed':
         return ({required Object message}) =>
-            'Backup import failed: ${message}';
+            'นำเข้าข้อมูลสำรองไม่สำเร็จ: ${message}';
       case 'backup_import_invalid':
-        return 'Invalid backup file';
+        return 'ไฟล์สำรองไม่ถูกต้อง';
       case 'backup_exporting':
-        return 'Creating backup…';
+        return 'กำลังสร้างข้อมูลสำรอง…';
       case 'backup_schema_newer':
         return ({required Object version}) =>
-            'This backup requires a newer version of the app (schema ${version}). Please update first.';
+            'ข้อมูลสำรองนี้ต้องใช้แอปเวอร์ชันใหม่กว่า (schema ${version}) โปรดอัปเดตก่อน';
       case 'reverse_navigation_bar':
-        return 'Reverse navigation bar';
+        return 'สลับด้านแถบนำทาง';
       case 'sync_backend_onedrive':
         return 'OneDrive';
       case 'sync_backend_dropbox':
@@ -78442,290 +79564,325 @@ extension on _StringsTh {
       case 'sync_backend_hibiki_server':
         return 'Hibiki P2P';
       case 'sync_server_enable':
-        return 'Enable sync server';
+        return 'เปิดใช้เซิร์ฟเวอร์ซิงค์';
       case 'sync_server_port':
-        return 'Server port';
+        return 'พอร์ตเซิร์ฟเวอร์';
       case 'sync_server_token':
-        return 'Access token';
+        return 'โทเค็นการเข้าถึง';
       case 'sync_server_copy_token':
-        return 'Copy token';
+        return 'คัดลอกโทเค็น';
       case 'sync_server_regenerate_token':
-        return 'Regenerate token';
+        return 'สร้างโทเค็นใหม่';
       case 'sync_server_running':
-        return 'Server running';
+        return 'เซิร์ฟเวอร์ทำงานอยู่';
       case 'sync_server_stopped':
-        return 'Server stopped';
+        return 'เซิร์ฟเวอร์หยุดทำงาน';
       case 'sync_lan_discovery':
-        return 'LAN devices';
+        return 'อุปกรณ์ในเครือข่าย LAN';
       case 'sync_lan_scanning':
-        return 'Scanning...';
+        return 'กำลังสแกน...';
       case 'sync_lan_no_devices':
-        return 'No devices found';
+        return 'ไม่พบอุปกรณ์';
       case 'sync_fallback_config':
-        return 'Fallback order';
+        return 'ลำดับสำรอง';
       case 'sync_test_connection':
-        return 'Test connection';
+        return 'ทดสอบการเชื่อมต่อ';
       case 'sync_connection_success':
-        return 'Connection successful';
+        return 'เชื่อมต่อสำเร็จ';
       case 'sync_connection_failed':
-        return 'Connection failed';
+        return 'เชื่อมต่อไม่สำเร็จ';
       case 'sync_host':
-        return 'Host';
+        return 'โฮสต์';
       case 'sync_port':
-        return 'Port';
+        return 'พอร์ต';
       case 'sync_username':
-        return 'Username';
+        return 'ชื่อผู้ใช้';
       case 'sync_password':
-        return 'Password';
+        return 'รหัสผ่าน';
       case 'sync_use_tls':
-        return 'Use TLS';
+        return 'ใช้ TLS';
       case 'sync_private_key':
-        return 'Private key';
+        return 'คีย์ส่วนตัว';
       case 'skip_action':
-        return 'Skip Action';
+        return 'การกระทำเมื่อข้าม';
       case 'skip_action_sentence':
-        return '1 sentence';
+        return '1 ประโยค';
       case 'skip_action_seconds':
-        return ({required Object n}) => '${n} seconds';
+        return ({required Object n}) => '${n} วินาที';
       case 'shortcut_settings_title':
-        return 'Keyboard Shortcuts';
+        return 'แป้นพิมพ์ลัด';
       case 'shortcut_scope_reader':
-        return 'Reader';
+        return 'โปรแกรมอ่าน';
       case 'shortcut_scope_home':
-        return 'Home';
+        return 'หน้าหลัก';
       case 'shortcut_scope_global':
-        return 'Global';
+        return 'ทั่วไป';
       case 'shortcut_scope_audiobook':
-        return 'Audiobook';
+        return 'หนังสือเสียง';
       case 'shortcut_action_reader_page_forward':
-        return 'Next Page';
+        return 'หน้าถัดไป';
       case 'shortcut_action_reader_page_backward':
-        return 'Previous Page';
+        return 'หน้าก่อนหน้า';
       case 'shortcut_action_reader_toggle_chrome':
-        return 'Toggle Controls';
+        return 'สลับแถบควบคุม';
       case 'shortcut_action_reader_dismiss_dict':
-        return 'Dismiss Dictionary';
+        return 'ปิดพจนานุกรม';
       case 'shortcut_action_reader_toggle_bookmark':
-        return 'Toggle Bookmark';
+        return 'สลับบุ๊กมาร์ก';
       case 'shortcut_action_home_tab_books':
-        return 'Books Tab';
+        return 'แท็บหนังสือ';
       case 'shortcut_action_home_tab_dict':
-        return 'Dictionary Tab';
+        return 'แท็บพจนานุกรม';
       case 'shortcut_action_home_tab_settings':
-        return 'Settings Tab';
+        return 'แท็บตั้งค่า';
       case 'shortcut_action_home_focus_search':
-        return 'Focus Search';
+        return 'โฟกัสช่องค้นหา';
       case 'shortcut_action_global_back':
-        return 'Go Back';
+        return 'ย้อนกลับ';
       case 'shortcut_action_audiobook_play_pause':
-        return 'Play / Pause';
+        return 'เล่น / หยุดชั่วคราว';
       case 'shortcut_action_audiobook_next_sentence':
-        return 'Next Sentence';
+        return 'ประโยคถัดไป';
       case 'shortcut_action_audiobook_prev_sentence':
-        return 'Previous Sentence';
+        return 'ประโยคก่อนหน้า';
       case 'shortcut_press_key':
-        return 'Press a key combination...';
+        return 'กดชุดปุ่ม...';
       case 'shortcut_press_gamepad':
-        return 'Press a gamepad button...';
+        return 'กดปุ่มเกมแพด...';
       case 'shortcut_conflict':
-        return ({required Object s}) => 'Already used by: ${s}';
+        return ({required Object s}) => 'ใช้อยู่แล้วโดย: ${s}';
       case 'shortcut_reset_defaults':
-        return 'Reset to Defaults';
+        return 'รีเซ็ตเป็นค่าเริ่มต้น';
       case 'shortcut_reset_confirm':
-        return 'Reset all shortcuts in this section to defaults?';
+        return 'รีเซ็ตแป้นพิมพ์ลัดทั้งหมดในส่วนนี้เป็นค่าเริ่มต้น?';
       case 'shortcut_keyboard':
-        return 'Keyboard';
+        return 'แป้นพิมพ์';
       case 'shortcut_gamepad':
-        return 'Gamepad';
+        return 'เกมแพด';
       case 'shortcut_none':
-        return 'None';
+        return 'ไม่มี';
       case 'shortcut_clear':
-        return 'Clear';
+        return 'ล้าง';
       case 'shortcut_stop_capture':
-        return 'Stop';
+        return 'หยุด';
       case 'section_advanced_typography':
-        return 'Advanced';
+        return 'ขั้นสูง';
       case 'sync_err_network':
-        return 'Cannot reach the server — check your network or proxy settings.';
+        return 'เข้าถึงเซิร์ฟเวอร์ไม่ได้ — ตรวจสอบเครือข่ายหรือการตั้งค่าพร็อกซี';
       case 'sync_err_timeout':
-        return 'Connection timed out — the server did not respond in time.';
+        return 'การเชื่อมต่อหมดเวลา — เซิร์ฟเวอร์ไม่ตอบสนองทันเวลา';
       case 'sync_err_quota':
-        return 'Cloud storage is full (quota reached).';
+        return 'พื้นที่จัดเก็บบนคลาวด์เต็ม (ถึงโควตาแล้ว)';
       case 'sync_err_auth_expired':
-        return 'Sign-in expired — please sign in again.';
+        return 'การลงชื่อเข้าใช้หมดอายุ — โปรดลงชื่อเข้าใช้อีกครั้ง';
       case 'sync_server_port_in_use':
         return ({required Object port}) =>
-            'Port ${port} is already in use — pick a different port.';
+            'พอร์ต ${port} ถูกใช้งานอยู่ — เลือกพอร์ตอื่น';
       case 'sync_lan_scan_failed':
-        return 'Scan failed — check network permissions or firewall.';
+        return 'สแกนไม่สำเร็จ — ตรวจสอบสิทธิ์เครือข่ายหรือไฟร์วอลล์';
       case 'sync_section_method':
-        return 'Sync method';
+        return 'วิธีการซิงค์';
       case 'sync_section_host_server':
-        return 'This device as a sync server';
+        return 'ใช้อุปกรณ์นี้เป็นเซิร์ฟเวอร์ซิงค์';
       case 'sync_section_host_server_footer':
-        return 'Let other devices sync from this device. Independent of the sync backend above.';
+        return 'ให้อุปกรณ์อื่นซิงค์จากอุปกรณ์นี้ ทำงานแยกจากแบ็กเอนด์ซิงค์ด้านบน';
       case 'sync_section_content':
-        return 'What to sync';
+        return 'สิ่งที่จะซิงค์';
       case 'sync_section_actions':
-        return 'Sync actions';
+        return 'การกระทำการซิงค์';
       case 'sync_section_backup':
-        return 'Local backup';
+        return 'สำรองข้อมูลในเครื่อง';
       case 'backup_import_preserve_sync_note':
-        return 'Your sync settings on this device (account and credentials) will be kept.';
+        return 'การตั้งค่าซิงค์บนอุปกรณ์นี้ (บัญชีและข้อมูลรับรอง) จะถูกเก็บไว้';
       case 'backup_import_settings_toggle':
-        return 'Import settings & profiles';
+        return 'นำเข้าการตั้งค่าและโปรไฟล์';
       case 'backup_import_settings_on_hint':
-        return 'Full restore: fonts, appearance and profiles come from the backup.';
+        return 'กู้คืนเต็มรูปแบบ: ฟอนต์ รูปลักษณ์ และโปรไฟล์มาจากข้อมูลสำรอง';
       case 'backup_import_settings_off_hint':
-        return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+        return 'เก็บฟอนต์/รูปลักษณ์/โปรไฟล์ของอุปกรณ์นี้ กู้คืนเฉพาะหนังสือและข้อมูลการอ่าน';
       case 'reader_unsupported_platform':
-        return 'The reader is not yet available on this platform.';
+        return 'ยังไม่รองรับโปรแกรมอ่านบนแพลตฟอร์มนี้';
       case 'microphone_permission_denied':
-        return 'Microphone permission is required to record.';
+        return 'ต้องมีสิทธิ์เข้าถึงไมโครโฟนเพื่อบันทึกเสียง';
       case 'anki_connect_api_key':
         return 'API Key';
       case 'anki_connect_api_key_hint':
-        return 'Leave empty unless AnkiConnect requires a key';
+        return 'ปล่อยว่างไว้ เว้นแต่ AnkiConnect ต้องใช้คีย์';
       case 'shortcut_action_global_scroll_page_down':
-        return 'Scroll down one screen';
+        return 'เลื่อนลงหนึ่งหน้าจอ';
       case 'shortcut_action_global_scroll_page_up':
-        return 'Scroll up one screen';
+        return 'เลื่อนขึ้นหนึ่งหน้าจอ';
       case 'shortcut_action_home_tab_prev':
-        return 'Previous tab';
+        return 'แท็บก่อนหน้า';
       case 'shortcut_action_home_tab_next':
-        return 'Next tab';
+        return 'แท็บถัดไป';
       case 'move_up':
-        return 'Move up';
+        return 'เลื่อนขึ้น';
       case 'move_down':
-        return 'Move down';
+        return 'เลื่อนลง';
       case 'shortcut_action_reader_toggle_furigana':
-        return 'Toggle furigana';
+        return 'สลับฟุริงานะ';
       case 'on_screen_keyboard':
-        return 'On-screen keyboard';
+        return 'แป้นพิมพ์บนหน้าจอ';
       case 'app_ui_scale':
-        return 'UI size';
+        return 'ขนาด UI';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
       case 'sync_dictionary':
-        return 'Sync dictionaries';
+        return 'ซิงค์พจนานุกรม';
       case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
+        return 'แพ็กเกจพจนานุกรมอาจมีขนาดใหญ่และรวมทรัพยากรพจนานุกรมที่นำเข้ามา';
       case 'settings_destination_reading':
-        return 'Reading';
+        return 'การอ่าน';
       case 'remote_dict_lookup':
-        return 'Remote dictionary lookup';
+        return 'ค้นหาพจนานุกรมระยะไกล';
       case 'remote_dict_lookup_hint':
-        return 'When local dictionaries miss, query the configured Hibiki server';
+        return 'เมื่อไม่พบในพจนานุกรมในเครื่อง ให้สอบถามจากเซิร์ฟเวอร์ Hibiki ที่ตั้งค่าไว้';
       case 'remote_audio_source':
-        return 'Remote audio';
+        return 'เสียงระยะไกล';
       case 'sync_pair_success':
-        return 'Paired — token filled in';
+        return 'จับคู่แล้ว — กรอกโทเค็นให้อัตโนมัติ';
       case 'sync_pair_failed':
-        return 'Pairing failed';
+        return 'จับคู่ไม่สำเร็จ';
       case 'audio_source_hibiki_interconnect':
         return 'Hibiki P2P';
       case 'audio_sources_remote_group':
-        return 'Remote sources';
+        return 'แหล่งระยะไกล';
       case 'audio_source_url_invalid':
-        return 'Link must be http(s) and contain a term or reading placeholder';
+        return 'ลิงก์ต้องเป็น http(s) และมีตัวยึดสำหรับคำศัพท์หรือคำอ่าน';
       case 'audio_source_added':
-        return 'Audio source added';
+        return 'เพิ่มแหล่งเสียงแล้ว';
       case 'local_audio_imported':
-        return 'Audio database added';
+        return 'เพิ่มฐานข้อมูลเสียงแล้ว';
       case 'local_audio_import_failed':
-        return 'Failed to import audio database';
+        return 'นำเข้าฐานข้อมูลเสียงไม่สำเร็จ';
       case 'local_audio_edit_sources':
-        return 'Edit sources';
+        return 'แก้ไขแหล่ง';
       case 'local_audio_source_order_title':
-        return 'Source priority';
+        return 'ลำดับความสำคัญของแหล่ง';
       case 'local_audio_no_sources':
-        return 'No sources found in this database';
+        return 'ไม่พบแหล่งในฐานข้อมูลนี้';
       case 'sync_pair_request_title':
-        return 'Pairing request';
+        return 'คำขอจับคู่';
       case 'sync_pair_request_body':
-        return 'A device is requesting to pair. Allow it to sync with this device?';
+        return 'มีอุปกรณ์ขอจับคู่ อนุญาตให้ซิงค์กับอุปกรณ์นี้หรือไม่?';
       case 'sync_pair_allow':
-        return 'Allow';
+        return 'อนุญาต';
       case 'sync_pair_deny':
-        return 'Deny';
+        return 'ปฏิเสธ';
       case 'sync_pair_denied':
-        return 'The other device declined pairing';
+        return 'อีกอุปกรณ์ปฏิเสธการจับคู่';
       case 'sync_pair_unknown_device':
-        return 'Unknown device';
+        return 'อุปกรณ์ที่ไม่รู้จัก';
       case 'sync_pair_unavailable':
-        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+        return 'อีกอุปกรณ์ยังไม่พร้อมหรือใช้เวอร์ชันเก่ากว่า อัปเดตและเปิดการซิงค์ แล้วลองอีกครั้ง';
       case 'sync_role_locked_by_server':
-        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+        return 'อุปกรณ์นี้กำลังทำหน้าที่เป็นเซิร์ฟเวอร์ ปิดเซิร์ฟเวอร์ก่อนเชื่อมต่อกับอุปกรณ์อื่น';
       case 'sync_role_locked_by_client':
-        return 'Already connected to another device. Remove the connection before hosting as a server.';
+        return 'เชื่อมต่อกับอุปกรณ์อื่นอยู่แล้ว ลบการเชื่อมต่อก่อนทำหน้าที่เป็นเซิร์ฟเวอร์';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
       case 'sync_audiobook_files':
-        return 'Sync audiobook files';
+        return 'ซิงค์ไฟล์หนังสือเสียง';
       case 'sync_audiobook_files_warning':
-        return 'Audio and subtitles can be large.';
+        return 'เสียงและคำบรรยายอาจมีขนาดใหญ่';
       case 'book_import_duplicate_title':
-        return 'Duplicate book';
+        return 'หนังสือซ้ำ';
       case 'book_import_duplicate_keep':
-        return 'Yes, add suffix';
+        return 'ใช่ เพิ่มคำต่อท้าย';
       case 'book_import_duplicate_cancel':
-        return 'No, cancel';
+        return 'ไม่ ยกเลิก';
       case 'book_import_duplicate_cancelled':
-        return 'Import cancelled';
+        return 'ยกเลิกการนำเข้าแล้ว';
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
-            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+            'มีหนังสือชื่อ "${name}" อยู่แล้ว นำเข้าต่อหรือไม่? "ใช่" จะนำเข้าพร้อมหมายเลขต่อท้าย; "ไม่" จะยกเลิก';
       case 'reverse_reader_bottom_bar':
-        return 'Reverse reader bottom bar';
+        return 'สลับด้านแถบล่างของโปรแกรมอ่าน';
       case 'floating_dict_close':
-        return 'Close';
+        return 'ปิด';
       case 'debug_log_share_subject':
-        return 'hibiki Debug Log';
+        return 'บันทึกดีบักของ hibiki';
       case 'spread_direction_rtl':
-        return 'Right to Left';
+        return 'ขวาไปซ้าย';
       case 'spread_direction_ltr':
-        return 'Left to Right';
+        return 'ซ้ายไปขวา';
       case 'dict_download_partial':
         return (
                 {required Object success,
                 required Object total,
                 required Object error}) =>
-            '${success} / ${total} OK. Failed: ${error}';
+            '${success} / ${total} สำเร็จ ล้มเหลว: ${error}';
       case 'sync_now':
-        return 'Sync now';
+        return 'ซิงค์ทันที';
       case 'sync_now_hint':
-        return 'Run a full two-way sync with the cloud now';
+        return 'ทำการซิงค์สองทางแบบเต็มกับคลาวด์ทันที';
       case 'sync_now_busy':
-        return 'A sync is already running';
+        return 'กำลังซิงค์อยู่แล้ว';
       case 'sync_now_no_changes':
-        return 'no changes';
+        return 'ไม่มีการเปลี่ยนแปลง';
       case 'sync_now_done':
-        return ({required Object detail}) => 'Synced · ${detail}';
+        return ({required Object detail}) => 'ซิงค์แล้ว · ${detail}';
       case 'sync_now_failed_suffix':
-        return ({required Object count}) => ' · ${count} failed';
+        return ({required Object count}) => ' · ล้มเหลว ${count} รายการ';
       case 'sync_now_books_in':
-        return ({required Object count}) => '↓${count} books';
+        return ({required Object count}) => '↓หนังสือ ${count} เล่ม';
       case 'sync_now_dicts_in':
-        return ({required Object count}) => '↓${count} dictionaries';
+        return ({required Object count}) => '↓พจนานุกรม ${count} รายการ';
       case 'sync_now_dicts_out':
-        return ({required Object count}) => '↑${count} dictionaries';
+        return ({required Object count}) => '↑พจนานุกรม ${count} รายการ';
       case 'sync_now_audio_in':
-        return ({required Object count}) => '↓${count} audiobooks';
+        return ({required Object count}) => '↓หนังสือเสียง ${count} เล่ม';
       case 'sync_now_audio_out':
-        return ({required Object count}) => '↑${count} audiobooks';
+        return ({required Object count}) => '↑หนังสือเสียง ${count} เล่ม';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return 'พจนานุกรม';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return 'ลบหนังสือบนเครื่องระยะไกล';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return 'ลบหนังสือเสียงบนเครื่องระยะไกล';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return 'ลบพจนานุกรมบนเครื่องระยะไกล';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return 'ลบจากเครื่องระยะไกลแล้ว';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            'ลบ "${name}" จากเครื่องระยะไกล? ข้อมูลในเครื่องจะถูกเก็บไว้ การกระทำนี้ไม่สามารถยกเลิกได้';
+      case 'dictionaries_delete_failed':
+        return 'ลบพจนานุกรมไม่สำเร็จ';
+      case 'dictionary_delete_failed':
+        return 'ลบพจนานุกรมไม่สำเร็จ';
+      case 'sync_webdav_missing_fields':
+        return 'ข้อมูลไม่ครบ';
+      case 'sync_compare_download':
+        return 'ดาวน์โหลด';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -80823,7 +81980,7 @@ extension on _StringsTr {
       case 'sync_statistics':
         return 'İstatistikleri Senkronize Et';
       case 'sync_summary':
-        return 'Google Drive · ッツ/Hoshi Reader uyumlu';
+        return 'Bulut, LAN P2P ve yerel yedek · ッツ/Hoshi Reader uyumlu';
       case 'sync_title':
         return 'Senkronizasyon';
       case 'update_channel_beta':
@@ -80833,129 +81990,129 @@ extension on _StringsTr {
       case 'update_channel_stable':
         return 'Kararlı';
       case 'anki_connect_host':
-        return 'Host';
+        return 'Sunucu';
       case 'anki_connect_port':
-        return 'Port';
+        return 'Bağlantı noktası';
       case 'sync_compare':
-        return 'Compare Data';
+        return 'Verileri Karşılaştır';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return 'Yerel ile Uzak';
       case 'sync_compare_local':
-        return 'Local';
+        return 'Yerel';
       case 'sync_compare_remote':
-        return 'Remote';
+        return 'Uzak';
       case 'sync_compare_no_data':
-        return 'No data';
+        return 'Veri yok';
       case 'sync_compare_empty':
-        return 'No books found';
+        return 'Kitap bulunamadı';
       case 'sync_compare_days':
-        return 'days';
+        return 'gün';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return 'Çakışmalar';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return 'Tüm Kitaplar';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return 'Tümünü Seç';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return 'Tümü → Yerel';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return 'Tümü → Uzak';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return 'Tümü → Atla';
       case 'sync_compare_use_local':
-        return 'Local';
+        return 'Yerel';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return 'Uzak';
       case 'sync_compare_skip':
-        return 'Skip';
+        return 'Atla';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => '${count} değişiklik uygulandı';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => 'Uygula (${count})';
       case 'sync_auto_sync':
-        return 'Auto Sync';
+        return 'Otomatik Eşitleme';
       case 'sync_auto_complete':
         return ({required Object direction, required Object title}) =>
-            'Sync: ${direction} ${title}';
+            'Eşitleme: ${direction} ${title}';
       case 'no_matching_audio_cue':
-        return 'No matching audio for this sentence';
+        return 'Bu cümle için eşleşen ses yok';
       case 'sync_exit_warning_title':
-        return 'Sync In Progress';
+        return 'Eşitleme Sürüyor';
       case 'sync_exit_warning':
-        return 'Sync is still in progress. Exiting now may cause data loss.';
+        return 'Eşitleme hâlâ sürüyor. Şimdi çıkmak veri kaybına yol açabilir.';
       case 'sync_content':
-        return 'Sync book files';
+        return 'Kitap dosyalarını eşitle';
       case 'sync_content_warning':
-        return 'Large files will use storage space and data';
+        return 'Büyük dosyalar depolama alanı ve veri kullanır';
       case 'sync_backend':
-        return 'Storage backend';
+        return 'Depolama arka ucu';
       case 'sync_backend_google_drive':
         return 'Google Drive';
       case 'sync_backend_webdav':
         return 'WebDAV';
       case 'sync_webdav_url':
-        return 'Server URL';
+        return 'Sunucu URL\'si';
       case 'sync_webdav_username':
-        return 'Username';
+        return 'Kullanıcı adı';
       case 'sync_webdav_password':
-        return 'Password';
+        return 'Parola';
       case 'sync_webdav_test':
-        return 'Test connection';
+        return 'Bağlantıyı test et';
       case 'sync_webdav_test_success':
-        return 'Connection successful';
+        return 'Bağlantı başarılı';
       case 'sync_webdav_test_failed':
-        return ({required Object message}) => 'Connection failed: ${message}';
+        return ({required Object message}) => 'Bağlantı başarısız: ${message}';
       case 'book_file_not_found':
-        return 'Book file not found';
+        return 'Kitap dosyası bulunamadı';
       case 'epub_parse_fallback':
-        return 'Book metadata repaired from database';
+        return 'Kitap meta verileri veritabanından onarıldı';
       case 'retry':
-        return 'Retry';
+        return 'Yeniden dene';
       case 'copy_error':
-        return 'Copy Error';
+        return 'Hatayı Kopyala';
       case 'error_copied':
-        return 'Error copied to clipboard';
+        return 'Hata panoya kopyalandı';
       case 'dict_import_failed_summary':
-        return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+        return ({required Object n}) => '${n} sözlük içe aktarılamadı';
       case 'reader_content_timeout':
-        return 'Content loading timed out. Reopen if display is abnormal';
+        return 'İçerik yüklemesi zaman aşımına uğradı. Görüntü anormalse yeniden açın';
       case 'backup_local':
-        return 'Local Backup';
+        return 'Yerel Yedek';
       case 'backup_export':
-        return 'Export Backup';
+        return 'Yedeği Dışa Aktar';
       case 'backup_export_hint':
-        return 'Save all settings, reading progress, and statistics to a file';
+        return 'Tüm ayarları, okuma ilerlemesini ve istatistikleri bir dosyaya kaydet';
       case 'backup_import':
-        return 'Import Backup';
+        return 'Yedeği İçe Aktar';
       case 'backup_import_hint':
-        return 'Restore from a backup file. The app will restart.';
+        return 'Bir yedek dosyasından geri yükle. Uygulama yeniden başlatılacak.';
       case 'backup_export_success':
-        return 'Backup exported successfully';
+        return 'Yedek başarıyla dışa aktarıldı';
       case 'backup_export_failed':
         return ({required Object message}) =>
-            'Backup export failed: ${message}';
+            'Yedek dışa aktarılamadı: ${message}';
       case 'backup_import_confirm_title':
-        return 'Restore Backup?';
+        return 'Yedek Geri Yüklensin mi?';
       case 'backup_import_confirm':
         return (
                 {required Object date,
                 required Object bookCount,
                 required Object statsCount}) =>
-            'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+            'Bu işlem tüm mevcut verileri ${date} tarihli yedekle değiştirir.\n\n${bookCount} kitap, ${statsCount} istatistik kaydı.\n\nGeri yüklemeden sonra uygulama yeniden başlatılacak.';
       case 'backup_import_success':
-        return 'Backup restored. Restarting…';
+        return 'Yedek geri yüklendi. Yeniden başlatılıyor…';
       case 'backup_import_failed':
         return ({required Object message}) =>
-            'Backup import failed: ${message}';
+            'Yedek içe aktarılamadı: ${message}';
       case 'backup_import_invalid':
-        return 'Invalid backup file';
+        return 'Geçersiz yedek dosyası';
       case 'backup_exporting':
-        return 'Creating backup…';
+        return 'Yedek oluşturuluyor…';
       case 'backup_schema_newer':
         return ({required Object version}) =>
-            'This backup requires a newer version of the app (schema ${version}). Please update first.';
+            'Bu yedek uygulamanın daha yeni bir sürümünü gerektiriyor (şema ${version}). Lütfen önce güncelleyin.';
       case 'reverse_navigation_bar':
-        return 'Reverse navigation bar';
+        return 'Gezinme çubuğunu ters çevir';
       case 'sync_backend_onedrive':
         return 'OneDrive';
       case 'sync_backend_dropbox':
@@ -80967,290 +82124,325 @@ extension on _StringsTr {
       case 'sync_backend_hibiki_server':
         return 'Hibiki P2P';
       case 'sync_server_enable':
-        return 'Enable sync server';
+        return 'Eşitleme sunucusunu etkinleştir';
       case 'sync_server_port':
-        return 'Server port';
+        return 'Sunucu bağlantı noktası';
       case 'sync_server_token':
-        return 'Access token';
+        return 'Erişim belirteci';
       case 'sync_server_copy_token':
-        return 'Copy token';
+        return 'Belirteci kopyala';
       case 'sync_server_regenerate_token':
-        return 'Regenerate token';
+        return 'Belirteci yeniden oluştur';
       case 'sync_server_running':
-        return 'Server running';
+        return 'Sunucu çalışıyor';
       case 'sync_server_stopped':
-        return 'Server stopped';
+        return 'Sunucu durduruldu';
       case 'sync_lan_discovery':
-        return 'LAN devices';
+        return 'LAN cihazları';
       case 'sync_lan_scanning':
-        return 'Scanning...';
+        return 'Taranıyor...';
       case 'sync_lan_no_devices':
-        return 'No devices found';
+        return 'Cihaz bulunamadı';
       case 'sync_fallback_config':
-        return 'Fallback order';
+        return 'Yedek sırası';
       case 'sync_test_connection':
-        return 'Test connection';
+        return 'Bağlantıyı test et';
       case 'sync_connection_success':
-        return 'Connection successful';
+        return 'Bağlantı başarılı';
       case 'sync_connection_failed':
-        return 'Connection failed';
+        return 'Bağlantı başarısız';
       case 'sync_host':
-        return 'Host';
+        return 'Sunucu';
       case 'sync_port':
-        return 'Port';
+        return 'Bağlantı noktası';
       case 'sync_username':
-        return 'Username';
+        return 'Kullanıcı adı';
       case 'sync_password':
-        return 'Password';
+        return 'Parola';
       case 'sync_use_tls':
-        return 'Use TLS';
+        return 'TLS kullan';
       case 'sync_private_key':
-        return 'Private key';
+        return 'Özel anahtar';
       case 'skip_action':
-        return 'Skip Action';
+        return 'Atlama Eylemi';
       case 'skip_action_sentence':
-        return '1 sentence';
+        return '1 cümle';
       case 'skip_action_seconds':
-        return ({required Object n}) => '${n} seconds';
+        return ({required Object n}) => '${n} saniye';
       case 'shortcut_settings_title':
-        return 'Keyboard Shortcuts';
+        return 'Klavye Kısayolları';
       case 'shortcut_scope_reader':
-        return 'Reader';
+        return 'Okuyucu';
       case 'shortcut_scope_home':
-        return 'Home';
+        return 'Ana Sayfa';
       case 'shortcut_scope_global':
-        return 'Global';
+        return 'Genel';
       case 'shortcut_scope_audiobook':
-        return 'Audiobook';
+        return 'Sesli Kitap';
       case 'shortcut_action_reader_page_forward':
-        return 'Next Page';
+        return 'Sonraki Sayfa';
       case 'shortcut_action_reader_page_backward':
-        return 'Previous Page';
+        return 'Önceki Sayfa';
       case 'shortcut_action_reader_toggle_chrome':
-        return 'Toggle Controls';
+        return 'Denetimleri Aç/Kapat';
       case 'shortcut_action_reader_dismiss_dict':
-        return 'Dismiss Dictionary';
+        return 'Sözlüğü Kapat';
       case 'shortcut_action_reader_toggle_bookmark':
-        return 'Toggle Bookmark';
+        return 'Yer İmini Aç/Kapat';
       case 'shortcut_action_home_tab_books':
-        return 'Books Tab';
+        return 'Kitaplar Sekmesi';
       case 'shortcut_action_home_tab_dict':
-        return 'Dictionary Tab';
+        return 'Sözlük Sekmesi';
       case 'shortcut_action_home_tab_settings':
-        return 'Settings Tab';
+        return 'Ayarlar Sekmesi';
       case 'shortcut_action_home_focus_search':
-        return 'Focus Search';
+        return 'Aramaya Odaklan';
       case 'shortcut_action_global_back':
-        return 'Go Back';
+        return 'Geri Git';
       case 'shortcut_action_audiobook_play_pause':
-        return 'Play / Pause';
+        return 'Oynat / Duraklat';
       case 'shortcut_action_audiobook_next_sentence':
-        return 'Next Sentence';
+        return 'Sonraki Cümle';
       case 'shortcut_action_audiobook_prev_sentence':
-        return 'Previous Sentence';
+        return 'Önceki Cümle';
       case 'shortcut_press_key':
-        return 'Press a key combination...';
+        return 'Bir tuş bileşimine basın...';
       case 'shortcut_press_gamepad':
-        return 'Press a gamepad button...';
+        return 'Bir oyun kumandası düğmesine basın...';
       case 'shortcut_conflict':
-        return ({required Object s}) => 'Already used by: ${s}';
+        return ({required Object s}) => 'Şu tarafından kullanılıyor: ${s}';
       case 'shortcut_reset_defaults':
-        return 'Reset to Defaults';
+        return 'Varsayılanlara Sıfırla';
       case 'shortcut_reset_confirm':
-        return 'Reset all shortcuts in this section to defaults?';
+        return 'Bu bölümdeki tüm kısayollar varsayılanlara sıfırlansın mı?';
       case 'shortcut_keyboard':
-        return 'Keyboard';
+        return 'Klavye';
       case 'shortcut_gamepad':
-        return 'Gamepad';
+        return 'Oyun kumandası';
       case 'shortcut_none':
-        return 'None';
+        return 'Yok';
       case 'shortcut_clear':
-        return 'Clear';
+        return 'Temizle';
       case 'shortcut_stop_capture':
-        return 'Stop';
+        return 'Durdur';
       case 'section_advanced_typography':
-        return 'Advanced';
+        return 'Gelişmiş';
       case 'sync_err_network':
-        return 'Cannot reach the server — check your network or proxy settings.';
+        return 'Sunucuya ulaşılamıyor — ağ veya proxy ayarlarınızı kontrol edin.';
       case 'sync_err_timeout':
-        return 'Connection timed out — the server did not respond in time.';
+        return 'Bağlantı zaman aşımına uğradı — sunucu zamanında yanıt vermedi.';
       case 'sync_err_quota':
-        return 'Cloud storage is full (quota reached).';
+        return 'Bulut depolama dolu (kota doldu).';
       case 'sync_err_auth_expired':
-        return 'Sign-in expired — please sign in again.';
+        return 'Oturum süresi doldu — lütfen tekrar oturum açın.';
       case 'sync_server_port_in_use':
         return ({required Object port}) =>
-            'Port ${port} is already in use — pick a different port.';
+            '${port} bağlantı noktası zaten kullanımda — farklı bir bağlantı noktası seçin.';
       case 'sync_lan_scan_failed':
-        return 'Scan failed — check network permissions or firewall.';
+        return 'Tarama başarısız — ağ izinlerini veya güvenlik duvarını kontrol edin.';
       case 'sync_section_method':
-        return 'Sync method';
+        return 'Eşitleme yöntemi';
       case 'sync_section_host_server':
-        return 'This device as a sync server';
+        return 'Bu cihaz eşitleme sunucusu olarak';
       case 'sync_section_host_server_footer':
-        return 'Let other devices sync from this device. Independent of the sync backend above.';
+        return 'Diğer cihazların bu cihazdan eşitlemesine izin verin. Yukarıdaki eşitleme arka ucundan bağımsızdır.';
       case 'sync_section_content':
-        return 'What to sync';
+        return 'Neler eşitlenecek';
       case 'sync_section_actions':
-        return 'Sync actions';
+        return 'Eşitleme eylemleri';
       case 'sync_section_backup':
-        return 'Local backup';
+        return 'Yerel yedek';
       case 'backup_import_preserve_sync_note':
-        return 'Your sync settings on this device (account and credentials) will be kept.';
+        return 'Bu cihazdaki eşitleme ayarlarınız (hesap ve kimlik bilgileri) korunacak.';
       case 'backup_import_settings_toggle':
-        return 'Import settings & profiles';
+        return 'Ayarları ve profilleri içe aktar';
       case 'backup_import_settings_on_hint':
-        return 'Full restore: fonts, appearance and profiles come from the backup.';
+        return 'Tam geri yükleme: yazı tipleri, görünüm ve profiller yedekten gelir.';
       case 'backup_import_settings_off_hint':
-        return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+        return 'Bu cihazın yazı tipleri/görünümü/profilleri korunur; yalnızca kitaplar ve okuma verileri geri yüklenir.';
       case 'reader_unsupported_platform':
-        return 'The reader is not yet available on this platform.';
+        return 'Okuyucu henüz bu platformda kullanılamıyor.';
       case 'microphone_permission_denied':
-        return 'Microphone permission is required to record.';
+        return 'Kayıt için mikrofon izni gereklidir.';
       case 'anki_connect_api_key':
-        return 'API Key';
+        return 'API Anahtarı';
       case 'anki_connect_api_key_hint':
-        return 'Leave empty unless AnkiConnect requires a key';
+        return 'AnkiConnect bir anahtar gerektirmediği sürece boş bırakın';
       case 'shortcut_action_global_scroll_page_down':
-        return 'Scroll down one screen';
+        return 'Bir ekran aşağı kaydır';
       case 'shortcut_action_global_scroll_page_up':
-        return 'Scroll up one screen';
+        return 'Bir ekran yukarı kaydır';
       case 'shortcut_action_home_tab_prev':
-        return 'Previous tab';
+        return 'Önceki sekme';
       case 'shortcut_action_home_tab_next':
-        return 'Next tab';
+        return 'Sonraki sekme';
       case 'move_up':
-        return 'Move up';
+        return 'Yukarı taşı';
       case 'move_down':
-        return 'Move down';
+        return 'Aşağı taşı';
       case 'shortcut_action_reader_toggle_furigana':
-        return 'Toggle furigana';
+        return 'Furigana\'yı aç/kapat';
       case 'on_screen_keyboard':
-        return 'On-screen keyboard';
+        return 'Ekran klavyesi';
       case 'app_ui_scale':
-        return 'UI size';
+        return 'Arayüz boyutu';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
       case 'sync_dictionary':
-        return 'Sync dictionaries';
+        return 'Sözlükleri eşitle';
       case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
+        return 'Sözlük paketleri büyük olabilir ve içe aktarılan sözlük kaynaklarını içerebilir.';
       case 'settings_destination_reading':
-        return 'Reading';
+        return 'Okuma';
       case 'remote_dict_lookup':
-        return 'Remote dictionary lookup';
+        return 'Uzak sözlük araması';
       case 'remote_dict_lookup_hint':
-        return 'When local dictionaries miss, query the configured Hibiki server';
+        return 'Yerel sözlükler bulamadığında, yapılandırılmış Hibiki sunucusunu sorgula';
       case 'remote_audio_source':
-        return 'Remote audio';
+        return 'Uzak ses';
       case 'sync_pair_success':
-        return 'Paired — token filled in';
+        return 'Eşleştirildi — belirteç dolduruldu';
       case 'sync_pair_failed':
-        return 'Pairing failed';
+        return 'Eşleştirme başarısız';
       case 'audio_source_hibiki_interconnect':
         return 'Hibiki P2P';
       case 'audio_sources_remote_group':
-        return 'Remote sources';
+        return 'Uzak kaynaklar';
       case 'audio_source_url_invalid':
-        return 'Link must be http(s) and contain a term or reading placeholder';
+        return 'Bağlantı http(s) olmalı ve bir terim ya da okuma yer tutucusu içermelidir';
       case 'audio_source_added':
-        return 'Audio source added';
+        return 'Ses kaynağı eklendi';
       case 'local_audio_imported':
-        return 'Audio database added';
+        return 'Ses veritabanı eklendi';
       case 'local_audio_import_failed':
-        return 'Failed to import audio database';
+        return 'Ses veritabanı içe aktarılamadı';
       case 'local_audio_edit_sources':
-        return 'Edit sources';
+        return 'Kaynakları düzenle';
       case 'local_audio_source_order_title':
-        return 'Source priority';
+        return 'Kaynak önceliği';
       case 'local_audio_no_sources':
-        return 'No sources found in this database';
+        return 'Bu veritabanında kaynak bulunamadı';
       case 'sync_pair_request_title':
-        return 'Pairing request';
+        return 'Eşleştirme isteği';
       case 'sync_pair_request_body':
-        return 'A device is requesting to pair. Allow it to sync with this device?';
+        return 'Bir cihaz eşleştirme talep ediyor. Bu cihazla eşitlemesine izin verilsin mi?';
       case 'sync_pair_allow':
-        return 'Allow';
+        return 'İzin ver';
       case 'sync_pair_deny':
-        return 'Deny';
+        return 'Reddet';
       case 'sync_pair_denied':
-        return 'The other device declined pairing';
+        return 'Diğer cihaz eşleştirmeyi reddetti';
       case 'sync_pair_unknown_device':
-        return 'Unknown device';
+        return 'Bilinmeyen cihaz';
       case 'sync_pair_unavailable':
-        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+        return 'Diğer cihaz hazır değil veya eski bir sürümde. Güncelleyin ve eşitlemeyi etkinleştirin, ardından tekrar deneyin.';
       case 'sync_role_locked_by_server':
-        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+        return 'Bu cihaz sunucu olarak barındırıyor. Diğer cihazlara bağlanmadan önce sunucuyu kapatın.';
       case 'sync_role_locked_by_client':
-        return 'Already connected to another device. Remove the connection before hosting as a server.';
+        return 'Zaten başka bir cihaza bağlı. Sunucu olarak barındırmadan önce bağlantıyı kaldırın.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
       case 'sync_audiobook_files':
-        return 'Sync audiobook files';
+        return 'Sesli kitap dosyalarını eşitle';
       case 'sync_audiobook_files_warning':
-        return 'Audio and subtitles can be large.';
+        return 'Ses ve altyazılar büyük olabilir.';
       case 'book_import_duplicate_title':
-        return 'Duplicate book';
+        return 'Yinelenen kitap';
       case 'book_import_duplicate_keep':
-        return 'Yes, add suffix';
+        return 'Evet, sonek ekle';
       case 'book_import_duplicate_cancel':
-        return 'No, cancel';
+        return 'Hayır, iptal et';
       case 'book_import_duplicate_cancelled':
-        return 'Import cancelled';
+        return 'İçe aktarma iptal edildi';
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
-            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+            '"${name}" adlı bir kitap zaten var. Yine de içe aktarılsın mı? "Evet" numaralı bir sonekle içe aktarır; "Hayır" iptal eder.';
       case 'reverse_reader_bottom_bar':
-        return 'Reverse reader bottom bar';
+        return 'Okuyucu alt çubuğunu ters çevir';
       case 'floating_dict_close':
-        return 'Close';
+        return 'Kapat';
       case 'debug_log_share_subject':
-        return 'hibiki Debug Log';
+        return 'hibiki Hata Ayıklama Günlüğü';
       case 'spread_direction_rtl':
-        return 'Right to Left';
+        return 'Sağdan Sola';
       case 'spread_direction_ltr':
-        return 'Left to Right';
+        return 'Soldan Sağa';
       case 'dict_download_partial':
         return (
                 {required Object success,
                 required Object total,
                 required Object error}) =>
-            '${success} / ${total} OK. Failed: ${error}';
+            '${success} / ${total} tamam. Başarısız: ${error}';
       case 'sync_now':
-        return 'Sync now';
+        return 'Şimdi eşitle';
       case 'sync_now_hint':
-        return 'Run a full two-way sync with the cloud now';
+        return 'Bulutla tam iki yönlü eşitlemeyi şimdi çalıştır';
       case 'sync_now_busy':
-        return 'A sync is already running';
+        return 'Bir eşitleme zaten çalışıyor';
       case 'sync_now_no_changes':
-        return 'no changes';
+        return 'değişiklik yok';
       case 'sync_now_done':
-        return ({required Object detail}) => 'Synced · ${detail}';
+        return ({required Object detail}) => 'Eşitlendi · ${detail}';
       case 'sync_now_failed_suffix':
-        return ({required Object count}) => ' · ${count} failed';
+        return ({required Object count}) => ' · ${count} başarısız';
       case 'sync_now_books_in':
-        return ({required Object count}) => '↓${count} books';
+        return ({required Object count}) => '↓${count} kitap';
       case 'sync_now_dicts_in':
-        return ({required Object count}) => '↓${count} dictionaries';
+        return ({required Object count}) => '↓${count} sözlük';
       case 'sync_now_dicts_out':
-        return ({required Object count}) => '↑${count} dictionaries';
+        return ({required Object count}) => '↑${count} sözlük';
       case 'sync_now_audio_in':
-        return ({required Object count}) => '↓${count} audiobooks';
+        return ({required Object count}) => '↓${count} sesli kitap';
       case 'sync_now_audio_out':
-        return ({required Object count}) => '↑${count} audiobooks';
+        return ({required Object count}) => '↑${count} sesli kitap';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return 'Sözlükler';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return 'Kitabı uzakta sil';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return 'Sesli kitabı uzakta sil';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return 'Sözlüğü uzakta sil';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return 'Uzaktan silindi';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            '"${name}" uzaktan silinsin mi? Yerel veriler korunur. Bu geri alınamaz.';
+      case 'dictionaries_delete_failed':
+        return 'Sözlükler silinemedi';
+      case 'dictionary_delete_failed':
+        return 'Sözlük silinemedi';
+      case 'sync_webdav_missing_fields':
+        return 'Eksik alanlar';
+      case 'sync_compare_download':
+        return 'İndir';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -83345,7 +84537,7 @@ extension on _StringsVi {
       case 'sync_statistics':
         return 'Đồng bộ thống kê';
       case 'sync_summary':
-        return 'Google Drive · Tương thích ッツ/Hoshi Reader';
+        return 'Đám mây, LAN P2P & sao lưu cục bộ · tương thích ッツ/Hoshi Reader';
       case 'sync_title':
         return 'Đồng bộ';
       case 'update_channel_beta':
@@ -83355,129 +84547,129 @@ extension on _StringsVi {
       case 'update_channel_stable':
         return 'Ổn định';
       case 'anki_connect_host':
-        return 'Host';
+        return 'Máy chủ';
       case 'anki_connect_port':
-        return 'Port';
+        return 'Cổng';
       case 'sync_compare':
-        return 'Compare Data';
+        return 'So sánh dữ liệu';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return 'Cục bộ và từ xa';
       case 'sync_compare_local':
-        return 'Local';
+        return 'Cục bộ';
       case 'sync_compare_remote':
-        return 'Remote';
+        return 'Từ xa';
       case 'sync_compare_no_data':
-        return 'No data';
+        return 'Không có dữ liệu';
       case 'sync_compare_empty':
-        return 'No books found';
+        return 'Không tìm thấy sách';
       case 'sync_compare_days':
-        return 'days';
+        return 'ngày';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return 'Xung đột';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return 'Tất cả sách';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return 'Chọn tất cả';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return 'Tất cả → Cục bộ';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return 'Tất cả → Từ xa';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return 'Tất cả → Bỏ qua';
       case 'sync_compare_use_local':
-        return 'Local';
+        return 'Cục bộ';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return 'Từ xa';
       case 'sync_compare_skip':
-        return 'Skip';
+        return 'Bỏ qua';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => 'Đã áp dụng ${count} thay đổi';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => 'Áp dụng (${count})';
       case 'sync_auto_sync':
-        return 'Auto Sync';
+        return 'Tự động đồng bộ';
       case 'sync_auto_complete':
         return ({required Object direction, required Object title}) =>
-            'Sync: ${direction} ${title}';
+            'Đồng bộ: ${direction} ${title}';
       case 'no_matching_audio_cue':
-        return 'No matching audio for this sentence';
+        return 'Không có âm thanh khớp với câu này';
       case 'sync_exit_warning_title':
-        return 'Sync In Progress';
+        return 'Đang đồng bộ';
       case 'sync_exit_warning':
-        return 'Sync is still in progress. Exiting now may cause data loss.';
+        return 'Quá trình đồng bộ vẫn đang diễn ra. Thoát ngay bây giờ có thể gây mất dữ liệu.';
       case 'sync_content':
-        return 'Sync book files';
+        return 'Đồng bộ tệp sách';
       case 'sync_content_warning':
-        return 'Large files will use storage space and data';
+        return 'Tệp lớn sẽ tốn dung lượng lưu trữ và dữ liệu mạng';
       case 'sync_backend':
-        return 'Storage backend';
+        return 'Phương thức lưu trữ';
       case 'sync_backend_google_drive':
         return 'Google Drive';
       case 'sync_backend_webdav':
         return 'WebDAV';
       case 'sync_webdav_url':
-        return 'Server URL';
+        return 'URL máy chủ';
       case 'sync_webdav_username':
-        return 'Username';
+        return 'Tên đăng nhập';
       case 'sync_webdav_password':
-        return 'Password';
+        return 'Mật khẩu';
       case 'sync_webdav_test':
-        return 'Test connection';
+        return 'Kiểm tra kết nối';
       case 'sync_webdav_test_success':
-        return 'Connection successful';
+        return 'Kết nối thành công';
       case 'sync_webdav_test_failed':
-        return ({required Object message}) => 'Connection failed: ${message}';
+        return ({required Object message}) => 'Kết nối thất bại: ${message}';
       case 'book_file_not_found':
-        return 'Book file not found';
+        return 'Không tìm thấy tệp sách';
       case 'epub_parse_fallback':
-        return 'Book metadata repaired from database';
+        return 'Đã khôi phục thông tin sách từ cơ sở dữ liệu';
       case 'retry':
-        return 'Retry';
+        return 'Thử lại';
       case 'copy_error':
-        return 'Copy Error';
+        return 'Sao chép lỗi';
       case 'error_copied':
-        return 'Error copied to clipboard';
+        return 'Đã sao chép lỗi vào bộ nhớ tạm';
       case 'dict_import_failed_summary':
-        return ({required Object n}) => 'Failed to import ${n} dictionary(s)';
+        return ({required Object n}) => 'Không thể nhập ${n} từ điển';
       case 'reader_content_timeout':
-        return 'Content loading timed out. Reopen if display is abnormal';
+        return 'Tải nội dung quá thời gian. Mở lại nếu hiển thị bất thường';
       case 'backup_local':
-        return 'Local Backup';
+        return 'Sao lưu cục bộ';
       case 'backup_export':
-        return 'Export Backup';
+        return 'Xuất bản sao lưu';
       case 'backup_export_hint':
-        return 'Save all settings, reading progress, and statistics to a file';
+        return 'Lưu toàn bộ cài đặt, tiến độ đọc và thống kê vào một tệp';
       case 'backup_import':
-        return 'Import Backup';
+        return 'Nhập bản sao lưu';
       case 'backup_import_hint':
-        return 'Restore from a backup file. The app will restart.';
+        return 'Khôi phục từ tệp sao lưu. Ứng dụng sẽ khởi động lại.';
       case 'backup_export_success':
-        return 'Backup exported successfully';
+        return 'Đã xuất bản sao lưu thành công';
       case 'backup_export_failed':
         return ({required Object message}) =>
-            'Backup export failed: ${message}';
+            'Xuất bản sao lưu thất bại: ${message}';
       case 'backup_import_confirm_title':
-        return 'Restore Backup?';
+        return 'Khôi phục bản sao lưu?';
       case 'backup_import_confirm':
         return (
                 {required Object date,
                 required Object bookCount,
                 required Object statsCount}) =>
-            'This will replace all current data with the backup from ${date}.\n\n${bookCount} books, ${statsCount} statistics records.\n\nThe app will restart after restore.';
+            'Thao tác này sẽ thay thế toàn bộ dữ liệu hiện tại bằng bản sao lưu từ ${date}.\n\n${bookCount} sách, ${statsCount} bản ghi thống kê.\n\nỨng dụng sẽ khởi động lại sau khi khôi phục.';
       case 'backup_import_success':
-        return 'Backup restored. Restarting…';
+        return 'Đã khôi phục bản sao lưu. Đang khởi động lại…';
       case 'backup_import_failed':
         return ({required Object message}) =>
-            'Backup import failed: ${message}';
+            'Nhập bản sao lưu thất bại: ${message}';
       case 'backup_import_invalid':
-        return 'Invalid backup file';
+        return 'Tệp sao lưu không hợp lệ';
       case 'backup_exporting':
-        return 'Creating backup…';
+        return 'Đang tạo bản sao lưu…';
       case 'backup_schema_newer':
         return ({required Object version}) =>
-            'This backup requires a newer version of the app (schema ${version}). Please update first.';
+            'Bản sao lưu này cần phiên bản ứng dụng mới hơn (schema ${version}). Vui lòng cập nhật trước.';
       case 'reverse_navigation_bar':
-        return 'Reverse navigation bar';
+        return 'Đảo ngược thanh điều hướng';
       case 'sync_backend_onedrive':
         return 'OneDrive';
       case 'sync_backend_dropbox':
@@ -83489,290 +84681,325 @@ extension on _StringsVi {
       case 'sync_backend_hibiki_server':
         return 'Hibiki P2P';
       case 'sync_server_enable':
-        return 'Enable sync server';
+        return 'Bật máy chủ đồng bộ';
       case 'sync_server_port':
-        return 'Server port';
+        return 'Cổng máy chủ';
       case 'sync_server_token':
-        return 'Access token';
+        return 'Mã truy cập';
       case 'sync_server_copy_token':
-        return 'Copy token';
+        return 'Sao chép mã';
       case 'sync_server_regenerate_token':
-        return 'Regenerate token';
+        return 'Tạo lại mã';
       case 'sync_server_running':
-        return 'Server running';
+        return 'Máy chủ đang chạy';
       case 'sync_server_stopped':
-        return 'Server stopped';
+        return 'Máy chủ đã dừng';
       case 'sync_lan_discovery':
-        return 'LAN devices';
+        return 'Thiết bị trong mạng LAN';
       case 'sync_lan_scanning':
-        return 'Scanning...';
+        return 'Đang quét...';
       case 'sync_lan_no_devices':
-        return 'No devices found';
+        return 'Không tìm thấy thiết bị';
       case 'sync_fallback_config':
-        return 'Fallback order';
+        return 'Thứ tự dự phòng';
       case 'sync_test_connection':
-        return 'Test connection';
+        return 'Kiểm tra kết nối';
       case 'sync_connection_success':
-        return 'Connection successful';
+        return 'Kết nối thành công';
       case 'sync_connection_failed':
-        return 'Connection failed';
+        return 'Kết nối thất bại';
       case 'sync_host':
-        return 'Host';
+        return 'Máy chủ';
       case 'sync_port':
-        return 'Port';
+        return 'Cổng';
       case 'sync_username':
-        return 'Username';
+        return 'Tên đăng nhập';
       case 'sync_password':
-        return 'Password';
+        return 'Mật khẩu';
       case 'sync_use_tls':
-        return 'Use TLS';
+        return 'Dùng TLS';
       case 'sync_private_key':
-        return 'Private key';
+        return 'Khóa riêng tư';
       case 'skip_action':
-        return 'Skip Action';
+        return 'Bỏ qua';
       case 'skip_action_sentence':
-        return '1 sentence';
+        return '1 câu';
       case 'skip_action_seconds':
-        return ({required Object n}) => '${n} seconds';
+        return ({required Object n}) => '${n} giây';
       case 'shortcut_settings_title':
-        return 'Keyboard Shortcuts';
+        return 'Phím tắt bàn phím';
       case 'shortcut_scope_reader':
-        return 'Reader';
+        return 'Trình đọc';
       case 'shortcut_scope_home':
-        return 'Home';
+        return 'Trang chủ';
       case 'shortcut_scope_global':
-        return 'Global';
+        return 'Toàn cục';
       case 'shortcut_scope_audiobook':
-        return 'Audiobook';
+        return 'Sách nói';
       case 'shortcut_action_reader_page_forward':
-        return 'Next Page';
+        return 'Trang sau';
       case 'shortcut_action_reader_page_backward':
-        return 'Previous Page';
+        return 'Trang trước';
       case 'shortcut_action_reader_toggle_chrome':
-        return 'Toggle Controls';
+        return 'Bật/tắt điều khiển';
       case 'shortcut_action_reader_dismiss_dict':
-        return 'Dismiss Dictionary';
+        return 'Đóng từ điển';
       case 'shortcut_action_reader_toggle_bookmark':
-        return 'Toggle Bookmark';
+        return 'Bật/tắt dấu trang';
       case 'shortcut_action_home_tab_books':
-        return 'Books Tab';
+        return 'Tab Sách';
       case 'shortcut_action_home_tab_dict':
-        return 'Dictionary Tab';
+        return 'Tab Từ điển';
       case 'shortcut_action_home_tab_settings':
-        return 'Settings Tab';
+        return 'Tab Cài đặt';
       case 'shortcut_action_home_focus_search':
-        return 'Focus Search';
+        return 'Tập trung tìm kiếm';
       case 'shortcut_action_global_back':
-        return 'Go Back';
+        return 'Quay lại';
       case 'shortcut_action_audiobook_play_pause':
-        return 'Play / Pause';
+        return 'Phát / Tạm dừng';
       case 'shortcut_action_audiobook_next_sentence':
-        return 'Next Sentence';
+        return 'Câu kế tiếp';
       case 'shortcut_action_audiobook_prev_sentence':
-        return 'Previous Sentence';
+        return 'Câu trước';
       case 'shortcut_press_key':
-        return 'Press a key combination...';
+        return 'Nhấn tổ hợp phím...';
       case 'shortcut_press_gamepad':
-        return 'Press a gamepad button...';
+        return 'Nhấn nút tay cầm...';
       case 'shortcut_conflict':
-        return ({required Object s}) => 'Already used by: ${s}';
+        return ({required Object s}) => 'Đã được dùng bởi: ${s}';
       case 'shortcut_reset_defaults':
-        return 'Reset to Defaults';
+        return 'Khôi phục mặc định';
       case 'shortcut_reset_confirm':
-        return 'Reset all shortcuts in this section to defaults?';
+        return 'Khôi phục mọi phím tắt trong mục này về mặc định?';
       case 'shortcut_keyboard':
-        return 'Keyboard';
+        return 'Bàn phím';
       case 'shortcut_gamepad':
-        return 'Gamepad';
+        return 'Tay cầm';
       case 'shortcut_none':
-        return 'None';
+        return 'Không có';
       case 'shortcut_clear':
-        return 'Clear';
+        return 'Xóa';
       case 'shortcut_stop_capture':
-        return 'Stop';
+        return 'Dừng';
       case 'section_advanced_typography':
-        return 'Advanced';
+        return 'Nâng cao';
       case 'sync_err_network':
-        return 'Cannot reach the server — check your network or proxy settings.';
+        return 'Không thể kết nối máy chủ — kiểm tra mạng hoặc cài đặt proxy.';
       case 'sync_err_timeout':
-        return 'Connection timed out — the server did not respond in time.';
+        return 'Kết nối quá thời gian — máy chủ không phản hồi kịp.';
       case 'sync_err_quota':
-        return 'Cloud storage is full (quota reached).';
+        return 'Bộ nhớ đám mây đã đầy (đã đạt giới hạn).';
       case 'sync_err_auth_expired':
-        return 'Sign-in expired — please sign in again.';
+        return 'Phiên đăng nhập đã hết hạn — vui lòng đăng nhập lại.';
       case 'sync_server_port_in_use':
         return ({required Object port}) =>
-            'Port ${port} is already in use — pick a different port.';
+            'Cổng ${port} đang được sử dụng — chọn cổng khác.';
       case 'sync_lan_scan_failed':
-        return 'Scan failed — check network permissions or firewall.';
+        return 'Quét thất bại — kiểm tra quyền mạng hoặc tường lửa.';
       case 'sync_section_method':
-        return 'Sync method';
+        return 'Phương thức đồng bộ';
       case 'sync_section_host_server':
-        return 'This device as a sync server';
+        return 'Thiết bị này làm máy chủ đồng bộ';
       case 'sync_section_host_server_footer':
-        return 'Let other devices sync from this device. Independent of the sync backend above.';
+        return 'Cho phép thiết bị khác đồng bộ từ thiết bị này. Độc lập với phương thức lưu trữ ở trên.';
       case 'sync_section_content':
-        return 'What to sync';
+        return 'Nội dung đồng bộ';
       case 'sync_section_actions':
-        return 'Sync actions';
+        return 'Tác vụ đồng bộ';
       case 'sync_section_backup':
-        return 'Local backup';
+        return 'Sao lưu cục bộ';
       case 'backup_import_preserve_sync_note':
-        return 'Your sync settings on this device (account and credentials) will be kept.';
+        return 'Cài đặt đồng bộ trên thiết bị này (tài khoản và thông tin đăng nhập) sẽ được giữ lại.';
       case 'backup_import_settings_toggle':
-        return 'Import settings & profiles';
+        return 'Nhập cài đặt & hồ sơ';
       case 'backup_import_settings_on_hint':
-        return 'Full restore: fonts, appearance and profiles come from the backup.';
+        return 'Khôi phục đầy đủ: phông chữ, giao diện và hồ sơ lấy từ bản sao lưu.';
       case 'backup_import_settings_off_hint':
-        return 'Keep this device\'s fonts/appearance/profiles; restore only books & reading data.';
+        return 'Giữ phông chữ/giao diện/hồ sơ của thiết bị này; chỉ khôi phục sách & dữ liệu đọc.';
       case 'reader_unsupported_platform':
-        return 'The reader is not yet available on this platform.';
+        return 'Trình đọc chưa khả dụng trên nền tảng này.';
       case 'microphone_permission_denied':
-        return 'Microphone permission is required to record.';
+        return 'Cần quyền micro để ghi âm.';
       case 'anki_connect_api_key':
         return 'API Key';
       case 'anki_connect_api_key_hint':
-        return 'Leave empty unless AnkiConnect requires a key';
+        return 'Để trống trừ khi AnkiConnect yêu cầu khóa';
       case 'shortcut_action_global_scroll_page_down':
-        return 'Scroll down one screen';
+        return 'Cuộn xuống một màn hình';
       case 'shortcut_action_global_scroll_page_up':
-        return 'Scroll up one screen';
+        return 'Cuộn lên một màn hình';
       case 'shortcut_action_home_tab_prev':
-        return 'Previous tab';
+        return 'Tab trước';
       case 'shortcut_action_home_tab_next':
-        return 'Next tab';
+        return 'Tab kế tiếp';
       case 'move_up':
-        return 'Move up';
+        return 'Di chuyển lên';
       case 'move_down':
-        return 'Move down';
+        return 'Di chuyển xuống';
       case 'shortcut_action_reader_toggle_furigana':
-        return 'Toggle furigana';
+        return 'Bật/tắt furigana';
       case 'on_screen_keyboard':
-        return 'On-screen keyboard';
+        return 'Bàn phím ảo';
       case 'app_ui_scale':
-        return 'UI size';
+        return 'Cỡ giao diện';
       case 'app_ui_scale_hint':
         return 'Scales app text and spacing. Lower it on large screens if controls feel oversized.';
       case 'sync_dictionary':
-        return 'Sync dictionaries';
+        return 'Đồng bộ từ điển';
       case 'sync_dictionary_warning':
-        return 'Dictionary packages can be large and include imported dictionary resources.';
+        return 'Gói từ điển có thể lớn và bao gồm các tài nguyên từ điển đã nhập.';
       case 'settings_destination_reading':
-        return 'Reading';
+        return 'Đọc sách';
       case 'remote_dict_lookup':
-        return 'Remote dictionary lookup';
+        return 'Tra từ điển từ xa';
       case 'remote_dict_lookup_hint':
-        return 'When local dictionaries miss, query the configured Hibiki server';
+        return 'Khi từ điển cục bộ không có, truy vấn máy chủ Hibiki đã cấu hình';
       case 'remote_audio_source':
-        return 'Remote audio';
+        return 'Âm thanh từ xa';
       case 'sync_pair_success':
-        return 'Paired — token filled in';
+        return 'Đã ghép nối — đã điền mã';
       case 'sync_pair_failed':
-        return 'Pairing failed';
+        return 'Ghép nối thất bại';
       case 'audio_source_hibiki_interconnect':
         return 'Hibiki P2P';
       case 'audio_sources_remote_group':
-        return 'Remote sources';
+        return 'Nguồn từ xa';
       case 'audio_source_url_invalid':
-        return 'Link must be http(s) and contain a term or reading placeholder';
+        return 'Liên kết phải là http(s) và chứa placeholder cho từ hoặc cách đọc';
       case 'audio_source_added':
-        return 'Audio source added';
+        return 'Đã thêm nguồn âm thanh';
       case 'local_audio_imported':
-        return 'Audio database added';
+        return 'Đã thêm cơ sở dữ liệu âm thanh';
       case 'local_audio_import_failed':
-        return 'Failed to import audio database';
+        return 'Không thể nhập cơ sở dữ liệu âm thanh';
       case 'local_audio_edit_sources':
-        return 'Edit sources';
+        return 'Chỉnh sửa nguồn';
       case 'local_audio_source_order_title':
-        return 'Source priority';
+        return 'Ưu tiên nguồn';
       case 'local_audio_no_sources':
-        return 'No sources found in this database';
+        return 'Không tìm thấy nguồn trong cơ sở dữ liệu này';
       case 'sync_pair_request_title':
-        return 'Pairing request';
+        return 'Yêu cầu ghép nối';
       case 'sync_pair_request_body':
-        return 'A device is requesting to pair. Allow it to sync with this device?';
+        return 'Một thiết bị đang yêu cầu ghép nối. Cho phép nó đồng bộ với thiết bị này?';
       case 'sync_pair_allow':
-        return 'Allow';
+        return 'Cho phép';
       case 'sync_pair_deny':
-        return 'Deny';
+        return 'Từ chối';
       case 'sync_pair_denied':
-        return 'The other device declined pairing';
+        return 'Thiết bị kia đã từ chối ghép nối';
       case 'sync_pair_unknown_device':
-        return 'Unknown device';
+        return 'Thiết bị không xác định';
       case 'sync_pair_unavailable':
-        return 'The other device isn\'t ready or is on an older version. Update it and enable sync, then try again.';
+        return 'Thiết bị kia chưa sẵn sàng hoặc đang dùng phiên bản cũ. Hãy cập nhật và bật đồng bộ, rồi thử lại.';
       case 'sync_role_locked_by_server':
-        return 'This device is hosting as a server. Turn off the server before connecting to other devices.';
+        return 'Thiết bị này đang chạy như máy chủ. Tắt máy chủ trước khi kết nối tới thiết bị khác.';
       case 'sync_role_locked_by_client':
-        return 'Already connected to another device. Remove the connection before hosting as a server.';
+        return 'Đã kết nối tới thiết bị khác. Gỡ kết nối trước khi chạy như máy chủ.';
       case 'sync_compare_unavailable':
         return 'Set up sync first';
       case 'sync_audiobook_files':
-        return 'Sync audiobook files';
+        return 'Đồng bộ tệp sách nói';
       case 'sync_audiobook_files_warning':
-        return 'Audio and subtitles can be large.';
+        return 'Âm thanh và phụ đề có thể rất lớn.';
       case 'book_import_duplicate_title':
-        return 'Duplicate book';
+        return 'Sách trùng lặp';
       case 'book_import_duplicate_keep':
-        return 'Yes, add suffix';
+        return 'Có, thêm hậu tố';
       case 'book_import_duplicate_cancel':
-        return 'No, cancel';
+        return 'Không, hủy';
       case 'book_import_duplicate_cancelled':
-        return 'Import cancelled';
+        return 'Đã hủy nhập';
       case 'book_import_duplicate_message':
         return ({required Object name}) =>
-            'A book named "${name}" already exists. Import it anyway? "Yes" imports with a numbered suffix; "No" cancels.';
+            'Đã có sách tên "${name}". Vẫn nhập? "Có" sẽ nhập với hậu tố đánh số; "Không" sẽ hủy.';
       case 'reverse_reader_bottom_bar':
-        return 'Reverse reader bottom bar';
+        return 'Đảo ngược thanh dưới trình đọc';
       case 'floating_dict_close':
-        return 'Close';
+        return 'Đóng';
       case 'debug_log_share_subject':
-        return 'hibiki Debug Log';
+        return 'Nhật ký gỡ lỗi hibiki';
       case 'spread_direction_rtl':
-        return 'Right to Left';
+        return 'Phải sang trái';
       case 'spread_direction_ltr':
-        return 'Left to Right';
+        return 'Trái sang phải';
       case 'dict_download_partial':
         return (
                 {required Object success,
                 required Object total,
                 required Object error}) =>
-            '${success} / ${total} OK. Failed: ${error}';
+            '${success} / ${total} thành công. Thất bại: ${error}';
       case 'sync_now':
-        return 'Sync now';
+        return 'Đồng bộ ngay';
       case 'sync_now_hint':
-        return 'Run a full two-way sync with the cloud now';
+        return 'Chạy đồng bộ hai chiều đầy đủ với đám mây ngay bây giờ';
       case 'sync_now_busy':
-        return 'A sync is already running';
+        return 'Đã có một tác vụ đồng bộ đang chạy';
       case 'sync_now_no_changes':
-        return 'no changes';
+        return 'không có thay đổi';
       case 'sync_now_done':
-        return ({required Object detail}) => 'Synced · ${detail}';
+        return ({required Object detail}) => 'Đã đồng bộ · ${detail}';
       case 'sync_now_failed_suffix':
-        return ({required Object count}) => ' · ${count} failed';
+        return ({required Object count}) => ' · ${count} thất bại';
       case 'sync_now_books_in':
-        return ({required Object count}) => '↓${count} books';
+        return ({required Object count}) => '↓${count} sách';
       case 'sync_now_dicts_in':
-        return ({required Object count}) => '↓${count} dictionaries';
+        return ({required Object count}) => '↓${count} từ điển';
       case 'sync_now_dicts_out':
-        return ({required Object count}) => '↑${count} dictionaries';
+        return ({required Object count}) => '↑${count} từ điển';
       case 'sync_now_audio_in':
-        return ({required Object count}) => '↓${count} audiobooks';
+        return ({required Object count}) => '↓${count} sách nói';
       case 'sync_now_audio_out':
-        return ({required Object count}) => '↑${count} audiobooks';
+        return ({required Object count}) => '↑${count} sách nói';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return 'Từ điển';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return 'Xóa sách trên máy từ xa';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return 'Xóa sách nói trên máy từ xa';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return 'Xóa từ điển trên máy từ xa';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return 'Đã xóa khỏi máy từ xa';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            'Xóa "${name}" khỏi máy từ xa? Dữ liệu cục bộ được giữ lại. Không thể hoàn tác.';
+      case 'dictionaries_delete_failed':
+        return 'Không thể xóa từ điển';
+      case 'dictionary_delete_failed':
+        return 'Không thể xóa từ điển';
+      case 'sync_webdav_missing_fields':
+        return 'Thiếu thông tin';
+      case 'sync_compare_download':
+        return 'Tải xuống';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
@@ -85860,7 +87087,7 @@ extension on _StringsZhCn {
       case 'sync_statistics':
         return '同步统计';
       case 'sync_summary':
-        return 'Google Drive · 兼容 ッツ/Hoshi Reader';
+        return '云端、局域网与本地备份 · 兼容 ッツ/Hoshi Reader';
       case 'sync_title':
         return '同步';
       case 'anki_connect_host':
@@ -85868,41 +87095,41 @@ extension on _StringsZhCn {
       case 'anki_connect_port':
         return 'Port';
       case 'sync_compare':
-        return 'Compare Data';
+        return '对比数据';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return '本地 vs 远端';
       case 'sync_compare_local':
-        return 'Local';
+        return '本地';
       case 'sync_compare_remote':
-        return 'Remote';
+        return '远端';
       case 'sync_compare_no_data':
-        return 'No data';
+        return '无数据';
       case 'sync_compare_empty':
-        return 'No books found';
+        return '未找到书籍';
       case 'sync_compare_days':
-        return 'days';
+        return '天';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return '冲突';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return '全部书籍';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return '全选';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return '全部 → 本地';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return '全部 → 远端';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return '全部 → 跳过';
       case 'sync_compare_use_local':
-        return 'Local';
+        return '本地';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return '远端';
       case 'sync_compare_skip':
-        return 'Skip';
+        return '跳过';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => '已应用 ${count} 项更改';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => '应用（${count}）';
       case 'sync_auto_sync':
         return '自动同步';
       case 'sync_auto_complete':
@@ -86278,6 +87505,40 @@ extension on _StringsZhCn {
         return '已从远端删除';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) => '确定从远端删除「${name}」吗？本地数据保留，此操作不可撤销。';
+      case 'dictionaries_delete_failed':
+        return '删除全部词典失败';
+      case 'dictionary_delete_failed':
+        return '删除词典失败';
+      case 'sync_webdav_missing_fields':
+        return '缺少字段';
+      case 'sync_compare_download':
+        return '下载';
+      case 'log_export_file':
+        return '导出到文件';
+      case 'log_export_saved':
+        return '日志已保存';
+      case 'log_export_failed':
+        return '导出失败';
+      case 'sync_local_audio':
+        return '同步本地音频';
+      case 'sync_local_audio_warning':
+        return '同步本地音频来源数据库（可能较大）';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} 本地音频';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} 本地音频';
+      case 'update_network_unreachable':
+        return ({required Object host}) => '无法连接 ${host}（网络超时或不可达）。';
+      case 'sync_progress_books':
+        return '导入书籍';
+      case 'sync_progress_reading':
+        return '同步阅读数据';
+      case 'sync_progress_dictionaries':
+        return '同步词典';
+      case 'sync_progress_local_audio':
+        return '同步本地音频';
+      case 'sync_progress_audiobooks':
+        return '同步有声书';
       case 'video_import_title':
         return '导入视频';
       case 'video_import_pick_video':
@@ -88359,7 +89620,7 @@ extension on _StringsZhHk {
       case 'sync_statistics':
         return '同步統計';
       case 'sync_summary':
-        return 'Google Drive · 相容 ッツ/Hoshi Reader';
+        return '雲端、區域網與本機備份 · 相容 ッツ/Hoshi Reader';
       case 'sync_title':
         return '同步';
       case 'update_channel_beta':
@@ -88373,41 +89634,41 @@ extension on _StringsZhHk {
       case 'anki_connect_port':
         return 'Port';
       case 'sync_compare':
-        return 'Compare Data';
+        return '比對資料';
       case 'sync_compare_title':
-        return 'Local vs Remote';
+        return '本機 vs 遠端';
       case 'sync_compare_local':
-        return 'Local';
+        return '本機';
       case 'sync_compare_remote':
-        return 'Remote';
+        return '遠端';
       case 'sync_compare_no_data':
-        return 'No data';
+        return '無資料';
       case 'sync_compare_empty':
-        return 'No books found';
+        return '找不到書籍';
       case 'sync_compare_days':
-        return 'days';
+        return '天';
       case 'sync_compare_conflicts':
-        return 'Conflicts';
+        return '衝突';
       case 'sync_compare_all_books':
-        return 'All Books';
+        return '全部書籍';
       case 'sync_compare_select_all':
-        return 'Select All';
+        return '全選';
       case 'sync_compare_all_local':
-        return 'All → Local';
+        return '全部 → 本機';
       case 'sync_compare_all_remote':
-        return 'All → Remote';
+        return '全部 → 遠端';
       case 'sync_compare_all_skip':
-        return 'All → Skip';
+        return '全部 → 略過';
       case 'sync_compare_use_local':
-        return 'Local';
+        return '本機';
       case 'sync_compare_use_remote':
-        return 'Remote';
+        return '遠端';
       case 'sync_compare_skip':
-        return 'Skip';
+        return '略過';
       case 'sync_compare_applied':
-        return ({required Object count}) => 'Applied ${count} changes';
+        return ({required Object count}) => '已套用 ${count} 項變更';
       case 'sync_compare_apply':
-        return ({required Object count}) => 'Apply (${count})';
+        return ({required Object count}) => '套用（${count}）';
       case 'sync_auto_sync':
         return 'Auto Sync';
       case 'sync_auto_complete':
@@ -88775,18 +90036,53 @@ extension on _StringsZhHk {
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
       case 'sync_compare_dictionaries':
-        return 'Dictionaries';
+        return '詞典';
       case 'sync_compare_delete_book':
-        return 'Delete book on remote';
+        return '刪除遠端書籍';
       case 'sync_compare_delete_audiobook':
-        return 'Delete audiobook on remote';
+        return '刪除遠端有聲書';
       case 'sync_compare_delete_dict':
-        return 'Delete dictionary on remote';
+        return '刪除遠端詞典';
       case 'sync_compare_deleted':
-        return 'Deleted from remote';
+        return '已從遠端刪除';
       case 'sync_compare_delete_confirm':
         return ({required Object name}) =>
-            'Delete "${name}" from the remote? Local data is kept. This cannot be undone.';
+            '確定要從遠端刪除「${name}」嗎？本機資料會保留，此操作無法復原。';
+      case 'dictionaries_delete_failed':
+        return 'Failed to delete dictionaries';
+      case 'dictionary_delete_failed':
+        return 'Failed to delete dictionary';
+      case 'sync_webdav_missing_fields':
+        return 'Missing fields';
+      case 'sync_compare_download':
+        return 'Download';
+      case 'log_export_file':
+        return 'Export to file';
+      case 'log_export_saved':
+        return 'Log saved';
+      case 'log_export_failed':
+        return 'Export failed';
+      case 'sync_local_audio':
+        return 'Sync local audio';
+      case 'sync_local_audio_warning':
+        return 'Syncs local audio source databases (may be large)';
+      case 'sync_now_local_audio_in':
+        return ({required Object count}) => '↓${count} audio sources';
+      case 'sync_now_local_audio_out':
+        return ({required Object count}) => '↑${count} audio sources';
+      case 'update_network_unreachable':
+        return ({required Object host}) =>
+            'Could not reach ${host} (network timeout or unreachable).';
+      case 'sync_progress_books':
+        return 'Importing books';
+      case 'sync_progress_reading':
+        return 'Syncing reading data';
+      case 'sync_progress_dictionaries':
+        return 'Syncing dictionaries';
+      case 'sync_progress_local_audio':
+        return 'Syncing local audio';
+      case 'sync_progress_audiobooks':
+        return 'Syncing audiobooks';
       case 'video_import_title':
         return 'Import Video';
       case 'video_import_pick_video':
