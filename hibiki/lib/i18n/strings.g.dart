@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21182 (1246 per locale)
+/// Strings: 21267 (1251 per locale)
 ///
-/// Built on 2026-06-04 at 17:30 UTC
+/// Built on 2026-06-05 at 01:37 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1684,6 +1684,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_import_action => 'Import video';
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  String get video_episode_list => 'Episodes';
+  String get video_prev_episode => 'Previous episode';
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -4473,6 +4478,16 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -7346,6 +7361,16 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -10233,6 +10258,16 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -13139,6 +13174,16 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -15968,6 +16013,16 @@ class _StringsId extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -18839,6 +18894,16 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -21537,6 +21602,16 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -24236,6 +24311,16 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -27089,6 +27174,16 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -29955,6 +30050,16 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -32807,6 +32912,16 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -35598,6 +35713,16 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -38427,6 +38552,16 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -41236,6 +41371,16 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -43879,6 +44024,16 @@ class _StringsZhCn extends _StringsEn {
   String get video_import_action => '导入视频';
   @override
   String get video_import_subtitle_optional => '可选（不选则使用视频内嵌字幕）';
+  @override
+  String get video_import_playlist => '导入播放列表 (m3u8)';
+  @override
+  String get video_import_pick_playlist => '选择 m3u8 播放列表';
+  @override
+  String get video_episode_list => '选集';
+  @override
+  String get video_prev_episode => '上一集';
+  @override
+  String get video_next_episode => '下一集';
 }
 
 // Path: retrying_in
@@ -46553,6 +46708,16 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional (uses the video\'s embedded subtitles if not selected)';
+  @override
+  String get video_import_playlist => 'Import playlist (m3u8)';
+  @override
+  String get video_import_pick_playlist => 'Pick m3u8 playlist';
+  @override
+  String get video_episode_list => 'Episodes';
+  @override
+  String get video_prev_episode => 'Previous episode';
+  @override
+  String get video_next_episode => 'Next episode';
 }
 
 // Path: retrying_in
@@ -49151,6 +49316,16 @@ extension on _StringsEn {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -51707,6 +51882,16 @@ extension on _StringsAr {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -54279,6 +54464,16 @@ extension on _StringsDe {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -56849,6 +57044,16 @@ extension on _StringsEs {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -59421,6 +59626,16 @@ extension on _StringsFr {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -61982,6 +62197,16 @@ extension on _StringsId {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -64551,6 +64776,16 @@ extension on _StringsIt {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -67096,6 +67331,16 @@ extension on _StringsJa {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -69643,6 +69888,16 @@ extension on _StringsKo {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -72209,6 +72464,16 @@ extension on _StringsNl {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -74774,6 +75039,16 @@ extension on _StringsPtBr {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -77340,6 +77615,16 @@ extension on _StringsRu {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -79897,6 +80182,16 @@ extension on _StringsTh {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -82457,6 +82752,16 @@ extension on _StringsTr {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -85014,6 +85319,16 @@ extension on _StringsVi {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
@@ -87553,6 +87868,16 @@ extension on _StringsZhCn {
         return '导入视频';
       case 'video_import_subtitle_optional':
         return '可选（不选则使用视频内嵌字幕）';
+      case 'video_import_playlist':
+        return '导入播放列表 (m3u8)';
+      case 'video_import_pick_playlist':
+        return '选择 m3u8 播放列表';
+      case 'video_episode_list':
+        return '选集';
+      case 'video_prev_episode':
+        return '上一集';
+      case 'video_next_episode':
+        return '下一集';
       default:
         return null;
     }
@@ -90097,6 +90422,16 @@ extension on _StringsZhHk {
         return 'Import video';
       case 'video_import_subtitle_optional':
         return 'Optional (uses the video\'s embedded subtitles if not selected)';
+      case 'video_import_playlist':
+        return 'Import playlist (m3u8)';
+      case 'video_import_pick_playlist':
+        return 'Pick m3u8 playlist';
+      case 'video_episode_list':
+        return 'Episodes';
+      case 'video_prev_episode':
+        return 'Previous episode';
+      case 'video_next_episode':
+        return 'Next episode';
       default:
         return null;
     }
