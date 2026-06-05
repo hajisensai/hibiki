@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 22117 (1301 per locale)
+/// Strings: 22151 (1303 per locale)
 ///
-/// Built on 2026-06-06 at 03:55 UTC
+/// Built on 2026-06-06 at 04:13 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1760,6 +1760,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Drop subtitles or audio onto a book or video';
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  String get popup_max_height => 'Popup max height';
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -4681,6 +4683,10 @@ class _StringsAr extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -7686,6 +7692,10 @@ class _StringsDe extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -10704,6 +10714,10 @@ class _StringsEs extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -13742,6 +13756,10 @@ class _StringsFr extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -16703,6 +16721,10 @@ class _StringsId extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -19706,6 +19728,10 @@ class _StringsIt extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -22535,6 +22561,10 @@ class _StringsJa extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -25365,6 +25395,10 @@ class _StringsKo extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -28350,6 +28384,10 @@ class _StringsNl extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -31348,6 +31386,10 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -34331,6 +34373,10 @@ class _StringsRu extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -37253,6 +37299,10 @@ class _StringsTh extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -40214,6 +40264,10 @@ class _StringsTr extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -43155,6 +43209,10 @@ class _StringsVi extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -45914,6 +45972,10 @@ class _StringsZhCn extends _StringsEn {
   String get drag_drop_need_card_target => '请把字幕或音频拖到某本书或某个视频上';
   @override
   String get shortcut_action_audiobook_seek_clicked => '跳转音频到点击的句子';
+  @override
+  String get popup_max_height => '查词窗口最大高度';
+  @override
+  String get wheel_page_turn_interval => '滚轮翻页间隔';
 }
 
 // Path: retrying_in
@@ -48719,6 +48781,10 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get popup_max_height => 'Popup max height';
+  @override
+  String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
 }
 
 // Path: retrying_in
@@ -51431,6 +51497,10 @@ extension on _StringsEn {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -54101,6 +54171,10 @@ extension on _StringsAr {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -56787,6 +56861,10 @@ extension on _StringsDe {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -59471,6 +59549,10 @@ extension on _StringsEs {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -62157,6 +62239,10 @@ extension on _StringsFr {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -64832,6 +64918,10 @@ extension on _StringsId {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -67515,6 +67605,10 @@ extension on _StringsIt {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -70174,6 +70268,10 @@ extension on _StringsJa {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -72835,6 +72933,10 @@ extension on _StringsKo {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -75515,6 +75617,10 @@ extension on _StringsNl {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -78194,6 +78300,10 @@ extension on _StringsPtBr {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -80874,6 +80984,10 @@ extension on _StringsRu {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -83545,6 +83659,10 @@ extension on _StringsTh {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -86219,6 +86337,10 @@ extension on _StringsTr {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -88890,6 +89012,10 @@ extension on _StringsVi {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
@@ -91540,6 +91666,10 @@ extension on _StringsZhCn {
         return '请把字幕或音频拖到某本书或某个视频上';
       case 'shortcut_action_audiobook_seek_clicked':
         return '跳转音频到点击的句子';
+      case 'popup_max_height':
+        return '查词窗口最大高度';
+      case 'wheel_page_turn_interval':
+        return '滚轮翻页间隔';
       default:
         return null;
     }
@@ -94198,6 +94328,10 @@ extension on _StringsZhHk {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'popup_max_height':
+        return 'Popup max height';
+      case 'wheel_page_turn_interval':
+        return 'Mouse wheel page-turn interval';
       default:
         return null;
     }
