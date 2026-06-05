@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21675 (1275 per locale)
+/// Strings: 21828 (1284 per locale)
 ///
-/// Built on 2026-06-05 at 14:49 UTC
+/// Built on 2026-06-05 at 14:50 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1721,6 +1721,16 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
   String get video_shaders_empty => 'No shaders imported yet';
   String get video_shader_import => 'Import shader (.glsl)';
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  String get video_jimaku_api_key => 'Jimaku API key';
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  String get video_jimaku_query => 'Series name';
+  String get video_jimaku_search => 'Search';
+  String get video_jimaku_no_results => 'No subtitles found';
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  String get video_jimaku_download_failed => 'Download failed';
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -4577,6 +4587,25 @@ class _StringsAr extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -7517,6 +7546,25 @@ class _StringsDe extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -10470,6 +10518,25 @@ class _StringsEs extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -13443,6 +13510,25 @@ class _StringsFr extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -16339,6 +16425,25 @@ class _StringsId extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -19277,6 +19382,25 @@ class _StringsIt extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -22041,6 +22165,25 @@ class _StringsJa extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -24806,6 +24949,25 @@ class _StringsKo extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -27726,6 +27888,25 @@ class _StringsNl extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -30659,6 +30840,25 @@ class _StringsPtBr extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -33577,6 +33777,25 @@ class _StringsRu extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -36434,6 +36653,25 @@ class _StringsTh extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -39330,6 +39568,25 @@ class _StringsTr extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -42206,6 +42463,25 @@ class _StringsVi extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -44908,6 +45184,24 @@ class _StringsZhCn extends _StringsEn {
   String get video_shaders_empty => '还没有导入着色器';
   @override
   String get video_shader_import => '导入着色器（.glsl）';
+  @override
+  String get video_jimaku_fetch => '自动获取字幕（Jimaku）';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint => '在 jimaku.cc/account 免费获取 API key';
+  @override
+  String get video_jimaku_query => '番剧名';
+  @override
+  String get video_jimaku_search => '搜索';
+  @override
+  String get video_jimaku_no_results => '没有找到字幕';
+  @override
+  String get video_jimaku_no_key => '请先填写 Jimaku API key';
+  @override
+  String get video_jimaku_download_failed => '下载失败';
+  @override
+  String get video_jimaku_downloaded => '字幕已下载并应用';
 }
 
 // Path: retrying_in
@@ -47648,6 +47942,25 @@ class _StringsZhHk extends _StringsEn {
   String get video_shaders_empty => 'No shaders imported yet';
   @override
   String get video_shader_import => 'Import shader (.glsl)';
+  @override
+  String get video_jimaku_fetch => 'Auto-fetch subtitles (Jimaku)';
+  @override
+  String get video_jimaku_api_key => 'Jimaku API key';
+  @override
+  String get video_jimaku_api_key_hint =>
+      'Get a free API key at jimaku.cc/account';
+  @override
+  String get video_jimaku_query => 'Series name';
+  @override
+  String get video_jimaku_search => 'Search';
+  @override
+  String get video_jimaku_no_results => 'No subtitles found';
+  @override
+  String get video_jimaku_no_key => 'Enter your Jimaku API key first';
+  @override
+  String get video_jimaku_download_failed => 'Download failed';
+  @override
+  String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
 }
 
 // Path: retrying_in
@@ -50305,6 +50618,24 @@ extension on _StringsEn {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -52920,6 +53251,24 @@ extension on _StringsAr {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -55551,6 +55900,24 @@ extension on _StringsDe {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -58180,6 +58547,24 @@ extension on _StringsEs {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -60811,6 +61196,24 @@ extension on _StringsFr {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -63431,6 +63834,24 @@ extension on _StringsId {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -66059,6 +66480,24 @@ extension on _StringsIt {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -68663,6 +69102,24 @@ extension on _StringsJa {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -71269,6 +71726,24 @@ extension on _StringsKo {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -73894,6 +74369,24 @@ extension on _StringsNl {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -76518,6 +77011,24 @@ extension on _StringsPtBr {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -79143,6 +79654,24 @@ extension on _StringsRu {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -81759,6 +82288,24 @@ extension on _StringsTh {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -84378,6 +84925,24 @@ extension on _StringsTr {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -86994,6 +87559,24 @@ extension on _StringsVi {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
@@ -89591,6 +90174,24 @@ extension on _StringsZhCn {
         return '还没有导入着色器';
       case 'video_shader_import':
         return '导入着色器（.glsl）';
+      case 'video_jimaku_fetch':
+        return '自动获取字幕（Jimaku）';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return '在 jimaku.cc/account 免费获取 API key';
+      case 'video_jimaku_query':
+        return '番剧名';
+      case 'video_jimaku_search':
+        return '搜索';
+      case 'video_jimaku_no_results':
+        return '没有找到字幕';
+      case 'video_jimaku_no_key':
+        return '请先填写 Jimaku API key';
+      case 'video_jimaku_download_failed':
+        return '下载失败';
+      case 'video_jimaku_downloaded':
+        return '字幕已下载并应用';
       default:
         return null;
     }
@@ -92194,6 +92795,24 @@ extension on _StringsZhHk {
         return 'No shaders imported yet';
       case 'video_shader_import':
         return 'Import shader (.glsl)';
+      case 'video_jimaku_fetch':
+        return 'Auto-fetch subtitles (Jimaku)';
+      case 'video_jimaku_api_key':
+        return 'Jimaku API key';
+      case 'video_jimaku_api_key_hint':
+        return 'Get a free API key at jimaku.cc/account';
+      case 'video_jimaku_query':
+        return 'Series name';
+      case 'video_jimaku_search':
+        return 'Search';
+      case 'video_jimaku_no_results':
+        return 'No subtitles found';
+      case 'video_jimaku_no_key':
+        return 'Enter your Jimaku API key first';
+      case 'video_jimaku_download_failed':
+        return 'Download failed';
+      case 'video_jimaku_downloaded':
+        return 'Subtitle downloaded and applied';
       default:
         return null;
     }
