@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21403 (1259 per locale)
+/// Strings: 21471 (1263 per locale)
 ///
-/// Built on 2026-06-05 at 07:57 UTC
+/// Built on 2026-06-05 at 09:57 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -372,9 +372,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get error_ankidroid_api => 'AnkiDroid error';
   String get error_ankidroid_api_content =>
       'There was an issue communicating with AnkiDroid.\n\nEnsure that the AnkiDroid background service is active and all relevant app permissions are granted in order to continue.';
-  String get info_standard_model => 'Standard card type added';
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』 has been added to AnkiDroid as a new card type.\n\nSetups making use of a different card type or field order may be used by adding a new export profile.';
   String get error_model_missing => 'Missing card type';
   String get error_model_missing_content =>
       'The corresponding card type of the currently selected profile is missing.\n\nThe profile will be deleted, and the standard profile has now been selected in its place.';
@@ -1700,6 +1697,15 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_setting_av_delay_hint =>
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   String get video_setting_speed => 'Playback speed';
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  String get anki_create_lapis => 'Create Lapis deck';
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -2065,11 +2071,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       'حدث خطأ في التواصل مع AnkiDroid.\n\nتأكد من أن خدمة AnkiDroid الخلفية نشطة وتم منح جميع الأذونات المطلوبة.';
-  @override
-  String get info_standard_model => 'تمت إضافة نوع البطاقة القياسي';
-  @override
-  String get info_standard_model_content =>
-      'تمت إضافة『hibiki Kinomoto』إلى AnkiDroid كنوع بطاقة جديد.\n\nيمكن استخدام أنواع بطاقات أخرى بإضافة ملف شخصي تصدير جديد.';
   @override
   String get error_model_missing => 'نوع البطاقة مفقود';
   @override
@@ -4518,6 +4519,21 @@ class _StringsAr extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -4894,11 +4910,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       'Bei der Kommunikation mit AnkiDroid ist ein Fehler aufgetreten.\n\nStellen Sie sicher, dass der AnkiDroid-Hintergrunddienst aktiv ist und alle erforderlichen App-Berechtigungen erteilt wurden.';
-  @override
-  String get info_standard_model => 'Standard-Kartentyp hinzugefügt';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』wurde als neuer Kartentyp zu AnkiDroid hinzugefügt.\n\nSetups mit einem anderen Kartentyp oder Feldreihenfolge können durch Hinzufügen eines neuen Exportprofils verwendet werden.';
   @override
   String get error_model_missing => 'Fehlender Kartentyp';
   @override
@@ -7420,6 +7431,21 @@ class _StringsDe extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -7798,11 +7824,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       'Hubo un problema al comunicarse con AnkiDroid.\n\nAsegúrate de que el servicio en segundo plano de AnkiDroid esté activo y de que se hayan concedido todos los permisos necesarios.';
-  @override
-  String get info_standard_model => 'Tipo de tarjeta estándar añadido';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』 se ha añadido a AnkiDroid como un nuevo tipo de tarjeta.\n\nLas configuraciones que usen un tipo de tarjeta o un orden de campos diferentes pueden utilizarse añadiendo un nuevo perfil de exportación.';
   @override
   String get error_model_missing => 'Tipo de tarjeta no encontrado';
   @override
@@ -10336,6 +10357,21 @@ class _StringsEs extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -10717,11 +10753,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       'Un problème de communication avec AnkiDroid est survenu.\n\nAssurez-vous que le service en arrière-plan d\'AnkiDroid est actif et que toutes les permissions nécessaires sont accordées pour continuer.';
-  @override
-  String get info_standard_model => 'Type de carte standard ajouté';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』 a été ajouté à AnkiDroid en tant que nouveau type de carte.\n\nLes configurations utilisant un type de carte ou un ordre de champs différent peuvent être utilisées en ajoutant un nouveau profil d\'exportation.';
   @override
   String get error_model_missing => 'Type de carte manquant';
   @override
@@ -13271,6 +13302,21 @@ class _StringsFr extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -13646,11 +13692,6 @@ class _StringsId extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       'Terjadi masalah saat berkomunikasi dengan AnkiDroid.\n\nPastikan layanan latar belakang AnkiDroid aktif dan semua izin aplikasi yang diperlukan telah diberikan.';
-  @override
-  String get info_standard_model => 'Tipe kartu standar ditambahkan';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』telah ditambahkan ke AnkiDroid sebagai tipe kartu baru.\n\nPengaturan yang menggunakan tipe kartu atau urutan field berbeda dapat ditambahkan melalui profil ekspor baru.';
   @override
   String get error_model_missing => 'Tipe kartu tidak ditemukan';
   @override
@@ -16129,6 +16170,21 @@ class _StringsId extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -16505,11 +16561,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       'Si è verificato un problema di comunicazione con AnkiDroid.\n\nAssicurati che il servizio in background di AnkiDroid sia attivo e che tutti i permessi necessari siano stati concessi.';
-  @override
-  String get info_standard_model => 'Tipo di carta standard aggiunto';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』è stato aggiunto ad AnkiDroid come nuovo tipo di carta.\n\nLe configurazioni che utilizzano un tipo di carta o un ordine di campi diverso possono essere utilizzate aggiungendo un nuovo profilo di esportazione.';
   @override
   String get error_model_missing => 'Tipo di carta mancante';
   @override
@@ -19029,6 +19080,21 @@ class _StringsIt extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -19395,11 +19461,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       'AnkiDroidとの通信中に問題が発生しました。\n\n続行するには、AnkiDroidのバックグラウンドサービスが有効であること、および必要なアプリの権限がすべて付与されていることを確認してください。';
-  @override
-  String get info_standard_model => '標準カードタイプを追加しました';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』が新しいカードタイプとしてAnkiDroidに追加されました。\n\n別のカードタイプやフィールド順序を使用する場合は、新しいエクスポートプロファイルを追加してください。';
   @override
   String get error_model_missing => 'カードタイプが見つかりません';
   @override
@@ -21756,6 +21817,21 @@ class _StringsJa extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -22123,11 +22199,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       'AnkiDroid와 통신 중 문제가 발생했습니다.\n\n계속하려면 AnkiDroid 백그라운드 서비스가 활성화되어 있고 관련 앱 권한이 모두 부여되었는지 확인하세요.';
-  @override
-  String get info_standard_model => '기본 카드 유형 추가됨';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』가 AnkiDroid에 새 카드 유형으로 추가되었습니다.\n\n다른 카드 유형이나 필드 순서를 사용하려면 새 내보내기 프로필을 추가하세요.';
   @override
   String get error_model_missing => '카드 유형 없음';
   @override
@@ -24484,6 +24555,21 @@ class _StringsKo extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -24860,11 +24946,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       'Er was een probleem bij de communicatie met AnkiDroid.\n\nZorg ervoor dat de AnkiDroid-achtergrondservice actief is en alle relevante app-machtigingen zijn verleend.';
-  @override
-  String get info_standard_model => 'Standaard kaarttype toegevoegd';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』 is toegevoegd aan AnkiDroid als nieuw kaarttype.\n\nInstellingen met een ander kaarttype of veldvolgorde kunnen worden gebruikt door een nieuw exportprofiel toe te voegen.';
   @override
   String get error_model_missing => 'Ontbrekend kaarttype';
   @override
@@ -27366,6 +27447,21 @@ class _StringsNl extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -27742,11 +27838,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       'Houve um problema na comunicação com o AnkiDroid.\n\nCertifique-se de que o serviço em segundo plano do AnkiDroid está ativo e que todas as permissões relevantes foram concedidas para continuar.';
-  @override
-  String get info_standard_model => 'Tipo de card padrão adicionado';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』 foi adicionado ao AnkiDroid como um novo tipo de card.\n\nConfigurações que utilizem um tipo de card ou ordem de campos diferente podem ser usadas adicionando um novo perfil de exportação.';
   @override
   String get error_model_missing => 'Tipo de card ausente';
   @override
@@ -30261,6 +30352,21 @@ class _StringsPtBr extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -30637,11 +30743,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       'Произошла ошибка при взаимодействии с AnkiDroid.\n\nУбедитесь, что фоновый сервис AnkiDroid запущен и все необходимые разрешения предоставлены.';
-  @override
-  String get info_standard_model => 'Добавлен стандартный тип карточки';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』 добавлен в AnkiDroid как новый тип карточки.\n\nДля использования другого типа карточки или порядка полей создайте новый профиль экспорта.';
   @override
   String get error_model_missing => 'Тип карточки не найден';
   @override
@@ -33142,6 +33243,21 @@ class _StringsRu extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -33514,11 +33630,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       'เกิดปัญหาในการสื่อสารกับ AnkiDroid\n\nตรวจสอบว่าบริการพื้นหลัง AnkiDroid ทำงานอยู่และสิทธิ์แอปที่จำเป็นทั้งหมดได้รับอนุญาตแล้ว';
-  @override
-  String get info_standard_model => 'เพิ่มประเภทการ์ดมาตรฐานแล้ว';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』ถูกเพิ่มใน AnkiDroid เป็นประเภทการ์ดใหม่\n\nการตั้งค่าที่ใช้ประเภทการ์ดหรือลำดับฟิลด์อื่นสามารถเพิ่มโปรไฟล์ส่งออกใหม่ได้';
   @override
   String get error_model_missing => 'ไม่พบประเภทการ์ด';
   @override
@@ -35962,6 +36073,21 @@ class _StringsTh extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -36336,11 +36462,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       'AnkiDroid ile iletişimde bir sorun oluştu.\n\nAnkiDroid arka plan hizmetinin etkin olduğundan ve tüm ilgili uygulama izinlerinin verildiğinden emin olun.';
-  @override
-  String get info_standard_model => 'Standart kart türü eklendi';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』 AnkiDroid\'a yeni bir kart türü olarak eklendi.\n\nFarklı bir kart türü veya alan sırası kullanan kurulumlar yeni bir dışa aktarma profili ekleyerek kullanılabilir.';
   @override
   String get error_model_missing => 'Eksik kart türü';
   @override
@@ -38820,6 +38941,21 @@ class _StringsTr extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -39192,11 +39328,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       'Đã xảy ra lỗi khi giao tiếp với AnkiDroid.\n\nHãy đảm bảo dịch vụ nền AnkiDroid đang hoạt động và tất cả quyền ứng dụng liên quan đã được cấp.';
-  @override
-  String get info_standard_model => 'Đã thêm loại thẻ mặc định';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』 đã được thêm vào AnkiDroid như một loại thẻ mới.\n\nCác thiết lập sử dụng loại thẻ hoặc thứ tự trường khác có thể được sử dụng bằng cách thêm hồ sơ xuất mới.';
   @override
   String get error_model_missing => 'Thiếu loại thẻ';
   @override
@@ -41658,6 +41789,21 @@ class _StringsVi extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -42052,11 +42198,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       '与 AnkiDroid 通信时出错。\n\n请确认 AnkiDroid 的后台服务已启用，并已授予所需权限。';
-  @override
-  String get info_standard_model => '已添加标准卡片类型';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』已作为新卡片类型添加至 AnkiDroid。\n\n如需使用其他卡片类型或字段顺序，可新建导出配置。';
   @override
   String get error_model_missing => '缺少卡片类型';
   @override
@@ -44327,6 +44468,19 @@ class _StringsZhCn extends _StringsEn {
   String get video_setting_av_delay_hint => '正数 = 画面先于文字（向回拨字幕）；负数 = 画面滞后。';
   @override
   String get video_setting_speed => '播放速度';
+  @override
+  String get sync_compare_no_content => '仅云端数据，无可下载书籍';
+  @override
+  String get anki_create_lapis => '创建 Lapis 卡组';
+  @override
+  String get anki_create_lapis_hint => '向 Anki 添加 Lapis 笔记类型和 Lapis 卡组并自动选中。';
+  @override
+  String get anki_create_lapis_success => '已创建 Lapis 笔记类型和卡组。';
+  @override
+  String get anki_create_lapis_exists => 'Lapis 笔记类型和卡组已存在，已选中。';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      '无法创建 Lapis 卡组：${error}';
 }
 
 // Path: retrying_in
@@ -44689,11 +44843,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get error_ankidroid_api_content =>
       '與 AnkiDroid 通訊時發生錯誤。\n\n請確認 AnkiDroid 的背景服務已啟用，並已授予所需權限。';
-  @override
-  String get info_standard_model => '已新增標準卡片類型';
-  @override
-  String get info_standard_model_content =>
-      '『hibiki Kinomoto』已作為新卡片類型新增至 AnkiDroid。\n\n如需使用其他卡片類型或欄位順序，可新建匯出設定檔。';
   @override
   String get error_model_missing => '缺少卡片類型';
   @override
@@ -47030,6 +47179,21 @@ class _StringsZhHk extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -47390,10 +47554,6 @@ extension on _StringsEn {
         return 'AnkiDroid error';
       case 'error_ankidroid_api_content':
         return 'There was an issue communicating with AnkiDroid.\n\nEnsure that the AnkiDroid background service is active and all relevant app permissions are granted in order to continue.';
-      case 'info_standard_model':
-        return 'Standard card type added';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』 has been added to AnkiDroid as a new card type.\n\nSetups making use of a different card type or field order may be used by adding a new export profile.';
       case 'error_model_missing':
         return 'Missing card type';
       case 'error_model_missing_content':
@@ -49654,6 +49814,19 @@ extension on _StringsEn {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -49944,10 +50117,6 @@ extension on _StringsAr {
         return 'خطأ في AnkiDroid';
       case 'error_ankidroid_api_content':
         return 'حدث خطأ في التواصل مع AnkiDroid.\n\nتأكد من أن خدمة AnkiDroid الخلفية نشطة وتم منح جميع الأذونات المطلوبة.';
-      case 'info_standard_model':
-        return 'تمت إضافة نوع البطاقة القياسي';
-      case 'info_standard_model_content':
-        return 'تمت إضافة『hibiki Kinomoto』إلى AnkiDroid كنوع بطاقة جديد.\n\nيمكن استخدام أنواع بطاقات أخرى بإضافة ملف شخصي تصدير جديد.';
       case 'error_model_missing':
         return 'نوع البطاقة مفقود';
       case 'error_model_missing_content':
@@ -52236,6 +52405,19 @@ extension on _StringsAr {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -52527,10 +52709,6 @@ extension on _StringsDe {
         return 'AnkiDroid-Fehler';
       case 'error_ankidroid_api_content':
         return 'Bei der Kommunikation mit AnkiDroid ist ein Fehler aufgetreten.\n\nStellen Sie sicher, dass der AnkiDroid-Hintergrunddienst aktiv ist und alle erforderlichen App-Berechtigungen erteilt wurden.';
-      case 'info_standard_model':
-        return 'Standard-Kartentyp hinzugefügt';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』wurde als neuer Kartentyp zu AnkiDroid hinzugefügt.\n\nSetups mit einem anderen Kartentyp oder Feldreihenfolge können durch Hinzufügen eines neuen Exportprofils verwendet werden.';
       case 'error_model_missing':
         return 'Fehlender Kartentyp';
       case 'error_model_missing_content':
@@ -54834,6 +55012,19 @@ extension on _StringsDe {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -55125,10 +55316,6 @@ extension on _StringsEs {
         return 'Error de AnkiDroid';
       case 'error_ankidroid_api_content':
         return 'Hubo un problema al comunicarse con AnkiDroid.\n\nAsegúrate de que el servicio en segundo plano de AnkiDroid esté activo y de que se hayan concedido todos los permisos necesarios.';
-      case 'info_standard_model':
-        return 'Tipo de tarjeta estándar añadido';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』 se ha añadido a AnkiDroid como un nuevo tipo de tarjeta.\n\nLas configuraciones que usen un tipo de tarjeta o un orden de campos diferentes pueden utilizarse añadiendo un nuevo perfil de exportación.';
       case 'error_model_missing':
         return 'Tipo de tarjeta no encontrado';
       case 'error_model_missing_content':
@@ -57430,6 +57617,19 @@ extension on _StringsEs {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -57721,10 +57921,6 @@ extension on _StringsFr {
         return 'Erreur AnkiDroid';
       case 'error_ankidroid_api_content':
         return 'Un problème de communication avec AnkiDroid est survenu.\n\nAssurez-vous que le service en arrière-plan d\'AnkiDroid est actif et que toutes les permissions nécessaires sont accordées pour continuer.';
-      case 'info_standard_model':
-        return 'Type de carte standard ajouté';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』 a été ajouté à AnkiDroid en tant que nouveau type de carte.\n\nLes configurations utilisant un type de carte ou un ordre de champs différent peuvent être utilisées en ajoutant un nouveau profil d\'exportation.';
       case 'error_model_missing':
         return 'Type de carte manquant';
       case 'error_model_missing_content':
@@ -60028,6 +60224,19 @@ extension on _StringsFr {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -60319,10 +60528,6 @@ extension on _StringsId {
         return 'Error AnkiDroid';
       case 'error_ankidroid_api_content':
         return 'Terjadi masalah saat berkomunikasi dengan AnkiDroid.\n\nPastikan layanan latar belakang AnkiDroid aktif dan semua izin aplikasi yang diperlukan telah diberikan.';
-      case 'info_standard_model':
-        return 'Tipe kartu standar ditambahkan';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』telah ditambahkan ke AnkiDroid sebagai tipe kartu baru.\n\nPengaturan yang menggunakan tipe kartu atau urutan field berbeda dapat ditambahkan melalui profil ekspor baru.';
       case 'error_model_missing':
         return 'Tipe kartu tidak ditemukan';
       case 'error_model_missing_content':
@@ -62615,6 +62820,19 @@ extension on _StringsId {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -62906,10 +63124,6 @@ extension on _StringsIt {
         return 'Errore AnkiDroid';
       case 'error_ankidroid_api_content':
         return 'Si è verificato un problema di comunicazione con AnkiDroid.\n\nAssicurati che il servizio in background di AnkiDroid sia attivo e che tutti i permessi necessari siano stati concessi.';
-      case 'info_standard_model':
-        return 'Tipo di carta standard aggiunto';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』è stato aggiunto ad AnkiDroid come nuovo tipo di carta.\n\nLe configurazioni che utilizzano un tipo di carta o un ordine di campi diverso possono essere utilizzate aggiungendo un nuovo profilo di esportazione.';
       case 'error_model_missing':
         return 'Tipo di carta mancante';
       case 'error_model_missing_content':
@@ -65210,6 +65424,19 @@ extension on _StringsIt {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -65498,10 +65725,6 @@ extension on _StringsJa {
         return 'AnkiDroidエラー';
       case 'error_ankidroid_api_content':
         return 'AnkiDroidとの通信中に問題が発生しました。\n\n続行するには、AnkiDroidのバックグラウンドサービスが有効であること、および必要なアプリの権限がすべて付与されていることを確認してください。';
-      case 'info_standard_model':
-        return '標準カードタイプを追加しました';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』が新しいカードタイプとしてAnkiDroidに追加されました。\n\n別のカードタイプやフィールド順序を使用する場合は、新しいエクスポートプロファイルを追加してください。';
       case 'error_model_missing':
         return 'カードタイプが見つかりません';
       case 'error_model_missing_content':
@@ -67781,6 +68004,19 @@ extension on _StringsJa {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -68070,10 +68306,6 @@ extension on _StringsKo {
         return 'AnkiDroid 오류';
       case 'error_ankidroid_api_content':
         return 'AnkiDroid와 통신 중 문제가 발생했습니다.\n\n계속하려면 AnkiDroid 백그라운드 서비스가 활성화되어 있고 관련 앱 권한이 모두 부여되었는지 확인하세요.';
-      case 'info_standard_model':
-        return '기본 카드 유형 추가됨';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』가 AnkiDroid에 새 카드 유형으로 추가되었습니다.\n\n다른 카드 유형이나 필드 순서를 사용하려면 새 내보내기 프로필을 추가하세요.';
       case 'error_model_missing':
         return '카드 유형 없음';
       case 'error_model_missing_content':
@@ -70354,6 +70586,19 @@ extension on _StringsKo {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -70645,10 +70890,6 @@ extension on _StringsNl {
         return 'AnkiDroid-fout';
       case 'error_ankidroid_api_content':
         return 'Er was een probleem bij de communicatie met AnkiDroid.\n\nZorg ervoor dat de AnkiDroid-achtergrondservice actief is en alle relevante app-machtigingen zijn verleend.';
-      case 'info_standard_model':
-        return 'Standaard kaarttype toegevoegd';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』 is toegevoegd aan AnkiDroid als nieuw kaarttype.\n\nInstellingen met een ander kaarttype of veldvolgorde kunnen worden gebruikt door een nieuw exportprofiel toe te voegen.';
       case 'error_model_missing':
         return 'Ontbrekend kaarttype';
       case 'error_model_missing_content':
@@ -72946,6 +73187,19 @@ extension on _StringsNl {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -73237,10 +73491,6 @@ extension on _StringsPtBr {
         return 'Erro do AnkiDroid';
       case 'error_ankidroid_api_content':
         return 'Houve um problema na comunicação com o AnkiDroid.\n\nCertifique-se de que o serviço em segundo plano do AnkiDroid está ativo e que todas as permissões relevantes foram concedidas para continuar.';
-      case 'info_standard_model':
-        return 'Tipo de card padrão adicionado';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』 foi adicionado ao AnkiDroid como um novo tipo de card.\n\nConfigurações que utilizem um tipo de card ou ordem de campos diferente podem ser usadas adicionando um novo perfil de exportação.';
       case 'error_model_missing':
         return 'Tipo de card ausente';
       case 'error_model_missing_content':
@@ -75537,6 +75787,19 @@ extension on _StringsPtBr {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -75828,10 +76091,6 @@ extension on _StringsRu {
         return 'Ошибка AnkiDroid';
       case 'error_ankidroid_api_content':
         return 'Произошла ошибка при взаимодействии с AnkiDroid.\n\nУбедитесь, что фоновый сервис AnkiDroid запущен и все необходимые разрешения предоставлены.';
-      case 'info_standard_model':
-        return 'Добавлен стандартный тип карточки';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』 добавлен в AnkiDroid как новый тип карточки.\n\nДля использования другого типа карточки или порядка полей создайте новый профиль экспорта.';
       case 'error_model_missing':
         return 'Тип карточки не найден';
       case 'error_model_missing_content':
@@ -78129,6 +78388,19 @@ extension on _StringsRu {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -78418,10 +78690,6 @@ extension on _StringsTh {
         return 'ข้อผิดพลาด AnkiDroid';
       case 'error_ankidroid_api_content':
         return 'เกิดปัญหาในการสื่อสารกับ AnkiDroid\n\nตรวจสอบว่าบริการพื้นหลัง AnkiDroid ทำงานอยู่และสิทธิ์แอปที่จำเป็นทั้งหมดได้รับอนุญาตแล้ว';
-      case 'info_standard_model':
-        return 'เพิ่มประเภทการ์ดมาตรฐานแล้ว';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』ถูกเพิ่มใน AnkiDroid เป็นประเภทการ์ดใหม่\n\nการตั้งค่าที่ใช้ประเภทการ์ดหรือลำดับฟิลด์อื่นสามารถเพิ่มโปรไฟล์ส่งออกใหม่ได้';
       case 'error_model_missing':
         return 'ไม่พบประเภทการ์ด';
       case 'error_model_missing_content':
@@ -80712,6 +80980,19 @@ extension on _StringsTh {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -81002,10 +81283,6 @@ extension on _StringsTr {
         return 'AnkiDroid hatası';
       case 'error_ankidroid_api_content':
         return 'AnkiDroid ile iletişimde bir sorun oluştu.\n\nAnkiDroid arka plan hizmetinin etkin olduğundan ve tüm ilgili uygulama izinlerinin verildiğinden emin olun.';
-      case 'info_standard_model':
-        return 'Standart kart türü eklendi';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』 AnkiDroid\'a yeni bir kart türü olarak eklendi.\n\nFarklı bir kart türü veya alan sırası kullanan kurulumlar yeni bir dışa aktarma profili ekleyerek kullanılabilir.';
       case 'error_model_missing':
         return 'Eksik kart türü';
       case 'error_model_missing_content':
@@ -83298,6 +83575,19 @@ extension on _StringsTr {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -83587,10 +83877,6 @@ extension on _StringsVi {
         return 'Lỗi AnkiDroid';
       case 'error_ankidroid_api_content':
         return 'Đã xảy ra lỗi khi giao tiếp với AnkiDroid.\n\nHãy đảm bảo dịch vụ nền AnkiDroid đang hoạt động và tất cả quyền ứng dụng liên quan đã được cấp.';
-      case 'info_standard_model':
-        return 'Đã thêm loại thẻ mặc định';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』 đã được thêm vào AnkiDroid như một loại thẻ mới.\n\nCác thiết lập sử dụng loại thẻ hoặc thứ tự trường khác có thể được sử dụng bằng cách thêm hồ sơ xuất mới.';
       case 'error_model_missing':
         return 'Thiếu loại thẻ';
       case 'error_model_missing_content':
@@ -85881,6 +86167,19 @@ extension on _StringsVi {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -86200,10 +86499,6 @@ extension on _StringsZhCn {
         return 'AnkiDroid 错误';
       case 'error_ankidroid_api_content':
         return '与 AnkiDroid 通信时出错。\n\n请确认 AnkiDroid 的后台服务已启用，并已授予所需权限。';
-      case 'info_standard_model':
-        return '已添加标准卡片类型';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』已作为新卡片类型添加至 AnkiDroid。\n\n如需使用其他卡片类型或字段顺序，可新建导出配置。';
       case 'error_model_missing':
         return '缺少卡片类型';
       case 'error_model_missing_content':
@@ -88446,6 +88741,18 @@ extension on _StringsZhCn {
         return '正数 = 画面先于文字（向回拨字幕）；负数 = 画面滞后。';
       case 'video_setting_speed':
         return '播放速度';
+      case 'sync_compare_no_content':
+        return '仅云端数据，无可下载书籍';
+      case 'anki_create_lapis':
+        return '创建 Lapis 卡组';
+      case 'anki_create_lapis_hint':
+        return '向 Anki 添加 Lapis 笔记类型和 Lapis 卡组并自动选中。';
+      case 'anki_create_lapis_success':
+        return '已创建 Lapis 笔记类型和卡组。';
+      case 'anki_create_lapis_exists':
+        return 'Lapis 笔记类型和卡组已存在，已选中。';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) => '无法创建 Lapis 卡组：${error}';
       default:
         return null;
     }
@@ -88733,10 +89040,6 @@ extension on _StringsZhHk {
         return 'AnkiDroid 錯誤';
       case 'error_ankidroid_api_content':
         return '與 AnkiDroid 通訊時發生錯誤。\n\n請確認 AnkiDroid 的背景服務已啟用，並已授予所需權限。';
-      case 'info_standard_model':
-        return '已新增標準卡片類型';
-      case 'info_standard_model_content':
-        return '『hibiki Kinomoto』已作為新卡片類型新增至 AnkiDroid。\n\n如需使用其他卡片類型或欄位順序，可新建匯出設定檔。';
       case 'error_model_missing':
         return '缺少卡片類型';
       case 'error_model_missing_content':
@@ -91016,6 +91319,19 @@ extension on _StringsZhHk {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'sync_compare_no_content':
+        return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
