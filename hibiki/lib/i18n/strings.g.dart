@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 22185 (1305 per locale)
+/// Strings: 22287 (1311 per locale)
 ///
-/// Built on 2026-06-06 at 05:53 UTC
+/// Built on 2026-06-06 at 06:04 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1766,6 +1766,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Auto-attached subtitle: ${name}';
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  String get video_statistics => 'Video Statistics';
+  String get video_stat_by_video => 'By Video';
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  String get video_stat_watch_time => 'Watch Time';
+  String get video_stat_completed => 'Completed';
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -4697,6 +4703,18 @@ class _StringsAr extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -7712,6 +7730,18 @@ class _StringsDe extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -10740,6 +10770,18 @@ class _StringsEs extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -13788,6 +13830,18 @@ class _StringsFr extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -16759,6 +16813,18 @@ class _StringsId extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -19772,6 +19838,18 @@ class _StringsIt extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -22611,6 +22689,18 @@ class _StringsJa extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -25451,6 +25541,18 @@ class _StringsKo extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -28446,6 +28548,18 @@ class _StringsNl extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -31454,6 +31568,18 @@ class _StringsPtBr extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -34447,6 +34573,18 @@ class _StringsRu extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -37379,6 +37517,18 @@ class _StringsTh extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -40350,6 +40500,18 @@ class _StringsTr extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -43301,6 +43463,18 @@ class _StringsVi extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -46068,6 +46242,18 @@ class _StringsZhCn extends _StringsEn {
   String import_sidecar_subtitle({required Object name}) => '已自动挂载字幕：${name}';
   @override
   String import_sidecar_audio({required Object count}) => '已自动挂载 ${count} 个音频';
+  @override
+  String get video_statistics => '视频统计';
+  @override
+  String get video_stat_by_video => '按视频';
+  @override
+  String get video_stat_subtitle_chars => '字幕字数';
+  @override
+  String get video_stat_watch_time => '观看时长';
+  @override
+  String get video_stat_completed => '已完成';
+  @override
+  String get video_stat_no_data => '暂无视频统计数据';
 }
 
 // Path: retrying_in
@@ -48883,6 +49069,18 @@ class _StringsZhHk extends _StringsEn {
   @override
   String import_sidecar_audio({required Object count}) =>
       'Auto-attached ${count} audio file(s)';
+  @override
+  String get video_statistics => 'Video Statistics';
+  @override
+  String get video_stat_by_video => 'By Video';
+  @override
+  String get video_stat_subtitle_chars => 'Subtitle Characters';
+  @override
+  String get video_stat_watch_time => 'Watch Time';
+  @override
+  String get video_stat_completed => 'Completed';
+  @override
+  String get video_stat_no_data => 'No video statistics yet';
 }
 
 // Path: retrying_in
@@ -51604,6 +51802,18 @@ extension on _StringsEn {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -54283,6 +54493,18 @@ extension on _StringsAr {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -56978,6 +57200,18 @@ extension on _StringsDe {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -59671,6 +59905,18 @@ extension on _StringsEs {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -62366,6 +62612,18 @@ extension on _StringsFr {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -65050,6 +65308,18 @@ extension on _StringsId {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -67742,6 +68012,18 @@ extension on _StringsIt {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -70410,6 +70692,18 @@ extension on _StringsJa {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -73080,6 +73374,18 @@ extension on _StringsKo {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -75769,6 +76075,18 @@ extension on _StringsNl {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -78457,6 +78775,18 @@ extension on _StringsPtBr {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -81146,6 +81476,18 @@ extension on _StringsRu {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -83826,6 +84168,18 @@ extension on _StringsTh {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -86509,6 +86863,18 @@ extension on _StringsTr {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -89189,6 +89555,18 @@ extension on _StringsVi {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
@@ -91847,6 +92225,18 @@ extension on _StringsZhCn {
         return ({required Object name}) => '已自动挂载字幕：${name}';
       case 'import_sidecar_audio':
         return ({required Object count}) => '已自动挂载 ${count} 个音频';
+      case 'video_statistics':
+        return '视频统计';
+      case 'video_stat_by_video':
+        return '按视频';
+      case 'video_stat_subtitle_chars':
+        return '字幕字数';
+      case 'video_stat_watch_time':
+        return '观看时长';
+      case 'video_stat_completed':
+        return '已完成';
+      case 'video_stat_no_data':
+        return '暂无视频统计数据';
       default:
         return null;
     }
@@ -94514,6 +94904,18 @@ extension on _StringsZhHk {
       case 'import_sidecar_audio':
         return ({required Object count}) =>
             'Auto-attached ${count} audio file(s)';
+      case 'video_statistics':
+        return 'Video Statistics';
+      case 'video_stat_by_video':
+        return 'By Video';
+      case 'video_stat_subtitle_chars':
+        return 'Subtitle Characters';
+      case 'video_stat_watch_time':
+        return 'Watch Time';
+      case 'video_stat_completed':
+        return 'Completed';
+      case 'video_stat_no_data':
+        return 'No video statistics yet';
       default:
         return null;
     }
