@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21080 (1240 per locale)
+/// Strings: 21165 (1245 per locale)
 ///
-/// Built on 2026-06-04 at 17:33 UTC
+/// Built on 2026-06-05 at 08:35 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1677,6 +1677,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_progress_local_audio => 'Syncing local audio';
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  String get anki_create_lapis => 'Create Lapis deck';
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -4453,6 +4461,19 @@ class _StringsAr extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -7313,6 +7334,19 @@ class _StringsDe extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -10187,6 +10221,19 @@ class _StringsEs extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -13080,6 +13127,19 @@ class _StringsFr extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -15896,6 +15956,19 @@ class _StringsId extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -18754,6 +18827,19 @@ class _StringsIt extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -21439,6 +21525,19 @@ class _StringsJa extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -24125,6 +24224,19 @@ class _StringsKo extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -26965,6 +27077,19 @@ class _StringsNl extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -29818,6 +29943,19 @@ class _StringsPtBr extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -32657,6 +32795,19 @@ class _StringsRu extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -35435,6 +35586,19 @@ class _StringsTh extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -38251,6 +38415,19 @@ class _StringsTr extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -41047,6 +41224,19 @@ class _StringsVi extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -43678,6 +43868,17 @@ class _StringsZhCn extends _StringsEn {
   String get sync_progress_audiobooks => '同步有声书';
   @override
   String get sync_compare_no_content => '仅云端数据，无可下载书籍';
+  @override
+  String get anki_create_lapis => '创建 Lapis 卡组';
+  @override
+  String get anki_create_lapis_hint => '向 Anki 添加 Lapis 笔记类型和 Lapis 卡组并自动选中。';
+  @override
+  String get anki_create_lapis_success => '已创建 Lapis 笔记类型和卡组。';
+  @override
+  String get anki_create_lapis_exists => 'Lapis 笔记类型和卡组已存在，已选中。';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      '无法创建 Lapis 卡组：${error}';
 }
 
 // Path: retrying_in
@@ -46339,6 +46540,19 @@ class _StringsZhHk extends _StringsEn {
   String get sync_progress_audiobooks => 'Syncing audiobooks';
   @override
   String get sync_compare_no_content => 'Cloud data only — no book to download';
+  @override
+  String get anki_create_lapis => 'Create Lapis deck';
+  @override
+  String get anki_create_lapis_hint =>
+      'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+  @override
+  String get anki_create_lapis_success => 'Lapis note type and deck created.';
+  @override
+  String get anki_create_lapis_exists =>
+      'Lapis note type and deck already exist — selected them.';
+  @override
+  String anki_create_lapis_failed({required Object error}) =>
+      'Could not create Lapis deck: ${error}';
 }
 
 // Path: retrying_in
@@ -48925,6 +49139,17 @@ extension on _StringsEn {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -51469,6 +51694,17 @@ extension on _StringsAr {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -54029,6 +54265,17 @@ extension on _StringsDe {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -56587,6 +56834,17 @@ extension on _StringsEs {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -59147,6 +59405,17 @@ extension on _StringsFr {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -61696,6 +61965,17 @@ extension on _StringsId {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -64253,6 +64533,17 @@ extension on _StringsIt {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -66786,6 +67077,17 @@ extension on _StringsJa {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -69321,6 +69623,17 @@ extension on _StringsKo {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -71875,6 +72188,17 @@ extension on _StringsNl {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -74428,6 +74752,17 @@ extension on _StringsPtBr {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -76982,6 +77317,17 @@ extension on _StringsRu {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -79527,6 +79873,17 @@ extension on _StringsTh {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -82075,6 +82432,17 @@ extension on _StringsTr {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -84620,6 +84988,17 @@ extension on _StringsVi {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
@@ -87147,6 +87526,16 @@ extension on _StringsZhCn {
         return '同步有声书';
       case 'sync_compare_no_content':
         return '仅云端数据，无可下载书籍';
+      case 'anki_create_lapis':
+        return '创建 Lapis 卡组';
+      case 'anki_create_lapis_hint':
+        return '向 Anki 添加 Lapis 笔记类型和 Lapis 卡组并自动选中。';
+      case 'anki_create_lapis_success':
+        return '已创建 Lapis 笔记类型和卡组。';
+      case 'anki_create_lapis_exists':
+        return 'Lapis 笔记类型和卡组已存在，已选中。';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) => '无法创建 Lapis 卡组：${error}';
       default:
         return null;
     }
@@ -89679,6 +90068,17 @@ extension on _StringsZhHk {
         return 'Syncing audiobooks';
       case 'sync_compare_no_content':
         return 'Cloud data only — no book to download';
+      case 'anki_create_lapis':
+        return 'Create Lapis deck';
+      case 'anki_create_lapis_hint':
+        return 'Adds the Lapis note type and a Lapis deck to Anki, then selects them.';
+      case 'anki_create_lapis_success':
+        return 'Lapis note type and deck created.';
+      case 'anki_create_lapis_exists':
+        return 'Lapis note type and deck already exist — selected them.';
+      case 'anki_create_lapis_failed':
+        return ({required Object error}) =>
+            'Could not create Lapis deck: ${error}';
       default:
         return null;
     }
