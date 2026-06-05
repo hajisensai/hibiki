@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20740 (1220 per locale)
+/// Strings: 20757 (1221 per locale)
 ///
-/// Built on 2026-06-05 at 14:09 UTC
+/// Built on 2026-06-05 at 15:07 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1652,6 +1652,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
   String get yomitan_api_port => 'Yomitan API port';
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -4381,6 +4382,8 @@ class _StringsAr extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -7186,6 +7189,8 @@ class _StringsDe extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -10000,6 +10005,8 @@ class _StringsEs extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -12829,6 +12836,8 @@ class _StringsFr extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -15598,6 +15607,8 @@ class _StringsId extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -18400,6 +18411,8 @@ class _StringsIt extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -21056,6 +21069,8 @@ class _StringsJa extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -23717,6 +23732,8 @@ class _StringsKo extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -26503,6 +26520,8 @@ class _StringsNl extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -29304,6 +29323,8 @@ class _StringsPtBr extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -32088,6 +32109,8 @@ class _StringsRu extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -34820,6 +34843,8 @@ class _StringsTh extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -37587,6 +37612,8 @@ class _StringsTr extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -40334,6 +40361,8 @@ class _StringsVi extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -42925,6 +42954,8 @@ class _StringsZhCn extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API 端口';
   @override
   String get yomitan_api_key => 'Yomitan API 密钥（可选）';
+  @override
+  String get texthooker => '文本钩子';
 }
 
 // Path: retrying_in
@@ -45543,6 +45574,8 @@ class _StringsZhHk extends _StringsEn {
   String get yomitan_api_port => 'Yomitan API port';
   @override
   String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get texthooker => 'Texthooker';
 }
 
 // Path: retrying_in
@@ -48087,6 +48120,8 @@ extension on _StringsEn {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -50589,6 +50624,8 @@ extension on _StringsAr {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -53105,6 +53142,8 @@ extension on _StringsDe {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -55620,6 +55659,8 @@ extension on _StringsEs {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -58136,6 +58177,8 @@ extension on _StringsFr {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -60643,6 +60686,8 @@ extension on _StringsId {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -63156,6 +63201,8 @@ extension on _StringsIt {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -65649,6 +65696,8 @@ extension on _StringsJa {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -68144,6 +68193,8 @@ extension on _StringsKo {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -70655,6 +70706,8 @@ extension on _StringsNl {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -73166,6 +73219,8 @@ extension on _StringsPtBr {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -75677,6 +75732,8 @@ extension on _StringsRu {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -78180,6 +78237,8 @@ extension on _StringsTh {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -80686,6 +80745,8 @@ extension on _StringsTr {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -83189,6 +83250,8 @@ extension on _StringsVi {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
@@ -85676,6 +85739,8 @@ extension on _StringsZhCn {
         return 'Yomitan API 端口';
       case 'yomitan_api_key':
         return 'Yomitan API 密钥（可选）';
+      case 'texthooker':
+        return '文本钩子';
       default:
         return null;
     }
@@ -88166,6 +88231,8 @@ extension on _StringsZhHk {
         return 'Yomitan API port';
       case 'yomitan_api_key':
         return 'Yomitan API key (optional)';
+      case 'texthooker':
+        return 'Texthooker';
       default:
         return null;
     }
