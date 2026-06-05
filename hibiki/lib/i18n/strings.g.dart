@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21471 (1263 per locale)
+/// Strings: 21556 (1268 per locale)
 ///
-/// Built on 2026-06-05 at 13:58 UTC
+/// Built on 2026-06-05 at 14:49 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1706,6 +1706,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Lapis note type and deck already exist — selected them.';
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  String get nav_video => 'Video';
+  String get section_experimental => 'Experimental';
+  String get experimental_video => 'Video (experimental)';
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -4535,6 +4541,17 @@ class _StringsAr extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -7448,6 +7465,17 @@ class _StringsDe extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -10374,6 +10402,17 @@ class _StringsEs extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -13320,6 +13359,17 @@ class _StringsFr extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -16189,6 +16239,17 @@ class _StringsId extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -19100,6 +19161,17 @@ class _StringsIt extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -21837,6 +21909,17 @@ class _StringsJa extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -24575,6 +24658,17 @@ class _StringsKo extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -27468,6 +27562,17 @@ class _StringsNl extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -30374,6 +30479,17 @@ class _StringsPtBr extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -33265,6 +33381,17 @@ class _StringsRu extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -36095,6 +36222,17 @@ class _StringsTh extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -38964,6 +39102,17 @@ class _StringsTr extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -41813,6 +41962,17 @@ class _StringsVi extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -44490,6 +44650,16 @@ class _StringsZhCn extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       '无法创建 Lapis 卡组：${error}';
+  @override
+  String get nav_video => '视频';
+  @override
+  String get section_experimental => '实验性功能';
+  @override
+  String get experimental_video => '视频（实验性）';
+  @override
+  String get experimental_video_hint => '在底栏显示「视频」标签页并启用视频导入。视频播放、查词与制卡为实验性功能。';
+  @override
+  String get video_library_empty => '还没有导入视频';
 }
 
 // Path: retrying_in
@@ -47203,6 +47373,17 @@ class _StringsZhHk extends _StringsEn {
   @override
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
+  @override
+  String get nav_video => 'Video';
+  @override
+  String get section_experimental => 'Experimental';
+  @override
+  String get experimental_video => 'Video (experimental)';
+  @override
+  String get experimental_video_hint =>
+      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+  @override
+  String get video_library_empty => 'No videos imported yet';
 }
 
 // Path: retrying_in
@@ -49836,6 +50017,16 @@ extension on _StringsEn {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -52427,6 +52618,16 @@ extension on _StringsAr {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -55034,6 +55235,16 @@ extension on _StringsDe {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -57639,6 +57850,16 @@ extension on _StringsEs {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -60246,6 +60467,16 @@ extension on _StringsFr {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -62842,6 +63073,16 @@ extension on _StringsId {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -65446,6 +65687,16 @@ extension on _StringsIt {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -68026,6 +68277,16 @@ extension on _StringsJa {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -70608,6 +70869,16 @@ extension on _StringsKo {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -73209,6 +73480,16 @@ extension on _StringsNl {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -75809,6 +76090,16 @@ extension on _StringsPtBr {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -78410,6 +78701,16 @@ extension on _StringsRu {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -81002,6 +81303,16 @@ extension on _StringsTh {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -83597,6 +83908,16 @@ extension on _StringsTr {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -86189,6 +86510,16 @@ extension on _StringsVi {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
@@ -88762,6 +89093,16 @@ extension on _StringsZhCn {
         return 'Lapis 笔记类型和卡组已存在，已选中。';
       case 'anki_create_lapis_failed':
         return ({required Object error}) => '无法创建 Lapis 卡组：${error}';
+      case 'nav_video':
+        return '视频';
+      case 'section_experimental':
+        return '实验性功能';
+      case 'experimental_video':
+        return '视频（实验性）';
+      case 'experimental_video_hint':
+        return '在底栏显示「视频」标签页并启用视频导入。视频播放、查词与制卡为实验性功能。';
+      case 'video_library_empty':
+        return '还没有导入视频';
       default:
         return null;
     }
@@ -91341,6 +91682,16 @@ extension on _StringsZhHk {
       case 'anki_create_lapis_failed':
         return ({required Object error}) =>
             'Could not create Lapis deck: ${error}';
+      case 'nav_video':
+        return 'Video';
+      case 'section_experimental':
+        return 'Experimental';
+      case 'experimental_video':
+        return 'Video (experimental)';
+      case 'experimental_video_hint':
+        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
+      case 'video_library_empty':
+        return 'No videos imported yet';
       default:
         return null;
     }
