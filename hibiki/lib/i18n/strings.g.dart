@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21318 (1254 per locale)
+/// Strings: 21335 (1255 per locale)
 ///
-/// Built on 2026-06-05 at 01:55 UTC
+/// Built on 2026-06-05 at 02:08 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1693,6 +1693,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_subtitle_off => 'Turn off subtitles';
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -4499,6 +4501,9 @@ class _StringsAr extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -7389,6 +7394,9 @@ class _StringsDe extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -10293,6 +10301,9 @@ class _StringsEs extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -13216,6 +13227,9 @@ class _StringsFr extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -16062,6 +16076,9 @@ class _StringsId extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -18950,6 +18967,9 @@ class _StringsIt extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -21665,6 +21685,9 @@ class _StringsJa extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -24381,6 +24404,9 @@ class _StringsKo extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -27251,6 +27277,9 @@ class _StringsNl extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -30134,6 +30163,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -33003,6 +33035,9 @@ class _StringsRu extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -35811,6 +35846,9 @@ class _StringsTh extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -38657,6 +38695,9 @@ class _StringsTr extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -41483,6 +41524,9 @@ class _StringsVi extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -44142,6 +44186,8 @@ class _StringsZhCn extends _StringsEn {
   String get video_subtitle_off => '关闭字幕';
   @override
   String video_subtitle_switched({required Object label}) => '已切换字幕：${label}';
+  @override
+  String video_audio_track_switched({required Object label}) => '音轨: ${label}';
 }
 
 // Path: retrying_in
@@ -46833,6 +46879,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String video_subtitle_switched({required Object label}) =>
       'Subtitle: ${label}';
+  @override
+  String video_audio_track_switched({required Object label}) =>
+      'Audio track: ${label}';
 }
 
 // Path: retrying_in
@@ -49447,6 +49496,8 @@ extension on _StringsEn {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -52019,6 +52070,8 @@ extension on _StringsAr {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -54607,6 +54660,8 @@ extension on _StringsDe {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -57193,6 +57248,8 @@ extension on _StringsEs {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -59781,6 +59838,8 @@ extension on _StringsFr {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -62358,6 +62417,8 @@ extension on _StringsId {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -64943,6 +65004,8 @@ extension on _StringsIt {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -67504,6 +67567,8 @@ extension on _StringsJa {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -70067,6 +70132,8 @@ extension on _StringsKo {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -72649,6 +72716,8 @@ extension on _StringsNl {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -75230,6 +75299,8 @@ extension on _StringsPtBr {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -77812,6 +77883,8 @@ extension on _StringsRu {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -80385,6 +80458,8 @@ extension on _StringsTh {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -82961,6 +83036,8 @@ extension on _StringsTr {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -85534,6 +85611,8 @@ extension on _StringsVi {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
@@ -88089,6 +88168,8 @@ extension on _StringsZhCn {
         return '关闭字幕';
       case 'video_subtitle_switched':
         return ({required Object label}) => '已切换字幕：${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => '音轨: ${label}';
       default:
         return null;
     }
@@ -90649,6 +90730,8 @@ extension on _StringsZhHk {
         return 'Turn off subtitles';
       case 'video_subtitle_switched':
         return ({required Object label}) => 'Subtitle: ${label}';
+      case 'video_audio_track_switched':
+        return ({required Object label}) => 'Audio track: ${label}';
       default:
         return null;
     }
