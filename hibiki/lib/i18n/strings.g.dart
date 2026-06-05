@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20757 (1221 per locale)
+/// Strings: 20791 (1223 per locale)
 ///
-/// Built on 2026-06-05 at 15:07 UTC
+/// Built on 2026-06-05 at 15:23 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1653,6 +1653,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get yomitan_api_port => 'Yomitan API port';
   String get yomitan_api_key => 'Yomitan API key (optional)';
   String get texthooker => 'Texthooker';
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -4384,6 +4387,11 @@ class _StringsAr extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -7191,6 +7199,11 @@ class _StringsDe extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -10007,6 +10020,11 @@ class _StringsEs extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -12838,6 +12856,11 @@ class _StringsFr extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -15609,6 +15632,11 @@ class _StringsId extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -18413,6 +18441,11 @@ class _StringsIt extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -21071,6 +21104,11 @@ class _StringsJa extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -23734,6 +23772,11 @@ class _StringsKo extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -26522,6 +26565,11 @@ class _StringsNl extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -29325,6 +29373,11 @@ class _StringsPtBr extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -32111,6 +32164,11 @@ class _StringsRu extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -34845,6 +34903,11 @@ class _StringsTh extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -37614,6 +37677,11 @@ class _StringsTr extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -40363,6 +40431,11 @@ class _StringsVi extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -42956,6 +43029,10 @@ class _StringsZhCn extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API 密钥（可选）';
   @override
   String get texthooker => '文本钩子';
+  @override
+  String get texthooker_enabled => '文本钩子（接收文本）';
+  @override
+  String get texthooker_enabled_hint => '连接 Textractor/mpv/agent 并查询收到的文本';
 }
 
 // Path: retrying_in
@@ -45576,6 +45653,11 @@ class _StringsZhHk extends _StringsEn {
   String get yomitan_api_key => 'Yomitan API key (optional)';
   @override
   String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
 }
 
 // Path: retrying_in
@@ -48122,6 +48204,10 @@ extension on _StringsEn {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -50626,6 +50712,10 @@ extension on _StringsAr {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -53144,6 +53234,10 @@ extension on _StringsDe {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -55661,6 +55755,10 @@ extension on _StringsEs {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -58179,6 +58277,10 @@ extension on _StringsFr {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -60688,6 +60790,10 @@ extension on _StringsId {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -63203,6 +63309,10 @@ extension on _StringsIt {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -65698,6 +65808,10 @@ extension on _StringsJa {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -68195,6 +68309,10 @@ extension on _StringsKo {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -70708,6 +70826,10 @@ extension on _StringsNl {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -73221,6 +73343,10 @@ extension on _StringsPtBr {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -75734,6 +75860,10 @@ extension on _StringsRu {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -78239,6 +78369,10 @@ extension on _StringsTh {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -80747,6 +80881,10 @@ extension on _StringsTr {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -83252,6 +83390,10 @@ extension on _StringsVi {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
@@ -85741,6 +85883,10 @@ extension on _StringsZhCn {
         return 'Yomitan API 密钥（可选）';
       case 'texthooker':
         return '文本钩子';
+      case 'texthooker_enabled':
+        return '文本钩子（接收文本）';
+      case 'texthooker_enabled_hint':
+        return '连接 Textractor/mpv/agent 并查询收到的文本';
       default:
         return null;
     }
@@ -88233,6 +88379,10 @@ extension on _StringsZhHk {
         return 'Yomitan API key (optional)';
       case 'texthooker':
         return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
       default:
         return null;
     }
