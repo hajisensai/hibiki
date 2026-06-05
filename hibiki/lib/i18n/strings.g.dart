@@ -1,7 +1,7 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21556 (1268 per locale)
+/// Strings: 21607 (1271 per locale)
 ///
 /// Built on 2026-06-05 at 14:49 UTC
 
@@ -1712,6 +1712,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get experimental_video_hint =>
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   String get video_library_empty => 'No videos imported yet';
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  String get video_import_folder_empty => 'No video files found in this folder';
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -4552,6 +4556,13 @@ class _StringsAr extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -7476,6 +7487,13 @@ class _StringsDe extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -10413,6 +10431,13 @@ class _StringsEs extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -13370,6 +13395,13 @@ class _StringsFr extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -16250,6 +16282,13 @@ class _StringsId extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -19172,6 +19211,13 @@ class _StringsIt extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -21920,6 +21966,13 @@ class _StringsJa extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -24669,6 +24722,13 @@ class _StringsKo extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -27573,6 +27633,13 @@ class _StringsNl extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -30490,6 +30557,13 @@ class _StringsPtBr extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -33392,6 +33466,13 @@ class _StringsRu extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -36233,6 +36314,13 @@ class _StringsTh extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -39113,6 +39201,13 @@ class _StringsTr extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -41973,6 +42068,13 @@ class _StringsVi extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -44660,6 +44762,13 @@ class _StringsZhCn extends _StringsEn {
   String get experimental_video_hint => '在底栏显示「视频」标签页并启用视频导入。视频播放、查词与制卡为实验性功能。';
   @override
   String get video_library_empty => '还没有导入视频';
+  @override
+  String get video_import_pick_folder => '导入文件夹（自动分组剧集）';
+  @override
+  String get video_import_folder_empty => '此文件夹里没有视频文件';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      '已导入 ${count} 个系列';
 }
 
 // Path: retrying_in
@@ -47384,6 +47493,13 @@ class _StringsZhHk extends _StringsEn {
       'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   @override
   String get video_library_empty => 'No videos imported yet';
+  @override
+  String get video_import_pick_folder => 'Import folder (auto-group episodes)';
+  @override
+  String get video_import_folder_empty => 'No video files found in this folder';
+  @override
+  String video_import_folder_done({required Object count}) =>
+      'Imported ${count} series';
 }
 
 // Path: retrying_in
@@ -50027,6 +50143,12 @@ extension on _StringsEn {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -52628,6 +52750,12 @@ extension on _StringsAr {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -55245,6 +55373,12 @@ extension on _StringsDe {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -57860,6 +57994,12 @@ extension on _StringsEs {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -60477,6 +60617,12 @@ extension on _StringsFr {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -63083,6 +63229,12 @@ extension on _StringsId {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -65697,6 +65849,12 @@ extension on _StringsIt {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -68287,6 +68445,12 @@ extension on _StringsJa {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -70879,6 +71043,12 @@ extension on _StringsKo {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -73490,6 +73660,12 @@ extension on _StringsNl {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -76100,6 +76276,12 @@ extension on _StringsPtBr {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -78711,6 +78893,12 @@ extension on _StringsRu {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -81313,6 +81501,12 @@ extension on _StringsTh {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -83918,6 +84112,12 @@ extension on _StringsTr {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -86520,6 +86720,12 @@ extension on _StringsVi {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
@@ -89103,6 +89309,12 @@ extension on _StringsZhCn {
         return '在底栏显示「视频」标签页并启用视频导入。视频播放、查词与制卡为实验性功能。';
       case 'video_library_empty':
         return '还没有导入视频';
+      case 'video_import_pick_folder':
+        return '导入文件夹（自动分组剧集）';
+      case 'video_import_folder_empty':
+        return '此文件夹里没有视频文件';
+      case 'video_import_folder_done':
+        return ({required Object count}) => '已导入 ${count} 个系列';
       default:
         return null;
     }
@@ -91692,6 +91904,12 @@ extension on _StringsZhHk {
         return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
+      case 'video_import_pick_folder':
+        return 'Import folder (auto-group episodes)';
+      case 'video_import_folder_empty':
+        return 'No video files found in this folder';
+      case 'video_import_folder_done':
+        return ({required Object count}) => 'Imported ${count} series';
       default:
         return null;
     }
