@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 21471 (1263 per locale)
 ///
-/// Built on 2026-06-05 at 09:57 UTC
+/// Built on 2026-06-05 at 13:58 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -204,7 +204,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get settings_destination_lookup => 'Lookup';
   String get settings_destination_card_creation => 'Card Creation';
   String get settings_destination_listening => 'Listening';
-  String get settings_destination_sync_backup => 'Sync & Backup';
+  String get settings_destination_sync_backup => 'Sync & Backup (Experimental)';
   String get settings_destination_system => 'System';
   String get settings_destination_diagnostics => 'Diagnostics';
   String get settings_section_app_shell => 'App';
@@ -3919,7 +3919,8 @@ class _StringsAr extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'أدوات التحكم بالقراءة';
   @override
-  String get settings_destination_sync_backup => 'المزامنة والنسخ الاحتياطي';
+  String get settings_destination_sync_backup =>
+      'المزامنة والنسخ الاحتياطي (تجريبي)';
   @override
   String get settings_destination_system => 'النظام';
   @override
@@ -6821,7 +6822,8 @@ class _StringsDe extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Lesesteuerung';
   @override
-  String get settings_destination_sync_backup => 'Sync & Backup';
+  String get settings_destination_sync_backup =>
+      'Sync & Backup (Experimentell)';
   @override
   String get settings_destination_system => 'System';
   @override
@@ -9742,7 +9744,7 @@ class _StringsEs extends _StringsEn {
   String get settings_destination_reading_controls => 'Controles de lectura';
   @override
   String get settings_destination_sync_backup =>
-      'Sincronización y copia de seguridad';
+      'Sincronización y copia de seguridad (Experimental)';
   @override
   String get settings_destination_system => 'Sistema';
   @override
@@ -12683,7 +12685,8 @@ class _StringsFr extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Commandes de lecture';
   @override
-  String get settings_destination_sync_backup => 'Sync et sauvegarde';
+  String get settings_destination_sync_backup =>
+      'Sync et sauvegarde (Expérimental)';
   @override
   String get settings_destination_system => 'Système';
   @override
@@ -15568,7 +15571,8 @@ class _StringsId extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Kontrol Baca';
   @override
-  String get settings_destination_sync_backup => 'Sinkronisasi & Cadangan';
+  String get settings_destination_sync_backup =>
+      'Sinkronisasi & Cadangan (Eksperimental)';
   @override
   String get settings_destination_system => 'Sistem';
   @override
@@ -18469,7 +18473,8 @@ class _StringsIt extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Controlli di lettura';
   @override
-  String get settings_destination_sync_backup => 'Sincronizzazione e backup';
+  String get settings_destination_sync_backup =>
+      'Sincronizzazione e backup (Sperimentale)';
   @override
   String get settings_destination_system => 'Sistema';
   @override
@@ -21246,7 +21251,7 @@ class _StringsJa extends _StringsEn {
   @override
   String get settings_destination_reading_controls => '読書コントロール';
   @override
-  String get settings_destination_sync_backup => '同期とバックアップ';
+  String get settings_destination_sync_backup => '同期とバックアップ（実験的）';
   @override
   String get settings_destination_system => 'システム';
   @override
@@ -23978,7 +23983,7 @@ class _StringsKo extends _StringsEn {
   @override
   String get settings_destination_reading_controls => '읽기 컨트롤';
   @override
-  String get settings_destination_sync_backup => '동기화 및 백업';
+  String get settings_destination_sync_backup => '동기화 및 백업 (실험적)';
   @override
   String get settings_destination_system => '시스템';
   @override
@@ -26838,7 +26843,8 @@ class _StringsNl extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Leesbesturing';
   @override
-  String get settings_destination_sync_backup => 'Synchronisatie & back-up';
+  String get settings_destination_sync_backup =>
+      'Synchronisatie & back-up (Experimenteel)';
   @override
   String get settings_destination_system => 'Systeem';
   @override
@@ -29745,7 +29751,8 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Controles de leitura';
   @override
-  String get settings_destination_sync_backup => 'Sincronização e backup';
+  String get settings_destination_sync_backup =>
+      'Sincronização e backup (Experimental)';
   @override
   String get settings_destination_system => 'Sistema';
   @override
@@ -32633,7 +32640,7 @@ class _StringsRu extends _StringsEn {
   String get settings_destination_reading_controls => 'Управление чтением';
   @override
   String get settings_destination_sync_backup =>
-      'Синхронизация и резервное копирование';
+      'Синхронизация и резервное копирование (экспериментально)';
   @override
   String get settings_destination_system => 'Система';
   @override
@@ -35473,7 +35480,7 @@ class _StringsTh extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'ตัวควบคุมการอ่าน';
   @override
-  String get settings_destination_sync_backup => 'ซิงค์และสำรองข้อมูล';
+  String get settings_destination_sync_backup => 'ซิงค์และสำรองข้อมูล (ทดลอง)';
   @override
   String get settings_destination_system => 'ระบบ';
   @override
@@ -38337,7 +38344,8 @@ class _StringsTr extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Okuma Kontrolleri';
   @override
-  String get settings_destination_sync_backup => 'Senkronizasyon ve Yedekleme';
+  String get settings_destination_sync_backup =>
+      'Senkronizasyon ve Yedekleme (Deneysel)';
   @override
   String get settings_destination_system => 'Sistem';
   @override
@@ -41187,7 +41195,8 @@ class _StringsVi extends _StringsEn {
   @override
   String get settings_destination_reading_controls => 'Điều khiển đọc';
   @override
-  String get settings_destination_sync_backup => 'Đồng bộ & Sao lưu';
+  String get settings_destination_sync_backup =>
+      'Đồng bộ & Sao lưu (Thử nghiệm)';
   @override
   String get settings_destination_system => 'Hệ thống';
   @override
@@ -41894,7 +41903,7 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get settings_destination_listening => '听书';
   @override
-  String get settings_destination_sync_backup => '同步与备份';
+  String get settings_destination_sync_backup => '同步与备份（实验性）';
   @override
   String get settings_destination_system => '系统';
   @override
@@ -46584,7 +46593,7 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get settings_destination_reading_controls => '閱讀操作';
   @override
-  String get settings_destination_sync_backup => '同步與備份';
+  String get settings_destination_sync_backup => '同步與備份（實驗性）';
   @override
   String get settings_destination_system => '系統';
   @override
@@ -47253,7 +47262,7 @@ extension on _StringsEn {
       case 'settings_destination_listening':
         return 'Listening';
       case 'settings_destination_sync_backup':
-        return 'Sync & Backup';
+        return 'Sync & Backup (Experimental)';
       case 'settings_destination_system':
         return 'System';
       case 'settings_destination_diagnostics':
@@ -51848,7 +51857,7 @@ extension on _StringsAr {
       case 'settings_destination_reading_controls':
         return 'أدوات التحكم بالقراءة';
       case 'settings_destination_sync_backup':
-        return 'المزامنة والنسخ الاحتياطي';
+        return 'المزامنة والنسخ الاحتياطي (تجريبي)';
       case 'settings_destination_system':
         return 'النظام';
       case 'settings_section_app_shell':
@@ -54451,7 +54460,7 @@ extension on _StringsDe {
       case 'settings_destination_reading_controls':
         return 'Lesesteuerung';
       case 'settings_destination_sync_backup':
-        return 'Sync & Backup';
+        return 'Sync & Backup (Experimentell)';
       case 'settings_destination_system':
         return 'System';
       case 'settings_section_app_shell':
@@ -57057,7 +57066,7 @@ extension on _StringsEs {
       case 'settings_destination_reading_controls':
         return 'Controles de lectura';
       case 'settings_destination_sync_backup':
-        return 'Sincronización y copia de seguridad';
+        return 'Sincronización y copia de seguridad (Experimental)';
       case 'settings_destination_system':
         return 'Sistema';
       case 'settings_section_app_shell':
@@ -59663,7 +59672,7 @@ extension on _StringsFr {
       case 'settings_destination_reading_controls':
         return 'Commandes de lecture';
       case 'settings_destination_sync_backup':
-        return 'Sync et sauvegarde';
+        return 'Sync et sauvegarde (Expérimental)';
       case 'settings_destination_system':
         return 'Système';
       case 'settings_section_app_shell':
@@ -62262,7 +62271,7 @@ extension on _StringsId {
       case 'settings_destination_reading_controls':
         return 'Kontrol Baca';
       case 'settings_destination_sync_backup':
-        return 'Sinkronisasi & Cadangan';
+        return 'Sinkronisasi & Cadangan (Eksperimental)';
       case 'settings_destination_system':
         return 'Sistem';
       case 'settings_section_app_shell':
@@ -64863,7 +64872,7 @@ extension on _StringsIt {
       case 'settings_destination_reading_controls':
         return 'Controlli di lettura';
       case 'settings_destination_sync_backup':
-        return 'Sincronizzazione e backup';
+        return 'Sincronizzazione e backup (Sperimentale)';
       case 'settings_destination_system':
         return 'Sistema';
       case 'settings_section_app_shell':
@@ -67459,7 +67468,7 @@ extension on _StringsJa {
       case 'settings_destination_reading_controls':
         return '読書コントロール';
       case 'settings_destination_sync_backup':
-        return '同期とバックアップ';
+        return '同期とバックアップ（実験的）';
       case 'settings_destination_system':
         return 'システム';
       case 'settings_section_app_shell':
@@ -70031,7 +70040,7 @@ extension on _StringsKo {
       case 'settings_destination_reading_controls':
         return '읽기 컨트롤';
       case 'settings_destination_sync_backup':
-        return '동기화 및 백업';
+        return '동기화 및 백업 (실험적)';
       case 'settings_destination_system':
         return '시스템';
       case 'settings_section_app_shell':
@@ -72628,7 +72637,7 @@ extension on _StringsNl {
       case 'settings_destination_reading_controls':
         return 'Leesbesturing';
       case 'settings_destination_sync_backup':
-        return 'Synchronisatie & back-up';
+        return 'Synchronisatie & back-up (Experimenteel)';
       case 'settings_destination_system':
         return 'Systeem';
       case 'settings_section_app_shell':
@@ -75228,7 +75237,7 @@ extension on _StringsPtBr {
       case 'settings_destination_reading_controls':
         return 'Controles de leitura';
       case 'settings_destination_sync_backup':
-        return 'Sincronização e backup';
+        return 'Sincronização e backup (Experimental)';
       case 'settings_destination_system':
         return 'Sistema';
       case 'settings_section_app_shell':
@@ -77828,7 +77837,7 @@ extension on _StringsRu {
       case 'settings_destination_reading_controls':
         return 'Управление чтением';
       case 'settings_destination_sync_backup':
-        return 'Синхронизация и резервное копирование';
+        return 'Синхронизация и резервное копирование (экспериментально)';
       case 'settings_destination_system':
         return 'Система';
       case 'settings_section_app_shell':
@@ -80422,7 +80431,7 @@ extension on _StringsTh {
       case 'settings_destination_reading_controls':
         return 'ตัวควบคุมการอ่าน';
       case 'settings_destination_sync_backup':
-        return 'ซิงค์และสำรองข้อมูล';
+        return 'ซิงค์และสำรองข้อมูล (ทดลอง)';
       case 'settings_destination_system':
         return 'ระบบ';
       case 'settings_section_app_shell':
@@ -83016,7 +83025,7 @@ extension on _StringsTr {
       case 'settings_destination_reading_controls':
         return 'Okuma Kontrolleri';
       case 'settings_destination_sync_backup':
-        return 'Senkronizasyon ve Yedekleme';
+        return 'Senkronizasyon ve Yedekleme (Deneysel)';
       case 'settings_destination_system':
         return 'Sistem';
       case 'settings_section_app_shell':
@@ -85610,7 +85619,7 @@ extension on _StringsVi {
       case 'settings_destination_reading_controls':
         return 'Điều khiển đọc';
       case 'settings_destination_sync_backup':
-        return 'Đồng bộ & Sao lưu';
+        return 'Đồng bộ & Sao lưu (Thử nghiệm)';
       case 'settings_destination_system':
         return 'Hệ thống';
       case 'settings_section_app_shell':
@@ -86202,7 +86211,7 @@ extension on _StringsZhCn {
       case 'settings_destination_listening':
         return '听书';
       case 'settings_destination_sync_backup':
-        return '同步与备份';
+        return '同步与备份（实验性）';
       case 'settings_destination_system':
         return '系统';
       case 'settings_destination_diagnostics':
@@ -90762,7 +90771,7 @@ extension on _StringsZhHk {
       case 'settings_destination_reading_controls':
         return '閱讀操作';
       case 'settings_destination_sync_backup':
-        return '同步與備份';
+        return '同步與備份（實驗性）';
       case 'settings_destination_system':
         return '系統';
       case 'settings_section_app_shell':
