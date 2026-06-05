@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21267 (1251 per locale)
+/// Strings: 21318 (1254 per locale)
 ///
-/// Built on 2026-06-05 at 01:37 UTC
+/// Built on 2026-06-05 at 01:55 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1689,6 +1689,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_episode_list => 'Episodes';
   String get video_prev_episode => 'Previous episode';
   String get video_next_episode => 'Next episode';
+  String get video_subtitle_source => 'Subtitle source';
+  String get video_subtitle_off => 'Turn off subtitles';
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -4488,6 +4492,13 @@ class _StringsAr extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -7371,6 +7382,13 @@ class _StringsDe extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -10268,6 +10286,13 @@ class _StringsEs extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -13184,6 +13209,13 @@ class _StringsFr extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -16023,6 +16055,13 @@ class _StringsId extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -18904,6 +18943,13 @@ class _StringsIt extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -21612,6 +21658,13 @@ class _StringsJa extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -24321,6 +24374,13 @@ class _StringsKo extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -27184,6 +27244,13 @@ class _StringsNl extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -30060,6 +30127,13 @@ class _StringsPtBr extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -32922,6 +32996,13 @@ class _StringsRu extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -35723,6 +35804,13 @@ class _StringsTh extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -38562,6 +38650,13 @@ class _StringsTr extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -41381,6 +41476,13 @@ class _StringsVi extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -44034,6 +44136,12 @@ class _StringsZhCn extends _StringsEn {
   String get video_prev_episode => '上一集';
   @override
   String get video_next_episode => '下一集';
+  @override
+  String get video_subtitle_source => '字幕来源';
+  @override
+  String get video_subtitle_off => '关闭字幕';
+  @override
+  String video_subtitle_switched({required Object label}) => '已切换字幕：${label}';
 }
 
 // Path: retrying_in
@@ -46718,6 +46826,13 @@ class _StringsZhHk extends _StringsEn {
   String get video_prev_episode => 'Previous episode';
   @override
   String get video_next_episode => 'Next episode';
+  @override
+  String get video_subtitle_source => 'Subtitle source';
+  @override
+  String get video_subtitle_off => 'Turn off subtitles';
+  @override
+  String video_subtitle_switched({required Object label}) =>
+      'Subtitle: ${label}';
 }
 
 // Path: retrying_in
@@ -49326,6 +49441,12 @@ extension on _StringsEn {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -51892,6 +52013,12 @@ extension on _StringsAr {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -54474,6 +54601,12 @@ extension on _StringsDe {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -57054,6 +57187,12 @@ extension on _StringsEs {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -59636,6 +59775,12 @@ extension on _StringsFr {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -62207,6 +62352,12 @@ extension on _StringsId {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -64786,6 +64937,12 @@ extension on _StringsIt {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -67341,6 +67498,12 @@ extension on _StringsJa {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -69898,6 +70061,12 @@ extension on _StringsKo {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -72474,6 +72643,12 @@ extension on _StringsNl {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -75049,6 +75224,12 @@ extension on _StringsPtBr {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -77625,6 +77806,12 @@ extension on _StringsRu {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -80192,6 +80379,12 @@ extension on _StringsTh {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -82762,6 +82955,12 @@ extension on _StringsTr {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -85329,6 +85528,12 @@ extension on _StringsVi {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
@@ -87878,6 +88083,12 @@ extension on _StringsZhCn {
         return '上一集';
       case 'video_next_episode':
         return '下一集';
+      case 'video_subtitle_source':
+        return '字幕来源';
+      case 'video_subtitle_off':
+        return '关闭字幕';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => '已切换字幕：${label}';
       default:
         return null;
     }
@@ -90432,6 +90643,12 @@ extension on _StringsZhHk {
         return 'Previous episode';
       case 'video_next_episode':
         return 'Next episode';
+      case 'video_subtitle_source':
+        return 'Subtitle source';
+      case 'video_subtitle_off':
+        return 'Turn off subtitles';
+      case 'video_subtitle_switched':
+        return ({required Object label}) => 'Subtitle: ${label}';
       default:
         return null;
     }
