@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20672 (1216 per locale)
+/// Strings: 20740 (1220 per locale)
 ///
-/// Built on 2026-06-03 at 18:00 UTC
+/// Built on 2026-06-05 at 14:09 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1647,6 +1647,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       '↑${count} dictionaries';
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  String get yomitan_api_server => 'Yomitan API server';
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  String get yomitan_api_port => 'Yomitan API port';
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -4367,6 +4372,15 @@ class _StringsAr extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -7163,6 +7177,15 @@ class _StringsDe extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -9968,6 +9991,15 @@ class _StringsEs extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -12788,6 +12820,15 @@ class _StringsFr extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -15548,6 +15589,15 @@ class _StringsId extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -18341,6 +18391,15 @@ class _StringsIt extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -20988,6 +21047,15 @@ class _StringsJa extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -23640,6 +23708,15 @@ class _StringsKo extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -26417,6 +26494,15 @@ class _StringsNl extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -29209,6 +29295,15 @@ class _StringsPtBr extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -31984,6 +32079,15 @@ class _StringsRu extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -34707,6 +34811,15 @@ class _StringsTh extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -37465,6 +37578,15 @@ class _StringsTr extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -40203,6 +40325,15 @@ class _StringsVi extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -42785,6 +42916,15 @@ class _StringsZhCn extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} 有声书';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} 有声书';
+  @override
+  String get yomitan_api_server => 'Yomitan API 服务器';
+  @override
+  String get yomitan_api_server_hint =>
+      '让 yomitan-api 客户端查询 Hibiki 词典（端口 19633）';
+  @override
+  String get yomitan_api_port => 'Yomitan API 端口';
+  @override
+  String get yomitan_api_key => 'Yomitan API 密钥（可选）';
 }
 
 // Path: retrying_in
@@ -45394,6 +45534,15 @@ class _StringsZhHk extends _StringsEn {
   String sync_now_audio_in({required Object count}) => '↓${count} audiobooks';
   @override
   String sync_now_audio_out({required Object count}) => '↑${count} audiobooks';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
 }
 
 // Path: retrying_in
@@ -47930,6 +48079,14 @@ extension on _StringsEn {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -50424,6 +50581,14 @@ extension on _StringsAr {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -52932,6 +53097,14 @@ extension on _StringsDe {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -55439,6 +55612,14 @@ extension on _StringsEs {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -57947,6 +58128,14 @@ extension on _StringsFr {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -60446,6 +60635,14 @@ extension on _StringsId {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -62951,6 +63148,14 @@ extension on _StringsIt {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -65436,6 +65641,14 @@ extension on _StringsJa {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -67923,6 +68136,14 @@ extension on _StringsKo {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -70426,6 +70647,14 @@ extension on _StringsNl {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -72929,6 +73158,14 @@ extension on _StringsPtBr {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -75432,6 +75669,14 @@ extension on _StringsRu {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -77927,6 +78172,14 @@ extension on _StringsTh {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -80425,6 +80678,14 @@ extension on _StringsTr {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -82920,6 +83181,14 @@ extension on _StringsVi {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
@@ -85399,6 +85668,14 @@ extension on _StringsZhCn {
         return ({required Object count}) => '↓${count} 有声书';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} 有声书';
+      case 'yomitan_api_server':
+        return 'Yomitan API 服务器';
+      case 'yomitan_api_server_hint':
+        return '让 yomitan-api 客户端查询 Hibiki 词典（端口 19633）';
+      case 'yomitan_api_port':
+        return 'Yomitan API 端口';
+      case 'yomitan_api_key':
+        return 'Yomitan API 密钥（可选）';
       default:
         return null;
     }
@@ -87881,6 +88158,14 @@ extension on _StringsZhHk {
         return ({required Object count}) => '↓${count} audiobooks';
       case 'sync_now_audio_out':
         return ({required Object count}) => '↑${count} audiobooks';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
       default:
         return null;
     }
