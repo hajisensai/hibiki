@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21862 (1286 per locale)
+/// Strings: 21879 (1287 per locale)
 ///
-/// Built on 2026-06-05 at 16:23 UTC
+/// Built on 2026-06-05 at 17:27 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1734,6 +1734,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_delete_title => 'Delete Video';
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -4614,6 +4616,9 @@ class _StringsAr extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -7578,6 +7583,9 @@ class _StringsDe extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -10555,6 +10563,9 @@ class _StringsEs extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -13552,6 +13563,9 @@ class _StringsFr extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -16472,6 +16486,9 @@ class _StringsId extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -19434,6 +19451,9 @@ class _StringsIt extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -22222,6 +22242,9 @@ class _StringsJa extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -25011,6 +25034,9 @@ class _StringsKo extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -27955,6 +27981,9 @@ class _StringsNl extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -30912,6 +30941,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -33854,6 +33886,9 @@ class _StringsRu extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -36735,6 +36770,9 @@ class _StringsTh extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -39655,6 +39693,9 @@ class _StringsTr extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -42555,6 +42596,9 @@ class _StringsVi extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -45280,6 +45324,9 @@ class _StringsZhCn extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       '删除『${title}』？此操作无法撤销。';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      '无法加载该字幕（可能是图形或不支持的字幕轨）：${label}';
 }
 
 // Path: retrying_in
@@ -48044,6 +48091,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -50724,6 +50774,9 @@ extension on _StringsEn {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -53362,6 +53415,9 @@ extension on _StringsAr {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -56016,6 +56072,9 @@ extension on _StringsDe {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -58668,6 +58727,9 @@ extension on _StringsEs {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -61322,6 +61384,9 @@ extension on _StringsFr {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -63965,6 +64030,9 @@ extension on _StringsId {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -66616,6 +66684,9 @@ extension on _StringsIt {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -69243,6 +69314,9 @@ extension on _StringsJa {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -71872,6 +71946,9 @@ extension on _StringsKo {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -74520,6 +74597,9 @@ extension on _StringsNl {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -77167,6 +77247,9 @@ extension on _StringsPtBr {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -79815,6 +79898,9 @@ extension on _StringsRu {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -82454,6 +82540,9 @@ extension on _StringsTh {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -85096,6 +85185,9 @@ extension on _StringsTr {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -87735,6 +87827,9 @@ extension on _StringsVi {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -90354,6 +90449,8 @@ extension on _StringsZhCn {
         return '删除视频';
       case 'video_delete_confirm':
         return ({required Object title}) => '删除『${title}』？此操作无法撤销。';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) => '无法加载该字幕（可能是图形或不支持的字幕轨）：${label}';
       default:
         return null;
     }
@@ -92980,6 +93077,9 @@ extension on _StringsZhHk {
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
