@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21403 (1259 per locale)
+/// Strings: 21437 (1261 per locale)
 ///
-/// Built on 2026-06-05 at 06:25 UTC
+/// Built on 2026-06-05 at 06:52 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1700,6 +1700,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_setting_av_delay_hint =>
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   String get video_setting_speed => 'Playback speed';
+  String get video_delete_title => 'Delete Video';
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -4518,6 +4521,11 @@ class _StringsAr extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -7420,6 +7428,11 @@ class _StringsDe extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -10336,6 +10349,11 @@ class _StringsEs extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -13271,6 +13289,11 @@ class _StringsFr extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -16129,6 +16152,11 @@ class _StringsId extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -19029,6 +19057,11 @@ class _StringsIt extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -21756,6 +21789,11 @@ class _StringsJa extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -24484,6 +24522,11 @@ class _StringsKo extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -27366,6 +27409,11 @@ class _StringsNl extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -30261,6 +30309,11 @@ class _StringsPtBr extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -33142,6 +33195,11 @@ class _StringsRu extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -35962,6 +36020,11 @@ class _StringsTh extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -38820,6 +38883,11 @@ class _StringsTr extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -41658,6 +41726,11 @@ class _StringsVi extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -44327,6 +44400,11 @@ class _StringsZhCn extends _StringsEn {
   String get video_setting_av_delay_hint => '正数 = 画面先于文字（向回拨字幕）；负数 = 画面滞后。';
   @override
   String get video_setting_speed => '播放速度';
+  @override
+  String get video_delete_title => '删除视频';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      '删除『${title}』？此操作无法撤销。';
 }
 
 // Path: retrying_in
@@ -47030,6 +47108,11 @@ class _StringsZhHk extends _StringsEn {
       'Positive = picture leads text (shift cues back); negative = picture lags.';
   @override
   String get video_setting_speed => 'Playback speed';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -49654,6 +49737,11 @@ extension on _StringsEn {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -52236,6 +52324,11 @@ extension on _StringsAr {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -54834,6 +54927,11 @@ extension on _StringsDe {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -57430,6 +57528,11 @@ extension on _StringsEs {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -60028,6 +60131,11 @@ extension on _StringsFr {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -62615,6 +62723,11 @@ extension on _StringsId {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -65210,6 +65323,11 @@ extension on _StringsIt {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -67781,6 +67899,11 @@ extension on _StringsJa {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -70354,6 +70477,11 @@ extension on _StringsKo {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -72946,6 +73074,11 @@ extension on _StringsNl {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -75537,6 +75670,11 @@ extension on _StringsPtBr {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -78129,6 +78267,11 @@ extension on _StringsRu {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -80712,6 +80855,11 @@ extension on _StringsTh {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -83298,6 +83446,11 @@ extension on _StringsTr {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -85881,6 +86034,11 @@ extension on _StringsVi {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
@@ -88446,6 +88604,10 @@ extension on _StringsZhCn {
         return '正数 = 画面先于文字（向回拨字幕）；负数 = 画面滞后。';
       case 'video_setting_speed':
         return '播放速度';
+      case 'video_delete_title':
+        return '删除视频';
+      case 'video_delete_confirm':
+        return ({required Object title}) => '删除『${title}』？此操作无法撤销。';
       default:
         return null;
     }
@@ -91016,6 +91178,11 @@ extension on _StringsZhHk {
         return 'Positive = picture leads text (shift cues back); negative = picture lags.';
       case 'video_setting_speed':
         return 'Playback speed';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       default:
         return null;
     }
