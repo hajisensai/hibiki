@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21828 (1284 per locale)
+/// Strings: 21845 (1285 per locale)
 ///
-/// Built on 2026-06-05 at 14:50 UTC
+/// Built on 2026-06-05 at 16:59 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1731,6 +1731,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_jimaku_no_key => 'Enter your Jimaku API key first';
   String get video_jimaku_download_failed => 'Download failed';
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -4606,6 +4608,9 @@ class _StringsAr extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -7565,6 +7570,9 @@ class _StringsDe extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -10537,6 +10545,9 @@ class _StringsEs extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -13529,6 +13540,9 @@ class _StringsFr extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -16444,6 +16458,9 @@ class _StringsId extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -19401,6 +19418,9 @@ class _StringsIt extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -22184,6 +22204,9 @@ class _StringsJa extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -24968,6 +24991,9 @@ class _StringsKo extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -27907,6 +27933,9 @@ class _StringsNl extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -30859,6 +30888,9 @@ class _StringsPtBr extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -33796,6 +33828,9 @@ class _StringsRu extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -36672,6 +36707,9 @@ class _StringsTh extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -39587,6 +39625,9 @@ class _StringsTr extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -42482,6 +42523,9 @@ class _StringsVi extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -45202,6 +45246,8 @@ class _StringsZhCn extends _StringsEn {
   String get video_jimaku_download_failed => '下载失败';
   @override
   String get video_jimaku_downloaded => '字幕已下载并应用';
+  @override
+  String get shortcut_action_audiobook_seek_clicked => '跳转音频到点击的句子';
 }
 
 // Path: retrying_in
@@ -47961,6 +48007,9 @@ class _StringsZhHk extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get shortcut_action_audiobook_seek_clicked =>
+      'Seek audio to clicked sentence';
 }
 
 // Path: retrying_in
@@ -50636,6 +50685,8 @@ extension on _StringsEn {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -53269,6 +53320,8 @@ extension on _StringsAr {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -55918,6 +55971,8 @@ extension on _StringsDe {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -58565,6 +58620,8 @@ extension on _StringsEs {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -61214,6 +61271,8 @@ extension on _StringsFr {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -63852,6 +63911,8 @@ extension on _StringsId {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -66498,6 +66559,8 @@ extension on _StringsIt {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -69120,6 +69183,8 @@ extension on _StringsJa {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -71744,6 +71809,8 @@ extension on _StringsKo {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -74387,6 +74454,8 @@ extension on _StringsNl {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -77029,6 +77098,8 @@ extension on _StringsPtBr {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -79672,6 +79743,8 @@ extension on _StringsRu {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -82306,6 +82379,8 @@ extension on _StringsTh {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -84943,6 +85018,8 @@ extension on _StringsTr {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -87577,6 +87654,8 @@ extension on _StringsVi {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
@@ -90192,6 +90271,8 @@ extension on _StringsZhCn {
         return '下载失败';
       case 'video_jimaku_downloaded':
         return '字幕已下载并应用';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return '跳转音频到点击的句子';
       default:
         return null;
     }
@@ -92813,6 +92894,8 @@ extension on _StringsZhHk {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'shortcut_action_audiobook_seek_clicked':
+        return 'Seek audio to clicked sentence';
       default:
         return null;
     }
