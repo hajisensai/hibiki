@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 22032 (1296 per locale)
+/// Strings: 22083 (1299 per locale)
 ///
-/// Built on 2026-06-05 at 16:20 UTC
+/// Built on 2026-06-05 at 17:51 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1751,6 +1751,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'For old SD (480p) anime with compression smearing.';
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  String get video_delete_title => 'Delete Video';
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -4658,6 +4663,14 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -7649,6 +7662,14 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -10653,6 +10674,14 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -13677,6 +13706,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -16624,6 +16661,14 @@ class _StringsId extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -19613,6 +19658,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -22428,6 +22481,14 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -25244,6 +25305,14 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -28215,6 +28284,14 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -31199,6 +31276,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -34168,6 +34253,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -37076,6 +37169,14 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -40023,6 +40124,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -42950,6 +43059,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -45697,6 +45814,14 @@ class _StringsZhCn extends _StringsEn {
   String get video_shader_preset_mode_c_fast => '适合有压缩涂抹的 480p SD 老番。';
   @override
   String get video_shader_preset_mode_a_hq => '1080p 动画最高画质。需要较强 GPU。';
+  @override
+  String get video_delete_title => '删除视频';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      '删除『${title}』？此操作无法撤销。';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      '无法加载该字幕（可能是图形或不支持的字幕轨）：${label}';
 }
 
 // Path: retrying_in
@@ -48488,6 +48613,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_shader_preset_mode_a_hq =>
       'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
 }
 
 // Path: retrying_in
@@ -51188,6 +51321,14 @@ extension on _StringsEn {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -53846,6 +53987,14 @@ extension on _StringsAr {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -56520,6 +56669,14 @@ extension on _StringsDe {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -59192,6 +59349,14 @@ extension on _StringsEs {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -61866,6 +62031,14 @@ extension on _StringsFr {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -64529,6 +64702,14 @@ extension on _StringsId {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -67200,6 +67381,14 @@ extension on _StringsIt {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -69847,6 +70036,14 @@ extension on _StringsJa {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -72496,6 +72693,14 @@ extension on _StringsKo {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -75164,6 +75369,14 @@ extension on _StringsNl {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -77831,6 +78044,14 @@ extension on _StringsPtBr {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -80499,6 +80720,14 @@ extension on _StringsRu {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -83158,6 +83387,14 @@ extension on _StringsTh {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -85820,6 +86057,14 @@ extension on _StringsTr {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -88479,6 +88724,14 @@ extension on _StringsVi {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
@@ -91119,6 +91372,12 @@ extension on _StringsZhCn {
         return '适合有压缩涂抹的 480p SD 老番。';
       case 'video_shader_preset_mode_a_hq':
         return '1080p 动画最高画质。需要较强 GPU。';
+      case 'video_delete_title':
+        return '删除视频';
+      case 'video_delete_confirm':
+        return ({required Object title}) => '删除『${title}』？此操作无法撤销。';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) => '无法加载该字幕（可能是图形或不支持的字幕轨）：${label}';
       default:
         return null;
     }
@@ -93765,6 +94024,14 @@ extension on _StringsZhHk {
         return 'For old SD (480p) anime with compression smearing.';
       case 'video_shader_preset_mode_a_hq':
         return 'Highest quality for 1080p anime. Needs a strong GPU.';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
       default:
         return null;
     }
