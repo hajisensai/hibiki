@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21335 (1255 per locale)
+/// Strings: 21403 (1259 per locale)
 ///
-/// Built on 2026-06-05 at 03:32 UTC
+/// Built on 2026-06-05 at 06:25 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1695,6 +1695,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Audio track: ${label}';
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  String get video_settings_title => 'Player settings';
+  String get video_setting_av_delay => 'A/V delay';
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -4504,6 +4509,15 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -7397,6 +7411,15 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -10304,6 +10327,15 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -13230,6 +13262,15 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -16079,6 +16120,15 @@ class _StringsId extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -18970,6 +19020,15 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -21688,6 +21747,15 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -24407,6 +24475,15 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -27280,6 +27357,15 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -30166,6 +30252,15 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -33038,6 +33133,15 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -35849,6 +35953,15 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -38698,6 +38811,15 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -41527,6 +41649,15 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -44188,6 +44319,14 @@ class _StringsZhCn extends _StringsEn {
   String video_audio_track_switched({required Object label}) => '音轨: ${label}';
   @override
   String get video_import_subtitle_optional => '可选外挂字幕（播放时可随时在内嵌/外挂字幕间切换）';
+  @override
+  String get video_settings_title => '播放设置';
+  @override
+  String get video_setting_av_delay => '音画延迟';
+  @override
+  String get video_setting_av_delay_hint => '正数 = 画面先于文字（向回拨字幕）；负数 = 画面滞后。';
+  @override
+  String get video_setting_speed => '播放速度';
 }
 
 // Path: retrying_in
@@ -46882,6 +47021,15 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_import_subtitle_optional =>
       'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+  @override
+  String get video_settings_title => 'Player settings';
+  @override
+  String get video_setting_av_delay => 'A/V delay';
+  @override
+  String get video_setting_av_delay_hint =>
+      'Positive = picture leads text (shift cues back); negative = picture lags.';
+  @override
+  String get video_setting_speed => 'Playback speed';
 }
 
 // Path: retrying_in
@@ -49498,6 +49646,14 @@ extension on _StringsEn {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -52072,6 +52228,14 @@ extension on _StringsAr {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -54662,6 +54826,14 @@ extension on _StringsDe {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -57250,6 +57422,14 @@ extension on _StringsEs {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -59840,6 +60020,14 @@ extension on _StringsFr {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -62419,6 +62607,14 @@ extension on _StringsId {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -65006,6 +65202,14 @@ extension on _StringsIt {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -67569,6 +67773,14 @@ extension on _StringsJa {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -70134,6 +70346,14 @@ extension on _StringsKo {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -72718,6 +72938,14 @@ extension on _StringsNl {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -75301,6 +75529,14 @@ extension on _StringsPtBr {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -77885,6 +78121,14 @@ extension on _StringsRu {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -80460,6 +80704,14 @@ extension on _StringsTh {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -83038,6 +83290,14 @@ extension on _StringsTr {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -85613,6 +85873,14 @@ extension on _StringsVi {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
@@ -88170,6 +88438,14 @@ extension on _StringsZhCn {
         return ({required Object label}) => '音轨: ${label}';
       case 'video_import_subtitle_optional':
         return '可选外挂字幕（播放时可随时在内嵌/外挂字幕间切换）';
+      case 'video_settings_title':
+        return '播放设置';
+      case 'video_setting_av_delay':
+        return '音画延迟';
+      case 'video_setting_av_delay_hint':
+        return '正数 = 画面先于文字（向回拨字幕）；负数 = 画面滞后。';
+      case 'video_setting_speed':
+        return '播放速度';
       default:
         return null;
     }
@@ -90732,6 +91008,14 @@ extension on _StringsZhHk {
         return ({required Object label}) => 'Audio track: ${label}';
       case 'video_import_subtitle_optional':
         return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
+      case 'video_settings_title':
+        return 'Player settings';
+      case 'video_setting_av_delay':
+        return 'A/V delay';
+      case 'video_setting_av_delay_hint':
+        return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+      case 'video_setting_speed':
+        return 'Playback speed';
       default:
         return null;
     }
