@@ -1,7 +1,7 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21607 (1271 per locale)
+/// Strings: 21675 (1275 per locale)
 ///
 /// Built on 2026-06-05 at 14:49 UTC
 
@@ -1716,6 +1716,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_import_folder_empty => 'No video files found in this folder';
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  String get video_shaders_empty => 'No shaders imported yet';
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -4563,6 +4568,15 @@ class _StringsAr extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -7494,6 +7508,15 @@ class _StringsDe extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -10438,6 +10461,15 @@ class _StringsEs extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -13402,6 +13434,15 @@ class _StringsFr extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -16289,6 +16330,15 @@ class _StringsId extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -19218,6 +19268,15 @@ class _StringsIt extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -21973,6 +22032,15 @@ class _StringsJa extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -24729,6 +24797,15 @@ class _StringsKo extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -27640,6 +27717,15 @@ class _StringsNl extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -30564,6 +30650,15 @@ class _StringsPtBr extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -33473,6 +33568,15 @@ class _StringsRu extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -36321,6 +36425,15 @@ class _StringsTh extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -39208,6 +39321,15 @@ class _StringsTr extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -42075,6 +42197,15 @@ class _StringsVi extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -44769,6 +44900,14 @@ class _StringsZhCn extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       '已导入 ${count} 个系列';
+  @override
+  String get video_setting_shaders => '着色器（Anime4K 等）';
+  @override
+  String get video_setting_shaders_hint => '应用 mpv GLSL 着色器（如 Anime4K）。仅桌面端生效。';
+  @override
+  String get video_shaders_empty => '还没有导入着色器';
+  @override
+  String get video_shader_import => '导入着色器（.glsl）';
 }
 
 // Path: retrying_in
@@ -47500,6 +47639,15 @@ class _StringsZhHk extends _StringsEn {
   @override
   String video_import_folder_done({required Object count}) =>
       'Imported ${count} series';
+  @override
+  String get video_setting_shaders => 'Shaders (Anime4K, etc.)';
+  @override
+  String get video_setting_shaders_hint =>
+      'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+  @override
+  String get video_shaders_empty => 'No shaders imported yet';
+  @override
+  String get video_shader_import => 'Import shader (.glsl)';
 }
 
 // Path: retrying_in
@@ -50149,6 +50297,14 @@ extension on _StringsEn {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -52756,6 +52912,14 @@ extension on _StringsAr {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -55379,6 +55543,14 @@ extension on _StringsDe {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -58000,6 +58172,14 @@ extension on _StringsEs {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -60623,6 +60803,14 @@ extension on _StringsFr {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -63235,6 +63423,14 @@ extension on _StringsId {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -65855,6 +66051,14 @@ extension on _StringsIt {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -68451,6 +68655,14 @@ extension on _StringsJa {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -71049,6 +71261,14 @@ extension on _StringsKo {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -73666,6 +73886,14 @@ extension on _StringsNl {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -76282,6 +76510,14 @@ extension on _StringsPtBr {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -78899,6 +79135,14 @@ extension on _StringsRu {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -81507,6 +81751,14 @@ extension on _StringsTh {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -84118,6 +84370,14 @@ extension on _StringsTr {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -86726,6 +86986,14 @@ extension on _StringsVi {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
@@ -89315,6 +89583,14 @@ extension on _StringsZhCn {
         return '此文件夹里没有视频文件';
       case 'video_import_folder_done':
         return ({required Object count}) => '已导入 ${count} 个系列';
+      case 'video_setting_shaders':
+        return '着色器（Anime4K 等）';
+      case 'video_setting_shaders_hint':
+        return '应用 mpv GLSL 着色器（如 Anime4K）。仅桌面端生效。';
+      case 'video_shaders_empty':
+        return '还没有导入着色器';
+      case 'video_shader_import':
+        return '导入着色器（.glsl）';
       default:
         return null;
     }
@@ -91910,6 +92186,14 @@ extension on _StringsZhHk {
         return 'No video files found in this folder';
       case 'video_import_folder_done':
         return ({required Object count}) => 'Imported ${count} series';
+      case 'video_setting_shaders':
+        return 'Shaders (Anime4K, etc.)';
+      case 'video_setting_shaders_hint':
+        return 'Apply mpv GLSL shaders (e.g. Anime4K). Desktop only.';
+      case 'video_shaders_empty':
+        return 'No shaders imported yet';
+      case 'video_shader_import':
+        return 'Import shader (.glsl)';
       default:
         return null;
     }
