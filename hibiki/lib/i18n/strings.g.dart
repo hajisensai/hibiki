@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21845 (1285 per locale)
+/// Strings: 21879 (1287 per locale)
 ///
-/// Built on 2026-06-05 at 16:59 UTC
+/// Built on 2026-06-05 at 17:25 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1731,6 +1731,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_jimaku_no_key => 'Enter your Jimaku API key first';
   String get video_jimaku_download_failed => 'Download failed';
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  String get video_delete_title => 'Delete Video';
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
 }
@@ -4608,6 +4611,11 @@ class _StringsAr extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -7570,6 +7578,11 @@ class _StringsDe extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -10545,6 +10558,11 @@ class _StringsEs extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -13541,6 +13559,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
 }
@@ -16458,6 +16481,11 @@ class _StringsId extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -19419,6 +19447,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
 }
@@ -22204,6 +22237,11 @@ class _StringsJa extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -24991,6 +25029,11 @@ class _StringsKo extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -27933,6 +27976,11 @@ class _StringsNl extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -30889,6 +30937,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
 }
@@ -33829,6 +33882,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
 }
@@ -36707,6 +36765,11 @@ class _StringsTh extends _StringsEn {
   String get video_jimaku_download_failed => 'Download failed';
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -39626,6 +39689,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
 }
@@ -42524,6 +42592,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
 }
@@ -45246,6 +45319,11 @@ class _StringsZhCn extends _StringsEn {
   String get video_jimaku_download_failed => '下载失败';
   @override
   String get video_jimaku_downloaded => '字幕已下载并应用';
+  @override
+  String get video_delete_title => '删除视频';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      '删除『${title}』？此操作无法撤销。';
   @override
   String get shortcut_action_audiobook_seek_clicked => '跳转音频到点击的句子';
 }
@@ -48008,6 +48086,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_delete_title => 'Delete Video';
+  @override
+  String video_delete_confirm({required Object title}) =>
+      'Delete 『${title}』? This cannot be undone.';
+  @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
 }
@@ -50685,6 +50768,11 @@ extension on _StringsEn {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -53320,6 +53408,11 @@ extension on _StringsAr {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -55971,6 +56064,11 @@ extension on _StringsDe {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -58620,6 +58718,11 @@ extension on _StringsEs {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -61271,6 +61374,11 @@ extension on _StringsFr {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -63911,6 +64019,11 @@ extension on _StringsId {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -66559,6 +66672,11 @@ extension on _StringsIt {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -69183,6 +69301,11 @@ extension on _StringsJa {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -71809,6 +71932,11 @@ extension on _StringsKo {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -74454,6 +74582,11 @@ extension on _StringsNl {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -77098,6 +77231,11 @@ extension on _StringsPtBr {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -79743,6 +79881,11 @@ extension on _StringsRu {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -82379,6 +82522,11 @@ extension on _StringsTh {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -85018,6 +85166,11 @@ extension on _StringsTr {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -87654,6 +87807,11 @@ extension on _StringsVi {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -90271,6 +90429,10 @@ extension on _StringsZhCn {
         return '下载失败';
       case 'video_jimaku_downloaded':
         return '字幕已下载并应用';
+      case 'video_delete_title':
+        return '删除视频';
+      case 'video_delete_confirm':
+        return ({required Object title}) => '删除『${title}』？此操作无法撤销。';
       case 'shortcut_action_audiobook_seek_clicked':
         return '跳转音频到点击的句子';
       default:
@@ -92894,6 +93056,11 @@ extension on _StringsZhHk {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_delete_title':
+        return 'Delete Video';
+      case 'video_delete_confirm':
+        return ({required Object title}) =>
+            'Delete 『${title}』? This cannot be undone.';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
