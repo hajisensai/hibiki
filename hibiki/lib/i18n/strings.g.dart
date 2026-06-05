@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 21335 (1255 per locale)
 ///
-/// Built on 2026-06-05 at 02:08 UTC
+/// Built on 2026-06-05 at 03:32 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1682,8 +1682,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_import_confirm => 'Import';
   String get shelf_video_section => 'Videos';
   String get video_import_action => 'Import video';
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
   String get video_import_playlist => 'Import playlist (m3u8)';
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
   String get video_episode_list => 'Episodes';
@@ -1695,6 +1693,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Subtitle: ${label}';
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -4482,9 +4482,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -4504,6 +4501,9 @@ class _StringsAr extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -7375,9 +7375,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -7397,6 +7394,9 @@ class _StringsDe extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -10282,9 +10282,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -10304,6 +10301,9 @@ class _StringsEs extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -13208,9 +13208,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -13230,6 +13227,9 @@ class _StringsFr extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -16057,9 +16057,6 @@ class _StringsId extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -16079,6 +16076,9 @@ class _StringsId extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -18948,9 +18948,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -18970,6 +18967,9 @@ class _StringsIt extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -21666,9 +21666,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -21688,6 +21685,9 @@ class _StringsJa extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -24385,9 +24385,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -24407,6 +24404,9 @@ class _StringsKo extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -27258,9 +27258,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -27280,6 +27277,9 @@ class _StringsNl extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -30144,9 +30144,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -30166,6 +30163,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -33016,9 +33016,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -33038,6 +33035,9 @@ class _StringsRu extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -35827,9 +35827,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -35849,6 +35846,9 @@ class _StringsTh extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -38676,9 +38676,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -38698,6 +38695,9 @@ class _StringsTr extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -41505,9 +41505,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -41527,6 +41524,9 @@ class _StringsVi extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -44169,8 +44169,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_import_action => '导入视频';
   @override
-  String get video_import_subtitle_optional => '可选（不选则使用视频内嵌字幕）';
-  @override
   String get video_import_playlist => '导入播放列表 (m3u8)';
   @override
   String get video_import_pick_playlist => '选择 m3u8 播放列表';
@@ -44188,6 +44186,8 @@ class _StringsZhCn extends _StringsEn {
   String video_subtitle_switched({required Object label}) => '已切换字幕：${label}';
   @override
   String video_audio_track_switched({required Object label}) => '音轨: ${label}';
+  @override
+  String get video_import_subtitle_optional => '可选外挂字幕（播放时可随时在内嵌/外挂字幕间切换）';
 }
 
 // Path: retrying_in
@@ -46860,9 +46860,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_import_action => 'Import video';
   @override
-  String get video_import_subtitle_optional =>
-      'Optional (uses the video\'s embedded subtitles if not selected)';
-  @override
   String get video_import_playlist => 'Import playlist (m3u8)';
   @override
   String get video_import_pick_playlist => 'Pick m3u8 playlist';
@@ -46882,6 +46879,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String video_audio_track_switched({required Object label}) =>
       'Audio track: ${label}';
+  @override
+  String get video_import_subtitle_optional =>
+      'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 }
 
 // Path: retrying_in
@@ -49478,8 +49478,6 @@ extension on _StringsEn {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -49498,6 +49496,8 @@ extension on _StringsEn {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -52052,8 +52052,6 @@ extension on _StringsAr {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -52072,6 +52070,8 @@ extension on _StringsAr {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -54642,8 +54642,6 @@ extension on _StringsDe {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -54662,6 +54660,8 @@ extension on _StringsDe {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -57230,8 +57230,6 @@ extension on _StringsEs {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -57250,6 +57248,8 @@ extension on _StringsEs {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -59820,8 +59820,6 @@ extension on _StringsFr {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -59840,6 +59838,8 @@ extension on _StringsFr {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -62399,8 +62399,6 @@ extension on _StringsId {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -62419,6 +62417,8 @@ extension on _StringsId {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -64986,8 +64986,6 @@ extension on _StringsIt {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -65006,6 +65004,8 @@ extension on _StringsIt {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -67549,8 +67549,6 @@ extension on _StringsJa {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -67569,6 +67567,8 @@ extension on _StringsJa {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -70114,8 +70114,6 @@ extension on _StringsKo {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -70134,6 +70132,8 @@ extension on _StringsKo {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -72698,8 +72698,6 @@ extension on _StringsNl {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -72718,6 +72716,8 @@ extension on _StringsNl {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -75281,8 +75281,6 @@ extension on _StringsPtBr {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -75301,6 +75299,8 @@ extension on _StringsPtBr {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -77865,8 +77865,6 @@ extension on _StringsRu {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -77885,6 +77883,8 @@ extension on _StringsRu {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -80440,8 +80440,6 @@ extension on _StringsTh {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -80460,6 +80458,8 @@ extension on _StringsTh {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -83018,8 +83018,6 @@ extension on _StringsTr {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -83038,6 +83036,8 @@ extension on _StringsTr {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -85593,8 +85593,6 @@ extension on _StringsVi {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -85613,6 +85611,8 @@ extension on _StringsVi {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
@@ -88150,8 +88150,6 @@ extension on _StringsZhCn {
         return '视频';
       case 'video_import_action':
         return '导入视频';
-      case 'video_import_subtitle_optional':
-        return '可选（不选则使用视频内嵌字幕）';
       case 'video_import_playlist':
         return '导入播放列表 (m3u8)';
       case 'video_import_pick_playlist':
@@ -88170,6 +88168,8 @@ extension on _StringsZhCn {
         return ({required Object label}) => '已切换字幕：${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => '音轨: ${label}';
+      case 'video_import_subtitle_optional':
+        return '可选外挂字幕（播放时可随时在内嵌/外挂字幕间切换）';
       default:
         return null;
     }
@@ -90712,8 +90712,6 @@ extension on _StringsZhHk {
         return 'Videos';
       case 'video_import_action':
         return 'Import video';
-      case 'video_import_subtitle_optional':
-        return 'Optional (uses the video\'s embedded subtitles if not selected)';
       case 'video_import_playlist':
         return 'Import playlist (m3u8)';
       case 'video_import_pick_playlist':
@@ -90732,6 +90730,8 @@ extension on _StringsZhHk {
         return ({required Object label}) => 'Subtitle: ${label}';
       case 'video_audio_track_switched':
         return ({required Object label}) => 'Audio track: ${label}';
+      case 'video_import_subtitle_optional':
+        return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
       default:
         return null;
     }
