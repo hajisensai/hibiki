@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 22389 (1317 per locale)
+/// Strings: 22406 (1318 per locale)
 ///
-/// Built on 2026-06-06 at 13:48 UTC
+/// Built on 2026-06-06 at 14:22 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1779,6 +1779,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get sync_server_mode_active => 'This device is a sync server';
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -4735,6 +4737,9 @@ class _StringsAr extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -7775,6 +7780,9 @@ class _StringsDe extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -10828,6 +10836,9 @@ class _StringsEs extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -13901,6 +13912,9 @@ class _StringsFr extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -16897,6 +16911,9 @@ class _StringsId extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -19935,6 +19952,9 @@ class _StringsIt extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -22799,6 +22819,9 @@ class _StringsJa extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -25664,6 +25687,9 @@ class _StringsKo extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -28684,6 +28710,9 @@ class _StringsNl extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -31717,6 +31746,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -34735,6 +34767,9 @@ class _StringsRu extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -37692,6 +37727,9 @@ class _StringsTh extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -40688,6 +40726,9 @@ class _StringsTr extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -43664,6 +43705,9 @@ class _StringsVi extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      'Failed to export card: ${reason}';
 }
 
 // Path: retrying_in
@@ -46455,6 +46499,9 @@ class _StringsZhCn extends _StringsEn {
   String get sync_server_mode_active => '本机作为同步服务端';
   @override
   String get sync_server_mode_clients_drive => '由已连接的客户端发起同步，本机无需手动同步';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      '导出卡片失败：${reason}';
 }
 
 // Path: retrying_in
@@ -49295,6 +49342,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
+  @override
+  String card_export_failed_detail({required Object reason}) =>
+      '匯出卡片失敗：${reason}';
 }
 
 // Path: retrying_in
@@ -52040,6 +52090,8 @@ extension on _StringsEn {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -54743,6 +54795,8 @@ extension on _StringsAr {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -57462,6 +57516,8 @@ extension on _StringsDe {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -60179,6 +60235,8 @@ extension on _StringsEs {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -62898,6 +62956,8 @@ extension on _StringsFr {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -65606,6 +65666,8 @@ extension on _StringsId {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -68322,6 +68384,8 @@ extension on _StringsIt {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -71014,6 +71078,8 @@ extension on _StringsJa {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -73708,6 +73774,8 @@ extension on _StringsKo {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -76421,6 +76489,8 @@ extension on _StringsNl {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -79133,6 +79203,8 @@ extension on _StringsPtBr {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -81846,6 +81918,8 @@ extension on _StringsRu {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -84550,6 +84624,8 @@ extension on _StringsTh {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -87257,6 +87333,8 @@ extension on _StringsTr {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -89961,6 +90039,8 @@ extension on _StringsVi {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => 'Failed to export card: ${reason}';
       default:
         return null;
     }
@@ -92643,6 +92723,8 @@ extension on _StringsZhCn {
         return '本机作为同步服务端';
       case 'sync_server_mode_clients_drive':
         return '由已连接的客户端发起同步，本机无需手动同步';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => '导出卡片失败：${reason}';
       default:
         return null;
     }
@@ -95334,6 +95416,8 @@ extension on _StringsZhHk {
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
         return 'Connected clients start the sync — no manual sync needed here.';
+      case 'card_export_failed_detail':
+        return ({required Object reason}) => '匯出卡片失敗：${reason}';
       default:
         return null;
     }
