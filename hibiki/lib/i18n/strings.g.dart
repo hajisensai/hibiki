@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 22151 (1303 per locale)
+/// Strings: 22185 (1305 per locale)
 ///
-/// Built on 2026-06-06 at 04:13 UTC
+/// Built on 2026-06-06 at 05:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1762,6 +1762,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Seek audio to clicked sentence';
   String get popup_max_height => 'Popup max height';
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -4687,6 +4691,12 @@ class _StringsAr extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -7696,6 +7706,12 @@ class _StringsDe extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -10718,6 +10734,12 @@ class _StringsEs extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -13760,6 +13782,12 @@ class _StringsFr extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -16725,6 +16753,12 @@ class _StringsId extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -19732,6 +19766,12 @@ class _StringsIt extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -22565,6 +22605,12 @@ class _StringsJa extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -25399,6 +25445,12 @@ class _StringsKo extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -28388,6 +28440,12 @@ class _StringsNl extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -31390,6 +31448,12 @@ class _StringsPtBr extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -34377,6 +34441,12 @@ class _StringsRu extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -37303,6 +37373,12 @@ class _StringsTh extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -40268,6 +40344,12 @@ class _StringsTr extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -43213,6 +43295,12 @@ class _StringsVi extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -45976,6 +46064,10 @@ class _StringsZhCn extends _StringsEn {
   String get popup_max_height => '查词窗口最大高度';
   @override
   String get wheel_page_turn_interval => '滚轮翻页间隔';
+  @override
+  String import_sidecar_subtitle({required Object name}) => '已自动挂载字幕：${name}';
+  @override
+  String import_sidecar_audio({required Object count}) => '已自动挂载 ${count} 个音频';
 }
 
 // Path: retrying_in
@@ -48785,6 +48877,12 @@ class _StringsZhHk extends _StringsEn {
   String get popup_max_height => 'Popup max height';
   @override
   String get wheel_page_turn_interval => 'Mouse wheel page-turn interval';
+  @override
+  String import_sidecar_subtitle({required Object name}) =>
+      'Auto-attached subtitle: ${name}';
+  @override
+  String import_sidecar_audio({required Object count}) =>
+      'Auto-attached ${count} audio file(s)';
 }
 
 // Path: retrying_in
@@ -51501,6 +51599,11 @@ extension on _StringsEn {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -54175,6 +54278,11 @@ extension on _StringsAr {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -56865,6 +56973,11 @@ extension on _StringsDe {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -59553,6 +59666,11 @@ extension on _StringsEs {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -62243,6 +62361,11 @@ extension on _StringsFr {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -64922,6 +65045,11 @@ extension on _StringsId {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -67609,6 +67737,11 @@ extension on _StringsIt {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -70272,6 +70405,11 @@ extension on _StringsJa {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -72937,6 +73075,11 @@ extension on _StringsKo {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -75621,6 +75764,11 @@ extension on _StringsNl {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -78304,6 +78452,11 @@ extension on _StringsPtBr {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -80988,6 +81141,11 @@ extension on _StringsRu {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -83663,6 +83821,11 @@ extension on _StringsTh {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -86341,6 +86504,11 @@ extension on _StringsTr {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -89016,6 +89184,11 @@ extension on _StringsVi {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
@@ -91670,6 +91843,10 @@ extension on _StringsZhCn {
         return '查词窗口最大高度';
       case 'wheel_page_turn_interval':
         return '滚轮翻页间隔';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => '已自动挂载字幕：${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) => '已自动挂载 ${count} 个音频';
       default:
         return null;
     }
@@ -94332,6 +94509,11 @@ extension on _StringsZhHk {
         return 'Popup max height';
       case 'wheel_page_turn_interval':
         return 'Mouse wheel page-turn interval';
+      case 'import_sidecar_subtitle':
+        return ({required Object name}) => 'Auto-attached subtitle: ${name}';
+      case 'import_sidecar_audio':
+        return ({required Object count}) =>
+            'Auto-attached ${count} audio file(s)';
       default:
         return null;
     }
