@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 22287 (1311 per locale)
+/// Strings: 22338 (1314 per locale)
 ///
-/// Built on 2026-06-06 at 06:04 UTC
+/// Built on 2026-06-06 at 07:15 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1772,6 +1772,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_stat_watch_time => 'Watch Time';
   String get video_stat_completed => 'Completed';
   String get video_stat_no_data => 'No video statistics yet';
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -4715,6 +4718,12 @@ class _StringsAr extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -7742,6 +7751,12 @@ class _StringsDe extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -10782,6 +10797,12 @@ class _StringsEs extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -13842,6 +13863,12 @@ class _StringsFr extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -16825,6 +16852,12 @@ class _StringsId extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -19850,6 +19883,12 @@ class _StringsIt extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -22701,6 +22740,12 @@ class _StringsJa extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -25553,6 +25598,12 @@ class _StringsKo extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -28560,6 +28611,12 @@ class _StringsNl extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -31580,6 +31637,12 @@ class _StringsPtBr extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -34585,6 +34648,12 @@ class _StringsRu extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -37529,6 +37598,12 @@ class _StringsTh extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -40512,6 +40587,12 @@ class _StringsTr extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -43475,6 +43556,12 @@ class _StringsVi extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -46254,6 +46341,12 @@ class _StringsZhCn extends _StringsEn {
   String get video_stat_completed => '已完成';
   @override
   String get video_stat_no_data => '暂无视频统计数据';
+  @override
+  String get video_subtitle_import_file => '导入字幕文件…';
+  @override
+  String get video_subtitle_import_unsupported => '不支持的字幕格式';
+  @override
+  String get video_subtitle_import_failed => '导入字幕失败';
 }
 
 // Path: retrying_in
@@ -49081,6 +49174,12 @@ class _StringsZhHk extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
 }
 
 // Path: retrying_in
@@ -51814,6 +51913,12 @@ extension on _StringsEn {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -54505,6 +54610,12 @@ extension on _StringsAr {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -57212,6 +57323,12 @@ extension on _StringsDe {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -59917,6 +60034,12 @@ extension on _StringsEs {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -62624,6 +62747,12 @@ extension on _StringsFr {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -65320,6 +65449,12 @@ extension on _StringsId {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -68024,6 +68159,12 @@ extension on _StringsIt {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -70704,6 +70845,12 @@ extension on _StringsJa {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -73386,6 +73533,12 @@ extension on _StringsKo {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -76087,6 +76240,12 @@ extension on _StringsNl {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -78787,6 +78946,12 @@ extension on _StringsPtBr {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -81488,6 +81653,12 @@ extension on _StringsRu {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -84180,6 +84351,12 @@ extension on _StringsTh {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -86875,6 +87052,12 @@ extension on _StringsTr {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -89567,6 +89750,12 @@ extension on _StringsVi {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
@@ -92237,6 +92426,12 @@ extension on _StringsZhCn {
         return '已完成';
       case 'video_stat_no_data':
         return '暂无视频统计数据';
+      case 'video_subtitle_import_file':
+        return '导入字幕文件…';
+      case 'video_subtitle_import_unsupported':
+        return '不支持的字幕格式';
+      case 'video_subtitle_import_failed':
+        return '导入字幕失败';
       default:
         return null;
     }
@@ -94916,6 +95111,12 @@ extension on _StringsZhHk {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
       default:
         return null;
     }
