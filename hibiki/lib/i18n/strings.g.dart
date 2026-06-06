@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 22202 (1306 per locale)
+/// Strings: 22253 (1309 per locale)
 ///
-/// Built on 2026-06-06 at 04:52 UTC
+/// Built on 2026-06-06 at 17:23 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1765,6 +1765,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get log_upload_success => 'Log uploaded';
   String get log_upload_failed => 'Upload failed';
   String get log_upload_too_large => 'Log too large to upload';
+  String get log_upload_consent_title => 'Upload log to server?';
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -4696,6 +4700,13 @@ class _StringsAr extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -7711,6 +7722,13 @@ class _StringsDe extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -10739,6 +10757,13 @@ class _StringsEs extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -13787,6 +13812,13 @@ class _StringsFr extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -16758,6 +16790,13 @@ class _StringsId extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -19771,6 +19810,13 @@ class _StringsIt extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -22610,6 +22656,13 @@ class _StringsJa extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -25450,6 +25503,13 @@ class _StringsKo extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -28445,6 +28505,13 @@ class _StringsNl extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -31453,6 +31520,13 @@ class _StringsPtBr extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -34446,6 +34520,13 @@ class _StringsRu extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -37378,6 +37459,13 @@ class _StringsTh extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -40349,6 +40437,13 @@ class _StringsTr extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -43300,6 +43395,13 @@ class _StringsVi extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -46069,6 +46171,13 @@ class _StringsZhCn extends _StringsEn {
   String get log_upload_failed => '上传失败';
   @override
   String get log_upload_too_large => '日志过大，无法上传';
+  @override
+  String get log_upload_consent_title => '上传日志到服务器？';
+  @override
+  String get log_upload_consent_body =>
+      '日志正文（可能包含错误信息、文件路径、书名等）以及 App 版本、平台、设备型号会上传到开发者的服务器，用于诊断问题。仅在你点上传时发生，不会自动发送。';
+  @override
+  String get log_upload_consent_agree => '同意并上传';
 }
 
 // Path: retrying_in
@@ -48884,6 +48993,13 @@ class _StringsZhHk extends _StringsEn {
   String get log_upload_failed => 'Upload failed';
   @override
   String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -51606,6 +51722,12 @@ extension on _StringsEn {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -54286,6 +54408,12 @@ extension on _StringsAr {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -56982,6 +57110,12 @@ extension on _StringsDe {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -59676,6 +59810,12 @@ extension on _StringsEs {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -62372,6 +62512,12 @@ extension on _StringsFr {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -65057,6 +65203,12 @@ extension on _StringsId {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -67750,6 +67902,12 @@ extension on _StringsIt {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -70419,6 +70577,12 @@ extension on _StringsJa {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -73090,6 +73254,12 @@ extension on _StringsKo {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -75780,6 +75950,12 @@ extension on _StringsNl {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -78469,6 +78645,12 @@ extension on _StringsPtBr {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -81159,6 +81341,12 @@ extension on _StringsRu {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -83840,6 +84028,12 @@ extension on _StringsTh {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -86524,6 +86718,12 @@ extension on _StringsTr {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -89205,6 +89405,12 @@ extension on _StringsVi {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -91865,6 +92071,12 @@ extension on _StringsZhCn {
         return '上传失败';
       case 'log_upload_too_large':
         return '日志过大，无法上传';
+      case 'log_upload_consent_title':
+        return '上传日志到服务器？';
+      case 'log_upload_consent_body':
+        return '日志正文（可能包含错误信息、文件路径、书名等）以及 App 版本、平台、设备型号会上传到开发者的服务器，用于诊断问题。仅在你点上传时发生，不会自动发送。';
+      case 'log_upload_consent_agree':
+        return '同意并上传';
       default:
         return null;
     }
@@ -94533,6 +94745,12 @@ extension on _StringsZhHk {
         return 'Upload failed';
       case 'log_upload_too_large':
         return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
