@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 22321 (1313 per locale)
+/// Strings: 22389 (1317 per locale)
 ///
-/// Built on 2026-06-06 at 10:06 UTC
+/// Built on 2026-06-06 at 13:48 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1772,6 +1772,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_stat_watch_time => 'Watch Time';
   String get video_stat_completed => 'Completed';
   String get video_stat_no_data => 'No video statistics yet';
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  String get nav_lookup => 'Lookup';
   String get sync_server_mode_active => 'This device is a sync server';
   String get sync_server_mode_clients_drive =>
       'Connected clients start the sync — no manual sync needed here.';
@@ -4718,6 +4722,14 @@ class _StringsAr extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
   @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
@@ -7750,6 +7762,14 @@ class _StringsDe extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
   @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
@@ -10795,6 +10815,14 @@ class _StringsEs extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
   @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
@@ -13861,6 +13889,14 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_stat_no_data => 'No video statistics yet';
   @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
+  @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
   String get sync_server_mode_clients_drive =>
@@ -16848,6 +16884,14 @@ class _StringsId extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
   @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
@@ -19879,6 +19923,14 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_stat_no_data => 'No video statistics yet';
   @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
+  @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
   String get sync_server_mode_clients_drive =>
@@ -22734,6 +22786,14 @@ class _StringsJa extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
   @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
@@ -25591,6 +25651,14 @@ class _StringsKo extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
   @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
@@ -28603,6 +28671,14 @@ class _StringsNl extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
   @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
@@ -31629,6 +31705,14 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_stat_no_data => 'No video statistics yet';
   @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
+  @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
   String get sync_server_mode_clients_drive =>
@@ -34639,6 +34723,14 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_stat_no_data => 'No video statistics yet';
   @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
+  @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
   String get sync_server_mode_clients_drive =>
@@ -37587,6 +37679,14 @@ class _StringsTh extends _StringsEn {
   String get video_stat_completed => 'Completed';
   @override
   String get video_stat_no_data => 'No video statistics yet';
+  @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
   @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
@@ -40576,6 +40676,14 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_stat_no_data => 'No video statistics yet';
   @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
+  @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
   String get sync_server_mode_clients_drive =>
@@ -43544,6 +43652,14 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_stat_no_data => 'No video statistics yet';
   @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
+  @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
   String get sync_server_mode_clients_drive =>
@@ -46327,6 +46443,14 @@ class _StringsZhCn extends _StringsEn {
   String get video_stat_completed => '已完成';
   @override
   String get video_stat_no_data => '暂无视频统计数据';
+  @override
+  String get video_subtitle_import_file => '导入字幕文件…';
+  @override
+  String get video_subtitle_import_unsupported => '不支持的字幕格式';
+  @override
+  String get video_subtitle_import_failed => '导入字幕失败';
+  @override
+  String get nav_lookup => '查词';
   @override
   String get sync_server_mode_active => '本机作为同步服务端';
   @override
@@ -49159,6 +49283,14 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_stat_no_data => 'No video statistics yet';
   @override
+  String get video_subtitle_import_file => 'Import subtitle file…';
+  @override
+  String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
+  @override
+  String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => '查詞';
+  @override
   String get sync_server_mode_active => 'This device is a sync server';
   @override
   String get sync_server_mode_clients_drive =>
@@ -51896,6 +52028,14 @@ extension on _StringsEn {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -54591,6 +54731,14 @@ extension on _StringsAr {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -57302,6 +57450,14 @@ extension on _StringsDe {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -60011,6 +60167,14 @@ extension on _StringsEs {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -62722,6 +62886,14 @@ extension on _StringsFr {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -65422,6 +65594,14 @@ extension on _StringsId {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -68130,6 +68310,14 @@ extension on _StringsIt {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -70814,6 +71002,14 @@ extension on _StringsJa {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -73500,6 +73696,14 @@ extension on _StringsKo {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -76205,6 +76409,14 @@ extension on _StringsNl {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -78909,6 +79121,14 @@ extension on _StringsPtBr {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -81614,6 +81834,14 @@ extension on _StringsRu {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -84310,6 +84538,14 @@ extension on _StringsTh {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -87009,6 +87245,14 @@ extension on _StringsTr {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -89705,6 +89949,14 @@ extension on _StringsVi {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
@@ -92379,6 +92631,14 @@ extension on _StringsZhCn {
         return '已完成';
       case 'video_stat_no_data':
         return '暂无视频统计数据';
+      case 'video_subtitle_import_file':
+        return '导入字幕文件…';
+      case 'video_subtitle_import_unsupported':
+        return '不支持的字幕格式';
+      case 'video_subtitle_import_failed':
+        return '导入字幕失败';
+      case 'nav_lookup':
+        return '查词';
       case 'sync_server_mode_active':
         return '本机作为同步服务端';
       case 'sync_server_mode_clients_drive':
@@ -95062,6 +95322,14 @@ extension on _StringsZhHk {
         return 'Completed';
       case 'video_stat_no_data':
         return 'No video statistics yet';
+      case 'video_subtitle_import_file':
+        return 'Import subtitle file…';
+      case 'video_subtitle_import_unsupported':
+        return 'Unsupported subtitle format';
+      case 'video_subtitle_import_failed':
+        return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return '查詞';
       case 'sync_server_mode_active':
         return 'This device is a sync server';
       case 'sync_server_mode_clients_drive':
