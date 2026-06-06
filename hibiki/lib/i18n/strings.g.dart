@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 23290 (1370 per locale)
+/// Strings: 23256 (1368 per locale)
 ///
-/// Built on 2026-06-06 at 15:53 UTC
+/// Built on 2026-06-06 at 16:21 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1707,10 +1707,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String anki_create_lapis_failed({required Object error}) =>
       'Could not create Lapis deck: ${error}';
   String get nav_video => 'Video';
-  String get section_experimental => 'Experimental';
-  String get experimental_video => 'Video (experimental)';
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
   String get video_library_empty => 'No videos imported yet';
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
   String get video_import_folder_empty => 'No video files found in this folder';
@@ -1836,6 +1832,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_screenshot => 'Screenshot';
   String get video_screenshot_saved => 'Screenshot saved';
   String get video_screenshot_failed => 'Screenshot failed';
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -4668,13 +4666,6 @@ class _StringsAr extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -4902,6 +4893,9 @@ class _StringsAr extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -7818,13 +7812,6 @@ class _StringsDe extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -8052,6 +8039,9 @@ class _StringsDe extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -10981,13 +10971,6 @@ class _StringsEs extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -11215,6 +11198,9 @@ class _StringsEs extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -14164,13 +14150,6 @@ class _StringsFr extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -14398,6 +14377,9 @@ class _StringsFr extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -17270,13 +17252,6 @@ class _StringsId extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -17504,6 +17479,9 @@ class _StringsId extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -20418,13 +20396,6 @@ class _StringsIt extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -20652,6 +20623,9 @@ class _StringsIt extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -23392,13 +23366,6 @@ class _StringsJa extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -23626,6 +23593,9 @@ class _StringsJa extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -26367,13 +26337,6 @@ class _StringsKo extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -26601,6 +26564,9 @@ class _StringsKo extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -29497,13 +29463,6 @@ class _StringsNl extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -29731,6 +29690,9 @@ class _StringsNl extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -32640,13 +32602,6 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -32874,6 +32829,9 @@ class _StringsPtBr extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -35768,13 +35726,6 @@ class _StringsRu extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -36002,6 +35953,9 @@ class _StringsRu extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -38835,13 +38789,6 @@ class _StringsTh extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -39069,6 +39016,9 @@ class _StringsTh extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -41941,13 +41891,6 @@ class _StringsTr extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -42175,6 +42118,9 @@ class _StringsTr extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -45027,13 +44973,6 @@ class _StringsVi extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -45261,6 +45200,9 @@ class _StringsVi extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner =>
+      'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
 }
 
 // Path: retrying_in
@@ -47941,12 +47883,6 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get nav_video => '视频';
   @override
-  String get section_experimental => '实验性功能';
-  @override
-  String get experimental_video => '视频（实验性）';
-  @override
-  String get experimental_video_hint => '在底栏显示「视频」标签页并启用视频导入。视频播放、查词与制卡为实验性功能。';
-  @override
   String get video_library_empty => '还没有导入视频';
   @override
   String get video_import_pick_folder => '导入文件夹（自动分组剧集）';
@@ -48160,6 +48096,8 @@ class _StringsZhCn extends _StringsEn {
   String get video_screenshot_saved => '截图已保存';
   @override
   String get video_screenshot_failed => '截图失败';
+  @override
+  String get video_experimental_banner => '视频为实验性功能：播放、查词与制卡可能尚不稳定。';
 }
 
 // Path: retrying_in
@@ -50876,13 +50814,6 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get nav_video => 'Video';
   @override
-  String get section_experimental => 'Experimental';
-  @override
-  String get experimental_video => 'Video (experimental)';
-  @override
-  String get experimental_video_hint =>
-      'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
-  @override
   String get video_library_empty => 'No videos imported yet';
   @override
   String get video_import_pick_folder => 'Import folder (auto-group episodes)';
@@ -51110,6 +51041,8 @@ class _StringsZhHk extends _StringsEn {
   String get video_screenshot_saved => 'Screenshot saved';
   @override
   String get video_screenshot_failed => 'Screenshot failed';
+  @override
+  String get video_experimental_banner => '影片為實驗性功能：播放、查詞與製卡可能尚不穩定。';
 }
 
 // Path: retrying_in
@@ -53745,12 +53678,6 @@ extension on _StringsEn {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -53961,6 +53888,8 @@ extension on _StringsEn {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -56554,12 +56483,6 @@ extension on _StringsAr {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -56770,6 +56693,8 @@ extension on _StringsAr {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -59379,12 +59304,6 @@ extension on _StringsDe {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -59595,6 +59514,8 @@ extension on _StringsDe {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -62202,12 +62123,6 @@ extension on _StringsEs {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -62418,6 +62333,8 @@ extension on _StringsEs {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -65027,12 +64944,6 @@ extension on _StringsFr {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -65243,6 +65154,8 @@ extension on _StringsFr {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -67841,12 +67754,6 @@ extension on _StringsId {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -68057,6 +67964,8 @@ extension on _StringsId {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -70663,12 +70572,6 @@ extension on _StringsIt {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -70879,6 +70782,8 @@ extension on _StringsIt {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -73461,12 +73366,6 @@ extension on _StringsJa {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -73677,6 +73576,8 @@ extension on _StringsJa {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -76261,12 +76162,6 @@ extension on _StringsKo {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -76477,6 +76372,8 @@ extension on _StringsKo {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -79080,12 +78977,6 @@ extension on _StringsNl {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -79296,6 +79187,8 @@ extension on _StringsNl {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -81898,12 +81791,6 @@ extension on _StringsPtBr {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -82114,6 +82001,8 @@ extension on _StringsPtBr {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -84717,12 +84606,6 @@ extension on _StringsRu {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -84933,6 +84816,8 @@ extension on _StringsRu {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -87527,12 +87412,6 @@ extension on _StringsTh {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -87743,6 +87622,8 @@ extension on _StringsTh {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -90340,12 +90221,6 @@ extension on _StringsTr {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -90556,6 +90431,8 @@ extension on _StringsTr {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -93150,12 +93027,6 @@ extension on _StringsVi {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -93366,6 +93237,8 @@ extension on _StringsVi {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return 'Video is experimental — playback, dictionary lookup and card creation may be unstable.';
       default:
         return null;
     }
@@ -95941,12 +95814,6 @@ extension on _StringsZhCn {
         return ({required Object error}) => '无法创建 Lapis 卡组：${error}';
       case 'nav_video':
         return '视频';
-      case 'section_experimental':
-        return '实验性功能';
-      case 'experimental_video':
-        return '视频（实验性）';
-      case 'experimental_video_hint':
-        return '在底栏显示「视频」标签页并启用视频导入。视频播放、查词与制卡为实验性功能。';
       case 'video_library_empty':
         return '还没有导入视频';
       case 'video_import_pick_folder':
@@ -96154,6 +96021,8 @@ extension on _StringsZhCn {
         return '截图已保存';
       case 'video_screenshot_failed':
         return '截图失败';
+      case 'video_experimental_banner':
+        return '视频为实验性功能：播放、查词与制卡可能尚不稳定。';
       default:
         return null;
     }
@@ -98735,12 +98604,6 @@ extension on _StringsZhHk {
             'Could not create Lapis deck: ${error}';
       case 'nav_video':
         return 'Video';
-      case 'section_experimental':
-        return 'Experimental';
-      case 'experimental_video':
-        return 'Video (experimental)';
-      case 'experimental_video_hint':
-        return 'Show the Video tab in the bottom navigation and enable importing videos. Video playback, dictionary lookup and card creation are experimental.';
       case 'video_library_empty':
         return 'No videos imported yet';
       case 'video_import_pick_folder':
@@ -98951,6 +98814,8 @@ extension on _StringsZhHk {
         return 'Screenshot saved';
       case 'video_screenshot_failed':
         return 'Screenshot failed';
+      case 'video_experimental_banner':
+        return '影片為實驗性功能：播放、查詞與製卡可能尚不穩定。';
       default:
         return null;
     }
