@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 22338 (1314 per locale)
+/// Strings: 22355 (1315 per locale)
 ///
-/// Built on 2026-06-06 at 07:15 UTC
+/// Built on 2026-06-06 at 10:09 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1775,6 +1775,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_subtitle_import_file => 'Import subtitle file…';
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -4724,6 +4725,8 @@ class _StringsAr extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -7757,6 +7760,8 @@ class _StringsDe extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -10803,6 +10808,8 @@ class _StringsEs extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -13869,6 +13876,8 @@ class _StringsFr extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -16858,6 +16867,8 @@ class _StringsId extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -19889,6 +19900,8 @@ class _StringsIt extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -22746,6 +22759,8 @@ class _StringsJa extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -25604,6 +25619,8 @@ class _StringsKo extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -28617,6 +28634,8 @@ class _StringsNl extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -31643,6 +31662,8 @@ class _StringsPtBr extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -34654,6 +34675,8 @@ class _StringsRu extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -37604,6 +37627,8 @@ class _StringsTh extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -40593,6 +40618,8 @@ class _StringsTr extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -43562,6 +43589,8 @@ class _StringsVi extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => 'Lookup';
 }
 
 // Path: retrying_in
@@ -46347,6 +46376,8 @@ class _StringsZhCn extends _StringsEn {
   String get video_subtitle_import_unsupported => '不支持的字幕格式';
   @override
   String get video_subtitle_import_failed => '导入字幕失败';
+  @override
+  String get nav_lookup => '查词';
 }
 
 // Path: retrying_in
@@ -49180,6 +49211,8 @@ class _StringsZhHk extends _StringsEn {
   String get video_subtitle_import_unsupported => 'Unsupported subtitle format';
   @override
   String get video_subtitle_import_failed => 'Failed to import subtitle';
+  @override
+  String get nav_lookup => '查詞';
 }
 
 // Path: retrying_in
@@ -51919,6 +51952,8 @@ extension on _StringsEn {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -54616,6 +54651,8 @@ extension on _StringsAr {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -57329,6 +57366,8 @@ extension on _StringsDe {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -60040,6 +60079,8 @@ extension on _StringsEs {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -62753,6 +62794,8 @@ extension on _StringsFr {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -65455,6 +65498,8 @@ extension on _StringsId {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -68165,6 +68210,8 @@ extension on _StringsIt {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -70851,6 +70898,8 @@ extension on _StringsJa {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -73539,6 +73588,8 @@ extension on _StringsKo {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -76246,6 +76297,8 @@ extension on _StringsNl {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -78952,6 +79005,8 @@ extension on _StringsPtBr {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -81659,6 +81714,8 @@ extension on _StringsRu {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -84357,6 +84414,8 @@ extension on _StringsTh {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -87058,6 +87117,8 @@ extension on _StringsTr {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -89756,6 +89817,8 @@ extension on _StringsVi {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return 'Lookup';
       default:
         return null;
     }
@@ -92432,6 +92495,8 @@ extension on _StringsZhCn {
         return '不支持的字幕格式';
       case 'video_subtitle_import_failed':
         return '导入字幕失败';
+      case 'nav_lookup':
+        return '查词';
       default:
         return null;
     }
@@ -95117,6 +95182,8 @@ extension on _StringsZhHk {
         return 'Unsupported subtitle format';
       case 'video_subtitle_import_failed':
         return 'Failed to import subtitle';
+      case 'nav_lookup':
+        return '查詞';
       default:
         return null;
     }
