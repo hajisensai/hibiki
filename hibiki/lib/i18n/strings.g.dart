@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 22117 (1301 per locale)
+/// Strings: 22202 (1306 per locale)
 ///
-/// Built on 2026-06-06 at 03:55 UTC
+/// Built on 2026-06-06 at 04:52 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1760,6 +1760,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Drop subtitles or audio onto a book or video';
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  String get log_upload_action => 'Upload to server';
+  String get log_upload_in_progress => 'Uploading log…';
+  String get log_upload_success => 'Log uploaded';
+  String get log_upload_failed => 'Upload failed';
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -4681,6 +4686,16 @@ class _StringsAr extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -7686,6 +7701,16 @@ class _StringsDe extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -10704,6 +10729,16 @@ class _StringsEs extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -13742,6 +13777,16 @@ class _StringsFr extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -16703,6 +16748,16 @@ class _StringsId extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -19706,6 +19761,16 @@ class _StringsIt extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -22535,6 +22600,16 @@ class _StringsJa extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -25365,6 +25440,16 @@ class _StringsKo extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -28350,6 +28435,16 @@ class _StringsNl extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -31348,6 +31443,16 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -34331,6 +34436,16 @@ class _StringsRu extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -37253,6 +37368,16 @@ class _StringsTh extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -40214,6 +40339,16 @@ class _StringsTr extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -43155,6 +43290,16 @@ class _StringsVi extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -45914,6 +46059,16 @@ class _StringsZhCn extends _StringsEn {
   String get drag_drop_need_card_target => '请把字幕或音频拖到某本书或某个视频上';
   @override
   String get shortcut_action_audiobook_seek_clicked => '跳转音频到点击的句子';
+  @override
+  String get log_upload_action => '上传到服务器';
+  @override
+  String get log_upload_in_progress => '正在上传日志…';
+  @override
+  String get log_upload_success => '日志已上传';
+  @override
+  String get log_upload_failed => '上传失败';
+  @override
+  String get log_upload_too_large => '日志过大，无法上传';
 }
 
 // Path: retrying_in
@@ -48719,6 +48874,16 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
 }
 
 // Path: retrying_in
@@ -51431,6 +51596,16 @@ extension on _StringsEn {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -54101,6 +54276,16 @@ extension on _StringsAr {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -56787,6 +56972,16 @@ extension on _StringsDe {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -59471,6 +59666,16 @@ extension on _StringsEs {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -62157,6 +62362,16 @@ extension on _StringsFr {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -64832,6 +65047,16 @@ extension on _StringsId {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -67515,6 +67740,16 @@ extension on _StringsIt {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -70174,6 +70409,16 @@ extension on _StringsJa {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -72835,6 +73080,16 @@ extension on _StringsKo {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -75515,6 +75770,16 @@ extension on _StringsNl {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -78194,6 +78459,16 @@ extension on _StringsPtBr {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -80874,6 +81149,16 @@ extension on _StringsRu {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -83545,6 +83830,16 @@ extension on _StringsTh {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -86219,6 +86514,16 @@ extension on _StringsTr {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -88890,6 +89195,16 @@ extension on _StringsVi {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
@@ -91540,6 +91855,16 @@ extension on _StringsZhCn {
         return '请把字幕或音频拖到某本书或某个视频上';
       case 'shortcut_action_audiobook_seek_clicked':
         return '跳转音频到点击的句子';
+      case 'log_upload_action':
+        return '上传到服务器';
+      case 'log_upload_in_progress':
+        return '正在上传日志…';
+      case 'log_upload_success':
+        return '日志已上传';
+      case 'log_upload_failed':
+        return '上传失败';
+      case 'log_upload_too_large':
+        return '日志过大，无法上传';
       default:
         return null;
     }
@@ -94198,6 +94523,16 @@ extension on _StringsZhHk {
         return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
       default:
         return null;
     }
