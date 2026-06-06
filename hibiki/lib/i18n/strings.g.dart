@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 23239 (1367 per locale)
+/// Strings: 23290 (1370 per locale)
 ///
-/// Built on 2026-06-06 at 15:06 UTC
+/// Built on 2026-06-06 at 15:38 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1833,6 +1833,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
   String get video_setting_mpv_reset => 'Reset all';
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  String get video_screenshot => 'Screenshot';
+  String get video_screenshot_saved => 'Screenshot saved';
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -4893,6 +4896,12 @@ class _StringsAr extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -8037,6 +8046,12 @@ class _StringsDe extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -11194,6 +11209,12 @@ class _StringsEs extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -14371,6 +14392,12 @@ class _StringsFr extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -17471,6 +17498,12 @@ class _StringsId extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -20613,6 +20646,12 @@ class _StringsIt extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -23581,6 +23620,12 @@ class _StringsJa extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -26550,6 +26595,12 @@ class _StringsKo extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -29674,6 +29725,12 @@ class _StringsNl extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -32811,6 +32868,12 @@ class _StringsPtBr extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -35933,6 +35996,12 @@ class _StringsRu extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -38994,6 +39063,12 @@ class _StringsTh extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -42094,6 +42169,12 @@ class _StringsTr extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -45174,6 +45255,12 @@ class _StringsVi extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -48067,6 +48154,12 @@ class _StringsZhCn extends _StringsEn {
   String get video_setting_mpv_reset => '全部恢复默认';
   @override
   String get video_jimaku_filter => '筛选结果（如 WEBRip、BD）';
+  @override
+  String get video_screenshot => '截图';
+  @override
+  String get video_screenshot_saved => '截图已保存';
+  @override
+  String get video_screenshot_failed => '截图失败';
 }
 
 // Path: retrying_in
@@ -51011,6 +51104,12 @@ class _StringsZhHk extends _StringsEn {
   String get video_setting_mpv_reset => 'Reset all';
   @override
   String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
+  @override
+  String get video_screenshot => 'Screenshot';
+  @override
+  String get video_screenshot_saved => 'Screenshot saved';
+  @override
+  String get video_screenshot_failed => 'Screenshot failed';
 }
 
 // Path: retrying_in
@@ -53856,6 +53955,12 @@ extension on _StringsEn {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -56659,6 +56764,12 @@ extension on _StringsAr {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -59478,6 +59589,12 @@ extension on _StringsDe {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -62295,6 +62412,12 @@ extension on _StringsEs {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -65114,6 +65237,12 @@ extension on _StringsFr {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -67922,6 +68051,12 @@ extension on _StringsId {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -70738,6 +70873,12 @@ extension on _StringsIt {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -73530,6 +73671,12 @@ extension on _StringsJa {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -76324,6 +76471,12 @@ extension on _StringsKo {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -79137,6 +79290,12 @@ extension on _StringsNl {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -81949,6 +82108,12 @@ extension on _StringsPtBr {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -84762,6 +84927,12 @@ extension on _StringsRu {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -87566,6 +87737,12 @@ extension on _StringsTh {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -90373,6 +90550,12 @@ extension on _StringsTr {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -93177,6 +93360,12 @@ extension on _StringsVi {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
@@ -95959,6 +96148,12 @@ extension on _StringsZhCn {
         return '全部恢复默认';
       case 'video_jimaku_filter':
         return '筛选结果（如 WEBRip、BD）';
+      case 'video_screenshot':
+        return '截图';
+      case 'video_screenshot_saved':
+        return '截图已保存';
+      case 'video_screenshot_failed':
+        return '截图失败';
       default:
         return null;
     }
@@ -98750,6 +98945,12 @@ extension on _StringsZhHk {
         return 'Reset all';
       case 'video_jimaku_filter':
         return 'Filter results (e.g. WEBRip, BD)';
+      case 'video_screenshot':
+        return 'Screenshot';
+      case 'video_screenshot_saved':
+        return 'Screenshot saved';
+      case 'video_screenshot_failed':
+        return 'Screenshot failed';
       default:
         return null;
     }
