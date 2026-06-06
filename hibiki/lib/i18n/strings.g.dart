@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 22406 (1318 per locale)
+/// Strings: 23239 (1367 per locale)
 ///
-/// Built on 2026-06-06 at 14:22 UTC
+/// Built on 2026-06-06 at 15:04 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1781,6 +1781,58 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Connected clients start the sync — no manual sync needed here.';
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  String get video_setting_subtitle_font_size => 'Font size';
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  String get video_setting_subtitle_position => 'Vertical position';
+  String get video_setting_subtitle_reset => 'Reset to default';
+  String get video_setting_mpv => 'Video settings (mpv)';
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  String get video_setting_mpv_group_decode => 'Decoding';
+  String get video_setting_mpv_group_quality => 'Image quality';
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  String get video_setting_mpv_group_color => 'Color';
+  String get video_setting_mpv_group_audio => 'Audio';
+  String get video_setting_mpv_group_playback => 'Playback';
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  String get video_setting_mpv_hwdec_off => 'Off';
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  String get video_setting_mpv_deband => 'Debanding';
+  String get video_setting_mpv_dither => 'Dithering';
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  String get video_setting_mpv_rotate => 'Rotation';
+  String get video_setting_mpv_zoom => 'Zoom';
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  String get video_setting_mpv_aspect_auto => 'Original';
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  String get video_setting_mpv_channels => 'Channels';
+  String get video_setting_mpv_channels_auto => 'Auto';
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  String get video_setting_mpv_channels_mono => 'Mono';
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  String get video_setting_mpv_brightness => 'Brightness';
+  String get video_setting_mpv_contrast => 'Contrast';
+  String get video_setting_mpv_saturation => 'Saturation';
+  String get video_setting_mpv_gamma => 'Gamma';
+  String get video_setting_mpv_hue => 'Hue';
+  String get video_setting_mpv_loop => 'Loop file';
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  String get video_setting_mpv_reset => 'Reset all';
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -4740,6 +4792,107 @@ class _StringsAr extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -7783,6 +7936,107 @@ class _StringsDe extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -10839,6 +11093,107 @@ class _StringsEs extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -13915,6 +14270,107 @@ class _StringsFr extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -16914,6 +17370,107 @@ class _StringsId extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -19955,6 +20512,107 @@ class _StringsIt extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -22822,6 +23480,107 @@ class _StringsJa extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -25690,6 +26449,107 @@ class _StringsKo extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -28713,6 +29573,107 @@ class _StringsNl extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -31749,6 +32710,107 @@ class _StringsPtBr extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -34770,6 +35832,107 @@ class _StringsRu extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -37730,6 +38893,107 @@ class _StringsTh extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -40729,6 +41993,107 @@ class _StringsTr extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -43708,6 +45073,107 @@ class _StringsVi extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       'Failed to export card: ${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -46502,6 +47968,105 @@ class _StringsZhCn extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       '导出卡片失败：${reason}';
+  @override
+  String get video_setting_subtitle_blur => '字幕模糊（沉浸）';
+  @override
+  String get video_setting_subtitle_blur_hint => '默认遮挡字幕，悬停或点击显形，用于听力沉浸。';
+  @override
+  String get video_setting_subtitle_appearance => '字幕外观';
+  @override
+  String get video_setting_subtitle_font_size => '字号';
+  @override
+  String get video_setting_subtitle_bg_opacity => '背景不透明度';
+  @override
+  String get video_setting_subtitle_position => '垂直位置';
+  @override
+  String get video_setting_subtitle_reset => '恢复默认';
+  @override
+  String get video_setting_mpv => '视频设置 (mpv)';
+  @override
+  String get video_setting_mpv_open => '视频设置 (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => '解码';
+  @override
+  String get video_setting_mpv_group_quality => '画质';
+  @override
+  String get video_setting_mpv_group_geometry => '画面';
+  @override
+  String get video_setting_mpv_group_color => '色彩';
+  @override
+  String get video_setting_mpv_group_audio => '音频';
+  @override
+  String get video_setting_mpv_group_playback => '播放';
+  @override
+  String get video_setting_mpv_group_advanced => '高级';
+  @override
+  String get video_setting_mpv_hwdec => '硬件解码';
+  @override
+  String get video_setting_mpv_hwdec_off => '关闭';
+  @override
+  String get video_setting_mpv_hwdec_auto => '自动（安全）';
+  @override
+  String get video_setting_mpv_hwdec_copy => '自动（复制）';
+  @override
+  String get video_setting_mpv_high_quality => '高画质缩放';
+  @override
+  String get video_setting_mpv_deband => '去色带';
+  @override
+  String get video_setting_mpv_dither => '抖动';
+  @override
+  String get video_setting_mpv_interpolation => '运动插帧';
+  @override
+  String get video_setting_mpv_deinterlace => '去隔行';
+  @override
+  String get video_setting_mpv_sigmoid => 'S形上采样';
+  @override
+  String get video_setting_mpv_correct_downscale => '线性降采样';
+  @override
+  String get video_setting_mpv_rotate => '旋转';
+  @override
+  String get video_setting_mpv_zoom => '缩放';
+  @override
+  String get video_setting_mpv_panscan => '平移裁切（去黑边）';
+  @override
+  String get video_setting_mpv_aspect => '画面比例';
+  @override
+  String get video_setting_mpv_aspect_auto => '原始';
+  @override
+  String get video_setting_mpv_audio_delay => '音频延迟 (ms)';
+  @override
+  String get video_setting_mpv_pitch => '变速保持音高';
+  @override
+  String get video_setting_mpv_channels => '声道';
+  @override
+  String get video_setting_mpv_channels_auto => '自动';
+  @override
+  String get video_setting_mpv_channels_stereo => '立体声（下混）';
+  @override
+  String get video_setting_mpv_channels_mono => '单声道';
+  @override
+  String get video_setting_mpv_normalize => '下混响度归一化';
+  @override
+  String get video_setting_mpv_brightness => '亮度';
+  @override
+  String get video_setting_mpv_contrast => '对比度';
+  @override
+  String get video_setting_mpv_saturation => '饱和度';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => '色相';
+  @override
+  String get video_setting_mpv_loop => '单文件循环';
+  @override
+  String get video_setting_mpv_raw => '额外 mpv 选项（每行 key=value）';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      '仅桌面生效；运行时无法应用的项（如 vo、profile）会被忽略。SVP/RIFE 需外部工具，不支持。';
+  @override
+  String get video_setting_mpv_reset => '全部恢复默认';
+  @override
+  String get video_jimaku_filter => '筛选结果（如 WEBRip、BD）';
 }
 
 // Path: retrying_in
@@ -49345,6 +50910,107 @@ class _StringsZhHk extends _StringsEn {
   @override
   String card_export_failed_detail({required Object reason}) =>
       '匯出卡片失敗：${reason}';
+  @override
+  String get video_setting_subtitle_blur => 'Blur subtitles (immersion)';
+  @override
+  String get video_setting_subtitle_blur_hint =>
+      'Hide subtitles by default; hover or tap to reveal for listening practice.';
+  @override
+  String get video_setting_subtitle_appearance => 'Subtitle appearance';
+  @override
+  String get video_setting_subtitle_font_size => 'Font size';
+  @override
+  String get video_setting_subtitle_bg_opacity => 'Background opacity';
+  @override
+  String get video_setting_subtitle_position => 'Vertical position';
+  @override
+  String get video_setting_subtitle_reset => 'Reset to default';
+  @override
+  String get video_setting_mpv => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_open => 'Video settings (mpv)';
+  @override
+  String get video_setting_mpv_group_decode => 'Decoding';
+  @override
+  String get video_setting_mpv_group_quality => 'Image quality';
+  @override
+  String get video_setting_mpv_group_geometry => 'Geometry';
+  @override
+  String get video_setting_mpv_group_color => 'Color';
+  @override
+  String get video_setting_mpv_group_audio => 'Audio';
+  @override
+  String get video_setting_mpv_group_playback => 'Playback';
+  @override
+  String get video_setting_mpv_group_advanced => 'Advanced';
+  @override
+  String get video_setting_mpv_hwdec => 'Hardware decoding';
+  @override
+  String get video_setting_mpv_hwdec_off => 'Off';
+  @override
+  String get video_setting_mpv_hwdec_auto => 'Auto (safe)';
+  @override
+  String get video_setting_mpv_hwdec_copy => 'Auto (copy)';
+  @override
+  String get video_setting_mpv_high_quality => 'High-quality scaling';
+  @override
+  String get video_setting_mpv_deband => 'Debanding';
+  @override
+  String get video_setting_mpv_dither => 'Dithering';
+  @override
+  String get video_setting_mpv_interpolation => 'Motion interpolation';
+  @override
+  String get video_setting_mpv_deinterlace => 'Deinterlace';
+  @override
+  String get video_setting_mpv_sigmoid => 'Sigmoid upscaling';
+  @override
+  String get video_setting_mpv_correct_downscale => 'Linear downscaling';
+  @override
+  String get video_setting_mpv_rotate => 'Rotation';
+  @override
+  String get video_setting_mpv_zoom => 'Zoom';
+  @override
+  String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
+  @override
+  String get video_setting_mpv_aspect => 'Aspect ratio';
+  @override
+  String get video_setting_mpv_aspect_auto => 'Original';
+  @override
+  String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
+  @override
+  String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
+  @override
+  String get video_setting_mpv_channels => 'Channels';
+  @override
+  String get video_setting_mpv_channels_auto => 'Auto';
+  @override
+  String get video_setting_mpv_channels_stereo => 'Stereo (downmix)';
+  @override
+  String get video_setting_mpv_channels_mono => 'Mono';
+  @override
+  String get video_setting_mpv_normalize => 'Normalize downmix loudness';
+  @override
+  String get video_setting_mpv_brightness => 'Brightness';
+  @override
+  String get video_setting_mpv_contrast => 'Contrast';
+  @override
+  String get video_setting_mpv_saturation => 'Saturation';
+  @override
+  String get video_setting_mpv_gamma => 'Gamma';
+  @override
+  String get video_setting_mpv_hue => 'Hue';
+  @override
+  String get video_setting_mpv_loop => 'Loop file';
+  @override
+  String get video_setting_mpv_raw =>
+      'Extra mpv options (one per line, key=value)';
+  @override
+  String get video_setting_mpv_raw_hint =>
+      'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+  @override
+  String get video_setting_mpv_reset => 'Reset all';
+  @override
+  String get video_jimaku_filter => 'Filter results (e.g. WEBRip, BD)';
 }
 
 // Path: retrying_in
@@ -52092,6 +53758,104 @@ extension on _StringsEn {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -54797,6 +56561,104 @@ extension on _StringsAr {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -57518,6 +59380,104 @@ extension on _StringsDe {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -60237,6 +62197,104 @@ extension on _StringsEs {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -62958,6 +65016,104 @@ extension on _StringsFr {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -65668,6 +67824,104 @@ extension on _StringsId {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -68386,6 +70640,104 @@ extension on _StringsIt {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -71080,6 +73432,104 @@ extension on _StringsJa {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -73776,6 +76226,104 @@ extension on _StringsKo {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -76491,6 +79039,104 @@ extension on _StringsNl {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -79205,6 +81851,104 @@ extension on _StringsPtBr {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -81920,6 +84664,104 @@ extension on _StringsRu {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -84626,6 +87468,104 @@ extension on _StringsTh {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -87335,6 +90275,104 @@ extension on _StringsTr {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -90041,6 +93079,104 @@ extension on _StringsVi {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => 'Failed to export card: ${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
@@ -92725,6 +95861,104 @@ extension on _StringsZhCn {
         return '由已连接的客户端发起同步，本机无需手动同步';
       case 'card_export_failed_detail':
         return ({required Object reason}) => '导出卡片失败：${reason}';
+      case 'video_setting_subtitle_blur':
+        return '字幕模糊（沉浸）';
+      case 'video_setting_subtitle_blur_hint':
+        return '默认遮挡字幕，悬停或点击显形，用于听力沉浸。';
+      case 'video_setting_subtitle_appearance':
+        return '字幕外观';
+      case 'video_setting_subtitle_font_size':
+        return '字号';
+      case 'video_setting_subtitle_bg_opacity':
+        return '背景不透明度';
+      case 'video_setting_subtitle_position':
+        return '垂直位置';
+      case 'video_setting_subtitle_reset':
+        return '恢复默认';
+      case 'video_setting_mpv':
+        return '视频设置 (mpv)';
+      case 'video_setting_mpv_open':
+        return '视频设置 (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return '解码';
+      case 'video_setting_mpv_group_quality':
+        return '画质';
+      case 'video_setting_mpv_group_geometry':
+        return '画面';
+      case 'video_setting_mpv_group_color':
+        return '色彩';
+      case 'video_setting_mpv_group_audio':
+        return '音频';
+      case 'video_setting_mpv_group_playback':
+        return '播放';
+      case 'video_setting_mpv_group_advanced':
+        return '高级';
+      case 'video_setting_mpv_hwdec':
+        return '硬件解码';
+      case 'video_setting_mpv_hwdec_off':
+        return '关闭';
+      case 'video_setting_mpv_hwdec_auto':
+        return '自动（安全）';
+      case 'video_setting_mpv_hwdec_copy':
+        return '自动（复制）';
+      case 'video_setting_mpv_high_quality':
+        return '高画质缩放';
+      case 'video_setting_mpv_deband':
+        return '去色带';
+      case 'video_setting_mpv_dither':
+        return '抖动';
+      case 'video_setting_mpv_interpolation':
+        return '运动插帧';
+      case 'video_setting_mpv_deinterlace':
+        return '去隔行';
+      case 'video_setting_mpv_sigmoid':
+        return 'S形上采样';
+      case 'video_setting_mpv_correct_downscale':
+        return '线性降采样';
+      case 'video_setting_mpv_rotate':
+        return '旋转';
+      case 'video_setting_mpv_zoom':
+        return '缩放';
+      case 'video_setting_mpv_panscan':
+        return '平移裁切（去黑边）';
+      case 'video_setting_mpv_aspect':
+        return '画面比例';
+      case 'video_setting_mpv_aspect_auto':
+        return '原始';
+      case 'video_setting_mpv_audio_delay':
+        return '音频延迟 (ms)';
+      case 'video_setting_mpv_pitch':
+        return '变速保持音高';
+      case 'video_setting_mpv_channels':
+        return '声道';
+      case 'video_setting_mpv_channels_auto':
+        return '自动';
+      case 'video_setting_mpv_channels_stereo':
+        return '立体声（下混）';
+      case 'video_setting_mpv_channels_mono':
+        return '单声道';
+      case 'video_setting_mpv_normalize':
+        return '下混响度归一化';
+      case 'video_setting_mpv_brightness':
+        return '亮度';
+      case 'video_setting_mpv_contrast':
+        return '对比度';
+      case 'video_setting_mpv_saturation':
+        return '饱和度';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return '色相';
+      case 'video_setting_mpv_loop':
+        return '单文件循环';
+      case 'video_setting_mpv_raw':
+        return '额外 mpv 选项（每行 key=value）';
+      case 'video_setting_mpv_raw_hint':
+        return '仅桌面生效；运行时无法应用的项（如 vo、profile）会被忽略。SVP/RIFE 需外部工具，不支持。';
+      case 'video_setting_mpv_reset':
+        return '全部恢复默认';
+      case 'video_jimaku_filter':
+        return '筛选结果（如 WEBRip、BD）';
       default:
         return null;
     }
@@ -95418,6 +98652,104 @@ extension on _StringsZhHk {
         return 'Connected clients start the sync — no manual sync needed here.';
       case 'card_export_failed_detail':
         return ({required Object reason}) => '匯出卡片失敗：${reason}';
+      case 'video_setting_subtitle_blur':
+        return 'Blur subtitles (immersion)';
+      case 'video_setting_subtitle_blur_hint':
+        return 'Hide subtitles by default; hover or tap to reveal for listening practice.';
+      case 'video_setting_subtitle_appearance':
+        return 'Subtitle appearance';
+      case 'video_setting_subtitle_font_size':
+        return 'Font size';
+      case 'video_setting_subtitle_bg_opacity':
+        return 'Background opacity';
+      case 'video_setting_subtitle_position':
+        return 'Vertical position';
+      case 'video_setting_subtitle_reset':
+        return 'Reset to default';
+      case 'video_setting_mpv':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_open':
+        return 'Video settings (mpv)';
+      case 'video_setting_mpv_group_decode':
+        return 'Decoding';
+      case 'video_setting_mpv_group_quality':
+        return 'Image quality';
+      case 'video_setting_mpv_group_geometry':
+        return 'Geometry';
+      case 'video_setting_mpv_group_color':
+        return 'Color';
+      case 'video_setting_mpv_group_audio':
+        return 'Audio';
+      case 'video_setting_mpv_group_playback':
+        return 'Playback';
+      case 'video_setting_mpv_group_advanced':
+        return 'Advanced';
+      case 'video_setting_mpv_hwdec':
+        return 'Hardware decoding';
+      case 'video_setting_mpv_hwdec_off':
+        return 'Off';
+      case 'video_setting_mpv_hwdec_auto':
+        return 'Auto (safe)';
+      case 'video_setting_mpv_hwdec_copy':
+        return 'Auto (copy)';
+      case 'video_setting_mpv_high_quality':
+        return 'High-quality scaling';
+      case 'video_setting_mpv_deband':
+        return 'Debanding';
+      case 'video_setting_mpv_dither':
+        return 'Dithering';
+      case 'video_setting_mpv_interpolation':
+        return 'Motion interpolation';
+      case 'video_setting_mpv_deinterlace':
+        return 'Deinterlace';
+      case 'video_setting_mpv_sigmoid':
+        return 'Sigmoid upscaling';
+      case 'video_setting_mpv_correct_downscale':
+        return 'Linear downscaling';
+      case 'video_setting_mpv_rotate':
+        return 'Rotation';
+      case 'video_setting_mpv_zoom':
+        return 'Zoom';
+      case 'video_setting_mpv_panscan':
+        return 'Pan & scan (crop borders)';
+      case 'video_setting_mpv_aspect':
+        return 'Aspect ratio';
+      case 'video_setting_mpv_aspect_auto':
+        return 'Original';
+      case 'video_setting_mpv_audio_delay':
+        return 'Audio delay (ms)';
+      case 'video_setting_mpv_pitch':
+        return 'Preserve pitch when speeding';
+      case 'video_setting_mpv_channels':
+        return 'Channels';
+      case 'video_setting_mpv_channels_auto':
+        return 'Auto';
+      case 'video_setting_mpv_channels_stereo':
+        return 'Stereo (downmix)';
+      case 'video_setting_mpv_channels_mono':
+        return 'Mono';
+      case 'video_setting_mpv_normalize':
+        return 'Normalize downmix loudness';
+      case 'video_setting_mpv_brightness':
+        return 'Brightness';
+      case 'video_setting_mpv_contrast':
+        return 'Contrast';
+      case 'video_setting_mpv_saturation':
+        return 'Saturation';
+      case 'video_setting_mpv_gamma':
+        return 'Gamma';
+      case 'video_setting_mpv_hue':
+        return 'Hue';
+      case 'video_setting_mpv_loop':
+        return 'Loop file';
+      case 'video_setting_mpv_raw':
+        return 'Extra mpv options (one per line, key=value)';
+      case 'video_setting_mpv_raw_hint':
+        return 'Desktop only; options that cannot apply at runtime (e.g. vo, profile) are ignored. SVP/RIFE need external tools and are not supported.';
+      case 'video_setting_mpv_reset':
+        return 'Reset all';
+      case 'video_jimaku_filter':
+        return 'Filter results (e.g. WEBRip, BD)';
       default:
         return null;
     }
