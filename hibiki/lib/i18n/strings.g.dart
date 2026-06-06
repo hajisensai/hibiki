@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 22083 (1299 per locale)
+/// Strings: 22100 (1300 per locale)
 ///
-/// Built on 2026-06-05 at 17:51 UTC
+/// Built on 2026-06-06 at 03:37 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1756,6 +1756,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
       'Delete 『${title}』? This cannot be undone.';
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -4671,6 +4673,9 @@ class _StringsAr extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -7670,6 +7675,9 @@ class _StringsDe extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -10682,6 +10690,9 @@ class _StringsEs extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -13714,6 +13725,9 @@ class _StringsFr extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -16669,6 +16683,9 @@ class _StringsId extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -19666,6 +19683,9 @@ class _StringsIt extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -22489,6 +22509,9 @@ class _StringsJa extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -25313,6 +25336,9 @@ class _StringsKo extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -28292,6 +28318,9 @@ class _StringsNl extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -31284,6 +31313,9 @@ class _StringsPtBr extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -34261,6 +34293,9 @@ class _StringsRu extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -37177,6 +37212,9 @@ class _StringsTh extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -40132,6 +40170,9 @@ class _StringsTr extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -43067,6 +43108,9 @@ class _StringsVi extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -45822,6 +45866,8 @@ class _StringsZhCn extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       '无法加载该字幕（可能是图形或不支持的字幕轨）：${label}';
+  @override
+  String get drag_drop_need_card_target => '请把字幕或音频拖到某本书或某个视频上';
 }
 
 // Path: retrying_in
@@ -48621,6 +48667,9 @@ class _StringsZhHk extends _StringsEn {
   @override
   String video_subtitle_load_failed({required Object label}) =>
       'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
 }
 
 // Path: retrying_in
@@ -51329,6 +51378,8 @@ extension on _StringsEn {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -53995,6 +54046,8 @@ extension on _StringsAr {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -56677,6 +56730,8 @@ extension on _StringsDe {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -59357,6 +59412,8 @@ extension on _StringsEs {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -62039,6 +62096,8 @@ extension on _StringsFr {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -64710,6 +64769,8 @@ extension on _StringsId {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -67389,6 +67450,8 @@ extension on _StringsIt {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -70044,6 +70107,8 @@ extension on _StringsJa {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -72701,6 +72766,8 @@ extension on _StringsKo {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -75377,6 +75444,8 @@ extension on _StringsNl {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -78052,6 +78121,8 @@ extension on _StringsPtBr {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -80728,6 +80799,8 @@ extension on _StringsRu {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -83395,6 +83468,8 @@ extension on _StringsTh {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -86065,6 +86140,8 @@ extension on _StringsTr {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -88732,6 +88809,8 @@ extension on _StringsVi {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
@@ -91378,6 +91457,8 @@ extension on _StringsZhCn {
         return ({required Object title}) => '删除『${title}』？此操作无法撤销。';
       case 'video_subtitle_load_failed':
         return ({required Object label}) => '无法加载该字幕（可能是图形或不支持的字幕轨）：${label}';
+      case 'drag_drop_need_card_target':
+        return '请把字幕或音频拖到某本书或某个视频上';
       default:
         return null;
     }
@@ -94032,6 +94113,8 @@ extension on _StringsZhHk {
       case 'video_subtitle_load_failed':
         return ({required Object label}) =>
             'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       default:
         return null;
     }
