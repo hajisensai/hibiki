@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 21879 (1287 per locale)
+/// Strings: 22117 (1301 per locale)
 ///
-/// Built on 2026-06-05 at 17:25 UTC
+/// Built on 2026-06-06 at 03:55 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1731,9 +1731,33 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_jimaku_no_key => 'Enter your Jimaku API key first';
   String get video_jimaku_download_failed => 'Download failed';
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  String get video_shader_downloading => 'Downloading shaders…';
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  String get video_shader_download_failed => 'Shader download failed';
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  String get video_shader_downloaded_label => 'Downloaded';
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
   String get video_delete_title => 'Delete Video';
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
 }
@@ -4612,10 +4636,48 @@ class _StringsAr extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -7579,10 +7641,48 @@ class _StringsDe extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -10559,10 +10659,48 @@ class _StringsEs extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -13559,10 +13697,48 @@ class _StringsFr extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -16482,10 +16658,48 @@ class _StringsId extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -19447,10 +19661,48 @@ class _StringsIt extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -22238,10 +22490,48 @@ class _StringsJa extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -25030,10 +25320,48 @@ class _StringsKo extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -27977,10 +28305,48 @@ class _StringsNl extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -30937,10 +31303,48 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -33882,10 +34286,48 @@ class _StringsRu extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -36766,10 +37208,48 @@ class _StringsTh extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -39689,10 +40169,48 @@ class _StringsTr extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -42592,10 +43110,48 @@ class _StringsVi extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -45320,10 +45876,42 @@ class _StringsZhCn extends _StringsEn {
   @override
   String get video_jimaku_downloaded => '字幕已下载并应用';
   @override
+  String get video_shader_download_anime4k => '下载 Anime4K 推荐着色器';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K 推荐着色器';
+  @override
+  String get video_shader_anime4k_hint => '选择一个预设下载。下载完成后在列表里勾选启用。仅桌面端生效。';
+  @override
+  String get video_shader_downloading => '正在下载着色器…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      '已下载 ${count} 个着色器';
+  @override
+  String get video_shader_download_failed => '着色器下载失败';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      '已下载 ${ok} 个，${failed} 个失败';
+  @override
+  String get video_shader_downloaded_label => '已下载';
+  @override
+  String get video_shader_preset_mode_a_fast => '适合多数 1080p 动画。GPU 负载较低。';
+  @override
+  String get video_shader_preset_mode_b_fast => '适合有重采样伪影的 720p 旧番。';
+  @override
+  String get video_shader_preset_mode_c_fast => '适合有压缩涂抹的 480p SD 老番。';
+  @override
+  String get video_shader_preset_mode_a_hq => '1080p 动画最高画质。需要较强 GPU。';
+  @override
   String get video_delete_title => '删除视频';
   @override
   String video_delete_confirm({required Object title}) =>
       '删除『${title}』？此操作无法撤销。';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      '无法加载该字幕（可能是图形或不支持的字幕轨）：${label}';
+  @override
+  String get drag_drop_need_card_target => '请把字幕或音频拖到某本书或某个视频上';
   @override
   String get shortcut_action_audiobook_seek_clicked => '跳转音频到点击的句子';
 }
@@ -48086,10 +48674,48 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get video_jimaku_downloaded => 'Subtitle downloaded and applied';
   @override
+  String get video_shader_download_anime4k => 'Download Anime4K presets';
+  @override
+  String get video_shader_anime4k_title => 'Anime4K recommended shaders';
+  @override
+  String get video_shader_anime4k_hint =>
+      'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+  @override
+  String get video_shader_downloading => 'Downloading shaders…';
+  @override
+  String video_shader_download_done({required Object count}) =>
+      'Downloaded ${count} shader(s)';
+  @override
+  String get video_shader_download_failed => 'Shader download failed';
+  @override
+  String video_shader_download_partial(
+          {required Object ok, required Object failed}) =>
+      'Downloaded ${ok} shader(s), ${failed} failed';
+  @override
+  String get video_shader_downloaded_label => 'Downloaded';
+  @override
+  String get video_shader_preset_mode_a_fast =>
+      'For most 1080p anime. Lighter GPU load.';
+  @override
+  String get video_shader_preset_mode_b_fast =>
+      'For older 720p anime with resampling artifacts.';
+  @override
+  String get video_shader_preset_mode_c_fast =>
+      'For old SD (480p) anime with compression smearing.';
+  @override
+  String get video_shader_preset_mode_a_hq =>
+      'Highest quality for 1080p anime. Needs a strong GPU.';
+  @override
   String get video_delete_title => 'Delete Video';
   @override
   String video_delete_confirm({required Object title}) =>
       'Delete 『${title}』? This cannot be undone.';
+  @override
+  String video_subtitle_load_failed({required Object label}) =>
+      'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+  @override
+  String get drag_drop_need_card_target =>
+      'Drop subtitles or audio onto a book or video';
   @override
   String get shortcut_action_audiobook_seek_clicked =>
       'Seek audio to clicked sentence';
@@ -50768,11 +51394,41 @@ extension on _StringsEn {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -53408,11 +54064,41 @@ extension on _StringsAr {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -56064,11 +56750,41 @@ extension on _StringsDe {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -58718,11 +59434,41 @@ extension on _StringsEs {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -61374,11 +62120,41 @@ extension on _StringsFr {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -64019,11 +64795,41 @@ extension on _StringsId {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -66672,11 +67478,41 @@ extension on _StringsIt {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -69301,11 +70137,41 @@ extension on _StringsJa {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -71932,11 +72798,41 @@ extension on _StringsKo {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -74582,11 +75478,41 @@ extension on _StringsNl {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -77231,11 +78157,41 @@ extension on _StringsPtBr {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -79881,11 +80837,41 @@ extension on _StringsRu {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -82522,11 +83508,41 @@ extension on _StringsTh {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -85166,11 +86182,41 @@ extension on _StringsTr {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -87807,11 +88853,41 @@ extension on _StringsVi {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
@@ -90429,10 +91505,39 @@ extension on _StringsZhCn {
         return '下载失败';
       case 'video_jimaku_downloaded':
         return '字幕已下载并应用';
+      case 'video_shader_download_anime4k':
+        return '下载 Anime4K 推荐着色器';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K 推荐着色器';
+      case 'video_shader_anime4k_hint':
+        return '选择一个预设下载。下载完成后在列表里勾选启用。仅桌面端生效。';
+      case 'video_shader_downloading':
+        return '正在下载着色器…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => '已下载 ${count} 个着色器';
+      case 'video_shader_download_failed':
+        return '着色器下载失败';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            '已下载 ${ok} 个，${failed} 个失败';
+      case 'video_shader_downloaded_label':
+        return '已下载';
+      case 'video_shader_preset_mode_a_fast':
+        return '适合多数 1080p 动画。GPU 负载较低。';
+      case 'video_shader_preset_mode_b_fast':
+        return '适合有重采样伪影的 720p 旧番。';
+      case 'video_shader_preset_mode_c_fast':
+        return '适合有压缩涂抹的 480p SD 老番。';
+      case 'video_shader_preset_mode_a_hq':
+        return '1080p 动画最高画质。需要较强 GPU。';
       case 'video_delete_title':
         return '删除视频';
       case 'video_delete_confirm':
         return ({required Object title}) => '删除『${title}』？此操作无法撤销。';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) => '无法加载该字幕（可能是图形或不支持的字幕轨）：${label}';
+      case 'drag_drop_need_card_target':
+        return '请把字幕或音频拖到某本书或某个视频上';
       case 'shortcut_action_audiobook_seek_clicked':
         return '跳转音频到点击的句子';
       default:
@@ -93056,11 +94161,41 @@ extension on _StringsZhHk {
         return 'Download failed';
       case 'video_jimaku_downloaded':
         return 'Subtitle downloaded and applied';
+      case 'video_shader_download_anime4k':
+        return 'Download Anime4K presets';
+      case 'video_shader_anime4k_title':
+        return 'Anime4K recommended shaders';
+      case 'video_shader_anime4k_hint':
+        return 'Pick a preset to download. After downloading, tick it in the list to enable. Desktop only.';
+      case 'video_shader_downloading':
+        return 'Downloading shaders…';
+      case 'video_shader_download_done':
+        return ({required Object count}) => 'Downloaded ${count} shader(s)';
+      case 'video_shader_download_failed':
+        return 'Shader download failed';
+      case 'video_shader_download_partial':
+        return ({required Object ok, required Object failed}) =>
+            'Downloaded ${ok} shader(s), ${failed} failed';
+      case 'video_shader_downloaded_label':
+        return 'Downloaded';
+      case 'video_shader_preset_mode_a_fast':
+        return 'For most 1080p anime. Lighter GPU load.';
+      case 'video_shader_preset_mode_b_fast':
+        return 'For older 720p anime with resampling artifacts.';
+      case 'video_shader_preset_mode_c_fast':
+        return 'For old SD (480p) anime with compression smearing.';
+      case 'video_shader_preset_mode_a_hq':
+        return 'Highest quality for 1080p anime. Needs a strong GPU.';
       case 'video_delete_title':
         return 'Delete Video';
       case 'video_delete_confirm':
         return ({required Object title}) =>
             'Delete 『${title}』? This cannot be undone.';
+      case 'video_subtitle_load_failed':
+        return ({required Object label}) =>
+            'Couldn\'t load this subtitle (graphic or unsupported track): ${label}';
+      case 'drag_drop_need_card_target':
+        return 'Drop subtitles or audio onto a book or video';
       case 'shortcut_action_audiobook_seek_clicked':
         return 'Seek audio to clicked sentence';
       default:
