@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 23494 (1382 per locale)
+/// Strings: 23664 (1392 per locale)
 ///
-/// Built on 2026-06-07 at 02:58 UTC
+/// Built on 2026-06-07 at 10:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1849,6 +1849,19 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get log_upload_consent_body =>
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   String get log_upload_consent_agree => 'Agree & upload';
+  String get texthooker => 'Texthooker';
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  String get yomitan_api_server => 'Yomitan API server';
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  String get yomitan_api_port => 'Yomitan API port';
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -4940,6 +4953,29 @@ class _StringsAr extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -8115,6 +8151,29 @@ class _StringsDe extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -11303,6 +11362,29 @@ class _StringsEs extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -14511,6 +14593,29 @@ class _StringsFr extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -17642,6 +17747,29 @@ class _StringsId extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -20815,6 +20943,29 @@ class _StringsIt extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -23814,6 +23965,29 @@ class _StringsJa extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -26814,6 +26988,29 @@ class _StringsKo extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -29969,6 +30166,29 @@ class _StringsNl extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -33137,6 +33357,29 @@ class _StringsPtBr extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -36290,6 +36533,29 @@ class _StringsRu extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -39382,6 +39648,29 @@ class _StringsTh extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -42513,6 +42802,29 @@ class _StringsTr extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -45624,6 +45936,29 @@ class _StringsVi extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -48548,6 +48883,27 @@ class _StringsZhCn extends _StringsEn {
       '日志正文（可能包含错误信息、文件路径、书名等）以及 App 版本、平台、设备型号会上传到开发者的服务器，用于诊断问题。仅在你点上传时发生，不会自动发送。';
   @override
   String get log_upload_consent_agree => '同意并上传';
+  @override
+  String get texthooker => '文本钩子';
+  @override
+  String get texthooker_enabled => '文本钩子（接收文本）';
+  @override
+  String get texthooker_enabled_hint => '连接 Textractor/mpv/agent 并查询收到的文本';
+  @override
+  String get yomitan_api_server => 'Yomitan API 服务器';
+  @override
+  String get yomitan_api_server_hint =>
+      '让 yomitan-api 客户端查询 Hibiki 词典（端口 19633）';
+  @override
+  String get yomitan_api_port => 'Yomitan API 端口';
+  @override
+  String get yomitan_api_key => 'Yomitan API 密钥（可选）';
+  @override
+  String get desktop_clipboard_enabled => '桌面剪贴板查词';
+  @override
+  String get desktop_clipboard_enabled_hint => '监听剪贴板+全局热键弹出查词窗（桌面）';
+  @override
+  String get desktop_clipboard_always_on_top => '查词时窗口置顶';
 }
 
 // Path: retrying_in
@@ -51522,6 +51878,29 @@ class _StringsZhHk extends _StringsEn {
       'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
   @override
   String get log_upload_consent_agree => 'Agree & upload';
+  @override
+  String get texthooker => 'Texthooker';
+  @override
+  String get texthooker_enabled => 'Texthooker (receive text)';
+  @override
+  String get texthooker_enabled_hint =>
+      'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get yomitan_api_server => 'Yomitan API server';
+  @override
+  String get yomitan_api_server_hint =>
+      'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+  @override
+  String get yomitan_api_port => 'Yomitan API port';
+  @override
+  String get yomitan_api_key => 'Yomitan API key (optional)';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+  @override
+  String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
 }
 
 // Path: retrying_in
@@ -54397,6 +54776,26 @@ extension on _StringsEn {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -57230,6 +57629,26 @@ extension on _StringsAr {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -60079,6 +60498,26 @@ extension on _StringsDe {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -62926,6 +63365,26 @@ extension on _StringsEs {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -65775,6 +66234,26 @@ extension on _StringsFr {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -68613,6 +69092,26 @@ extension on _StringsId {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -71459,6 +71958,26 @@ extension on _StringsIt {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -74281,6 +74800,26 @@ extension on _StringsJa {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -77105,6 +77644,26 @@ extension on _StringsKo {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -79948,6 +80507,26 @@ extension on _StringsNl {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -82790,6 +83369,26 @@ extension on _StringsPtBr {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -85633,6 +86232,26 @@ extension on _StringsRu {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -88467,6 +89086,26 @@ extension on _StringsTh {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -91304,6 +91943,26 @@ extension on _StringsTr {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -94138,6 +94797,26 @@ extension on _StringsVi {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
@@ -96950,6 +97629,26 @@ extension on _StringsZhCn {
         return '日志正文（可能包含错误信息、文件路径、书名等）以及 App 版本、平台、设备型号会上传到开发者的服务器，用于诊断问题。仅在你点上传时发生，不会自动发送。';
       case 'log_upload_consent_agree':
         return '同意并上传';
+      case 'texthooker':
+        return '文本钩子';
+      case 'texthooker_enabled':
+        return '文本钩子（接收文本）';
+      case 'texthooker_enabled_hint':
+        return '连接 Textractor/mpv/agent 并查询收到的文本';
+      case 'yomitan_api_server':
+        return 'Yomitan API 服务器';
+      case 'yomitan_api_server_hint':
+        return '让 yomitan-api 客户端查询 Hibiki 词典（端口 19633）';
+      case 'yomitan_api_port':
+        return 'Yomitan API 端口';
+      case 'yomitan_api_key':
+        return 'Yomitan API 密钥（可选）';
+      case 'desktop_clipboard_enabled':
+        return '桌面剪贴板查词';
+      case 'desktop_clipboard_enabled_hint':
+        return '监听剪贴板+全局热键弹出查词窗（桌面）';
+      case 'desktop_clipboard_always_on_top':
+        return '查词时窗口置顶';
       default:
         return null;
     }
@@ -99771,6 +100470,26 @@ extension on _StringsZhHk {
         return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
       case 'log_upload_consent_agree':
         return 'Agree & upload';
+      case 'texthooker':
+        return 'Texthooker';
+      case 'texthooker_enabled':
+        return 'Texthooker (receive text)';
+      case 'texthooker_enabled_hint':
+        return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'yomitan_api_server':
+        return 'Yomitan API server';
+      case 'yomitan_api_server_hint':
+        return 'Let yomitan-api clients query Hibiki\'s dictionaries (port 19633)';
+      case 'yomitan_api_port':
+        return 'Yomitan API port';
+      case 'yomitan_api_key':
+        return 'Yomitan API key (optional)';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
+      case 'desktop_clipboard_always_on_top':
+        return 'Keep lookup window on top';
       default:
         return null;
     }
