@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 23358 (1374 per locale)
+/// Strings: 23494 (1382 per locale)
 ///
-/// Built on 2026-06-07 at 02:41 UTC
+/// Built on 2026-06-07 at 02:58 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1840,6 +1840,15 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get video_settings_cat_shaders => 'Shaders';
   String get video_settings_cat_mpv => 'mpv';
   String get video_settings_cat_subtitle => 'Subtitles';
+  String get log_upload_action => 'Upload to server';
+  String get log_upload_in_progress => 'Uploading log…';
+  String get log_upload_success => 'Log uploaded';
+  String get log_upload_failed => 'Upload failed';
+  String get log_upload_too_large => 'Log too large to upload';
+  String get log_upload_consent_title => 'Upload log to server?';
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -4914,6 +4923,23 @@ class _StringsAr extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -8072,6 +8098,23 @@ class _StringsDe extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -11243,6 +11286,23 @@ class _StringsEs extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -14434,6 +14494,23 @@ class _StringsFr extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -17548,6 +17625,23 @@ class _StringsId extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -20704,6 +20798,23 @@ class _StringsIt extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -23686,6 +23797,23 @@ class _StringsJa extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -26669,6 +26797,23 @@ class _StringsKo extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -29807,6 +29952,23 @@ class _StringsNl extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -32958,6 +33120,23 @@ class _StringsPtBr extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -36094,6 +36273,23 @@ class _StringsRu extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -39169,6 +39365,23 @@ class _StringsTh extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -42283,6 +42496,23 @@ class _StringsTr extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -45377,6 +45607,23 @@ class _StringsVi extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -48284,6 +48531,23 @@ class _StringsZhCn extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => '字幕';
+  @override
+  String get log_upload_action => '上传到服务器';
+  @override
+  String get log_upload_in_progress => '正在上传日志…';
+  @override
+  String get log_upload_success => '日志已上传';
+  @override
+  String get log_upload_failed => '上传失败';
+  @override
+  String get log_upload_too_large => '日志过大，无法上传';
+  @override
+  String get log_upload_consent_title => '上传日志到服务器？';
+  @override
+  String get log_upload_consent_body =>
+      '日志正文（可能包含错误信息、文件路径、书名等）以及 App 版本、平台、设备型号会上传到开发者的服务器，用于诊断问题。仅在你点上传时发生，不会自动发送。';
+  @override
+  String get log_upload_consent_agree => '同意并上传';
 }
 
 // Path: retrying_in
@@ -51241,6 +51505,23 @@ class _StringsZhHk extends _StringsEn {
   String get video_settings_cat_mpv => 'mpv';
   @override
   String get video_settings_cat_subtitle => 'Subtitles';
+  @override
+  String get log_upload_action => 'Upload to server';
+  @override
+  String get log_upload_in_progress => 'Uploading log…';
+  @override
+  String get log_upload_success => 'Log uploaded';
+  @override
+  String get log_upload_failed => 'Upload failed';
+  @override
+  String get log_upload_too_large => 'Log too large to upload';
+  @override
+  String get log_upload_consent_title => 'Upload log to server?';
+  @override
+  String get log_upload_consent_body =>
+      'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+  @override
+  String get log_upload_consent_agree => 'Agree & upload';
 }
 
 // Path: retrying_in
@@ -54100,6 +54381,22 @@ extension on _StringsEn {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -56917,6 +57214,22 @@ extension on _StringsAr {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -59750,6 +60063,22 @@ extension on _StringsDe {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -62581,6 +62910,22 @@ extension on _StringsEs {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -65414,6 +65759,22 @@ extension on _StringsFr {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -68236,6 +68597,22 @@ extension on _StringsId {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -71066,6 +71443,22 @@ extension on _StringsIt {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -73872,6 +74265,22 @@ extension on _StringsJa {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -76680,6 +77089,22 @@ extension on _StringsKo {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -79507,6 +79932,22 @@ extension on _StringsNl {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -82333,6 +82774,22 @@ extension on _StringsPtBr {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -85160,6 +85617,22 @@ extension on _StringsRu {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -87978,6 +88451,22 @@ extension on _StringsTh {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -90799,6 +91288,22 @@ extension on _StringsTr {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -93617,6 +94122,22 @@ extension on _StringsVi {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
@@ -96413,6 +96934,22 @@ extension on _StringsZhCn {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return '字幕';
+      case 'log_upload_action':
+        return '上传到服务器';
+      case 'log_upload_in_progress':
+        return '正在上传日志…';
+      case 'log_upload_success':
+        return '日志已上传';
+      case 'log_upload_failed':
+        return '上传失败';
+      case 'log_upload_too_large':
+        return '日志过大，无法上传';
+      case 'log_upload_consent_title':
+        return '上传日志到服务器？';
+      case 'log_upload_consent_body':
+        return '日志正文（可能包含错误信息、文件路径、书名等）以及 App 版本、平台、设备型号会上传到开发者的服务器，用于诊断问题。仅在你点上传时发生，不会自动发送。';
+      case 'log_upload_consent_agree':
+        return '同意并上传';
       default:
         return null;
     }
@@ -99218,6 +99755,22 @@ extension on _StringsZhHk {
         return 'mpv';
       case 'video_settings_cat_subtitle':
         return 'Subtitles';
+      case 'log_upload_action':
+        return 'Upload to server';
+      case 'log_upload_in_progress':
+        return 'Uploading log…';
+      case 'log_upload_success':
+        return 'Log uploaded';
+      case 'log_upload_failed':
+        return 'Upload failed';
+      case 'log_upload_too_large':
+        return 'Log too large to upload';
+      case 'log_upload_consent_title':
+        return 'Upload log to server?';
+      case 'log_upload_consent_body':
+        return 'The log text (which may include error messages, file paths, and book titles) plus your app version, platform, and device model will be uploaded to the developer\'s server to help diagnose issues. This only happens when you tap upload — nothing is sent automatically.';
+      case 'log_upload_consent_agree':
+        return 'Agree & upload';
       default:
         return null;
     }
