@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 20791 (1223 per locale)
+/// Strings: 20825 (1225 per locale)
 ///
-/// Built on 2026-06-05 at 15:23 UTC
+/// Built on 2026-06-07 at 08:26 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1656,6 +1656,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get texthooker_enabled => 'Texthooker (receive text)';
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -4392,6 +4395,11 @@ class _StringsAr extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -7204,6 +7212,11 @@ class _StringsDe extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -10025,6 +10038,11 @@ class _StringsEs extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -12861,6 +12879,11 @@ class _StringsFr extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -15637,6 +15660,11 @@ class _StringsId extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -18446,6 +18474,11 @@ class _StringsIt extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -21109,6 +21142,11 @@ class _StringsJa extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -23777,6 +23815,11 @@ class _StringsKo extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -26570,6 +26613,11 @@ class _StringsNl extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -29378,6 +29426,11 @@ class _StringsPtBr extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -32169,6 +32222,11 @@ class _StringsRu extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -34908,6 +34966,11 @@ class _StringsTh extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -37682,6 +37745,11 @@ class _StringsTr extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -40436,6 +40504,11 @@ class _StringsVi extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -43033,6 +43106,10 @@ class _StringsZhCn extends _StringsEn {
   String get texthooker_enabled => '文本钩子（接收文本）';
   @override
   String get texthooker_enabled_hint => '连接 Textractor/mpv/agent 并查询收到的文本';
+  @override
+  String get desktop_clipboard_enabled => '桌面剪贴板查词';
+  @override
+  String get desktop_clipboard_enabled_hint => '监听剪贴板+全局热键弹出查词窗（桌面）';
 }
 
 // Path: retrying_in
@@ -45658,6 +45735,11 @@ class _StringsZhHk extends _StringsEn {
   @override
   String get texthooker_enabled_hint =>
       'Connect to Textractor/mpv/agent and look up incoming text';
+  @override
+  String get desktop_clipboard_enabled => 'Desktop clipboard lookup';
+  @override
+  String get desktop_clipboard_enabled_hint =>
+      'Watch clipboard + global hotkey to pop a lookup window (desktop)';
 }
 
 // Path: retrying_in
@@ -48208,6 +48290,10 @@ extension on _StringsEn {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -50716,6 +50802,10 @@ extension on _StringsAr {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -53238,6 +53328,10 @@ extension on _StringsDe {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -55759,6 +55853,10 @@ extension on _StringsEs {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -58281,6 +58379,10 @@ extension on _StringsFr {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -60794,6 +60896,10 @@ extension on _StringsId {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -63313,6 +63419,10 @@ extension on _StringsIt {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -65812,6 +65922,10 @@ extension on _StringsJa {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -68313,6 +68427,10 @@ extension on _StringsKo {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -70830,6 +70948,10 @@ extension on _StringsNl {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -73347,6 +73469,10 @@ extension on _StringsPtBr {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -75864,6 +75990,10 @@ extension on _StringsRu {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -78373,6 +78503,10 @@ extension on _StringsTh {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -80885,6 +81019,10 @@ extension on _StringsTr {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -83394,6 +83532,10 @@ extension on _StringsVi {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
@@ -85887,6 +86029,10 @@ extension on _StringsZhCn {
         return '文本钩子（接收文本）';
       case 'texthooker_enabled_hint':
         return '连接 Textractor/mpv/agent 并查询收到的文本';
+      case 'desktop_clipboard_enabled':
+        return '桌面剪贴板查词';
+      case 'desktop_clipboard_enabled_hint':
+        return '监听剪贴板+全局热键弹出查词窗（桌面）';
       default:
         return null;
     }
@@ -88383,6 +88529,10 @@ extension on _StringsZhHk {
         return 'Texthooker (receive text)';
       case 'texthooker_enabled_hint':
         return 'Connect to Textractor/mpv/agent and look up incoming text';
+      case 'desktop_clipboard_enabled':
+        return 'Desktop clipboard lookup';
+      case 'desktop_clipboard_enabled_hint':
+        return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       default:
         return null;
     }
