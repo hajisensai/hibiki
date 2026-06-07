@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 23732 (1396 per locale)
+/// Strings: 23800 (1400 per locale)
 ///
-/// Built on 2026-06-07 at 12:33 UTC
+/// Built on 2026-06-07 at 16:44 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1556,6 +1556,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	String get db_downgrade_title => 'Update Hibiki';
 	String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	String get video_shader_import_from_mpv => 'Import from local mpv';
+	String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -3005,6 +3009,10 @@ class _StringsAr extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -4454,6 +4462,10 @@ class _StringsDe extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -5903,6 +5915,10 @@ class _StringsEs extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -7352,6 +7368,10 @@ class _StringsFr extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -8801,6 +8821,10 @@ class _StringsId extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -10250,6 +10274,10 @@ class _StringsIt extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -11699,6 +11727,10 @@ class _StringsJa extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -13148,6 +13180,10 @@ class _StringsKo extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -14597,6 +14633,10 @@ class _StringsNl extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -16046,6 +16086,10 @@ class _StringsPtBr extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -17495,6 +17539,10 @@ class _StringsRu extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -18944,6 +18992,10 @@ class _StringsTh extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -20393,6 +20445,10 @@ class _StringsTr extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -21842,6 +21898,10 @@ class _StringsVi extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -23291,6 +23351,10 @@ class _StringsZhCn extends _StringsEn {
 	@override String get settings_experimental_suffix => '（实验性，可能不稳定）';
 	@override String get db_downgrade_title => '请更新 Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => '此数据库由更新版本的 Hibiki 创建（schema v${dbVersion}）。当前应用版本过旧（v${appVersion}）。已阻止打开以保护你的数据。请更新应用后重试。';
+	@override String get video_shader_import_from_mpv => '从本机 mpv 导入';
+	@override String get video_shader_mpv_not_found => '未发现本机 mpv 着色器';
+	@override String get video_shader_mpv_pick_title => '从 mpv 导入着色器';
+	@override String video_shader_import_done({required Object count}) => '已导入 ${count} 个着色器';
 }
 
 // Path: retrying_in
@@ -24740,6 +24804,10 @@ class _StringsZhHk extends _StringsEn {
 	@override String get settings_experimental_suffix => ' (experimental, may be unstable)';
 	@override String get db_downgrade_title => 'Update Hibiki';
 	@override String db_downgrade_message({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+	@override String get video_shader_import_from_mpv => 'Import from local mpv';
+	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
+	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
+	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 }
 
 // Path: retrying_in
@@ -26174,6 +26242,10 @@ extension on _StringsEn {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -27582,6 +27654,10 @@ extension on _StringsAr {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -28990,6 +29066,10 @@ extension on _StringsDe {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -30398,6 +30478,10 @@ extension on _StringsEs {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -31806,6 +31890,10 @@ extension on _StringsFr {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -33214,6 +33302,10 @@ extension on _StringsId {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -34622,6 +34714,10 @@ extension on _StringsIt {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -36030,6 +36126,10 @@ extension on _StringsJa {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -37438,6 +37538,10 @@ extension on _StringsKo {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -38846,6 +38950,10 @@ extension on _StringsNl {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -40254,6 +40362,10 @@ extension on _StringsPtBr {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -41662,6 +41774,10 @@ extension on _StringsRu {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -43070,6 +43186,10 @@ extension on _StringsTh {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -44478,6 +44598,10 @@ extension on _StringsTr {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -45886,6 +46010,10 @@ extension on _StringsVi {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
@@ -47294,6 +47422,10 @@ extension on _StringsZhCn {
 			case 'settings_experimental_suffix': return '（实验性，可能不稳定）';
 			case 'db_downgrade_title': return '请更新 Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => '此数据库由更新版本的 Hibiki 创建（schema v${dbVersion}）。当前应用版本过旧（v${appVersion}）。已阻止打开以保护你的数据。请更新应用后重试。';
+			case 'video_shader_import_from_mpv': return '从本机 mpv 导入';
+			case 'video_shader_mpv_not_found': return '未发现本机 mpv 着色器';
+			case 'video_shader_mpv_pick_title': return '从 mpv 导入着色器';
+			case 'video_shader_import_done': return ({required Object count}) => '已导入 ${count} 个着色器';
 			default: return null;
 		}
 	}
@@ -48702,6 +48834,10 @@ extension on _StringsZhHk {
 			case 'settings_experimental_suffix': return ' (experimental, may be unstable)';
 			case 'db_downgrade_title': return 'Update Hibiki';
 			case 'db_downgrade_message': return ({required Object dbVersion, required Object appVersion}) => 'This database was created by a newer version of Hibiki (schema v${dbVersion}). Your current app is too old (v${appVersion}). Opening was blocked to protect your data. Please update the app and try again.';
+			case 'video_shader_import_from_mpv': return 'Import from local mpv';
+			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
+			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
+			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			default: return null;
 		}
 	}
