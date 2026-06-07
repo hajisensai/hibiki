@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 23664 (1392 per locale)
+/// Strings: 23698 (1394 per locale)
 ///
-/// Built on 2026-06-07 at 10:02 UTC
+/// Built on 2026-06-07 at 12:03 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1862,6 +1862,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
   String get desktop_clipboard_enabled_hint =>
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -4976,6 +4979,11 @@ class _StringsAr extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -8174,6 +8182,11 @@ class _StringsDe extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -11385,6 +11398,11 @@ class _StringsEs extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -14616,6 +14634,11 @@ class _StringsFr extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -17770,6 +17793,11 @@ class _StringsId extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -20966,6 +20994,11 @@ class _StringsIt extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -23988,6 +24021,11 @@ class _StringsJa extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -27011,6 +27049,11 @@ class _StringsKo extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -30189,6 +30232,11 @@ class _StringsNl extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -33380,6 +33428,11 @@ class _StringsPtBr extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -36556,6 +36609,11 @@ class _StringsRu extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -39671,6 +39729,11 @@ class _StringsTh extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -42825,6 +42888,11 @@ class _StringsTr extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -45959,6 +46027,11 @@ class _StringsVi extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -48904,6 +48977,10 @@ class _StringsZhCn extends _StringsEn {
   String get desktop_clipboard_enabled_hint => '监听剪贴板+全局热键弹出查词窗（桌面）';
   @override
   String get desktop_clipboard_always_on_top => '查词时窗口置顶';
+  @override
+  String get texthooker_experimental_banner => '文本钩子为实验性功能：实时文本、查词与制卡可能尚不稳定。';
+  @override
+  String get settings_experimental_suffix => '（实验性，可能不稳定）';
 }
 
 // Path: retrying_in
@@ -51901,6 +51978,11 @@ class _StringsZhHk extends _StringsEn {
       'Watch clipboard + global hotkey to pop a lookup window (desktop)';
   @override
   String get desktop_clipboard_always_on_top => 'Keep lookup window on top';
+  @override
+  String get texthooker_experimental_banner =>
+      'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+  @override
+  String get settings_experimental_suffix => ' (experimental, may be unstable)';
 }
 
 // Path: retrying_in
@@ -54796,6 +54878,10 @@ extension on _StringsEn {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -57649,6 +57735,10 @@ extension on _StringsAr {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -60518,6 +60608,10 @@ extension on _StringsDe {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -63385,6 +63479,10 @@ extension on _StringsEs {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -66254,6 +66352,10 @@ extension on _StringsFr {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -69112,6 +69214,10 @@ extension on _StringsId {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -71978,6 +72084,10 @@ extension on _StringsIt {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -74820,6 +74930,10 @@ extension on _StringsJa {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -77664,6 +77778,10 @@ extension on _StringsKo {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -80527,6 +80645,10 @@ extension on _StringsNl {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -83389,6 +83511,10 @@ extension on _StringsPtBr {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -86252,6 +86378,10 @@ extension on _StringsRu {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -89106,6 +89236,10 @@ extension on _StringsTh {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -91963,6 +92097,10 @@ extension on _StringsTr {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -94817,6 +94955,10 @@ extension on _StringsVi {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
@@ -97649,6 +97791,10 @@ extension on _StringsZhCn {
         return '监听剪贴板+全局热键弹出查词窗（桌面）';
       case 'desktop_clipboard_always_on_top':
         return '查词时窗口置顶';
+      case 'texthooker_experimental_banner':
+        return '文本钩子为实验性功能：实时文本、查词与制卡可能尚不稳定。';
+      case 'settings_experimental_suffix':
+        return '（实验性，可能不稳定）';
       default:
         return null;
     }
@@ -100490,6 +100636,10 @@ extension on _StringsZhHk {
         return 'Watch clipboard + global hotkey to pop a lookup window (desktop)';
       case 'desktop_clipboard_always_on_top':
         return 'Keep lookup window on top';
+      case 'texthooker_experimental_banner':
+        return 'Texthooker is experimental — live text, lookup and card creation may be unstable.';
+      case 'settings_experimental_suffix':
+        return ' (experimental, may be unstable)';
       default:
         return null;
     }
