@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 24344 (1432 per locale)
+/// Strings: 24446 (1438 per locale)
 ///
-/// Built on 2026-06-09 at 05:58 UTC
+/// Built on 2026-06-09 at 06:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1592,6 +1592,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get desktop_clipboard_window_mode_always => 'Always';
 	String get popup_instant_scroll => 'Instant popup scroll';
 	String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	String get remote_video_interconnect => 'Hibiki P2P';
+	String get remote_video_paired_device => 'Paired device videos';
+	String get remote_video_download => 'Download to this device';
+	String get remote_video_downloaded => 'Downloaded remote video';
+	String get remote_video_load_failed => 'Could not load paired device videos';
+	String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -3077,6 +3083,12 @@ class _StringsAr extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -4562,6 +4574,12 @@ class _StringsDe extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -6047,6 +6065,12 @@ class _StringsEs extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -7532,6 +7556,12 @@ class _StringsFr extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -9017,6 +9047,12 @@ class _StringsId extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -10502,6 +10538,12 @@ class _StringsIt extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -11987,6 +12029,12 @@ class _StringsJa extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -13472,6 +13520,12 @@ class _StringsKo extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -14957,6 +15011,12 @@ class _StringsNl extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_normal => 'Off';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -16442,6 +16502,12 @@ class _StringsPtBr extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -17927,6 +17993,12 @@ class _StringsRu extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -19412,6 +19484,12 @@ class _StringsTh extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -20897,6 +20975,12 @@ class _StringsTr extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -22382,6 +22466,12 @@ class _StringsVi extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_normal => 'Off';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -23867,6 +23957,12 @@ class _StringsZhCn extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_normal => '不置顶';
 	@override String get popup_instant_scroll => '查词弹窗瞬时滚动';
 	@override String get popup_instant_scroll_hint => '为墨水屏使用：查词弹窗按固定距离瞬时跳动，不播放滚动动画。';
+	@override String get remote_video_interconnect => 'Hibiki 互联';
+	@override String get remote_video_paired_device => '对端设备视频';
+	@override String get remote_video_download => '下载到本机';
+	@override String get remote_video_downloaded => '已下载对端视频';
+	@override String get remote_video_load_failed => '无法加载对端设备视频';
+	@override String get remote_video_download_failed => '无法下载对端视频';
 }
 
 // Path: retrying_in
@@ -25352,6 +25448,12 @@ class _StringsZhHk extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_normal => 'Off';
 	@override String get popup_instant_scroll => 'Instant popup scroll';
 	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+	@override String get remote_video_interconnect => 'Hibiki P2P';
+	@override String get remote_video_paired_device => 'Paired device videos';
+	@override String get remote_video_download => 'Download to this device';
+	@override String get remote_video_downloaded => 'Downloaded remote video';
+	@override String get remote_video_load_failed => 'Could not load paired device videos';
+	@override String get remote_video_download_failed => 'Could not download remote video';
 }
 
 // Path: retrying_in
@@ -26822,6 +26924,12 @@ extension on _StringsEn {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -28266,6 +28374,12 @@ extension on _StringsAr {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -29710,6 +29824,12 @@ extension on _StringsDe {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -31154,6 +31274,12 @@ extension on _StringsEs {
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -32598,6 +32724,12 @@ extension on _StringsFr {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -34042,6 +34174,12 @@ extension on _StringsId {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -35486,6 +35624,12 @@ extension on _StringsIt {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -36930,6 +37074,12 @@ extension on _StringsJa {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -38374,6 +38524,12 @@ extension on _StringsKo {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -39818,6 +39974,12 @@ extension on _StringsNl {
 			case 'desktop_clipboard_window_mode_normal': return 'Off';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -41262,6 +41424,12 @@ extension on _StringsPtBr {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -42706,6 +42874,12 @@ extension on _StringsRu {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -44150,6 +44324,12 @@ extension on _StringsTh {
 			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -45594,6 +45774,12 @@ extension on _StringsTr {
 			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -47038,6 +47224,12 @@ extension on _StringsVi {
 			case 'desktop_clipboard_window_mode_normal': return 'Off';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
@@ -48482,6 +48674,12 @@ extension on _StringsZhCn {
 			case 'desktop_clipboard_window_mode_normal': return '不置顶';
 			case 'popup_instant_scroll': return '查词弹窗瞬时滚动';
 			case 'popup_instant_scroll_hint': return '为墨水屏使用：查词弹窗按固定距离瞬时跳动，不播放滚动动画。';
+			case 'remote_video_interconnect': return 'Hibiki 互联';
+			case 'remote_video_paired_device': return '对端设备视频';
+			case 'remote_video_download': return '下载到本机';
+			case 'remote_video_downloaded': return '已下载对端视频';
+			case 'remote_video_load_failed': return '无法加载对端设备视频';
+			case 'remote_video_download_failed': return '无法下载对端视频';
 			default: return null;
 		}
 	}
@@ -49926,6 +50124,12 @@ extension on _StringsZhHk {
 			case 'desktop_clipboard_window_mode_normal': return 'Off';
 			case 'popup_instant_scroll': return 'Instant popup scroll';
 			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
+			case 'remote_video_interconnect': return 'Hibiki P2P';
+			case 'remote_video_paired_device': return 'Paired device videos';
+			case 'remote_video_download': return 'Download to this device';
+			case 'remote_video_downloaded': return 'Downloaded remote video';
+			case 'remote_video_load_failed': return 'Could not load paired device videos';
+			case 'remote_video_download_failed': return 'Could not download remote video';
 			default: return null;
 		}
 	}
