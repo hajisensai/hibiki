@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 23834 (1402 per locale)
+/// Strings: 23868 (1404 per locale)
 ///
-/// Built on 2026-06-08 at 01:45 UTC
+/// Built on 2026-06-08 at 05:11 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1562,6 +1562,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -3017,6 +3019,8 @@ class _StringsAr extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -4472,6 +4476,8 @@ class _StringsDe extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -5927,6 +5933,8 @@ class _StringsEs extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -7382,6 +7390,8 @@ class _StringsFr extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -8837,6 +8847,8 @@ class _StringsId extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -10292,6 +10304,8 @@ class _StringsIt extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -11747,6 +11761,8 @@ class _StringsJa extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -13202,6 +13218,8 @@ class _StringsKo extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -14657,6 +14675,8 @@ class _StringsNl extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -16112,6 +16132,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -17567,6 +17589,8 @@ class _StringsRu extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -19022,6 +19046,8 @@ class _StringsTh extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -20477,6 +20503,8 @@ class _StringsTr extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -21932,6 +21960,8 @@ class _StringsVi extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -23387,6 +23417,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => '已导入 ${count} 个着色器';
 	@override String get video_subtitle_graphic_hint => '图形字幕 · 画面显示 · 不可查词';
 	@override String video_subtitle_graphic_shown({required Object label}) => '已显示图形字幕（画面显示，不可查词）：${label}';
+	@override String get focus_navigation_enabled => '键盘/手柄焦点导航';
+	@override String get focus_navigation_enabled_hint => '用方向键或手柄移动焦点并显示焦点环。';
 }
 
 // Path: retrying_in
@@ -24842,6 +24874,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
 	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
 	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+	@override String get focus_navigation_enabled => 'Keyboard & gamepad focus navigation';
+	@override String get focus_navigation_enabled_hint => 'Move focus with arrow keys or a gamepad and show a focus ring.';
 }
 
 // Path: retrying_in
@@ -26282,6 +26316,8 @@ extension on _StringsEn {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -27696,6 +27732,8 @@ extension on _StringsAr {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -29110,6 +29148,8 @@ extension on _StringsDe {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -30524,6 +30564,8 @@ extension on _StringsEs {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -31938,6 +31980,8 @@ extension on _StringsFr {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -33352,6 +33396,8 @@ extension on _StringsId {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -34766,6 +34812,8 @@ extension on _StringsIt {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -36180,6 +36228,8 @@ extension on _StringsJa {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -37594,6 +37644,8 @@ extension on _StringsKo {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -39008,6 +39060,8 @@ extension on _StringsNl {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -40422,6 +40476,8 @@ extension on _StringsPtBr {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -41836,6 +41892,8 @@ extension on _StringsRu {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -43250,6 +43308,8 @@ extension on _StringsTh {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -44664,6 +44724,8 @@ extension on _StringsTr {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -46078,6 +46140,8 @@ extension on _StringsVi {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
@@ -47492,6 +47556,8 @@ extension on _StringsZhCn {
 			case 'video_shader_import_done': return ({required Object count}) => '已导入 ${count} 个着色器';
 			case 'video_subtitle_graphic_hint': return '图形字幕 · 画面显示 · 不可查词';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => '已显示图形字幕（画面显示，不可查词）：${label}';
+			case 'focus_navigation_enabled': return '键盘/手柄焦点导航';
+			case 'focus_navigation_enabled_hint': return '用方向键或手柄移动焦点并显示焦点环。';
 			default: return null;
 		}
 	}
@@ -48906,6 +48972,8 @@ extension on _StringsZhHk {
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
 			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
 			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
+			case 'focus_navigation_enabled': return 'Keyboard & gamepad focus navigation';
+			case 'focus_navigation_enabled_hint': return 'Move focus with arrow keys or a gamepad and show a focus ring.';
 			default: return null;
 		}
 	}
