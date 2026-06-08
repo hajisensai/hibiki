@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 23800 (1400 per locale)
+/// Strings: 23834 (1402 per locale)
 ///
-/// Built on 2026-06-07 at 16:44 UTC
+/// Built on 2026-06-08 at 01:45 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1560,6 +1560,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -3013,6 +3015,8 @@ class _StringsAr extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -4466,6 +4470,8 @@ class _StringsDe extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -5919,6 +5925,8 @@ class _StringsEs extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -7372,6 +7380,8 @@ class _StringsFr extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -8825,6 +8835,8 @@ class _StringsId extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -10278,6 +10290,8 @@ class _StringsIt extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -11731,6 +11745,8 @@ class _StringsJa extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -13184,6 +13200,8 @@ class _StringsKo extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -14637,6 +14655,8 @@ class _StringsNl extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -16090,6 +16110,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -17543,6 +17565,8 @@ class _StringsRu extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -18996,6 +19020,8 @@ class _StringsTh extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -20449,6 +20475,8 @@ class _StringsTr extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -21902,6 +21930,8 @@ class _StringsVi extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -23355,6 +23385,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_shader_mpv_not_found => '未发现本机 mpv 着色器';
 	@override String get video_shader_mpv_pick_title => '从 mpv 导入着色器';
 	@override String video_shader_import_done({required Object count}) => '已导入 ${count} 个着色器';
+	@override String get video_subtitle_graphic_hint => '图形字幕 · 画面显示 · 不可查词';
+	@override String video_subtitle_graphic_shown({required Object label}) => '已显示图形字幕（画面显示，不可查词）：${label}';
 }
 
 // Path: retrying_in
@@ -24808,6 +24840,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_shader_mpv_not_found => 'No local mpv shaders found';
 	@override String get video_shader_mpv_pick_title => 'Import shaders from mpv';
 	@override String video_shader_import_done({required Object count}) => 'Imported ${count} shader(s)';
+	@override String get video_subtitle_graphic_hint => 'Graphic subtitle · shown on video · no word lookup';
+	@override String video_subtitle_graphic_shown({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 }
 
 // Path: retrying_in
@@ -26246,6 +26280,8 @@ extension on _StringsEn {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -27658,6 +27694,8 @@ extension on _StringsAr {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -29070,6 +29108,8 @@ extension on _StringsDe {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -30482,6 +30522,8 @@ extension on _StringsEs {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -31894,6 +31936,8 @@ extension on _StringsFr {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -33306,6 +33350,8 @@ extension on _StringsId {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -34718,6 +34764,8 @@ extension on _StringsIt {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -36130,6 +36178,8 @@ extension on _StringsJa {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -37542,6 +37592,8 @@ extension on _StringsKo {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -38954,6 +39006,8 @@ extension on _StringsNl {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -40366,6 +40420,8 @@ extension on _StringsPtBr {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -41778,6 +41834,8 @@ extension on _StringsRu {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -43190,6 +43248,8 @@ extension on _StringsTh {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -44602,6 +44662,8 @@ extension on _StringsTr {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -46014,6 +46076,8 @@ extension on _StringsVi {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
@@ -47426,6 +47490,8 @@ extension on _StringsZhCn {
 			case 'video_shader_mpv_not_found': return '未发现本机 mpv 着色器';
 			case 'video_shader_mpv_pick_title': return '从 mpv 导入着色器';
 			case 'video_shader_import_done': return ({required Object count}) => '已导入 ${count} 个着色器';
+			case 'video_subtitle_graphic_hint': return '图形字幕 · 画面显示 · 不可查词';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => '已显示图形字幕（画面显示，不可查词）：${label}';
 			default: return null;
 		}
 	}
@@ -48838,6 +48904,8 @@ extension on _StringsZhHk {
 			case 'video_shader_mpv_not_found': return 'No local mpv shaders found';
 			case 'video_shader_mpv_pick_title': return 'Import shaders from mpv';
 			case 'video_shader_import_done': return ({required Object count}) => 'Imported ${count} shader(s)';
+			case 'video_subtitle_graphic_hint': return 'Graphic subtitle · shown on video · no word lookup';
+			case 'video_subtitle_graphic_shown': return ({required Object label}) => 'Graphic subtitle shown on video (no word lookup): ${label}';
 			default: return null;
 		}
 	}
