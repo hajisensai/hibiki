@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 24446 (1438 per locale)
+/// Strings: 24480 (1440 per locale)
 ///
-/// Built on 2026-06-09 at 06:05 UTC
+/// Built on 2026-06-09 at 06:37 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1598,6 +1598,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get remote_video_downloaded => 'Downloaded remote video';
 	String get remote_video_load_failed => 'Could not load paired device videos';
 	String get remote_video_download_failed => 'Could not download remote video';
+	String get video_setting_subtitle_font_weight => 'Font weight';
+	String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -3089,6 +3091,8 @@ class _StringsAr extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -4580,6 +4584,8 @@ class _StringsDe extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -6071,6 +6077,8 @@ class _StringsEs extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -7562,6 +7570,8 @@ class _StringsFr extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -9053,6 +9063,8 @@ class _StringsId extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -10544,6 +10556,8 @@ class _StringsIt extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -12035,6 +12049,8 @@ class _StringsJa extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -13526,6 +13542,8 @@ class _StringsKo extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -15017,6 +15035,8 @@ class _StringsNl extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -16508,6 +16528,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -17999,6 +18021,8 @@ class _StringsRu extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -19490,6 +19514,8 @@ class _StringsTh extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -20981,6 +21007,8 @@ class _StringsTr extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -22472,6 +22500,8 @@ class _StringsVi extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -23963,6 +23993,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get remote_video_downloaded => '已下载对端视频';
 	@override String get remote_video_load_failed => '无法加载对端设备视频';
 	@override String get remote_video_download_failed => '无法下载对端视频';
+	@override String get video_setting_subtitle_font_weight => '字重';
+	@override String get video_setting_subtitle_shadow => '阴影';
 }
 
 // Path: retrying_in
@@ -25454,6 +25486,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get remote_video_downloaded => 'Downloaded remote video';
 	@override String get remote_video_load_failed => 'Could not load paired device videos';
 	@override String get remote_video_download_failed => 'Could not download remote video';
+	@override String get video_setting_subtitle_font_weight => 'Font weight';
+	@override String get video_setting_subtitle_shadow => 'Shadow';
 }
 
 // Path: retrying_in
@@ -26930,6 +26964,8 @@ extension on _StringsEn {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -28380,6 +28416,8 @@ extension on _StringsAr {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -29830,6 +29868,8 @@ extension on _StringsDe {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -31280,6 +31320,8 @@ extension on _StringsEs {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -32730,6 +32772,8 @@ extension on _StringsFr {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -34180,6 +34224,8 @@ extension on _StringsId {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -35630,6 +35676,8 @@ extension on _StringsIt {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -37080,6 +37128,8 @@ extension on _StringsJa {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -38530,6 +38580,8 @@ extension on _StringsKo {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -39980,6 +40032,8 @@ extension on _StringsNl {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -41430,6 +41484,8 @@ extension on _StringsPtBr {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -42880,6 +42936,8 @@ extension on _StringsRu {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -44330,6 +44388,8 @@ extension on _StringsTh {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -45780,6 +45840,8 @@ extension on _StringsTr {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -47230,6 +47292,8 @@ extension on _StringsVi {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
@@ -48680,6 +48744,8 @@ extension on _StringsZhCn {
 			case 'remote_video_downloaded': return '已下载对端视频';
 			case 'remote_video_load_failed': return '无法加载对端设备视频';
 			case 'remote_video_download_failed': return '无法下载对端视频';
+			case 'video_setting_subtitle_font_weight': return '字重';
+			case 'video_setting_subtitle_shadow': return '阴影';
 			default: return null;
 		}
 	}
@@ -50130,6 +50196,8 @@ extension on _StringsZhHk {
 			case 'remote_video_downloaded': return 'Downloaded remote video';
 			case 'remote_video_load_failed': return 'Could not load paired device videos';
 			case 'remote_video_download_failed': return 'Could not download remote video';
+			case 'video_setting_subtitle_font_weight': return 'Font weight';
+			case 'video_setting_subtitle_shadow': return 'Shadow';
 			default: return null;
 		}
 	}
