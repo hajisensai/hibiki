@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 24310 (1430 per locale)
+/// Strings: 24344 (1432 per locale)
 ///
-/// Built on 2026-06-09 at 05:54 UTC
+/// Built on 2026-06-09 at 05:58 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1590,6 +1590,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 	String get desktop_clipboard_window_mode_always => 'Always';
+	String get popup_instant_scroll => 'Instant popup scroll';
+	String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -3073,6 +3075,8 @@ class _StringsAr extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -4556,6 +4560,8 @@ class _StringsDe extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -6039,6 +6045,8 @@ class _StringsEs extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -7522,6 +7530,8 @@ class _StringsFr extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -9005,6 +9015,8 @@ class _StringsId extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -10488,6 +10500,8 @@ class _StringsIt extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get desktop_clipboard_window_mode_normal => 'Off';
 	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -11971,6 +11985,8 @@ class _StringsJa extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get desktop_clipboard_window_mode_normal => 'Off';
 	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -13454,6 +13470,8 @@ class _StringsKo extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get desktop_clipboard_window_mode_normal => 'Off';
 	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -14937,6 +14955,8 @@ class _StringsNl extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -16420,6 +16440,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get desktop_clipboard_window_mode_normal => 'Off';
 	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -17903,6 +17925,8 @@ class _StringsRu extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get desktop_clipboard_window_mode_normal => 'Off';
 	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -19386,6 +19410,8 @@ class _StringsTh extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -20869,6 +20895,8 @@ class _StringsTr extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -22352,6 +22380,8 @@ class _StringsVi extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -23835,6 +23865,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => '始终置顶';
 	@override String get desktop_clipboard_window_mode_lookup => '仅查词期间';
 	@override String get desktop_clipboard_window_mode_normal => '不置顶';
+	@override String get popup_instant_scroll => '查词弹窗瞬时滚动';
+	@override String get popup_instant_scroll_hint => '为墨水屏使用：查词弹窗按固定距离瞬时跳动，不播放滚动动画。';
 }
 
 // Path: retrying_in
@@ -25318,6 +25350,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get desktop_clipboard_window_mode_always => 'Always';
 	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get popup_instant_scroll => 'Instant popup scroll';
+	@override String get popup_instant_scroll_hint => 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 }
 
 // Path: retrying_in
@@ -26786,6 +26820,8 @@ extension on _StringsEn {
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -28228,6 +28264,8 @@ extension on _StringsAr {
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -29670,6 +29708,8 @@ extension on _StringsDe {
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -31112,6 +31152,8 @@ extension on _StringsEs {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -32554,6 +32596,8 @@ extension on _StringsFr {
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -33996,6 +34040,8 @@ extension on _StringsId {
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
 			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -35438,6 +35484,8 @@ extension on _StringsIt {
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_normal': return 'Off';
 			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -36880,6 +36928,8 @@ extension on _StringsJa {
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_normal': return 'Off';
 			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -38322,6 +38372,8 @@ extension on _StringsKo {
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_normal': return 'Off';
 			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -39764,6 +39816,8 @@ extension on _StringsNl {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -41206,6 +41260,8 @@ extension on _StringsPtBr {
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_normal': return 'Off';
 			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -42648,6 +42704,8 @@ extension on _StringsRu {
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_normal': return 'Off';
 			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -44090,6 +44148,8 @@ extension on _StringsTh {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -45532,6 +45592,8 @@ extension on _StringsTr {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows. Only watches the clipboard and global hotkey on the lookup tab.';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -46974,6 +47036,8 @@ extension on _StringsVi {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
@@ -48416,6 +48480,8 @@ extension on _StringsZhCn {
 			case 'desktop_clipboard_window_mode_always': return '始终置顶';
 			case 'desktop_clipboard_window_mode_lookup': return '仅查词期间';
 			case 'desktop_clipboard_window_mode_normal': return '不置顶';
+			case 'popup_instant_scroll': return '查词弹窗瞬时滚动';
+			case 'popup_instant_scroll_hint': return '为墨水屏使用：查词弹窗按固定距离瞬时跳动，不播放滚动动画。';
 			default: return null;
 		}
 	}
@@ -49858,6 +49924,8 @@ extension on _StringsZhHk {
 			case 'desktop_clipboard_window_mode_always': return 'Always';
 			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'popup_instant_scroll': return 'Instant popup scroll';
+			case 'popup_instant_scroll_hint': return 'Jump the lookup popup by fixed distances without animated scrolling for e-ink screens.';
 			default: return null;
 		}
 	}
