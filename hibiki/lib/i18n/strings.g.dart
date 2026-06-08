@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 24225 (1425 per locale)
+/// Strings: 24310 (1430 per locale)
 ///
-/// Built on 2026-06-09 at 05:23 UTC
+/// Built on 2026-06-09 at 05:27 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1585,6 +1585,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	String get desktop_clipboard_window_mode => 'Window pinning';
+	String get desktop_clipboard_window_mode_normal => 'Off';
+	String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+	String get desktop_clipboard_window_mode_always => 'Always';
 }
 
 // Path: retrying_in
@@ -3063,6 +3068,11 @@ class _StringsAr extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
 }
 
 // Path: retrying_in
@@ -4541,6 +4551,11 @@ class _StringsDe extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
 }
 
 // Path: retrying_in
@@ -6019,6 +6034,11 @@ class _StringsEs extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
 }
 
 // Path: retrying_in
@@ -7497,6 +7517,11 @@ class _StringsFr extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
 }
 
 // Path: retrying_in
@@ -8975,6 +9000,11 @@ class _StringsId extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
 }
 
 // Path: retrying_in
@@ -10453,6 +10483,11 @@ class _StringsIt extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
 }
 
 // Path: retrying_in
@@ -11931,6 +11966,11 @@ class _StringsJa extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
 }
 
 // Path: retrying_in
@@ -13409,6 +13449,11 @@ class _StringsKo extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
 }
 
 // Path: retrying_in
@@ -14887,6 +14932,11 @@ class _StringsNl extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
 }
 
 // Path: retrying_in
@@ -16365,6 +16415,11 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
 }
 
 // Path: retrying_in
@@ -17843,6 +17898,11 @@ class _StringsRu extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
 }
 
 // Path: retrying_in
@@ -19321,6 +19381,11 @@ class _StringsTh extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
 }
 
 // Path: retrying_in
@@ -20799,6 +20864,11 @@ class _StringsTr extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
 }
 
 // Path: retrying_in
@@ -22277,6 +22347,11 @@ class _StringsVi extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
 }
 
 // Path: retrying_in
@@ -23755,6 +23830,11 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => '经典神经网络放大，nns 越大质量越高、越吃 GPU。';
 	@override String get floating_lyric_click_lookup => '点击悬浮字幕查词';
 	@override String get floating_lyric_click_lookup_hint => '锁定悬浮字幕位置时仍可保留点击查词。';
+	@override String get desktop_clipboard_window_mode => '窗口置顶策略';
+	@override String get desktop_clipboard_window_mode_hint => '控制 Hibiki 是否保持在其他窗口上方；剪贴板查词仍只在查词页启用';
+	@override String get desktop_clipboard_window_mode_always => '始终置顶';
+	@override String get desktop_clipboard_window_mode_lookup => '仅查词期间';
+	@override String get desktop_clipboard_window_mode_normal => '不置顶';
 }
 
 // Path: retrying_in
@@ -25233,6 +25313,11 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
 	@override String get floating_lyric_click_lookup_hint => 'Keep this on with position lock if you still want word lookup.';
+	@override String get desktop_clipboard_window_mode => 'Window pinning';
+	@override String get desktop_clipboard_window_mode_hint => 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+	@override String get desktop_clipboard_window_mode_always => 'Always';
+	@override String get desktop_clipboard_window_mode_lookup => 'Lookup only';
+	@override String get desktop_clipboard_window_mode_normal => 'Off';
 }
 
 // Path: retrying_in
@@ -26696,6 +26781,11 @@ extension on _StringsEn {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
 			default: return null;
 		}
 	}
@@ -28133,6 +28223,11 @@ extension on _StringsAr {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
 			default: return null;
 		}
 	}
@@ -29570,6 +29665,11 @@ extension on _StringsDe {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
 			default: return null;
 		}
 	}
@@ -31007,6 +31107,11 @@ extension on _StringsEs {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
 			default: return null;
 		}
 	}
@@ -32444,6 +32549,11 @@ extension on _StringsFr {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
 			default: return null;
 		}
 	}
@@ -33881,6 +33991,11 @@ extension on _StringsId {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
 			default: return null;
 		}
 	}
@@ -35318,6 +35433,11 @@ extension on _StringsIt {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
 			default: return null;
 		}
 	}
@@ -36755,6 +36875,11 @@ extension on _StringsJa {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
 			default: return null;
 		}
 	}
@@ -38192,6 +38317,11 @@ extension on _StringsKo {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
 			default: return null;
 		}
 	}
@@ -39629,6 +39759,11 @@ extension on _StringsNl {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
 			default: return null;
 		}
 	}
@@ -41066,6 +41201,11 @@ extension on _StringsPtBr {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
 			default: return null;
 		}
 	}
@@ -42503,6 +42643,11 @@ extension on _StringsRu {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
 			default: return null;
 		}
 	}
@@ -43940,6 +44085,11 @@ extension on _StringsTh {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
 			default: return null;
 		}
 	}
@@ -45377,6 +45527,11 @@ extension on _StringsTr {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
 			default: return null;
 		}
 	}
@@ -46814,6 +46969,11 @@ extension on _StringsVi {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
 			default: return null;
 		}
 	}
@@ -48251,6 +48411,11 @@ extension on _StringsZhCn {
 			case 'video_shader_desc_nnedi3': return '经典神经网络放大，nns 越大质量越高、越吃 GPU。';
 			case 'floating_lyric_click_lookup': return '点击悬浮字幕查词';
 			case 'floating_lyric_click_lookup_hint': return '锁定悬浮字幕位置时仍可保留点击查词。';
+			case 'desktop_clipboard_window_mode': return '窗口置顶策略';
+			case 'desktop_clipboard_window_mode_hint': return '控制 Hibiki 是否保持在其他窗口上方；剪贴板查词仍只在查词页启用';
+			case 'desktop_clipboard_window_mode_always': return '始终置顶';
+			case 'desktop_clipboard_window_mode_lookup': return '仅查词期间';
+			case 'desktop_clipboard_window_mode_normal': return '不置顶';
 			default: return null;
 		}
 	}
@@ -49688,6 +49853,11 @@ extension on _StringsZhHk {
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
 			case 'floating_lyric_click_lookup_hint': return 'Keep this on with position lock if you still want word lookup.';
+			case 'desktop_clipboard_window_mode': return 'Window pinning';
+			case 'desktop_clipboard_window_mode_hint': return 'Controls whether Hibiki stays above other windows; clipboard lookup still only runs on the lookup tab';
+			case 'desktop_clipboard_window_mode_always': return 'Always';
+			case 'desktop_clipboard_window_mode_lookup': return 'Lookup only';
+			case 'desktop_clipboard_window_mode_normal': return 'Off';
 			default: return null;
 		}
 	}
