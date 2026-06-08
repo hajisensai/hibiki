@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 24480 (1440 per locale)
+/// Strings: 24582 (1446 per locale)
 ///
-/// Built on 2026-06-09 at 06:37 UTC
+/// Built on 2026-06-09 at 08:19 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1600,6 +1600,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get remote_video_download_failed => 'Could not download remote video';
 	String get video_setting_subtitle_font_weight => 'Font weight';
 	String get video_setting_subtitle_shadow => 'Shadow';
+	String get remote_book_interconnect => 'Hibiki P2P';
+	String get remote_book_paired_device => 'Paired device books';
+	String get remote_book_download => 'Download to this device';
+	String get remote_book_downloaded => 'Downloaded remote book';
+	String get remote_book_load_failed => 'Could not load paired device books';
+	String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -3093,6 +3099,12 @@ class _StringsAr extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -4586,6 +4598,12 @@ class _StringsDe extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -6079,6 +6097,12 @@ class _StringsEs extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -7572,6 +7596,12 @@ class _StringsFr extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -9065,6 +9095,12 @@ class _StringsId extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -10558,6 +10594,12 @@ class _StringsIt extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -12051,6 +12093,12 @@ class _StringsJa extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -13544,6 +13592,12 @@ class _StringsKo extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -15037,6 +15091,12 @@ class _StringsNl extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -16530,6 +16590,12 @@ class _StringsPtBr extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -18023,6 +18089,12 @@ class _StringsRu extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -19516,6 +19588,12 @@ class _StringsTh extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -21009,6 +21087,12 @@ class _StringsTr extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -22502,6 +22586,12 @@ class _StringsVi extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -23995,6 +24085,12 @@ class _StringsZhCn extends _StringsEn {
 	@override String get remote_video_download_failed => '无法下载对端视频';
 	@override String get video_setting_subtitle_font_weight => '字重';
 	@override String get video_setting_subtitle_shadow => '阴影';
+	@override String get remote_book_interconnect => 'Hibiki 互联';
+	@override String get remote_book_paired_device => '对端设备书籍';
+	@override String get remote_book_download => '下载到本机';
+	@override String get remote_book_downloaded => '已下载对端书籍';
+	@override String get remote_book_load_failed => '无法加载对端设备书籍';
+	@override String get remote_book_download_failed => '无法下载对端书籍';
 }
 
 // Path: retrying_in
@@ -25488,6 +25584,12 @@ class _StringsZhHk extends _StringsEn {
 	@override String get remote_video_download_failed => 'Could not download remote video';
 	@override String get video_setting_subtitle_font_weight => 'Font weight';
 	@override String get video_setting_subtitle_shadow => 'Shadow';
+	@override String get remote_book_interconnect => 'Hibiki P2P';
+	@override String get remote_book_paired_device => 'Paired device books';
+	@override String get remote_book_download => 'Download to this device';
+	@override String get remote_book_downloaded => 'Downloaded remote book';
+	@override String get remote_book_load_failed => 'Could not load paired device books';
+	@override String get remote_book_download_failed => 'Could not download remote book';
 }
 
 // Path: retrying_in
@@ -26966,6 +27068,12 @@ extension on _StringsEn {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -28418,6 +28526,12 @@ extension on _StringsAr {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -29870,6 +29984,12 @@ extension on _StringsDe {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -31322,6 +31442,12 @@ extension on _StringsEs {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -32774,6 +32900,12 @@ extension on _StringsFr {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -34226,6 +34358,12 @@ extension on _StringsId {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -35678,6 +35816,12 @@ extension on _StringsIt {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -37130,6 +37274,12 @@ extension on _StringsJa {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -38582,6 +38732,12 @@ extension on _StringsKo {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -40034,6 +40190,12 @@ extension on _StringsNl {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -41486,6 +41648,12 @@ extension on _StringsPtBr {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -42938,6 +43106,12 @@ extension on _StringsRu {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -44390,6 +44564,12 @@ extension on _StringsTh {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -45842,6 +46022,12 @@ extension on _StringsTr {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -47294,6 +47480,12 @@ extension on _StringsVi {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
@@ -48746,6 +48938,12 @@ extension on _StringsZhCn {
 			case 'remote_video_download_failed': return '无法下载对端视频';
 			case 'video_setting_subtitle_font_weight': return '字重';
 			case 'video_setting_subtitle_shadow': return '阴影';
+			case 'remote_book_interconnect': return 'Hibiki 互联';
+			case 'remote_book_paired_device': return '对端设备书籍';
+			case 'remote_book_download': return '下载到本机';
+			case 'remote_book_downloaded': return '已下载对端书籍';
+			case 'remote_book_load_failed': return '无法加载对端设备书籍';
+			case 'remote_book_download_failed': return '无法下载对端书籍';
 			default: return null;
 		}
 	}
@@ -50198,6 +50396,12 @@ extension on _StringsZhHk {
 			case 'remote_video_download_failed': return 'Could not download remote video';
 			case 'video_setting_subtitle_font_weight': return 'Font weight';
 			case 'video_setting_subtitle_shadow': return 'Shadow';
+			case 'remote_book_interconnect': return 'Hibiki P2P';
+			case 'remote_book_paired_device': return 'Paired device books';
+			case 'remote_book_download': return 'Download to this device';
+			case 'remote_book_downloaded': return 'Downloaded remote book';
+			case 'remote_book_load_failed': return 'Could not load paired device books';
+			case 'remote_book_download_failed': return 'Could not download remote book';
 			default: return null;
 		}
 	}
