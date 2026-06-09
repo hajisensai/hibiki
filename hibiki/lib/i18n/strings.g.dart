@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 24582 (1446 per locale)
 ///
-/// Built on 2026-06-09 at 08:19 UTC
+/// Built on 2026-06-09 at 11:47 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1531,7 +1531,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get stat_mined => 'Cards mined';
 	String get stat_favorited => 'Favorited';
 	String get video_settings_cat_playback => 'Playback';
-	String get video_settings_cat_shaders => 'Shaders';
+	String get video_settings_cat_shaders => 'Image enhancement';
 	String get video_settings_cat_mpv => 'mpv';
 	String get video_settings_cat_subtitle => 'Subtitles';
 	String get log_upload_action => 'Upload to server';
@@ -1579,8 +1579,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	String get video_shader_recommended => 'Recommended shaders';
-	String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	String get video_shader_recommended => 'Recommended image enhancements';
+	String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -3030,7 +3030,7 @@ class _StringsAr extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => 'Image enhancement';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -3078,8 +3078,8 @@ class _StringsAr extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => 'Recommended image enhancements';
+	@override String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -4529,7 +4529,7 @@ class _StringsDe extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => 'Image enhancement';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -4577,8 +4577,8 @@ class _StringsDe extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => 'Recommended image enhancements';
+	@override String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -6028,7 +6028,7 @@ class _StringsEs extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => 'Image enhancement';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -6076,8 +6076,8 @@ class _StringsEs extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => 'Recommended image enhancements';
+	@override String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -7527,7 +7527,7 @@ class _StringsFr extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => 'Image enhancement';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -7575,8 +7575,8 @@ class _StringsFr extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => 'Recommended image enhancements';
+	@override String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -9026,7 +9026,7 @@ class _StringsId extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => 'Image enhancement';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -9074,8 +9074,8 @@ class _StringsId extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => 'Recommended image enhancements';
+	@override String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -10525,7 +10525,7 @@ class _StringsIt extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => 'Image enhancement';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -10573,8 +10573,8 @@ class _StringsIt extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => 'Recommended image enhancements';
+	@override String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -12024,7 +12024,7 @@ class _StringsJa extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => 'Image enhancement';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -12072,8 +12072,8 @@ class _StringsJa extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => 'Recommended image enhancements';
+	@override String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -13523,7 +13523,7 @@ class _StringsKo extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => 'Image enhancement';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -13571,8 +13571,8 @@ class _StringsKo extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => 'Recommended image enhancements';
+	@override String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -15022,7 +15022,7 @@ class _StringsNl extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => 'Image enhancement';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -15070,8 +15070,8 @@ class _StringsNl extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => 'Recommended image enhancements';
+	@override String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -16521,7 +16521,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => 'Image enhancement';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -16569,8 +16569,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => 'Recommended image enhancements';
+	@override String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -18020,7 +18020,7 @@ class _StringsRu extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => 'Image enhancement';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -18068,8 +18068,8 @@ class _StringsRu extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => 'Recommended image enhancements';
+	@override String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -19519,7 +19519,7 @@ class _StringsTh extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => 'Image enhancement';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -19567,8 +19567,8 @@ class _StringsTh extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => 'Recommended image enhancements';
+	@override String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -21018,7 +21018,7 @@ class _StringsTr extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => 'Image enhancement';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -21066,8 +21066,8 @@ class _StringsTr extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => 'Recommended image enhancements';
+	@override String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -22517,7 +22517,7 @@ class _StringsVi extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => 'Image enhancement';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -22565,8 +22565,8 @@ class _StringsVi extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => 'Recommended image enhancements';
+	@override String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -24016,7 +24016,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get stat_mined => '制卡';
 	@override String get stat_favorited => '收藏';
 	@override String get video_settings_cat_playback => '播放';
-	@override String get video_settings_cat_shaders => '着色器';
+	@override String get video_settings_cat_shaders => '画质增强';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => '字幕';
 	@override String get log_upload_action => '上传到服务器';
@@ -24064,8 +24064,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_shader_url_hint => '粘贴着色器 .glsl 链接（如 GitHub）';
 	@override String get video_shader_preset_mode_b_hq => '720p 旧番高画质（重采样伪影），需较强 GPU。';
 	@override String get video_shader_preset_mode_c_hq => '480p SD 老番高画质（压缩涂抹，带去噪），需较强 GPU。';
-	@override String get video_shader_recommended => '推荐着色器';
-	@override String get video_shader_recommended_hint => '除 Anime4K 外的经典放大着色器，不必本机装 mpv。';
+	@override String get video_shader_recommended => '推荐画质增强';
+	@override String get video_shader_recommended_hint => '除 Anime4K 外的经典画质增强模板，不必本机装 mpv。';
 	@override String get video_shader_desc_ravu => '通用亮度放大，轻量快速（r2 更快，r3 更精细）。';
 	@override String get video_shader_desc_nnedi3 => '经典神经网络放大，nns 越大质量越高、越吃 GPU。';
 	@override String get floating_lyric_click_lookup => '点击悬浮字幕查词';
@@ -25515,7 +25515,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get stat_mined => 'Cards mined';
 	@override String get stat_favorited => 'Favorited';
 	@override String get video_settings_cat_playback => 'Playback';
-	@override String get video_settings_cat_shaders => 'Shaders';
+	@override String get video_settings_cat_shaders => '畫質增強';
 	@override String get video_settings_cat_mpv => 'mpv';
 	@override String get video_settings_cat_subtitle => 'Subtitles';
 	@override String get log_upload_action => 'Upload to server';
@@ -25563,8 +25563,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_shader_url_hint => 'Paste a shader .glsl link (e.g. GitHub)';
 	@override String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	@override String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-	@override String get video_shader_recommended => 'Recommended shaders';
-	@override String get video_shader_recommended_hint => 'Classic upscalers besides Anime4K — no local mpv needed.';
+	@override String get video_shader_recommended => '推薦畫質增強';
+	@override String get video_shader_recommended_hint => '除 Anime4K 外的經典畫質增強模板，不必本機裝 mpv。';
 	@override String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	@override String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	@override String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -26999,7 +26999,7 @@ extension on _StringsEn {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -27047,8 +27047,8 @@ extension on _StringsEn {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -28457,7 +28457,7 @@ extension on _StringsAr {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -28505,8 +28505,8 @@ extension on _StringsAr {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -29915,7 +29915,7 @@ extension on _StringsDe {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -29963,8 +29963,8 @@ extension on _StringsDe {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -31373,7 +31373,7 @@ extension on _StringsEs {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -31421,8 +31421,8 @@ extension on _StringsEs {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -32831,7 +32831,7 @@ extension on _StringsFr {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -32879,8 +32879,8 @@ extension on _StringsFr {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -34289,7 +34289,7 @@ extension on _StringsId {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -34337,8 +34337,8 @@ extension on _StringsId {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -35747,7 +35747,7 @@ extension on _StringsIt {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -35795,8 +35795,8 @@ extension on _StringsIt {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -37205,7 +37205,7 @@ extension on _StringsJa {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -37253,8 +37253,8 @@ extension on _StringsJa {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -38663,7 +38663,7 @@ extension on _StringsKo {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -38711,8 +38711,8 @@ extension on _StringsKo {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -40121,7 +40121,7 @@ extension on _StringsNl {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -40169,8 +40169,8 @@ extension on _StringsNl {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -41579,7 +41579,7 @@ extension on _StringsPtBr {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -41627,8 +41627,8 @@ extension on _StringsPtBr {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -43037,7 +43037,7 @@ extension on _StringsRu {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -43085,8 +43085,8 @@ extension on _StringsRu {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -44495,7 +44495,7 @@ extension on _StringsTh {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -44543,8 +44543,8 @@ extension on _StringsTh {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -45953,7 +45953,7 @@ extension on _StringsTr {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -46001,8 +46001,8 @@ extension on _StringsTr {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -47411,7 +47411,7 @@ extension on _StringsVi {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return 'Image enhancement';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -47459,8 +47459,8 @@ extension on _StringsVi {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return 'Recommended image enhancements';
+			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -48869,7 +48869,7 @@ extension on _StringsZhCn {
 			case 'stat_mined': return '制卡';
 			case 'stat_favorited': return '收藏';
 			case 'video_settings_cat_playback': return '播放';
-			case 'video_settings_cat_shaders': return '着色器';
+			case 'video_settings_cat_shaders': return '画质增强';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return '字幕';
 			case 'log_upload_action': return '上传到服务器';
@@ -48917,8 +48917,8 @@ extension on _StringsZhCn {
 			case 'video_shader_url_hint': return '粘贴着色器 .glsl 链接（如 GitHub）';
 			case 'video_shader_preset_mode_b_hq': return '720p 旧番高画质（重采样伪影），需较强 GPU。';
 			case 'video_shader_preset_mode_c_hq': return '480p SD 老番高画质（压缩涂抹，带去噪），需较强 GPU。';
-			case 'video_shader_recommended': return '推荐着色器';
-			case 'video_shader_recommended_hint': return '除 Anime4K 外的经典放大着色器，不必本机装 mpv。';
+			case 'video_shader_recommended': return '推荐画质增强';
+			case 'video_shader_recommended_hint': return '除 Anime4K 外的经典画质增强模板，不必本机装 mpv。';
 			case 'video_shader_desc_ravu': return '通用亮度放大，轻量快速（r2 更快，r3 更精细）。';
 			case 'video_shader_desc_nnedi3': return '经典神经网络放大，nns 越大质量越高、越吃 GPU。';
 			case 'floating_lyric_click_lookup': return '点击悬浮字幕查词';
@@ -50327,7 +50327,7 @@ extension on _StringsZhHk {
 			case 'stat_mined': return 'Cards mined';
 			case 'stat_favorited': return 'Favorited';
 			case 'video_settings_cat_playback': return 'Playback';
-			case 'video_settings_cat_shaders': return 'Shaders';
+			case 'video_settings_cat_shaders': return '畫質增強';
 			case 'video_settings_cat_mpv': return 'mpv';
 			case 'video_settings_cat_subtitle': return 'Subtitles';
 			case 'log_upload_action': return 'Upload to server';
@@ -50375,8 +50375,8 @@ extension on _StringsZhHk {
 			case 'video_shader_url_hint': return 'Paste a shader .glsl link (e.g. GitHub)';
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
-			case 'video_shader_recommended': return 'Recommended shaders';
-			case 'video_shader_recommended_hint': return 'Classic upscalers besides Anime4K — no local mpv needed.';
+			case 'video_shader_recommended': return '推薦畫質增強';
+			case 'video_shader_recommended_hint': return '除 Anime4K 外的經典畫質增強模板，不必本機裝 mpv。';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
