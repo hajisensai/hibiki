@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 24599 (1447 per locale)
+/// Strings: 24667 (1451 per locale)
 ///
-/// Built on 2026-06-09 at 13:27 UTC
+/// Built on 2026-06-09 at 15:52 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1607,6 +1607,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get remote_book_load_failed => 'Could not load paired device books';
 	String get remote_book_download_failed => 'Could not download remote book';
 	String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	String get reader_copy_image => 'Copy image';
+	String get reader_image_file_unavailable => 'Image file is unavailable.';
+	String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -3107,6 +3111,10 @@ class _StringsAr extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -4607,6 +4615,10 @@ class _StringsDe extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -6107,6 +6119,10 @@ class _StringsEs extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -7607,6 +7623,10 @@ class _StringsFr extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -9107,6 +9127,10 @@ class _StringsId extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -10607,6 +10631,10 @@ class _StringsIt extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -12107,6 +12135,10 @@ class _StringsJa extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -13607,6 +13639,10 @@ class _StringsKo extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -15107,6 +15143,10 @@ class _StringsNl extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -16607,6 +16647,10 @@ class _StringsPtBr extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -18107,6 +18151,10 @@ class _StringsRu extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -19607,6 +19655,10 @@ class _StringsTh extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -21107,6 +21159,10 @@ class _StringsTr extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -22607,6 +22663,10 @@ class _StringsVi extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -24107,6 +24167,10 @@ class _StringsZhCn extends _StringsEn {
 	@override String get remote_book_load_failed => '无法加载对端设备书籍';
 	@override String get remote_book_download_failed => '无法下载对端书籍';
 	@override String get video_drop_audio_unsupported => '请把字幕文件拖到当前视频上。音频文件不能在这里关联。';
+	@override String get reader_copy_image => '复制图片';
+	@override String get reader_image_file_unavailable => '图片文件不可用。';
+	@override String reader_image_copy_failed({required Object error}) => '复制图片失败：${error}';
+	@override String reader_image_share_failed({required Object error}) => '分享图片失败：${error}';
 }
 
 // Path: retrying_in
@@ -25607,6 +25671,10 @@ class _StringsZhHk extends _StringsEn {
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
 	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+	@override String get reader_copy_image => 'Copy image';
+	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
+	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
+	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
 }
 
 // Path: retrying_in
@@ -27092,6 +27160,10 @@ extension on _StringsEn {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -28551,6 +28623,10 @@ extension on _StringsAr {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -30010,6 +30086,10 @@ extension on _StringsDe {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -31469,6 +31549,10 @@ extension on _StringsEs {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -32928,6 +33012,10 @@ extension on _StringsFr {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -34387,6 +34475,10 @@ extension on _StringsId {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -35846,6 +35938,10 @@ extension on _StringsIt {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -37305,6 +37401,10 @@ extension on _StringsJa {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -38764,6 +38864,10 @@ extension on _StringsKo {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -40223,6 +40327,10 @@ extension on _StringsNl {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -41682,6 +41790,10 @@ extension on _StringsPtBr {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -43141,6 +43253,10 @@ extension on _StringsRu {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -44600,6 +44716,10 @@ extension on _StringsTh {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -46059,6 +46179,10 @@ extension on _StringsTr {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -47518,6 +47642,10 @@ extension on _StringsVi {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
@@ -48977,6 +49105,10 @@ extension on _StringsZhCn {
 			case 'remote_book_load_failed': return '无法加载对端设备书籍';
 			case 'remote_book_download_failed': return '无法下载对端书籍';
 			case 'video_drop_audio_unsupported': return '请把字幕文件拖到当前视频上。音频文件不能在这里关联。';
+			case 'reader_copy_image': return '复制图片';
+			case 'reader_image_file_unavailable': return '图片文件不可用。';
+			case 'reader_image_copy_failed': return ({required Object error}) => '复制图片失败：${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => '分享图片失败：${error}';
 			default: return null;
 		}
 	}
@@ -50436,6 +50568,10 @@ extension on _StringsZhHk {
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
 			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
+			case 'reader_copy_image': return 'Copy image';
+			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
+			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
+			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
 			default: return null;
 		}
 	}
