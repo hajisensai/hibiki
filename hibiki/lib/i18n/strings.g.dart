@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 24582 (1446 per locale)
+/// Strings: 24599 (1447 per locale)
 ///
-/// Built on 2026-06-09 at 11:47 UTC
+/// Built on 2026-06-09 at 13:27 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1606,6 +1606,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get remote_book_downloaded => 'Downloaded remote book';
 	String get remote_book_load_failed => 'Could not load paired device books';
 	String get remote_book_download_failed => 'Could not download remote book';
+	String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -3105,6 +3106,7 @@ class _StringsAr extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -4604,6 +4606,7 @@ class _StringsDe extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -6103,6 +6106,7 @@ class _StringsEs extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -7602,6 +7606,7 @@ class _StringsFr extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -9101,6 +9106,7 @@ class _StringsId extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -10600,6 +10606,7 @@ class _StringsIt extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -12099,6 +12106,7 @@ class _StringsJa extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -13598,6 +13606,7 @@ class _StringsKo extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -15097,6 +15106,7 @@ class _StringsNl extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -16596,6 +16606,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -18095,6 +18106,7 @@ class _StringsRu extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -19594,6 +19606,7 @@ class _StringsTh extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -21093,6 +21106,7 @@ class _StringsTr extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -22592,6 +22606,7 @@ class _StringsVi extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -24091,6 +24106,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get remote_book_downloaded => '已下载对端书籍';
 	@override String get remote_book_load_failed => '无法加载对端设备书籍';
 	@override String get remote_book_download_failed => '无法下载对端书籍';
+	@override String get video_drop_audio_unsupported => '请把字幕文件拖到当前视频上。音频文件不能在这里关联。';
 }
 
 // Path: retrying_in
@@ -25590,6 +25606,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get remote_book_downloaded => 'Downloaded remote book';
 	@override String get remote_book_load_failed => 'Could not load paired device books';
 	@override String get remote_book_download_failed => 'Could not download remote book';
+	@override String get video_drop_audio_unsupported => 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 }
 
 // Path: retrying_in
@@ -27074,6 +27091,7 @@ extension on _StringsEn {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -28532,6 +28550,7 @@ extension on _StringsAr {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -29990,6 +30009,7 @@ extension on _StringsDe {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -31448,6 +31468,7 @@ extension on _StringsEs {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -32906,6 +32927,7 @@ extension on _StringsFr {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -34364,6 +34386,7 @@ extension on _StringsId {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -35822,6 +35845,7 @@ extension on _StringsIt {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -37280,6 +37304,7 @@ extension on _StringsJa {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -38738,6 +38763,7 @@ extension on _StringsKo {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -40196,6 +40222,7 @@ extension on _StringsNl {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -41654,6 +41681,7 @@ extension on _StringsPtBr {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -43112,6 +43140,7 @@ extension on _StringsRu {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -44570,6 +44599,7 @@ extension on _StringsTh {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -46028,6 +46058,7 @@ extension on _StringsTr {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -47486,6 +47517,7 @@ extension on _StringsVi {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
@@ -48944,6 +48976,7 @@ extension on _StringsZhCn {
 			case 'remote_book_downloaded': return '已下载对端书籍';
 			case 'remote_book_load_failed': return '无法加载对端设备书籍';
 			case 'remote_book_download_failed': return '无法下载对端书籍';
+			case 'video_drop_audio_unsupported': return '请把字幕文件拖到当前视频上。音频文件不能在这里关联。';
 			default: return null;
 		}
 	}
@@ -50402,6 +50435,7 @@ extension on _StringsZhHk {
 			case 'remote_book_downloaded': return 'Downloaded remote book';
 			case 'remote_book_load_failed': return 'Could not load paired device books';
 			case 'remote_book_download_failed': return 'Could not download remote book';
+			case 'video_drop_audio_unsupported': return 'Drop subtitle files onto the current video. Audio files cannot be attached here.';
 			default: return null;
 		}
 	}
