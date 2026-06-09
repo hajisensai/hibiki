@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 24667 (1451 per locale)
+/// Strings: 24684 (1452 per locale)
 ///
-/// Built on 2026-06-09 at 15:13 UTC
+/// Built on 2026-06-09 at 23:32 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1611,6 +1611,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_shader_section_import => 'Import shaders';
 	String get video_shader_section_installed => 'Installed shaders';
 	String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -3115,6 +3116,7 @@ class _StringsAr extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -4619,6 +4621,7 @@ class _StringsDe extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -6123,6 +6126,7 @@ class _StringsEs extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -7627,6 +7631,7 @@ class _StringsFr extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -9131,6 +9136,7 @@ class _StringsId extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -10635,6 +10641,7 @@ class _StringsIt extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -12139,6 +12146,7 @@ class _StringsJa extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -13643,6 +13651,7 @@ class _StringsKo extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -15147,6 +15156,7 @@ class _StringsNl extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -16651,6 +16661,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -18155,6 +18166,7 @@ class _StringsRu extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -19659,6 +19671,7 @@ class _StringsTh extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -21163,6 +21176,7 @@ class _StringsTr extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -22667,6 +22681,7 @@ class _StringsVi extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -24171,6 +24186,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_shader_section_import => '导入着色器';
 	@override String get video_shader_section_installed => '已安装着色器';
 	@override String get video_quality_enhancement_hint => '默认使用 mpv 内置高画质缩放；下方选择的着色器只会在开启时应用。';
+	@override String tag_added_to_video({required Object name}) => '标签「${name}」已添加到视频。';
 }
 
 // Path: retrying_in
@@ -25675,6 +25691,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String tag_added_to_video({required Object name}) => 'Tag ${name} added to video.';
 }
 
 // Path: retrying_in
@@ -27164,6 +27181,7 @@ extension on _StringsEn {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -28627,6 +28645,7 @@ extension on _StringsAr {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -30090,6 +30109,7 @@ extension on _StringsDe {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -31553,6 +31573,7 @@ extension on _StringsEs {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -33016,6 +33037,7 @@ extension on _StringsFr {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -34479,6 +34501,7 @@ extension on _StringsId {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -35942,6 +35965,7 @@ extension on _StringsIt {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -37405,6 +37429,7 @@ extension on _StringsJa {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -38868,6 +38893,7 @@ extension on _StringsKo {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -40331,6 +40357,7 @@ extension on _StringsNl {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -41794,6 +41821,7 @@ extension on _StringsPtBr {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -43257,6 +43285,7 @@ extension on _StringsRu {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -44720,6 +44749,7 @@ extension on _StringsTh {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -46183,6 +46213,7 @@ extension on _StringsTr {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -47646,6 +47677,7 @@ extension on _StringsVi {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
@@ -49109,6 +49141,7 @@ extension on _StringsZhCn {
 			case 'video_shader_section_import': return '导入着色器';
 			case 'video_shader_section_installed': return '已安装着色器';
 			case 'video_quality_enhancement_hint': return '默认使用 mpv 内置高画质缩放；下方选择的着色器只会在开启时应用。';
+			case 'tag_added_to_video': return ({required Object name}) => '标签「${name}」已添加到视频。';
 			default: return null;
 		}
 	}
@@ -50572,6 +50605,7 @@ extension on _StringsZhHk {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'tag_added_to_video': return ({required Object name}) => 'Tag ${name} added to video.';
 			default: return null;
 		}
 	}
