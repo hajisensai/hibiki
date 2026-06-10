@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25330 (1490 per locale)
+/// Strings: 25364 (1492 per locale)
 ///
-/// Built on 2026-06-10 at 18:32 UTC
+/// Built on 2026-06-10 at 19:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1650,6 +1650,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get font_target_body => 'Novel Text Font';
 	String get font_target_dictionary => 'Dictionary Font';
 	String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -3193,6 +3195,8 @@ class _StringsAr extends _StringsEn {
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -4736,6 +4740,8 @@ class _StringsDe extends _StringsEn {
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -6279,6 +6285,8 @@ class _StringsEs extends _StringsEn {
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -7822,6 +7830,8 @@ class _StringsFr extends _StringsEn {
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -9365,6 +9375,8 @@ class _StringsId extends _StringsEn {
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -10908,6 +10920,8 @@ class _StringsIt extends _StringsEn {
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -12451,6 +12465,8 @@ class _StringsJa extends _StringsEn {
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -13994,6 +14010,8 @@ class _StringsKo extends _StringsEn {
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -15537,6 +15555,8 @@ class _StringsNl extends _StringsEn {
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -17080,6 +17100,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -18623,6 +18645,8 @@ class _StringsRu extends _StringsEn {
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -20166,6 +20190,8 @@ class _StringsTh extends _StringsEn {
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -21709,6 +21735,8 @@ class _StringsTr extends _StringsEn {
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -23252,6 +23280,8 @@ class _StringsVi extends _StringsEn {
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -24795,6 +24825,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get font_target_body => '小说正文字体';
 	@override String get font_target_dictionary => '词典字体';
 	@override String get video_setting_subtitle_sync_input => '偏移 (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => '已为《${title}》挂上字幕（${count} 句）';
+	@override String get video_subtitle_attach_playlist_hint => '请进入播放页按集挂载字幕';
 }
 
 // Path: retrying_in
@@ -26338,6 +26370,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get font_target_body => '小說正文字體';
 	@override String get font_target_dictionary => '詞典字體';
 	@override String get video_setting_subtitle_sync_input => '偏移 (ms)';
+	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
 }
 
 // Path: retrying_in
@@ -27866,6 +27900,8 @@ extension on _StringsEn {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -29368,6 +29404,8 @@ extension on _StringsAr {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -30870,6 +30908,8 @@ extension on _StringsDe {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -32372,6 +32412,8 @@ extension on _StringsEs {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -33874,6 +33916,8 @@ extension on _StringsFr {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -35376,6 +35420,8 @@ extension on _StringsId {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -36878,6 +36924,8 @@ extension on _StringsIt {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -38380,6 +38428,8 @@ extension on _StringsJa {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -39882,6 +39932,8 @@ extension on _StringsKo {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -41384,6 +41436,8 @@ extension on _StringsNl {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -42886,6 +42940,8 @@ extension on _StringsPtBr {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -44388,6 +44444,8 @@ extension on _StringsRu {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -45890,6 +45948,8 @@ extension on _StringsTh {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -47392,6 +47452,8 @@ extension on _StringsTr {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -48894,6 +48956,8 @@ extension on _StringsVi {
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
@@ -50396,6 +50460,8 @@ extension on _StringsZhCn {
 			case 'font_target_body': return '小说正文字体';
 			case 'font_target_dictionary': return '词典字体';
 			case 'video_setting_subtitle_sync_input': return '偏移 (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => '已为《${title}》挂上字幕（${count} 句）';
+			case 'video_subtitle_attach_playlist_hint': return '请进入播放页按集挂载字幕';
 			default: return null;
 		}
 	}
@@ -51898,6 +51964,8 @@ extension on _StringsZhHk {
 			case 'font_target_body': return '小說正文字體';
 			case 'font_target_dictionary': return '詞典字體';
 			case 'video_setting_subtitle_sync_input': return '偏移 (ms)';
+			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
+			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
 			default: return null;
 		}
 	}
