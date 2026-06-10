@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25007 (1471 per locale)
+/// Strings: 25262 (1486 per locale)
 ///
-/// Built on 2026-06-10 at 11:02 UTC
+/// Built on 2026-06-10 at 13:48 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1631,6 +1631,21 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	String get video_shader_quality_tier => 'Quality enhancement';
+	String get video_shader_tier_off => 'Off';
+	String get video_shader_tier_low => 'Low';
+	String get video_shader_tier_medium => 'Medium';
+	String get video_shader_tier_high => 'High';
+	String get video_shader_tier_ultra => 'Ultra';
+	String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	String get video_shader_first_use_download => 'Download and enable';
+	String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -3155,6 +3170,21 @@ class _StringsAr extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -4679,6 +4709,21 @@ class _StringsDe extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -6203,6 +6248,21 @@ class _StringsEs extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -7727,6 +7787,21 @@ class _StringsFr extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -9251,6 +9326,21 @@ class _StringsId extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -10775,6 +10865,21 @@ class _StringsIt extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -12299,6 +12404,21 @@ class _StringsJa extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -13823,6 +13943,21 @@ class _StringsKo extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -15347,6 +15482,21 @@ class _StringsNl extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -16871,6 +17021,21 @@ class _StringsPtBr extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -18395,6 +18560,21 @@ class _StringsRu extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -19919,6 +20099,21 @@ class _StringsTh extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -21443,6 +21638,21 @@ class _StringsTr extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -22967,6 +23177,21 @@ class _StringsVi extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -24491,6 +24716,21 @@ class _StringsZhCn extends _StringsEn {
 	@override String get sync_err_invalid_client => '客户端凭据无效，请更新 App。';
 	@override String get sync_err_not_configured => '此构建未配置谷歌同步凭据。';
 	@override String get floating_lyric_unavailable_hint => '无法显示悬浮字幕窗口。';
+	@override String get video_shader_quality_tier => '画质增强';
+	@override String get video_shader_tier_off => '无';
+	@override String get video_shader_tier_low => '低';
+	@override String get video_shader_tier_medium => '中';
+	@override String get video_shader_tier_high => '高';
+	@override String get video_shader_tier_ultra => '极高';
+	@override String get video_shader_tier_off_hint => '不增强，按原画播放。';
+	@override String get video_shader_tier_low_hint => 'mpv 内置锐化缩放（ewa_lanczossharp），零下载、低 GPU 负担。';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast，适合多数动画，中端 GPU 可跑。';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ，更清晰，需要较强 GPU。';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32，HD 番最佳画质，需要旗舰 GPU。';
+	@override String get video_shader_tier_custom_hint => '自定义着色器组合。点上方档位可切回预设。';
+	@override String get video_shader_section_advanced => '进阶（手动着色器）';
+	@override String get video_shader_first_use_download => '一键下载并启用';
+	@override String get video_shader_mobile_perf_hint => '手机上着色器仅在标准 GPU 渲染路径下生效，实际效果因机型 GPU 而异；高档位可能掉帧或发热。建议先用低/中档，并在本机确认效果。';
 }
 
 // Path: retrying_in
@@ -26015,6 +26255,21 @@ class _StringsZhHk extends _StringsEn {
 	@override String get sync_err_invalid_client => 'Client credentials are invalid for this build — please update the app.';
 	@override String get sync_err_not_configured => 'Google sync credentials are not configured in this build.';
 	@override String get floating_lyric_unavailable_hint => 'Could not show the floating subtitle window.';
+	@override String get video_shader_quality_tier => 'Quality enhancement';
+	@override String get video_shader_tier_off => 'Off';
+	@override String get video_shader_tier_low => 'Low';
+	@override String get video_shader_tier_medium => 'Medium';
+	@override String get video_shader_tier_high => 'High';
+	@override String get video_shader_tier_ultra => 'Ultra';
+	@override String get video_shader_tier_off_hint => 'No enhancement. Plays the original video as-is.';
+	@override String get video_shader_tier_low_hint => 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+	@override String get video_shader_tier_medium_hint => 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+	@override String get video_shader_tier_high_hint => 'Anime4K HQ. Sharper, needs a strong GPU.';
+	@override String get video_shader_tier_ultra_hint => 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+	@override String get video_shader_tier_custom_hint => 'Custom shader selection. Pick a tier above to switch to a preset.';
+	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
+	@override String get video_shader_first_use_download => 'Download and enable';
+	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 }
 
 // Path: retrying_in
@@ -27524,6 +27779,21 @@ extension on _StringsEn {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -29007,6 +29277,21 @@ extension on _StringsAr {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -30490,6 +30775,21 @@ extension on _StringsDe {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -31973,6 +32273,21 @@ extension on _StringsEs {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -33456,6 +33771,21 @@ extension on _StringsFr {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -34939,6 +35269,21 @@ extension on _StringsId {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -36422,6 +36767,21 @@ extension on _StringsIt {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -37905,6 +38265,21 @@ extension on _StringsJa {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -39388,6 +39763,21 @@ extension on _StringsKo {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -40871,6 +41261,21 @@ extension on _StringsNl {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -42354,6 +42759,21 @@ extension on _StringsPtBr {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -43837,6 +44257,21 @@ extension on _StringsRu {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -45320,6 +45755,21 @@ extension on _StringsTh {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -46803,6 +47253,21 @@ extension on _StringsTr {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -48286,6 +48751,21 @@ extension on _StringsVi {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
@@ -49769,6 +50249,21 @@ extension on _StringsZhCn {
 			case 'sync_err_invalid_client': return '客户端凭据无效，请更新 App。';
 			case 'sync_err_not_configured': return '此构建未配置谷歌同步凭据。';
 			case 'floating_lyric_unavailable_hint': return '无法显示悬浮字幕窗口。';
+			case 'video_shader_quality_tier': return '画质增强';
+			case 'video_shader_tier_off': return '无';
+			case 'video_shader_tier_low': return '低';
+			case 'video_shader_tier_medium': return '中';
+			case 'video_shader_tier_high': return '高';
+			case 'video_shader_tier_ultra': return '极高';
+			case 'video_shader_tier_off_hint': return '不增强，按原画播放。';
+			case 'video_shader_tier_low_hint': return 'mpv 内置锐化缩放（ewa_lanczossharp），零下载、低 GPU 负担。';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast，适合多数动画，中端 GPU 可跑。';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ，更清晰，需要较强 GPU。';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32，HD 番最佳画质，需要旗舰 GPU。';
+			case 'video_shader_tier_custom_hint': return '自定义着色器组合。点上方档位可切回预设。';
+			case 'video_shader_section_advanced': return '进阶（手动着色器）';
+			case 'video_shader_first_use_download': return '一键下载并启用';
+			case 'video_shader_mobile_perf_hint': return '手机上着色器仅在标准 GPU 渲染路径下生效，实际效果因机型 GPU 而异；高档位可能掉帧或发热。建议先用低/中档，并在本机确认效果。';
 			default: return null;
 		}
 	}
@@ -51252,6 +51747,21 @@ extension on _StringsZhHk {
 			case 'sync_err_invalid_client': return 'Client credentials are invalid for this build — please update the app.';
 			case 'sync_err_not_configured': return 'Google sync credentials are not configured in this build.';
 			case 'floating_lyric_unavailable_hint': return 'Could not show the floating subtitle window.';
+			case 'video_shader_quality_tier': return 'Quality enhancement';
+			case 'video_shader_tier_off': return 'Off';
+			case 'video_shader_tier_low': return 'Low';
+			case 'video_shader_tier_medium': return 'Medium';
+			case 'video_shader_tier_high': return 'High';
+			case 'video_shader_tier_ultra': return 'Ultra';
+			case 'video_shader_tier_off_hint': return 'No enhancement. Plays the original video as-is.';
+			case 'video_shader_tier_low_hint': return 'mpv built-in sharpening (ewa_lanczossharp). No download, low GPU load.';
+			case 'video_shader_tier_medium_hint': return 'Anime4K Fast. Good for most anime on mid-range GPUs.';
+			case 'video_shader_tier_high_hint': return 'Anime4K HQ. Sharper, needs a strong GPU.';
+			case 'video_shader_tier_ultra_hint': return 'ArtCNN C4F32. Best quality for HD anime, needs a flagship GPU.';
+			case 'video_shader_tier_custom_hint': return 'Custom shader selection. Pick a tier above to switch to a preset.';
+			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
+			case 'video_shader_first_use_download': return 'Download and enable';
+			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
 			default: return null;
 		}
 	}
