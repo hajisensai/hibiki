@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25262 (1486 per locale)
+/// Strings: 25279 (1487 per locale)
 ///
-/// Built on 2026-06-10 at 13:48 UTC
+/// Built on 2026-06-10 at 14:31 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1646,6 +1646,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	String get video_shader_first_use_download => 'Download and enable';
 	String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -3185,6 +3186,7 @@ class _StringsAr extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -4724,6 +4726,7 @@ class _StringsDe extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -6263,6 +6266,7 @@ class _StringsEs extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -7802,6 +7806,7 @@ class _StringsFr extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -9341,6 +9346,7 @@ class _StringsId extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -10880,6 +10886,7 @@ class _StringsIt extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -12419,6 +12426,7 @@ class _StringsJa extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -13958,6 +13966,7 @@ class _StringsKo extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -15497,6 +15506,7 @@ class _StringsNl extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -17036,6 +17046,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -18575,6 +18586,7 @@ class _StringsRu extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -20114,6 +20126,7 @@ class _StringsTh extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -21653,6 +21666,7 @@ class _StringsTr extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -23192,6 +23206,7 @@ class _StringsVi extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -24731,6 +24746,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_shader_section_advanced => '进阶（手动着色器）';
 	@override String get video_shader_first_use_download => '一键下载并启用';
 	@override String get video_shader_mobile_perf_hint => '手机上着色器仅在标准 GPU 渲染路径下生效，实际效果因机型 GPU 而异；高档位可能掉帧或发热。建议先用低/中档，并在本机确认效果。';
+	@override String get stat_favorited_sentence => '收藏语句';
 }
 
 // Path: retrying_in
@@ -26270,6 +26286,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_shader_section_advanced => 'Advanced (manual shaders)';
 	@override String get video_shader_first_use_download => 'Download and enable';
 	@override String get video_shader_mobile_perf_hint => 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+	@override String get stat_favorited_sentence => 'Favorited sentences';
 }
 
 // Path: retrying_in
@@ -27794,6 +27811,7 @@ extension on _StringsEn {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -29292,6 +29310,7 @@ extension on _StringsAr {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -30790,6 +30809,7 @@ extension on _StringsDe {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -32288,6 +32308,7 @@ extension on _StringsEs {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -33786,6 +33807,7 @@ extension on _StringsFr {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -35284,6 +35306,7 @@ extension on _StringsId {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -36782,6 +36805,7 @@ extension on _StringsIt {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -38280,6 +38304,7 @@ extension on _StringsJa {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -39778,6 +39803,7 @@ extension on _StringsKo {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -41276,6 +41302,7 @@ extension on _StringsNl {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -42774,6 +42801,7 @@ extension on _StringsPtBr {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -44272,6 +44300,7 @@ extension on _StringsRu {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -45770,6 +45799,7 @@ extension on _StringsTh {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -47268,6 +47298,7 @@ extension on _StringsTr {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -48766,6 +48797,7 @@ extension on _StringsVi {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
@@ -50264,6 +50296,7 @@ extension on _StringsZhCn {
 			case 'video_shader_section_advanced': return '进阶（手动着色器）';
 			case 'video_shader_first_use_download': return '一键下载并启用';
 			case 'video_shader_mobile_perf_hint': return '手机上着色器仅在标准 GPU 渲染路径下生效，实际效果因机型 GPU 而异；高档位可能掉帧或发热。建议先用低/中档，并在本机确认效果。';
+			case 'stat_favorited_sentence': return '收藏语句';
 			default: return null;
 		}
 	}
@@ -51762,6 +51795,7 @@ extension on _StringsZhHk {
 			case 'video_shader_section_advanced': return 'Advanced (manual shaders)';
 			case 'video_shader_first_use_download': return 'Download and enable';
 			case 'video_shader_mobile_perf_hint': return 'On phones, shaders apply only on the standard GPU render path and effectiveness varies by device GPU; higher tiers may drop frames or heat up. Try Low/Medium first and check the result on your device.';
+			case 'stat_favorited_sentence': return 'Favorited sentences';
 			default: return null;
 		}
 	}
