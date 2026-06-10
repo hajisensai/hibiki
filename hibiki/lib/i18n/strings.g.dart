@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 25330 (1490 per locale)
 ///
-/// Built on 2026-06-10 at 16:25 UTC
+/// Built on 2026-06-10 at 17:31 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -708,7 +708,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get ttu_writing_direction => 'Writing Direction';
 	String get ttu_horizontal => 'Horizontal';
 	String get ttu_vertical => 'Vertical';
-	String get ttu_view_mode_label => 'View Mode';
+	String get ttu_view_mode_label => 'Page / Scroll';
 	String get ttu_paginated => 'Paginated';
 	String get ttu_scroll => 'Scroll';
 	String get ttu_furigana_mode => 'Furigana';
@@ -2235,7 +2235,7 @@ class _StringsAr extends _StringsEn {
 	@override String get ttu_writing_direction => 'اتجاه الكتابة';
 	@override String get ttu_horizontal => 'أفقي';
 	@override String get ttu_vertical => 'عمودي';
-	@override String get ttu_view_mode_label => 'وضع العرض';
+	@override String get ttu_view_mode_label => 'صفحات / تمرير';
 	@override String get ttu_paginated => 'صفحات';
 	@override String get ttu_scroll => 'تمرير';
 	@override String get ttu_furigana_mode => 'فوريغانا';
@@ -3778,7 +3778,7 @@ class _StringsDe extends _StringsEn {
 	@override String get ttu_writing_direction => 'Schreibrichtung';
 	@override String get ttu_horizontal => 'Horizontal';
 	@override String get ttu_vertical => 'Vertikal';
-	@override String get ttu_view_mode_label => 'Ansichtsmodus';
+	@override String get ttu_view_mode_label => 'Seiten / Scrollen';
 	@override String get ttu_paginated => 'Seitenweise';
 	@override String get ttu_scroll => 'Scrollen';
 	@override String get ttu_furigana_mode => 'Furigana';
@@ -5321,7 +5321,7 @@ class _StringsEs extends _StringsEn {
 	@override String get ttu_writing_direction => 'Dirección de escritura';
 	@override String get ttu_horizontal => 'Horizontal';
 	@override String get ttu_vertical => 'Vertical';
-	@override String get ttu_view_mode_label => 'Modo de vista';
+	@override String get ttu_view_mode_label => 'Páginas / Desplazamiento';
 	@override String get ttu_paginated => 'Paginado';
 	@override String get ttu_scroll => 'Desplazamiento';
 	@override String get ttu_furigana_mode => 'Furigana';
@@ -6864,7 +6864,7 @@ class _StringsFr extends _StringsEn {
 	@override String get ttu_writing_direction => 'Direction d\'écriture';
 	@override String get ttu_horizontal => 'Horizontal';
 	@override String get ttu_vertical => 'Vertical';
-	@override String get ttu_view_mode_label => 'Mode d\'affichage';
+	@override String get ttu_view_mode_label => 'Pages / Défilement';
 	@override String get ttu_paginated => 'Paginé';
 	@override String get ttu_scroll => 'Défilement';
 	@override String get ttu_furigana_mode => 'Furigana';
@@ -8407,7 +8407,7 @@ class _StringsId extends _StringsEn {
 	@override String get ttu_writing_direction => 'Arah Penulisan';
 	@override String get ttu_horizontal => 'Horizontal';
 	@override String get ttu_vertical => 'Vertikal';
-	@override String get ttu_view_mode_label => 'Mode Tampilan';
+	@override String get ttu_view_mode_label => 'Halaman / Gulir';
 	@override String get ttu_paginated => 'Paginasi';
 	@override String get ttu_scroll => 'Gulir';
 	@override String get ttu_furigana_mode => 'Furigana';
@@ -9950,7 +9950,7 @@ class _StringsIt extends _StringsEn {
 	@override String get ttu_writing_direction => 'Direzione di scrittura';
 	@override String get ttu_horizontal => 'Orizzontale';
 	@override String get ttu_vertical => 'Verticale';
-	@override String get ttu_view_mode_label => 'Modalità di visualizzazione';
+	@override String get ttu_view_mode_label => 'Pagine / Scorrimento';
 	@override String get ttu_paginated => 'Paginato';
 	@override String get ttu_scroll => 'Scorrimento';
 	@override String get ttu_furigana_mode => 'Furigana';
@@ -11493,7 +11493,7 @@ class _StringsJa extends _StringsEn {
 	@override String get ttu_writing_direction => '組方向';
 	@override String get ttu_horizontal => '横書き';
 	@override String get ttu_vertical => '縦書き';
-	@override String get ttu_view_mode_label => '表示モード';
+	@override String get ttu_view_mode_label => 'ページ / スクロール';
 	@override String get ttu_paginated => 'ページ送り';
 	@override String get ttu_scroll => 'スクロール';
 	@override String get ttu_furigana_mode => 'ふりがな';
@@ -13036,7 +13036,7 @@ class _StringsKo extends _StringsEn {
 	@override String get ttu_writing_direction => '글쓰기 방향';
 	@override String get ttu_horizontal => '가로';
 	@override String get ttu_vertical => '세로';
-	@override String get ttu_view_mode_label => '보기 모드';
+	@override String get ttu_view_mode_label => '페이지 / 스크롤';
 	@override String get ttu_paginated => '페이지 넘김';
 	@override String get ttu_scroll => '스크롤';
 	@override String get ttu_furigana_mode => '후리가나';
@@ -14579,7 +14579,7 @@ class _StringsNl extends _StringsEn {
 	@override String get ttu_writing_direction => 'Schrijfrichting';
 	@override String get ttu_horizontal => 'Horizontaal';
 	@override String get ttu_vertical => 'Verticaal';
-	@override String get ttu_view_mode_label => 'Weergavemodus';
+	@override String get ttu_view_mode_label => 'Pagina\'s / Scrollen';
 	@override String get ttu_paginated => 'Gepagineerd';
 	@override String get ttu_scroll => 'Scrollen';
 	@override String get ttu_furigana_mode => 'Furigana';
@@ -16122,7 +16122,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get ttu_writing_direction => 'Direção da Escrita';
 	@override String get ttu_horizontal => 'Horizontal';
 	@override String get ttu_vertical => 'Vertical';
-	@override String get ttu_view_mode_label => 'Modo de Visualização';
+	@override String get ttu_view_mode_label => 'Páginas / Rolagem';
 	@override String get ttu_paginated => 'Paginado';
 	@override String get ttu_scroll => 'Rolagem';
 	@override String get ttu_furigana_mode => 'Furigana';
@@ -17665,7 +17665,7 @@ class _StringsRu extends _StringsEn {
 	@override String get ttu_writing_direction => 'Направление письма';
 	@override String get ttu_horizontal => 'Горизонтальное';
 	@override String get ttu_vertical => 'Вертикальное';
-	@override String get ttu_view_mode_label => 'Режим просмотра';
+	@override String get ttu_view_mode_label => 'Страницы / Прокрутка';
 	@override String get ttu_paginated => 'Постраничный';
 	@override String get ttu_scroll => 'Прокрутка';
 	@override String get ttu_furigana_mode => 'Фуригана';
@@ -19208,7 +19208,7 @@ class _StringsTh extends _StringsEn {
 	@override String get ttu_writing_direction => 'ทิศทางการเขียน';
 	@override String get ttu_horizontal => 'แนวนอน';
 	@override String get ttu_vertical => 'แนวตั้ง';
-	@override String get ttu_view_mode_label => 'โหมดดู';
+	@override String get ttu_view_mode_label => 'หน้า / เลื่อน';
 	@override String get ttu_paginated => 'แบ่งหน้า';
 	@override String get ttu_scroll => 'เลื่อน';
 	@override String get ttu_furigana_mode => 'ฟุริงานะ';
@@ -20751,7 +20751,7 @@ class _StringsTr extends _StringsEn {
 	@override String get ttu_writing_direction => 'Yazı yönü';
 	@override String get ttu_horizontal => 'Yatay';
 	@override String get ttu_vertical => 'Dikey';
-	@override String get ttu_view_mode_label => 'Görünüm modu';
+	@override String get ttu_view_mode_label => 'Sayfa / Kaydırma';
 	@override String get ttu_paginated => 'Sayfalı';
 	@override String get ttu_scroll => 'Kaydırma';
 	@override String get ttu_furigana_mode => 'Furigana';
@@ -22294,7 +22294,7 @@ class _StringsVi extends _StringsEn {
 	@override String get ttu_writing_direction => 'Hướng viết';
 	@override String get ttu_horizontal => 'Ngang';
 	@override String get ttu_vertical => 'Dọc';
-	@override String get ttu_view_mode_label => 'Chế độ xem';
+	@override String get ttu_view_mode_label => 'Trang / Cuộn';
 	@override String get ttu_paginated => 'Phân trang';
 	@override String get ttu_scroll => 'Cuộn';
 	@override String get ttu_furigana_mode => 'Furigana';
@@ -23853,7 +23853,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get ttu_writing_direction => '排版方向';
 	@override String get ttu_horizontal => '横排';
 	@override String get ttu_vertical => '竖排';
-	@override String get ttu_view_mode_label => '视图模式';
+	@override String get ttu_view_mode_label => '翻页 / 滚动';
 	@override String get ttu_paginated => '翻页';
 	@override String get ttu_scroll => '滚动';
 	@override String get ttu_furigana_mode => '振假名';
@@ -25380,7 +25380,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get ttu_writing_direction => '排版方向';
 	@override String get ttu_horizontal => '橫排';
 	@override String get ttu_vertical => '直排';
-	@override String get ttu_view_mode_label => '檢視模式';
+	@override String get ttu_view_mode_label => '翻頁 / 捲動';
 	@override String get ttu_paginated => '翻頁';
 	@override String get ttu_scroll => '捲動';
 	@override String get ttu_furigana_mode => '振假名';
@@ -26924,7 +26924,7 @@ extension on _StringsEn {
 			case 'ttu_writing_direction': return 'Writing Direction';
 			case 'ttu_horizontal': return 'Horizontal';
 			case 'ttu_vertical': return 'Vertical';
-			case 'ttu_view_mode_label': return 'View Mode';
+			case 'ttu_view_mode_label': return 'Page / Scroll';
 			case 'ttu_paginated': return 'Paginated';
 			case 'ttu_scroll': return 'Scroll';
 			case 'ttu_furigana_mode': return 'Furigana';
@@ -28410,7 +28410,7 @@ extension on _StringsAr {
 			case 'ttu_writing_direction': return 'اتجاه الكتابة';
 			case 'ttu_horizontal': return 'أفقي';
 			case 'ttu_vertical': return 'عمودي';
-			case 'ttu_view_mode_label': return 'وضع العرض';
+			case 'ttu_view_mode_label': return 'صفحات / تمرير';
 			case 'ttu_paginated': return 'صفحات';
 			case 'ttu_scroll': return 'تمرير';
 			case 'ttu_furigana_mode': return 'فوريغانا';
@@ -29912,7 +29912,7 @@ extension on _StringsDe {
 			case 'ttu_writing_direction': return 'Schreibrichtung';
 			case 'ttu_horizontal': return 'Horizontal';
 			case 'ttu_vertical': return 'Vertikal';
-			case 'ttu_view_mode_label': return 'Ansichtsmodus';
+			case 'ttu_view_mode_label': return 'Seiten / Scrollen';
 			case 'ttu_paginated': return 'Seitenweise';
 			case 'ttu_scroll': return 'Scrollen';
 			case 'ttu_furigana_mode': return 'Furigana';
@@ -31414,7 +31414,7 @@ extension on _StringsEs {
 			case 'ttu_writing_direction': return 'Dirección de escritura';
 			case 'ttu_horizontal': return 'Horizontal';
 			case 'ttu_vertical': return 'Vertical';
-			case 'ttu_view_mode_label': return 'Modo de vista';
+			case 'ttu_view_mode_label': return 'Páginas / Desplazamiento';
 			case 'ttu_paginated': return 'Paginado';
 			case 'ttu_scroll': return 'Desplazamiento';
 			case 'ttu_furigana_mode': return 'Furigana';
@@ -32916,7 +32916,7 @@ extension on _StringsFr {
 			case 'ttu_writing_direction': return 'Direction d\'écriture';
 			case 'ttu_horizontal': return 'Horizontal';
 			case 'ttu_vertical': return 'Vertical';
-			case 'ttu_view_mode_label': return 'Mode d\'affichage';
+			case 'ttu_view_mode_label': return 'Pages / Défilement';
 			case 'ttu_paginated': return 'Paginé';
 			case 'ttu_scroll': return 'Défilement';
 			case 'ttu_furigana_mode': return 'Furigana';
@@ -34418,7 +34418,7 @@ extension on _StringsId {
 			case 'ttu_writing_direction': return 'Arah Penulisan';
 			case 'ttu_horizontal': return 'Horizontal';
 			case 'ttu_vertical': return 'Vertikal';
-			case 'ttu_view_mode_label': return 'Mode Tampilan';
+			case 'ttu_view_mode_label': return 'Halaman / Gulir';
 			case 'ttu_paginated': return 'Paginasi';
 			case 'ttu_scroll': return 'Gulir';
 			case 'ttu_furigana_mode': return 'Furigana';
@@ -35920,7 +35920,7 @@ extension on _StringsIt {
 			case 'ttu_writing_direction': return 'Direzione di scrittura';
 			case 'ttu_horizontal': return 'Orizzontale';
 			case 'ttu_vertical': return 'Verticale';
-			case 'ttu_view_mode_label': return 'Modalità di visualizzazione';
+			case 'ttu_view_mode_label': return 'Pagine / Scorrimento';
 			case 'ttu_paginated': return 'Paginato';
 			case 'ttu_scroll': return 'Scorrimento';
 			case 'ttu_furigana_mode': return 'Furigana';
@@ -37422,7 +37422,7 @@ extension on _StringsJa {
 			case 'ttu_writing_direction': return '組方向';
 			case 'ttu_horizontal': return '横書き';
 			case 'ttu_vertical': return '縦書き';
-			case 'ttu_view_mode_label': return '表示モード';
+			case 'ttu_view_mode_label': return 'ページ / スクロール';
 			case 'ttu_paginated': return 'ページ送り';
 			case 'ttu_scroll': return 'スクロール';
 			case 'ttu_furigana_mode': return 'ふりがな';
@@ -38924,7 +38924,7 @@ extension on _StringsKo {
 			case 'ttu_writing_direction': return '글쓰기 방향';
 			case 'ttu_horizontal': return '가로';
 			case 'ttu_vertical': return '세로';
-			case 'ttu_view_mode_label': return '보기 모드';
+			case 'ttu_view_mode_label': return '페이지 / 스크롤';
 			case 'ttu_paginated': return '페이지 넘김';
 			case 'ttu_scroll': return '스크롤';
 			case 'ttu_furigana_mode': return '후리가나';
@@ -40426,7 +40426,7 @@ extension on _StringsNl {
 			case 'ttu_writing_direction': return 'Schrijfrichting';
 			case 'ttu_horizontal': return 'Horizontaal';
 			case 'ttu_vertical': return 'Verticaal';
-			case 'ttu_view_mode_label': return 'Weergavemodus';
+			case 'ttu_view_mode_label': return 'Pagina\'s / Scrollen';
 			case 'ttu_paginated': return 'Gepagineerd';
 			case 'ttu_scroll': return 'Scrollen';
 			case 'ttu_furigana_mode': return 'Furigana';
@@ -41928,7 +41928,7 @@ extension on _StringsPtBr {
 			case 'ttu_writing_direction': return 'Direção da Escrita';
 			case 'ttu_horizontal': return 'Horizontal';
 			case 'ttu_vertical': return 'Vertical';
-			case 'ttu_view_mode_label': return 'Modo de Visualização';
+			case 'ttu_view_mode_label': return 'Páginas / Rolagem';
 			case 'ttu_paginated': return 'Paginado';
 			case 'ttu_scroll': return 'Rolagem';
 			case 'ttu_furigana_mode': return 'Furigana';
@@ -43430,7 +43430,7 @@ extension on _StringsRu {
 			case 'ttu_writing_direction': return 'Направление письма';
 			case 'ttu_horizontal': return 'Горизонтальное';
 			case 'ttu_vertical': return 'Вертикальное';
-			case 'ttu_view_mode_label': return 'Режим просмотра';
+			case 'ttu_view_mode_label': return 'Страницы / Прокрутка';
 			case 'ttu_paginated': return 'Постраничный';
 			case 'ttu_scroll': return 'Прокрутка';
 			case 'ttu_furigana_mode': return 'Фуригана';
@@ -44932,7 +44932,7 @@ extension on _StringsTh {
 			case 'ttu_writing_direction': return 'ทิศทางการเขียน';
 			case 'ttu_horizontal': return 'แนวนอน';
 			case 'ttu_vertical': return 'แนวตั้ง';
-			case 'ttu_view_mode_label': return 'โหมดดู';
+			case 'ttu_view_mode_label': return 'หน้า / เลื่อน';
 			case 'ttu_paginated': return 'แบ่งหน้า';
 			case 'ttu_scroll': return 'เลื่อน';
 			case 'ttu_furigana_mode': return 'ฟุริงานะ';
@@ -46434,7 +46434,7 @@ extension on _StringsTr {
 			case 'ttu_writing_direction': return 'Yazı yönü';
 			case 'ttu_horizontal': return 'Yatay';
 			case 'ttu_vertical': return 'Dikey';
-			case 'ttu_view_mode_label': return 'Görünüm modu';
+			case 'ttu_view_mode_label': return 'Sayfa / Kaydırma';
 			case 'ttu_paginated': return 'Sayfalı';
 			case 'ttu_scroll': return 'Kaydırma';
 			case 'ttu_furigana_mode': return 'Furigana';
@@ -47936,7 +47936,7 @@ extension on _StringsVi {
 			case 'ttu_writing_direction': return 'Hướng viết';
 			case 'ttu_horizontal': return 'Ngang';
 			case 'ttu_vertical': return 'Dọc';
-			case 'ttu_view_mode_label': return 'Chế độ xem';
+			case 'ttu_view_mode_label': return 'Trang / Cuộn';
 			case 'ttu_paginated': return 'Phân trang';
 			case 'ttu_scroll': return 'Cuộn';
 			case 'ttu_furigana_mode': return 'Furigana';
@@ -49454,7 +49454,7 @@ extension on _StringsZhCn {
 			case 'ttu_writing_direction': return '排版方向';
 			case 'ttu_horizontal': return '横排';
 			case 'ttu_vertical': return '竖排';
-			case 'ttu_view_mode_label': return '视图模式';
+			case 'ttu_view_mode_label': return '翻页 / 滚动';
 			case 'ttu_paginated': return '翻页';
 			case 'ttu_scroll': return '滚动';
 			case 'ttu_furigana_mode': return '振假名';
@@ -50940,7 +50940,7 @@ extension on _StringsZhHk {
 			case 'ttu_writing_direction': return '排版方向';
 			case 'ttu_horizontal': return '橫排';
 			case 'ttu_vertical': return '直排';
-			case 'ttu_view_mode_label': return '檢視模式';
+			case 'ttu_view_mode_label': return '翻頁 / 捲動';
 			case 'ttu_paginated': return '翻頁';
 			case 'ttu_scroll': return '捲動';
 			case 'ttu_furigana_mode': return '振假名';
