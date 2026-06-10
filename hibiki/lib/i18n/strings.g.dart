@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 25330 (1490 per locale)
 ///
-/// Built on 2026-06-10 at 17:31 UTC
+/// Built on 2026-06-10 at 18:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1414,8 +1414,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	String get video_settings_title => 'Player settings';
-	String get video_setting_av_delay => 'A/V delay';
-	String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	String get video_setting_av_delay => 'Subtitle sync';
+	String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	String get video_setting_speed => 'Playback speed';
 	String get sync_compare_no_content => 'Cloud data only — no book to download';
 	String get anki_create_lapis => 'Create Lapis deck';
@@ -1507,7 +1507,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	String get video_setting_mpv_aspect => 'Aspect ratio';
 	String get video_setting_mpv_aspect_auto => 'Original';
-	String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	String get video_setting_mpv_channels => 'Channels';
 	String get video_setting_mpv_channels_auto => 'Auto';
@@ -1650,6 +1649,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get font_target_app_ui => 'System UI Font';
 	String get font_target_body => 'Novel Text Font';
 	String get font_target_dictionary => 'Dictionary Font';
+	String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -2957,8 +2957,8 @@ class _StringsAr extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => 'Subtitle sync';
+	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -3050,7 +3050,6 @@ class _StringsAr extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -3193,6 +3192,7 @@ class _StringsAr extends _StringsEn {
 	@override String get font_target_app_ui => 'System UI Font';
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
+	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -4500,8 +4500,8 @@ class _StringsDe extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => 'Subtitle sync';
+	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -4593,7 +4593,6 @@ class _StringsDe extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -4736,6 +4735,7 @@ class _StringsDe extends _StringsEn {
 	@override String get font_target_app_ui => 'System UI Font';
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
+	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -6043,8 +6043,8 @@ class _StringsEs extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => 'Subtitle sync';
+	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -6136,7 +6136,6 @@ class _StringsEs extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -6279,6 +6278,7 @@ class _StringsEs extends _StringsEn {
 	@override String get font_target_app_ui => 'System UI Font';
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
+	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -7586,8 +7586,8 @@ class _StringsFr extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => 'Subtitle sync';
+	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -7679,7 +7679,6 @@ class _StringsFr extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -7822,6 +7821,7 @@ class _StringsFr extends _StringsEn {
 	@override String get font_target_app_ui => 'System UI Font';
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
+	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -9129,8 +9129,8 @@ class _StringsId extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => 'Subtitle sync';
+	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -9222,7 +9222,6 @@ class _StringsId extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -9365,6 +9364,7 @@ class _StringsId extends _StringsEn {
 	@override String get font_target_app_ui => 'System UI Font';
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
+	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -10672,8 +10672,8 @@ class _StringsIt extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => 'Subtitle sync';
+	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -10765,7 +10765,6 @@ class _StringsIt extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -10908,6 +10907,7 @@ class _StringsIt extends _StringsEn {
 	@override String get font_target_app_ui => 'System UI Font';
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
+	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -12215,8 +12215,8 @@ class _StringsJa extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => 'Subtitle sync';
+	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -12308,7 +12308,6 @@ class _StringsJa extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -12451,6 +12450,7 @@ class _StringsJa extends _StringsEn {
 	@override String get font_target_app_ui => 'System UI Font';
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
+	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -13758,8 +13758,8 @@ class _StringsKo extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => 'Subtitle sync';
+	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -13851,7 +13851,6 @@ class _StringsKo extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -13994,6 +13993,7 @@ class _StringsKo extends _StringsEn {
 	@override String get font_target_app_ui => 'System UI Font';
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
+	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -15301,8 +15301,8 @@ class _StringsNl extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => 'Subtitle sync';
+	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -15394,7 +15394,6 @@ class _StringsNl extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -15537,6 +15536,7 @@ class _StringsNl extends _StringsEn {
 	@override String get font_target_app_ui => 'System UI Font';
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
+	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -16844,8 +16844,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => 'Subtitle sync';
+	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -16937,7 +16937,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -17080,6 +17079,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get font_target_app_ui => 'System UI Font';
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
+	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -18387,8 +18387,8 @@ class _StringsRu extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => 'Subtitle sync';
+	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -18480,7 +18480,6 @@ class _StringsRu extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -18623,6 +18622,7 @@ class _StringsRu extends _StringsEn {
 	@override String get font_target_app_ui => 'System UI Font';
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
+	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -19930,8 +19930,8 @@ class _StringsTh extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => 'Subtitle sync';
+	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -20023,7 +20023,6 @@ class _StringsTh extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -20166,6 +20165,7 @@ class _StringsTh extends _StringsEn {
 	@override String get font_target_app_ui => 'System UI Font';
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
+	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -21473,8 +21473,8 @@ class _StringsTr extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => 'Subtitle sync';
+	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -21566,7 +21566,6 @@ class _StringsTr extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -21709,6 +21708,7 @@ class _StringsTr extends _StringsEn {
 	@override String get font_target_app_ui => 'System UI Font';
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
+	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -23016,8 +23016,8 @@ class _StringsVi extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => 'Subtitle sync';
+	@override String get video_setting_av_delay_hint => 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -23109,7 +23109,6 @@ class _StringsVi extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -23252,6 +23251,7 @@ class _StringsVi extends _StringsEn {
 	@override String get font_target_app_ui => 'System UI Font';
 	@override String get font_target_body => 'Novel Text Font';
 	@override String get font_target_dictionary => 'Dictionary Font';
+	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 }
 
 // Path: retrying_in
@@ -24559,8 +24559,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => '音轨: ${label}';
 	@override String get video_import_subtitle_optional => '可选外挂字幕（播放时可随时在内嵌/外挂字幕间切换）';
 	@override String get video_settings_title => '播放设置';
-	@override String get video_setting_av_delay => '音画延迟';
-	@override String get video_setting_av_delay_hint => '正数 = 画面先于文字（向回拨字幕）；负数 = 画面滞后。';
+	@override String get video_setting_av_delay => '字幕调轴';
+	@override String get video_setting_av_delay_hint => '正数 = 字幕延后（字幕整体往后拨）；负数 = 字幕提前。可拖滑条、按 ± 或直接输入数值。';
 	@override String get video_setting_speed => '播放速度';
 	@override String get sync_compare_no_content => '仅云端数据，无可下载书籍';
 	@override String get anki_create_lapis => '创建 Lapis 卡组';
@@ -24652,7 +24652,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_setting_mpv_panscan => '平移裁切（去黑边）';
 	@override String get video_setting_mpv_aspect => '画面比例';
 	@override String get video_setting_mpv_aspect_auto => '原始';
-	@override String get video_setting_mpv_audio_delay => '音频延迟 (ms)';
 	@override String get video_setting_mpv_pitch => '变速保持音高';
 	@override String get video_setting_mpv_channels => '声道';
 	@override String get video_setting_mpv_channels_auto => '自动';
@@ -24795,6 +24794,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get font_target_app_ui => '软件系统字体';
 	@override String get font_target_body => '小说正文字体';
 	@override String get font_target_dictionary => '词典字体';
+	@override String get video_setting_subtitle_sync_input => '偏移 (ms)';
 }
 
 // Path: retrying_in
@@ -26102,8 +26102,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String video_audio_track_switched({required Object label}) => 'Audio track: ${label}';
 	@override String get video_import_subtitle_optional => 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 	@override String get video_settings_title => 'Player settings';
-	@override String get video_setting_av_delay => 'A/V delay';
-	@override String get video_setting_av_delay_hint => 'Positive = picture leads text (shift cues back); negative = picture lags.';
+	@override String get video_setting_av_delay => '字幕調軸';
+	@override String get video_setting_av_delay_hint => '正數 = 字幕延後（字幕整體往後撥）；負數 = 字幕提前。可拖滑桿、按 ± 或直接輸入數值。';
 	@override String get video_setting_speed => 'Playback speed';
 	@override String get sync_compare_no_content => 'Cloud data only — no book to download';
 	@override String get anki_create_lapis => 'Create Lapis deck';
@@ -26195,7 +26195,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_setting_mpv_panscan => 'Pan & scan (crop borders)';
 	@override String get video_setting_mpv_aspect => 'Aspect ratio';
 	@override String get video_setting_mpv_aspect_auto => 'Original';
-	@override String get video_setting_mpv_audio_delay => 'Audio delay (ms)';
 	@override String get video_setting_mpv_pitch => 'Preserve pitch when speeding';
 	@override String get video_setting_mpv_channels => 'Channels';
 	@override String get video_setting_mpv_channels_auto => 'Auto';
@@ -26338,6 +26337,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get font_target_app_ui => '軟件系統字體';
 	@override String get font_target_body => '小說正文字體';
 	@override String get font_target_dictionary => '詞典字體';
+	@override String get video_setting_subtitle_sync_input => '偏移 (ms)';
 }
 
 // Path: retrying_in
@@ -27630,8 +27630,8 @@ extension on _StringsEn {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -27723,7 +27723,6 @@ extension on _StringsEn {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -27866,6 +27865,7 @@ extension on _StringsEn {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -29132,8 +29132,8 @@ extension on _StringsAr {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -29225,7 +29225,6 @@ extension on _StringsAr {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -29368,6 +29367,7 @@ extension on _StringsAr {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -30634,8 +30634,8 @@ extension on _StringsDe {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -30727,7 +30727,6 @@ extension on _StringsDe {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -30870,6 +30869,7 @@ extension on _StringsDe {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -32136,8 +32136,8 @@ extension on _StringsEs {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -32229,7 +32229,6 @@ extension on _StringsEs {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -32372,6 +32371,7 @@ extension on _StringsEs {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -33638,8 +33638,8 @@ extension on _StringsFr {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -33731,7 +33731,6 @@ extension on _StringsFr {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -33874,6 +33873,7 @@ extension on _StringsFr {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -35140,8 +35140,8 @@ extension on _StringsId {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -35233,7 +35233,6 @@ extension on _StringsId {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -35376,6 +35375,7 @@ extension on _StringsId {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -36642,8 +36642,8 @@ extension on _StringsIt {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -36735,7 +36735,6 @@ extension on _StringsIt {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -36878,6 +36877,7 @@ extension on _StringsIt {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -38144,8 +38144,8 @@ extension on _StringsJa {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -38237,7 +38237,6 @@ extension on _StringsJa {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -38380,6 +38379,7 @@ extension on _StringsJa {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -39646,8 +39646,8 @@ extension on _StringsKo {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -39739,7 +39739,6 @@ extension on _StringsKo {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -39882,6 +39881,7 @@ extension on _StringsKo {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -41148,8 +41148,8 @@ extension on _StringsNl {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -41241,7 +41241,6 @@ extension on _StringsNl {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -41384,6 +41383,7 @@ extension on _StringsNl {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -42650,8 +42650,8 @@ extension on _StringsPtBr {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -42743,7 +42743,6 @@ extension on _StringsPtBr {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -42886,6 +42885,7 @@ extension on _StringsPtBr {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -44152,8 +44152,8 @@ extension on _StringsRu {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -44245,7 +44245,6 @@ extension on _StringsRu {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -44388,6 +44387,7 @@ extension on _StringsRu {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -45654,8 +45654,8 @@ extension on _StringsTh {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -45747,7 +45747,6 @@ extension on _StringsTh {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -45890,6 +45889,7 @@ extension on _StringsTh {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -47156,8 +47156,8 @@ extension on _StringsTr {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -47249,7 +47249,6 @@ extension on _StringsTr {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -47392,6 +47391,7 @@ extension on _StringsTr {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -48658,8 +48658,8 @@ extension on _StringsVi {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return 'Subtitle sync';
+			case 'video_setting_av_delay_hint': return 'Positive = subtitle later (cues pushed back); negative = subtitle earlier. Use the slider, +/- buttons, or type a value.';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -48751,7 +48751,6 @@ extension on _StringsVi {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -48894,6 +48893,7 @@ extension on _StringsVi {
 			case 'font_target_app_ui': return 'System UI Font';
 			case 'font_target_body': return 'Novel Text Font';
 			case 'font_target_dictionary': return 'Dictionary Font';
+			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			default: return null;
 		}
 	}
@@ -50160,8 +50160,8 @@ extension on _StringsZhCn {
 			case 'video_audio_track_switched': return ({required Object label}) => '音轨: ${label}';
 			case 'video_import_subtitle_optional': return '可选外挂字幕（播放时可随时在内嵌/外挂字幕间切换）';
 			case 'video_settings_title': return '播放设置';
-			case 'video_setting_av_delay': return '音画延迟';
-			case 'video_setting_av_delay_hint': return '正数 = 画面先于文字（向回拨字幕）；负数 = 画面滞后。';
+			case 'video_setting_av_delay': return '字幕调轴';
+			case 'video_setting_av_delay_hint': return '正数 = 字幕延后（字幕整体往后拨）；负数 = 字幕提前。可拖滑条、按 ± 或直接输入数值。';
 			case 'video_setting_speed': return '播放速度';
 			case 'sync_compare_no_content': return '仅云端数据，无可下载书籍';
 			case 'anki_create_lapis': return '创建 Lapis 卡组';
@@ -50253,7 +50253,6 @@ extension on _StringsZhCn {
 			case 'video_setting_mpv_panscan': return '平移裁切（去黑边）';
 			case 'video_setting_mpv_aspect': return '画面比例';
 			case 'video_setting_mpv_aspect_auto': return '原始';
-			case 'video_setting_mpv_audio_delay': return '音频延迟 (ms)';
 			case 'video_setting_mpv_pitch': return '变速保持音高';
 			case 'video_setting_mpv_channels': return '声道';
 			case 'video_setting_mpv_channels_auto': return '自动';
@@ -50396,6 +50395,7 @@ extension on _StringsZhCn {
 			case 'font_target_app_ui': return '软件系统字体';
 			case 'font_target_body': return '小说正文字体';
 			case 'font_target_dictionary': return '词典字体';
+			case 'video_setting_subtitle_sync_input': return '偏移 (ms)';
 			default: return null;
 		}
 	}
@@ -51662,8 +51662,8 @@ extension on _StringsZhHk {
 			case 'video_audio_track_switched': return ({required Object label}) => 'Audio track: ${label}';
 			case 'video_import_subtitle_optional': return 'Optional external subtitle (you can switch between embedded/external subtitles anytime during playback)';
 			case 'video_settings_title': return 'Player settings';
-			case 'video_setting_av_delay': return 'A/V delay';
-			case 'video_setting_av_delay_hint': return 'Positive = picture leads text (shift cues back); negative = picture lags.';
+			case 'video_setting_av_delay': return '字幕調軸';
+			case 'video_setting_av_delay_hint': return '正數 = 字幕延後（字幕整體往後撥）；負數 = 字幕提前。可拖滑桿、按 ± 或直接輸入數值。';
 			case 'video_setting_speed': return 'Playback speed';
 			case 'sync_compare_no_content': return 'Cloud data only — no book to download';
 			case 'anki_create_lapis': return 'Create Lapis deck';
@@ -51755,7 +51755,6 @@ extension on _StringsZhHk {
 			case 'video_setting_mpv_panscan': return 'Pan & scan (crop borders)';
 			case 'video_setting_mpv_aspect': return 'Aspect ratio';
 			case 'video_setting_mpv_aspect_auto': return 'Original';
-			case 'video_setting_mpv_audio_delay': return 'Audio delay (ms)';
 			case 'video_setting_mpv_pitch': return 'Preserve pitch when speeding';
 			case 'video_setting_mpv_channels': return 'Channels';
 			case 'video_setting_mpv_channels_auto': return 'Auto';
@@ -51898,6 +51897,7 @@ extension on _StringsZhHk {
 			case 'font_target_app_ui': return '軟件系統字體';
 			case 'font_target_body': return '小說正文字體';
 			case 'font_target_dictionary': return '詞典字體';
+			case 'video_setting_subtitle_sync_input': return '偏移 (ms)';
 			default: return null;
 		}
 	}
