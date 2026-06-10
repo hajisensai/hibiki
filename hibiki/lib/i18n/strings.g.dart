@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 24667 (1451 per locale)
+/// Strings: 24752 (1456 per locale)
 ///
-/// Built on 2026-06-09 at 15:13 UTC
+/// Built on 2026-06-10 at 01:58 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1611,6 +1611,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_shader_section_import => 'Import shaders';
 	String get video_shader_section_installed => 'Installed shaders';
 	String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	String get remote_video_downloading => 'Downloading…';
+	String get remote_book_downloading => 'Downloading…';
+	String get remote_video_unavailable => 'Paired device unavailable';
+	String get remote_book_unavailable => 'Paired device unavailable';
+	String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -3115,6 +3120,11 @@ class _StringsAr extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -4619,6 +4629,11 @@ class _StringsDe extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -6123,6 +6138,11 @@ class _StringsEs extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -7627,6 +7647,11 @@ class _StringsFr extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -9131,6 +9156,11 @@ class _StringsId extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -10635,6 +10665,11 @@ class _StringsIt extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -12139,6 +12174,11 @@ class _StringsJa extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -13643,6 +13683,11 @@ class _StringsKo extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -15147,6 +15192,11 @@ class _StringsNl extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -16651,6 +16701,11 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -18155,6 +18210,11 @@ class _StringsRu extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -19659,6 +19719,11 @@ class _StringsTh extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -21163,6 +21228,11 @@ class _StringsTr extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -22667,6 +22737,11 @@ class _StringsVi extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -24171,6 +24246,11 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_shader_section_import => '导入着色器';
 	@override String get video_shader_section_installed => '已安装着色器';
 	@override String get video_quality_enhancement_hint => '默认使用 mpv 内置高画质缩放；下方选择的着色器只会在开启时应用。';
+	@override String get remote_video_downloading => '正在下载…';
+	@override String get remote_book_downloading => '正在下载…';
+	@override String get remote_video_unavailable => '配对设备不可用';
+	@override String get remote_book_unavailable => '配对设备不可用';
+	@override String get video_subtitle_remote_host => '配对设备字幕';
 }
 
 // Path: retrying_in
@@ -25675,6 +25755,11 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_shader_section_import => 'Import shaders';
 	@override String get video_shader_section_installed => 'Installed shaders';
 	@override String get video_quality_enhancement_hint => 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+	@override String get remote_video_downloading => 'Downloading…';
+	@override String get remote_book_downloading => 'Downloading…';
+	@override String get remote_video_unavailable => 'Paired device unavailable';
+	@override String get remote_book_unavailable => 'Paired device unavailable';
+	@override String get video_subtitle_remote_host => 'Paired device subtitle';
 }
 
 // Path: retrying_in
@@ -27164,6 +27249,11 @@ extension on _StringsEn {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -28627,6 +28717,11 @@ extension on _StringsAr {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -30090,6 +30185,11 @@ extension on _StringsDe {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -31553,6 +31653,11 @@ extension on _StringsEs {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -33016,6 +33121,11 @@ extension on _StringsFr {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -34479,6 +34589,11 @@ extension on _StringsId {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -35942,6 +36057,11 @@ extension on _StringsIt {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -37405,6 +37525,11 @@ extension on _StringsJa {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -38868,6 +38993,11 @@ extension on _StringsKo {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -40331,6 +40461,11 @@ extension on _StringsNl {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -41794,6 +41929,11 @@ extension on _StringsPtBr {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -43257,6 +43397,11 @@ extension on _StringsRu {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -44720,6 +44865,11 @@ extension on _StringsTh {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -46183,6 +46333,11 @@ extension on _StringsTr {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -47646,6 +47801,11 @@ extension on _StringsVi {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
@@ -49109,6 +49269,11 @@ extension on _StringsZhCn {
 			case 'video_shader_section_import': return '导入着色器';
 			case 'video_shader_section_installed': return '已安装着色器';
 			case 'video_quality_enhancement_hint': return '默认使用 mpv 内置高画质缩放；下方选择的着色器只会在开启时应用。';
+			case 'remote_video_downloading': return '正在下载…';
+			case 'remote_book_downloading': return '正在下载…';
+			case 'remote_video_unavailable': return '配对设备不可用';
+			case 'remote_book_unavailable': return '配对设备不可用';
+			case 'video_subtitle_remote_host': return '配对设备字幕';
 			default: return null;
 		}
 	}
@@ -50572,6 +50737,11 @@ extension on _StringsZhHk {
 			case 'video_shader_section_import': return 'Import shaders';
 			case 'video_shader_section_installed': return 'Installed shaders';
 			case 'video_quality_enhancement_hint': return 'Uses mpv\'s built-in high-quality scaling by default. Shader choices below only apply while this is on.';
+			case 'remote_video_downloading': return 'Downloading…';
+			case 'remote_book_downloading': return 'Downloading…';
+			case 'remote_video_unavailable': return 'Paired device unavailable';
+			case 'remote_book_unavailable': return 'Paired device unavailable';
+			case 'video_subtitle_remote_host': return 'Paired device subtitle';
 			default: return null;
 		}
 	}
