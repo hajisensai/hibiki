@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 24820 (1460 per locale)
+/// Strings: 24922 (1466 per locale)
 ///
-/// Built on 2026-06-10 at 03:42 UTC
+/// Built on 2026-06-10 at 03:44 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1572,7 +1572,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_shader_compare => 'Compare original';
 	String get video_shader_showing_original => 'Shaders off (original)';
 	String get video_shader_showing_shaded => 'Shaders on';
-	String get video_shader_pick_mpv_dir => 'Specify mpv folder';
+	String get video_shader_pick_mpv_dir => 'Choose mpv folder';
 	String get video_shader_mpv_dir_empty => 'No shaders found in that folder';
 	String video_shader_mpv_dir_current({required Object path}) => 'mpv folder: ${path}';
 	String get video_shader_download_url => 'Download from link';
@@ -1580,7 +1580,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_shader_preset_mode_b_hq => 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 	String get video_shader_preset_mode_c_hq => 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 	String get video_shader_recommended => 'Recommended image enhancements';
-	String get video_shader_recommended_hint => 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
+	String get video_shader_recommended_hint => 'Anime4K plus classic upscaling and clarity presets. Download first, then tick installed shaders to enable them.';
 	String get video_shader_desc_ravu => 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 	String get video_shader_desc_nnedi3 => 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 	String get floating_lyric_click_lookup => 'Tap floating subtitle to look up';
@@ -1620,6 +1620,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get reader_image_file_unavailable => 'Image file is unavailable.';
 	String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	String get video_shader_classic_recommended => 'Download classic recommended shaders';
+	String get video_shader_builtin_mpv_quality => 'mpv built-in quality scaling';
+	String get video_shader_builtin_mpv_quality_hint => 'Default mpv scaling options. External shaders below are still downloaded and enabled separately.';
+	String get video_shader_import_from_mpv_hint => 'Search local mpv automatically, or choose an mpv folder when none is found.';
+	String get video_shader_first_use_title => 'Try Anime4K image enhancement';
+	String get video_shader_first_use_body => 'For sharper anime playback, open Image enhancement and click Download Anime4K presets. It downloads recommended shaders, then you can tick the installed ones to enable them.';
 }
 
 // Path: retrying_in
@@ -3133,6 +3139,12 @@ class _StringsAr extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -4646,6 +4658,12 @@ class _StringsDe extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -6159,6 +6177,12 @@ class _StringsEs extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -7672,6 +7696,12 @@ class _StringsFr extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -9185,6 +9215,12 @@ class _StringsId extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -10698,6 +10734,12 @@ class _StringsIt extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -12211,6 +12253,12 @@ class _StringsJa extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -13724,6 +13772,12 @@ class _StringsKo extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -15237,6 +15291,12 @@ class _StringsNl extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -16750,6 +16810,12 @@ class _StringsPtBr extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -18263,6 +18329,12 @@ class _StringsRu extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -19776,6 +19848,12 @@ class _StringsTh extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -21289,6 +21367,12 @@ class _StringsTr extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -22802,6 +22886,12 @@ class _StringsVi extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -24267,7 +24357,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_shader_compare => '对比原画';
 	@override String get video_shader_showing_original => '已关着色器（原画）';
 	@override String get video_shader_showing_shaded => '已开着色器';
-	@override String get video_shader_pick_mpv_dir => '指定 mpv 目录';
+	@override String get video_shader_pick_mpv_dir => '选择 mpv 目录';
 	@override String get video_shader_mpv_dir_empty => '该目录没找到着色器';
 	@override String video_shader_mpv_dir_current({required Object path}) => 'mpv 目录：${path}';
 	@override String get video_shader_download_url => '粘贴链接下载';
@@ -24275,7 +24365,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_shader_preset_mode_b_hq => '720p 旧番高画质（重采样伪影），需较强 GPU。';
 	@override String get video_shader_preset_mode_c_hq => '480p SD 老番高画质（压缩涂抹，带去噪），需较强 GPU。';
 	@override String get video_shader_recommended => '推荐画质增强';
-	@override String get video_shader_recommended_hint => '除 Anime4K 外的经典画质增强模板，不必本机装 mpv。';
+	@override String get video_shader_recommended_hint => '包含 Anime4K 和经典放大/清晰度模板。先下载，再到已安装列表里勾选启用。';
 	@override String get video_shader_desc_ravu => '通用亮度放大，轻量快速（r2 更快，r3 更精细）。';
 	@override String get video_shader_desc_nnedi3 => '经典神经网络放大，nns 越大质量越高、越吃 GPU。';
 	@override String get floating_lyric_click_lookup => '点击悬浮字幕查词';
@@ -24315,6 +24405,12 @@ class _StringsZhCn extends _StringsEn {
 	@override String get reader_image_file_unavailable => '图片文件不可用。';
 	@override String reader_image_copy_failed({required Object error}) => '复制图片失败：${error}';
 	@override String reader_image_share_failed({required Object error}) => '分享图片失败：${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -25828,6 +25924,12 @@ class _StringsZhHk extends _StringsEn {
 	@override String get reader_image_file_unavailable => 'Image file is unavailable.';
 	@override String reader_image_copy_failed({required Object error}) => 'Failed to copy image: ${error}';
 	@override String reader_image_share_failed({required Object error}) => 'Failed to share image: ${error}';
+	@override String get video_shader_classic_recommended => '下载经典推荐着色器';
+	@override String get video_shader_builtin_mpv_quality => 'mpv 内置高画质缩放';
+	@override String get video_shader_builtin_mpv_quality_hint => '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+	@override String get video_shader_import_from_mpv_hint => '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+	@override String get video_shader_first_use_title => '试试 Anime4K 画质增强';
+	@override String get video_shader_first_use_body => '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 }
 
 // Path: retrying_in
@@ -27278,7 +27380,7 @@ extension on _StringsEn {
 			case 'video_shader_compare': return 'Compare original';
 			case 'video_shader_showing_original': return 'Shaders off (original)';
 			case 'video_shader_showing_shaded': return 'Shaders on';
-			case 'video_shader_pick_mpv_dir': return 'Specify mpv folder';
+			case 'video_shader_pick_mpv_dir': return 'Choose mpv folder';
 			case 'video_shader_mpv_dir_empty': return 'No shaders found in that folder';
 			case 'video_shader_mpv_dir_current': return ({required Object path}) => 'mpv folder: ${path}';
 			case 'video_shader_download_url': return 'Download from link';
@@ -27286,7 +27388,7 @@ extension on _StringsEn {
 			case 'video_shader_preset_mode_b_hq': return 'High quality for older 720p anime with resampling artifacts. Needs a strong GPU.';
 			case 'video_shader_preset_mode_c_hq': return 'High quality for old SD (480p) anime with compression smearing. Needs a strong GPU.';
 			case 'video_shader_recommended': return 'Recommended image enhancements';
-			case 'video_shader_recommended_hint': return 'Upscaling and clarity presets besides Anime4K — no local mpv setup needed.';
+			case 'video_shader_recommended_hint': return 'Anime4K plus classic upscaling and clarity presets. Download first, then tick installed shaders to enable them.';
 			case 'video_shader_desc_ravu': return 'General luma upscaler. Light & fast (r2 faster, r3 finer).';
 			case 'video_shader_desc_nnedi3': return 'Classic neural upscaler. Higher nns = better quality, heavier GPU.';
 			case 'floating_lyric_click_lookup': return 'Tap floating subtitle to look up';
@@ -27326,6 +27428,12 @@ extension on _StringsEn {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return 'Download classic recommended shaders';
+			case 'video_shader_builtin_mpv_quality': return 'mpv built-in quality scaling';
+			case 'video_shader_builtin_mpv_quality_hint': return 'Default mpv scaling options. External shaders below are still downloaded and enabled separately.';
+			case 'video_shader_import_from_mpv_hint': return 'Search local mpv automatically, or choose an mpv folder when none is found.';
+			case 'video_shader_first_use_title': return 'Try Anime4K image enhancement';
+			case 'video_shader_first_use_body': return 'For sharper anime playback, open Image enhancement and click Download Anime4K presets. It downloads recommended shaders, then you can tick the installed ones to enable them.';
 			default: return null;
 		}
 	}
@@ -28798,6 +28906,12 @@ extension on _StringsAr {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -30270,6 +30384,12 @@ extension on _StringsDe {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -31742,6 +31862,12 @@ extension on _StringsEs {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -33214,6 +33340,12 @@ extension on _StringsFr {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -34686,6 +34818,12 @@ extension on _StringsId {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -36158,6 +36296,12 @@ extension on _StringsIt {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -37630,6 +37774,12 @@ extension on _StringsJa {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -39102,6 +39252,12 @@ extension on _StringsKo {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -40574,6 +40730,12 @@ extension on _StringsNl {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -42046,6 +42208,12 @@ extension on _StringsPtBr {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -43518,6 +43686,12 @@ extension on _StringsRu {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -44990,6 +45164,12 @@ extension on _StringsTh {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -46462,6 +46642,12 @@ extension on _StringsTr {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -47934,6 +48120,12 @@ extension on _StringsVi {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -49358,7 +49550,7 @@ extension on _StringsZhCn {
 			case 'video_shader_compare': return '对比原画';
 			case 'video_shader_showing_original': return '已关着色器（原画）';
 			case 'video_shader_showing_shaded': return '已开着色器';
-			case 'video_shader_pick_mpv_dir': return '指定 mpv 目录';
+			case 'video_shader_pick_mpv_dir': return '选择 mpv 目录';
 			case 'video_shader_mpv_dir_empty': return '该目录没找到着色器';
 			case 'video_shader_mpv_dir_current': return ({required Object path}) => 'mpv 目录：${path}';
 			case 'video_shader_download_url': return '粘贴链接下载';
@@ -49366,7 +49558,7 @@ extension on _StringsZhCn {
 			case 'video_shader_preset_mode_b_hq': return '720p 旧番高画质（重采样伪影），需较强 GPU。';
 			case 'video_shader_preset_mode_c_hq': return '480p SD 老番高画质（压缩涂抹，带去噪），需较强 GPU。';
 			case 'video_shader_recommended': return '推荐画质增强';
-			case 'video_shader_recommended_hint': return '除 Anime4K 外的经典画质增强模板，不必本机装 mpv。';
+			case 'video_shader_recommended_hint': return '包含 Anime4K 和经典放大/清晰度模板。先下载，再到已安装列表里勾选启用。';
 			case 'video_shader_desc_ravu': return '通用亮度放大，轻量快速（r2 更快，r3 更精细）。';
 			case 'video_shader_desc_nnedi3': return '经典神经网络放大，nns 越大质量越高、越吃 GPU。';
 			case 'floating_lyric_click_lookup': return '点击悬浮字幕查词';
@@ -49406,6 +49598,12 @@ extension on _StringsZhCn {
 			case 'reader_image_file_unavailable': return '图片文件不可用。';
 			case 'reader_image_copy_failed': return ({required Object error}) => '复制图片失败：${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => '分享图片失败：${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
@@ -50878,6 +51076,12 @@ extension on _StringsZhHk {
 			case 'reader_image_file_unavailable': return 'Image file is unavailable.';
 			case 'reader_image_copy_failed': return ({required Object error}) => 'Failed to copy image: ${error}';
 			case 'reader_image_share_failed': return ({required Object error}) => 'Failed to share image: ${error}';
+			case 'video_shader_classic_recommended': return '下载经典推荐着色器';
+			case 'video_shader_builtin_mpv_quality': return 'mpv 内置高画质缩放';
+			case 'video_shader_builtin_mpv_quality_hint': return '默认 mpv 缩放选项。下面的外部着色器仍需下载后单独勾选启用。';
+			case 'video_shader_import_from_mpv_hint': return '自动搜索本机 mpv；未找到时可手动选择 mpv 目录。';
+			case 'video_shader_first_use_title': return '试试 Anime4K 画质增强';
+			case 'video_shader_first_use_body': return '想让动画画面更清晰，可以进入“画质增强”并点击“下载 Anime4K 推荐着色器”。下载后在已安装列表里勾选即可启用。';
 			default: return null;
 		}
 	}
