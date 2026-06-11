@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 25364 (1492 per locale)
+/// Strings: 25398 (1494 per locale)
 ///
-/// Built on 2026-06-10 at 19:05 UTC
+/// Built on 2026-06-11 at 03:45 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1652,6 +1652,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	String get video_brightness => 'Brightness';
+	String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -3197,6 +3199,8 @@ class _StringsAr extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -4742,6 +4746,8 @@ class _StringsDe extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -6287,6 +6293,8 @@ class _StringsEs extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -7832,6 +7840,8 @@ class _StringsFr extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -9377,6 +9387,8 @@ class _StringsId extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -10922,6 +10934,8 @@ class _StringsIt extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -12467,6 +12481,8 @@ class _StringsJa extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -14012,6 +14028,8 @@ class _StringsKo extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -15557,6 +15575,8 @@ class _StringsNl extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -17102,6 +17122,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -18647,6 +18669,8 @@ class _StringsRu extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -20192,6 +20216,8 @@ class _StringsTh extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -21737,6 +21763,8 @@ class _StringsTr extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -23282,6 +23310,8 @@ class _StringsVi extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => 'Offset (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -24827,6 +24857,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => '偏移 (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => '已为《${title}》挂上字幕（${count} 句）';
 	@override String get video_subtitle_attach_playlist_hint => '请进入播放页按集挂载字幕';
+	@override String get video_brightness => '亮度';
+	@override String get video_brightness_unsupported => '此平台不支持调节屏幕亮度';
 }
 
 // Path: retrying_in
@@ -26372,6 +26404,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get video_setting_subtitle_sync_input => '偏移 (ms)';
 	@override String video_subtitle_attached_to_video({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 	@override String get video_subtitle_attach_playlist_hint => 'Open the playlist to attach a subtitle per episode';
+	@override String get video_brightness => 'Brightness';
+	@override String get video_brightness_unsupported => 'Brightness control not available on this platform';
 }
 
 // Path: retrying_in
@@ -27902,6 +27936,8 @@ extension on _StringsEn {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -29406,6 +29442,8 @@ extension on _StringsAr {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -30910,6 +30948,8 @@ extension on _StringsDe {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -32414,6 +32454,8 @@ extension on _StringsEs {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -33918,6 +33960,8 @@ extension on _StringsFr {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -35422,6 +35466,8 @@ extension on _StringsId {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -36926,6 +36972,8 @@ extension on _StringsIt {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -38430,6 +38478,8 @@ extension on _StringsJa {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -39934,6 +39984,8 @@ extension on _StringsKo {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -41438,6 +41490,8 @@ extension on _StringsNl {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -42942,6 +42996,8 @@ extension on _StringsPtBr {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -44446,6 +44502,8 @@ extension on _StringsRu {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -45950,6 +46008,8 @@ extension on _StringsTh {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -47454,6 +47514,8 @@ extension on _StringsTr {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -48958,6 +49020,8 @@ extension on _StringsVi {
 			case 'video_setting_subtitle_sync_input': return 'Offset (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
@@ -50462,6 +50526,8 @@ extension on _StringsZhCn {
 			case 'video_setting_subtitle_sync_input': return '偏移 (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => '已为《${title}》挂上字幕（${count} 句）';
 			case 'video_subtitle_attach_playlist_hint': return '请进入播放页按集挂载字幕';
+			case 'video_brightness': return '亮度';
+			case 'video_brightness_unsupported': return '此平台不支持调节屏幕亮度';
 			default: return null;
 		}
 	}
@@ -51966,6 +52032,8 @@ extension on _StringsZhHk {
 			case 'video_setting_subtitle_sync_input': return '偏移 (ms)';
 			case 'video_subtitle_attached_to_video': return ({required Object title, required Object count}) => 'Subtitle attached to ${title} (${count} cues)';
 			case 'video_subtitle_attach_playlist_hint': return 'Open the playlist to attach a subtitle per episode';
+			case 'video_brightness': return 'Brightness';
+			case 'video_brightness_unsupported': return 'Brightness control not available on this platform';
 			default: return null;
 		}
 	}
