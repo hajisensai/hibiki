@@ -187,8 +187,8 @@ echo "[ffmpeg-min-smoke] synthesizing audiobook clip video (loop PNG + audio -> 
 # image2 demuxer; a missing image2 makes ffmpeg exit -1094995529
 # (AVERROR_INVALIDDATA, "Invalid data found when processing input"). Exercise the
 # real binary so a dropped image2 demuxer fails the build, not the user.
-run "$FIXTURE_FFMPEG" -hide_banner -loglevel error -y \n  -f lavfi -i "color=green:size=64x64:duration=1" \n  -frames:v 1 "$WORK/clip-text.png"
-run "$FFMPEG_MIN" -hide_banner -loglevel error -y \n  -loop 1 -i "$WORK/clip-text.png" \n  -i "$WORK/tone.wav" \n  -c:v mjpeg -pix_fmt yuvj420p -r 12 \n  -vf "scale=64:64:force_original_aspect_ratio=decrease,pad=64:64:(ow-iw)/2:(oh-ih)/2:color=black" \n  -c:a aac -shortest "$WORK/clip.mov"
+run "$FIXTURE_FFMPEG" -hide_banner -loglevel error -y  -f lavfi -i "color=green:size=64x64:duration=1"  -frames:v 1 "$WORK/clip-text.png"
+run "$FFMPEG_MIN" -hide_banner -loglevel error -y  -loop 1 -i "$WORK/clip-text.png"  -i "$WORK/tone.wav"  -c:v mjpeg -pix_fmt yuvj420p -r 12  -vf "scale=64:64:force_original_aspect_ratio=decrease,pad=64:64:(ow-iw)/2:(oh-ih)/2:color=black"  -c:a aac -shortest "$WORK/clip.mov"
 assert_nonempty "$WORK/clip.mov"
 run "$FIXTURE_FFMPEG" -hide_banner -loglevel error -i "$WORK/clip.mov" -f null -
 
