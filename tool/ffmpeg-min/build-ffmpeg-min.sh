@@ -41,7 +41,10 @@ cd "$SRC"
 # when processing input"），片段导出全挂（AudiobookClipSynthFailure.ffmpegFailed）。
 DEMUXERS="matroska,mov,mpegts,mpegps,mpegvideo,avi,flv,rm,asf,srt,ass,webvtt,aac,ac3,eac3,mp3,flac,wav,ogg,m4v,image2,image2pipe"
 DECODERS="h264,hevc,av1,vp9,vp8,mpeg4,mpeg2video,mpeg1video,flv,rv10,rv20,rv30,rv40,theora,wmv1,wmv2,wmv3,vc1,msmpeg4v1,msmpeg4v2,msmpeg4v3,mjpeg,png,webp,opus,aac,ac3,eac3,vorbis,flac,mp3,mp2,alac,dca,truehd,mlp,cook,sipr,ra_144,ra_288,wmav1,wmav2,wmapro,wmalossless,wmavoice,pcm_s8,pcm_u8,pcm_s16le,pcm_s16be,pcm_u16le,pcm_u16be,pcm_s24le,pcm_s24be,pcm_u24le,pcm_u24be,pcm_s32le,pcm_s32be,pcm_u32le,pcm_u32be,pcm_f32le,pcm_f32be,pcm_f64le,pcm_f64be,pcm_alaw,pcm_mulaw,ass,ssa,subrip,webvtt,movtext,text"
-ENCODERS="gif,aac,mjpeg,png,ass,ssa,subrip,webvtt"
+ENCODERS="gif,aac,mjpeg,png,ass,ssa,subrip,webvtt,pcm_s16le"
+# pcm_s16le：能量探针（audio_energy_probe.dart，TODO-701）用 `-f null -`；null muxer 的
+# 默认音频编码器是 pcm_s16le，缺它会报 "Default encoder for format null (codec pcm_s16le)
+# is probably disabled ... Encoder not found"，探针在三平台全挂（TODO-1096）。
 # mov：有声书片段导出（TODO-945 M4）把文本图(mjpeg)+句子音频(aac)合成成 .mov
 # 短视频，需要一个能同时装视频+音频流的容器；adts/gif/mjpeg/image2 都只能单流。
 # mov 是 LGPL、体积小，AAC 入 mov 自动经已编入的 aac_adtstoasc bsf（见 BSFS）。

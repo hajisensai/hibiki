@@ -105,6 +105,28 @@ void main() {
             'RMS_level. TODO-1096.');
   });
 
+  // TODO-1096: the null muxer's default audio encoder is pcm_s16le. The energy
+  // probe (buildFfmpegPcmEnvelopeArgs, audio_energy_probe.dart) pipes audio
+  // through `-f null -`; ffmpeg opens the null output with the pcm_s16le
+  // encoder. A minimal build with the null muxer but WITHOUT the pcm_s16le
+  // encoder reports "Default encoder for format null (codec pcm_s16le) is
+  // probably disabled ... Encoder not found" and the probe fails on all three
+  // desktop platforms (subtitle auto-align, TODO-701).
+  test('ffmpeg-min build whitelist enables the pcm_s16le encoder for -f null',
+      () {
+    final String script = workspaceFile('tool/ffmpeg-min/build-ffmpeg-min.sh');
+    final RegExp encoders = RegExp(r'^ENCODERS="([^"]*)"', multiLine: true);
+    final RegExpMatch? e = encoders.firstMatch(script);
+    expect(e, isNotNull,
+        reason: 'build-ffmpeg-min.sh must declare an ENCODERS whitelist');
+    final List<String> list = e!.group(1)!.split(',');
+    expect(list, contains('pcm_s16le'),
+        reason: 'the null muxer used by the energy probe (`-f null -`) selects '
+            'pcm_s16le as its default audio encoder; without it ffmpeg exits '
+            'with "Encoder not found" and the probe breaks on all platforms. '
+            'TODO-1096.');
+  });
+
   test('ffmpeg-min build keeps the aac_adtstoasc bsf (AAC into mov)', () {
     final String script = workspaceFile('tool/ffmpeg-min/build-ffmpeg-min.sh');
     final RegExp bsfs = RegExp(r'^BSFS="([^"]*)"', multiLine: true);

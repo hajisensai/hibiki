@@ -210,6 +210,17 @@ if ! grep -qw null "$WORK/muxers.txt" || ! grep -qw mov "$WORK/muxers.txt"; then
   cat "$WORK/muxers.txt"
   exit 1
 fi
+# The null muxer's default audio encoder is pcm_s16le; `-f null -` opens the
+# null output with it. A build carrying the null muxer but missing the
+# pcm_s16le encoder fails with "Default encoder for format null (codec
+# pcm_s16le) ... Encoder not found" (TODO-1096). Assert it exists up front so a
+# dropped encoder fails loudly here instead of at runtime auto-align.
+"$FFMPEG_MIN" -hide_banner -encoders > "$WORK/encoders.txt" 2>&1
+if ! grep -qw pcm_s16le "$WORK/encoders.txt"; then
+  echo "MISSING ENCODER (need pcm_s16le for the -f null energy probe):"
+  cat "$WORK/encoders.txt"
+  exit 1
+fi
 echo "+ $FFMPEG_MIN -hide_banner -nostats -i $WORK/tone.wav -af aresample=8000,asetnsamples=n=400:p=0,astats=metadata=1:reset=1,ametadata=print:key=lavfi.astats.Overall.RMS_level -f null -"
 # Capture stderr so a probe failure shows the real ffmpeg error, not just an
 # exit code (this is the app's literal call: -f null - to read astats metadata).
