@@ -192,4 +192,16 @@ run "$FFMPEG_MIN" -hide_banner -loglevel error -y  -loop 1 -i "$WORK/clip-text.p
 assert_nonempty "$WORK/clip.mov"
 run "$FIXTURE_FFMPEG" -hide_banner -loglevel error -i "$WORK/clip.mov" -f null -
 
+echo "[ffmpeg-min-smoke] probing audio RMS energy envelope (aresample/asetnsamples/astats/ametadata)"
+# TODO-1096: mirror buildFfmpegPcmEnvelopeArgs
+# (hibiki/lib/src/media/video/audio_energy_probe.dart). Subtitle auto-align
+# (TODO-701) probes per-frame RMS energy through the SAME bundled ffmpeg via
+# `-af aresample=R,asetnsamples=n=N:p=0,astats=metadata=1:reset=1,ametadata=print:key=...`
+# `-f null -`. A minimal build missing asetnsamples/astats/ametadata parses
+# the filterchain unsuccessfully → empty envelope, silently breaking auto-align.
+# Exercise the real binary so a dropped filter fails the build, not the user.
+echo "+ $FFMPEG_MIN -hide_banner -nostats -i $WORK/tone.wav -af aresample=8000,asetnsamples=n=400:p=0,astats=metadata=1:reset=1,ametadata=print:key=lavfi.astats.Overall.RMS_level -f null -"
+"$FFMPEG_MIN" -hide_banner -nostats -i "$WORK/tone.wav" -af "aresample=8000,asetnsamples=n=400:p=0,astats=metadata=1:reset=1,ametadata=print:key=lavfi.astats.Overall.RMS_level" -f null - >"$WORK/rms.log" 2>&1
+assert_log_contains "$WORK/rms.log" "lavfi.astats.Overall.RMS_level"
+
 echo "[ffmpeg-min-smoke] PASS"

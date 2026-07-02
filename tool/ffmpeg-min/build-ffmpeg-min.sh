@@ -46,7 +46,15 @@ ENCODERS="gif,aac,mjpeg,png,ass,ssa,subrip,webvtt"
 # 短视频，需要一个能同时装视频+音频流的容器；adts/gif/mjpeg/image2 都只能单流。
 # mov 是 LGPL、体积小，AAC 入 mov 自动经已编入的 aac_adtstoasc bsf（见 BSFS）。
 MUXERS="gif,adts,image2,mjpeg,mov,srt,ass,webvtt"
-FILTERS="scale,fps,split,palettegen,paletteuse,format,aformat,aresample,anull,null,copy,setpts,asetpts"
+# pad：有声书片段导出（buildFfmpegImageAudioToVideoArgs）用
+#   `scale=W:H:force_original_aspect_ratio=decrease,pad=W:H:(ow-iw)/2:(oh-ih)/2:color=black`
+#   把文本图缩进框内再黑边填充到精确 WxH；漏 pad → "No option name near '...'" +
+#   "Error parsing filterchain" 解析失败，片段导出全挂。
+# asetnsamples/astats/ametadata：音频能量探针（buildFfmpegPcmEnvelopeArgs，
+#   audio_energy_probe.dart，TODO-701 字幕自动对轴）用
+#   `aresample=R,asetnsamples=n=N:p=0,astats=metadata=1:reset=1,ametadata=print:key=...`
+#   逐帧算 RMS 能量；三者缺一即滤镜链解析失败 → 空包络。aresample 已在。
+FILTERS="scale,fps,split,palettegen,paletteuse,format,aformat,aresample,anull,null,copy,setpts,asetpts,pad,asetnsamples,astats,ametadata"
 PARSERS="h264,hevc,av1,vp9,vp8,mpeg4video,mpegvideo,vc1,aac,aac_latm,ac3,dca,mlp,mpegaudio,vorbis,opus,flac,mjpeg,png,webp"
 BSFS="aac_adtstoasc,h264_mp4toannexb,hevc_mp4toannexb"
 PROTOCOLS="file,pipe"

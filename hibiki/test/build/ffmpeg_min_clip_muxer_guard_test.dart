@@ -65,6 +65,33 @@ void main() {
             'and exits -1094995529 (AVERROR_INVALIDDATA). TODO-1096.');
   });
 
+  // TODO-1096: the FILTERS whitelist must carry the filters the app actually
+  // invokes through the bundled ffmpeg. Clip synth
+  // (buildFfmpegImageAudioToVideoArgs) uses `pad` for centered letterboxing;
+  // the audio energy probe (buildFfmpegPcmEnvelopeArgs, subtitle auto-align)
+  // uses `asetnsamples`/`astats`/`ametadata`. A minimal build missing any of
+  // them fails filterchain parsing at runtime ("Error parsing filterchain"),
+  // not at compile time — so guard the mechanism here.
+  test('ffmpeg-min build whitelist enables clip/energy-probe filters', () {
+    final String script = workspaceFile('tool/ffmpeg-min/build-ffmpeg-min.sh');
+    final RegExp filters = RegExp(r'^FILTERS="([^"]*)"', multiLine: true);
+    final RegExpMatch? f = filters.firstMatch(script);
+    expect(f, isNotNull,
+        reason: 'build-ffmpeg-min.sh must declare a FILTERS whitelist');
+    final List<String> list = f!.group(1)!.split(',');
+    expect(list, contains('pad'),
+        reason: 'clip synth uses scale=...,pad=... for centered letterbox; '
+            'without pad the filterchain fails to parse. TODO-1096.');
+    expect(list, contains('asetnsamples'),
+        reason: 'audio energy probe uses asetnsamples=n=N:p=0. TODO-1096.');
+    expect(list, contains('astats'),
+        reason:
+            'audio energy probe uses astats=metadata=1:reset=1. TODO-1096.');
+    expect(list, contains('ametadata'),
+        reason: 'audio energy probe uses ametadata=print:key=... to emit '
+            'RMS_level. TODO-1096.');
+  });
+
   test('ffmpeg-min build keeps the aac_adtstoasc bsf (AAC into mov)', () {
     final String script = workspaceFile('tool/ffmpeg-min/build-ffmpeg-min.sh');
     final RegExp bsfs = RegExp(r'^BSFS="([^"]*)"', multiLine: true);
