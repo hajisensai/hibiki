@@ -179,4 +179,17 @@ for output in \
   run "$FIXTURE_FFMPEG" -hide_banner -loglevel error -i "$output" -f null -
 done
 
+echo "[ffmpeg-min-smoke] synthesizing audiobook clip video (loop PNG + audio -> mov)"
+# TODO-1096: mirror buildFfmpegImageAudioToVideoArgs
+# (hibiki/lib/src/media/audiobook/audiobook_clip_export.dart). The clip export
+# feeds a single text PNG as a looping video stream (`-loop 1 -i clip.png`) and
+# muxes mjpeg video + aac audio into a .mov. Reading the named PNG needs the
+# image2 demuxer; a missing image2 makes ffmpeg exit -1094995529
+# (AVERROR_INVALIDDATA, "Invalid data found when processing input"). Exercise the
+# real binary so a dropped image2 demuxer fails the build, not the user.
+run "$FIXTURE_FFMPEG" -hide_banner -loglevel error -y \n  -f lavfi -i "color=green:size=64x64:duration=1" \n  -frames:v 1 "$WORK/clip-text.png"
+run "$FFMPEG_MIN" -hide_banner -loglevel error -y \n  -loop 1 -i "$WORK/clip-text.png" \n  -i "$WORK/tone.wav" \n  -c:v mjpeg -pix_fmt yuvj420p -r 12 \n  -vf "scale=64:64:force_original_aspect_ratio=decrease,pad=64:64:(ow-iw)/2:(oh-ih)/2:color=black" \n  -c:a aac -shortest "$WORK/clip.mov"
+assert_nonempty "$WORK/clip.mov"
+run "$FIXTURE_FFMPEG" -hide_banner -loglevel error -i "$WORK/clip.mov" -f null -
+
 echo "[ffmpeg-min-smoke] PASS"

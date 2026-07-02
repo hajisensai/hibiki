@@ -45,6 +45,26 @@ void main() {
         reason: 'sentence audio clip writes .aac (adts container).');
   });
 
+  // TODO-1096: the DEMUXERS whitelist must contain image2. The clip pipeline
+  // (buildFfmpegImageAudioToVideoArgs) feeds the text image as `-loop 1 -i
+  // clip.png`; reading a named PNG file needs the image2 demuxer. The old guard
+  // only checked MUXERS (output side), so a missing DEMUXERS entry slipped
+  // through: ffmpeg could not open the PNG input at all and exited
+  // -1094995529 (AVERROR_INVALIDDATA). Guard the input side too.
+  test('ffmpeg-min build whitelist enables the image2 demuxer for PNG input',
+      () {
+    final String script = workspaceFile('tool/ffmpeg-min/build-ffmpeg-min.sh');
+    final RegExp demuxers = RegExp(r'^DEMUXERS="([^"]*)"', multiLine: true);
+    final RegExpMatch? d = demuxers.firstMatch(script);
+    expect(d, isNotNull,
+        reason: 'build-ffmpeg-min.sh must declare a DEMUXERS whitelist');
+    final List<String> list = d!.group(1)!.split(',');
+    expect(list, contains('image2'),
+        reason: 'clip video synth reads the text image via `-loop 1 -i '
+            'clip.png`; without the image2 demuxer ffmpeg cannot open the PNG '
+            'and exits -1094995529 (AVERROR_INVALIDDATA). TODO-1096.');
+  });
+
   test('ffmpeg-min build keeps the aac_adtstoasc bsf (AAC into mov)', () {
     final String script = workspaceFile('tool/ffmpeg-min/build-ffmpeg-min.sh');
     final RegExp bsfs = RegExp(r'^BSFS="([^"]*)"', multiLine: true);
