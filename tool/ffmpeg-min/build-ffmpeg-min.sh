@@ -45,7 +45,8 @@ ENCODERS="gif,aac,mjpeg,png,ass,ssa,subrip,webvtt"
 # mov：有声书片段导出（TODO-945 M4）把文本图(mjpeg)+句子音频(aac)合成成 .mov
 # 短视频，需要一个能同时装视频+音频流的容器；adts/gif/mjpeg/image2 都只能单流。
 # mov 是 LGPL、体积小，AAC 入 mov 自动经已编入的 aac_adtstoasc bsf（见 BSFS）。
-MUXERS="gif,adts,image2,mjpeg,mov,srt,ass,webvtt"
+# null: audio_energy_probe.dart uses -f null - to discard output and read astats metadata from stderr (TODO-701 subtitle auto-align)
+MUXERS="gif,adts,image2,mjpeg,mov,srt,ass,webvtt,null"
 # pad：有声书片段导出（buildFfmpegImageAudioToVideoArgs）用
 #   `scale=W:H:force_original_aspect_ratio=decrease,pad=W:H:(ow-iw)/2:(oh-ih)/2:color=black`
 #   把文本图缩进框内再黑边填充到精确 WxH；漏 pad → "No option name near '...'" +

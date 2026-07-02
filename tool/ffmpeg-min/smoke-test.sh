@@ -200,8 +200,24 @@ echo "[ffmpeg-min-smoke] probing audio RMS energy envelope (aresample/asetnsampl
 # `-f null -`. A minimal build missing asetnsamples/astats/ametadata parses
 # the filterchain unsuccessfully → empty envelope, silently breaking auto-align.
 # Exercise the real binary so a dropped filter fails the build, not the user.
+# The probe discards output via `-f null -`; a minimal build missing the null
+# muxer fails with "Requested output format 'null' is not known" before any
+# filter runs. Assert the muxer exists up front so a dropped null (or mov)
+# fails loudly here instead of silently breaking runtime auto-align.
+"$FFMPEG_MIN" -hide_banner -muxers > "$WORK/muxers.txt" 2>&1
+if ! grep -qw null "$WORK/muxers.txt" || ! grep -qw mov "$WORK/muxers.txt"; then
+  echo "MISSING MUXER (need null + mov for energy probe / clip synth):"
+  cat "$WORK/muxers.txt"
+  exit 1
+fi
 echo "+ $FFMPEG_MIN -hide_banner -nostats -i $WORK/tone.wav -af aresample=8000,asetnsamples=n=400:p=0,astats=metadata=1:reset=1,ametadata=print:key=lavfi.astats.Overall.RMS_level -f null -"
-"$FFMPEG_MIN" -hide_banner -nostats -i "$WORK/tone.wav" -af "aresample=8000,asetnsamples=n=400:p=0,astats=metadata=1:reset=1,ametadata=print:key=lavfi.astats.Overall.RMS_level" -f null - >"$WORK/rms.log" 2>&1
+# Capture stderr so a probe failure shows the real ffmpeg error, not just an
+# exit code (this is the app's literal call: -f null - to read astats metadata).
+if ! "$FFMPEG_MIN" -hide_banner -nostats -i "$WORK/tone.wav" -af "aresample=8000,asetnsamples=n=400:p=0,astats=metadata=1:reset=1,ametadata=print:key=lavfi.astats.Overall.RMS_level" -f null - >"$WORK/rms.log" 2>&1; then
+  echo "[smoke] energy probe FAILED:"
+  cat "$WORK/rms.log"
+  exit 1
+fi
 assert_log_contains "$WORK/rms.log" "lavfi.astats.Overall.RMS_level"
 
 echo "[ffmpeg-min-smoke] PASS"

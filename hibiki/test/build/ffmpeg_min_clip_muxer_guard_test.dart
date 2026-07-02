@@ -43,6 +43,19 @@ void main() {
             'muxer ffmpeg exits -22 (EINVAL). BUG-460.');
     expect(list, contains('adts'),
         reason: 'sentence audio clip writes .aac (adts container).');
+    expect(list, contains('mjpeg'),
+        reason: 'clip video frames encode to mjpeg.');
+    expect(list, contains('image2'),
+        reason: 'clip synth can also mux single-frame image2 output.');
+    // TODO-1096: the audio energy probe (buildFfmpegPcmEnvelopeArgs,
+    // audio_energy_probe.dart) discards output through `-f null -` and reads
+    // astats metadata from stderr for subtitle auto-align (TODO-701). Without
+    // the null muxer ffmpeg reports "Requested output format 'null' is not
+    // known" and the probe silently returns an empty envelope.
+    expect(list, contains('null'),
+        reason: 'audio energy probe uses `-f null -` to discard output while '
+            'reading astats metadata; a missing null muxer breaks subtitle '
+            'auto-align (TODO-701). TODO-1096.');
   });
 
   // TODO-1096: the DEMUXERS whitelist must contain image2. The clip pipeline
